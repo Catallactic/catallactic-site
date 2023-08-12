@@ -21,3 +21,13 @@ sidebar_position: 2
 	* ownable
 
 	* roles
+
+# Minting
+
+Token can only minted in 3 cases:
+
+* from a ICO Crowdsale
+
+* fair launch
+
+* regular transfers to capture a price or to manage the liquitidy pool
