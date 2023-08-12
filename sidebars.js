@@ -19,6 +19,53 @@ const sidebars = {
   // But you can create a sidebar manually
   tokensSidebar: [
 		{
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Admin DApp</span>',
+    }, {
+			type: 'category',
+      label: 'Admin DApp',
+      items: [
+				'tokens/dapp-admin/structure',
+				'tokens/dapp-admin/planning-process',
+			],
+		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading">User DApps</span>',
+    }, {
+      type: 'category',
+      label: 'ICO Purchase Widget',
+      items: [
+				'tokens/dapp-catallactic-purchase/create-token',
+				'tokens/dapp-catallactic-purchase/deliver-token',
+			],
+		}, {
+      type: 'category',
+      label: 'ICO Status Tracker',
+      items: [
+				'tokens/dapp-catallactic-status/create-token',
+				'tokens/dapp-catallactic-status/deliver-token',
+			],
+		}, {
+      type: 'category',
+      label: 'ICO Claim',
+      items: [
+				'tokens/dapp-catallactic-claim/create-token',
+				'tokens/dapp-catallactic-claim/deliver-token',
+			],
+		}, {
+      type: 'category',
+      label: 'ICO Vesting Tracker',
+      items: [
+				'tokens/dapp-catallactic-vesting/create-token',
+				'tokens/dapp-catallactic-vesting/deliver-token',
+			],
+		}, 		{
       type: 'doc',
       id: 'tokens/intro', // document ID
       label: 'Getting started', // sidebar label
@@ -63,53 +110,6 @@ const sidebars = {
 				'tokens/token-escrow/create-token',
 				'tokens/token-escrow/deliver-token',
 				'tokens/token-escrow/reporting',
-			],
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading">User DApps</span>',
-    }, {
-      type: 'category',
-      label: 'ICO Purchase Widget',
-      items: [
-				'tokens/dapp-catallactic-purchase/create-token',
-				'tokens/dapp-catallactic-purchase/deliver-token',
-			],
-		}, {
-      type: 'category',
-      label: 'ICO Status Tracker',
-      items: [
-				'tokens/dapp-catallactic-status/create-token',
-				'tokens/dapp-catallactic-status/deliver-token',
-			],
-		}, {
-      type: 'category',
-      label: 'ICO Claim',
-      items: [
-				'tokens/dapp-catallactic-claim/create-token',
-				'tokens/dapp-catallactic-claim/deliver-token',
-			],
-		}, {
-      type: 'category',
-      label: 'ICO Vesting Tracker',
-      items: [
-				'tokens/dapp-catallactic-vesting/create-token',
-				'tokens/dapp-catallactic-vesting/deliver-token',
-			],
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Admin DApps</span>',
-    }, {
-			type: 'category',
-      label: 'Admin DApp',
-      items: [
-				'tokens/dapp-admin/create-token',
-				'tokens/dapp-admin/deliver-token',
 			],
 		},
 	],
