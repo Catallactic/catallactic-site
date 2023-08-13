@@ -4,17 +4,19 @@ sidebar_position: 2
 
 # Features
 
-* ERC-20
+* Token
 
-	* mint
+	* metadata
 
-	* burn
+	* mint / burn
 
-	* pausable
+	* erc-20
 
-	* flash loan
+	* pause
 
 	* snapshots
+
+	* flash loan
 
 	* votes
 
@@ -22,12 +24,3 @@ sidebar_position: 2
 
 	* roles
 
-# Minting
-
-Token can only minted in 3 cases:
-
-* from a ICO Crowdsale
-
-* fair launch
-
-* regular transfers to capture a price or to manage the liquitidy pool

@@ -98,6 +98,15 @@ const sidebars = {
       label: 'Catallactic Token',
       items: [
 				'tokens/token-trading/features',
+				{
+					type: 'category',
+					label: 'Functionalities',
+					items: [
+						'tokens/token-trading/token-trading-functionalities/metadata',
+						'tokens/token-trading/token-trading-functionalities/mint',
+						'tokens/token-trading/token-trading-functionalities/erc-20',
+					],
+				},
 				'tokens/token-trading/supported-standards',
 				'tokens/token-trading/compliant-jurisdictions',
 				'tokens/token-trading/reporting',
