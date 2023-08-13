@@ -80,6 +80,16 @@ const sidebars = {
       label: 'ICO Token',
       items: [
 				'tokens/token-ico/features',
+				{
+					type: 'category',
+					label: 'Functionalities',
+					items: [
+						'tokens/token-ico/token-ico-functionalities/invest',
+						'tokens/token-ico/token-ico-functionalities/refund',
+						'tokens/token-ico/token-ico-functionalities/claim',
+						'tokens/token-ico/token-ico-functionalities/withdraw',
+					],
+				},
 				'tokens/token-ico/supported-standards',
 				'tokens/token-ico/compliant-jurisdictions',
 				'tokens/token-ico/reporting',
