@@ -20,3 +20,13 @@ sidebar_position: 2
 |                      | Mint by Contract on Operations         | Public mint method      | Add mint to Operation     |
 |                      | FlashMint                              | Public mint method      | Public op mint method     |
 |                      | Manual Mint by Issuer                  | Public mint method      | Public mint method        |
+
+
+
+This translates in 3 minting possibilities:
+
+- Use _mint only from erc-20 for fixed supply (no change required)
+
+- Add mint to ICO / vesting / operations for diamond since the shared storage of the diamond solves the problem of exposing the mint on the token (add mint to othr parts)
+
+- Add a public mint method for standalone on diamond with manual intervention (add mint() to token, this case should be avoided)
