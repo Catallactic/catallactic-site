@@ -2,7 +2,14 @@
 sidebar_position: 2
 ---
 
-# Mint / Burn
+
+# Supply
+
+
+
+
+
+# Mint
 
 
 
@@ -30,3 +37,8 @@ This translates in 3 minting possibilities:
 - Add mint to ICO / vesting / operations for diamond since the shared storage of the diamond solves the problem of exposing the mint on the token (add mint to othr parts)
 
 - Add a public mint method for standalone on diamond with manual intervention (add mint() to token, this case should be avoided)
+
+# Burn
+
+
+# ERC-621

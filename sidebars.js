@@ -84,7 +84,9 @@ const sidebars = {
 					type: 'category',
 					label: 'Functionalities',
 					items: [
+						'tokens/token-ico/token-ico-functionalities/structure',
 						'tokens/token-ico/token-ico-functionalities/invest',
+						'tokens/token-ico/token-ico-functionalities/price',
 						'tokens/token-ico/token-ico-functionalities/refund',
 						'tokens/token-ico/token-ico-functionalities/claim',
 						'tokens/token-ico/token-ico-functionalities/withdraw',
@@ -113,8 +115,11 @@ const sidebars = {
 					label: 'Functionalities',
 					items: [
 						'tokens/token-trading/token-trading-functionalities/metadata',
-						'tokens/token-trading/token-trading-functionalities/mint',
+						'tokens/token-trading/token-trading-functionalities/supply',
+						'tokens/token-trading/token-trading-functionalities/transfer',
 						'tokens/token-trading/token-trading-functionalities/erc-20',
+						'tokens/token-trading/token-trading-functionalities/liquidity',
+						'tokens/token-trading/token-trading-functionalities/governance',
 					],
 				},
 				'tokens/token-trading/supported-standards',
