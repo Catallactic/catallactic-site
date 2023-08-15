@@ -34,11 +34,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: 16.x
-          cache: yarn
+            node-version: 16.14.0
+            cache: "npm"
+            # The action defaults to search for the dependency file
+            # (package-lock.json or yarn.lock) in the repository root, and uses
+            # its hash as a part of the cache key.
+            # https://github.com/actions/setup-node#caching-packages-dependencies
+            cache-dependency-path: "./package-lock.json"
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive
       - name: Build
