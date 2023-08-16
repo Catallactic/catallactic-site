@@ -10,12 +10,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Catallactic Token',
+    title: 'Catallactic Framework',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Framework.
 				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/tokens/intro' role='button'>
 					Learn More
 				</a>
@@ -27,8 +26,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Make informed infrastructure, governance decisions to faithfully capture the underlying value of your commodity for your users.
 				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/decentralization/intro' role='button'>
 					Learn More
 				</a>
@@ -40,7 +38,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Every fool confuses value and price. Antonio Machado.
+        Many underlying values, many value capture models and many decentralization levels must be organized to enable further comparison.
 				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/cmm/intro' role='button'>
 					Learn More
 				</a>

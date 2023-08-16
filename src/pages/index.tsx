@@ -17,7 +17,8 @@ function HomepageHeader() {
 					<div className='d-flex justify-content-center align-items-center h-100'>
 						<div className='text-white'>
 							<h1 className='mb-5'>Catallactic</h1>
-							<h4 className='mb-5'>An open source framework and community to build commodity backed crypto currencies</h4>
+							<h3 className='mb-5'>An open source framework and community to build commodity backed crypto currencies</h3>
+							<h4 className='mb-5'>because <i>'every fool confuses value and price'</i>. Antonio Machado.</h4>
 							<a className='btn btn-outline-light btn-lg' href='#!' role='button'>
 								Call to action
 							</a>
