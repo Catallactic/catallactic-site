@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Faithully capture the underlying value of your commodity considering all aspects of Progresive Decentralization.
-				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/decentralization/intro' role='button'>
+				<a className='d-block btn btn-lg mt-4' href='docs/tokenization/intro' role='button'>
 					Learn More
 				</a>
       </>
@@ -27,7 +27,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Framework.
-				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/tokens/intro' role='button'>
+				<a className='d-block btn btn-lg mt-4' href='docs/tokens/dapp-admin/structure' role='button'>
 					Learn More
 				</a>
       </>
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Deliver the value captured by your token back to the community as DeFi services, including lending, launchpads, transfers, payments, cards...
-				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/defi/intro' role='button'>
+				<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>
 					Learn More
 				</a>
       </>
