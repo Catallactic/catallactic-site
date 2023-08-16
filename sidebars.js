@@ -98,12 +98,12 @@ const sidebars = {
 			],
     },  {
       type: 'category',
-      label: 'Streaming Token',
+      label: 'Vesting Token',
       items: [
-				'tokens/token-streaming/features',
-				'tokens/token-streaming/create-token',
-				'tokens/token-streaming/deliver-token',
-				'tokens/token-streaming/reporting',
+				'tokens/token-vesting/features',
+				'tokens/token-vesting/create-token',
+				'tokens/token-vesting/deliver-token',
+				'tokens/token-vesting/reporting',
 			],
     }, {
       type: 'category',
