@@ -156,13 +156,25 @@ const sidebars = {
 
   defiSidebar: [
     {
-      type: 'doc',
-      id: 'defi/intro',
-      //label: 'Getting started',
-    }, {
       type: 'category',
       label: 'DeFi Services',
       items: ['defi/intro'],
+    }, {
+      type: 'category',
+      label: 'Launchpad',
+      items: ['defi/launchpad/launchpad'],
+    }, {
+      type: 'category',
+      label: 'Payments',
+      items: ['defi/payments/payments'],
+    }, {
+      type: 'category',
+      label: 'Cards',
+      items: ['defi/cards/cards'],
+    }, {
+      type: 'category',
+      label: 'Lending',
+      items: ['defi/lending/lending'],
     },
   ],
 
