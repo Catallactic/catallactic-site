@@ -77,20 +77,20 @@ const config = {
         },
         items: [
           {
+						type: 'docSidebar',
+            sidebarId: 'tokenizationSidebar',
+            position: 'left',
+            label: 'Tokenization',
+          }, {
             type: 'docSidebar',
             sidebarId: 'tokensSidebar',
             position: 'left',
-            label: 'Tokens',
-          }, {
-						type: 'docSidebar',
-            sidebarId: 'decentralizationSidebar',
-            position: 'left',
-            label: 'Decentralization',
+            label: 'Framework',
           }, {
             type: 'docSidebar',
-            sidebarId: 'cmmSidebar',
+            sidebarId: 'defiSidebar',
             position: 'left',
-            label: 'Maturity Model',
+            label: 'DeFi Services',
           }, {
 						to: '/blog', 
 						label: 'Blog', 

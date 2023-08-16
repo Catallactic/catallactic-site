@@ -10,6 +10,18 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    title: 'Catallactic Tokenization',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Faithully capture the underlying value of your commodity considering all aspects of Progresive Decentralization.
+				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/decentralization/intro' role='button'>
+					Learn More
+				</a>
+      </>
+    ),
+  },
+  {
     title: 'Catallactic Framework',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
@@ -21,25 +33,13 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-  {
-    title: 'Progresive Decentralization',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Make informed infrastructure, governance decisions to faithfully capture the underlying value of your commodity for your users.
-				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/decentralization/intro' role='button'>
-					Learn More
-				</a>
-      </>
-    ),
-  },
-  {
-    title: 'Catallactic Maturity Model',
+	{
+    title: 'Catallactic DeFi Services',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Many underlying values, many value capture models and many decentralization levels must be organized to enable further comparison.
-				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/cmm/intro' role='button'>
+        Deliver the value captured by your token back to the community as DeFi services, including lending, launchpads, transfers, payments, cards...
+				<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/docs/defi/intro' role='button'>
 					Learn More
 				</a>
       </>
