@@ -19,18 +19,31 @@ const sidebars = {
   // But you can create a sidebar manually
   tokenizationSidebar: [
     {
-      type: 'doc',
-      id: 'tokenization/intro',
-      //label: 'Getting started',
+      type: 'category',
+      label: 'Value Capture',
+      items: [
+				'tokenization/value/value',
+				'tokenization/value/cmm'
+			],
     }, {
+			type: 'category',
+      label: 'Tokenomics',
+      items: [
+				'tokenization/tokenomics/supply',
+				'tokenization/tokenomics/allocations',
+				'tokenization/tokenomics/taxes',
+				'tokenization/tokenomics/rounds',
+				'tokenization/tokenomics/stability',
+				'tokenization/tokenomics/selling',
+			], 
+		}, {
       type: 'category',
       label: 'Decentralization',
-      items: ['tokenization/intro'],
-    }, {
-      type: 'category',
-      label: 'Maturity Model',
-      items: ['tokenization/intro'],
-    }
+      items: [
+				'tokenization/decentralization/infra',
+				'tokenization/decentralization/governance'
+			],
+    },  
   ],
 
   tokensSidebar: [
