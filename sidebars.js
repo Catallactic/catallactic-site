@@ -31,6 +31,7 @@ const sidebars = {
       items: [
 				'tokenization/tokenomics/supply',
 				'tokenization/tokenomics/allocations',
+				'tokenization/tokenomics/distribution',
 				'tokenization/tokenomics/taxes',
 				'tokenization/tokenomics/rounds',
 				'tokenization/tokenomics/stability',
