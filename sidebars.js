@@ -22,6 +22,8 @@ const sidebars = {
       type: 'category',
       label: 'Value Capture',
       items: [
+				'tokenization/value/ecosystem',
+				'tokenization/value/utility',
 				'tokenization/value/value',
 				'tokenization/value/cmm'
 			],
