@@ -83,9 +83,9 @@ const config = {
             label: 'Tokenization',
           }, {
             type: 'docSidebar',
-            sidebarId: 'tokensSidebar',
+            sidebarId: 'suiteSidebar',
             position: 'left',
-            label: 'Framework',
+            label: 'Suite',
           }, {
             type: 'docSidebar',
             sidebarId: 'defiSidebar',

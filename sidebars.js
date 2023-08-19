@@ -18,7 +18,17 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tokenizationSidebar: [
-    {
+		{
+			type: 'doc',
+			id: 'tokenization/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Tokenization</span>',
+    }, {
       type: 'category',
       label: 'Value Capture',
       items: [
@@ -49,8 +59,12 @@ const sidebars = {
     },  
   ],
 
-  tokensSidebar: [
+  suiteSidebar: [
 		{
+			type: 'doc',
+			id: 'suite/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -60,8 +74,8 @@ const sidebars = {
 			type: 'category',
       label: 'Admin DApp',
       items: [
-				'tokens/dapp-admin/structure',
-				'tokens/dapp-admin/planning-process',
+				'suite/dapp-admin/structure',
+				'suite/dapp-admin/planning-process',
 			],
 		}, {
       type: 'html',
@@ -70,38 +84,34 @@ const sidebars = {
       type: 'html',
       value: '<span class="sidebar-heading">User DApps</span>',
     }, {
-      type: 'category',
+			type: 'category',
       label: 'ICO Purchase Widget',
       items: [
-				'tokens/dapp-catallactic-purchase/create-token',
-				'tokens/dapp-catallactic-purchase/deliver-token',
+				'suite/dapp-catallactic-purchase/create-token',
+				'suite/dapp-catallactic-purchase/deliver-token',
 			],
 		}, {
       type: 'category',
       label: 'ICO Status Tracker',
       items: [
-				'tokens/dapp-catallactic-status/create-token',
-				'tokens/dapp-catallactic-status/deliver-token',
+				'suite/dapp-catallactic-status/create-token',
+				'suite/dapp-catallactic-status/deliver-token',
 			],
 		}, {
       type: 'category',
       label: 'ICO Claim',
       items: [
-				'tokens/dapp-catallactic-claim/create-token',
-				'tokens/dapp-catallactic-claim/deliver-token',
+				'suite/dapp-catallactic-claim/create-token',
+				'suite/dapp-catallactic-claim/deliver-token',
 			],
 		}, {
       type: 'category',
       label: 'ICO Vesting Tracker',
       items: [
-				'tokens/dapp-catallactic-vesting/create-token',
-				'tokens/dapp-catallactic-vesting/deliver-token',
+				'suite/dapp-catallactic-vesting/create-token',
+				'suite/dapp-catallactic-vesting/deliver-token',
 			],
-		}, 		{
-      type: 'doc',
-      id: 'tokens/intro', // document ID
-      label: 'Getting started', // sidebar label
-    }, {
+		}, 	{
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -111,67 +121,77 @@ const sidebars = {
 			type: 'category',
       label: 'ICO Token',
       items: [
-				'tokens/token-ico/features',
+				'suite/token-ico/features',
 				{
 					type: 'category',
 					label: 'Functionalities',
 					items: [
-						'tokens/token-ico/token-ico-functionalities/structure',
-						'tokens/token-ico/token-ico-functionalities/invest',
-						'tokens/token-ico/token-ico-functionalities/price',
-						'tokens/token-ico/token-ico-functionalities/refund',
-						'tokens/token-ico/token-ico-functionalities/claim',
-						'tokens/token-ico/token-ico-functionalities/withdraw',
+						'suite/token-ico/token-ico-functionalities/structure',
+						'suite/token-ico/token-ico-functionalities/invest',
+						'suite/token-ico/token-ico-functionalities/price',
+						'suite/token-ico/token-ico-functionalities/refund',
+						'suite/token-ico/token-ico-functionalities/claim',
+						'suite/token-ico/token-ico-functionalities/withdraw',
 					],
 				},
-				'tokens/token-ico/supported-standards',
-				'tokens/token-ico/compliant-jurisdictions',
-				'tokens/token-ico/reporting',
+				'suite/token-ico/supported-standards',
+				'suite/token-ico/compliant-jurisdictions',
+				'suite/token-ico/reporting',
 			],
     },  {
       type: 'category',
       label: 'Vesting Token',
       items: [
-				'tokens/token-vesting/features',
-				'tokens/token-vesting/create-token',
-				'tokens/token-vesting/deliver-token',
-				'tokens/token-vesting/reporting',
+				'suite/token-vesting/features',
+				'suite/token-vesting/create-token',
+				'suite/token-vesting/deliver-token',
+				'suite/token-vesting/reporting',
 			],
     }, {
       type: 'category',
       label: 'Catallactic Token',
       items: [
-				'tokens/token-trading/features',
+				'suite/token-trading/features',
 				{
 					type: 'category',
 					label: 'Functionalities',
 					items: [
-						'tokens/token-trading/token-trading-functionalities/metadata',
-						'tokens/token-trading/token-trading-functionalities/supply',
-						'tokens/token-trading/token-trading-functionalities/transfer',
-						'tokens/token-trading/token-trading-functionalities/erc-20',
-						'tokens/token-trading/token-trading-functionalities/liquidity',
-						'tokens/token-trading/token-trading-functionalities/governance',
+						'suite/token-trading/token-trading-functionalities/metadata',
+						'suite/token-trading/token-trading-functionalities/supply',
+						'suite/token-trading/token-trading-functionalities/transfer',
+						'suite/token-trading/token-trading-functionalities/erc-20',
+						'suite/token-trading/token-trading-functionalities/liquidity',
+						'suite/token-trading/token-trading-functionalities/governance',
 					],
 				},
-				'tokens/token-trading/supported-standards',
-				'tokens/token-trading/compliant-jurisdictions',
-				'tokens/token-trading/reporting',
+				'suite/token-trading/supported-standards',
+				'suite/token-trading/compliant-jurisdictions',
+				'suite/token-trading/reporting',
 			],
 		},  {
       type: 'category',
       label: 'Escrow Token',
       items: [
-				'tokens/token-escrow/features',
-				'tokens/token-escrow/create-token',
-				'tokens/token-escrow/deliver-token',
-				'tokens/token-escrow/reporting',
+				'suite/token-escrow/features',
+				'suite/token-escrow/create-token',
+				'suite/token-escrow/deliver-token',
+				'suite/token-escrow/reporting',
 			],
 		},
 	],
 
   defiSidebar: [
-    {
+		{
+			type: 'doc',
+			id: 'defi/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">DeFi Services</span>',
+    }, {
       type: 'category',
       label: 'DeFi Services',
       items: ['defi/intro'],

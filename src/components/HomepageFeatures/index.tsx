@@ -22,12 +22,12 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Catallactic Framework',
+    title: 'Catallactic Suite',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Framework.
-				<a className='d-block btn btn-lg mt-4' href='docs/tokens/dapp-admin/structure' role='button'>
+        Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Suite.
+				<a className='d-block btn btn-lg mt-4' href='docs/suite/intro' role='button'>
 					Learn More
 				</a>
       </>
