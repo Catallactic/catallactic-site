@@ -14,7 +14,7 @@ const config = {
   url: 'https://catallactic.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/catallactic-site/',
+  baseUrl: '/',
 	trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -96,7 +96,7 @@ const config = {
 						label: 'Blog', 
 						position: 'left'
 					}, {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Catallactic',
             label: 'GitHub',
             position: 'right',
           },
