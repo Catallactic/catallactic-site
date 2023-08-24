@@ -27,36 +27,77 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Tokenization</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Principles</span>',
     }, {
-      type: 'category',
-      label: 'Value Capture',
-      items: [
-				'tokenization/value/ecosystem',
-				'tokenization/value/utility',
-				'tokenization/value/value',
-				'tokenization/value/cmm'
-			],
-    }, {
-			type: 'category',
-      label: 'Tokenomics',
-      items: [
-				'tokenization/tokenomics/supply',
-				'tokenization/tokenomics/allocations',
-				'tokenization/tokenomics/distribution',
-				'tokenization/tokenomics/taxes',
-				'tokenization/tokenomics/rounds',
-				'tokenization/tokenomics/stability',
-				'tokenization/tokenomics/selling',
-			], 
-		}, {
       type: 'category',
       label: 'Decentralization',
       items: [
 				'tokenization/decentralization/infra',
 				'tokenization/decentralization/governance'
 			],
-    },  
+    }, {
+      type: 'category',
+      label: 'Compliance',
+      items: [
+				'tokenization/compliance/KYC',
+				'tokenization/compliance/AML',
+				'tokenization/compliance/Taxes'
+			],
+    }, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Tokenization</span>',
+    }, {
+      type: 'category',
+      label: 'Value Engineering',
+      items: [
+				'tokenization/value/ecosystem',
+				'tokenization/value/utility',
+				'tokenization/value/value',
+			],
+    }, {
+      type: 'category',
+      label: 'Value Capture',
+      items: [
+				'tokenization/tokenomics/supply',
+				'tokenization/tokenomics/stability',
+				'tokenization/value/cmm'
+			],
+    }, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Token Allocations</span>',
+    }, {
+			type: 'category',
+      label: 'Project Funding',
+      items: [
+				'tokenization/tokenomics/rounds',
+				'tokenization/tokenomics/selling',
+				'tokenization/tokenomics/taxes',
+			], 
+		}, {
+			type: 'category',
+      label: 'Token Negotiation',
+      items: [
+				'tokenization/tokenomics/trading',
+			], 
+		}, {
+			type: 'category',
+      label: 'Token Operations',
+      items: [
+				'tokenization/tokenomics/distribution',
+			], 
+		}, {
+			type: 'category',
+      label: 'Project',
+      items: [
+				'tokenization/tokenomics/team',
+			], 
+		},
   ],
 
   suiteSidebar: [
