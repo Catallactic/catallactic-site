@@ -63,6 +63,12 @@ const sidebars = {
       value: '<span class="sidebar-heading w-100 text-center">Tokenization</span>',
     }, {
       type: 'category',
+      label: 'Commodities',
+      items: [
+				'tokenization/tokenomics/commodities',
+			],
+		}, {
+      type: 'category',
       label: 'Value Engineering',
       items: [
 				'tokenization/value/ecosystem',
@@ -70,13 +76,6 @@ const sidebars = {
 				'tokenization/value/value',
 			],
     }, {
-      type: 'category',
-      label: 'Tokenizable Assets',
-      items: [
-				'tokenization/tokenomics/assets',
-
-			],
-		}, {
       type: 'category',
       label: 'Value Capture',
       items: [
