@@ -93,32 +93,76 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Token Allocations</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Project Funding</span>',
     }, {
-			type: 'category',
-      label: 'Project Funding',
+      type: 'category',
+      label: 'Funding Rounds',
       items: [
 				'tokenization/tokenomics/rounds',
 				'tokenization/tokenomics/selling',
 				'tokenization/tokenomics/taxes',
-			], 
+			],
+		},  {
+      type: 'category',
+      label: 'Launchpads',
+      items: [
+				'tokenization/tokenomics/launchpads',
+			],
+		},  {
+      type: 'category',
+      label: 'TGE',
+      items: [
+				'tokenization/tokenomics/TGE',
+			],
 		}, {
-			type: 'category',
-      label: 'Token Negotiation',
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Token Negotiation</span>',
+    }, {
+      type: 'category',
+      label: 'Planning Deployment',
+      items: [
+				'tokenization/tokenomics/planning',
+			],
+		}, {
+      type: 'category',
+      label: 'Deployment',
+      items: [
+				'tokenization/tokenomics/deployment',
+			],
+		}, {
+      type: 'category',
+      label: 'Trading',
       items: [
 				'tokenization/tokenomics/trading',
-			], 
+			],
 		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Token Operations</span>',
+    }, {
 			type: 'category',
-      label: 'Token Operations',
+      label: 'Distribution',
       items: [
 				'tokenization/tokenomics/distribution',
 			], 
 		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Tokenomics</span>',
+    }, {
 			type: 'category',
-      label: 'Project Allocation',
+      label: 'Token Allocations',
       items: [
 				'tokenization/tokenomics/team',
+				'tokenization/tokenomics/community',
+				'tokenization/tokenomics/marketing',
 			], 
 		}, {
 			type: 'html',
