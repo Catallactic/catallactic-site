@@ -37,6 +37,18 @@ const sidebars = {
 			],
     }, {
       type: 'category',
+      label: 'Privacy',
+      items: [
+				'tokenization/privacy/privacy',
+			],
+    }, {
+      type: 'category',
+      label: 'Security',
+      items: [
+				'tokenization/security/security',
+			],
+    }, {
+      type: 'category',
       label: 'Compliance',
       items: [
 				'tokenization/compliance/KYC',
@@ -59,13 +71,25 @@ const sidebars = {
 			],
     }, {
       type: 'category',
+      label: 'Tokenizable Assets',
+      items: [
+				'tokenization/tokenomics/assets',
+
+			],
+		}, {
+      type: 'category',
       label: 'Value Capture',
       items: [
 				'tokenization/tokenomics/supply',
-				'tokenization/tokenomics/stability',
-				'tokenization/value/cmm'
+
 			],
     }, {
+      type: 'category',
+      label: 'Maturity Model',
+      items: [
+				'tokenization/value/cmm'
+			],
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -93,11 +117,24 @@ const sidebars = {
 			], 
 		}, {
 			type: 'category',
-      label: 'Project',
+      label: 'Project Allocation',
       items: [
 				'tokenization/tokenomics/team',
 			], 
-		},
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Monetary Policy</span>',
+    }, {
+      type: 'category',
+      label: 'Monetary Policy',
+      items: [
+				'tokenization/tokenomics/monetary',
+				'tokenization/tokenomics/stability',
+			],
+		}, 
   ],
 
   suiteSidebar: [
