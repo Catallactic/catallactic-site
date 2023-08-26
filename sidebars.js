@@ -27,33 +27,39 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Principles</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Fundamentals</span>',
     }, {
       type: 'category',
-      label: 'Decentralization',
+      label: 'Principles',
       items: [
-				'tokenization/decentralization/infra',
-				'tokenization/decentralization/governance'
-			],
-    }, {
-      type: 'category',
-      label: 'Privacy',
-      items: [
-				'tokenization/privacy/privacy',
-			],
-    }, {
-      type: 'category',
-      label: 'Security',
-      items: [
-				'tokenization/security/security',
-			],
-    }, {
-      type: 'category',
-      label: 'Compliance',
-      items: [
-				'tokenization/compliance/KYC',
-				'tokenization/compliance/AML',
-				'tokenization/compliance/Taxes'
+				{
+					type: 'category',
+					label: 'Decentralization',
+					items: [
+						'tokenization/decentralization/infra',
+						'tokenization/decentralization/governance'
+					],
+				}, {
+					type: 'category',
+					label: 'Privacy',
+					items: [
+						'tokenization/privacy/privacy',
+					],
+				}, {
+					type: 'category',
+					label: 'Security',
+					items: [
+						'tokenization/security/security',
+					],
+				}, {
+					type: 'category',
+					label: 'Compliance',
+					items: [
+						'tokenization/compliance/KYC',
+						'tokenization/compliance/AML',
+						'tokenization/compliance/Taxes'
+					],
+				}, 
 			],
     }, {
 			type: 'html',
@@ -157,13 +163,9 @@ const sidebars = {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Tokenomics</span>',
     }, {
-			type: 'category',
+			type: 'doc',
       label: 'Token Allocations',
-      items: [
-				'tokenization/tokenomics/team',
-				'tokenization/tokenomics/community',
-				'tokenization/tokenomics/marketing',
-			], 
+			id: 'tokenization/tokenomics/allocations', // document ID
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
@@ -193,9 +195,14 @@ const sidebars = {
       value: '<span class="sidebar-heading w-100 text-center">Admin DApp</span>',
     }, {
 			type: 'category',
-      label: 'Admin DApp',
+      label: 'Admin DApp Structure',
       items: [
 				'suite/dapp-admin/structure',
+			],
+		},  {
+			type: 'category',
+      label: 'Launching your Token',
+      items: [
 				'suite/dapp-admin/planning-process',
 			],
 		}, {
@@ -297,6 +304,15 @@ const sidebars = {
 				'suite/token-escrow/create-token',
 				'suite/token-escrow/deliver-token',
 				'suite/token-escrow/reporting',
+			],
+		},  {
+      type: 'category',
+      label: 'Security',
+      items: [
+				'suite/security/design',
+				'suite/security/unittests',
+				'suite/security/backups',
+				'suite/security/audit',
 			],
 		},
 	],
