@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# App Structure
+# Suite Structure
 
-
+![Suite image](/img/suite.png)

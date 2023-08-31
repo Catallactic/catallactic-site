@@ -195,15 +195,38 @@ const sidebars = {
       value: '<span class="sidebar-heading w-100 text-center">Admin DApp</span>',
     }, {
 			type: 'category',
+      label: 'Creating your Suite',
+      items: [
+				'suite/dapp-admin/create-suite',
+			],
+		}, {
+			type: 'category',
+      label: 'Funding your Project',
+      items: [
+				'suite/dapp-admin/create-funding-round',
+				'suite/dapp-admin/plan-vesting',
+			],
+		}, {
+			type: 'category',
+      label: 'Deploying to Exchanges',
+      items: [
+				'suite/dapp-admin/exchanges-deploy-choose',
+				'suite/dapp-admin/exchanges-deploy-dex',
+				'suite/dapp-admin/exchanges-deploy-cex',
+			],
+		}, {
+			type: 'category',
+      label: 'Managing Liquidity',
+      items: [
+				'suite/dapp-admin/liquidity-unmanaged',
+				'suite/dapp-admin/liquidity-capture-price',
+				'suite/dapp-admin/liquidity-capture-value',
+			],
+		}, {
+			type: 'category',
       label: 'Admin DApp Structure',
       items: [
 				'suite/dapp-admin/structure',
-			],
-		},  {
-			type: 'category',
-      label: 'Launching your Token',
-      items: [
-				'suite/dapp-admin/planning-process',
 			],
 		}, {
       type: 'html',
