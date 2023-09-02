@@ -25,7 +25,7 @@ function HomepageHeader() {
 							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic!' role='button'>
 								Access on Github
 							</a>
-							<a className='btn btn-outline-light btn-lg ms-2' href='#!' role='button'>
+							<a className='btn btn-outline-light btn-lg ms-2' href='https://discord.gg/eN5q7haa' role='button'>
 								Access on Discord
 							</a>
 						</div>
