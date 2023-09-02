@@ -104,65 +104,76 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
+        links: [{
+            title: 'Tokenization',
+            items: [{
+                label: 'Fundamentals',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              }, {
+                label: 'Tokenization',
+                href: 'https://discordapp.com/invite/docusaurus',
+              }, {
+                label: 'Project Funding',
+                href: 'https://twitter.com/docusaurus',
+              }, {
+                label: 'Token Negotiation',
+                href: 'https://twitter.com/docusaurus',
+              }, {
+                label: 'Token Operations',
+                href: 'https://twitter.com/docusaurus',
+              }, {
+                label: 'Tokenomics',
+                href: 'https://twitter.com/docusaurus',
+              }
+            ],
+          }, {
+            title: 'Suite',
+            items: [{
+                label: 'Admin DApp',
+                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              }, {
+                label: 'User DApps',
+                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              }, {
+                label: 'Tokens',
                 to: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
             ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
+          }, {
+						title: 'DeFi Services',
+            items: [{
+                label: 'DeFi Service',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
+              }, {
+                label: 'Launchap',
                 href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
+              }, {
+                label: 'Payments',
                 href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
+              }, {
+                label: 'Cards',
                 href: 'https://twitter.com/docusaurus',
-              },
+              }, {
+                label: 'Lending',
+                href: 'https://twitter.com/docusaurus',
+              }, {
+                label: 'Transfers',
+                href: 'https://twitter.com/docusaurus',
+              }
             ],
-          },
-					{
+          }, {
             title: 'More',
-            items: [
-              {
+            items: [ {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
+              }, {
                 label: 'GitHub',
                 href: 'https://github.com/Catallactic',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Catallactic, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Catallactic, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -2,16 +2,15 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-type FeatureItem = {
+type ServiceItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
-  {
+const ServiceList: ServiceItem[] = [{
     title: 'Catallactic Tokenization',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/transfer.svg').default,
     description: (
       <>
         Faithully capture the underlying value of your commodity considering all aspects of Progresive Decentralization.
@@ -20,10 +19,9 @@ const FeatureList: FeatureItem[] = [
 				</a>
       </>
     ),
-  },
-  {
+  }, {
     title: 'Catallactic Suite',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/transfer.svg').default,
     description: (
       <>
         Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Suite.
@@ -32,10 +30,9 @@ const FeatureList: FeatureItem[] = [
 				</a>
       </>
     ),
-  },
-	{
+  }, {
     title: 'Catallactic DeFi Services',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/transfer.svg').default,
     description: (
       <>
         Deliver the value captured by your token back to the community as DeFi services, including lending, launchpads, transfers, payments, cards...
@@ -47,11 +44,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Service({title, Svg, description}: ServiceItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={styles.servicesSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -61,15 +58,23 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageServices(): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section className={styles.services}>
+
       <div className="container">
+
+				<div className="text-center pb-1">
+					<div className="h1 fw-bold color-theme-reverse2">DeFi Services</div>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">The main goal is to create the perfect currency definitions, that is, Commodity Backed Units of Value. This is a multifaceted task that must be realised in iterative loops.</p>
+				</div>
+
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {ServiceList.map((props, idx) => (
+            <Service key={idx} {...props} />
           ))}
         </div>
+
       </div>
     </section>
   );

@@ -3,7 +3,10 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageTokenization from '@site/src/components/HomepageTokenization';
+import HomepageSuite from '@site/src/components/HomepageSuite';
+import HomepageServices from '@site/src/components/HomepageServices';
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 import styles from './index.module.css';
@@ -17,46 +20,31 @@ function HomepageHeader() {
 					<div className='d-flex justify-content-center align-items-center h-100'>
 						<div className='text-white'>
 							<h1 className='mb-5'>Catallactic</h1>
-							<h3 className='mb-5'>An Open Source Framework and Community to build <b>Commodity-backed crypto-currencies</b></h3>
-							<h4 className='mb-5'>because <i>'every fool confuses value and price'</i>. Antonio Machado.</h4>
-							<a className='btn btn-outline-light btn-lg' href='#!' role='button'>
-								Call to action
+							<h3 className='mb-5 mx-5'>An Open Source Framework and Community to capture the value of Commodity Assets, build <b>Commodity-backed Crypto-Currencies</b> and provide DeFi Services back to the Society</h3>
+							<h4 className='mb-5'>because <i>'only fools confuse value and price'</i>. Antonio Machado.</h4>
+							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic!' role='button'>
+								Access on Github
+							</a>
+							<a className='btn btn-outline-light btn-lg ms-2' href='#!' role='button'>
+								Access on Discord
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
-
-
-
-
   );
 }
-
-    /*
-		<header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-				
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">Docusaurus Tutorial - 5min ⏱️</Link>
-        </div>
-				
-      </div>
-    </header>
-		*/
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageTokenization />
+        <HomepageSuite />
+        <HomepageServices />
       </main>
     </Layout>
   );
