@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: The Abandoned Road
-authors: [slorber, yangshun]
+authors: [catallactic]
 tags: [facebook, hello, docusaurus]
 ---
 

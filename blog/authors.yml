@@ -1,17 +1,12 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+catallactic:
+  name: Catallactic
+  title: Catallactic Team
+  url: https://catallactic.github.io/catallactic-site/
+  image_url: https://github.com/pellyadolfo.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+pellyadolfo:
+  name: Adolfo Rodriguez
+  title: Catallactic
+  url: https://github.com/pellyadolfo
+  image_url: https://github.com/pellyadolfo.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
