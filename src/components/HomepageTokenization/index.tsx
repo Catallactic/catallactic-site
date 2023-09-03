@@ -69,7 +69,7 @@ export default function HomepageTokenization(): JSX.Element {
 
 				<div className="text-center pb-1">
 					<div className="h1 fw-bold color-theme-reverse2">Catallactic Tokenization</div>
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">The main goal is to create the unbiased currency definitions, that is, Commodity Backed Units of Value. This is a multifaceted task that must be executed in a progresive approach.</p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">The main goal is to create the unbiased currency definitions, that is, Commodity Backed Units of Value. This is a multifaceted task that must be executed in a Progressive approach.</p>
 				</div>
 
         <div className="row">

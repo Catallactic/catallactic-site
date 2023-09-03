@@ -14,7 +14,7 @@ const SuiteList: SuiteItem[] = [
     Svg: require('@site/static/img/admin.svg').default,
     description: (
       <>
-        Faithully capture the underlying value of your commodity considering all aspects of Progresive Decentralization.
+        Faithully capture the underlying value of your commodity considering all aspects of Progressive Decentralization.
 				<a className='d-block btn btn-lg mt-4' href='docs/tokenization/intro' role='button'>
 					Learn More
 				</a>

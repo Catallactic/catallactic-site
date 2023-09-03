@@ -22,7 +22,7 @@ function HomepageHeader() {
 							<h1 className='mb-5'>Catallactic</h1>
 							<h3 className='mb-5 mx-5'>An Open Source Framework and Community to capture the value of Commodity Assets, build <b>Commodity-backed Crypto-Currencies</b> and provide DeFi Services back to the Society</h3>
 							<h4 className='mb-5'>because <i>'only fools confuse value and price'</i>. Antonio Machado.</h4>
-							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic!' role='button'>
+							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic' role='button'>
 								Access on Github
 							</a>
 							<a className='btn btn-outline-light btn-lg ms-2' href='https://discord.gg/eN5q7haa' role='button'>
