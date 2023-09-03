@@ -16,7 +16,7 @@ You have to do tens of tasks with little information, lack of documentation, gui
 
 In the last 5 years, some web3 companies tried to address these problems by providing solutions to some of these tasks. First, centralized exchanges offered IEOs. Then came the IDOs. The model was sectorized to DAICOs, IGOs or ILOs. However, all of them optimized their business rules for their own benefit, and for the investors safety, at the costs of entrepreneurs flexibility. 
 
-As a consequence of these entry barriers, crypto funding is not working on its own. Industry grows mainly by equity-based VCs and most of the crypto projects are just cloned of each other, endless infrastructure, earn-as-you-play games. On the other hand, a big number of self-funded projects are directly memecoins, without other purpose that become rug-pulls or honeypots. Crypto industry looks cornered in a cul-de-sac and away from real world utility.
+As a consequence of these entry barriers, crypto funding is not working on its own. Industry evolves mainly by equity-based VCs and most of the crypto projects are just cloned of each other, endless infrastructure, gamefi, socialfi or metaverse. On the other hand, a big number of self-funded projects are directly memecoins, without other purpose that become rug-pulls or honeypots. Crypto industry looks cornered in a cul-de-sac and away from real world utility.
 
 ## Catallactic Goals
 
