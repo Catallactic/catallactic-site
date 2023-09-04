@@ -7,6 +7,16 @@ tags: [crypto, RWA, tokenization]
 
 # Fundraising for the real economy
 
+## The TradFi Fundraising model
+
+Currently, either if you want to fund your project, or as a part of business functionalities, running your own token is a costly and uncertain mission, full of obstacles. 
+
+* Not all are equal, some regions are prioritized
+* You need a clear definition of the company in discovery phase
+* You depend on the understanding of VCs
+* You spend more time funding that in your core business
+* You cannot mak your decisions
+
 ## The crypto burden for entrepreneurs
 
 Currently, either if you want to fund your project, or as a part of business functionalities, running your own token is a costly and uncertain mission, full of obstacles. 
@@ -27,7 +37,7 @@ You have to do tens of tasks with little information, lack of documentation, gui
 
 ![Biased Projects](./overwhelmed.jpg)
 
-## The fundraising mechanisms
+## The fundraising mechanisms landscape
 
 A number of fundraising mechanisms as launchaps tried to address these problems by providing solutions to some of these tasks.
 

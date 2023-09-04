@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Prepare a Funding Round
+# Preparing a Funding Round
+
+
 
 ## Configuring Payment Methods
 

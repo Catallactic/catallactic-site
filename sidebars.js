@@ -208,6 +208,7 @@ const sidebars = {
 				'suite/dapp-admin/funding-round/create-funding-round',
 				'suite/dapp-admin/funding-round/manage-funding-round',
 				'suite/dapp-admin/funding-round/close-funding-round',
+				'suite/dapp-admin/funding-round/compliance-funding-round',
 			],
 		}, {
 			type: 'category',

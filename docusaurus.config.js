@@ -73,7 +73,7 @@ const config = {
         title: 'Catallactic',
         logo: {
           alt: 'Catallactic Logo',
-          src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_ptxBvPKbxW1Ui0eeoL7hzLX0NjJ-uynmtG8Oedu63Y2239OTDebyIgM0mGUX4oBOBQ&usqp=CAU',
+          src: 'img/hat.png',
         },
         items: [
           {
