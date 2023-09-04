@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Design
+# Design for Security
 

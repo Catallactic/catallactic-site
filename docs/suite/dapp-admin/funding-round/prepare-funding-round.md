@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ![ICO Features](/img/dappmin/ico-payment-methods.png)
 
-## Creating Veting Program
+## Creating Vesting Program
 
 ![Vesting Features](/img/dappmin/vesting_fea.png)
 

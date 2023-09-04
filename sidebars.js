@@ -338,13 +338,34 @@ const sidebars = {
 				'suite/token-escrow/reporting',
 			],
 		},  {
-      type: 'category',
-      label: 'Security',
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading">Security</span>',
+    },  {
+			type: 'category',
+      label: 'Design',
       items: [
 				'suite/security/design',
+			],
+		}, {
+			type: 'category',
+      label: 'Tests',
+      items: [
 				'suite/security/unittests',
-				'suite/security/backups',
+			],
+		}, {
+			type: 'category',
+      label: 'Audits',
+      items: [
 				'suite/security/audit',
+			],
+		}, {
+			type: 'category',
+      label: 'Backups',
+      items: [
+				'suite/security/backups',
 			],
 		},
 	],
