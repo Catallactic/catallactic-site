@@ -19,7 +19,7 @@ function HomepageHeader() {
 				<div className={styles.mask} style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
 					<div className='d-flex justify-content-center align-items-center h-100'>
 						<div className='text-white'>
-							<h1 className='mb-5'>Catallactic</h1>
+							<h1 className='mb-5'>Catallactic (under construction)</h1>
 							<h3 className='mb-5 mx-5'>An Open Source Framework and Community to capture the value of Commodity Assets, build <b>Commodity-backed Crypto-Currencies</b> and provide DeFi Services back to the Society</h3>
 							<h4 className='mb-5'>because <i>'only fools confuse value and price'</i>. Antonio Machado.</h4>
 							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic' role='button'>
