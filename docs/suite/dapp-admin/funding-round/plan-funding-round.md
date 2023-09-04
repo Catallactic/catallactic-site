@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Planning the Vesting
+# Planning a Funding Round

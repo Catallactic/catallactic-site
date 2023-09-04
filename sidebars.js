@@ -203,8 +203,11 @@ const sidebars = {
 			type: 'category',
       label: 'Funding your Project',
       items: [
-				'suite/dapp-admin/create-funding-round',
-				'suite/dapp-admin/plan-vesting',
+				'suite/dapp-admin/funding-round/plan-funding-round',
+				'suite/dapp-admin/funding-round/prepare-funding-round',
+				'suite/dapp-admin/funding-round/create-funding-round',
+				'suite/dapp-admin/funding-round/manage-funding-round',
+				'suite/dapp-admin/funding-round/close-funding-round',
 			],
 		}, {
 			type: 'category',
