@@ -213,17 +213,23 @@ const sidebars = {
 			type: 'category',
       label: 'Deploying to Exchanges',
       items: [
-				'suite/dapp-admin/exchanges-deploy-choose',
-				'suite/dapp-admin/exchanges-deploy-dex',
-				'suite/dapp-admin/exchanges-deploy-cex',
+				'suite/dapp-admin/exchanges/exchanges-deploy-choose',
+				'suite/dapp-admin/exchanges/exchanges-deploy-dex',
+				'suite/dapp-admin/exchanges/exchanges-deploy-cex',
 			],
 		}, {
 			type: 'category',
       label: 'Managing Liquidity',
       items: [
-				'suite/dapp-admin/liquidity-unmanaged',
-				'suite/dapp-admin/liquidity-capture-price',
-				'suite/dapp-admin/liquidity-capture-value',
+				'suite/dapp-admin/liquidity/liquidity-unmanaged',
+				'suite/dapp-admin/liquidity/liquidity-capture-price',
+				'suite/dapp-admin/liquidity/liquidity-capture-value',
+			],
+		}, {
+			type: 'category',
+      label: 'Distributing Rewards',
+      items: [
+				'suite/dapp-admin/rewards/distributing-rewards',
 			],
 		}, {
 			type: 'category',
