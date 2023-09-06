@@ -200,12 +200,20 @@ const sidebars = {
       value: '<span class="sidebar-heading w-100 text-center">DeFi Services</span>',
     }, {
       type: 'category',
-      label: 'DeFi Services',
-      items: ['defi/intro'],
+      label: 'Liquidity Provision',
+      items: ['defi/liquidity/liquidity'],
     }, {
       type: 'category',
+      label: 'Staking',
+      items: ['defi/staking/staking'],
+    }, {
+			type: 'category',
       label: 'Launchpad',
       items: ['defi/launchpad/launchpad'],
+    }, {
+			type: 'category',
+      label: 'Transfers',
+      items: ['defi/transfers/transfers'],
     }, {
       type: 'category',
       label: 'Payments',
