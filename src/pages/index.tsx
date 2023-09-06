@@ -3,9 +3,12 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageTokenization from '@site/src/components/HomepageTokenization';
-import HomepageSuite from '@site/src/components/HomepageSuite';
-import HomepageServices from '@site/src/components/HomepageServices';
+import FeaturesSection from '@site/src/components/FeaturesSection';
+import SuiteSection from '@site/src/components/SuiteSection';
+import ValueChainSection from '@site/src/components/ValueChainSection';
+import DecentralizationSection from '@site/src/components/DecentralizationSection';
+import MaturityModelSection from '@site/src/components/MaturityModelSection';
+import AdoptersSections from '@site/src/components/AdoptersSection';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -20,7 +23,6 @@ function HomepageHeader() {
 					<div className='d-flex justify-content-center align-items-center h-100'>
 						<div className='text-white'>
 							<h1 className='mb-5'>Catallactic (under construction)</h1>
-							<h3 className='mb-5 mx-5'>An Open Source Framework and Community to capture the value of Commodity Assets, build <b>Commodity-backed Crypto-Currencies</b> and provide DeFi Services back to the Society</h3>
 							<h1 className='mb-5'>Let's build a new economy</h1>
 							<h4 className='mb-5'>... because <i>'only fools confuse value and price'</i>. Antonio Machado.</h4>
 							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic' role='button'>
@@ -43,9 +45,12 @@ export default function Home(): JSX.Element {
     <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageTokenization />
-        <HomepageSuite />
-        <HomepageServices />
+				<ValueChainSection />
+        <DecentralizationSection />
+        <MaturityModelSection />
+        <FeaturesSection />
+        <SuiteSection />
+        <AdoptersSections />
       </main>
     </Layout>
   );
