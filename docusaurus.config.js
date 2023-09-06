@@ -12,6 +12,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://catallactic.github.io',
+	
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -82,24 +83,40 @@ const config = {
             position: 'left',
             label: 'Tokenization',
           }, {
-            type: 'docSidebar',
-            sidebarId: 'suiteSidebar',
+						type: 'docSidebar',
+            sidebarId: 'fundingSidebar',
             position: 'left',
-            label: 'Suite',
+            label: 'Funding',
           }, {
+						type: 'docSidebar',
+            sidebarId: 'negotiationSidebar',
+            position: 'left',
+            label: 'Negotiation',
+          }, {
+						type: 'docSidebar',
+            sidebarId: 'operationSidebar',
+            position: 'left',
+            label: 'Operations',
+					}, {
             type: 'docSidebar',
             sidebarId: 'defiSidebar',
             position: 'left',
             label: 'DeFi Services',
           }, {
+						type: 'docSidebar',
+            sidebarId: 'suiteSidebar',
+            position: 'right',
+            label: 'Suite',
+          }, {
+						type: 'docSidebar',
+            sidebarId: 'ecosystemSidebar',
+            position: 'right',
+            label: 'Ecosystem',
+					}, {
 						to: '/blog', 
 						label: 'Blog', 
-						position: 'left'
-					}, {
-            href: 'https://github.com/Catallactic',
-            label: 'GitHub',
-            position: 'right',
-          },
+						position: 'right'
+					},
         ],
       },
       footer: {

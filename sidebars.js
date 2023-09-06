@@ -34,13 +34,6 @@ const sidebars = {
       items: [
 				{
 					type: 'category',
-					label: 'Decentralization',
-					items: [
-						'tokenization/decentralization/infra',
-						'tokenization/decentralization/governance'
-					],
-				}, {
-					type: 'category',
 					label: 'Privacy',
 					items: [
 						'tokenization/privacy/privacy',
@@ -86,7 +79,6 @@ const sidebars = {
       label: 'Value Capture',
       items: [
 				'tokenization/tokenomics/supply',
-
 			],
     }, {
       type: 'category',
@@ -94,7 +86,12 @@ const sidebars = {
       items: [
 				'tokenization/value/cmm'
 			],
-		}, {
+		},  
+  ],
+
+  // But you can create a sidebar manually
+  fundingSidebar: [
+		{
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -104,23 +101,40 @@ const sidebars = {
       type: 'category',
       label: 'Funding Rounds',
       items: [
-				'tokenization/tokenomics/rounds',
-				'tokenization/tokenomics/selling',
-				'tokenization/tokenomics/taxes',
+				'funding/rounds',
+				'funding/selling',
+				'funding/taxes',
 			],
 		},  {
       type: 'category',
       label: 'Launchpads',
       items: [
-				'tokenization/tokenomics/launchpads',
+				'funding/launchpads',
 			],
 		},  {
       type: 'category',
       label: 'TGE',
       items: [
-				'tokenization/tokenomics/TGE',
+				'funding/TGE',
 			],
 		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Tokenomics</span>',
+    }, {
+			type: 'doc',
+      label: 'Token Allocations',
+			id: 'funding/allocations', // document ID
+		}, 
+  ],
+
+  negotiationSidebar: [
+		{
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -130,42 +144,20 @@ const sidebars = {
       type: 'category',
       label: 'Planning Deployment',
       items: [
-				'tokenization/tokenomics/planning',
+				'negotiation/planning',
 			],
 		}, {
       type: 'category',
       label: 'Deployment',
       items: [
-				'tokenization/tokenomics/deployment',
+				'negotiation/deployment',
 			],
 		}, {
       type: 'category',
       label: 'Trading',
       items: [
-				'tokenization/tokenomics/trading',
+				'negotiation/trading',
 			],
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Token Operations</span>',
-    }, {
-			type: 'category',
-      label: 'Distribution',
-      items: [
-				'tokenization/tokenomics/distribution',
-			], 
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Tokenomics</span>',
-    }, {
-			type: 'doc',
-      label: 'Token Allocations',
-			id: 'tokenization/tokenomics/allocations', // document ID
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
@@ -176,10 +168,57 @@ const sidebars = {
       type: 'category',
       label: 'Monetary Policy',
       items: [
-				'tokenization/tokenomics/monetary',
-				'tokenization/tokenomics/stability',
+				'negotiation/monetary',
+				'negotiation/stability',
 			],
+		},
+	],
+
+  operationSidebar: [
+		{
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Token Operations</span>',
+    }, {
+			type: 'category',
+      label: 'Distribution',
+      items: [
+				'operation/distribution',
+			], 
 		}, 
+	],
+
+  defiSidebar: [
+		{
+			type: 'doc',
+			id: 'defi/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">DeFi Services</span>',
+    }, {
+      type: 'category',
+      label: 'DeFi Services',
+      items: ['defi/intro'],
+    }, {
+      type: 'category',
+      label: 'Launchpad',
+      items: ['defi/launchpad/launchpad'],
+    }, {
+      type: 'category',
+      label: 'Payments',
+      items: ['defi/payments/payments'],
+    }, {
+      type: 'category',
+      label: 'Cards',
+      items: ['defi/cards/cards'],
+    }, {
+      type: 'category',
+      label: 'Lending',
+      items: ['defi/lending/lending'],
+    },
   ],
 
   suiteSidebar: [
@@ -371,41 +410,20 @@ const sidebars = {
 		},
 	],
 
-  defiSidebar: [
+  ecosystemSidebar: [
 		{
 			type: 'doc',
-			id: 'defi/intro', // document ID
+			id: 'ecosystem/ecosystem', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">DeFi Services</span>',
-    }, {
-      type: 'category',
-      label: 'DeFi Services',
-      items: ['defi/intro'],
-    }, {
-      type: 'category',
-      label: 'Launchpad',
-      items: ['defi/launchpad/launchpad'],
-    }, {
-      type: 'category',
-      label: 'Payments',
-      items: ['defi/payments/payments'],
-    }, {
-      type: 'category',
-      label: 'Cards',
-      items: ['defi/cards/cards'],
-    }, {
-      type: 'category',
-      label: 'Lending',
-      items: ['defi/lending/lending'],
-    },
-  ],
-
-
+			type: 'category',
+			label: 'Decentralization',
+			items: [
+				'ecosystem/infra',
+				'ecosystem/governance'
+			],
+		}, 
+	],
 
 };
 
