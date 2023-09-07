@@ -16,7 +16,7 @@ export default function ValueChainSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/blockchain.svg" width={120}/>
+							<img className="featureSvg__8YW" alt="Tokenization" src="/img/blockchain.svg" height={100}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Tokenization</h3>
@@ -27,7 +27,7 @@ export default function ValueChainSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://www.niehs.nih.gov/research/scientific-data/assets/images/funding_hero.jpg" width={90}/>
+							<img className="featureSvg__8YW" alt="Funding" src="/img/funding.svg" width={100}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Funding</h3>
@@ -38,7 +38,7 @@ export default function ValueChainSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://static.thenounproject.com/png/3810581-200.png" width={90}/>
+							<img className="featureSvg__8YW" alt="Trading" src="/img/trading.svg" width={100}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Negotiation</h3>
@@ -51,7 +51,7 @@ export default function ValueChainSection(): JSX.Element {
 				<div className="row margin-bottom--lg feature_eSJM">
 					<div className="col col--4 ">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://cdn-icons-png.flaticon.com/512/2592/2592291.png" width={70} />
+						<img className="featureSvg__8YW" alt="Operations" src="/img/operations.svg" width={100}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Operations</h3>
@@ -62,7 +62,7 @@ export default function ValueChainSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://avatradesltd.com/images/icons/icon-a-dark2.png" width={70} />
+							<img className="featureSvg__8YW" alt="DeFi" src="/img/defi.svg" width={100}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>DeFi Services</h3>
@@ -73,7 +73,7 @@ export default function ValueChainSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://static.thenounproject.com/png/3358301-200.png" width={70} />
+							<img className="featureSvg__8YW" alt="Crowdsolving" src="/img/crowdsolving.svg" width={100}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Crowdsolving</h3>
