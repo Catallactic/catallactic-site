@@ -26,7 +26,7 @@ export default function DecentralizationSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Progressive Decentralization</h3>
 							<p>Once the value from commodities has been captured, we must preserve it in a decentralized way. This is a a multifaceted task that must be executed in a progressive approach. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/decentralization' role='button'>Learn More</a>
 						</div>
 					</div>
 

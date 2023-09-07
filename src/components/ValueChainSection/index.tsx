@@ -16,60 +16,72 @@ export default function ValueChainSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/features/undraw_active_options_re_8rj3.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/blockchain.svg" width={120}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Tokenization</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<p>Learn the principles and practices to capture the value of your commodity into your commodity-backed cryptocurrency with the highest standards.</p>
+							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/intro' role='button'>Learn More</a>
 						</div>
 					</div>
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/features/undraw_active_options_re_8rj3.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://www.niehs.nih.gov/research/scientific-data/assets/images/funding_hero.jpg" width={90}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Funding</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<p>Get funds from investors to execute your project and return a profit to the investors and value for society.</p>
+							<a className='d-block btn btn-lg mt-4' href='docs/funding/intro' role='button'>Learn More</a>
 						</div>
 					</div>
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/features/undraw_active_options_re_8rj3.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://static.thenounproject.com/png/3810581-200.png" width={90}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Negotiation</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<p>Use the price formation mechanism of your underlying market to value your cryptocurrency without side effects</p>
+							<a className='d-block btn btn-lg mt-4' href='docs/negotiation/intro' role='button'>Learn More</a>
 						</div>
 					</div>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">
-					<div className="col col--4 col--offset-2">
+					<div className="col col--4 ">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/features/undraw_active_options_re_8rj3.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://cdn-icons-png.flaticon.com/512/2592/2592291.png" width={70} />
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Operations</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
+							<p>Your cryptocurrency will work a barebone for your marketplapce. Learn the mechanism to distribute your token to its users.</p>
+							<a className='d-block btn btn-lg mt-4' href='docs/distribution/intro' role='button'>Learn More</a>
+						</div>
+					</div>
+
+					<div className="col col--4">
+						<div className="text--center">
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://avatradesltd.com/images/icons/icon-a-dark2.png" width={70} />
+						</div>
+						<div className="text--center padding-horiz--md">
+							<h3>DeFi Services</h3>
+							<p>Deliver the value of your commodity back to the society in a decentralized manner to increase financial inclusion.</p>
 							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
 						</div>
 					</div>
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/features/undraw_active_options_re_8rj3.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://static.thenounproject.com/png/3358301-200.png" width={70} />
 						</div>
 						<div className="text--center padding-horiz--md">
-							<h3>DeFi Services</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<h3>Crowdsolving</h3>
+							<p>Apply the framework to other commodities to enable citizens funding and solving their own problems.</p>
+							<a className='d-block btn btn-lg mt-4' href='docs/crowdsolving/intro' role='button'>Learn More</a>
 						</div>
 					</div>
+
 				</div>
 
       </div>

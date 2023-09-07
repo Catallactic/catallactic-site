@@ -15,7 +15,7 @@ const SuiteList: SuiteItem[] = [
     description: (
       <>
         Faithully capture the underlying value of your commodity considering all aspects of Progressive Decentralization.
-				<a className='d-block btn btn-lg mt-4' href='docs/tokenization/intro' role='button'>
+				<a className='d-block btn btn-lg mt-4' href='/docs/suite/intro' role='button'>
 					Learn More
 				</a>
       </>
@@ -27,7 +27,7 @@ const SuiteList: SuiteItem[] = [
     description: (
       <>
         Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Suite.
-				<a className='d-block btn btn-lg mt-4' href='docs/suite/intro' role='button'>
+				<a className='d-block btn btn-lg mt-4' href='/suite/dapp-catallactic-purchase/create-token' role='button'>
 					Learn More
 				</a>
       </>
@@ -39,7 +39,7 @@ const SuiteList: SuiteItem[] = [
     description: (
       <>
         Deliver the value captured by your token back to the community as DeFi services, including lending, launchpads, transfers, payments, cards...
-				<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>
+				<a className='d-block btn btn-lg mt-4' href='/docs/suite/dapp-catallactic-vesting/create-token' role='button'>
 					Learn More
 				</a>
       </>

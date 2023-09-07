@@ -27,34 +27,40 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Fundamentals</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Principles</span>',
     }, {
-      type: 'category',
-      label: 'Principles',
-      items: [
-				{
-					type: 'category',
-					label: 'Privacy',
-					items: [
-						'tokenization/privacy/privacy',
-					],
-				}, {
-					type: 'category',
-					label: 'Security',
-					items: [
-						'tokenization/security/security',
-					],
-				}, {
-					type: 'category',
-					label: 'Compliance',
-					items: [
-						'tokenization/compliance/KYC',
-						'tokenization/compliance/AML',
-						'tokenization/compliance/Taxes'
-					],
-				}, 
+			type: 'category',
+			label: 'Privacy',
+			items: [
+				'tokenization/privacy/privacy',
 			],
-    }, {
+		}, {
+			type: 'category',
+			label: 'Security',
+			items: [
+				'tokenization/security/security',
+			],
+		}, {
+			type: 'category',
+			label: 'Compliance',
+			items: [
+				'tokenization/compliance/KYC',
+				'tokenization/compliance/AML',
+				'tokenization/compliance/Taxes'
+			],
+		}, {
+			type: 'category',
+			label: 'Reporting',
+			items: [
+				'tokenization/reporting/reporting',
+			],
+		}, {
+			type: 'category',
+			label: 'Decentralization',
+			items: [
+				'tokenization/decentralization/decentralization',
+			],
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -86,12 +92,26 @@ const sidebars = {
       items: [
 				'tokenization/value/cmm'
 			],
-		},  
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Tokenomics</span>',
+    }, {
+			type: 'doc',
+      label: 'Token Allocations',
+			id: 'funding/allocations', // document ID
+		},
   ],
 
   // But you can create a sidebar manually
   fundingSidebar: [
 		{
+			type: 'doc',
+			id: 'funding/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -117,24 +137,15 @@ const sidebars = {
       items: [
 				'funding/TGE',
 			],
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Tokenomics</span>',
-    }, {
-			type: 'doc',
-      label: 'Token Allocations',
-			id: 'funding/allocations', // document ID
 		}, 
   ],
 
   negotiationSidebar: [
 		{
+			type: 'doc',
+			id: 'negotiation/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -176,13 +187,41 @@ const sidebars = {
 
   operationSidebar: [
 		{
+			type: 'doc',
+			id: 'distribution/intro', // document ID
+			label: 'Getting started', // sidebar label
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Distribution Models</span>',
+    }, {
+			type: 'doc',
+			id: 'distribution/airdrops',
+		}, {
+			type: 'doc',
+			id: 'distribution/giveaways',
+		}, {
+			type: 'doc',
+			id: 'distribution/rounds',
+		}, {
+			type: 'doc',
+			id: 'distribution/operations',
+		}, {
+			type: 'doc',
+			id: 'distribution/rewards',
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Token Operations</span>',
     }, {
 			type: 'category',
-      label: 'Distribution',
+      label: 'Operations',
       items: [
-				'operation/distribution',
+				'distribution/operations',
 			], 
 		}, 
 	],
@@ -228,6 +267,14 @@ const sidebars = {
       items: ['defi/lending/lending'],
     },
   ],
+
+  crowdsolvingSidebar: [
+		{
+			type: 'doc',
+			id: 'crowdsolving/intro', // document ID
+			label: 'Getting started', // sidebar label
+		},
+	],
 
   suiteSidebar: [
 		{

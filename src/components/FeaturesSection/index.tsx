@@ -20,8 +20,8 @@ export default function FeaturesSection(): JSX.Element {
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Security</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<p>With billions stolen every year, ensuring security is a must or any cryptocurrency. This includes audits, testing, backups or any possible mechanism to guarantee that your funds are safu.</p>
+							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/security' role='button'>Learn More</a>
 						</div>
 					</div>
 
@@ -31,8 +31,8 @@ export default function FeaturesSection(): JSX.Element {
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Compliance</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<p>With juristictions increasingly stressing legilation around cryptocurrencies, any crypto must allow optional and configurable compliance mechanisms without reinvnting the wheel. </p>
+							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/compliance/KYC' role='button'>Learn More</a>
 						</div>
 					</div>
 
@@ -42,8 +42,8 @@ export default function FeaturesSection(): JSX.Element {
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Reporting</h3>
-							<p>Sequence empowers users to create multi-application extract-transform-load workflows with a single configuration. Technicians no longer need to learn multiple scripting or programming languages, or trawl through API documentation for the applications they want to automate. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<p>Investor and users need fluid and trustfull information about the currency they are using. We must include configurable reports with enabled interoperability formats between servers.</p>
+							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/reporting' role='button'>Learn More</a>
 						</div>
 					</div>
 				</div>

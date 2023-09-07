@@ -96,12 +96,17 @@ const config = {
 						type: 'docSidebar',
             sidebarId: 'operationSidebar',
             position: 'left',
-            label: 'Operations',
+            label: 'Distribution',
 					}, {
             type: 'docSidebar',
             sidebarId: 'defiSidebar',
             position: 'left',
             label: 'DeFi Services',
+          }, {
+            type: 'docSidebar',
+            sidebarId: 'crowdsolvingSidebar',
+            position: 'left',
+            label: 'Crowdsolving',
           }, {
 						type: 'docSidebar',
             sidebarId: 'suiteSidebar',
