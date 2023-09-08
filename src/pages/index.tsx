@@ -14,11 +14,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import styles from './index.module.css';
 
+// https://static.wixstatic.com/media/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg/v1/fill/w_640,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg
+// https://cdn.hswstatic.com/gif/bartering.jpg
+// https://www.pjsglobal.com/wp-content/uploads/2019/06/banner-petro2.jpg
+// https://www.ametheus.com/wp-content/uploads/2020/11/Agro-1024x342.jpg
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
 		<header style={{ paddingLeft: 0 }}>
-			<div className='text-center bg-image' style={{ /* backgroundPosition: 'center', */backgroundSize: 'cover', backgroundImage: "url('img/catallactic-banner.jpg')", height: 600,  }} >
+			<div className='text-center bg-image' style={{ /* backgroundPosition: 'center', */backgroundSize: 'cover', backgroundImage: "url('https://static.wixstatic.com/media/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg/v1/fill/w_640,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg')", height: 600,  }} >
 				<div className={styles.mask} style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
 					<div className='d-flex justify-content-center align-items-center h-100'>
 						<div className='text-white'>
