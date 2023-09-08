@@ -8,10 +8,10 @@ export default function AdoptersSections(): JSX.Element {
 
 				<div className="text-center pb-1 mb-4">
 					 <div className="h1 fw-bold color-theme-reverse2">Adopters</div> 
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">We build for the following projects.</p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">We build for the following projects. Add your commodities based project to the list.</p>
 				</div>
 
-				<div className="row margin-bottom--lg feature_eSJM">
+				<div className="row margin-vert--xl feature_eSJM">
 
 					<div className="col col--6">
 						<div className="text--center padding-horiz--md">
@@ -23,7 +23,7 @@ export default function AdoptersSections(): JSX.Element {
 
 					<div className="col col--6">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://gasclick.pe/img/cryptogas.webp" width={400}/>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://gasclick.pe/img/cryptogas.webp" width={300}/>
 						</div>
 					</div>
 

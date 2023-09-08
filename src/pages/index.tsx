@@ -3,11 +3,11 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import FeaturesSection from '@site/src/components/FeaturesSection';
-import SuiteSection from '@site/src/components/SuiteSection';
 import ValueChainSection from '@site/src/components/ValueChainSection';
 import DecentralizationSection from '@site/src/components/DecentralizationSection';
 import MaturityModelSection from '@site/src/components/MaturityModelSection';
+import FeaturesSection from '@site/src/components/FeaturesSection';
+import SuiteSection from '@site/src/components/SuiteSection';
 import AdoptersSections from '@site/src/components/AdoptersSection';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -29,12 +29,8 @@ function HomepageHeader() {
 							<h1 className='mb-5'>Catallactic (under construction)</h1>
 							<h1 className='mb-5'>Let's build a new economy</h1>
 							<h4 className='mb-5'>... because <i>'only fools confuse value and price'</i>. Antonio Machado.</h4>
-							<a className='btn btn-outline-light btn-lg me-2' href='https://github.com/Catallactic' role='button'>
-								Access on Github
-							</a>
-							<a className='btn btn-outline-light btn-lg ms-2' href='https://discord.gg/eN5q7haa' role='button'>
-								Access on Discord
-							</a>
+							<a className='btn btn-outline-light btn-lg m-3' href='https://github.com/Catallactic' role='button'>Access on Github</a>
+							<a className='btn btn-outline-light btn-lg m-3' href='https://discord.gg/eN5q7haa' role='button'>Access on Discord</a>
 						</div>
 					</div>
 				</div>
