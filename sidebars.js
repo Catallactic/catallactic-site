@@ -125,13 +125,30 @@ const sidebars = {
 				'funding/selling',
 				'funding/taxes',
 			],
-		},  {
+		}, {
       type: 'category',
       label: 'Launchpads',
       items: [
 				'funding/launchpads',
 			],
-		},  {
+		}, {
+			type: 'category',
+      label: 'Running Funding Rounds',
+      items: [
+				'suite/dapp-admin/funding-round/plan-funding-round',
+				'suite/dapp-admin/funding-round/prepare-funding-round',
+				'suite/dapp-admin/funding-round/create-funding-round',
+				'suite/dapp-admin/funding-round/manage-funding-round',
+				'suite/dapp-admin/funding-round/close-funding-round',
+				'suite/dapp-admin/funding-round/compliance-funding-round',
+			],
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Deploying to Exchanges</span>',
+    }, {
       type: 'category',
       label: 'TGE',
       items: [
@@ -152,18 +169,20 @@ const sidebars = {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Token Negotiation</span>',
     }, {
-      type: 'category',
-      label: 'Planning Deployment',
+			type: 'category',
+      label: 'Deploying to Exchanges',
       items: [
-				'negotiation/planning',
+				'suite/dapp-admin/exchanges/exchanges-deploy-choose',
+				'suite/dapp-admin/exchanges/exchanges-deploy-dex',
+				'suite/dapp-admin/exchanges/exchanges-deploy-cex',
 			],
 		}, {
-      type: 'category',
-      label: 'Deployment',
-      items: [
-				'negotiation/deployment',
-			],
-		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Trading</span>',
+    }, {
       type: 'category',
       label: 'Trading',
       items: [
