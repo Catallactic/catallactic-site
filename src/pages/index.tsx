@@ -22,16 +22,21 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
 		<header style={{ paddingLeft: 0 }}>
-			<div className='text-center bg-image' style={{ /* backgroundPosition: 'center', */backgroundSize: 'cover', backgroundImage: "url('https://static.wixstatic.com/media/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg/v1/fill/w_640,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg')", height: 600,  }} >
+			<div className='text-center bg-image' style={{ /* backgroundPosition: 'center', */backgroundSize: 'cover', backgroundImage: "url('https://static.wixstatic.com/media/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg/v1/fill/w_640,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg')", }} >
 				<div className={styles.mask} style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
-					<div className='d-flex justify-content-center align-items-center h-100'>
-						<div className='text-white'>
-							<h1 className='mb-5'>Catallactic (under construction)</h1>
-							<h1 className='mb-5'>Let's build a new economy</h1>
+					<div className='row d-flex justify-content-center align-items-center h-100 m-0 m-md-5'>
+						<div className='col-12 col-md-6 m-5'>
+							{/* <img src='https://www.fpmarkets.com/wp-content/themes/fptheme/image-2020/commodities/commodities-img.png'></img> */}
+							<img src='img/commodities1.png'></img>
+						</div>
+						<div className='col-12 col-md-4 text-white'>
+							<h1 className='mb-5'>Catallactic</h1>
+							<h2 className='mb-5'>Building a <b>real economy</b> backed by <b>commodities</b></h2>
 							<h4 className='mb-5'>... because <i>'only fools confuse value and price'</i>. Antonio Machado.</h4>
 							<a className='btn btn-outline-light btn-lg m-3' href='https://github.com/Catallactic' role='button'>Access on Github</a>
 							<a className='btn btn-outline-light btn-lg m-3' href='https://discord.gg/eN5q7haa' role='button'>Access on Discord</a>
 						</div>
+						<div className='col-2'></div>
 					</div>
 				</div>
 			</div>

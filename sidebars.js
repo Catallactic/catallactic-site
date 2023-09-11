@@ -74,7 +74,7 @@ const sidebars = {
 			],
 		}, {
       type: 'category',
-      label: 'Value Engineering',
+      label: 'Value Engineering (Demand)',
       items: [
 				'tokenization/value/ecosystem',
 				'tokenization/value/utility',
@@ -82,13 +82,13 @@ const sidebars = {
 			],
     }, {
       type: 'category',
-      label: 'Value Capture',
+      label: 'Supply Management (Supply)',
       items: [
 				'tokenization/tokenomics/supply',
 			],
     }, {
       type: 'category',
-      label: 'Maturity Model',
+      label: 'Capture',
       items: [
 				'tokenization/value/cmm'
 			],
