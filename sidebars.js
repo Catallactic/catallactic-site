@@ -131,7 +131,12 @@ const sidebars = {
       type: 'category',
       label: 'Perform Compliance',
       items: [
-				'funding/compliance/kyc',
+				'funding/compliance/jurisdiction',
+				'funding/compliance/license',
+				'funding/compliance/teamkyc',
+				'funding/compliance/investorskyc',
+				'funding/compliance/exchange',
+				'funding/compliance/bank',
 				'funding/compliance/taxes',
 			],
 		}, {
