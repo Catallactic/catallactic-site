@@ -121,6 +121,10 @@ const config = {
 						to: '/blog', 
 						label: 'Blog', 
 						position: 'right'
+					}, {
+						to: 'https://cryptonomics.network/', 
+						label: 'Forum', 
+						position: 'right'
 					},
         ],
       },

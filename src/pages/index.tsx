@@ -36,7 +36,7 @@ function HomepageHeader() {
 							<a className='btn btn-outline-light btn-lg m-3' href='https://github.com/Catallactic' role='button'>Access on Github</a>
 							<a className='btn btn-outline-light btn-lg m-3' href='https://discord.gg/eN5q7haa' role='button'>Access on Discord</a>
 						</div>
-						<div className='col-2'></div>
+						<div className='d-none col-md-2'></div>
 					</div>
 				</div>
 			</div>
