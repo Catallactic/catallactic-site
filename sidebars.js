@@ -116,14 +116,54 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Project Funding</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Preparing Funding</span>',
+    }, {
+      type: 'category',
+      label: 'Prepare Documentation',
+      items: [
+				'funding/preparing/roadmap',
+				'funding/preparing/whitepaper',
+				'funding/preparing/litepaper',
+				'funding/preparing/pitchdeck',
+				'funding/preparing/eMail',
+			],
+		}, {
+      type: 'category',
+      label: 'Perform Compliance',
+      items: [
+				'funding/compliance/kyc',
+				'funding/compliance/taxes',
+			],
+		}, {
+      type: 'category',
+      label: 'Advertise your Project',
+      items: [
+				'funding/advertising/agencies',
+				'funding/advertising/press',
+				'funding/advertising/ambassador',
+				'funding/advertising/influencers',
+				'funding/advertising/watchers',
+			],
+		}, {
+      type: 'category',
+      label: 'Build your Community',
+      items: [
+				'funding/community/ama',
+				'funding/community/community',
+				'funding/community/users',
+			],
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Project Funding Description</span>',
     }, {
       type: 'category',
       label: 'Funding Rounds',
       items: [
 				'funding/rounds',
 				'funding/selling',
-				'funding/taxes',
 			],
 		}, {
       type: 'category',
@@ -132,6 +172,12 @@ const sidebars = {
 				'funding/launchpads',
 			],
 		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading w-100 text-center">Funding with Catallactic Suite</span>',
+    }, {
 			type: 'category',
       label: 'Running Funding Rounds',
       items: [
@@ -143,14 +189,14 @@ const sidebars = {
 				'suite/dapp-admin/funding-round/compliance-funding-round',
 			],
 		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Deploying to Exchanges</span>',
-    }, {
       type: 'category',
-      label: 'TGE',
+      label: 'Perform Vesting',
+      items: [
+				'funding/TGE',
+			],
+		}, {
+      type: 'category',
+      label: 'Deploying to Exchanges',
       items: [
 				'funding/TGE',
 			],
