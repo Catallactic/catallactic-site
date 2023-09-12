@@ -27,7 +27,7 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Principles</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Value Capture Principles</span>',
     }, {
 			type: 'category',
 			label: 'Market',
