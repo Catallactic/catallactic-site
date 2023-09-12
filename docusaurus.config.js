@@ -195,7 +195,11 @@ const config = {
               }, {
                 label: 'GitHub',
                 href: 'https://github.com/Catallactic',
-              },
+              }, {
+								to: 'https://cryptonomics.network/', 
+								label: 'Forum', 
+								position: 'right'
+							},
             ],
           },
         ],

@@ -30,6 +30,18 @@ const sidebars = {
       value: '<span class="sidebar-heading w-100 text-center">Principles</span>',
     }, {
 			type: 'category',
+			label: 'Market',
+			items: [
+				'tokenization/market/market',
+			],
+		}, {
+			type: 'category',
+			label: 'Decentralization',
+			items: [
+				'tokenization/decentralization/decentralization',
+			],
+		}, {
+			type: 'category',
 			label: 'Privacy',
 			items: [
 				'tokenization/privacy/privacy',
@@ -53,12 +65,6 @@ const sidebars = {
 			label: 'Reporting',
 			items: [
 				'tokenization/reporting/reporting',
-			],
-		}, {
-			type: 'category',
-			label: 'Decentralization',
-			items: [
-				'tokenization/decentralization/decentralization',
 			],
 		}, {
 			type: 'html',
