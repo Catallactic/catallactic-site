@@ -3,12 +3,12 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import ValueChainSection from '@site/src/components/ValueChainSection';
-import DecentralizationSection from '@site/src/components/DecentralizationSection';
-import MaturityModelSection from '@site/src/components/MaturityModelSection';
-import FeaturesSection from '@site/src/components/FeaturesSection';
-import SuiteSection from '@site/src/components/SuiteSection';
-import AdoptersSections from '@site/src/components/AdoptersSection';
+import ValueChainSection from '@site/src/components/sections/ValueChainSection';
+import DecentralizationSection from '@site/src/components/sections/DecentralizationSection';
+import MaturityModelSection from '@site/src/components/sections/MaturityModelSection';
+import FeaturesSection from '@site/src/components/sections/FeaturesSection';
+import SuiteSection from '@site/src/components/sections/SuiteSection';
+import AdoptersSections from '@site/src/components/sections/AdoptersSection/index';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
