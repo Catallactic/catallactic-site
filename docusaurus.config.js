@@ -50,6 +50,7 @@ const config = {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
 					showReadingTime: true,
+					sortPosts: 'ascending',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
