@@ -47,7 +47,9 @@ const config = {
             'https://github.com/Catallactic/catallactic-site/blob/main',
         },
         blog: {
-          showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+					showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

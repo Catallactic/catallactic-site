@@ -1,11 +1,16 @@
 ---
-slug: Fundraising for the real economy
-title: Fundraising for the real economy
+slug: Fundraising for the Real Economy
+title: Fundraising for the Real Economy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
 
 # Fundraising for the real economy
+---
+
+:::danger
+`(Under development. Please, come back later. Just published to share the progress)`
+:::
 
 ## The TradFi Fundraising model
 

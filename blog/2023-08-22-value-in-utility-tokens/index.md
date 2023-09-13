@@ -1,11 +1,11 @@
 ---
-slug: The Abandoned Road
-title: The Abandoned Road
+slug: Value in Utility Tokens
+title: Value in Utility Tokens
 authors: [catallactic, pellyadolfo]
 tags: [facebook, hello, docusaurus]
 ---
 
-# The Abandoned Road
+# Value in Utility Tokens
 ---
 
 :::danger

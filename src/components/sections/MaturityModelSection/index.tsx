@@ -19,13 +19,13 @@ export default function MaturityModelSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Maturity Model</h3>
 							<p>Different currencies can have different levels of capture and decentralization so we must create a maturity model to incentivize good practices. </p>
-							<a className='d-block btn btn-lg mt-4' href='docs/defi/intro' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/value/cmm' role='button'>Learn More</a>
 						</div>
 					</div>
 
 					<div className="col col--6">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://acuityppm.com/wp-content/webpc-passthru.php?src=https://acuityppm.com/wp-content/uploads/2019/09/PPM-Maturity-Model2-1024x791-1-1024x791.jpg&nocache=1" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model.svg" />
 						</div>
 					</div>
 
