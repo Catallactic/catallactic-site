@@ -2,7 +2,7 @@
 slug: Value in Utility Tokens
 title: Value in Utility Tokens
 authors: [catallactic, pellyadolfo]
-tags: [facebook, hello, docusaurus]
+tags: [crypto, RWA, tokenization]
 ---
 
 # Value in Utility Tokens

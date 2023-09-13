@@ -2,7 +2,7 @@
 slug: The Abandoned Road
 title: The Abandoned Road
 authors: [catallactic, pellyadolfo]
-tags: [facebook, hello, docusaurus]
+tags: [money]
 ---
 
 # The Abandoned Road

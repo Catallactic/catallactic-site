@@ -2,7 +2,7 @@
 slug: Types of Cryptocurrencies
 title: Types of Cryptocurrencies
 authors: [catallactic, pellyadolfo]
-tags: [facebook, hello, docusaurus]
+tags: [crypto, RWA, tokenization]
 ---
 
 # Types of Cryptocurrencies
