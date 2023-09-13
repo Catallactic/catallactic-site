@@ -12,12 +12,14 @@ tags: [crypto, RWA, tokenization]
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-A cryptocurrncy is mad o 3 lmnts:
-- th undrlying assts (part o th dmand)
-- th st o unctionliatis (part o th dmand)
-- th montary policy (part o th upply)
+A cryptocurrency is made o 3 elements:
+- the underlying asset (as part of the demand)
+- the set of functionalities (part of the demand)
+- the monetary policy (part of the supply)
 
-w will discuss th montary policy in this post and lav th othr aspcts or nxt posts.
+We will discuss the Monetary Policies in this post and leave the other aspects for next posts.
+
+<!-- truncate -->
 
 Th montary polcy has  componnts:
 

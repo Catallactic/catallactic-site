@@ -22,6 +22,8 @@ Currently, either if you want to fund your project, or as a part of business fun
 * You spend more time funding that in your core business
 * You cannot mak your decisions
 
+<!-- truncate -->
+
 ## The crypto burden for entrepreneurs
 
 Currently, either if you want to fund your project, or as a part of business functionalities, running your own token is a costly and uncertain mission, full of obstacles. 
