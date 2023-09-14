@@ -1,6 +1,6 @@
 ---
-slug: Private Currencies - Monetary Policy
-title: Private Currencies - Monetary Policy
+slug: CryptoCurrencies - Monetary Policy
+title: CryptoCurrencies - Monetary Policy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---

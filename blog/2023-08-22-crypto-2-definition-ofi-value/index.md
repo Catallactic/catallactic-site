@@ -1,6 +1,6 @@
 ---
-slug: Private Currencies - Underlaying Assets
-title: Private Currencies - Underlaying Assets
+slug: CryptoCurrencies - Definition of Value
+title: CryptoCurrencies - Definition of Value
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
@@ -17,9 +17,18 @@ A cryptocurrency is made of 3 elements:
 - the provided value (as part of the demand)
 - the monetary policy (part of the supply)
 
-We will discuss the Underlying Assets in this post and leave the other aspects for next posts.
+We will discuss the Provided Value in this post and leave the other aspects for next posts.
 
 <!-- truncate -->
 
+## Token Ecosystem
 
+
+## Token Utility
+
+
+## Token Intrinsic Value
+
+
+## Token Speculative Value
 
