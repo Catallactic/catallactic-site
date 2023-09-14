@@ -5,6 +5,9 @@ authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
 
+import JSONTable from '@site/src/components/ui/JSONTable';
+import data from "/static/data/underlying.json"
+
 # Value Definition in Utility Tokens
 ---
 
@@ -22,4 +25,4 @@ We will discuss the Underlying Assets in this post and leave the other aspects f
 <!-- truncate -->
 
 
-
+<JSONTable theadData={Object.keys(data[0])} tbodyData={data}/>

@@ -17,7 +17,7 @@ export default function MaturityModelSection(): JSX.Element {
 
 					<div className="col col--6">
 						<div className="text--center padding-horiz--md">
-							<h3>Maturity Model</h3>
+							<h3>Tokenization Maturity Model</h3>
 							<p>Different currencies can have different levels of capture and decentralization so we must create a maturity model to incentivize good practices. </p>
 							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/value/cmm' role='button'>Learn More</a>
 						</div>
