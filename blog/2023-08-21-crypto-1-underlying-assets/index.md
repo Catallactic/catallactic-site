@@ -1,6 +1,6 @@
 ---
-slug: CryptoCurrencies - Underlaying Assets
-title: CryptoCurrencies - Underlaying Assets
+slug: CryptoCurrencies - Underlying Assets
+title: CryptoCurrencies - Underlying Assets
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
