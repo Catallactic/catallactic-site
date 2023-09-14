@@ -13,7 +13,7 @@ image: /img/catallactic-banner.jpg
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-## Commodeties
+## Commodities
 
 ## Crowdsolving
 

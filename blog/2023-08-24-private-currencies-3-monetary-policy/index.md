@@ -1,6 +1,6 @@
 ---
-slug: Types of Cryptocurrencies
-title: Types of Cryptocurrencies
+slug: Private Currencies - Monetary Policy
+title: Private Currencies - Monetary Policy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
@@ -12,20 +12,20 @@ tags: [crypto, RWA, tokenization]
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-A cryptocurrency is made o 3 elements:
+A cryptocurrency is made of 3 elements:
 - the underlying asset (as part of the demand)
-- the set of functionalities (part of the demand)
+- the provided value (as part of the demand)
 - the monetary policy (part of the supply)
 
 We will discuss the Monetary Policies in this post and leave the other aspects for next posts.
 
 <!-- truncate -->
 
-Th montary polcy has  componnts:
+The monetary policy has 2 components:
 
-- th dinition o th supply
+- the definition of the supply
 
-- th managmnt o th spply
+- the management of the spply
 
 ## Supply Definition Policies
 
@@ -49,11 +49,11 @@ Depending on the goal of every project, a supply definition strategy must be dec
 
 
 
-## Supply Managmnt Policies
+## Supply Management Policies
 
 
 
-## A cyrptocurrency maturity model
+## A cryptocurrency maturity model
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:
 
