@@ -6,9 +6,15 @@ tags: [crypto, RWA, tokenization]
 image: https://i.imgur.com/mErPwqL.png
 ---
 
-# Estimating investors profit
----
-
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
+
+## Introduction
+
+# Estimating investors profit
+---
+
+
+## Introduction
+

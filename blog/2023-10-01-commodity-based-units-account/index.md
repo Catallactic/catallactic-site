@@ -6,22 +6,24 @@ tags: [crypto, RWA, tokenization]
 image: https://i.imgur.com/mErPwqL.png
 ---
 
-# Creating Cryptocurrency-based Units of Account
+# Creating Units of Account
 ---
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-Not all cryptocurrencies are created equal. Claiming that a cryptocurrency is backed by real state, by equity or by loyalty coupons says nothing about how the cryptocurrency works, how the supply is managed, how it is bound to the underlying assets about says little about the protocol. 
+## Introduction
 
-Existing cryptocurrencies come mainly in 2 flavours:
+Existing cryptocurrencies come mainly in 3 flavours:
 
-- either they backed by some undefined amount of intrinsic value (utility tokens) and this value is proportional to the utility that is assigned to the token, or
+- the weakest tokens are unbacked,
 
-- they are artificially forced to capture a price (stablecoins, synths, security tokens).
+- utility tokens are they backed by some undetermined amount of value,
 
-Here we are introducing a new kind of cryptocurrency: a Cryptocurrency-based Units of Account.On
+- and finally we have tokens which are artificially forced to capture a price (stablecoins, synths, security tokens).
+
+Here we are introducing a new kind of cryptocurrency: **a Unit of Account**.
 
 <!-- truncate -->
 

@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:zoom="0.37504688"
-     inkscape:cx="1129.1922"
+     inkscape:cx="975.878"
      inkscape:cy="315.9605"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
@@ -223,7 +223,7 @@
        inkscape:transform-center-x="1.8461432"><tspan
          x="375.33167"
          y="119.24981"
-         id="tspan1126">UNITS OF ACCOUNT</tspan></text>
+         id="tspan1000">UNITS OF ACCOUNT</tspan></text>
     <rect
        style="display:inline;fill:#f6f6f6;fill-opacity:1;stroke:#00110f;stroke-width:0.392821;stroke-linejoin:round;stroke-opacity:0.884574"
        id="rect1011-0-5-5-5-5"
@@ -342,7 +342,7 @@
        ry="0.064824291"
        transform="scale(1,-1)" />
     <rect
-       style="display:inline;fill:#f6f6f6;fill-opacity:1;stroke:#00110f;stroke-width:0.284288;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.884574"
+       style="display:inline;fill:#a1d38f;fill-opacity:1;stroke:#00110f;stroke-width:0.284288;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.884574"
        id="rect1011-0-5-3"
        width="55.395401"
        height="41.352188"
