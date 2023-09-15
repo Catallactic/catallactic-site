@@ -10,6 +10,7 @@ import JSONTable from '@site/src/components/ui/JSONTable';
 import underlying from "/static/data/underlying.json"
 import economic_value from "/static/data/economic_value.json"
 import utility from "/static/data/utility.json"
+import tokens_utility from "/static/data/tokens_utility.json"
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
@@ -49,7 +50,7 @@ All these theories of economic value can be classified in 2: objective and subje
 
 According to the nature of the value and the way that the value is captured, we have different types of cryptocurrencies:
 
-
+<JSONTable theadData={Object.keys(tokens_utility[0])} tbodyData={tokens_utility}/>
 
 Once the value is captured, we need to provide additional utilities to the token to retain and, maybe, grow, this value to maintain velocity of circulation under controlled margins.
 
