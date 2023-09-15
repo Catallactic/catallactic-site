@@ -4,9 +4,12 @@ title: Tokenization I - Demand - Value
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
+---
 
 import JSONTable from '@site/src/components/ui/JSONTable';
-import data from "/static/data/economic_value.json"
+import underlying from "/static/data/underlying.json"
+import economic_value from "/static/data/economic_value.json"
+import utility from "/static/data/utility.json"
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
@@ -24,12 +27,14 @@ In this post we will examine the demand and leave supply and monetary policy for
 
 # Tokenizable Assets
 
-<JSONTable theadData={Object.keys(data[0])} tbodyData={data}/>
+<JSONTable theadData={Object.keys(underlying[0])} tbodyData={underlying}/>
 
 # Token Ecosystem
 
 
 # Token Utility
+
+<JSONTable theadData={Object.keys(utility[0])} tbodyData={utility}/>
 
 
 # Token Intrinsic Value
@@ -38,7 +43,7 @@ Intrinsic value is the value that the token gains from the credibility and utili
 
 Economic value differs according to the different Schools of Economic Thought. This is relevant because, when we design a token, we can adhere to the Economic School of our choice. Below there is simplified list of economic values:
 
-<JSONTable theadData={Object.keys(data[0])} tbodyData={data}/>
+<JSONTable theadData={Object.keys(economic_value[0])} tbodyData={economic_value}/>
 
 All these theories of economic value can be classified in 2: objective and subjective value theories. The objective, or intrinsic, theories of value hold that the value of an object, or a good, or service, is intrinsic, meaning that it can be estimated using objective measures. Most such theories look to the process of producing an item, and the costs involved in that process, as a measure of the item's intrinsic value. The subjective theory of value, instead, states that prices of goods and services in a market are determined by the subjective preferences of consumers.
 

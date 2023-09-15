@@ -5,6 +5,7 @@ authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: https://i.imgur.com/mErPwqL.png
 ---
+---
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
@@ -12,9 +13,7 @@ image: https://i.imgur.com/mErPwqL.png
 
 ## Introduction
 
-# Estimating investors profit
----
+## Estimating investors profit
 
 
-## Introduction
 

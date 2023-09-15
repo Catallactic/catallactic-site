@@ -4,12 +4,16 @@ title: Tokenization III - Monetary Policy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
+---
+
+import JSONTable from '@site/src/components/ui/JSONTable';
+import tokens_utility from "/static/data/tokens_utility.json"
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-# Introduction
+## Introduction
 
 The nature, behaviour and price of a cryptocurrency is determined by the interaction between a demand and a supply coordinated by a monetary policy. Depending on the policy we will have different types of tokens.
 
@@ -19,7 +23,7 @@ We will discuss the Monetary Policies in this post and leave demand and supply f
 
 <!-- truncate -->
 
-# Supply Definition Policies
+## Supply Definition Policies
 
 On determining the token supply we can decide between 6 scenarios:
 
@@ -33,20 +37,46 @@ Finally, to capture the natural value of the collateral, as a natural Unit of Ac
 
 Depending on the goal of every project, a supply definition strategy must be decided. A combination of strategies is also a valid option. The next sections will identify possible combinations of supply definition, collateral nature and capture goals.
 
-- ## No Capture Tokens
+### No Capture Tokens
 
-- ## Price Capture Tokens
+#### Unbacked Tokens
 
-- ## Value Capture Tokens
+#### Utility Tokens
+
+<JSONTable theadData={Object.keys(tokens_utility[0])} tbodyData={tokens_utility}/>
 
 
-# A cryptocurrency maturity model
+### Price Capture Tokens
+
+#### Stablecoins
+
+Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
+
+#### Security Tokens
+
+Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
+
+### Value Capture Tokens
+
+
+#### NFTs
+
+
+
+#### Units of Account
+
+Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
+
+
+
+## A Tokenization Maturity Model
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:
 
-Decentralization in the network consensus. Existing great work by a16z for protocols decentralization should be referenced here
-Decentralization in the smart contract
-Independence from other currencies
+- Decentralization in the network consensus. Existing great work by a16z for protocols decentralization should be referenced here
+- Decentralization in the smart contract
+- Independence from other currencies
+
 In that way, 2 tokenization protocols capturing gold as underlying asset, could be at different level of maturity depending on the goods of the designed protocol.
 
 The picture below represents a initial structure of the maturity model. It only considers the goal of the capture process. Sub-levels could be established to accommodate different degrees of issuer intervention.

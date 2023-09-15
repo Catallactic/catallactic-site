@@ -5,8 +5,6 @@ authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: /img/catallactic-banner.jpg
 ---
-
-# Units of Account as drivers of Wealth
 ---
 
 :::danger

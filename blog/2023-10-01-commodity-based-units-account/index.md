@@ -5,8 +5,6 @@ authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: https://i.imgur.com/mErPwqL.png
 ---
-
-# Creating Units of Account
 ---
 
 :::danger

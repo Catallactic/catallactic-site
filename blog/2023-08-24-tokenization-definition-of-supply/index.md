@@ -4,6 +4,7 @@ title: Tokenization II  - Supply
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
+---
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`

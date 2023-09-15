@@ -4,6 +4,7 @@ title: The Evolution of Money
 authors: [catallactic, pellyadolfo]
 tags: [money]
 ---
+---
 
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
@@ -33,7 +34,7 @@ tags: [money]
     <td>Crypto</td>
   </tr>
   <tr>
-    <td>Scarce</td>
+    <td>Uniform</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -43,7 +44,17 @@ tags: [money]
     <td>-</td>
   </tr>
   <tr>
-    <td>Uniform</td>
+    <td>Divisible</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Scarce</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -73,16 +84,6 @@ tags: [money]
     <td>-</td>
   </tr>
   <tr>
-    <td>Divisibible</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
     <td>Acceptable</td>
     <td>-</td>
     <td>-</td>
@@ -103,10 +104,10 @@ tags: [money]
     <td>-</td>
   </tr>
   <tr>
-    <td></td>
+    <td>Engine</td>
     <td colspan='4'>Price Formation Machine</td>
     <td colspan='2'>Abandoned Road</td>
-    <td>-</td>
+    <td>Many</td>
   </tr>
 </table>
 
@@ -125,7 +126,9 @@ A Negative feedback occurs when some function of the output of a system is fed b
 
 A Negative feedback tends to reduce the effects of gain change but, in exchange, increases stability. A negative feedback system is a self regulation mechanism that helps maintain stability or balance in a system.
 
-Characteristics
+### How does it work?
+
+Features
 - Price formation follows marginal wishes of consumers
 - Relative prices prioritize consumers wishes
 - Resources are allocated according to consumers wishes.
@@ -136,6 +139,8 @@ Characteristics
 - New demand is always satisfied by providers.
 - Values are freely chosen by citizens.
 
+### Why this configuration fails?
+
 Problems
 - Hoarding
 - Externalities
@@ -144,6 +149,8 @@ Problems
 - The Problem of Credit
 
 ## The abandoned road
+
+The road is abandoned when the price formation is broken
 
 Monetary Expansion
 Central Planning
@@ -164,11 +171,13 @@ In a positive feedback mechanism, the output of the system stimulates the system
 | ![Supply Definition Monetary Policies](./closed_loop_noise_signal.jpg)   | ![Supply Definition Monetary Policies](./positivefeedbackloop-590.webp)  | 
 |-------------------------------------------------------|-----------------------------------------------------------------------|
 
-Characteristics
+### Why this configuration fails?
+
 - Price Formation is distorted.
 - Distortion in relative prices
 - Misallocation of resources.
-- Entrepreneurs get distorted signals about market demand. Impossibility of Economic Calculation
+- Impossibility of Economic Calculation
+- Entrepreneurs get distorted signals about market demand.
 - Companies are funded by credit.
 - High entry barriers for new providers.
 - Projects risks is transferred to citizens
@@ -178,6 +187,7 @@ Characteristics
 ## Where we are?
 
 ![Supply Definition Monetary Policies](./nature_money_horizontal.svg)
+
 
 ## Privately Issued Currencies
 
@@ -214,8 +224,108 @@ What if the government let anyone use a currency of his or her choosing? What if
 ![Supply Definition Monetary Policies](https://m.media-amazon.com/images/I/51yRY-k7x4L.jpg)
 
 
+### Why this configuration fails?
+
 ## Crypto
 
 ### Tokenization
 
+
+
 ![Supply Definition Monetary Policies](./tokenization.svg)
+
+## Comparison
+
+<table>
+  <tr>
+    <td></td>
+    <td>Barter, Commodity, Metal, Representative</td>
+    <td>Fiat, Plastic</td>
+    <td>Private Currencies</td>
+    <td>Crypto</td>
+  </tr>
+  <tr>
+    <td>Price Formation</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Relative Prices</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Liquidity Available</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Critical Resources</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Allocation of Resources</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Economic Calculation</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Credit Availability</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Entry Barriers</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Projects Risk</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Supply / Demand matching	</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Externalities</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Social Values</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
