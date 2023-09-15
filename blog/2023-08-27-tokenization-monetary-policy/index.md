@@ -14,6 +14,7 @@ import tokens_utility from "/static/data/tokens_utility.json"
 :::
 
 ## Introduction
+---
 
 The nature, behaviour and price of a cryptocurrency is determined by the interaction between a demand and a supply coordinated by a monetary policy. Depending on the policy we will have different types of tokens.
 
@@ -23,7 +24,39 @@ We will discuss the Monetary Policies in this post and leave demand and supply f
 
 <!-- truncate -->
 
+## Token Price
+---
+
+### Price Determination
+
+As with any other asset, the price for a token is determined as an equilibrium between demand and supply. Price of Token A expressed in token B is the number of units of token B that investors are willing to pay to acquire a unit of token A.
+
+![Supply Definition Monetary Policies](./supply-and-demand-curve.webp)
+
+This evaluation between supply and demand is carried out in the exchanges. Additionally price for a token pair uses to be uniform across the exchanges because arbitrage.
+
+![Supply Definition Monetary Policies](./price_determination2.svg)
+
+The lower the total traded supply amount across the liquidity pools for a token, the higher the price will get in the exchanges.
+
+### Price Components
+
+As in CRYPTOGAS the supply is fixed in the Value Capture Stage, the price will be only determined by demand, as described in CRYPTOGAS Engineering. In order to increase CRYPTOGAS price we must increase the demand of the token. This will move to investor to hold CRYPTOGAS in their portfolios, the traded supply will be reduced and the price will move higher.
+
+The price will have several components.
+
+* 1 - By guaranteeing that the intrinsic value of the underlying asset is captured we can assume that at the medium term, the value of the token will be 15$. Besides the described base scenario, there are additional deflationary reasons that suggest price of underlying asset will get higher from this baseline:.
+
+* 2 - Gas prices are growing because oil scarcity
+
+* 3 - A token shared by millions can easily find additional utilities in the shape of DeFi Services
+
+* 4 - Finally we must maximize speculative value by providing quality of products and services.
+
+![Supply Definition Monetary Policies](./price_estimations_black.svg)
+
 ## Supply Definition Policies
+---
 
 On determining the token supply we can decide between 6 scenarios:
 
@@ -536,6 +569,7 @@ Value Capture Tokens capture the underlying value by matching their supply with 
 </table>
 
 ## A Tokenization Maturity Model
+---
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:
 
