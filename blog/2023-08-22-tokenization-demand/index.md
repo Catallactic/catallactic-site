@@ -1,6 +1,6 @@
 ---
-slug: Tokenization I - Demand - Value
-title: Tokenization I - Demand - Value
+slug: Tokenization I - Demand
+title: Tokenization I - Demand
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
