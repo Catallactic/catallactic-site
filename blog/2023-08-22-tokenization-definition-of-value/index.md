@@ -16,7 +16,8 @@ import tokens_utility from "/static/data/tokens_utility.json"
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-## Introduction
+## 1. Introduction
+---
 
 The nature, behaviour and price of a cryptocurrency is determined by the interaction between a demand and a supply coordinated by a monetary policy. Depending on the policy we will have different types of tokens.
 
@@ -26,17 +27,18 @@ In this post we will examine the demand and leave supply and monetary policy for
 
 <!-- truncate -->
 
-## Tokenizable Assets
+## 2. Tokenizable Assets
+---
 
 <JSONTable theadData={Object.keys(underlying[0])} tbodyData={underlying}/>
 
-## Token Utility
+## 3. Token Utility
 
-### Token Ecosystem
+### 3.1. Token Ecosystem
 
 ![Supply Definition Monetary Policies](https://gasclick.co/img/cryptogas_ecosystem_core.svg)
 
-### Token Utilities
+### 3.2. Token Utilities
 
 ![Supply Definition Monetary Policies](https://gasclick.co/img/cryptogas_token_model.svg)
 
@@ -79,19 +81,19 @@ In this post we will examine the demand and leave supply and monetary policy for
 	</tbody>
 </table>
 
-## Token Extended Utility
+## 4. Token Extended Utility
 
-### Typical Token Utilities
+### 4.1. Token Extended Ecosystem
 
 ![Supply Definition Monetary Policies](https://gasclick.co/img/cryptogas_ecosystem_layers.svg)
 
-### Typical Token Utilities
+### 4.2. Typical Token Utilities
 
 <JSONTable theadData={[ 'type', 'name' ]} tbodyData={utility}/>
 
-## Token Intrinsic Value
+## 5. Token Intrinsic Value
 
-### Definition of Value
+### 5.1. Definition of Value
 
 Economic value differs according to the different Schools of Economic Thought. This is relevant because, when we design a token, we can adhere to the Economic School of our choice. Below there is simplified list of economic values:
 
@@ -102,7 +104,7 @@ All these theories of economic value can be classified in 2:
 
 - subjective value theories. The subjective theory of value, instead, states that prices of goods and services in a market are determined by the subjective preferences of consumers.
 
-### Tokens by Value Definition
+### 5.2. Tokens by Value Definition
 
 According to the nature of the value and the way that the value is captured, we have different types of cryptocurrencies:
 
@@ -110,10 +112,10 @@ According to the nature of the value and the way that the value is captured, we 
 
 Once the value is captured, we need to provide additional utilities to the token to retain and, maybe, grow, this value to maintain velocity of circulation under controlled margins.
 
-### Subjective Token Value
+### 5.3. Subjective Token Value
 
 Intrinsic value is the value that the token gains from the credibility and utility of its project.
 
-## Token Speculative Value
+## 6. Token Speculative Value
 
 Speculative value is the value that the token gains from speculations traders make on a token's price.

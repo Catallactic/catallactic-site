@@ -10,7 +10,8 @@ tags: [crypto, RWA, tokenization]
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-# Introduction
+# 1. Introduction
+---
 
 The nature, behaviour and price of a cryptocurrency is determined by the interaction between a demand and a supply coordinated by a monetary policy. Depending on the policy we will have different types of tokens.
 
@@ -20,24 +21,26 @@ We will discuss the Supply and Supply Management in this post and leave demand a
 
 <!-- truncate -->
 
-# Supply Components
+# 2. Supply Components
+---
 
 ![Supply Components](./token_supply_components.svg)
 
 
-# Supply Management
-
+# 3. Supply Management
+---
 
 Reserve
 
 
-# Supply Management Policies
+# 4. Supply Management Policies
+---
 
-- ## Burn and Mint Equilibrium
-
-
-- ## Stability Fees
+## 4.1. Burn and Mint Equilibrium
 
 
-- ## Elastic Supply Tokens (Rebases)
+## 4.2. Stability Fees
+
+
+## 4.3. Elastic Supply Tokens (Rebases)
 

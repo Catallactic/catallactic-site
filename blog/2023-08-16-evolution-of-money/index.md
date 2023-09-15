@@ -10,7 +10,8 @@ tags: [money]
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-## Introduction
+## 1. Introduction
+---
 
 <table>
   <tr>
@@ -113,9 +114,10 @@ tags: [money]
 
 <!-- truncate -->
 
-## The price formation machine
+## 2. The price formation machine
+---
 
-### Negative Feedback System
+### 2.1. Negative Feedback System
 
 A society with a good as money creates a Negative feedback System. This can be applied to Barter, Commodity Money and Metal Money. A society with a money which value can be traced back ("regressed") to its value as a commodity also creates a Negative feedback System. This can be applied to Representative Money.
 
@@ -126,7 +128,7 @@ A Negative feedback occurs when some function of the output of a system is fed b
 
 A Negative feedback tends to reduce the effects of gain change but, in exchange, increases stability. A negative feedback system is a self regulation mechanism that helps maintain stability or balance in a system.
 
-### How does it work?
+### 2.2. How does it work?
 
 Features
 - Price formation follows marginal wishes of consumers
@@ -139,7 +141,7 @@ Features
 - New demand is always satisfied by providers.
 - Values are freely chosen by citizens.
 
-### Why this configuration fails?
+### 2.3. Why this configuration fails?
 
 Problems
 - Hoarding
@@ -148,7 +150,8 @@ Problems
 - Money Scarcity
 - The Problem of Credit
 
-## The abandoned road
+## 3. The abandoned road
+---
 
 The road is abandoned when the price formation is broken
 
@@ -162,7 +165,7 @@ Scientifically planned society. Debate on neutrality of money, Normative vs posi
 
 You can explore a more extended list of changes on this web.
 
-### Positive Feedback System
+### 3.1. Positive Feedback System
 
 A society driven by monetary expansion is an example of Positive Feedback System
 
@@ -171,7 +174,7 @@ In a positive feedback mechanism, the output of the system stimulates the system
 | ![Supply Definition Monetary Policies](./closed_loop_noise_signal.jpg)   | ![Supply Definition Monetary Policies](./positivefeedbackloop-590.webp)  | 
 |-------------------------------------------------------|-----------------------------------------------------------------------|
 
-### Why this configuration fails?
+### 3.2. Why this configuration fails?
 
 - Price Formation is distorted.
 - Distortion in relative prices
@@ -184,14 +187,16 @@ In a positive feedback mechanism, the output of the system stimulates the system
 - Mismatches between supply and demand. Cantillon effects
 - Values imposed by credit preferences.
 
-## Where we are?
+## 4. Where we are?
+---
 
 ![Supply Definition Monetary Policies](./nature_money_horizontal.svg)
 
 
-## Privately Issued Currencies
+## 5. Privately Issued Currencies
+---
 
-### Currency as a driver
+### 5.1. Currency as a driver
 
 A Society with Privately Issued Currencies is a return to the Negative Feedback System but solves the problem of this structure
 
@@ -201,7 +206,7 @@ A Society with Privately Issued Currencies is a return to the Negative Feedback 
 - No Money Scarcity
 - Availability of Credit
 
-### Best of both worlds
+### 5.2. Best of both worlds
 
 Debt without Cantillon
 
@@ -218,21 +223,23 @@ Debt without Cantillon
 - Correct match demand/supply. Having the correct price formation for goods and services according to the will of citizens guarantees their supply matches exactly their expected demand without overpricing or undervalued mismatches of centralized money issuing. Let me social machine work on its own without bias.
 - Values are freely chosen by citizens.
 
-### Not a new idea
+### 5.3. Not a new idea
 
 What if the government let anyone use a currency of his or her choosing? What if the government permitted entrepreneurs to innovate in the monetary sector, such as by creating digital currencies or minting commodity money? This is precisely what F.A. Hayek argues in his book.
 
 ![Supply Definition Monetary Policies](https://m.media-amazon.com/images/I/51yRY-k7x4L.jpg)
 
-## Crypto
+## 6. Crypto
+---
 
-### Tokenization
+### 6.1. Tokenization
 
 Tokenization is the process of converting something with tangible or intangible value into digital tokens.
 
 ![Supply Definition Monetary Policies](./tokenization.svg)
 
-## Comparison
+## 7. Comparison
+---
 
 <table>
   <tr>

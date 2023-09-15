@@ -13,7 +13,7 @@ import tokens_utility from "/static/data/tokens_utility.json"
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-## Introduction
+## 1. Introduction
 ---
 
 The nature, behaviour and price of a cryptocurrency is determined by the interaction between a demand and a supply coordinated by a monetary policy. Depending on the policy we will have different types of tokens.
@@ -24,10 +24,10 @@ We will discuss the Monetary Policies in this post and leave demand and supply f
 
 <!-- truncate -->
 
-## Token Price
+## 2. Token Price
 ---
 
-### Price Determination
+### 2.1 Price Determination
 
 As with any other asset, the price for a token is determined as an equilibrium between demand and supply. Price of Token A expressed in token B is the number of units of token B that investors are willing to pay to acquire a unit of token A.
 
@@ -39,7 +39,7 @@ This evaluation between supply and demand is carried out in the exchanges. Addit
 
 The lower the total traded supply amount across the liquidity pools for a token, the higher the price will get in the exchanges.
 
-### Price Components
+### 2.2 Price Components
 
 As in CRYPTOGAS the supply is fixed in the Value Capture Stage, the price will be only determined by demand, as described in CRYPTOGAS Engineering. In order to increase CRYPTOGAS price we must increase the demand of the token. This will move to investor to hold CRYPTOGAS in their portfolios, the traded supply will be reduced and the price will move higher.
 
@@ -55,7 +55,7 @@ The price will have several components.
 
 ![Supply Definition Monetary Policies](./price_estimations_black.svg)
 
-## Supply Definition Policies
+## 3. Supply Definition Policies
 ---
 
 On determining the token supply we can decide between 6 scenarios:
@@ -133,13 +133,13 @@ Finally, to capture the natural value of the collateral, as a natural Unit of Ac
 	</tbody>
 </table>
 
-Depending on the goal of every project, a supply definition strategy must be decided. A combination of strategies is also a valid option. The next sections will identify possible combinations of supply definition, collateral nature and capture goals.
+Depending on the goal of every project, a supply definition strategy must be decided. A combination of strategies is also a valid option.
 
-### No Capture Tokens
+### 3.1. No Capture Tokens
 
-#### Unbacked Tokens
+#### 3.1.1. Unbacked Tokens
 
-#### Utility Tokens
+#### 3.1.2. Utility Tokens
 
 Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
 
@@ -282,9 +282,9 @@ Utility backed tokens are backed by some utility or service, but they do not fol
 </table>
 
 
-### Price Capture Tokens
+### 3.2. Price Capture Tokens
 
-#### Stablecoins
+#### 3.2.1 Stablecoins
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
 
@@ -487,7 +487,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
-#### Security Tokens
+#### 3.2.2 Security Tokens
 
 Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
 
@@ -532,14 +532,14 @@ Security tokens are digital assets that represent ownership or other rights to t
 	</tbody>
 </table>
 
-### Value Capture Tokens
+### 3.3. Value Capture Tokens
 
 
-#### NFTs
+#### 3.3.1. NFTs
 
 
 
-#### Units of Account
+#### 3.3.2. Units of Account
 
 Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
 
@@ -568,7 +568,7 @@ Value Capture Tokens capture the underlying value by matching their supply with 
 	</tbody>
 </table>
 
-## A Tokenization Maturity Model
+## 4. A Tokenization Maturity Model
 ---
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:
