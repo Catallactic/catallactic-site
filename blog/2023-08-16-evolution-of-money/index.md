@@ -9,7 +9,7 @@ tags: [money]
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-# The Evolution of Money
+## Introduction
 
 <table>
   <tr>
@@ -102,6 +102,12 @@ tags: [money]
     <td>-</td>
     <td>-</td>
   </tr>
+  <tr>
+    <td></td>
+    <td colspan='4'>Price Formation Machine</td>
+    <td colspan='2'>Abandoned Road</td>
+    <td>-</td>
+  </tr>
 </table>
 
 <!-- truncate -->
@@ -139,7 +145,7 @@ Problems
 
 ## The abandoned road
 
-### Monetary Expansion
+Monetary Expansion
 Central Planning
 
 Scientifically planned society. Debate on neutrality of money, Normative vs positive economics
@@ -169,13 +175,13 @@ Characteristics
 - Mismatches between supply and demand. Cantillon effects
 - Values imposed by credit preferences.
 
-# Where we are?
+## Where we are?
 
 ![Supply Definition Monetary Policies](./nature_money_horizontal.svg)
 
-# Privately Issued Currencies
+## Privately Issued Currencies
 
-## Currency as a driver
+### Currency as a driver
 
 A Society with Privately Issued Currencies is a return to the Negative Feedback System but solves the problem of this structure
 
@@ -185,7 +191,7 @@ A Society with Privately Issued Currencies is a return to the Negative Feedback 
 - No Money Scarcity
 - Availability of Credit
 
-## Best of both worlds
+### Best of both worlds
 
 Debt without Cantillon
 
@@ -207,8 +213,9 @@ What if the government let anyone use a currency of his or her choosing? What if
 
 ![Supply Definition Monetary Policies](https://m.media-amazon.com/images/I/51yRY-k7x4L.jpg)
 
-# Crypto
 
-## Tokenization
+## Crypto
+
+### Tokenization
 
 ![Supply Definition Monetary Policies](./tokenization.svg)
