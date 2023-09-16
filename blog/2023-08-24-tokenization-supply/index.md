@@ -26,55 +26,70 @@ We will discuss the Supply and Supply Management in this post and leave demand a
 
 ### 2.1 Supply
 
+![Supply Definition Monetary Policies](./ops_supply.svg)
 
 
 ### 2.2 Balances
 
+![Supply Definition Monetary Policies](./ops_balances.svg)
 
 ## 3. Supply Operations
 ---
 
 ### 3.1 Mint
 
+![Supply Definition Monetary Policies](./ops_mint.svg)
+
 
 ### 3.2 Burn
 
-
+![Supply Definition Monetary Policies](./ops_burn.svg)
 
 ### 3.3 Transfer
 
-
+![Supply Definition Monetary Policies](./ops_transfer.svg)
 
 ### 3.4 Swap
 
+![Supply Definition Monetary Policies](./ops_swap.svg)
 
 
-## 4. Supply Components
+## 4. Supply Distribution
+---
+
+
+### 4.1 Whales
+
+
+### 4.1 Distribution of Wealth
+
+
+## 5. Supply Components
 ---
 
 ![Supply Components](./token_supply_components.svg)
 
-### 4.1 Total Supply
+### 5.1 Total Supply
 
 
-### 4.2 Max Supply
-
-
-
-### 4.3. Locked Supply
+### 5.2 Max Supply
 
 
 
-### 4.4. Circulating Supply
+### 5.3. Locked Supply
 
 
 
-### 4.5. Tradeable Supply
+### 5.4. Circulating Supply
+
+
+
+### 5.5. Tradeable Supply
 
 
 
 
-## 5. Token Initial Allocations
+## 6. Token Initial Allocations
 ---
 
 
