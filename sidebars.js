@@ -164,6 +164,14 @@ const sidebars = {
 				'funding/community/users',
 			],
 		}, {
+      type: 'category',
+      label: 'Pitching Investors',
+      items: [
+				'funding/pitching/incubators',
+				'funding/pitching/accelerators',
+				'funding/pitching/vc',
+			],
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
