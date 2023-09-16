@@ -8,7 +8,8 @@ import DecentralizationSection from '@site/src/components/sections/Decentralizat
 import MaturityModelSection from '@site/src/components/sections/MaturityModelSection';
 import FeaturesSection from '@site/src/components/sections/FeaturesSection';
 import SuiteSection from '@site/src/components/sections/SuiteSection';
-import AdoptersSections from '@site/src/components/sections/AdoptersSection/index';
+import AdoptersSections from '@site/src/components/sections/AdoptersSection';
+import InvestorsSection from '@site/src/components/sections/InvestorsSection';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -56,6 +57,7 @@ export default function Home(): JSX.Element {
         <FeaturesSection />
         <SuiteSection />
         <AdoptersSections />
+        <InvestorsSection />
       </main>
     </Layout>
   );

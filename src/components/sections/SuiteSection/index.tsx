@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-export default function SuitSction(): JSX.Element {
+export default function SuiteSction(): JSX.Element {
   return (
     <section className={styles.services}>
       <div className="container">
