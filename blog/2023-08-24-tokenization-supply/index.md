@@ -21,10 +21,66 @@ We will discuss the Supply and Supply Management in this post and leave demand a
 
 <!-- truncate -->
 
-## 2. Supply Components
+## 2. Definitions of Supply
+---
+
+### 2.1 Supply
+
+
+
+### 2.2 Balances
+
+
+## 3. Supply Operations
+---
+
+### 3.1 Mint
+
+
+### 3.2 Burn
+
+
+
+### 3.3 Transfer
+
+
+
+### 3.4 Swap
+
+
+
+## 4. Supply Components
 ---
 
 ![Supply Components](./token_supply_components.svg)
+
+### 4.1 Total Supply
+
+
+### 4.2 Max Supply
+
+
+
+### 4.3. Locked Supply
+
+
+
+### 4.4. Circulating Supply
+
+
+
+### 4.5. Tradeable Supply
+
+
+
+
+## 5. Token Initial Allocations
+---
+
+
+
+
+
 
 
 
