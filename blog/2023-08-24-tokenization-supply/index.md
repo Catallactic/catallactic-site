@@ -27,20 +27,7 @@ We will discuss the Supply and Supply Management in this post and leave demand a
 ![Supply Components](./token_supply_components.svg)
 
 
-## 3. Supply Management
----
-
-Reserve
 
 
-## 4. Supply Management Policies
----
 
-### 4.1. Burn and Mint Equilibrium
-
-
-### 4.2. Stability Fees
-
-
-### 4.3. Elastic Supply Tokens (Rebases)
 
