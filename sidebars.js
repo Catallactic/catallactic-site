@@ -538,7 +538,8 @@ const sidebars = {
 			type: 'category',
       label: 'Audits',
       items: [
-				'suite/security/audit',
+				'suite/security/auditors',
+				'suite/security/software',
 			],
 		}, {
 			type: 'category',
