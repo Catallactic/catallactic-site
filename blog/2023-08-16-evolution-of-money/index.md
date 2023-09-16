@@ -119,14 +119,14 @@ tags: [money]
 
 ### 2.1. Negative Feedback System
 
-A society with a good as money creates a Negative feedback System. This can be applied to Barter, Commodity Money and Metal Money. A society with a money which value can be traced back ("regressed") to its value as a commodity also creates a Negative feedback System. This can be applied to Representative Money.
-
 A Negative feedback occurs when some function of the output of a system is fed back in a manner that tends to reduce the fluctuations in the output, whether caused by changes in the input or by other disturbances..
 
 | ![Supply Definition Monetary Policies](./sys35.gif)   | ![Supply Definition Monetary Policies](./negative-feedback-loop.jpg)  | 
 |-------------------------------------------------------|-----------------------------------------------------------------------|
 
 A Negative feedback tends to reduce the effects of gain change but, in exchange, increases stability. A negative feedback system is a self regulation mechanism that helps maintain stability or balance in a system.
+
+A society with a good as money creates a Negative feedback System. This can be applied to Barter, Commodity Money and Metal Money. A society with a money which value can be traced back ("regressed") to its value as a commodity also creates a Negative feedback System. This can be applied to Representative Money.
 
 ### 2.2. How does it work?
 

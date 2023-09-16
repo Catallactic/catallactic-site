@@ -55,8 +55,10 @@ The price will have several components.
 
 ![Supply Definition Monetary Policies](./price_estimations_black.svg)
 
-## 3. Supply Definition Policies
+## 3. Supply Policies
 ---
+
+### 3.1 Supply Definition
 
 On determining the token supply we can decide between 6 scenarios:
 
@@ -135,11 +137,35 @@ Finally, to capture the natural value of the collateral, as a natural Unit of Ac
 
 Depending on the goal of every project, a supply definition strategy must be decided. A combination of strategies is also a valid option.
 
-### 3.1. No Capture Tokens
 
-#### 3.1.1. Unbacked Tokens
+### 3.2. Supply Management
 
-#### 3.1.2. Utility Tokens
+
+#### 3.2.1. Burn and Mint Equilibrium
+
+
+
+#### 3.2.2. Stability Fees
+
+
+
+#### 3.2.3. Reserve
+
+
+
+#### 3.2.4. Elastic Supply Tokens (Rebases)
+
+
+
+
+
+
+## 4. No Capture Tokens
+---
+
+### 4.1. Unbacked Tokens
+
+### 4.2. Utility Tokens
 
 Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
 
@@ -282,9 +308,9 @@ Utility backed tokens are backed by some utility or service, but they do not fol
 </table>
 
 
-### 3.2. Price Capture Tokens
+## 5. Price Capture Tokens
 
-#### 3.2.1 Stablecoins
+### 5.1 Stablecoins
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
 
@@ -451,7 +477,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
-#### 3.2.2 Security Tokens
+### 5.2 Security Tokens
 
 Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
 
@@ -536,14 +562,10 @@ Security tokens are digital assets that represent ownership or other rights to t
 	</tbody>
 </table>
 
-### 3.3. Value Capture Tokens
+## 6. Value Capture Tokens
 
 
-#### 3.3.1. NFTs
-
-
-
-#### 3.3.2. Units of Account
+### 6.2. Units of Account
 
 Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
 
@@ -572,7 +594,17 @@ Value Capture Tokens capture the underlying value by matching their supply with 
 	</tbody>
 </table>
 
-## 4. A Tokenization Maturity Model
+## 7. Asset Capture Tokens
+---
+
+
+### 7.1. NFTs
+
+
+
+
+
+## 8. A Tokenization Maturity Model
 ---
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:

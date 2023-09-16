@@ -33,6 +33,7 @@ In this post we will examine the demand and leave supply and monetary policy for
 <JSONTable theadData={Object.keys(underlying[0])} tbodyData={underlying}/>
 
 ## 3. Token Utility
+---
 
 ### 3.1. Token Ecosystem
 
@@ -82,6 +83,7 @@ In this post we will examine the demand and leave supply and monetary policy for
 </table>
 
 ## 4. Token Extended Utility
+---
 
 ### 4.1. Token Extended Ecosystem
 
@@ -92,6 +94,7 @@ In this post we will examine the demand and leave supply and monetary policy for
 <JSONTable theadData={[ 'type', 'name' ]} tbodyData={utility}/>
 
 ## 5. Token Intrinsic Value
+---
 
 ### 5.1. Definition of Value
 
@@ -117,5 +120,6 @@ Once the value is captured, we need to provide additional utilities to the token
 Intrinsic value is the value that the token gains from the credibility and utility of its project.
 
 ## 6. Token Speculative Value
+---
 
 Speculative value is the value that the token gains from speculations traders make on a token's price.
