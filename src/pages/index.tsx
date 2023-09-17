@@ -48,7 +48,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title={`Providing direction to crypto.`} description="An Open Source Framework and Community to capture the value of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society.">
+    <Layout title={`Crypto for the real economy.`} description="An Open Source Framework and Community to capture the value of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society.">
       <HomepageHeader />
       <main>
 				<ValueChainSection />
