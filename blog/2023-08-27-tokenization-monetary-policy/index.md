@@ -165,13 +165,6 @@ Depending on the goal of every project, a supply definition strategy must be dec
 
 No value to capture
 
-
-
-## 5. Utility Tokens (Utility Capture)
----
-
-Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
-
 <table class="table w-auto mx-auto fs-6">
 	<thead class="thead-dark">
 		<tr>
@@ -194,7 +187,25 @@ Utility backed tokens are backed by some utility or service, but they do not fol
 			<td>
 			</td>
 		</tr>
+	</tbody>
+</table>
+
+## 5. Utility Tokens (Utility Capture)
+---
+
+Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
+
+<table class="table w-auto mx-auto fs-6">
+	<thead class="thead-dark">
 		<tr>
+			<th scope="col">Token Backing</th>
+			<th scope="col">Token Backing Type</th>
+			<th scope="col">Examples</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td scope="row">Speculative Value</td>
 			<td>Algorithmic</td>
 			<td>
 				<a href="https://reflexer.finance/" target="_blank">RAI</a>, 
