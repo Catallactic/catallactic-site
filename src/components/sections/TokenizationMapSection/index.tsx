@@ -21,10 +21,10 @@ export default function TokenizationMapSection(): JSX.Element {
 								<thead className="thead-dark">
 									<tr>
 										<th scope="col"></th>
-										<th scope="col" colSpan={6}>Maturity Model</th>
+										<th scope="col" colSpan={6}>Tokenization Maturity Model</th>
 									</tr>
 									<tr>
-										<th scope="col"></th>
+										<th scope="col">Tokenization Assets</th>
 										<th scope="col">Unbacked</th>
 										<th scope="col">Utility</th>
 										<th scope="col">Yield</th>
