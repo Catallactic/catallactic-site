@@ -160,14 +160,14 @@ Depending on the goal of every project, a supply definition strategy must be dec
 
 
 
-## 4. Unbacked Tokens
+## 4. Unbacked Tokens (No Capture)
 ---
 
 No value to capture
 
 
 
-### 5. Utility Tokens
+## 5. Utility Tokens (Utility Capture)
 ---
 
 Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
@@ -310,10 +310,95 @@ Utility backed tokens are backed by some utility or service, but they do not fol
 	</tbody>
 </table>
 
+## 6 Security Tokens (Yield Capture)
+---
 
-## 6. Price Capture Tokens
+Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
 
-### 6.1 Stablecoins / Synths
+<table class="table w-auto mx-auto fs-6">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Type</th>
+			<th scope="col">Underlaying Asset</th>
+			<th scope="col">Tokens</th>
+			<th scope="col">Marketplaces</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Real Assets Securities</td>
+			<td>Real State / REITS</td>
+			<td></td>
+			<td>
+				<a href="https://landshare.io/" target="_blank">Landshare</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Equity Securities</td>
+			<td>Shares / Stocks</td>
+			<td></td>
+			<td>
+				<a href="https://stomarket.com/" target="_blank">Stomarket</a>,
+				<a href="https://www.brickken.com/" target="_blank">Brickken</a>,
+				<a href="https://inqubeta.ai/" target="_blank">InQubeta</a>,
+				<a href="https://securitize.io/" target="_blank">Securitize</a>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="6">Debt Securities</td>
+			<td>Bonds</td>
+			<td></td>
+			<td>
+				<a href="https://www.obligate.com/" target="_blank">Obligate</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Inflation Indep Index</td>
+			<td>Crypto</td>
+			<td>
+				<a href="https://nuon.fi/" target="_blank">Nuon</a>
+			</td>
+		</tr>
+		<tr>
+			<td>US Treasuries</td>
+			<td>US Treasuries</td>
+			<td>
+				<a href="https://ondo.finance/ousg" target="_blank">OUSG</a>
+			</td>
+		</tr>
+		<tr>
+			<td>US Treasuries Collateralized Notes</td>
+			<td>US Treasuries Collateralized Notes</td>
+			<td>
+				<a href="https://ondo.finance/usdy" target="_blank">USDY</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Short-term Bonds</td>
+			<td>Short-term Bonds</td>
+			<td>
+				<a href="https://ondo.finance/ostb" target="_blank">OSTB</a>
+			</td>
+		</tr>
+		<tr>
+			<td>HY Corporate Bonds</td>
+			<td>HY Corporate Bonds</td>
+			<td>
+				<a href="https://ondo.finance/ohyg" target="_blank">OHYG</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Derivative Securities</td>
+			<td>Options</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+## 7. Stablecoins / Synths (Price Capture)
+---
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
 
@@ -480,95 +565,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
-### 6.2 Security Tokens
-
-Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
-
-<table class="table w-auto mx-auto fs-6">
-	<thead class="thead-dark">
-		<tr>
-			<th scope="col">Type</th>
-			<th scope="col">Underlaying Asset</th>
-			<th scope="col">Tokens</th>
-			<th scope="col">Marketplaces</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Real Assets Securities</td>
-			<td>Real State / REITS</td>
-			<td></td>
-			<td>
-				<a href="https://landshare.io/" target="_blank">Landshare</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Equity Securities</td>
-			<td>Shares / Stocks</td>
-			<td></td>
-			<td>
-				<a href="https://stomarket.com/" target="_blank">Stomarket</a>,
-				<a href="https://www.brickken.com/" target="_blank">Brickken</a>,
-				<a href="https://inqubeta.ai/" target="_blank">InQubeta</a>,
-				<a href="https://securitize.io/" target="_blank">Securitize</a>
-			</td>
-		</tr>
-		<tr>
-			<td rowspan="6">Debt Securities</td>
-			<td>Bonds</td>
-			<td></td>
-			<td>
-				<a href="https://www.obligate.com/" target="_blank">Obligate</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Inflation Indep Index</td>
-			<td>Crypto</td>
-			<td>
-				<a href="https://nuon.fi/" target="_blank">Nuon</a>
-			</td>
-		</tr>
-		<tr>
-			<td>US Treasuries</td>
-			<td>US Treasuries</td>
-			<td>
-				<a href="https://ondo.finance/ousg" target="_blank">OUSG</a>
-			</td>
-		</tr>
-		<tr>
-			<td>US Treasuries Collateralized Notes</td>
-			<td>US Treasuries Collateralized Notes</td>
-			<td>
-				<a href="https://ondo.finance/usdy" target="_blank">USDY</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Short-term Bonds</td>
-			<td>Short-term Bonds</td>
-			<td>
-				<a href="https://ondo.finance/ostb" target="_blank">OSTB</a>
-			</td>
-		</tr>
-		<tr>
-			<td>HY Corporate Bonds</td>
-			<td>HY Corporate Bonds</td>
-			<td>
-				<a href="https://ondo.finance/ohyg" target="_blank">OHYG</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Derivative Securities</td>
-			<td>Options</td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
-</table>
-
-## 7. Value Capture Tokens
-
-
-### 7.1. Units of Account
+## 8. Units of Account (Value Capture)
 
 Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
 
@@ -597,17 +594,13 @@ Value Capture Tokens capture the underlying value by matching their supply with 
 	</tbody>
 </table>
 
-## 8. Asset Capture Tokens
----
-
-
-### 8.1. NFTs
+## 9. NFTs (Asset Capture)
 
 
 
 
 
-## 9. A Tokenization Maturity Model
+## 10. A Tokenization Maturity Model
 ---
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:
