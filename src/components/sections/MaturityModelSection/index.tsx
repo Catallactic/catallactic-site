@@ -26,7 +26,7 @@ export default function MaturityModelSection(): JSX.Element {
 
 					<div className="col col--6">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model_seal.svg" />
 						</div>
 					</div>
 
