@@ -20,11 +20,11 @@ The nature, behaviour and price of a cryptocurrency is determined by the interac
 
 ![Supply Definition Monetary Policies](./tokenization_maturity-model.svg)
 
-We will discuss the Monetary Policies in this post and leave demand and supply for next posts.
+We will discuss the Maturity Model in this post and leave demand and supply for next posts.
 
 <!-- truncate -->
 
-## 1. A Tokenization Maturity Model
+## 2. A Tokenization Maturity Model
 ---
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:
@@ -41,8 +41,251 @@ The picture below represents a initial structure of the maturity model. It only 
 
 Commodity Money would be at the highest level of the maturity Model as its value matches the value of the underlying asset. However, attention should be paid on the decentralization guaranteed by the processes of the issuer.
 
+### 2.1. Tokenization Map
 
-## 2. Unbacked Tokens (No Capture)
+<table class="table w-auto mx-auto fs-6">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col"></th>
+			<th scope="col"></th>
+			<th scope="col" colspan="6">Maturity Model</th>
+		</tr>
+		<tr>
+			<th scope="col">Type</th>
+			<th scope="col">Assets</th>
+			<th scope="col">Unbacked</th>
+			<th scope="col">Utility</th>
+			<th scope="col">Yield</th>
+			<th scope="col">Price</th>
+			<th scope="col">Value</th>
+			<th scope="col">Asset</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="6">Physical Assets	</td>
+			<td>Commodity</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Real Estate</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Art</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Art</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Industrial Assets</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Collectibles</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="5">Digital Assets</td>
+			<td>Digital Art</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Digital Collectibles</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Music</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Gaming</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Corporate Branding</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="5">Financial Assets</td>
+			<td>Currencies</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Bonds</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Equities</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Investment Funds</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Loans</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="8">Certifications</td>
+			<td>Entry Tickets</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Proof of Participation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Diplomas and Certificates</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Web Domains</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Proof of Maintenance</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Vouchers</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Loyalty Points</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Awards</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+## 3. Unbacked Tokens (No Capture)
 ---
 
 No value to capture
@@ -72,7 +315,7 @@ No value to capture
 	</tbody>
 </table>
 
-## 3. Utility Tokens (Utility Capture)
+## 4. Utility Tokens (Utility Capture)
 ---
 
 Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
@@ -203,7 +446,7 @@ Utility backed tokens are backed by some utility or service, but they do not fol
 	</tbody>
 </table>
 
-## 4 Security Tokens (Yield Capture)
+## 5. Security Tokens (Yield Capture)
 ---
 
 Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
@@ -290,7 +533,7 @@ Security tokens are digital assets that represent ownership or other rights to t
 </table>
 
 
-## 5. Stablecoins / Synths (Price Capture)
+## 6. Stablecoins / Synths (Price Capture)
 ---
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
@@ -458,7 +701,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
-## 6. Units of Account (Value Capture)
+## 7. Units of Account (Value Capture)
 
 Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
 
@@ -487,7 +730,7 @@ Value Capture Tokens capture the underlying value by matching their supply with 
 	</tbody>
 </table>
 
-## 7. NFTs (Asset Capture)
+## 8. NFTs (Asset Capture)
 
 
 

@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import ValueChainSection from '@site/src/components/sections/ValueChainSection';
 import DecentralizationSection from '@site/src/components/sections/DecentralizationSection';
 import MaturityModelSection from '@site/src/components/sections/MaturityModelSection';
+import TokenizationMapSection from '@site/src/components/sections/TokenizationMapSection';
 import FeaturesSection from '@site/src/components/sections/FeaturesSection';
 import SuiteSection from '@site/src/components/sections/SuiteSection';
 import AdoptersSections from '@site/src/components/sections/AdoptersSection';
@@ -54,6 +55,7 @@ export default function Home(): JSX.Element {
 				<ValueChainSection />
         <DecentralizationSection />
         <MaturityModelSection />
+				<TokenizationMapSection/>
         <FeaturesSection />
         <SuiteSection />
         <AdoptersSections />
