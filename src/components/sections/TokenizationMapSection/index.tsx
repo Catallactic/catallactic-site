@@ -35,7 +35,7 @@ export default function TokenizationMapSection(): JSX.Element {
 								</thead>
 								<tbody>
 									<tr>
-										<td>Physical Assets - RWA</td>
+										<td>Physical Assets</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -78,7 +78,8 @@ export default function TokenizationMapSection(): JSX.Element {
 					<div className="col col--6">
 						<div className="text--center padding-horiz--md">
 							<h3>Tokenization Map</h3>
-							<p>Tokenization Map represents the Universe o Tokenization, including tokenizable assets with all tokenizable models. </p>
+							<p>Tokenization Map represents the Universe of Tokenization, including tokenizable assets with all tokenization models. </p>
+							<p>This is relevant because this will show the currencies with higher Serviceability</p>
 							<a className='d-block btn btn-lg mt-4' href='/blog/Tokenization%20IV%20-%20Maturity%20Model#21-tokenization-map' role='button'>Learn More</a>
 						</div>
 					</div>
