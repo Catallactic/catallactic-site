@@ -20,7 +20,7 @@ export default function MaturityModelSection(): JSX.Element {
 							<h3>Tokenization Maturity Model</h3>
 							<p>Different currencies can have different levels of capture and decentralization so we must create a maturity model to incentivize good practices. </p>
 							<p>This site and framework are dedicated to design and support Unit of Account, which is the highest level of currency. </p>
-							<a className='d-block btn btn-lg mt-4' href='/blog/Tokenization%20III%20-%20Monetary%20Policy' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/blog/Tokenization%20IV%20-%20Maturity%20Model' role='button'>Learn More</a>
 						</div>
 					</div>
 

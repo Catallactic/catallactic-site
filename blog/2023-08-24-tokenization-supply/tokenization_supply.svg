@@ -25,8 +25,8 @@
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:zoom="0.37504688"
-     inkscape:cx="917.21867"
-     inkscape:cy="315.9605"
+     inkscape:cx="895.888"
+     inkscape:cy="742.57384"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="0"
@@ -151,18 +151,6 @@
          style="stroke-width:0.264583"
          x="125.11655"
          y="283.67627">SUPPLY</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="444.50293"
-       y="359.51712"
-       id="text3735-0-1-9-35"
-       inkscape:transform-center-x="1.8461432"><tspan
-         sodipodi:role="line"
-         id="tspan3733-9-9-9-7"
-         style="stroke-width:0.264583"
-         x="444.50293"
-         y="359.51712">TOKENS</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -404,16 +392,16 @@
        style="display:inline;fill:#000000;stroke:none;stroke-width:0.00108422" />
     <text
        xml:space="preserve"
-       style="display:inline;font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="444.76486"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="420.58005"
        y="283.70013"
        id="text3735-0-1-9-9"
        inkscape:transform-center-x="1.8461432"><tspan
          sodipodi:role="line"
          id="tspan3733-9-9-9-3"
          style="stroke-width:0.264583"
-         x="444.76486"
-         y="283.70013">TOKENS</tspan></text>
+         x="420.58005"
+         y="283.70013">MATURITY MODEL</tspan></text>
     <rect
        style="display:inline;fill:#f6f6f6;fill-opacity:1;stroke:#00110f;stroke-width:0.328277;stroke-linejoin:round;stroke-opacity:0.884574"
        id="rect1011-0-5-5-5-5-9-4"
@@ -508,7 +496,7 @@
        transform="translate(32.969832,26.553756)"><tspan
          x="375.33167"
          y="119.24981"
-         id="tspan35741">UNITS OF ACCOUNT</tspan></text>
+         id="tspan2976">UNITS OF ACCOUNT</tspan></text>
     <text
        xml:space="preserve"
        style="display:inline;font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:108.254;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -519,7 +507,7 @@
        transform="translate(73.189102,-2.6686054)"><tspan
          x="375.33167"
          y="119.24981"
-         id="tspan35743">NFT</tspan></text>
+         id="tspan2978">NFT</tspan></text>
     <text
        xml:space="preserve"
        style="display:inline;font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
