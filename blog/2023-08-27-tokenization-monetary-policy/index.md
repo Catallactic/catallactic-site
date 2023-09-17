@@ -160,12 +160,15 @@ Depending on the goal of every project, a supply definition strategy must be dec
 
 
 
-## 4. No Capture Tokens
+## 4. Unbacked Tokens
 ---
 
-### 4.1. Unbacked Tokens
+No value to capture
 
-### 4.2. Utility Tokens
+
+
+### 5. Utility Tokens
+---
 
 Utility backed tokens are backed by some utility or service, but they do not follow a monetary policy to capture the underlying value or price of this service.
 
@@ -308,9 +311,9 @@ Utility backed tokens are backed by some utility or service, but they do not fol
 </table>
 
 
-## 5. Price Capture Tokens
+## 6. Price Capture Tokens
 
-### 5.1 Stablecoins
+### 6.1 Stablecoins / Synths
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
 
@@ -477,7 +480,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
-### 5.2 Security Tokens
+### 6.2 Security Tokens
 
 Security tokens are digital assets that represent ownership or other rights to transfer value from an asset or asset class to a token. A security token is essentially a digital form of traditional securities. Tokenised securities, better known as security tokens, are regulated and compliant investment assets in the form of a cryptocurrency token.
 
@@ -562,10 +565,10 @@ Security tokens are digital assets that represent ownership or other rights to t
 	</tbody>
 </table>
 
-## 6. Value Capture Tokens
+## 7. Value Capture Tokens
 
 
-### 6.2. Units of Account
+### 7.1. Units of Account
 
 Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
 
@@ -594,17 +597,17 @@ Value Capture Tokens capture the underlying value by matching their supply with 
 	</tbody>
 </table>
 
-## 7. Asset Capture Tokens
+## 8. Asset Capture Tokens
 ---
 
 
-### 7.1. NFTs
+### 8.1. NFTs
 
 
 
 
 
-## 8. A Tokenization Maturity Model
+## 9. A Tokenization Maturity Model
 ---
 
 A Tokenization Maturity Model could be established as a ranking of the purity in capturing the properties of the underlying asset. This model would not evaluate the value of the asset, or its utilities within the token model, but the ability of the capture process. The main criteria for this maturity model would be:

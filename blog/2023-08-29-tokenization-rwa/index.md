@@ -13,3 +13,6 @@ image: /img/catallactic-banner.jpg
 
 ## Introduction
 
+- No Capture RWA
+
+- 
