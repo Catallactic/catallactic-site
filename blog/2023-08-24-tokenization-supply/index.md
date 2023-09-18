@@ -34,6 +34,8 @@ For this standard configuration, Total Supply for a cryptocurrency is defined as
 
 An ERC-20 token deployed in a blockchain includes always a function totalSupply(), as part of the ERC-20 standard, that you can query to find out the total supply of the token at any time.
 
+When designing the supply of the cryptocurrency, the order of magnitude of balances, or of total supply, is not significative. Only the relative balances have an impact on the distribution of wealth.
+
 ### 2.2 Balances
 
 The total of units of the cryptocurrency, or total supply, must be owned by holders. Each holder can own a different amount of units of the cryptocurrency, or balance, so we must be able to know how many units is owned by each holder. For this purpose, every instance of our smart contract contains a map structure detailing the holdings of every user. The same that the total supply, this map is seamless kept in sync between all the nodes of the blockchain by the blockchain infrastructure.
@@ -95,32 +97,44 @@ The swap does not affect the price nor the total supply of any of the 2 cryptocu
 
 The swap operation is perfomed by special smart contracts called exchanges and, at the core, is a double atomic transfer operation.
 
-## 4. Inflationary Supply
+
+## 4. Changes in the Supply
 ---
 
-### 4.1. Supply Emission Policies
+
+### 4.1. Fixed Supply
 
 
 
+### 4.2. Inflationary Supply
 
 
-## 4. Deflationary Supply
----
+### 4.3. Supply Emission Policies
+
+
+### 4.4. Deflationary Supply
+
 
 
 
 ## 5. Supply Distribution
 ---
 
+### 5.1. Investor Holdings
 
-### 5.1. Whales
-
-
-### 5.2. Distribution of Wealth
-
-When designing the supply of the cryptocurrency, the order of magnitude of balances, or of total supply, is not significative. Only the relative balances have an impact on the distribution of wealth.
 
 ### 5.2. Velocity of Circulation
+
+
+
+### 5.3. Distribution of Wealth
+
+- Gini
+
+- Herfindahl-Hirschman Index (HHI)
+
+
+### 5.4. Whales
 
 
 
@@ -152,11 +166,16 @@ When designing the supply of the cryptocurrency, the order of magnitude of balan
 ## 7. Token Initial Allocations
 ---
 
+### 7.1 Funding Allocation
 
 
+### 7.2 Trading Allocation
 
 
+### 7.3 Operations Allocation
 
+
+### 7.3 Project Allocation
 
 
 
