@@ -53,27 +53,47 @@ The market capitalization (market cap) of a cryptocurrency is calculated by mult
 
 ### 3.1 Mint
 
-Mint is the operation to create new Units of a cryptocurrency. By minting one amount of tokens, the total supply of the cryptocurrency will increase by this amount of tokens. Additionally, the minting operation must be perfomed over an account, so the balance of this account on the balance map of the smart contract will increase by the minted amount.
+Mint is the operation to create new Units of a cryptocurrency. By minting one amount of tokens, the total supply of the cryptocurrency will increase by this amount of tokens. The mint operation must be perfomed over an account, so the balance of this account on the balance map of the smart contract will increase by the minted amount.
 
 ![Supply Definition Monetary Policies](./ops_mint.svg)
 
-Minting will increase the number of existing units of the cryptocurrency and therefore decrease the price of every unit, i.e. the price of the token. In order to keep holders value and cryptocurrency reputation, the minting operation must be restricted to the extrictly necessary to perform the token activities according to the defined token model. 
+Increasing the number of existing units of the cryptocurrency decreases the price of each unit, i.e. the price of the token. In order to keep holders value, and cryptocurrency reputation, the mint operation must be restricted to the extrictly necessary to perform the token activities according to the defined token model. 
 
-The minting operation is typically restricted to the cryptocurrency issuer, or some granted role. Minting is typically done on a Token Generation Event (TGE) in token launch or, at any time, on behalf of specific accounts, to grant some kind of activity performed by the account holder.
+The mint operation is typically restricted to the cryptocurrency issuer, or some granted role. Minting is typically done on a Token Generation Event (TGE) in token launch or, at any time, on behalf of specific accounts, to grant some kind of activity performed by the account holder.
 
-On a granular level, smart contracts have a function to mint new units of the cryptocurrency with access restricted only to the issuer or minter roles.
+On a granular level, smart contracts have a function mint() to mint new units of the cryptocurrency with access restricted only to the issuer or minter roles.
 
 ### 3.2 Burn
 
+Burn is the opposite operation to Mint. Burn is the operation to detroy unit of the cryptocurrency. By burning one amount of tokens, the total supply of the cryptocurrency will decrease by this amount of tokens. The burn operation must be perfomed over an account, so the balance of this account on the balance map of the smart contract will also decrease by the minted amount.
+
 ![Supply Definition Monetary Policies](./ops_burn.svg)
+
+Decreasing the number of existing units of the cryptocurrency increases the price of each unit, i.e. the price of the token. Therefore, existing holders will be alway interested in burning operations being performed on the cryptocurrency.
+
+The burn operation is typically restricted to the cryptocurrency issuer, or some granted role.
+
+On a granular level, smart contracts have a function burn() to burn new units of the cryptocurrency with access restricted only to the issuer or burner roles.
 
 ### 3.3 Transfer
 
+Transfer is an operation performed over 2 account holders, the sender and the receiver. By transferring one amount of tokens, the balance of the sender with decrease and the balance of the receiver will increase by the same amount. Transfer operation do not modiy the total supply.
+
 ![Supply Definition Monetary Policies](./ops_transfer.svg)
+
+Transfer does not affect the price of the cryptocurrency.
+
+On a granular level, smart contracts have a function transfer() to transfer units of the cryptocurrency between the sender and the receiver account holder.
 
 ### 3.4 Swap
 
+Swap operation involves 2 account holders and 2 cryptocurrencies. By swapping one amount of tokens, both account holders will exchange unit of the 2 cryptocurrencies proportionally to the relative price.
+
 ![Supply Definition Monetary Policies](./ops_swap.svg)
+
+The swap does not affect the price nor the total supply of any of the 2 cryptocurrencies involved.
+
+The swap operation is perfomed by special smart contracts called exchanges and, at the core, is a double atomic transfer operation.
 
 ## 4. Inflationary Supply
 ---
