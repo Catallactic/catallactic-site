@@ -37,7 +37,7 @@ In that way, 2 tokenization protocols capturing gold as underlying asset, could 
 
 The picture below represents a initial structure of the maturity model. It only considers the goal of the capture process. Sub-levels could be established to accommodate different degrees of issuer intervention.
 
-![Supply Definition Monetary Policies](/img/tokenization_maturity_model.svg)
+![Supply Definition Monetary Policies](/img/tokenization_maturity_model_seal.svg)
 
 Commodity Money would be at the highest level of the maturity Model as its value matches the value of the underlying asset. However, attention should be paid on the decentralization guaranteed by the processes of the issuer.
 
