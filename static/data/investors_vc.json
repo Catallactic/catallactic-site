@@ -3,7 +3,6 @@
 	{ "id": "ALA", "name": "Alameda Research", "founded": "Oct. 1, 2017", "locations": ["United States, SF"], "reason": "tokenization", "verified": "NO" },
 	{ "id": "A21", "name": "AU21 Capital", "founded": "", "locations": ["United States, SF"], "reason": "tokenization", "verified": "NO" },
 	{ "id": "SHI", "name": "Shima Capital", "founded": "", "locations": ["United States, SF"], "reason": "tokenization", "verified": "NO" },
-	{ "id": "A16", "name": "Andreessen Horowitz", "founded": "June 1, 2009", "locations": ["United States"], "reason": "tokenization", "verified": "NO" },
 	{ "id": "PAN", "name": "Pantera Capital", "founded": "Feb. 12, 2003", "locations": ["United States, SF"], "reason": "tokenization", "verified": "NO" },
 	{ "id": "DGC", "name": "Digital Currency Group", "founded": "Jan. 1, 2011", "locations": ["United States, NYC"], "reason": "tokenization", "verified": "NO" },
 	{ "id": "LDC", "name": "LD Capital", "founded": "Jan. 1, 2017", "locations": ["China"], "reason": "tokenization", "verified": "NO" },
