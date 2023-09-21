@@ -136,58 +136,71 @@ const config = {
         links: [{
             title: 'Tokenization',
             items: [{
-                label: 'Fundamentals',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              }, {
                 label: 'Tokenization',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: '/docs/tokenization/intro',
               }, {
                 label: 'Project Funding',
-                href: 'https://twitter.com/docusaurus',
+                href: '/docs/funding/intro',
               }, {
                 label: 'Token Negotiation',
-                href: 'https://twitter.com/docusaurus',
+                href: '/docs/negotiation/intro',
               }, {
                 label: 'Token Operations',
-                href: 'https://twitter.com/docusaurus',
+                href: '/docs/distribution/intro',
               }, {
-                label: 'Tokenomics',
-                href: 'https://twitter.com/docusaurus',
-              }
+                label: 'DeFi Services',
+                href: '/docs/defi/intro',
+              }, {
+                label: 'Crowdsolving',
+                href: '/docs/crowdsolving/intro',
+							}
             ],
           }, {
             title: 'Suite',
             items: [{
                 label: 'Admin DApp',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                to: '/docs/suite/intro',
               }, {
-                label: 'User DApps',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'ICO Purchase Widget',
+                to: '/docs/suite/dapp-catallactic-purchase/create-token',
               }, {
-                label: 'Tokens',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'ICO Status Tracker',
+                to: '/docs/suite/dapp-catallactic-purchase/create-token',
+							}, {
+                label: 'ICO Claims',
+                to: '/docs/suite/dapp-catallactic-purchase/create-token',
+							}, {
+                label: 'ICO Vesting Tracker',
+                to: '/docs/suite/dapp-catallactic-purchase/create-token',
+							}, {
+								label: 'Tokens',
+                to: '/docs/suite/token-ico/features',
               },
             ],
           }, {
 						title: 'DeFi Services',
             items: [{
-                label: 'DeFi Service',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+								label: 'Liquidity Provision',
+								href: '/docs/defi/liquidity',
+							}, {
+								label: 'Staking',
+                href: '/docs/defi/staking',
               }, {
                 label: 'Launchap',
-                href: 'https://discordapp.com/invite/docusaurus',
-              }, {
-                label: 'Payments',
-                href: 'https://twitter.com/docusaurus',
-              }, {
-                label: 'Cards',
-                href: 'https://twitter.com/docusaurus',
-              }, {
-                label: 'Lending',
-                href: 'https://twitter.com/docusaurus',
+                href: '/docs/defi/launchpad',
               }, {
                 label: 'Transfers',
-                href: 'https://twitter.com/docusaurus',
+                href: '/docs/defi/transfers',
+							}, {
+                label: 'Payments',
+                href: '/docs/defi/payments',
+              }, {
+                label: 'Cards',
+                href: '/docs/defi/cards',
+              }, {
+                label: 'Lending',
+                href: '/docs/defi/lending',
+
               }
             ],
           }, {

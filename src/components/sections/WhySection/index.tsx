@@ -75,8 +75,9 @@ export default function WhySection(): JSX.Element {
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab3" role="tabpanel" aria-labelledby="v-pills-settings-tab">
 										<h4 className="font-italic mb-4">How can I contribute?</h4>
 										<p className="font-italic text-muted mb-2">Anyone that accepts the principles of decentralization can contribute to Catallactic outcomes.</p>
-										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contarct and blockchain languages, Catallactic needs contributions from process engineers, field specialists as economists, tax experts or lawyers, philosophers or political philosophers.</p>
+										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contract and blockchain languages, Catallactic needs guidelines, articles, essays or contributions from process engineers, field specialists as economists , tax experts or lawyers, investor, traders, token issuers, philosophers or political philosophers.</p>
 										<p className="font-italic text-muted mb-2">We think that, as much as possible, principles as functionality, practicality, usability or decentralization must drive technological efforts, no the other way around.</p>
+										<p className="font-italic text-muted mb-2">Contributions can be done on the <a href="/docs/suite/intro">site pages</a> itself, as they are editable. We are configuring a <a href="https://discord.gg/WRufJhAu">discord</a> community, we have a <a href="https://cryptonomics.network/">forum</a> (in trial period), and of course, all pages and tools are shared in <a href="https://github.com/Catallactic">github</a>.</p>
 									</div>
 
                 </div>
