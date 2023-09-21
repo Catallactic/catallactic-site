@@ -549,6 +549,68 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</thead>
 	<tbody>
 		<tr>
+			<td rowspan="6">Commodities Stablecoins</td>
+			<td>Gold</td>
+			<td>Gold</td>
+			<td>
+				<a href="https://paxos.com/paxgold/" target="_blank">PAXG</a>, 
+				<a href="https://www.goldario.com/" target="_blank">GLD</a>, 
+				<a href="https://meld.gold/" target="_blank">MCAU</a>, 
+				<a href="https://aabbgoldtoken.com/aabbg/" target="_blank">AABBG</a>, 
+				<a href="https://novemgold.com/en/tokens/nnn.html" target="_blank">NNN</a>,<br/>
+				<a href="https://www.agagoldy.com/" target="_blank">AWG</a>, 
+				<a href="https://pmgt.io/" target="_blank">PMGT</a>, 
+				<a href="https://cashtelex.com/" target="_blank">CTLX</a>, 
+				<a href="https://gold.tether.to/" target="_blank">XAUT</a>, 
+				<a href="https://digix.global/dgx" target="_blank">DGX</a>, 
+				<a href="https://cache.gold/" target="_blank">CACHE</a>,
+				<a href="https://www.rbz.co.zw/documents/Gold-backed_Digital_Token/August/RBZ_Gold-backed_Digital_Tokens_Issue_12_Results_03_August_2023.pdf" target="_blank">RBZ GBDT</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Gold</td>
+			<td>PAXG</td>
+			<td>
+				<a href="https://godl.gold" target="_blank">GODL</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Silver</td>
+			<td>Silver</td>
+			<td>
+				<a href="" target="_blank">SLVT</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Oil</td>
+			<td>Oil</td>
+			<td>
+				<a href="http://crudeoil.finance/" target="_blank">CRUDE</a>, 
+				<a href="https://pdxcoin.io/" target="_blank">PDX</a>, 
+				<a href="https://www.petro.gob.ve/en/" target="_blank">PTR</a>,
+				<a href="https://finamatrix.net/fix/" target="_blank">FIX</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Gemstone</td>
+			<td>Gemstone</td>
+			<td>
+				<a href="https://www.habsburgfinearts.com/en/faq/" target="_blank">GEM</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Food</td>
+			<td>Food</td>
+			<td>
+				<a href="https://www.cyberkongz.com/" target="_blank">BANANA</a>,
+				<a href="https://agrotoken.com/" target="_blank">SOYA</a>,
+				<a href="https://agrotoken.com/" target="_blank">CORA</a>,
+				<a href="https://agrotoken.com/" target="_blank">WHEA</a>,
+				<a href="https://agrotoken.com/" target="_blank">SOYB</a>,
+				<a href="https://agrotoken.com/" target="_blank">CORB</a>
+			</td>
+		</tr>
+		<tr>
 			<td rowspan="12">Fiat Stablecoins</td>
 			<td rowspan="6">dollar</td>
 			<td>Real State</td>
@@ -646,56 +708,6 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 			<td>ETH</td>
 			<td>
 				<a href="https://frax.finance/" target="_blank">frxETH</a>
-			</td>
-		</tr>
-		<tr>
-			<td rowspan="5">Commodities Stablecoins</td>
-			<td>Gold</td>
-			<td>Gold</td>
-			<td>
-				<a href="https://paxos.com/paxgold/" target="_blank">PAXG</a>, 
-				<a href="https://www.goldario.com/" target="_blank">GLD</a>, 
-				<a href="https://meld.gold/" target="_blank">MCAU</a>, 
-				<a href="https://aabbgoldtoken.com/aabbg/" target="_blank">AABBG</a>, 
-				<a href="https://novemgold.com/en/tokens/nnn.html" target="_blank">NNN</a>,<br/>
-				<a href="https://www.agagoldy.com/" target="_blank">AWG</a>, 
-				<a href="https://pmgt.io/" target="_blank">PMGT</a>, 
-				<a href="https://cashtelex.com/" target="_blank">CTLX</a>, 
-				<a href="https://gold.tether.to/" target="_blank">XAUT</a>, 
-				<a href="https://digix.global/dgx" target="_blank">DGX</a>, 
-				<a href="https://cache.gold/" target="_blank">CACHE</a>,
-				<a href="https://www.rbz.co.zw/documents/Gold-backed_Digital_Token/August/RBZ_Gold-backed_Digital_Tokens_Issue_12_Results_03_August_2023.pdf" target="_blank">RBZ GBDT</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Gold</td>
-			<td>PAXG</td>
-			<td>
-				<a href="https://godl.gold" target="_blank">GODL</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Silver</td>
-			<td>Silver</td>
-			<td>
-				<a href="" target="_blank">SLVT</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Oil</td>
-			<td>Oil</td>
-			<td>
-				<a href="http://crudeoil.finance/" target="_blank">CRUDE</a>, 
-				<a href="https://pdxcoin.io/" target="_blank">PDX</a>, 
-				<a href="https://www.petro.gob.ve/en/" target="_blank">PTR</a>,
-				<a href="https://finamatrix.net/fix/" target="_blank">FIX</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Food</td>
-			<td>Food</td>
-			<td>
-				<a href="https://www.cyberkongz.com/" target="_blank">BANANA</a>
 			</td>
 		</tr>
 	</tbody>

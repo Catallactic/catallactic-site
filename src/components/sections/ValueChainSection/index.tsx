@@ -8,8 +8,8 @@ export default function ValueChainSection(): JSX.Element {
       <div className="container">
 
 				<div className="text-center pb-1 my-3">
-					{<div className="h1 fw-bold color-theme-reverse2">Capturing Commodities Value</div>}
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework and Community to capture the value of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society</p>
+					{<div className="h1 fw-bold color-theme-reverse2">Lifecycle Coverage</div>}
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic aims to cover the full lifecycle of a commodities-backed token</p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">

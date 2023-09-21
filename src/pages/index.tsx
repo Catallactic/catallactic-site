@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import WhySection from '../components/sections/WhySection/index';
 import ValueChainSection from '@site/src/components/sections/ValueChainSection';
 import DecentralizationSection from '@site/src/components/sections/DecentralizationSection';
 import MaturityModelSection from '@site/src/components/sections/MaturityModelSection';
@@ -52,6 +53,7 @@ export default function Home(): JSX.Element {
     <Layout title={`Crypto for the real economy.`} description="An Open Source Framework and Community to capture the value of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society.">
       <HomepageHeader />
       <main>
+				<WhySection/>
 				<ValueChainSection />
         <DecentralizationSection />
         <MaturityModelSection />
