@@ -34,6 +34,28 @@ const config = {
     locales: ['en'],
   },
 
+	plugins: [
+
+		[
+			'@docusaurus/plugin-content-blog',
+			{
+				id: 'book',
+				blogSidebarTitle: 'Book',
+				blogSidebarCount: 'ALL',
+				blogTitle: 'Book',
+				blogDescription: 'Book',
+				showReadingTime: false,
+				sortPosts: 'ascending',
+
+				routeBasePath: 'book',
+				path: 'book',
+
+				editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
+			},
+		],
+
+	],
+
   presets: [
     [
       'classic',
@@ -46,6 +68,7 @@ const config = {
         blog: {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+					routeBasePath: 'blog',
 					showReadingTime: true,
 					sortPosts: 'ascending',
           editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
@@ -114,6 +137,10 @@ const config = {
             sidebarId: 'ecosystemSidebar',
             position: 'right',
             label: 'Ecosystem',
+					}, {
+						to: '/book', 
+						label: 'Book', 
+						position: 'right'
 					}, {
 						to: '/blog', 
 						label: 'Blog', 
@@ -200,7 +227,10 @@ const config = {
           }, {
             title: 'More',
             items: [ {
-                label: 'Blog',
+								label: 'Book',
+								to: '/book',
+						}, {	
+								label: 'Blog',
                 to: '/blog',
               }, {
                 label: 'GitHub',
