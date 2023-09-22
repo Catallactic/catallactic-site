@@ -9,7 +9,7 @@ export default function FeaturesSection(): JSX.Element {
 
 				<div className="text-center pb-1 mb-4">
 					<div className="h1 fw-bold color-theme-reverse2">Features</div>
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">For the benefit of stakeholders, some constraints must be build-in into the model.</p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">For the benefit of stakeholders, a set of principles must be build-in into the framework as features</p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">
@@ -21,7 +21,7 @@ export default function FeaturesSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Security</h3>
 							<p>With billions stolen every year, ensuring security is a must or any cryptocurrency. This includes audits, testing, backups or any possible mechanism to guarantee that your funds are safu.</p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/security' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/principles/security/overview' role='button'>Learn More</a>
 						</div>
 					</div>
 
@@ -32,7 +32,7 @@ export default function FeaturesSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Compliance</h3>
 							<p>With juristictions increasingly stressing legilation around cryptocurrencies, any crypto must allow optional and configurable compliance mechanisms without reinvnting the wheel. </p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/compliance/KYC' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/principles/compliance/KYC' role='button'>Learn More</a>
 						</div>
 					</div>
 
@@ -43,7 +43,7 @@ export default function FeaturesSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Reporting</h3>
 							<p>Investor and users need fluid and trustfull information about the currency they are using. We must include configurable reports with enabled interoperability formats between servers.</p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/tokenization/reporting' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/principles/reporting/overview' role='button'>Learn More</a>
 						</div>
 					</div>
 				</div>

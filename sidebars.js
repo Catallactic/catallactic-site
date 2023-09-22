@@ -38,19 +38,19 @@ const sidebars = {
 			type: 'category',
 			label: 'Privacy',
 			items: [
-				'principles/privacy/privacy',
+				'principles/privacy/overview',
 			],
 		}, {
 			type: 'category',
 			label: 'Security',
 			items: [
-				'principles/security/security',
+				'principles/security/overview',
 			],
 		}, {
 			type: 'category',
 			label: 'Reporting',
 			items: [
-				'principles/reporting/reporting',
+				'principles/reporting/overview',
 			],
 		}, {
 			type: 'category',
