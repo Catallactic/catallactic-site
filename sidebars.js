@@ -28,12 +28,6 @@ const sidebars = {
     }, {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Value Capture Principles</span>',
-    }, {
-			type: 'category',
-			label: 'Market',
-			items: [
-				'tokenization/market/market',
-			],
 		}, {
 			type: 'category',
 			label: 'Decentralization',
