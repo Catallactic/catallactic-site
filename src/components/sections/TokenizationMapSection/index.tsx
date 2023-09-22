@@ -21,7 +21,7 @@ export default function TokenizationMapSection(): JSX.Element {
 								<thead className="thead-dark">
 									<tr>
 										<th scope="col"></th>
-										<th scope="col" colSpan={6}>Tokenization Maturity Model</th>
+										<th scope="col" colSpan={6}>Tokenization Maturity</th>
 									</tr>
 									<tr>
 										<th scope="col">Tokenization Assets</th>
@@ -34,6 +34,15 @@ export default function TokenizationMapSection(): JSX.Element {
 									</tr>
 								</thead>
 								<tbody>
+									<tr>
+										<td>Natural Resources</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>X</td>
+										<td></td>
+									</tr>
 									<tr>
 										<td>Physical Assets</td>
 										<td></td>
@@ -77,10 +86,10 @@ export default function TokenizationMapSection(): JSX.Element {
 
 					<div className="col col--6">
 						<div className="text--center padding-horiz--md">
-							<h3>Tokenization Map</h3>
+							<h2 className="mb-4">Tokenization Map</h2>
 							<p>Tokenization Map represents the Universe of Tokenization, including tokenizable assets with all tokenization models. </p>
-							<p>This is relevant because this will show the currencies with higher Serviceability</p>
-							<a className='d-block btn btn-lg mt-4' href='/blog/Tokenization%20IV%20-%20Maturity%20Model#21-tokenization-map' role='button'>Learn More</a>
+							<p>Only fungible assets are suitable for value capture.</p>
+							<a className='d-block btn btn-lg mt-4' href='http://localhost:3000/book/Tokenization%20I%20-%20Demand#2-tokenizable-assets' role='button'>Learn More</a>
 						</div>
 					</div>
 

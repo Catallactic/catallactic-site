@@ -30,6 +30,8 @@ In this post we will examine the demand and leave supply and monetary policy for
 ## 2. Tokenizable Assets
 ---
 
+In order to allow value capture, we must focus in fungible assets. From the table of assets, only natural resources and commodities have the fungiblity feature. 
+
 <JSONTable theadData={Object.keys(underlying[0])} tbodyData={underlying}/>
 
 ## 3. Token Utility
