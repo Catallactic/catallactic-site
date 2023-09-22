@@ -99,6 +99,11 @@ const config = {
         items: [
           {
 						type: 'docSidebar',
+            sidebarId: 'principlesSidebar',
+            position: 'left',
+            label: 'Principles',
+          }, {
+						type: 'docSidebar',
             sidebarId: 'tokenizationSidebar',
             position: 'left',
             label: 'Tokenization',
@@ -156,7 +161,10 @@ const config = {
         style: 'dark',
         links: [{
             title: 'Tokenization',
-            items: [{
+							items: [{
+								label: 'Principles',
+								href: '/docs/principles/intro',
+							},{
                 label: 'Tokenization',
                 href: '/docs/tokenization/intro',
               }, {

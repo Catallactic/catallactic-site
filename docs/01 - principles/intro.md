@@ -2,6 +2,5 @@
 sidebar_position: 1
 ---
 
-# Privacy
-
+# Principles Intro
 
