@@ -22,19 +22,19 @@ export default function SuiteSction(): JSX.Element {
 
 					<div className="col col--6">
 
-						<div className="padding-horiz--md margin-top--lg">
+						<div className="padding-horiz--md margin-top--lg shadow">
 							<h3>Catallactic Admin DApp</h3>
 							<p className="text--left ">Faithully capture the underlying value of your commodity considering all aspects of Progressive Decentralization.</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='docs/suite/intro' role='button'>Learn More</a>
 						</div>
 
-						<div className="padding-horiz--md margin-top--lg">
+						<div className="padding-horiz--md margin-top--lg shadow">
 							<h3>Catallactic Purchase Widgets</h3>
 							<p className="text--left">Manage the lifecycle of your Commodities backed Token, from funding to vesting, trading and rewards with Catallactic Suite.</p>
 							<a className='d-block btn btn-lg p-0 m-0' href='docs/defi/intro' role='button'>Learn More</a>
 						</div>
 
-						<div className="padding-horiz--md margin-top--lg">
+						<div className="padding-horiz--md margin-top--lg shadow">
 							<h3>Catallactic Vesting Tracker</h3>
 							<p className="text--left">Deliver the value captured by your token back to the community as DeFi services, including lending, launchpads, transfers, payments, cards...</p>
 							<a className='d-block btn btn-lg p-0 m-0' href='docs/defi/intro' role='button'>Learn More</a>
