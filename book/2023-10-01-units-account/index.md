@@ -1,6 +1,6 @@
 ---
-slug: Units of Account
-title: Units of Account
+slug: Tokenization V - Units of Account
+title: Tokenization V - Units of Account
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

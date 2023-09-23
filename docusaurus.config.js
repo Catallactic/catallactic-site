@@ -246,7 +246,9 @@ const config = {
               }, {
 								to: 'https://cryptonomics.network/', 
 								label: 'Forum', 
-								position: 'right'
+              }, {
+								to: 'https://www.linkedin.com/company/catallactic/', 
+								label: 'LinkedIn', 
 							},
             ],
           },
