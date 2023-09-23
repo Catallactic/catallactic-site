@@ -51,6 +51,7 @@ Commodity Money would be at the highest level of the maturity Model as its value
 			<th scope="col">Type</th>
 			<th scope="col">Capture</th>
 			<th scope="col">Typical Applications</th>
+			<th scope="col">As Currency</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -58,31 +59,37 @@ Commodity Money would be at the highest level of the maturity Model as its value
 			<td>Unbacked Tokens</td>
 			<td>No</td>
 			<td>Governance, Memecoins</td>
+			<td>No currency</td>
 		</tr>
 		<tr>
 			<td>Utility Tokens</td>
 			<td>Utility</td>
 			<td>Web3</td>
+			<td>No its purpose</td>
 		</tr>
 		<tr>
 			<td>Security Tokens</td>
 			<td>Yield</td>
 			<td>DeFi</td>
+			<td>No its purpose</td>
 		</tr>
 		<tr>
 			<td>Stablecoins</td>
 			<td>Price</td>
 			<td>DeFi</td>
+			<td>Fiat / Centralized</td>
 		</tr>
 		<tr>
 			<td>Units of Account</td>
 			<td>Value</td>
 			<td>Commodity backed Tokens</td>
+			<td>Optimal Currency</td>
 		</tr>
 		<tr>
 			<td>NFTs</td>
 			<td>Asset</td>
 			<td>Ownership, collectibles</td>
+			<td>No currency</td>
 		</tr>
 	</tbody>
 </table>
