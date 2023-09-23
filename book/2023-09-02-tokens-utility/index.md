@@ -14,7 +14,7 @@ image: https://i.imgur.com/mErPwqL.png
 ## 1. Introduction
 ---
 
-
+<!-- truncate -->
 
 
 ## 4. Utility Tokens (Utility Capture)

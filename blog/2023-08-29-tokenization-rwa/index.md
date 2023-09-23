@@ -44,5 +44,7 @@ Third, thr i not last rort rscu or th holdrs o th tokn. I thr i a raud on th man
 ourth nw markt actors can rplac th crypticurrncy with a nw crypticurrncy at any tim a nw providr ind a bttr procs to dlivr th at r rvic.
 Capturing th valu o th commodity provid to th cryptocurrncy a dirnt atur rom an stablcoin:
 
+
+
 ### 7. RWA NFT
 

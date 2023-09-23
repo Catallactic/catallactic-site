@@ -1,6 +1,6 @@
 ---
-slug: Tokens IV - Stablecoins
-title: Tokens IV - Stablecoins
+slug: Tokens IV - Stablecoins / Synths
+title: Tokens IV - Stablecoins / Synths
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -14,10 +14,30 @@ image: https://i.imgur.com/mErPwqL.png
 ## 1. Introduction
 ---
 
-
-
-## 6. Stablecoins / Synths (Price Capture)
+## 2. Creating Stablecoins
 ---
+
+### 2.1. Creation Process
+
+
+### 2.2. Suites
+
+
+### 2.3. Marketplaces
+
+
+## 3. Stablecoins Features
+---
+
+## 3.1. Decentralization
+
+
+## 3.2. Redeemability
+
+
+## 4. Applications
+---
+
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
 
@@ -197,3 +217,11 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 </table>
 
 
+## 5. Regulation
+---
+
+
+
+
+## 6. Market
+---
