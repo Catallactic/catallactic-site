@@ -1,6 +1,6 @@
 ---
-slug: Tokenization V - Units of Account
-title: Tokenization V - Units of Account
+slug: Tokens V - Units of Account
+title: Tokens V - Units of Account
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -100,6 +100,34 @@ which can be partially upgraded over the time, e.g. new compliance requirements.
 ## 8. Applications of Units of Account
 ---
 
+## 7. Units of Account (Value Capture)
+
+Value Capture Tokens capture the underlying value by matching their supply with number of units captured and leaving the price floating free. Tokens capturing value are considered Unit of Account or Commodity backed Money.
+
+<table class="table w-auto mx-auto fs-6">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Token Backing</th>
+			<th scope="col">Token Subtype</th>
+			<th scope="col">Asset</th>
+			<th scope="col">Examples</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Asset Value Capture Tokens</td>
+			<td>Averaged Value Capture</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Utility Capture Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 
 
 
@@ -115,4 +143,8 @@ Despite a value capture mechanism can be applied to any other assets than commod
  irst thy ar ungible.
 
 atr that they are highly divisible.
+
+
+
+
 
