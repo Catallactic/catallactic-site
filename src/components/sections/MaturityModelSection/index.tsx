@@ -18,8 +18,8 @@ export default function MaturityModelSection(): JSX.Element {
 					<div className="col col--6">
 						<div className="text--center padding-horiz--md">
 							<h2 className="mb-4">Tokenization Maturity Model</h2>
-							<p>Different currencies can have different levels of capture and decentralization so we must create a maturity model to incentivize good practices. </p>
-							<p>This site and framework are dedicated to design and support Unit of Account, which is the highest level of currency. </p>
+							<p>Different tokenization patterns hold different properties and are suitable for different applications. We create a maturity model to incentivize good practices. </p>
+							<p>This site and framework are dedicated to design and support Unit of Account, which is the only token pattern that can become a cryptocurrency representing Sound Money. </p>
 							<a className='d-block btn btn-lg mt-4' href='/book/Tokenization%20IV%20-%20Maturity%20Model#2-a-tokenization-maturity-model' role='button'>Learn More</a>
 						</div>
 					</div>
