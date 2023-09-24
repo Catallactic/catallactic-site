@@ -44,6 +44,7 @@ Commodity Money would be at the highest level of the maturity Model as its value
 
 ## 3. Applications
 
+Each tokenization pattern has a different set of applications.
 
 <table class="table w-auto mx-auto fs-6">
 	<thead class="thead-dark">
@@ -51,7 +52,6 @@ Commodity Money would be at the highest level of the maturity Model as its value
 			<th scope="col">Type</th>
 			<th scope="col">Capture</th>
 			<th scope="col">Typical Applications</th>
-			<th scope="col">As Currency</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -59,44 +59,111 @@ Commodity Money would be at the highest level of the maturity Model as its value
 			<td>Unbacked Tokens</td>
 			<td>No</td>
 			<td>Governance, Memecoins</td>
-			<td>No currency</td>
 		</tr>
 		<tr>
 			<td>Utility Tokens</td>
 			<td>Utility</td>
-			<td>Web3</td>
-			<td>No its purpose</td>
+			<td>Web3 including Infra Tokens, Supply Chain Tokens, eBusiness Tokens (Ticketing, Loyalty, Marketplaces), SocialFi, GameFi, Metaverse</td>
 		</tr>
 		<tr>
 			<td>Security Tokens</td>
 			<td>Yield</td>
 			<td>DeFi</td>
-			<td>No its purpose</td>
 		</tr>
 		<tr>
 			<td>Stablecoins</td>
 			<td>Price</td>
 			<td>DeFi</td>
-			<td>Fiat / Centralized</td>
 		</tr>
 		<tr>
 			<td>Units of Account</td>
 			<td>Value</td>
-			<td>Commodity backed Tokens</td>
-			<td>Optimal Currency</td>
+			<td>Commodity backed Cryptocurrencies</td>
 		</tr>
 		<tr>
 			<td>NFTs</td>
 			<td>Asset</td>
 			<td>Ownership, collectibles</td>
-			<td>No currency</td>
 		</tr>
 	</tbody>
 </table>
 
+### 3.1. Token Patterns as Currencies
 
+If we evaluate the tokenization patterns as potential currencies, we see that only Units of Account match the requirements.
 
+<table class="table w-auto mx-auto fs-6">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Type</th>
+			<th scope="col">Collateralized</th>
+			<th scope="col">Fungible</th>
+			<th scope="col">Stable</th>
+			<th scope="col">Decentralized</th>
+			<th scope="col">As Currency</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Unbacked Tokens</td>
+			<td>No</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>Possible</td>
+			<td>No Suitable</td>
+		</tr>
+		<tr>
+			<td>Utility Tokens</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>Possible</td>
+			<td>No Suitable</td>
+		</tr>
+		<tr>
+			<td>Security Tokens</td>
+			<td>Debatable</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>No Suitable</td>
+		</tr>
+		<tr>
+			<td>Stablecoins</td>
+			<td>Debatable</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>No Suitable</td>
+		</tr>
+		<tr>
+			<td>Units of Account</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>Possible</td>
+			<td>Suitable</td>
+		</tr>
+		<tr>
+			<td>NFTs</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No Suitable</td>
+		</tr>
+	</tbody>
+</table>
 
+Unbacked Tokens cannot be a currency because they do not have any collateral and are not stable. 
+
+NFTs cannot be a currency because they are not fungible.
+
+Stablecoins/Synth and Security token cannot be a currency because they are fiat and, therefore, centralized.
+
+Utility Token have been created as ecosystem barebones but they are not stable to become currencies.
+
+Only Units of Account can potentially implement Sound Money. However a design is required for this mission.
 
 ## 4. Tokenization Map
 
