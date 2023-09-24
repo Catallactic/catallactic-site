@@ -5,7 +5,23 @@ title: Overview
 
 # Decentralization
 
+Including decentralization is highly consuming task or most o the projects. No only dcntralization o your own syyms but also projcts should tak in account dcntralization in adoptd tool. 
+
+Catallactic aims to:
+
+- identify the dimenion of decentralization in implied tools
+
+- include decentralization in Catallactic framework and tools
+
+- measure decentralization dimensions
+
+- ranking the providers based on decentralization levels
+
+- continuous surveillance of the providers and identification of centralization risks
+
 This article provides an starting point https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
+
+https://docs.arbitrum.foundation/state-of-progressive-decentralization
 
 
 ## Network Decentralization
