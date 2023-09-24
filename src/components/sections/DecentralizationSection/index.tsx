@@ -23,9 +23,11 @@ export default function DecentralizationSection(): JSX.Element {
 
 					<div className="col col--6">
 
-						<div className="text--center padding-horiz--md">
-							<h3>Progressive Decentralization</h3>
-							<p>Once the value from commodities has been captured, we must preserve it in a decentralized way. This is a a multifaceted task that must be executed in a progressive approach. </p>
+						<div className="text--center padding-horiz--md padding-vert--md">
+							<h1 className="mb-4">Progressive Decentralization</h1>
+							<h4>Differently to mainstream vision, we think that decentralization in the currency and ecosystem, should be provided from day 1. </h4>
+							<h4>We also think this decentralization is homogeneus across the industry, instead of company specific. However, we do not have yet the dimensions for this multifaceted decentralization and this is mission for this community. </h4>
+							<h4>Catallactic aims to identify the <b>requirements for full decentralization</b> and integrate them, out of the box, into the Catallactic framework. </h4>
 							<a className='d-block btn btn-lg mt-4' href='/docs/principles/decentralization/overview' role='button'>Learn More</a>
 						</div>
 					</div>
