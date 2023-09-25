@@ -244,6 +244,9 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/Catallactic',
               }, {
+                label: 'Discord',
+                href: 'https://discord.gg/xwJR9MZPmA',
+              }, {
 								to: 'https://cryptonomics.network/', 
 								label: 'Forum', 
               }, {
