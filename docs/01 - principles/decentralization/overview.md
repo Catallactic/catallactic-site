@@ -5,11 +5,11 @@ title: Overview
 
 # Decentralization
 
-Including decentralization is highly consuming task or most o the projects. No only dcntralization o your own syyms but also projcts should tak in account dcntralization in adoptd tool. 
+Including decentralization is highly consuming task for most of the projects. No only decentralization on your own systems but, also, projects should take into account decentralization in adopted tools. 
 
 Catallactic aims to:
 
-- identify the dimenion of decentralization in implied tools
+- identify the dimensions of decentralization in tools ecosystem
 
 - include decentralization in Catallactic framework and tools
 
