@@ -14,7 +14,7 @@ export default function SuiteSction(): JSX.Element {
 
 				<div className="row margin-bottom--lg feature_eSJM">
 
-					<div className="col col--6 my-auto d-flex">
+					<div className="col col--6 my-auto d-flex justify-content-center">
 						<div className="text--center">
 							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/dappmin/ico_fea.png" />
 						</div>
