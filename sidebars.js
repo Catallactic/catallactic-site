@@ -165,11 +165,11 @@ const sidebars = {
       type: 'category',
       label: 'Advertise your Project',
       items: [
-				'funding/advertising/agencies',
+				'funding/advertising/watchers',
 				'funding/advertising/press',
+				'funding/advertising/agencies',
 				'funding/advertising/ambassador',
 				'funding/advertising/influencers',
-				'funding/advertising/watchers',
 			],
 		}, {
       type: 'category',
