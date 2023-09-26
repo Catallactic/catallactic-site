@@ -15,13 +15,13 @@ export default function DecentralizationSection(): JSX.Element {
 
 				<div className="row margin-bottom--lg feature_eSJM">
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center">
 							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://i0.wp.com/antylles.com/wp-content/uploads/2019/04/decentralization.png?fit=790%2C516&ssl=1" />
 						</div>
 					</div>
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 
 						<div className="text--center padding-horiz--md padding-vert--md">
 							<h1 className="mb-4">Progressive Decentralization</h1>

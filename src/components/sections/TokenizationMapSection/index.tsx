@@ -15,7 +15,7 @@ export default function TokenizationMapSection(): JSX.Element {
 
 				<div className="row margin-bottom--lg feature_eSJM">
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center">
 							<table className="table w-auto mx-auto fs-6">
 								<thead className="thead-dark">
@@ -84,7 +84,7 @@ export default function TokenizationMapSection(): JSX.Element {
 						</div>
 					</div>
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
 							<h2 className="mb-4">Tokenization Map</h2>
 							<p>Tokenization Map represents the Universe of Tokenization, including tokenizable assets with all tokenization models. </p>

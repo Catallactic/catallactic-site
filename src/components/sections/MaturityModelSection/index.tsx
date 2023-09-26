@@ -15,7 +15,7 @@ export default function MaturityModelSection(): JSX.Element {
 
 				<div className="row margin-bottom--lg feature_eSJM">
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
 							<h2 className="mb-4">Tokenization Maturity Model</h2>
 							<p>Different tokenization patterns hold different properties and are suitable for different applications. We create a maturity model to incentivize good practices. </p>
@@ -24,7 +24,7 @@ export default function MaturityModelSection(): JSX.Element {
 						</div>
 					</div>
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center">
 							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model_seal.svg" />
 						</div>

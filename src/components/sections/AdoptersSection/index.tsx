@@ -13,7 +13,7 @@ export default function AdoptersSections(): JSX.Element {
 
 				<div className="row margin-vert--xl feature_eSJM">
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
 							<h3>GasClick / CryptoGas</h3>
 							<p>GasClick is tokenizing LPG orders with its currency CryptoGas. </p>
@@ -21,7 +21,7 @@ export default function AdoptersSections(): JSX.Element {
 						</div>
 					</div>
 
-					<div className="col col--6">
+					<div className="col col--6 my-auto d-flex">
 						<div className="text--center">
 							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://gasclick.pe/img/cryptogas.webp" width={300}/>
 						</div>
