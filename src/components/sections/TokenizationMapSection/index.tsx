@@ -86,9 +86,9 @@ export default function TokenizationMapSection(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
-							<h2 className="mb-4">Tokenization Map</h2>
-							<p>Tokenization Map represents the Universe of Tokenization, including tokenizable assets with all tokenization models. </p>
-							<p>Only fungible assets are suitable for value capture.</p>
+							<h1 className="mb-4">Tokenization Map</h1>
+							<h5>Tokenization Map represents the Universe of Tokenization, including tokenizable assets with all tokenization models. </h5>
+							<h5>Only fungible assets are suitable for value capture.</h5>
 							<a className='d-block btn btn-lg mt-4' href='/book/Tokenization%20IV%20-%20Maturity%20Model#4-tokenization-map' role='button'>Learn More</a>
 						</div>
 					</div>

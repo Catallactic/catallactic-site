@@ -15,8 +15,9 @@ export default function AdoptersSections(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
-							<h3>GasClick / CryptoGas</h3>
+							<h1 className="mb-4">GasClick / CryptoGas</h1>
 							<p>GasClick is tokenizing LPG orders with its currency CryptoGas. </p>
+							<p>Merging the new cryptoeconomy and the traditional economy. By leveraging the value already existing on LPG consumption, we tokenize, capture it and offer to worldwide investors. A match made in heaven. </p>
 							<a className='d-block btn btn-lg mt-4' href='https://gasclick.net/' role='button'>Go to GasClick</a>
 						</div>
 					</div>
