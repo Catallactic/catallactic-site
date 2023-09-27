@@ -38,19 +38,19 @@ export default function WhySection(): JSX.Element {
 							<div className="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
 								<a className="pp nav-link mb-3 p-3 shadow active" id="v-whytab0" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={() => setShownTab(0)}>
-									<span className="font-weight-bold small text-uppercase">Why Catallactic</span>
+									<span className="font-weight-bold text-uppercase">Why Catallactic</span>
 								</a>
 
 								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab1" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => setShownTab(1)}>
-									<span className="font-weight-bold small text-uppercase">Why not stablecoins?</span>
+									<span className="font-weight-bold text-uppercase">Why not stablecoins?</span>
 								</a>
 
 								<a className="nav-link mb-3 p-3 shadow" id="v-whytab2" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => setShownTab(2)}>
-									<span className="font-weight-bold small text-uppercase">How can I benefit</span>
+									<span className="font-weight-bold text-uppercase">How can I benefit</span>
 								</a>
 
 								<a className="nav-link mb-3 p-3 shadow" id="v-whytab3" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(3)}>
-									<span className="font-weight-bold small text-uppercase">How can I contribute</span>
+									<span className="font-weight-bold text-uppercase">How can I contribute</span>
 								</a>
 
 							</div>
