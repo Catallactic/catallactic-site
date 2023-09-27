@@ -37,9 +37,20 @@
 .nav-link.active {
 	color: #fff !important;
 	background-color: #c0c0c0 !important;
+	font-weight: bold;
 }
 
 a {
 	color: #343631 !important;
 	text-decoration: none !important;
+}
+
+.actionbutton {
+	color: #fff !important;
+}
+.actionbutton:hover {
+	color: #000 !important;
+}
+.footer__link-item {
+	color: #fff !important;
 }
