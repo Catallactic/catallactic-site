@@ -34,46 +34,7 @@ const config = {
     locales: ['en'],
   },
 
-	plugins: [
 
-		[
-			'@docusaurus/plugin-content-blog',
-			{
-				id: 'book',
-				blogSidebarTitle: 'Book',
-				blogSidebarCount: 'ALL',
-				blogTitle: 'Book',
-				blogDescription: 'Book',
-				showReadingTime: false,
-				sortPosts: 'ascending',
-
-				routeBasePath: 'book',
-				path: 'book',
-
-				editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
-			},
-		],
-
-    [
-      '@docusaurus/preset-classic',
-      {
-        gtag: {
-          trackingID: 'G-43D7D5091Z',
-          anonymizeIP: true,
-        },
-      },
-    ],
-
-    /*[
-      '@docusaurus/preset-classic',
-      {
-        googleTagManager: {
-          containerId: 'GTM-12345',
-        },
-      },
-    ],*/
-
-	],
 
   presets: [
     [
@@ -98,6 +59,36 @@ const config = {
       }),
     ],
   ],
+
+	plugins: [
+
+		[
+			'@docusaurus/plugin-content-blog',
+			{
+				id: 'book',
+				blogSidebarTitle: 'Book',
+				blogSidebarCount: 'ALL',
+				blogTitle: 'Book',
+				blogDescription: 'Book',
+				showReadingTime: false,
+				sortPosts: 'ascending',
+
+				routeBasePath: 'book',
+				path: 'book',
+
+				editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
+			},
+		],
+
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-43D7D5091Z',
+        anonymizeIP: true,
+      },
+    ],
+
+	],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
