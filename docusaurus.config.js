@@ -54,6 +54,25 @@ const config = {
 			},
 		],
 
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-43D7D5091Z',
+          anonymizeIP: true,
+        },
+      },
+    ],
+
+    /*[
+      '@docusaurus/preset-classic',
+      {
+        googleTagManager: {
+          containerId: 'GTM-12345',
+        },
+      },
+    ],*/
+
 	],
 
   presets: [
