@@ -12,5 +12,12 @@
 	{"name": "Decrypt", "url": "https://decrypt.co/1" },
 	{"name": "DailyHodl", "url": "https://dailyhodl.com/" },
 	{"name": "Medium", "url": "https://medium.com/" },
-	{"name": "The Tokenizer", "url": "https://thetokenizer.io/advertising-options/" }
+	{"name": "Cryptopanic", "url": "https://cryptopanic.com/" },
+	{"name": "The Tokenizer", "url": "https://thetokenizer.io/advertising-options/" },
+	{"name": "Bankless", "url": "https://www.bankless.com/" },
+	{"name": "Milkroad", "url": "https://milkroad.com/daily/" },
+	{"name": "The Block", "url": "https://www.theblock.co/" },
+	{"name": "CaphillCrypto", "url": "https://www.caphillcrypto.com/" },
+	{"name": "TokenTerminal", "url": "https://tokenterminal.com/" },
+	{"name": "CoinBureau", "url": "https://www.coinbureau.com/" }
 ]
