@@ -10,6 +10,7 @@ import MaturityModelSection from '@site/src/components/sections/MaturityModelSec
 import TokenizationMapSection from '@site/src/components/sections/TokenizationMapSection';
 import FeaturesSection from '@site/src/components/sections/FeaturesSection';
 import SuiteSection from '@site/src/components/sections/SuiteSection';
+import EcosystemSection from '@site/src/components/sections/EcosystemSection';
 import AdoptersSections from '@site/src/components/sections/AdoptersSection';
 import InvestorsSection from '@site/src/components/sections/InvestorsSection';
 
@@ -50,7 +51,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title={`Crypto for the real economy.`} description="An Open Source Framework and Community to capture the value of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society.">
+    <Layout title={`Cryptocommodities for the real economy.`} description="An Open Source Framework and Community to capture the value of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society.">
       <HomepageHeader />
       <main>
 				<WhySection/>
@@ -59,6 +60,7 @@ export default function Home(): JSX.Element {
 				<TokenizationMapSection/>
         <FeaturesSection />
         <DecentralizationSection />
+				<EcosystemSection />
         <SuiteSection />
         <AdoptersSections />
         <InvestorsSection />
