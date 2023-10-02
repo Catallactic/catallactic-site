@@ -3,6 +3,6 @@ import ecosystem_wallets from "/static/data/ecosystem_wallets.json"
 
 # Wallets
 
-<JSONTable theadData={Object.keys(ecosystem_wallets[0])} tbodyData={ecosystem_wallets}/>
+<JSONTable theadData={["name", "url", "signing", "packaging", "tokens"]} tbodyData={ecosystem_wallets}/>
 
 
