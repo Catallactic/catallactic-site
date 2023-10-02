@@ -21,7 +21,7 @@ export default function EcosystemSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>DLT Networks</h3>
 							<p>With hundreds of DLT networks with different consensus protocols, gas fees or ecosystems is necessary to understand which ones comply with value-based cryptocommodities.</p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/principles/security/overview' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/ecosystem/dlts/list' role='button'>Learn More</a>
 						</div>
 					</div>
 
@@ -32,7 +32,7 @@ export default function EcosystemSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Wallets</h3>
 							<p>Despite there are more than 1 hundred of wallets in offer in the crypto market, there is not a simple $20 HW wallet, as a Garage Door Opener, to pay in real markets and this is preventing massification.  </p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/principles/compliance/KYC' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/ecosystem/wallets/list' role='button'>Learn More</a>
 						</div>
 					</div>
 
@@ -43,7 +43,7 @@ export default function EcosystemSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>Exchanges</h3>
 							<p>When issuing your value-based cryptocommodities it is necessary to understand what CEX, HEX, DEX, FEX, Liquidity Aggregators comply with the Trading, Operations and Distribution.</p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/principles/reporting/overview' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/ecosystem/exchanges/list' role='button'>Learn More</a>
 						</div>
 					</div>
 				</div>
