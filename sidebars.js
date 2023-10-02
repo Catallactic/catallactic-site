@@ -573,10 +573,21 @@ const sidebars = {
 			label: 'Getting started', // sidebar label
 		}, {
 			type: 'category',
-			label: 'Decentralization',
+			label: 'DLT Networks',
 			items: [
-				'ecosystem/infra',
-				'ecosystem/governance'
+				'ecosystem/dlts/list',
+			],
+		}, {
+			type: 'category',
+			label: 'Exchanges',
+			items: [
+				'ecosystem/exchanges/list',
+			],
+		}, {
+			type: 'category',
+			label: 'Wallets',
+			items: [
+				'ecosystem/wallets/list',
 			],
 		}, 
 	],
