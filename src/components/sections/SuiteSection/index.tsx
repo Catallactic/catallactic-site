@@ -16,9 +16,7 @@ export default function SuiteSction(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex justify-content-center">
 						<div className="text--center">
-							<a href='https://catallactic.github.io/catallactic-admin/' target={'_blank'}>
-								<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/dappmin/ico_fea.png" />
-							</a>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/dappmin/ico_fea.png" />	
 						</div>
 					</div>
 

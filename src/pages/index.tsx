@@ -37,7 +37,7 @@ function HomepageHeader() {
 							<h1 className='mb-5'>Catallactic</h1>
 							<h2 className='mb-5'>Building a <b>Real Economy</b> backed by <b>Commodities</b></h2>
 							<h4 className='mb-5'>... because <i>'only fools confuse price and value'</i>. Antonio Machado.</h4>
-							<a className='btn btn-outline-light btn-lg m-3 actionbutton' href='https://github.com/Catallactic' role='button'>Access on Github</a>
+							<a className='btn btn-outline-light btn-lg m-3 actionbutton' href='https://catallactic.github.io/catallactic-admin/' role='button'>Admim Demo</a>
 							<a className='btn btn-outline-light btn-lg m-3 actionbutton' href='https://discord.gg/xwJR9MZPmA' role='button'>Access on Discord</a>
 						</div>
 						<div className='d-none col-md-2'></div>
