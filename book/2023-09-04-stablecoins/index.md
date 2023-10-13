@@ -68,6 +68,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 				<a href="https://digix.global/dgx" target="_blank">DGX</a>, 
 				<a href="https://cache.gold/" target="_blank">CACHE</a>,
 				<a href="https://www.rbz.co.zw/documents/Gold-backed_Digital_Token/August/RBZ_Gold-backed_Digital_Tokens_Issue_12_Results_03_August_2023.pdf" target="_blank">RBZ GBDT</a>
+				<a href="https://beincrypto.com/zimbabwe-gold-digital-token-zig/" target="_blank">RBZ ZiG</a>
 			</td>
 		</tr>
 		<tr>
@@ -114,7 +115,7 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 			</td>
 		</tr>
 		<tr>
-			<td rowspan="12">Fiat Stablecoins</td>
+			<td rowspan="13">Fiat Stablecoins</td>
 			<td rowspan="6">dollar</td>
 			<td>Real State</td>
 			<td>
@@ -199,6 +200,11 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 			<td>Brazil Real</td>
 			<td></td>
 			<td><a href="https://www.brztoken.io/" target="_blank">BRZ</a></td>
+		</tr>
+		<tr>
+			<td>UAE dirham</td>
+			<td>UAE dirham</td>
+			<td><a href="https://www.linkedin.com/feed/update/urn:li:activity:7114463707258060800/" target="_blank">DRAM</a></td>
 		</tr>
 		<tr>
 			<td>mex peso</td>
