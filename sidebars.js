@@ -216,7 +216,7 @@ const sidebars = {
 			type: 'category',
       label: 'Running Funding Rounds',
       items: [
-				'suite/dapp-admin/funding-round/plan-funding-round',
+				'suite/dapp-admin/funding-round/overview',
 				'suite/dapp-admin/funding-round/prepare-funding-round',
 				'suite/dapp-admin/funding-round/create-funding-round',
 				'suite/dapp-admin/funding-round/manage-funding-round',
@@ -389,7 +389,7 @@ const sidebars = {
       value: '<span class="sidebar-heading w-100 text-center">Admin DApp</span>',
     }, {
 			type: 'category',
-      label: 'Creating your Suite',
+      label: 'Creating Cryptocommodity',
       items: [
 				'suite/dapp-admin/create-suite',
 			],
@@ -397,7 +397,7 @@ const sidebars = {
 			type: 'category',
       label: 'Funding your Project',
       items: [
-				'suite/dapp-admin/funding-round/plan-funding-round',
+				'suite/dapp-admin/funding-round/overview',
 				'suite/dapp-admin/funding-round/prepare-funding-round',
 				'suite/dapp-admin/funding-round/create-funding-round',
 				'suite/dapp-admin/funding-round/manage-funding-round',
