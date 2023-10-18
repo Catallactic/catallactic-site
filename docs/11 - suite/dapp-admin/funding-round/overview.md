@@ -8,29 +8,29 @@ sidebar_position: 1
 
 Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
-> ADMIN: Create Cryptocommodity
+> ISSUER: Create Cryptocommodity
 
-> ADMIN: Select Cryptocommodity
+> ISSUER: Select Cryptocommodity
 
-> ADMIN: Install Facets
+> ISSUER: Install Facets
 
-> ADMIN: Create Vesting Period
+> ISSUER: Create Vesting Period
 
-> ADMIN: Create Funding Round Features
+> ISSUER: Create Funding Round
 
-> ADMIN: Configure Antiwhale
+> ISSUER: Configure Antiwhale
 
-> ADMIN: Install Payment Methods
+> ISSUER: Install Payment Methods
 
-> ADMIN: Initialize Cryptocommodity ERC-20
+> ISSUER: Set the setReceiveFacet
 
-> ADMIN: Set the setReceiveFacet, can be address(this)?
+> ISSUER: Initialize Cryptocommodity ERC-20
 
 ## Manage Funding Round
 
 Management of funding round. Steps:
 
-> ADMIN: Start Funding Round
+> ISSUER: Start Funding Round
 
 > INVESTOR: Find Cryptocommodity
 
@@ -38,16 +38,25 @@ Management of funding round. Steps:
 
 > INVESTOR: Invest Coin
 
-> ADMIN: Whitelist Investor
+> ISSUER: Whitelist Investor
 
 > INVESTOR: Invest Token
 
 > INVESTOR: Invest Coin
 
-## Close Funding Round with Failure
+## Finalize Funding Round with Failure
 
+Finalize failed funding round. Steps:
 
-## Close Funding Round with Success
+> ISSUER: Finalize Funding Round
+
+> INVESTOR: Refund invested tokens
+
+> INVESTOR: Refund invested coins
+
+> ISSUER: Reset Funding Round
+
+## Finalize Funding Round with Success
 
 
 ## Monitor Vesting Process
