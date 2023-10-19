@@ -12,9 +12,7 @@ sidebar_position: 1
 
 > ISSUER: Prepare Pitch Deck
 
-> ISSUER: Prepare Pitch Deck
-
-> ISSUER: Define Pitch Deck
+> ISSUER: Define Roadmap
 
 > ISSUER: Register Company
 
