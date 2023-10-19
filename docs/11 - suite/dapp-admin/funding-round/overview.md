@@ -6,6 +6,26 @@ sidebar_position: 1
 
 ## Prepare Funding Round
 
+> ISSUER: Prepare Whitepaper
+
+> ISSUER: Prepare Litepaper
+
+> ISSUER: Prepare Pitch Deck
+
+> ISSUER: Prepare Pitch Deck
+
+> ISSUER: Define Pitch Deck
+
+> ISSUER: Register Company
+
+> ISSUER: Advertise Project
+
+> ISSUER: Build Community
+
+> ISSUER: Pitch Investors
+
+## Create Funding Round
+
 Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
 > ISSUER: Create Cryptocommodity
