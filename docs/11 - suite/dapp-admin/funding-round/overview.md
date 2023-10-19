@@ -24,7 +24,7 @@ Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
 > ISSUER: Set the setReceiveFacet
 
-> ISSUER: Initialize Cryptocommodity ERC-20
+> ISSUER: Initialize Cryptocommodity ERC-20 with Name, Symbol, Cryptocommodity Supply
 
 ## Manage Funding Round
 
@@ -58,5 +58,26 @@ Finalize failed funding round. Steps:
 
 ## Finalize Funding Round with Success
 
+Finalize successfull funding round. Steps:
 
-## Monitor Vesting Process
+> ISSUER: Finalize Funding Round
+
+> ISSUER: Enter Vesting Address in Crowdsale
+
+> ISSUER: Enter Token Address in Crowdsale
+
+> ISSUER: Enter Token Address in Vesting
+
+> ISSUER: Enter Crowdsale Address as Vesting Grantor
+
+> ISSUER: Transfers to Crowdsale Total Cryptocommodities purchased 
+
+> INVESTOR: Claims purchased Cryptocommodities
+
+> INVESTOR: Waits Vesting Periods
+
+> ISSUER: Configures Withdraw Wallet
+
+> ISSUER: Withdraws Funds to Wallet
+
+> ISSUER: Runs TGE to Exchanges (Optionally)
