@@ -34,6 +34,8 @@ Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
 > ISSUER: Install Facets
 
+> ISSUER: Create Storage
+
 > ISSUER: Create Vesting Period
 
 > ISSUER: Create Funding Round
