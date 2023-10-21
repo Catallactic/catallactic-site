@@ -160,11 +160,7 @@ const config = {
 						to: '/blog', 
 						label: 'Blog', 
 						position: 'right'
-					}, {
-						to: 'https://cryptonomics.network/', 
-						label: 'Forum', 
-						position: 'right'
-					},
+					}, 
         ],
       },
       footer: {
@@ -256,9 +252,6 @@ const config = {
               }, {
                 label: 'Discord',
                 href: 'https://discord.gg/xwJR9MZPmA',
-              }, {
-								to: 'https://cryptonomics.network/', 
-								label: 'Forum', 
               }, {
 								to: 'https://www.linkedin.com/company/catallactic/', 
 								label: 'LinkedIn', 
