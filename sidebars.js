@@ -188,21 +188,8 @@ const sidebars = {
 				'funding/pitching/vc',
 			],
 		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Project Funding Description</span>',
-    }, {
       type: 'category',
-      label: 'Funding Rounds',
-      items: [
-				'funding/rounds',
-				'funding/selling',
-			],
-		}, {
-      type: 'category',
-      label: 'Launchpads',
+      label: 'Existing Launchpads',
       items: [
 				'funding/launchpads',
 			],
@@ -213,6 +200,12 @@ const sidebars = {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Funding with Catallactic Suite</span>',
     }, {
+      type: 'category',
+      label: 'Defining Funding Rounds',
+      items: [
+				'funding/rounds',
+			],
+		}, {
 			type: 'category',
       label: 'Running Funding Rounds',
       items: [
@@ -221,7 +214,6 @@ const sidebars = {
 				'suite/dapp-admin/funding-round/create-funding-round',
 				'suite/dapp-admin/funding-round/manage-funding-round',
 				'suite/dapp-admin/funding-round/close-funding-round',
-				'suite/dapp-admin/funding-round/compliance-funding-round',
 			],
 		}, {
       type: 'category',
@@ -234,6 +226,7 @@ const sidebars = {
       label: 'Deploying to Exchanges',
       items: [
 				'funding/TGE',
+				'funding/selling',
 			],
 		}, 
   ],
@@ -402,7 +395,6 @@ const sidebars = {
 				'suite/dapp-admin/funding-round/create-funding-round',
 				'suite/dapp-admin/funding-round/manage-funding-round',
 				'suite/dapp-admin/funding-round/close-funding-round',
-				'suite/dapp-admin/funding-round/compliance-funding-round',
 			],
 		}, {
 			type: 'category',
