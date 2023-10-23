@@ -581,6 +581,12 @@ const sidebars = {
 			items: [
 				'ecosystem/wallets/list',
 			],
+		}, {
+			type: 'category',
+			label: 'Legal Framework',
+			items: [
+				'ecosystem/legal/cryptolaw',
+			],
 		}, 
 	],
 
