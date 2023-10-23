@@ -29,7 +29,7 @@
 	{ "jurisdiction": "USA", "id": "US1", "target": "AML", "scope": "AML", "doc": "Digital Asset Anti-Money Laundering Act of 2023", "url": "https://www.govinfo.gov/app/details/BILLS-118s2669is/summary" },
 	{ "jurisdiction": "USA", "id": "US2", "target": "VASP", "scope": "TBC", "doc": "Blockchain Regulatory Certainty Act", "url": "https://www.govinfo.gov/app/details/BILLS-118hr1747ih" },
 	{ "jurisdiction": "USA", "id": "US3", "target": "TBC", "scope": "TBC", "doc": "Financial Innovation and Technology for the 21st Century Act", "url": "https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=408921" },
-	{ "jurisdiction": "USA", "id": "US4", "target": "EXC", "scope": "TBC", "doc": "The Lummis-Gillibrand Bill", "url": "verified" },
-	{ "jurisdiction": "USA", "id": "US5", "target": "TBC", "scope": "TBC", "doc": "Assessment metrics for crypto industry registrants", "url": "" },
+	{ "jurisdiction": "USA", "id": "US4", "target": "EXC", "scope": "TBC", "doc": "The Lummis-Gillibrand Bill", "url": "https://www.gillibrand.senate.gov/news/press/release/lummis-gillibrand-reintroduce-comprehensive-legislation-to-create-regulatory-framework-for-crypto-assets/" },
+	{ "jurisdiction": "USA", "id": "US5", "target": "TBC", "scope": "TBC", "doc": "Assessment metrics for crypto industry registrants", "url": "https://www.sec.gov/news/press-release/2023-222" },
 	{ "jurisdiction": "USA", "id": "US5", "target": "TBC", "scope": "TBC", "doc": "Keep Your Coins Act", "url": "https://www.cbo.gov/publication/59647#:~:text=Summary-,H.R.,or%20purchase%20goods%20and%20services." }
 ]
