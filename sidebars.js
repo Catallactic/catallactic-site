@@ -153,13 +153,9 @@ const sidebars = {
       type: 'category',
       label: 'Perform Compliance',
       items: [
-				'funding/compliance/jurisdiction',
-				'funding/compliance/license',
-				'funding/compliance/teamkyc',
-				'funding/compliance/investorskyc',
-				'funding/compliance/exchange',
-				'funding/compliance/bank',
-				'funding/compliance/taxes',
+				'funding/compliance/issuer',
+				'funding/compliance/HQ',
+				'funding/compliance/investors',
 			],
 		}, {
       type: 'category',
@@ -564,6 +560,12 @@ const sidebars = {
 			id: 'ecosystem/ecosystem', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading">VASPs</span>',
+		}, {
 			type: 'category',
 			label: 'DLT Networks',
 			items: [
@@ -582,10 +584,22 @@ const sidebars = {
 				'ecosystem/wallets/list',
 			],
 		}, {
-			type: 'category',
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading">Legal</span>',
+    },  {
+			type: 'doc',
+			id: 'ecosystem/legal/cryptolaw',
 			label: 'Legal Framework',
+		}, {
+			type: 'category',
+			label: 'Funding Compliance',
 			items: [
-				'ecosystem/legal/cryptolaw',
+				'funding/compliance/issuer',
+				'funding/compliance/HQ',
+				'funding/compliance/investors',
 			],
 		}, 
 	],

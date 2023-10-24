@@ -1,0 +1,22 @@
+[	
+	{ "jurisdiction": "Australia", "id": "AU", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Canada", "id": "CA", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "EU", "id": "EU", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "UK", "id": "ES", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "USA", "id": "ES", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+
+	{ "jurisdiction": "Costa Rica", "id": "CR", "formationCost": "TBD", "cryyptolaw": "no", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "El Salvador", "id": "ES", "formationCost": "TBD", "cryyptolaw": "yes", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Guatemala", "id": "ES", "formationCost": "TBD", "cryyptolaw": "no", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Honduras", "id": "ES", "formationCost": "TBD", "cryyptolaw": "no", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Mexico", "id": "ES", "formationCost": "TBD", "cryyptolaw": "yes", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Panama", "id": "ES", "formationCost": "$1195", "cryyptolaw": "no", "licenseCost": "TBD", "CGT": ""  },
+
+	{ "jurisdiction": "Hong Kong", "id": "ES", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+
+	{ "jurisdiction": "Anguilla", "id": "AN", "formationCost": "$1000", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Bahamas", "id": "BH", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Belize", "id": "ES", "formationCost": "TBD", "cryyptolaw": "no", "licenseCost": "TBD", "CGT": "" },
+	{ "jurisdiction": "Cayman", "id": "CY", "formationCost": "TBD", "cryyptolaw": "TBD", "licenseCost": "TBD", "CGT": "" }
+	
+]
