@@ -1,17 +1,20 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import cryptolaw_investor from "/static/data/cryptolaw_investor.json"
+import cryptolaw_funding_hq from "/static/data/cryptolaw_funding_hq.json"
 
-# Investors Jurisdictions
+# for HQ
 
-Aspects:
+## Requirements
 
-- Tax
+- Bank
 
-- Crypto Allowed
+- Exchange
 
-- Registration Required
+- CGT / taxes
 
-# Investor per country
+- teamKYC
+
+
+## Requirements per Jurisdiction
 
   <table>
 		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
@@ -19,7 +22,7 @@ Aspects:
 			<th>Jurisdiction</th>
 		</tr>
 	
-		{cryptolaw_investor.map((data, index) => {
+		{cryptolaw_funding_hq.map((data, index) => {
 			if (!data.jurisdiction) {
 				return (
 					<tr style={{ textAlignVertical: "center",textAlign: "center", 'backgroundColor': '#fff7d9' }}>

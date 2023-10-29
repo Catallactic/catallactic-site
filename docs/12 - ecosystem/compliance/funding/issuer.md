@@ -1,9 +1,9 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import cryptolaw_issuer from "/static/data/cryptolaw_issuer.json"
+import cryptolaw_funding_issuer from "/static/data/cryptolaw_funding_issuer.json"
 
-# Issuer Jurisdiction
+# for Issuers
 
-Aspects:
+## Requirements
 
 - Remote Company Formation
 
@@ -14,7 +14,7 @@ Aspects:
 - License Costs
 
 
-# Issuer per country
+## Requirements per Jurisdiction
 
   <table>
 		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
@@ -26,7 +26,7 @@ Aspects:
 			<th>License Cost</th>
 		</tr>
 	
-		{cryptolaw_issuer.map((data, index) => {
+		{cryptolaw_funding_issuer.map((data, index) => {
 			if (!data.jurisdiction) {
 				return (
 					<tr style={{ textAlignVertical: "center",textAlign: "center", 'backgroundColor': '#fff7d9' }}>

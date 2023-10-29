@@ -1,20 +1,13 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import cryptolaw_hq from "/static/data/cryptolaw_hq.json"
+import cryptolaw_negotiation_issuer from "/static/data/cryptolaw_negotiation_issuer.json"
 
-# Headquarter Jurisdiction
+# for Issuers
 
-Aspects:
-
-- Bank
-
-- Exchange
-
-- CGT / taxes
-
-- teamKYC
+## Requirements
 
 
-# Headquarter per country
+
+## Requirements per Jurisdiction
 
   <table>
 		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
@@ -22,7 +15,7 @@ Aspects:
 			<th>Jurisdiction</th>
 		</tr>
 	
-		{cryptolaw_hq.map((data, index) => {
+		{cryptolaw_negotiation_issuer.map((data, index) => {
 			if (!data.jurisdiction) {
 				return (
 					<tr style={{ textAlignVertical: "center",textAlign: "center", 'backgroundColor': '#fff7d9' }}>

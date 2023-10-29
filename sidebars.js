@@ -153,9 +153,9 @@ const sidebars = {
       type: 'category',
       label: 'Perform Compliance',
       items: [
-				'funding/compliance/issuer',
-				'funding/compliance/HQ',
-				'funding/compliance/investors',
+				'ecosystem/compliance/funding/issuer',
+				'ecosystem/compliance/funding/HQ',
+				'ecosystem/compliance/funding/investors',
 			],
 		}, {
       type: 'category',
@@ -588,18 +588,30 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading">Legal</span>',
+      value: '<span class="sidebar-heading">Compliance</span>',
     },  {
 			type: 'doc',
-			id: 'ecosystem/legal/cryptolaw',
+			id: 'ecosystem/compliance/cryptolaw',
 			label: 'Legal Framework',
 		}, {
 			type: 'category',
-			label: 'Funding Compliance',
+			label: 'Jurisdictions for Funding',
 			items: [
-				'funding/compliance/issuer',
-				'funding/compliance/HQ',
-				'funding/compliance/investors',
+				'ecosystem/compliance/funding/issuer',
+				'ecosystem/compliance/funding/HQ',
+				'ecosystem/compliance/funding/investors',
+			],
+		}, {
+			type: 'category',
+			label: 'Jurisdictions for Negotiation',
+			items: [
+				'ecosystem/compliance/negotiation/issuer',
+			],
+		}, {
+			type: 'category',
+			label: 'Jurisdictions for Distribution',
+			items: [
+				'ecosystem/compliance/distribution/consumer',
 			],
 		}, 
 	],
