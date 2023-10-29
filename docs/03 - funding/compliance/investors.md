@@ -14,9 +14,9 @@ Aspects:
 # Investor per country
 
   <table>
-		<tr>
-			<td>Region</td>
-			<td>Jurisdiction</td>
+		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+			<th>Region</th>
+			<th>Jurisdiction</th>
 		</tr>
 	
 		{cryptolaw_investor.map((data, index) => {

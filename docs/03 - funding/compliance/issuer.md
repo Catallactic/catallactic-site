@@ -17,13 +17,13 @@ Aspects:
 # Issuer per country
 
   <table>
-		<tr>
-			<td>Region</td>
-			<td>Jurisdiction</td>
-			<td>Remote Company Formation</td>
-			<td>Company Formation Cost</td>
-			<td>CryptoLaw</td>
-			<td>License Cost</td>
+		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+			<th>Region</th>
+			<th>Jurisdiction</th>
+			<th>Remote Company Formation</th>
+			<th>Company Formation Cost</th>
+			<th>CryptoLaw</th>
+			<th>License Cost</th>
 		</tr>
 	
 		{cryptolaw_issuer.map((data, index) => {

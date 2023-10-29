@@ -4,10 +4,11 @@ import cryptolaw from "/static/data/cryptolaw.json"
 # Legal Framework
 
   <table>
-		<tr>
-			<td>Region</td>
-			<td>Jurisdiction</td>
-			<td>Doc</td>
+		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
+			<th>Region</th>
+			<th>Jurisdiction</th>
+			<th>Date</th>
+			<th>Document</th>
 		</tr>
 	
 		{cryptolaw.map((data, index) => {
@@ -22,6 +23,7 @@ import cryptolaw from "/static/data/cryptolaw.json"
 					<tr>
 						<td>{data.region}</td>
 						<td>{data.jurisdiction}</td>
+						<td nowrap="nowrap">{data.date}</td>
 						<td><a href={data.url} target='_blank'>{data.doc}</a></td>
 					</tr>
 				)
