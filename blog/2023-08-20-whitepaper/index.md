@@ -14,27 +14,21 @@ image: https://i.imgur.com/mErPwqL.png
 ## 1. Introduction
 ---
 
-We are in times poor in ideas but rich in tools. The adveniment of programmable money brings the opoortunity to propose new economic models created by anonymous citizens without this supposing a problem or risk or the rest o society. In that way, a competency of economic models can be stablished to allow citizens choose which one suits them better. 
+We are in times poor in ideas but rich in tools. The advent of programmable money brings the opoortunity to propose new economic models created by anonymous citizens without this supposing a problem or risk or the rest of society. In that way, a competency of economic models can be stablished to allow citizens choose which one suits them better. 
 
-In this essay, we are presenting a new kind of crypto-based currency and protocol. We also propose a launchpad and token management infrastructure to relieve issuer o th management burden and to guarantee tranparency, decentralization and other principles for the adopter.
+In this essay, we are presenting Unit of Account as new kind of protocol. We particularize this new protocol to capture value of commodities. We also describe the value chain of cryptocommodities and propose a launchpad and token management infrastructure to relieve issuer of the management burden and to guarantee transparency, decentralization and other principles for the adopter. We also explain the challenges to implement this new model and the benefits thats brings to society.
 
+<!-- truncate -->
 
-
-
-
-
-
-
-
-## 2. Protocols as economic models
+## 2. Economic models as Protocols
 ---
 
 
 ### 2.1. Economic variables
 
-Across the history, a few economic models have been proposed. Putting this conomic modls in practis reuire either a broad consensus betwen the citizens or the compromise o a planner.
+Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
 
-* what hold the value, time, energy, commodities, work, costs, utility, capital, politics
+* what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
 * who determines the value, citizens), plannr top down)
 
@@ -153,7 +147,7 @@ Across the history, a few economic models have been proposed. Putting this conom
 
 reserve protocol
 
-erc-
+erc-3643
 
 catallactic
 
@@ -223,7 +217,7 @@ In order to create a protocol we need to define 3 aspects:
 
 ### 3.2. The tokenization model
 
-During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holder
+During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
 
 - no underlaying asset
 
@@ -306,32 +300,55 @@ During the last decade a new tokenization models has been proposed. Tokenization
 
 
 
+
+
+
+
 ## 4. A Unit of Account Protocol
 ---
 
-A Unit of account capture the economic value in the form of a price ormd in th undlying markt. 
+A Unit of account capture the economic value in the form of a price ormd in th underlying market.
 
 
-### 4.1. Defining the underlying asset
+### 4.1. The Unit of Account Ecosystem
+
+needs to be ungible
+
+needs an underlying market for price formation
+
+
+<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
 
 
 
 ### 4.2. The Unit of Account Tokenization Model
 
-A Unit of Account is an specialization o utility token where only a certain set o utilitie are part o the price ormacion mechanim.
+A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
 
 <img src="/img/tokenization_maturity_model_seal.svg" width="60%"></img>
 
 
+### 4.3. Comparing tokenization models
+
+
+| Left | Centre | Right |
+| :--- | :----: | ----: |
+| 1    |   2    |     3 |
+
+cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+
+### 4.4. Structure of a CryptoCommodity
+
+
+<img src="/img/utilities_profile.svg" width="100%"></img>
+
+
+### 4.5.Defining the core utility to account
 
 
 
-### 4.3. Defining the core utility to account
 
-
-
-
-### 4.4. Covering additional utilitie. Bound stablecoin.
+### 4.6. Covering additional utilities. Bound stablecoin.
 
 - gobernance
 
@@ -348,7 +365,7 @@ A Unit of Account is an specialization o utility token where only a certain set 
 
 
 
-## 5. CryptoCommodity as Units of Account
+## 5. CryptoCommodites as Units of Account
 ---
 
 Historically, commodities has been used as basic forms of money. The problem is that they lack portability. This created the representative money or commodities backed money. However, this was replaced by fiat. Despite there is long way to go, crypto delivers the foundation to bring representative money back in a portable way.
@@ -376,25 +393,33 @@ A particularization o Utility Token
 - privacy
 
 
-
-### 5.2. Structure of a CryptoCommodity
-
-
-<img src="/img/utilities_profile.svg" width="100%"></img>
-
-
-### 5.3. CryptoCommodity Ecosystem
+### 5.2. CryptoCommodity Ecosystem
 
 
 
 
-### 5.4. The challenge of Velocity of Circulation
+### 5.3. The challenge of Velocity of Circulation
 
 
 ### 5.4. The challenge of decentralization
 
 
-### 5.4. The challenge of wallet
+### 5.5. The challenge of wallet
+
+
+
+
+
+
+
+
+
+
+## 6. Implementation of CryptoCommodites
+
+### 6.1. Structure of a CryptoCommodity
+
+<img src="/img/utilities_profile.svg" width="100%"></img>
 
 
 
@@ -407,14 +432,20 @@ A particularization o Utility Token
 
 
 
-## 6. The CryptoCommodity Value Chain
+
+
+
+
+
+
+## 7. The CryptoCommodity Value Chain
 ---
 
 <img src="/img/token_value_chain.svg" width="100%"></img>
 
 
 
-### 6.1 Funding
+### 7.1. Funding
 
 
 - crypcommodity allow unding 
@@ -424,7 +455,7 @@ A particularization o Utility Token
 - rgulatort advantag
 
 
-### 6.2 Negotiation
+### 7.2. Negotiation
 
 - capturing th valu
 
@@ -432,14 +463,14 @@ A particularization o Utility Token
 
 
 
-### 6.3 Distribution
+### 7.3. Distribution
 
 
 
 
 
 
-### 6.4 DeFi Services
+### 7.4. DeFi Services
 
 
 - rvic to ocity
@@ -447,18 +478,11 @@ A particularization o Utility Token
 - additional commiion
 
 
-### 6.5 Crowdsolving
+### 7.5. Crowdsolving
 
 
 
 
-
-
-
-
-
-## 7. Application of CryptoCommodity
----
 
 
 
@@ -495,32 +519,7 @@ ecosystem of companies
 hayek
 
 
-
-
-
-
-
-
-
-
-
-## 9. Comparing tokenization models
----
-
-
-| Left | Centre | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-
-cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
-
-
-
-
-
-
-## 10. Comparing economic models
+### 8.5. Comparing economic models
 ---
 
 
@@ -538,7 +537,7 @@ cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m in
 
 
 
-## 11. Conclusion
+## 9. Conclusion
 ---
 
 
@@ -549,7 +548,7 @@ cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m in
 
 
 
-## 12. References
+## 10. References
 ---
 
 
