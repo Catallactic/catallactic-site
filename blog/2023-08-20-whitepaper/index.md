@@ -16,15 +16,161 @@ image: https://i.imgur.com/mErPwqL.png
 
 We are in times poor in ideas but rich in tools. The advent of programmable money brings the opoortunity to propose new economic models created by anonymous citizens without this supposing a problem or risk or the rest of society. In that way, a competency of economic models can be stablished to allow citizens choose which one suits them better. 
 
-In this essay, we are presenting Unit of Account as new kind of protocol. We particularize this new protocol to capture value of commodities. We also describe the value chain of cryptocommodities and propose a launchpad and token management infrastructure to relieve issuer of the management burden and to guarantee transparency, decentralization and other principles for the adopter. We also explain the challenges to implement this new model and the benefits thats brings to society.
+In this essay, first we make a review on existing currency protocols, then we are presenting Unit of Account as new kind of currency protocol. We particularize this new protocol to capture value of commodities. We also describe the value chain of cryptocommodities and propose a launchpad and token management infrastructure to relieve issuer of the management burden and to guarantee transparency, decentralization and other principles for the adopter. Finally, we also explain the challenges to implement this new model and the benefits thats brings to society.
 
 <!-- truncate -->
 
-## 2. Economic models as Protocols
+## 2. Tokenization Protocols
+---
+
+### 2.1. Crypto Protocols
+
+
+### 2.2. Creating a Tokenization Protocol
+
+In order to create a protocol we need to define 3 aspects:
+
+- underlaying asset, service or right
+
+- tokenization model
+
+- scope of assigned utilities
+
+
+
+### 2.3. Identiying the ecosystem
+
+
+
+
+### 2.4. The underlaying asset, service or right
+
+<table>
+   <tr>
+    <td rowspan="4">Product</td>
+    <td>Natural Resources</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Physical Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Digital Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Financial Assets</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Service</td>
+    <td>Acquisition</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Right</td>
+    <td>Certifications</td>
+    <td></td>
+  </tr>
+</table>
+
+
+
+
+### 2.5. The attached utilities
+
+<table>
+  <tr>
+    <td rowspan="3">Monetary Services</td>
+    <td>Medium of Exchange</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Unit of Account	</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reserve of Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="10">Financial Services</td>
+    <td>Vehicle of Investment</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Profit-Sharing</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mining</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Staking</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Transfers</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cards</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Discounts</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lending</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Liquidity Provision</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Launchpad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Governance</td>
+    <td>Governance</td>
+    <td></td>
+  </tr>
+</table>
+
+### 2.6. The tokenization model
+
+During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
+
+- no underlaying asset
+
+- utility tokens, which capture an undetermined set of utilities
+
+- security tokens, which provide some kind o yield over a financial token
+
+- stablecoins
+
+- NFT which provide ownerhip of the underlying asset. 
+
+
+<img src="https://gasclick.co/img/monetary_policies.svg" width="100%"></img>
+
+
+
+
+## 3. Currencies as Protocols
 ---
 
 
-### 2.1. Economic variables
+### 3.1. Economic variables
 
 Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
 
@@ -35,7 +181,7 @@ Across the history, a few economic models have been proposed. Putting these econ
 * what i valu? Land Theory of Value Physiocrats), Intrinsic Theory of Value Adam Smith), Labor Theory of Value )Ricardo), Use Value / Exchange Value Theory Marx), Commodity’s costs of production John Stuart Mill ), Subjective Theory of Value Menger), Marginal Utility Theory of Value Jevons), Monetary theory of value  Keynes), Power Theory of Value
 
 
-### 2.2. Evolution of Money
+### 3.2. Evolution of Money
 
 <table>
   <tr>
@@ -137,12 +283,15 @@ Across the history, a few economic models have been proposed. Putting these econ
 </table>
 
 
-### 2.2. Monetary Protocols
+
+### 3.3. Existing Monetary Protocols
+
+- stablecoins
+
+- syncs
 
 
-
-
-### 2.3. Monetary Protocols Providers
+### 3.4. Monetary Protocols Providers
 
 
 reserve protocol
@@ -152,148 +301,10 @@ erc-3643
 catallactic
 
 
-### 2.4. Coexisting Monetary Protocols
+### 3.5. Coexisting Monetary Protocols
 
 
 
-
-
-
-
-
-
-
-
-
-## 3. Structure of Protocols
----
-
-In order to create a protocol we need to define 3 aspects:
-
-- underlaying asset, service or right
-
-- tokenization model
-
-- scope of assigned utilities
-
-
-### 3.1. The underlaying asset, service or right
-
-<table>
-   <tr>
-    <td rowspan="4">Product</td>
-    <td>Natural Resources</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Physical Assets</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Digital Assets</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Financial Assets</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="2">Service</td>
-    <td>Acquisition</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Rent</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Right</td>
-    <td>Certifications</td>
-    <td></td>
-  </tr>
-</table>
-
-
-
-### 3.2. The tokenization model
-
-During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
-
-- no underlaying asset
-
-- utility tokens, which capture an undetermined set of utilities
-
-- security tokens, which provide some kind o yield over a financial token
-
-- stablecoins
-
-- NFT which provide ownerhip of the underlying asset. 
-
-
-
-### 3.3. The set of attached utilities
-
-<table>
-  <tr>
-    <td rowspan="4">Monetary Services</td>
-    <td>Medium of Exchange</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Unit of Account	</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Reserve of Value</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Vehicle of Investment</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="9">Financial Services</td>
-    <td>Profit-Sharing</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Mining</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Staking</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Transfers</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Cards</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Discounts</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Lending</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Liquidity Provision</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Launchpad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Governance</td>
-    <td>Governance</td>
-    <td></td>
-  </tr>
-</table>
 
 
 
@@ -337,18 +348,18 @@ A Unit of Account is an specialization of utility token where only a certain set
 
 cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
 
-### 4.4. Structure of a CryptoCommodity
+### 4.4. Structure of a Unit of Account
 
 
 <img src="/img/utilities_profile.svg" width="100%"></img>
 
 
-### 4.5.Defining the core utility to account
+### 4.5. Defining the core utility
 
 
 
 
-### 4.6. Covering additional utilities. Bound stablecoin.
+### 4.6. Including additional utilities
 
 - gobernance
 
@@ -405,6 +416,11 @@ A particularization o Utility Token
 
 
 ### 5.5. The challenge of wallet
+
+
+
+
+
 
 
 
