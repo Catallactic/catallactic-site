@@ -34,17 +34,17 @@ Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
 > ISSUER: Install Facets
 
->> _ISSUER: Create Storage_ 
+>>> _ISSUER: Create Storage_ 
 
 > ISSUER: Create Vesting Period
 
 > ISSUER: Create Funding Round
 
-> ISSUER: Configure Antiwhale
+>> ISSUER: Configure Antiwhale
 
-> ISSUER: Install Payment Methods
+>> ISSUER: Install Payment Methods
 
->> _ISSUER: Set the setReceiveFacet_
+>>> _ISSUER: Set the setReceiveFacet_
 
 > ISSUER: Initialize Cryptocommodity ERC-20 with Name, Symbol, Cryptocommodity Supply
 
@@ -84,19 +84,21 @@ Finalize successfull funding round. Steps:
 
 > ISSUER: Finalize Funding Round
 
->> _ISSUER: Enter Vesting Address in Crowdsale_
+>>> _ISSUER: Enter Vesting Address in Crowdsale_
 
->> _ISSUER: Enter Token Address in Crowdsale_
+>>> _ISSUER: Enter Token Address in Crowdsale_
 
->> _ISSUER: Enter Token Address in Vesting_
+>>> _ISSUER: Enter Token Address in Vesting_
 
->> _ISSUER: Enter Crowdsale Address as Vesting Grantor_
+>>> _ISSUER: Enter Crowdsale Address as Vesting Grantor_
 
 > ISSUER: Transfers to Crowdsale Total Cryptocommodities purchased 
 
 > INVESTOR: Claims purchased Cryptocommodities
 
 > INVESTOR: Waits Vesting Periods
+
+> INVESTOR: Release Vesting Slides
 
 > ISSUER: Configures Withdraw Wallet
 
