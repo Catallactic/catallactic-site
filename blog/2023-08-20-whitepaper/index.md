@@ -13,37 +13,52 @@ image: https://i.imgur.com/mErPwqL.png
 
 ## 1. Introduction
 ---
+Give me a lever token long enough and a fulcrum blockchain on which to place it, and I shall move the world. Archimedes.
 
 We are in times poor in ideas but rich in tools. The advent of programmable money brings the opoortunity to propose new economic models created by anonymous citizens without this supposing a problem or risk or the rest of society. In that way, a competency of economic models can be stablished to allow citizens choose which one suits them better. 
 
 In this essay, first we make a review on existing currency protocols, then we are presenting Unit of Account as new kind of currency protocol. We particularize this new protocol to capture value of commodities. We also describe the value chain of cryptocommodities and propose a launchpad and token management infrastructure to relieve issuer of the management burden and to guarantee transparency, decentralization and other principles for the adopter. Finally, we also explain the challenges to implement this new model and the benefits thats brings to society.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwMgL87DfiO7WGYnVrYPkx1z_e-aKwbn_iIA&usqp=CAU" width="60%"></img>
+
+This whitepaper does not assume you master crypto. The goal is to convince those 80pc that are not yet in crypto and explain why should matter to them. And, of course, get you as an investor.
 
 <!-- truncate -->
 
 ## 2. Tokenization Protocols
 ---
 
+
 ### 2.1. Crypto Protocols
 
+A blockchain protocol is a set of underlying rules that define how a blockchain will work. Based on the underlying rules of the protocol it’s possible to build a business ecosystem. Usually, protocol’s rules comprise everything from how tokens can be issued, how value is created, and how interactions happen on top of the protocol.
 
-### 2.2. Creating a Tokenization Protocol
+### 2.1. Tokenization Protocols
 
-In order to create a protocol we need to define 3 aspects:
+Tokenization Protocols produce tokens.
 
-- underlaying asset, service or right
-
-- tokenization model
-
-- scope of assigned utilities
-
-
-
-### 2.3. Identiying the ecosystem
+- Infra
+- DeFi
+- CeFi
+- ReFi
+- SocialFi
+- eBuiness
 
 
+### 2.2. Designing a Token
+
+<img src="https://gasclick.pe/img/Supply-and-Demand-Curve.webp" width="60%"></img>
 
 
-### 2.4. The underlaying asset, service or right
+### 2.3. Estimate Demand
+
+
+#### 2.3.1. Identiying the ecosystem
+
+
+
+
+#### 2.3.2. The underlaying asset, service or right
 
 <table>
    <tr>
@@ -82,7 +97,7 @@ In order to create a protocol we need to define 3 aspects:
 
 
 
-### 2.5. The attached utilities
+#### 2.3.3. The attached utilities
 
 <table>
   <tr>
@@ -146,7 +161,30 @@ In order to create a protocol we need to define 3 aspects:
   </tr>
 </table>
 
-### 2.6. The tokenization model
+
+#### 2.3.1. Quantify the demand
+
+
+
+
+### 2.4. Design Supply
+
+The supply is the number of items exiting for the token. The supply is the variable that we can use to provide the expected behaviour to the token.
+
+<img src="https://gasclick.pe/img/token_supply_components.svg" width="28%"></img>
+
+
+
+
+### 2.5. Design tokenization model
+
+The 
+
+
+<img src="https://gasclick.pe/img/price_determination2.svg" width="100%"></img>
+
+
+##### 2.5.1. Monetary Policy
 
 During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
 
@@ -166,11 +204,287 @@ During the last decade a new tokenization models has been proposed. Tokenization
 
 
 
+
+
+
+
 ## 3. Currencies as Protocols
 ---
 
 
-### 3.1. Economic variables
+### 3.1. Defining Value
+
+
+* what holds the value? time, energy, commodities, work, costs, utility, capital, politics
+
+
+
+
+### 3.2. Existing Monetary Protocols
+
+- stablecoins
+
+- syncs
+
+
+### 3.3. Monetary Protocols Providers
+
+
+reserve protocol
+
+erc-3643
+
+catallactic
+
+
+### 3.4. Coexisting Monetary Protocols
+
+
+
+
+### 3.5. Monetary Protocols Indutry
+
+aggrgator
+reserve?
+
+insurers
+
+analyt
+
+auditor
+
+
+### 3.6. Currency Principles
+
+conigurabl proprti
+
+- security
+
+- decentralization
+
+- compliance
+
+- disclosure
+
+- privacy
+
+Thi principl nd to b particularizd or vry tag o th valu chain
+
+
+
+
+
+
+
+
+
+## 4. A Unit of Account (UoA) Protocol
+---
+
+A Unit of account capture the economic value in the form of a price ormd in th underlying market.
+
+
+### 4.1. The UoA Ecosystem
+
+needs to be fungible
+
+needs an underlying market for price formation
+
+
+<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+
+
+
+### 4.2. The UoA Tokenization Model
+
+A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
+
+<img src="/img/tokenization_maturity_model_seal.svg" width="60%"></img>
+
+
+### 4.3. Structure of a UoA
+
+
+<img src="/img/utilities_profile.svg" width="100%"></img>
+
+
+### 4.4. Defining the core utility
+
+
+
+
+### 4.5. Including additional utilities
+
+- gobernance
+
+
+
+### 4.6. How is a UoA different to an stablecoin
+
+tokenization of RWA blablabla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 5. Supply Management of UoA
+---
+
+
+### 5.1 Consolidated Supply Managment
+
+Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
+
+<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
+
+vry itm i rdmabl by a ral itm.
+
+at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
+
+stable system
+
+### 5.2. Supply Management on launch
+
+
+
+### 5.3. Capturing Value
+
+
+
+### 5.4. Singular events on the lifecycle
+
+
+
+### 5.5. Comparing tokenization models
+
+Stablecoin-based RWA tokenization
+
+| Left | Centre | Right |
+| :--- | :----: | ----: |
+| 1    |   2    |     3 |
+
+cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+
+
+
+
+
+
+
+
+
+
+
+## 6. The UoA Value Chain
+---
+
+<img src="/img/token_value_chain.svg" width="100%"></img>
+
+
+
+### 6.1. Funding
+
+
+- crypcommodity allow unding 
+
+- withouth collatral
+
+- rgulatort advantag
+
+
+### 6.2. Negotiation
+
+- capturing th valu
+
+- cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+
+
+
+### 6.3. Distribution
+
+
+
+### 6.3.1 The challenge of Velocity of Circulation
+
+
+### 6.3.2 The challenge of decentralization
+
+
+### 6.3.3 The challenge of wallet
+
+
+
+
+### 6.4. DeFi Services
+
+
+- rvic to ocity
+
+- additional commiion
+
+
+### 6.5. Crowdsolving
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 7. Implementation of UoA
+---
+
+### 7.1. Structure of a Unit of Account
+
+<img src="/img/utilities_profile.svg" width="100%"></img>
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 8. CryptoCommodites as UoA
+---
+
+### 8.1. Defining Value
 
 Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
 
@@ -180,8 +494,7 @@ Across the history, a few economic models have been proposed. Putting these econ
 
 * what i valu? Land Theory of Value Physiocrats), Intrinsic Theory of Value Adam Smith), Labor Theory of Value )Ricardo), Use Value / Exchange Value Theory Marx), Commodity’s costs of production John Stuart Mill ), Subjective Theory of Value Menger), Marginal Utility Theory of Value Jevons), Monetary theory of value  Keynes), Power Theory of Value
 
-
-### 3.2. Evolution of Money
+### 8.2. Evolution of Money
 
 <table>
   <tr>
@@ -282,103 +595,6 @@ Across the history, a few economic models have been proposed. Putting these econ
   </tr>
 </table>
 
-
-
-### 3.3. Existing Monetary Protocols
-
-- stablecoins
-
-- syncs
-
-
-### 3.4. Monetary Protocols Providers
-
-
-reserve protocol
-
-erc-3643
-
-catallactic
-
-
-### 3.5. Coexisting Monetary Protocols
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 4. A Unit of Account Protocol
----
-
-A Unit of account capture the economic value in the form of a price ormd in th underlying market.
-
-
-### 4.1. The Unit of Account Ecosystem
-
-needs to be ungible
-
-needs an underlying market for price formation
-
-
-<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
-
-
-
-### 4.2. The Unit of Account Tokenization Model
-
-A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
-
-<img src="/img/tokenization_maturity_model_seal.svg" width="60%"></img>
-
-
-### 4.3. Comparing tokenization models
-
-
-| Left | Centre | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-
-cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
-### 4.4. Structure of a Unit of Account
-
-
-<img src="/img/utilities_profile.svg" width="100%"></img>
-
-
-### 4.5. Defining the core utility
-
-
-
-
-### 4.6. Including additional utilities
-
-- gobernance
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 5. CryptoCommodites as Units of Account
----
-
 Historically, commodities has been used as basic forms of money. The problem is that they lack portability. This created the representative money or commodities backed money. However, this was replaced by fiat. Despite there is long way to go, crypto delivers the foundation to bring representative money back in a portable way.
 
 Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
@@ -390,32 +606,20 @@ atr that they are highly divisible.
 
 A particularization o Utility Token
 
+### 8.3. The Regresion Principle
 
-### 5.1. Principles
-
-- security
-
-- decentralization
-
-- compliance
-
-- disclosure
-
-- privacy
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-### 5.2. CryptoCommodity Ecosystem
+### 8.4. CryptoCommodity Ecosystem
 
 
 
 
-### 5.3. The challenge of Velocity of Circulation
+### 8.5. Examples
 
 
-### 5.4. The challenge of decentralization
-
-
-### 5.5. The challenge of wallet
+CYGAS
 
 
 
@@ -425,76 +629,9 @@ A particularization o Utility Token
 
 
 
-
-
-
-
-
-
-## 6. Implementation of CryptoCommodites
-
-### 6.1. Structure of a CryptoCommodity
-
-<img src="/img/utilities_profile.svg" width="100%"></img>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 7. The CryptoCommodity Value Chain
+## 9. Managmnt of CryptoCommodity
 ---
 
-<img src="/img/token_value_chain.svg" width="100%"></img>
-
-
-
-### 7.1. Funding
-
-
-- crypcommodity allow unding 
-
-- withouth collatral
-
-- rgulatort advantag
-
-
-### 7.2. Negotiation
-
-- capturing th valu
-
-- cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
-
-
-### 7.3. Distribution
-
-
-
-
-
-
-### 7.4. DeFi Services
-
-
-- rvic to ocity
-
-- additional commiion
-
-
-### 7.5. Crowdsolving
 
 
 
@@ -508,15 +645,16 @@ A particularization o Utility Token
 
 
 
-## 8. At the rescue of real economy
+
+## 10. At the rescue of real economy
 ---
 
-### 8.1. Real vs financial economy
+### 10.1. Real vs financial economy
 
 barreras a la entrada impuestas x el fiat
 
 
-### 8.2. The strangle of the real economy
+### 10.2. The strangle of the real economy
 
 
 <img src="/img/realvsfinancial.jpg" width="40%"></img>
@@ -524,36 +662,32 @@ barreras a la entrada impuestas x el fiat
 <img src="/img/financial assets vs real assets March 2022_0.jpg" width="40%"></img>
 
 
-### 8.3. Financial Exclusion
+### 10.3. Financial Exclusion
 
 
 
-### 8.4. A decentralized commodities based economy centered in citizen
+### 10.4. A decentralized commodities based economy centered in citizen
 
 ecosystem of companies
 
 hayek
 
 
-### 8.5. Comparing economic models
----
+### 10.5. Comparing Economic Models
 
 
-| Left | Centre | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
+- decoupled from fiat
 
-cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+- built-in price formation
 
-
+- cryptocommodity vs stablecoin. Both capture price, one from it fownmarkt, the other from international market
 
 
 
 
 
 
-
-## 9. Conclusion
+## 11. How to Apply
 ---
 
 
@@ -562,9 +696,19 @@ cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m in
 
 
 
+## 12. Conclusion
+---
 
 
-## 10. References
+
+
+## 13. Annex 1. Positive vs Negative Feedback
+---
+
+
+
+
+## 14. References
 ---
 
 
