@@ -30,21 +30,20 @@ This whitepaper does not assume you master crypto. The goal is to convince those
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 2. Tokenization Protocols
+## 2. Tokens
 ---
 
 
 ### 2.1. Blockchain Protocols
-
-A blockchain protocol is a set of underlying rules that define how a blockchain will work. Based on the underlying rules of the protocol it’s possible to build a business ecosystem. Usually, protocol’s rules comprise everything from how tokens can be issued, how value is created, and how interactions happen on top of the protocol.
 
 We can see blockchain as a layered architecture. Every layer is simply a set of protocols that describe how the blockchain operates.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.nigeriabitcoincommunity.com/wp-content/uploads/2022/05/smart-contracts.c-1.png" width="60%"></img>
 </div>
+<br/>
 
-
+A blockchain protocol is a set of underlying rules that define how a blockchain will work. Based on the underlying rules of the protocol it’s possible to build a business ecosystem. Usually, protocol’s rules comprise everything from how tokens can be issued, how value is created, and how interactions happen on top of the protocol.
 
 ### 2.2. Tokenization Protocols
 
@@ -68,7 +67,7 @@ When we design a token we bind 2 worlds. On one hand, we have the real world rep
 	<img src="/img/supply_vs_demand.svg" width="60%"></img>
 </div>
 
-Whereas our efforts will focus in having a higher demand as possible, the demand is not a variable that we can control or decide. Instead we will adjust the supply to the expected or ocurred demand to provide our token the intended profile.
+Whereas our efforts will focus in having a higher demand as possible, the demand is not a variable that we can control or decide. Instead, in order to design a token, we will adjust the supply accordingly to obtain the intended token profile. As there are a few possible ways to adjust the supply, we have a tool to design tokens with different profiles. We will discuss about this in the next sections.
 
 ### 2.4. Estimating the Demand
 
@@ -186,7 +185,8 @@ Whereas our efforts will focus in having a higher demand as possible, the demand
 
 
 
-### 2.5. Designing the Supply
+
+### 2.6. Designing the Supply
 
 The supply is the number of items exiting for the token. The supply is the variable that we can use to provide the expected behaviour to the token.
 
@@ -196,13 +196,8 @@ The supply is the number of items exiting for the token. The supply is the varia
 
 
 
-### 2.6. Defining a Monetary Policy
 
-The 
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_determination2.svg" width="100%"></img>
-</div>
+#### 2.6.1. Supply Management Mechanisms
 
 Th intrcation btw th dmand and th upply will din th pric o th tokn and also its proil.
 
@@ -210,10 +205,39 @@ Th intrcation btw th dmand and th upply will din th pric o th tokn and also its 
 	<img src="https://gasclick.pe/img/Supply-and-Demand-Curve.webp" width="60%"></img>
 </div>
 
+Managing
 
-##### 2.6.1. Tokenization Models
+There are esemptially 3 mechanims to manage the supply:
 
-During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
+* xpand and shrink th supply by minting and burning tokn
+
+* 
+
+##### 2.6.1.1. Burn and Mint
+##### 2.6.1.2. Stability Fees
+##### 2.6.1.3. Reserve
+
+
+
+### 2.7. Price Formation
+
+The 
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_determination2.svg" width="100%"></img>
+</div>
+
+
+
+
+
+
+
+
+
+### 2.8. Defining a Monetary Policy
+
+Tokenization Models. During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
 
 - no underlaying asset
 
@@ -251,24 +275,121 @@ During the last decade a new tokenization models has been proposed. Tokenization
 
 
 
-## 3. Currencies as Protocols
+## 3. Currencies as Tokens
 ---
 
-
-### 3.1. Defining Value
-
-
-* what holds the value? time, energy, commodities, work, costs, utility, capital, politics
+### 3.1. Currency Protocols
 
 
+### 3.2. Currency Requirements
 
-### 3.2. Currency Principles
+<table>
+  <tr>
+    <td></td>
+    <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_plastic_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Barter</td>
+    <td>Commodity</td>
+    <td>Metal</td>
+    <td>Backed</td>
+    <td>Fiat</td>
+    <td>Plastic</td>
+    <td>Crypto</td>
+  </tr>
+  <tr>
+    <td>Uniform</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Divisible</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Portable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Durable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Scarce</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Acceptable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Recognised</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
 
-conigurabl proprti
+
+
+
+### 3.3. CryptoCurrency Requirements
+
+conigurabl properties
+
+- should be mean of payment
 
 - security
 
 - decentralization
+
+** Automated management of the pool with not manual mint / burn
 
 - compliance
 
@@ -278,15 +399,33 @@ conigurabl proprti
 
 Thi principl nd to b particularizd or vry tag o th valu chain
 
-
-### 3.3. Existing Monetary Protocols
-
-- stablecoins
-
-- syncs
+### 3.3.1. The challenge of Wallets
 
 
-### 3.4. Monetary Protocols Providers
+### 3.3.2. The challenge of Velocity of Circulation
+
+
+### 3.3.3. The challenge of Decentralization
+
+
+
+
+
+
+
+
+
+
+### 3.4. Existing Monetary Protocols
+
+
+##### 3.4.1. Stablecoins
+
+
+##### 3.4.2. Syncs
+
+
+### 3.5. Monetary Protocols Providers
 
 
 reserve protocol
@@ -296,12 +435,12 @@ erc-3643
 catallactic
 
 
-### 3.5.Coexisting Monetary Protocols
+### 3.6. Coexisting Monetary Protocols
 
 
 
 
-### 3.6. Monetary Protocols Indutry
+### 3.7. Monetary Protocols Indutry
 
 aggrgator
 reserve?
@@ -322,7 +461,7 @@ auditor
 
 
 
-## 4. A Unit of Account (UoA) Protocol
+## 4. A Unit of Account (UoA) Currency
 ---
 
 A Unit of account capture the economic value in the form of a price ormd in th underlying market.
@@ -330,7 +469,9 @@ A Unit of account capture the economic value in the form of a price ormd in th u
 
 ### 4.1. The UoA Ecosystem
 
-needs to be fungible
+needs fulfill requirements for a currency
+
+needs fulfill requirements for a cryptocurrency
 
 needs an underlying market for price formation
 
@@ -366,9 +507,6 @@ A Unit of Account is an specialization of utility token where only a certain set
 
 
 
-### 4.6. How is a UoA different to an stablecoin
-
-tokenization of RWA blablabla
 
 
 
@@ -397,12 +535,15 @@ tokenization of RWA blablabla
 ---
 
 
-### 5.1 Consolidated Supply Managment
+### 5.1. Determining Max Supply
+
+
+### 5.2 Consolidated Supply Managment
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
+	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
 </div>
 
 vry itm i rdmabl by a ral itm.
@@ -411,27 +552,19 @@ at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i
 
 stable system
 
-### 5.2. Supply Management on launch
+### 5.3. Supply Management on launch
 
 
 
-### 5.3. Capturing Value
+### 5.4. Capturing Value
 
 
 
-### 5.4. Singular events on the lifecycle
+### 5.5. Singular events on the lifecycle
 
 
 
-### 5.5. Comparing tokenization models
 
-Stablecoin-based RWA tokenization
-
-| Left | Centre | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-
-cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
 
 
 
@@ -473,13 +606,6 @@ cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m in
 
 
 
-### 6.3.1 The challenge of Velocity of Circulation
-
-
-### 6.3.2 The challenge of decentralization
-
-
-### 6.3.3 The challenge of wallet
 
 
 
@@ -496,7 +622,17 @@ cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m in
 
 
 
+### 6.6. UoA vs Stablecoin
 
+Stablecoin-based RWA tokenization
+
+| Left | Centre | Right |
+| :--- | :----: | ----: |
+| 1    |   2    |     3 |
+
+cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+
+tokenization of RWA blablabla
 
 
 
@@ -534,6 +670,11 @@ cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m in
 
 ## 8. CryptoCommodites as UoA
 ---
+
+### 3.1. Defining Value
+
+
+* what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
 ### 8.1. Defining Value
 
@@ -714,8 +855,8 @@ barreras a la entrada impuestas x el fiat
 	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="40%"></img>
 </div>
 
-
 ### 10.3. Financial Exclusion
+
 
 
 
@@ -726,7 +867,18 @@ ecosystem of companies
 hayek
 
 
-### 10.5. Comparing Economic Models
+### 10.5. Stability of a UoA Market
+
+
+Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
+</div>
+
+
+
+### 10.6. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -750,24 +902,7 @@ hayek
 
 
 
-
-
-## 11. How to Apply
----
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-
-## 12. Conclusion
+## 11. Conclusion
 ---
 
 
@@ -780,7 +915,7 @@ hayek
 
 
 
-## 13. Annex 1. Positive vs Negative Feedback
+## 12. Annex 1. Positive vs Negative Feedback
 ---
 
 
@@ -789,7 +924,7 @@ hayek
 
 
 
-## 14. References
+## 13. References
 ---
 
 
