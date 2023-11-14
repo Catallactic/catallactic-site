@@ -375,23 +375,25 @@ Tokenization Models. During the last decade a new tokenization models has been p
 
 ### 3.3. CryptoCurrency Requirements
 
-conigurabl properties
+Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
 
-- should be mean of payment
+- the price of the token must be somehow <b>stable</b> to enable further utilities,
 
-- security
+- the token should become <b>mean of payment</b> for the underlaying asset. This lead us to the Challenge of the Wallets and the Challenge of Velocity of Circulation
 
-- decentralization
+- the token must be <b>secure</b> and not subject to any hack
 
-** Automated management of the pool with not manual mint / burn
+- the token must be <b>decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. As, on the other hand, we must stabililize the price, supply management techniques, such as mint/burn, reserve or stability fees, must be transparently performed by the transactional logic without manual intervention
 
-- compliance
+- the token must <b>comply with the regulations</b> in the jurisdictions where is deployed. This does not mean it should be deployed in all jurisdictions, as some jurisdiction apply rules incompatible with decentralization
 
-- disclosure
+- the token must <b>disclose</b> all the required information to issuers, holders and authorities
 
-- privacy
+- the token must provide <b>privacy</b> to its users
 
-Thi principl nd to b particularizd or vry tag o th valu chain
+The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined.
+
+The next sections will discuss the main obtacles for adoption.
 
 ### 3.3.1. The challenge of Wallets
 
@@ -428,6 +430,8 @@ erc-3643
 
 catallactic
 
+conigurabl Requirements
+
 
 ### 3.6. Coexisting Monetary Protocols
 
@@ -458,40 +462,45 @@ auditor
 ## 4. A Unit of Account (UoA) Currency
 ---
 
-A Unit of account capture the economic value in the form of a price ormd in th underlying market.
+By adjusting the supply to the demand, a UoA captures the economic value of the asset in the market where this UoA is used as mean of payment. The exchanges are in charge of converting this value into a price, first with the tokens directly paired, and after with the rest of tokens.
 
 
 ### 4.1. The UoA Ecosystem
 
-needs fulfill requirements for a currency
 
-needs fulfill requirements for a cryptocurrency
-
-needs an underlying market for price formation
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
 </div>
 
+### 4.2. UoA Requirements
 
-### 4.2. Structure of a UoA
+Creating a UoA brings additional reuirement to the previous token type analized. They are as follows:
+
+* a UoA needs fulfill requirements for a currency
+
+* a UoA needs also to fulfill requirements for a cryptocurrency
+
+* differently to a stablecoin, a UoA needs an underlying market for price formation. This will come with benefits for the issuer later on.
+
+### 4.3. Structure of a UoA
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/utilities_profile.svg" width="100%"></img>
 </div>
 
 
-### 4.3. Defining the core utility
+### 4.4. Defining the core utility
 
 
 
 
-### 4.4. Including additional utilities
+### 4.5. Including additional utilities
 
-- gobernance
+- governance
 
 
-### 4.5. The UoA Tokenization Model
+### 4.6. The UoA Tokenization Model
 
 A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
 
