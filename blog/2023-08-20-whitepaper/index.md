@@ -217,23 +217,17 @@ There are esemptially 3 mechanims to manage the supply:
 ##### 2.6.1.2. Stability Fees
 ##### 2.6.1.3. Reserve
 
-
-
 ### 2.7. Price Formation
 
-The 
+<b>Price formation in crypto happens in the exchanges</b>. The price is alway formed between 2 tokens paired in a pool. The exchanges have algorithms to work out the price of every token in the pool depending on their respective demand.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_determination2.svg" width="100%"></img>
 </div>
 
+The pools where our token is trading, can be in one exchange, or can be in many exchanges, in the same network or distributed across different blockchains. When several exchanges are involved, the price is consolidated between the different pools by investors practicing <b>arbitrage</b>. This guarantees that the price is mostly uniform across all the exchanges on a determined time.
 
-
-
-
-
-
-
+Another point to consider is that <b>only the amount of tokens deposited in exchanges account determine the price at every moment</b>, no matter how many tokens of the supply are held on investors wallets or locked. This means that, in the case that we want to have control over the price, we must be aware of the amount of tokens placed in the pool of the exchanges.
 
 ### 2.8. Defining a Monetary Policy
 
@@ -480,33 +474,30 @@ needs an underlying market for price formation
 </div>
 
 
-
-### 4.2. The UoA Tokenization Model
-
-A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/tokenization_maturity_model_seal.svg" width="60%"></img>
-</div>
-
-### 4.3. Structure of a UoA
+### 4.2. Structure of a UoA
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/utilities_profile.svg" width="100%"></img>
 </div>
 
 
-### 4.4. Defining the core utility
+### 4.3. Defining the core utility
 
 
 
 
-### 4.5. Including additional utilities
+### 4.4. Including additional utilities
 
 - gobernance
 
 
+### 4.5. The UoA Tokenization Model
 
+A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/tokenization_maturity_model_seal.svg" width="60%"></img>
+</div>
 
 
 
@@ -637,27 +628,6 @@ tokenization of RWA blablabla
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-
-
-## 7. Implementation of UoA
----
-
-### 7.1. Structure of a Unit of Account
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/utilities_profile.svg" width="100%"></img>
-</div>
-
-
 
 
 
@@ -668,15 +638,16 @@ tokenization of RWA blablabla
 
 
 
-## 8. CryptoCommodites as UoA
+
+## 7. CryptoCommodites as UoA
 ---
 
-### 3.1. Defining Value
+### 7.1. Defining Value
 
 
 * what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
-### 8.1. Defining Value
+### 7.2. Defining Value
 
 Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
 
@@ -686,7 +657,7 @@ Across the history, a few economic models have been proposed. Putting these econ
 
 * what i valu? Land Theory of Value Physiocrats), Intrinsic Theory of Value Adam Smith), Labor Theory of Value )Ricardo), Use Value / Exchange Value Theory Marx), Commodity’s costs of production John Stuart Mill ), Subjective Theory of Value Menger), Marginal Utility Theory of Value Jevons), Monetary theory of value  Keynes), Power Theory of Value
 
-### 8.2. Evolution of Money
+### 7.3. Evolution of Money
 
 <table>
   <tr>
@@ -798,17 +769,17 @@ atr that they are highly divisible.
 
 A particularization o Utility Token
 
-### 8.3. The Regresion Principle
+### 7.4. The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-### 8.4. CryptoCommodity Ecosystem
+### 7.5. CryptoCommodity Ecosystem
 
 
 
 
-### 8.5. Examples
+### 7.6. Examples
 
 
 CYGAS
@@ -821,31 +792,20 @@ CYGAS
 
 
 
-## 9. Managmnt of CryptoCommodity
+
+
+
+
+
+## 8. At the rescue of real economy
 ---
 
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-## 10. At the rescue of real economy
----
-
-### 10.1. Real vs financial economy
+### 8.1. Real vs financial economy
 
 barreras a la entrada impuestas x el fiat
 
 
-### 10.2. The strangle of the real economy
+### 8.2. The strangle of the real economy
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/realvsfinancial.jpg" width="40%"></img>
@@ -855,19 +815,19 @@ barreras a la entrada impuestas x el fiat
 	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="40%"></img>
 </div>
 
-### 10.3. Financial Exclusion
+### 8.3. Financial Exclusion
 
 
 
 
-### 10.4. A decentralized commodities based economy centered in citizen
+### 8.4. A decentralized commodities based economy centered in citizen
 
 ecosystem of companies
 
 hayek
 
 
-### 10.5. Stability of a UoA Market
+### 8.5. Stability of a UoA Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -877,8 +837,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-
-### 10.6. Comparing Economic Models
+### 8.6. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -891,10 +850,38 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 9. Implementation of UoA
+---
+
+
+https://github.com/Catallactic/catallactic-suite
 
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 10. Managmnt of UoA
+---
+
+https://github.com/Catallactic/catallactic-admin
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
 
 
 
