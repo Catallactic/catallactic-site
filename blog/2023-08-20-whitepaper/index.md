@@ -30,22 +30,30 @@ This whitepaper does not assume you master crypto. The goal is to convince those
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 2. Tokens
+## 2. Tokenization Protocols
 ---
 
+### 2.1. Blockchain Layered Architecture
 
-### 2.1. Blockchain Protocols
-
-We can see blockchain as a layered architecture. Every layer is simply a set of protocols that describe how the blockchain operates.
+We can see blockchain as a layered architecture. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.nigeriabitcoincommunity.com/wp-content/uploads/2022/05/smart-contracts.c-1.png" width="60%"></img>
 </div>
 <br/>
 
+### 2.2. Blockchain Protocols
+
 A blockchain protocol is a set of underlying rules that define how a blockchain will work. Based on the underlying rules of the protocol it’s possible to build a business ecosystem. Usually, protocol’s rules comprise everything from how tokens can be issued, how value is created, and how interactions happen on top of the protocol.
 
-### 2.2. Tokenization Protocols
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodities_scope.svg" width="100%"></img>
+</div>
+<br/>
+
+Every layer is simply a set of protocols that describe how the blockchain operates.
+
+### 2.3. Tokenization Protocols
 
 The topmost layer is the layer on which different applications on the network run, including smart contracts, oracles. 
 
@@ -57,9 +65,39 @@ Tokenization Protocols produce tokens which are specialized smart contracts.
 - ReFi
 - SocialFi
 - eBuiness
+- Currencies
+
+### 2.4. Smart Contracts
 
 
-### 2.3. Designing a Token
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+
+
+## 3. Tokens
+
+### 3.1. What is a Token
+
+A crypto token is an special kind of smart contract. A token typically resides in one blockchain and, therefore, its content is replicated in all the nodes of the blockchain. A token can also resides in several blockchain by making use of some interoperability mechanim. As any other smart contract, a token is implemented in one of the smart contract languages supported by the blockchain in which is deployed, as Solidity, Cairo, Vyepr, Rust, Clarity or Yul.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token.svg" width="100%"></img>
+</div>
+
+A wallet can own a token entirely or a fraction of the token. A token binds a feature of an asset to the property of the token. By having a token in your wallet you own some feature of the asset. Depending on the kind of token, this feature can be the at itl or a fraction o the asset, the value of the asset, the price of the asset, a yield produced by the asset and other to come. 
+
+A token can be transferred between wallet accounts and the represented property will be also transferred. A token is typically exchanged between parties as the barebone of an ecosystem, delivering a set of attached utilities to the ecosystem participants. These utilities can be designed to materialize business patterns, e.g. loans, transfers, bets, coupons, rights, rents, certificates or money, to name a few.
+
+The process of designing a token including its underlying asset, its feature, its utilities... is called tokenization and the outcome is a tokenization protocol, aka token. By tokenizing an asset you can make it liquid.
+
+### 3.2. Designing a Token
 
 When we design a token we bind 2 worlds. On one hand, we have the real world represented by the demand. Demand is the number of goods or services, physical or digital, that the consumer acquires from the provider in exchange of units of the token. On the other hand, we have the monetary world represented by the supply which is number of tokens in existence.
 
@@ -69,14 +107,16 @@ When we design a token we bind 2 worlds. On one hand, we have the real world rep
 
 Whereas our efforts will focus in having a higher demand as possible, the demand is not a variable that we can control or decide. Instead, in order to design a token, we will adjust the supply accordingly to obtain the intended token profile. As there are a few possible ways to adjust the supply, we have a tool to design tokens with different profiles. We will discuss about this in the next sections.
 
-### 2.4. Estimating the Demand
+### 3.3. Estimating the Demand
+
+The demand for your token will be motivated because your users apreciate one or more of the utilities of the asset, or assets, that are bound to the token. The demand is related to the physical world on how good is your business offer. If your offer is good, your users will be eager to acquire, or enjoy, the utilities that you are offering and the demand of your token will increase. 
+
+In the next sections we will expose how to undertand the demand of your token, what can the bound assets and utilities be and how can it be quantified.
 
 
 
 
-
-#### 2.4.1. The underlaying asset
-
+#### 3.3.1. The underlying asset(s)
 
 <table>
    <tr>
@@ -112,10 +152,7 @@ Whereas our efforts will focus in having a higher demand as possible, the demand
   </tr>
 </table>
 
-
-#### 2.4.2. Identiying the ecosystem
-
-#### 2.4.3. The attached utilities
+#### 3.3.2. The attached utility(ies)
 
 <table>
   <tr>
@@ -179,14 +216,16 @@ Whereas our efforts will focus in having a higher demand as possible, the demand
   </tr>
 </table>
 
-
-#### 2.4.4. Quantify the demand
-
+#### 3.3.3. Identiying the ecosystem(s)
 
 
+#### 3.3.4. Quantifying the demand
 
 
-### 2.6. Designing the Supply
+uantying the demand will help later on to estimate the supply
+
+
+### 3.4. Designing the Supply
 
 The supply is the number of items exiting for the token. The supply is the variable that we can use to provide the expected behaviour to the token.
 
@@ -197,7 +236,7 @@ The supply is the number of items exiting for the token. The supply is the varia
 
 
 
-#### 2.6.1. Supply Management Mechanisms
+#### 3.4.1. Supply Management Mechanisms
 
 Th intrcation btw th dmand and th upply will din th pric o th tokn and also its proil.
 
@@ -213,11 +252,11 @@ There are esemptially 3 mechanims to manage the supply:
 
 * 
 
-##### 2.6.1.1. Burn and Mint
-##### 2.6.1.2. Stability Fees
-##### 2.6.1.3. Reserve
+##### 3.4.1.1. Burn and Mint
+##### 3.4.1.2. Stability Fees
+##### 3.4.1.3. Reserve
 
-### 2.7. Price Formation
+### 3.5. Price Formation
 
 <b>Price formation in crypto happens in the exchanges</b>. The price is alway formed between 2 tokens paired in a pool. The exchanges have algorithms to work out the price of every token in the pool depending on their respective demand.
 
@@ -229,7 +268,7 @@ The pools where our token is trading, can be in one exchange, or can be in many 
 
 Another point to consider is that <b>only the amount of tokens deposited in exchanges account determine the price at every moment</b>, no matter how many tokens of the supply are held on investors wallets or locked. This means that, in the case that we want to have control over the price, we must be aware of the amount of tokens placed in the pool of the exchanges.
 
-### 2.8. Defining a Monetary Policy
+### 3.6. Defining a Monetary Policy
 
 Tokenization Models. During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
 
@@ -247,12 +286,12 @@ Tokenization Models. During the last decade a new tokenization models has been p
 	<img src="https://gasclick.co/img/monetary_policies.svg" width="100%"></img>
 </div>
 
+### 3.7. Token Standards
 
 
 
 
-
-
+### 3.8. Tokenization Platforms
 
 
 
@@ -269,13 +308,13 @@ Tokenization Models. During the last decade a new tokenization models has been p
 
 
 
-## 3. Currencies as Tokens
+## 4. Currencies as Tokens
 ---
 
-### 3.1. Currency Protocols
+### 4.1. Currency Protocols
 
 
-### 3.2. Currency Requirements
+### 4.2. Currency Requirements
 
 <table>
   <tr>
@@ -373,7 +412,7 @@ Tokenization Models. During the last decade a new tokenization models has been p
 
 
 
-### 3.3. CryptoCurrency Requirements
+### 4.3. CryptoCurrency Requirements
 
 Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
 
@@ -395,16 +434,13 @@ The aforementioned requirements must be particularized to every stage of the val
 
 The next sections will discuss the main obtacles for adoption.
 
-### 3.3.1. The challenge of Wallets
+#### 4.3.1. The challenge of Wallets
 
 
-### 3.3.2. The challenge of Velocity of Circulation
+#### 4.3.2. The challenge of Velocity of Circulation
 
 
-### 3.3.3. The challenge of Decentralization
-
-
-
+#### 4.3.3. The challenge of Decentralization
 
 
 
@@ -412,16 +448,19 @@ The next sections will discuss the main obtacles for adoption.
 
 
 
-### 3.4. Existing Monetary Protocols
 
 
-##### 3.4.1. Stablecoins
+
+### 4.4. Existing Monetary Protocols
 
 
-##### 3.4.2. Syncs
+#### 4.4.1. Stablecoins
 
 
-### 3.5. Monetary Protocols Providers
+#### 4.4.2. Syncs
+
+
+### 4.5. Monetary Protocols Providers
 
 
 reserve protocol
@@ -433,12 +472,12 @@ catallactic
 conigurabl Requirements
 
 
-### 3.6. Coexisting Monetary Protocols
+### 4.6. Coexisting Monetary Protocols
 
 
 
 
-### 3.7. Monetary Protocols Indutry
+### 4.7. Monetary Protocols Indutry
 
 aggrgator
 reserve?
@@ -459,13 +498,13 @@ auditor
 
 
 
-## 4. A Unit of Account (UoA) Currency
+## 5. A Unit of Account (UoA) Currency
 ---
 
 By adjusting the supply to the demand, a UoA captures the economic value of the asset in the market where this UoA is used as mean of payment. The exchanges are in charge of converting this value into a price, first with the tokens directly paired, and after with the rest of tokens.
 
 
-### 4.1. The UoA Ecosystem
+### 5.1. The UoA Ecosystem
 
 
 
@@ -473,7 +512,7 @@ By adjusting the supply to the demand, a UoA captures the economic value of the 
 	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
 </div>
 
-### 4.2. UoA Requirements
+### 5.2. UoA Requirements
 
 Creating a UoA brings additional reuirement to the previous token type analized. They are as follows:
 
@@ -483,24 +522,24 @@ Creating a UoA brings additional reuirement to the previous token type analized.
 
 * differently to a stablecoin, a UoA needs an underlying market for price formation. This will come with benefits for the issuer later on.
 
-### 4.3. Structure of a UoA
+### 5.3. Structure of a UoA
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/utilities_profile.svg" width="100%"></img>
 </div>
 
 
-### 4.4. Defining the core utility
+### 5.4. Defining the core utility
 
 
 
 
-### 4.5. Including additional utilities
+### 5.5. Including additional utilities
 
 - governance
 
 
-### 4.6. The UoA Tokenization Model
+### 5.6. The UoA Tokenization Model
 
 A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
 
@@ -531,14 +570,14 @@ A Unit of Account is an specialization of utility token where only a certain set
 
 
 
-## 5. Supply Management of UoA
+## 6. Supply Management of UoA
 ---
 
 
-### 5.1. Determining Max Supply
+### 6.1. Determining Max Supply
 
 
-### 5.2 Consolidated Supply Managment
+### 6.2 Consolidated Supply Managment
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
@@ -552,15 +591,15 @@ at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i
 
 stable system
 
-### 5.3. Supply Management on launch
+### 6.3. Supply Management on launch
 
 
 
-### 5.4. Capturing Value
+### 6.4. Capturing Value
 
 
 
-### 5.5. Singular events on the lifecycle
+### 6.5. Singular events on the lifecycle
 
 
 
@@ -576,15 +615,17 @@ stable system
 
 
 
-## 6. The UoA Value Chain
+## 7. The UoA Value Chain
 ---
+
+All the requirements described in section 3 and 4, namely, currency requirements, cryptocurrency requirements and UoA requirements, must be particularized for each stage of the UoA Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will visit every funding stage and discuss requirements and opportunities.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/token_value_chain.svg" width="100%"></img>
 </div>
 
 
-### 6.1. Funding
+### 7.1. Funding
 
 
 - crypcommodity allow unding 
@@ -594,7 +635,7 @@ stable system
 - rgulatort advantag
 
 
-### 6.2. Negotiation
+### 7.2. Negotiation
 
 - capturing th valu
 
@@ -602,7 +643,7 @@ stable system
 
 
 
-### 6.3. Distribution
+### 7.3. Distribution
 
 
 
@@ -610,7 +651,7 @@ stable system
 
 
 
-### 6.4. DeFi Services
+### 7.4. DeFi Services
 
 
 - rvic to ocity
@@ -618,11 +659,11 @@ stable system
 - additional commiion
 
 
-### 6.5. Crowdsolving
+### 7.5. Crowdsolving
 
 
 
-### 6.6. UoA vs Stablecoin
+### 7.6. UoA vs Stablecoin
 
 Stablecoin-based RWA tokenization
 
@@ -648,15 +689,47 @@ tokenization of RWA blablabla
 
 
 
-## 7. CryptoCommodites as UoA
+## 8. Implementation of UoA
 ---
 
-### 7.1. Defining Value
+
+https://github.com/Catallactic/catallactic-suite
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 9. Managmnt of UoA
+---
+
+https://github.com/Catallactic/catallactic-admin
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+## 10. CryptoCommodites as UoA
+---
+
+### 10.1. Defining Value
 
 
 * what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
-### 7.2. Defining Value
+### 10.2. Defining Value
 
 Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
 
@@ -666,7 +739,7 @@ Across the history, a few economic models have been proposed. Putting these econ
 
 * what i valu? Land Theory of Value Physiocrats), Intrinsic Theory of Value Adam Smith), Labor Theory of Value )Ricardo), Use Value / Exchange Value Theory Marx), Commodity’s costs of production John Stuart Mill ), Subjective Theory of Value Menger), Marginal Utility Theory of Value Jevons), Monetary theory of value  Keynes), Power Theory of Value
 
-### 7.3. Evolution of Money
+### 10.3. Evolution of Money
 
 <table>
   <tr>
@@ -778,17 +851,17 @@ atr that they are highly divisible.
 
 A particularization o Utility Token
 
-### 7.4. The Regresion Principle
+### 10.4. The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-### 7.5. CryptoCommodity Ecosystem
+### 10.5. CryptoCommodity Ecosystem
 
 
 
 
-### 7.6. Examples
+### 10.6. Examples
 
 
 CYGAS
@@ -806,15 +879,15 @@ CYGAS
 
 
 
-## 8. At the rescue of real economy
+## 11. At the rescue of real economy
 ---
 
-### 8.1. Real vs financial economy
+### 11.1. Real vs financial economy
 
 barreras a la entrada impuestas x el fiat
 
 
-### 8.2. The strangle of the real economy
+### 11.2. The strangle of the real economy
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/realvsfinancial.jpg" width="40%"></img>
@@ -824,19 +897,19 @@ barreras a la entrada impuestas x el fiat
 	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="40%"></img>
 </div>
 
-### 8.3. Financial Exclusion
+### 11.3. Financial Exclusion
 
 
 
 
-### 8.4. A decentralized commodities based economy centered in citizen
+### 11.4. A decentralized commodities based economy centered in citizen
 
 ecosystem of companies
 
 hayek
 
 
-### 8.5. Stability of a UoA Market
+### 11.5. Stability of a UoA Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -846,7 +919,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-### 8.6. Comparing Economic Models
+### 11.6. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -865,40 +938,9 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-## 9. Implementation of UoA
----
 
 
-https://github.com/Catallactic/catallactic-suite
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-## 10. Managmnt of UoA
----
-
-https://github.com/Catallactic/catallactic-admin
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-## 11. Conclusion
+## 12. Conclusion
 ---
 
 
@@ -911,7 +953,7 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 12. Annex 1. Positive vs Negative Feedback
+## 13. Annex 1. Positive vs Negative Feedback
 ---
 
 
@@ -920,7 +962,7 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 13. References
+## 14. References
 ---
 
 
