@@ -156,7 +156,7 @@ In the next sections we will expose how to undertand the demand of your token, w
 
 <table>
   <tr>
-    <td rowspan="3">Monetary Services</td>
+    <td rowspan="3">Monetary Utilities</td>
     <td>Medium of Exchange</td>
     <td></td>
   </tr>
@@ -169,20 +169,8 @@ In the next sections we will expose how to undertand the demand of your token, w
     <td></td>
   </tr>
   <tr>
-    <td rowspan="10">Financial Services</td>
-    <td>Vehicle of Investment</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Profit-Sharing</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Mining</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Staking</td>
+    <td rowspan="3">Monetary Services</td>
+    <td>Cards</td>
     <td></td>
   </tr>
   <tr>
@@ -190,7 +178,20 @@ In the next sections we will expose how to undertand the demand of your token, w
     <td></td>
   </tr>
   <tr>
-    <td>Cards</td>
+    <td>Lending</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">Financial Services</td>
+    <td>Staking</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Profit-Sharing</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Liquidity Provision</td>
     <td></td>
   </tr>
   <tr>
@@ -198,11 +199,7 @@ In the next sections we will expose how to undertand the demand of your token, w
     <td></td>
   </tr>
   <tr>
-    <td>Lending</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Liquidity Provision</td>
+    <td>Mining</td>
     <td></td>
   </tr>
   <tr>
@@ -227,13 +224,19 @@ uantying the demand will help later on to estimate the supply
 
 ### 3.4. Designing the Supply
 
-The supply is the number of items exiting for the token. The supply is the variable that we can use to provide the expected behaviour to the token.
+The supply is the number of existing units for the token. The supply is the variable that we can use to provide the expected price profile to the token according to the demand of the token.
+
+The number of units of a token can be fixed or can be variable, depending on the policies defined by the token designers. Tokens with a <b>Fixed Supply</b> follow a gold standard pattern. Tokens with a Variable Supply can be managed by some Supply Management Mechanism to capture some asset feature or can freely float at the mercy of demand. If the supply grows we say the token has an <b>Inflationary Supply</b>. If the supply shrinks we say the token has a <b>Deflationary Supply</b>.
+
+We call <b>Max Supply</b> to the max amount of units that a token can have. Not all tokens have a defined max supply, some tokens can increase the supply indefinitely. We say they are uncapped tokens. Other tokens ha a known Max Supply, either because there is a physical limitation on creation or because it is limited by token designer. These tokens are denominated capped tokens.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/token_supply_components.svg" width="28%"></img>
 </div>
 
+The number of unit that a token has in a certain moment is called Total Supply. The unit o the token are typically aigned to dierent account and can have in dierent ituation o liuidity. locked v circulating
 
+th circulating upply can b in holdr account or can b in xchang pair rady to b tradd.
 
 
 #### 3.4.1. Supply Management Mechanisms
@@ -244,17 +247,33 @@ Th intrcation btw th dmand and th upply will din th pric o th tokn and also its 
 	<img src="https://gasclick.pe/img/Supply-and-Demand-Curve.webp" width="60%"></img>
 </div>
 
-Managing
-
 There are esemptially 3 mechanims to manage the supply:
 
-* xpand and shrink th supply by minting and burning tokn
+* expand and collapse the supply by minting and burning token units
 
-* 
+* adding tax to transaction
+
+* use a supporting account as reserve
+
+All these Supply Management Mechanisms can be manually executed or automatd a part of some transactional logic in the smart contract. 
 
 ##### 3.4.1.1. Burn and Mint
+
+The implicit way to manage the supply is by calling explicit functions in the smart contract to create (mint) and destroy (burn) token units.
+
+In order to create new unit, a <b>mint</b> operation must be executed over the token. This mint operation can be triggered externally by some holder account, internally by the issuing team or be triggered from the token smart contract itself as a response to some defined threshold. A mint operation typically devaluate the price of the token so minting is a discouraged operation as it can hurt the reputation of a token issuer. It should be done only under known circuntances in a predictable way. 
+
+Conversely, we can reduce the supply of token by triggering a <b>burn</b> operation which will have the opposite effect of increasing the price because the supply is reduced for the same demand.
+
+Burn and mint i a coar grain upply managmnt bcau w do not dirctly control th numbr o tokn in th xchang to orm th pric.
+
 ##### 3.4.1.2. Stability Fees
+
+Stability Fees are taxes taken by the token on transaction. They are typically automated within the transaction logic and, therefore, not manual intervention is required. This contributes to token tranparency. tability  can alo b ud in conjuction with th rrv approach.
+
 ##### 3.4.1.3. Reserve
+
+A in grain managmnt o th tokn pric i by maintaining a rrv account paird to th xchang account. Tokn unit can b addd to th upply whn w want to rduc th upply and incra th pric. And, covrly, tokn unit can b xtractd rom th rrv account to rplnih th xchang account whn w want to xnd th pric.
 
 ### 3.5. Price Formation
 
