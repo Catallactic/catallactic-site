@@ -327,10 +327,16 @@ Tokenization Models. During the last decade a new tokenization models has been p
 
 
 
-## 4. Currencies as Tokens
+## 4. Currencies
 ---
 
 ### 4.1. Currency Protocols
+
+Once we have dicussed Tokenization Protocols and introduced tokens, is time now for Currencies as a new particular case of Tokens. 
+
+Currencies, by definition, should exhibit a very stable price profile. To achieve this goal, they hould take its price from a large underlaying market with low fluctuation. This confers currencies with a specific set of utilities that more generic tokens are not suitable to fulfill.
+
+
 
 
 ### 4.2. Currency Requirements
@@ -431,55 +437,27 @@ Tokenization Models. During the last decade a new tokenization models has been p
 
 
 
-### 4.3. CryptoCurrency Requirements
-
-Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
-
-- the price of the token must be somehow <b>stable</b> to enable further utilities,
-
-- the token should become <b>mean of payment</b> for the underlaying asset. This lead us to the Challenge of the Wallets and the Challenge of Velocity of Circulation
-
-- the token must be <b>secure</b> and not subject to any hack
-
-- the token must be <b>decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. As, on the other hand, we must stabililize the price, supply management techniques, such as mint/burn, reserve or stability fees, must be transparently performed by the transactional logic without manual intervention
-
-- the token must <b>comply with the regulations</b> in the jurisdictions where is deployed. This does not mean it should be deployed in all jurisdictions, as some jurisdiction apply rules incompatible with decentralization
-
-- the token must <b>disclose</b> all the required information to issuers, holders and authorities
-
-- the token must provide <b>privacy</b> to its users
-
-The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined.
-
-The next sections will discuss the main obtacles for adoption.
-
-#### 4.3.1. The challenge of Wallets
 
 
-#### 4.3.2. The challenge of Velocity of Circulation
+### 4.3. Currsncy Utilities
+
+Tradicionally, it ha bn aumd that th unction o mony ar 3:
+
+* man xchang
+
+* unit o account
+
+* tor o valu
+
+A currncy can provid om or all th 3 unction. Howvr, bn tor o valu and man o xchang at th am ti i diicult bcau th Grhham Law. typically a currncy will pcializd in on o th 3 unction.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodities_scope2.svg" width="100%"></img>
+</div>
+<br/>
 
 
-#### 4.3.3. The challenge of Decentralization
-
-
-
-
-
-
-
-
-
-
-### 4.4. Existing Monetary Protocols
-
-
-#### 4.4.1. Stablecoins
-
-
-#### 4.4.2. Syncs
-
-
-### 4.5. Monetary Protocols Providers
+### 4.4. Currency Tokenization Platforms
 
 
 reserve protocol
@@ -491,12 +469,12 @@ catallactic
 conigurabl Requirements
 
 
-### 4.6. Coexisting Monetary Protocols
+### 4.5. Coexisting Monetary Protocols
 
 
 
 
-### 4.7. Monetary Protocols Indutry
+### 4.6. Monetary Protocols Indutry
 
 aggrgator
 reserve?
@@ -512,18 +490,108 @@ auditor
 
 
 
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
 
-## 5. A Unit of Account (UoA) Currency
+
+## 5. Currencies as Mean of Payment
+
+
+### 5.1. Mean of Payment Requirements
+
+
+- the token must <b>comply with the regulations</b> in the jurisdictions where is deployed. This does not mean it should be deployed in all jurisdictions, as some jurisdiction apply rules incompatible with decentralization
+
+
+- the token must provide <b>privacy</b> to its users
+
+
+
+#### 5.1.1. The challenge of Velocity of Circulation
+
+
+#### 5.1.2. The challenge of Wallets
+
+
+
+### 5.2. Underlying Assets
+
+
+
+### 5.3. Additional Utilities
+
+
+
+
+### 5.4. Existing Monetary Protocols
+
+
+#### 5.4.1. Stablecoins
+
+
+#### 5.4.2. Syncs
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+
+
+## 6. Currencies as Store of Value
+
+
+### 6.1. Store of Value Requirements
+
+- the price of the token must be <b>stable</b> to enable further utilities,
+
+- the token must be <b>secure</b> and not subject to any hack
+
+- the token must be <b>decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. As, on the other hand, we must stabililize the price, supply management techniques, such as mint/burn, reserve or stability fees, must be transparently performed by the transactional logic without manual intervention
+
+- the token must <b>disclose</b> all the required information to issuers, holders and authorities
+
+
+
+
+
+##### 4.4.2. The challenge of Decentralization
+
+
+
+
+### 6.2. Underlying Assets
+
+
+
+### 6.3. Additional Utilities
+
+
+### 6.4. Existing Monetary Protocols
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 7. A Unit of Account (UoA) Currency
 ---
 
 By adjusting the supply to the demand, a UoA captures the economic value of the asset in the market where this UoA is used as mean of payment. The exchanges are in charge of converting this value into a price, first with the tokens directly paired, and after with the rest of tokens.
 
 
-### 5.1. The UoA Ecosystem
+### 7.1. The UoA Ecosystem
 
 
 
@@ -531,34 +599,33 @@ By adjusting the supply to the demand, a UoA captures the economic value of the 
 	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
 </div>
 
-### 5.2. UoA Requirements
+### 7.2. UoA Requirements
 
 Creating a UoA brings additional reuirement to the previous token type analized. They are as follows:
 
-* a UoA needs fulfill requirements for a currency
-
-* a UoA needs also to fulfill requirements for a cryptocurrency
+* a UoA needs fulfill requirements for a store o value
 
 * differently to a stablecoin, a UoA needs an underlying market for price formation. This will come with benefits for the issuer later on.
 
-### 5.3. Structure of a UoA
+
+### 7.3. Structure of a UoA
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/utilities_profile.svg" width="100%"></img>
 </div>
 
 
-### 5.4. Defining the core utility
+### 7.4. Defining the core utility
 
 
 
 
-### 5.5. Including additional utilities
+### 7.5. Including additional utilities
 
 - governance
 
 
-### 5.6. The UoA Tokenization Model
+### 7.6. The UoA Tokenization Model
 
 A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
 
@@ -572,6 +639,9 @@ A Unit of Account is an specialization of utility token where only a certain set
 
 
 
+
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -584,171 +654,21 @@ A Unit of Account is an specialization of utility token where only a certain set
 
 
 
-
-
-
-
-
-## 6. Supply Management of UoA
+## 8. CryptoCommodites as UoA
 ---
 
+### 8.1. Defining Value
 
-### 6.1. Determining Max Supply
-
-
-### 6.2 Consolidated Supply Managment
-
-Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
 </div>
-
-vry itm i rdmabl by a ral itm.
-
-at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
-
-stable system
-
-### 6.3. Supply Management on launch
-
-
-
-### 6.4. Capturing Value
-
-
-
-### 6.5. Singular events on the lifecycle
-
-
-
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-## 7. The UoA Value Chain
----
-
-All the requirements described in section 3 and 4, namely, currency requirements, cryptocurrency requirements and UoA requirements, must be particularized for each stage of the UoA Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will visit every funding stage and discuss requirements and opportunities.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/token_value_chain.svg" width="100%"></img>
-</div>
-
-
-### 7.1. Funding
-
-
-- crypcommodity allow unding 
-
-- withouth collatral
-
-- rgulatort advantag
-
-
-### 7.2. Negotiation
-
-- capturing th valu
-
-- cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
-
-
-### 7.3. Distribution
-
-
-
-
-
-
-
-### 7.4. DeFi Services
-
-
-- rvic to ocity
-
-- additional commiion
-
-
-### 7.5. Crowdsolving
-
-
-
-### 7.6. UoA vs Stablecoin
-
-Stablecoin-based RWA tokenization
-
-| Left | Centre | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-
-cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
-tokenization of RWA blablabla
-
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-## 8. Implementation of UoA
----
-
-
-https://github.com/Catallactic/catallactic-suite
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-## 9. Managmnt of UoA
----
-
-https://github.com/Catallactic/catallactic-admin
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-
-
-## 10. CryptoCommodites as UoA
----
-
-### 10.1. Defining Value
+<br/>
 
 
 * what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
-### 10.2. Defining Value
+### 8.2. Defining Value
 
 Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
 
@@ -758,7 +678,7 @@ Across the history, a few economic models have been proposed. Putting these econ
 
 * what i valu? Land Theory of Value Physiocrats), Intrinsic Theory of Value Adam Smith), Labor Theory of Value )Ricardo), Use Value / Exchange Value Theory Marx), Commodity’s costs of production John Stuart Mill ), Subjective Theory of Value Menger), Marginal Utility Theory of Value Jevons), Monetary theory of value  Keynes), Power Theory of Value
 
-### 10.3. Evolution of Money
+### 8.3. Evolution of Money
 
 <table>
   <tr>
@@ -870,17 +790,17 @@ atr that they are highly divisible.
 
 A particularization o Utility Token
 
-### 10.4. The Regresion Principle
+### 8.4. The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-### 10.5. CryptoCommodity Ecosystem
+### 8.5. CryptoCommodity Ecosystem
 
 
 
 
-### 10.6. Examples
+### 8.6. Examples
 
 
 CYGAS
@@ -898,15 +818,179 @@ CYGAS
 
 
 
-## 11. At the rescue of real economy
+
+
+## 9. Supply Management of CryptoCommodites
 ---
 
-### 11.1. Real vs financial economy
+
+### 9.1. Determining Max Supply
+
+
+### 9.2 Consolidated Supply Managment
+
+Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+</div>
+
+vry itm i rdmabl by a ral itm.
+
+at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
+
+stable system
+
+### 9.3. Supply Management on launch
+
+
+
+### 9.4. Capturing Value
+
+
+
+### 9.5. Singular events on the lifecycle
+
+
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 10. The CryptoCommodites Value Chain
+---
+
+All the requirements described in section 3 and 4, namely, currency requirements, cryptocurrency requirements and UoA requirements, must be particularized for each stage of the UoA Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will visit every funding stage and discuss requirements and opportunities.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_value_chain.svg" width="100%"></img>
+</div>
+
+Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
+
+
+
+
+The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined.
+
+The next sections will discuss the main obtacles for adoption.
+
+### 10.1. Funding
+
+
+- crypcommodity allow unding 
+
+- withouth collatral
+
+- rgulatort advantag
+
+
+### 10.2. Negotiation
+
+- capturing th valu
+
+- cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+
+
+
+### 10.3. Distribution
+
+
+
+
+
+
+
+### 10.4. DeFi Services
+
+
+- rvic to ocity
+
+- additional commiion
+
+
+### 10.5. Crowdsolving
+
+
+
+### 10.6. UoA vs Stablecoin
+
+Stablecoin-based RWA tokenization
+
+| Left | Centre | Right |
+| :--- | :----: | ----: |
+| 1    |   2    |     3 |
+
+cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
+
+tokenization of RWA blablabla
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+
+
+## 11. Implementation of CryptoCommodites
+---
+
+
+https://github.com/Catallactic/catallactic-suite
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 12. Managmnt of CryptoCommodites
+---
+
+https://github.com/Catallactic/catallactic-admin
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 13. At the rescue of real economy
+---
+
+### 13.1. Real vs financial economy
 
 barreras a la entrada impuestas x el fiat
 
 
-### 11.2. The strangle of the real economy
+### 13.2. The strangle of the real economy
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/realvsfinancial.jpg" width="40%"></img>
@@ -916,19 +1000,19 @@ barreras a la entrada impuestas x el fiat
 	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="40%"></img>
 </div>
 
-### 11.3. Financial Exclusion
+### 13.3. Financial Exclusion
 
 
 
 
-### 11.4. A decentralized commodities based economy centered in citizen
+### 13.4. A decentralized commodities based economy centered in citizen
 
 ecosystem of companies
 
 hayek
 
 
-### 11.5. Stability of a UoA Market
+### 13.5. Stability of a UoA Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -938,7 +1022,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-### 11.6. Comparing Economic Models
+### 13.6. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -959,7 +1043,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-## 12. Conclusion
+## 14. Conclusion
 ---
 
 
@@ -972,7 +1056,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-## 13. Annex 1. Positive vs Negative Feedback
+## 15. Annex 1. Positive vs Negative Feedback
 ---
 
 
@@ -981,7 +1065,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-## 14. References
+## 16. References
 ---
 
 
