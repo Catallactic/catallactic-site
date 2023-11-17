@@ -1,6 +1,6 @@
 ---
-slug: Tokenization IV - Maturity Model
-title: Tokenization IV - Maturity Model
+slug: Tokenization 5 - Maturity Model
+title: Tokenization 5 - Maturity Model
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---

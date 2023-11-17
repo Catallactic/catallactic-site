@@ -1,6 +1,6 @@
 ---
-slug: By Utility I - Identification Tokens
-title: By Utility I - Identification Tokens
+slug: By Utility 1 - Identification Tokens
+title: By Utility 1 - Identification Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

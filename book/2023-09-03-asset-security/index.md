@@ -1,6 +1,6 @@
 ---
-slug: By Asset III - Security Tokens
-title: By Asset III - Security Tokens
+slug: By Asset 3 - Security Tokens
+title: By Asset 3 - Security Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -101,5 +101,11 @@ Security tokens are digital assets that represent ownership or other rights to t
 		</tr>
 	</tbody>
 </table>
+
+
+## 6. Market
+---
+
+### 6.1. Security Token Platforms
 
 

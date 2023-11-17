@@ -1,6 +1,6 @@
 ---
-slug: By Asset I - Unbacked Tokens
-title: By Asset I - Unbacked Tokens
+slug: By Asset 1 - Unbacked Tokens
+title: By Asset 1 - Unbacked Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

@@ -1,6 +1,6 @@
 ---
-slug: By Asset VI - NFTs
-title: By Asset VI - NFTs
+slug: By Asset 6 - NFTs
+title: By Asset 6 - NFTs
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -19,3 +19,13 @@ image: https://i.imgur.com/mErPwqL.png
 
 
 ## 8. NFTs (Asset Capture)
+
+
+
+## 6. Market
+---
+
+### 6.1. NFT Platforms
+
+
+### 6.2. Marketplaces

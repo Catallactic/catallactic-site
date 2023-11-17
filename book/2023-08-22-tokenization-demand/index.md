@@ -1,6 +1,6 @@
 ---
-slug: Tokenization I - Demand
-title: Tokenization I - Demand
+slug: Tokenization 2 - Demand
+title: Tokenization 2 - Demand
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
@@ -33,6 +33,40 @@ In this post we will examine the demand and leave supply and monetary policy for
 In order to allow value capture, we must focus in fungible assets. From the table of assets, only natural resources and commodities have the fungiblity feature. 
 
 <JSONTable theadData={Object.keys(underlying[0])} tbodyData={underlying}/>
+
+<table>
+   <tr>
+    <td rowspan="4">Product</td>
+    <td>Natural Resources</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Physical Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Digital Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Financial Assets</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Service</td>
+    <td>Acquisition</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Right</td>
+    <td>Certifications</td>
+    <td></td>
+  </tr>
+</table>
 
 ## 3. Token Utility
 ---
@@ -95,6 +129,73 @@ In order to allow value capture, we must focus in fungible assets. From the tabl
 
 <JSONTable theadData={[ 'type', 'name' ]} tbodyData={utility}/>
 
+<table>
+  <tr>
+    <td rowspan="3">Monetary Utilities</td>
+    <td>Medium of Exchange</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Unit of Account	</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reserve of Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4">Monetary Services</td>
+    <td>Payments</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cards</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Transfers</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lending</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">Financial Services</td>
+    <td>Staking</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Profit-Sharing</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Liquidity Provision</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Discounts</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mining</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Launchpad</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Identification</td>
+    <td>Access</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Governance</td>
+    <td></td>
+  </tr>
+</table>
+
 ## 5. Token Intrinsic Value
 ---
 
@@ -125,3 +226,11 @@ Intrinsic value is the value that the token gains from the credibility and utili
 ---
 
 Speculative value is the value that the token gains from speculations traders make on a token's price.
+
+## 7. Estimating the Demand
+
+The demand for your token will be motivated because your users apreciate one or more of the utilities of the asset, or assets, that are bound to the token. The demand is related to the physical world on how good is your business offer. If your offer is good, your users will be eager to acquire, or enjoy, the utilities that you are offering and the demand of your token will increase. 
+
+In the next sections we will expose how to undertand the demand of your token, what can the bound assets and utilities be and how can it be quantified.
+
+uantying the demand will help later on to estimate the supply

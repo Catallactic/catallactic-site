@@ -1,6 +1,6 @@
 ---
-slug: By Asset IV - Stablecoins / Synths
-title: By Asset IV - Stablecoins / Synths
+slug: By Asset 4 - Stablecoins / Synths
+title: By Asset 4 - Stablecoins / Synths
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -14,32 +14,22 @@ image: https://i.imgur.com/mErPwqL.png
 ## 1. Introduction
 ---
 
+Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
+
 ## 2. Creating Stablecoins
 ---
 
-### 2.1. Creation Process
 
-
-### 2.2. Suites
-
-
-### 2.3. Marketplaces
-
-
-## 3. Stablecoins Features
+## 3. Assets
 ---
 
-## 3.1. Decentralization
+### 3.1. Peg
 
 
-## 3.2. Redeemability
+### 3.2. Collateral
 
 
-## 4. Applications
----
-
-
-Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
+### 3.3. Existing Stablecoins
 
 <table class="table w-auto mx-auto fs-6">
 	<thead class="thead-dark">
@@ -222,6 +212,14 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
+## 4. Features
+---
+
+### 4.1. Decentralization
+
+
+
+
 
 ## 5. Regulation
 ---
@@ -231,3 +229,16 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 
 ## 6. Market
 ---
+
+### 6.1. Stablecoin Platforms
+
+reserve protocol
+
+erc-3643
+
+catallactic
+
+conigurabl Requirements
+
+
+

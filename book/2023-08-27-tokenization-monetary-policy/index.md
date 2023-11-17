@@ -1,6 +1,6 @@
 ---
-slug: Tokenization III - Monetary Policy
-title: Tokenization III - Monetary Policy
+slug: Tokenization 4 - Monetary Policy
+title: Tokenization 4 - Monetary Policy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
@@ -35,9 +35,21 @@ As with any other asset, the price for a token is determined as an equilibrium b
 
 This evaluation between supply and demand is carried out in the exchanges. Additionally price for a token pair uses to be uniform across the exchanges because arbitrage.
 
-![Supply Definition Monetary Policies](./price_determination2.svg)
-
 The lower the total traded supply amount across the liquidity pools for a token, the higher the price will get in the exchanges.
+
+
+
+
+
+<b>Price formation in crypto happens in the exchanges</b>. The price is alway formed between 2 tokens paired in a pool. The exchanges have algorithms to work out the price of every token in the pool depending on their respective demand.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_determination2.svg" width="100%"></img>
+</div>
+
+The pools where our token is trading, can be in one exchange, or can be in many exchanges, in the same network or distributed across different blockchains. When several exchanges are involved, the price is consolidated between the different pools by investors practicing <b>arbitrage</b>. This guarantees that the price is mostly uniform across all the exchanges on a determined time.
+
+Another point to consider is that <b>only the amount of tokens deposited in exchanges account determine the price at every moment</b>, no matter how many tokens of the supply are held on investors wallets or locked. This means that, in the case that we want to have control over the price, we must be aware of the amount of tokens placed in the pool of the exchanges.
 
 ### 2.2 Price Components
 
@@ -59,6 +71,18 @@ The price will have several components.
 ---
 
 ### 3.1 Supply Definition
+
+Tokenization Models. During the last decade a new tokenization models has been proposed. Tokenization model define how the token is bound to the underlying asset and what it grants or its holders
+
+- no underlaying asset
+
+- utility tokens, which capture an undetermined set of utilities
+
+- security tokens, which provide some kind o yield over a financial token
+
+- stablecoins
+
+- NFT which provide ownerhip of the underlying asset. 
 
 On determining the token supply we can decide between 6 scenarios:
 
@@ -138,22 +162,43 @@ Finally, to capture the natural value of the collateral, as a natural Unit of Ac
 Depending on the goal of every project, a supply definition strategy must be decided. A combination of strategies is also a valid option.
 
 
-### 3.2. Supply Management
+### 3.2. Supply Management Mechanisms
 
+Th intrcation btw th dmand and th upply will din th pric o th tokn and also its proil.
 
-#### 3.2.1. Burn and Mint Equilibrium
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/Supply-and-Demand-Curve.webp" width="60%"></img>
+</div>
 
+There are essentially 3 mechanims to manage the supply:
 
+* expand and collapse the supply by minting and burning token units
 
-#### 3.2.2. Stability Fees
+* adding tax to transaction
 
+* use a supporting account as reserve
 
+All these Supply Management Mechanisms can be manually executed or automatd a part of some transactional logic in the smart contract. 
 
-#### 3.2.3. Reserve
+##### 3.4.1.1. Burn and Mint
 
+The implicit way to manage the supply is by calling explicit functions in the smart contract to create (mint) and destroy (burn) token units.
+
+In order to create new unit, a <b>mint</b> operation must be executed over the token. This mint operation can be triggered externally by some holder account, internally by the issuing team or be triggered from the token smart contract itself as a response to some defined threshold. A mint operation typically devaluate the price of the token so minting is a discouraged operation as it can hurt the reputation of a token issuer. It should be done only under known circuntances in a predictable way. 
+
+Conversely, we can reduce the supply of token by triggering a <b>burn</b> operation which will have the opposite effect of increasing the price because the supply is reduced for the same demand.
+
+Burn and mint i a coar grain upply managmnt bcau w do not dirctly control th numbr o tokn in th xchang to orm th pric.
+
+##### 3.4.1.2. Stability Fees
+
+Stability Fees are taxes taken by the token on transaction. They are typically automated within the transaction logic and, therefore, not manual intervention is required. This contributes to token tranparency. tability  can alo b ud in conjuction with th rrv approach.
+
+##### 3.4.1.3. Reserve
+
+A in grain managmnt o th tokn pric i by maintaining a rrv account paird to th xchang account. Tokn unit can b addd to th upply whn w want to rduc th upply and incra th pric. And, covrly, tokn unit can b xtractd rom th rrv account to rplnih th xchang account whn w want to xnd th pric.
 
 
 #### 3.2.4. Elastic Supply Tokens (Rebases)
-
 
 

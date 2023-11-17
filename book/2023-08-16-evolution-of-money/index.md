@@ -13,6 +13,8 @@ tags: [money]
 ## 1. Introduction
 ---
 
+Historically, commodities has been used as basic forms of money. The problem is that they lack portability. This created the representative money or commodities backed money. However, this was replaced by fiat. Despite there is long way to go, crypto delivers the foundation to bring representative money back in a portable way.
+
 <table>
   <tr>
     <td></td>

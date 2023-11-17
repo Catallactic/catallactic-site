@@ -1,6 +1,6 @@
 ---
-slug: By Asset II - Utility Tokens
-title: By Asset II - Utility Tokens
+slug: By Asset 2 - Utility Tokens
+title: By Asset 2 - Utility Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -15,6 +15,18 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 
 <!-- truncate -->
+
+
+
+## 2. Defining Value
+
+Across the history, a few economic models have been proposed. Putting these economic models in practise reuire either a broad consensus betwen the citizens or the compromise of a central planner.
+
+* what holds the value? time, energy, commodities, work, costs, utility, capital, politics
+
+* who determines the value, citizens), plannr top down)
+
+* what i valu? Land Theory of Value Physiocrats), Intrinsic Theory of Value Adam Smith), Labor Theory of Value )Ricardo), Use Value / Exchange Value Theory Marx), Commodity’s costs of production John Stuart Mill ), Subjective Theory of Value Menger), Marginal Utility Theory of Value Jevons), Monetary theory of value  Keynes), Power Theory of Value
 
 
 ## 4. Utility Tokens (Utility Capture)

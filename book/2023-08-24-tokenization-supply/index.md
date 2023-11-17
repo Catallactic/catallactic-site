@@ -1,6 +1,6 @@
 ---
-slug: Tokenization II - Supply
-title: Tokenization II  - Supply
+slug: Tokenization 3 - Supply
+title: Tokenization 3  - Supply
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
@@ -101,6 +101,19 @@ The swap operation is perfomed by special smart contracts called exchanges and, 
 ## 4. Changes in the Supply
 ---
 
+The supply is the number of existing units for the token. The supply is the variable that we can use to provide the expected price profile to the token according to the demand of the token.
+
+The number of units of a token can be fixed or can be variable, depending on the policies defined by the token designers. Tokens with a <b>Fixed Supply</b> follow a gold standard pattern. Tokens with a Variable Supply can be managed by some Supply Management Mechanism to capture some asset feature or can freely float at the mercy of demand. If the supply grows we say the token has an <b>Inflationary Supply</b>. If the supply shrinks we say the token has a <b>Deflationary Supply</b>.
+
+We call <b>Max Supply</b> to the max amount of units that a token can have. Not all tokens have a defined max supply, some tokens can increase the supply indefinitely. We say they are uncapped tokens. Other tokens ha a known Max Supply, either because there is a physical limitation on creation or because it is limited by token designer. These tokens are denominated capped tokens.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/token_supply_components.svg" width="28%"></img>
+</div>
+
+The number of unit that a token has in a certain moment is called Total Supply. The unit o the token are typically aigned to dierent account and can have in dierent ituation o liuidity. locked v circulating
+
+th circulating upply can b in holdr account or can b in xchang pair rady to b tradd.
 
 ### 4.1. Fixed Supply
 
