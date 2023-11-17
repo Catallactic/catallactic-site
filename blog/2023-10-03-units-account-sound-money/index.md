@@ -22,5 +22,6 @@ Despite a value capture mechanism can be applied to any other assets than commod
 
 atr that they are highly divisible.
 
+what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
 

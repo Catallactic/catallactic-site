@@ -30,11 +30,7 @@ image: https://i.imgur.com/mErPwqL.png
 
 ### 1.1. Definition
 
-Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
-
- irst thy ar ungible.
-
-atr that they are highly divisible.
+A particularization o Utility Token
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
@@ -42,24 +38,24 @@ atr that they are highly divisible.
 <br/>
 
 
-* what holds the value? time, energy, commodities, work, costs, utility, capital, politics
 
-A particularization o Utility Token
+### 1.2. Requirements
+
+Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
+
+ irst thy ar ungible.
+
+atr that they are highly divisible.
 
 
-### 1.2. The Regresion Principle
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
-
-
-### 1.3. CryptoCommodity Ecosystem
+### 1.4. Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
 </div>
 
 
-### 1.4. Examples
+### 1.5. Examples
 
 
 CYGAS
@@ -297,7 +293,9 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 - cryptocommodity vs stablecoin. Both capture price, one from it fownmarkt, the other from international market
 
 
+### 6.7. The Regresion Principle
 
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
