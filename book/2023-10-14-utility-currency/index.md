@@ -32,7 +32,74 @@ Currencies, by definition, should exhibit a very stable price profile. To achiev
 
 
 
-### 4.2. Currency Requirements
+
+
+
+### 4.3. Currency Utilities
+
+Tradicionally, it ha bn aumd that th unction o mony ar 3:
+
+* man xchang
+
+* unit o account
+
+* tor o valu
+
+A currncy can provid om or all th 3 unction. Howvr, bn tor o valu and man o xchang at th am ti i diicult bcau th Grhham Law. typically a currncy will pcializd in on o th 3 unction.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodities_scope2.svg" width="100%"></img>
+</div>
+<br/>
+
+### 4.4. Coexisting Monetary Protocols
+
+
+
+
+### 4.5. Monetary Protocols Industry
+
+aggrgator
+reserve?
+
+insurers
+
+analyt
+
+auditor
+
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 5. Currency Tokens as Mean of Payment
+
+
+### 5.2. Dinition
+
+no special ecosystem
+
+No ruird backing at
+
+ Additional Utilities
+
+
+xiting
+Utility Tokens
+
+Fiat Stablecoins
+
+
+### 5.1. Mean of Payment Requirements
 
 <table>
   <tr>
@@ -127,76 +194,7 @@ Currencies, by definition, should exhibit a very stable price profile. To achiev
   </tr>
 </table>
 
-
-
-
-
-
-### 4.3. Currency Utilities
-
-Tradicionally, it ha bn aumd that th unction o mony ar 3:
-
-* man xchang
-
-* unit o account
-
-* tor o valu
-
-A currncy can provid om or all th 3 unction. Howvr, bn tor o valu and man o xchang at th am ti i diicult bcau th Grhham Law. typically a currncy will pcializd in on o th 3 unction.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/cryptocommodities_scope2.svg" width="100%"></img>
-</div>
 <br/>
-
-### 4.4. Coexisting Monetary Protocols
-
-
-
-
-### 4.5. Monetary Protocols Industry
-
-aggrgator
-reserve?
-
-insurers
-
-analyt
-
-auditor
-
-
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-## 5. Currency Tokens as Mean of Payment
-
-
-### 5.2. Dinition
-
-no special ecosystem
-
-No ruird backing at
-
- Additional Utilities
-
-
-xiting
-Utility Tokens
-
-Fiat Stablecoins
-
-
-### 5.1. Mean of Payment Requirements
 
 There are not many requirement to use a currency token as a mean of payment beyond those applied to a physical currency.
 
@@ -214,10 +212,10 @@ There are not many requirement to use a currency token as a mean of payment beyo
 #### 5.1.2. The challenge of Wallets
 
 
+#### 5.1.3. The challenge of Compliance
 
 
-
-
+#### 5.1.4. The challenge of Privacy
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -255,10 +253,13 @@ xiting
 - the token must be <b>transparent</b> and disclose all the required information to issuers, holders and regulators
 
 
+#### 5.1.3. The challenge of Security
+
+
 #### 6.1.1. The challenge of Decentralization
 
 
-
+#### 6.1.1. The challenge of Transparency
 
 
 
@@ -281,7 +282,9 @@ Creating a UoA brings additional reuirement to the previous token type analized.
 
 * a UoA needs fulfill requirements for a store o value
 
-* differently to a stablecoin, a UoA needs an underlying market for price formation. This will come with benefits for the issuer later on.
+* differently to a stablecoin, a UoA needs an <b>underlying market</b> for price formation
+
+* the underlying asset must be <b>fungible</b>.
 
 ### 7.4. Defining the core utility
 

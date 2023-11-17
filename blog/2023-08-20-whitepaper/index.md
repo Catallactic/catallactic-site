@@ -11,22 +11,11 @@ image: https://i.imgur.com/mErPwqL.png
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 1. CryptoCommodites
 ---
+
+<!-- truncate -->
+
 
 ### 1.1. Definition
 
@@ -37,28 +26,61 @@ A particularization o Utility Token
 </div>
 <br/>
 
+Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
 
 
 ### 1.2. Requirements
 
-Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
+To deliver the 3 function of money, a cryptocommodity mut comply with th following reuirement:
 
- irst thy ar ungible.
+To work a Mean of Payment:
 
-atr that they are highly divisible.
+* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
+
+* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
+
+* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
+
+* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
+
+To work as Store of Value:
+
+* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+
+* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+
+* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+
+To work as Unit of Account:
+
+* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
+
+* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
+
+From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+
+#### 1.2.1. The challenge of Velocity of Circulation
 
 
-### 1.4. Ecosystem
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
-</div>
+#### 1.2.2. The challenge of Wallets
 
 
-### 1.5. Examples
+#### 1.2.3. The challenge of Compliance
 
 
-CYGAS
+#### 1.2.4. The challenge of Privacy
+
+
+#### 1.2.5. The challenge of Security
+
+
+#### 1.2.6. The challenge of Decentralization
+
+
+#### 1.2.7. The challenge of Transparency
+
 
 
 
@@ -137,7 +159,11 @@ All the requirements described in section 3 and 4, namely, currency requirements
 
 Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
 
+### 1.3. Ecosystem
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+</div>
 
 
 The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined.
