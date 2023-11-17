@@ -19,17 +19,98 @@ image: https://i.imgur.com/mErPwqL.png
 
 ### 1.1. Definition
 
-A particularization o Utility Token
+CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the  underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. CryptoCommodities also allow the issuer to fund a real economy project and deliver extended utilities to society a DeFi Services.
+
+CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
 </div>
 <br/>
 
+CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
+
+### 1.2. How do they work?
+
+To be eligible a underlaying asset within the CryptoCommodities framework, the asset mut be fungible. It can b o any natur, phyical, natural, digital and there must some kind of service provided for the asset, as purchase or rent.
+
+dibujo ntra at utility y unding y aln di rvic, currncy unction, projct
+
+<table>
+   <tr>
+    <td rowspan="4">Product</td>
+    <td>Natural Resources</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Physical Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Digital Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Financial Assets</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Service</td>
+    <td>Acquisition</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Right</td>
+    <td>Certifications</td>
+    <td></td>
+  </tr>
+</table>
+
 Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
 
 
-### 1.2. Requirements
+<table>
+  <tr>
+    <td rowspan="3">Monetary Utilities</td>
+    <td>Medium of Exchange</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Unit of Account	</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Reserve of Value</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td rowspan="4">Monetary Services</td>
+    <td>Payments</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cards</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Transfers</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lending</td>
+    <td></td>
+  </tr>
+</table>
+
+
+### 1.5. Requirements
 
 To deliver the 3 function of money, a cryptocommodity mut comply with th following reuirement:
 
@@ -61,25 +142,25 @@ To work as Unit of Account:
 
 From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
-#### 1.2.1. The challenge of Velocity of Circulation
+#### 1.5.1. The challenge of Velocity of Circulation
 
 
-#### 1.2.2. The challenge of Wallets
+#### 1.5.2. The challenge of Wallets
 
 
-#### 1.2.3. The challenge of Compliance
+#### 1.5.3. The challenge of Compliance
 
 
-#### 1.2.4. The challenge of Privacy
+#### 1.5.4. The challenge of Privacy
 
 
-#### 1.2.5. The challenge of Security
+#### 1.5.5. The challenge of Security
 
 
-#### 1.2.6. The challenge of Decentralization
+#### 1.5.6. The challenge of Decentralization
 
 
-#### 1.2.7. The challenge of Transparency
+#### 1.5.7. The challenge of Transparency
 
 
 

@@ -34,40 +34,6 @@ In order to allow value capture, we must focus in fungible assets. From the tabl
 
 <JSONTable theadData={Object.keys(underlying[0])} tbodyData={underlying}/>
 
-<table>
-   <tr>
-    <td rowspan="4">Product</td>
-    <td>Natural Resources</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Physical Assets</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Digital Assets</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Financial Assets</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="2">Service</td>
-    <td>Acquisition</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Rent</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Right</td>
-    <td>Certifications</td>
-    <td></td>
-  </tr>
-</table>
-
 ## 3. Token Utility
 ---
 
@@ -128,73 +94,6 @@ In order to allow value capture, we must focus in fungible assets. From the tabl
 ### 4.2. Typical Token Utilities
 
 <JSONTable theadData={[ 'type', 'name' ]} tbodyData={utility}/>
-
-<table>
-  <tr>
-    <td rowspan="3">Monetary Utilities</td>
-    <td>Medium of Exchange</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Unit of Account	</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Reserve of Value</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="4">Monetary Services</td>
-    <td>Payments</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Cards</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Transfers</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Lending</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="6">Financial Services</td>
-    <td>Staking</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Profit-Sharing</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Liquidity Provision</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Discounts</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Mining</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Launchpad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="2">Identification</td>
-    <td>Access</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Governance</td>
-    <td></td>
-  </tr>
-</table>
 
 ## 5. Token Intrinsic Value
 ---
