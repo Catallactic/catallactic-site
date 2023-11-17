@@ -1,6 +1,6 @@
 ---
-slug: Tokens III - Security Tokens
-title: Tokens III - Security Tokens
+slug: By Asset III - Security Tokens
+title: By Asset III - Security Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

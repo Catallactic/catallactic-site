@@ -1,6 +1,6 @@
 ---
-slug: Tokens II - Utility Tokens
-title: Tokens II - Utility Tokens
+slug: By Asset II - Utility Tokens
+title: By Asset II - Utility Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

@@ -1,6 +1,6 @@
 ---
-slug: Tokens V - Units of Account
-title: Tokens V - Units of Account
+slug: By Asset V - Units of Account
+title: By Asset V - Units of Account
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

@@ -1,6 +1,6 @@
 ---
-slug: Tokens VI - NFTs
-title: Tokens VI - NFTs
+slug: By Asset VI - NFTs
+title: By Asset VI - NFTs
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png

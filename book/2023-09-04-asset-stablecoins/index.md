@@ -1,6 +1,6 @@
 ---
-slug: Tokens IV - Stablecoins / Synths
-title: Tokens IV - Stablecoins / Synths
+slug: By Asset IV - Stablecoins / Synths
+title: By Asset IV - Stablecoins / Synths
 authors: [catallactic, pellyadolfo]
 tags: [crypto, tokenization]
 image: https://i.imgur.com/mErPwqL.png
