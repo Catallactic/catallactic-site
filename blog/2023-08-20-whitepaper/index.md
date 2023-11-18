@@ -7,9 +7,7 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 ---
 
-import Chart from 'chart.js/auto';
 
-import { Line } from "react-chartjs-2";
 
 
 :::danger
@@ -48,7 +46,7 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
 
 <table>
    <tr>
-    <td rowspan="3">Product</td>
+    <td rowSpan={3}>Product</td>
     <td>Natural Resources</td>
     <td></td>
   </tr>
@@ -61,7 +59,7 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
     <td></td>
   </tr>
   <tr>
-    <td rowspan="2">Service</td>
+    <td rowSpan={2}>Service</td>
     <td>Acquisition</td>
     <td></td>
   </tr>
@@ -79,7 +77,7 @@ By using the CryptoCommodity a barebone of the marketplace, by extract the econo
 
 <table>
   <tr>
-    <td rowspan="3">Monetary Utilities</td>
+    <td rowSpan={3}>Monetary Utilities</td>
     <td>Medium of Exchange</td>
     <td></td>
   </tr>
@@ -98,7 +96,7 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 <table>
   <tr>
-    <td rowspan="4">Monetary Services</td>
+    <td rowSpan={4}>Monetary Services</td>
     <td>Payments</td>
     <td></td>
   </tr>
@@ -119,7 +117,7 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 By issuing a CryptoCommodity the project proposer has the opportunity to fund the real economy project with fund from investors and deliver extended utilities to society a DeFi Services. A funding mechanim ha been designed and incorporated into the CryptoCommodity framework.
 
-### 1.5. Requirements
+### 1.3. Requirements
 
 Creating a token is not enough to guarantee it will become a currency. To deliver the 3 function of money, a cryptocommodity mut comply with the following requirement:
 
@@ -151,25 +149,40 @@ To work as Unit of Account:
 
 The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
-#### 1.5.1. The challenge of Velocity of Circulation
+#### 1.3.1. The challenge of Velocity of Circulation
 
 
-#### 1.5.2. The challenge of Wallets
+#### 1.3.2. The challenge of Wallets
 
 
-#### 1.5.3. The challenge of Compliance
+#### 1.3.3. The challenge of Compliance
 
 
-#### 1.5.4. The challenge of Privacy
+#### 1.3.4. The challenge of Privacy
 
 
-#### 1.5.5. The challenge of Security
+#### 1.3.5. The challenge of Security
 
 
-#### 1.5.6. The challenge of Decentralization
+#### 1.3.6. The challenge of Decentralization
 
 
-#### 1.5.7. The challenge of Transparency
+#### 1.3.7. The challenge of Transparency
+
+
+### 1.4. CryptoCommodity vs Stablecoin
+
+The only Token Model that ha the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
+
+|                                 | Stablecoin                                        | CryptoCommodity                                                     |
+| :-------------------------------| :-------------------------------------------------| :-------------------------------------------------------------------|
+| Applies to                      | Physical, digital, financial asset                | Fungible physical or digital asset with a underlying market         |
+| Scope                           | Global														                | Local or Global                                                     |
+| What is pegged to?              | Fiat Price of asset in internacional market       | Economic value in underlying asset market                           |
+| Allows project funding?         | No                                                | Yes                                                                 |
+| Collateral on inception needed? | Yes                                               | No                                                                  |
+
+
 
 
 
@@ -194,20 +207,16 @@ The aforementioned requirements must be particularized to every stage of the val
 A CryptoCommodity takes economic value from nature and delivers to the adopting society.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/token_value_chain.svg" width="100%"></img>
+	<img src="/img/token_value_chain2.svg" width="100%"></img>
 </div>
 
 All the requirements described must be particularized for each stage of the CryptoCommodity Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will explore every funding stage and discuss requirements and opportunities.
 
 ### 2.1. Funding
 
+Differently to a stablecoin, which must accomplish the required collateral on inception, CryptoCommodity Framework provides the infrastructure to fund projects. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
 
-- crypcommodity allow unding 
-
-- withouth collatral
-
-- rgulatort advantag
-
+On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required. This makes launching a currency friendly for any citizen which has a real world project.
 
 ### 2.2. Negotiation
 
@@ -237,17 +246,7 @@ All the requirements described must be particularized for each stage of the Cryp
 
 
 
-### 2.6. UoA vs Stablecoin
 
-Stablecoin-based RWA tokenization
-
-| Left | Centre | Right |
-| :--- | :----: | ----: |
-| 1    |   2    |     3 |
-
-cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
-tokenization of RWA blablabla
 
 
 
@@ -267,10 +266,16 @@ tokenization of RWA blablabla
 ## 3. Supply Management of CryptoCommodites
 ---
 
-Supply Management is a critical aspect in the CryptoCommodity lifecycle. 
 
-### 3.1. Determining Max Supply
+### 3.1. CryptoCommodites Supply Profile
 
+Supply Management is a critical aspect in the CryptoCommodity lifecycle a it i part o th tting ruird to dlivr it atur.  
+
+
+import Chart from 'chart.js/auto';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+import ChartAnnotation from 'chartjs-plugin-annotation';
+import { Line } from "react-chartjs-2";
 
 <Line
   data={{
@@ -290,6 +295,8 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle.
 		}],
 	}}
 	options={{
+		responsive: true,
+		maintainAspectRatio: true,
 		scales: {
 			y: {
 				min: 0,
@@ -320,60 +327,41 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle.
 					},
 					padding: {top: 20, left: 0, right: 0, bottom: 0},
 				},
-				/*ticks: {
+				ticks: {
 						font: {
 							family: 'Comic Sans MS',
 							size: 20,
 							// weight: 'bold',
 							lineHeight: 1,
 						},
-				}*/
-	
+				}	
 			},
 		},
 		plugins: {
 			legend: {
 				labels: {
-						usePointStyle: true,
+					usePointStyle: true,
 					font: {
-							family: 'Comic Sans MS',
-							size: 20,
-							weight: 'bold',
-							lineHeight: 1.2,
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
 					},
 					padding: 20,
 				},
 			},
-			annotation: {
-				annotations: {
-					line1: {
-						type: 'line',
-						xMin: 2,
-						xMax: 2,
-						borderColor: 'rgb(255, 99, 132)',
-						borderWidth: 2,
-						borderDash: [5, 5],
-					},
-					label1: {
-						type: 'label',
-						xValue: 2,
-						yValue: 600,
-						content: ['Value','Capture','Event'],
-						backgroundColor: 'rgba(245,245,245)',
-						font: {
-							size: 18
-						}
-					},
-					point1: {
-						type: 'point',
-						xValue: 2,
-						yValue: 150,
-						backgroundColor: 'rgba(255, 99, 132, 0.25)'
-					}
-				}
-			}
+      annotation: {
+        annotations: [{
+					type: 'line',
+					borderColor: 'black',
+					borderWidth: 3,
+					scaleID: 'y',
+					value: 50
+				}]
+      }
 		}
 	}}
+	plugins={[ChartDataLabels, /*ChartAnnotation*/]}
 />
 
 ### 3.2 Consolidated Supply Managment
@@ -397,8 +385,11 @@ stable system
 ### 3.4. Capturing Value
 
 
+### 3.1. Determining Initial Supply
 
-### 3.5. Singular events on the lifecycle
+
+### 3.1. Determining Max Supply
+
 
 
 <div style={{textAlign: 'center'}}>
