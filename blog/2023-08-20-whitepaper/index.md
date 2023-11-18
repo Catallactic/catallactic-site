@@ -19,7 +19,7 @@ image: https://i.imgur.com/mErPwqL.png
 
 ### 1.1. Definition
 
-CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the  underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. CryptoCommodities also allow the issuer to fund a real economy project and deliver extended utilities to society a DeFi Services.
+CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
 CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
 
@@ -30,15 +30,20 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 1.2. How do they work?
+### 1.2. Ecosystem
 
-To be eligible a underlaying asset within the CryptoCommodities framework, the asset mut be fungible. It can b o any natur, phyical, natural, digital and there must some kind of service provided for the asset, as purchase or rent.
+The CryptoCommodities are trigered or an real economy project. The project is started by a ungible asst that can be extracted and/or transormed and commercialized. 
 
-dibujo ntra at utility y unding y aln di rvic, currncy unction, projct
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+</div>
+<br/>
+
+To be eligible a underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
 
 <table>
    <tr>
-    <td rowspan="4">Product</td>
+    <td rowspan="3">Product</td>
     <td>Natural Resources</td>
     <td></td>
   </tr>
@@ -50,10 +55,6 @@ dibujo ntra at utility y unding y aln di rvic, currncy unction, projct
     <td>Digital Assets</td>
     <td></td>
   </tr>
-   <tr>
-    <td>Financial Assets</td>
-    <td></td>
-  </tr>
   <tr>
     <td rowspan="2">Service</td>
     <td>Acquisition</td>
@@ -63,15 +64,13 @@ dibujo ntra at utility y unding y aln di rvic, currncy unction, projct
     <td>Rent</td>
     <td></td>
   </tr>
-  <tr>
-    <td>Right</td>
-    <td>Certifications</td>
-    <td></td>
-  </tr>
 </table>
+<br/>
 
-Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
 
+There is a natural formation in the price of the CryptoCommodity. This currency will growth a long the issuer is providing value to the society. If the provider denies to provide value, the CryptoCommodity will shrink and will be replaced by another CryptoCommodity. This will guarantee a natural selection in the value provision and a environment of wealth.
+
+By using the CryptoCommodity a barebone of the marketplace, by extract the economic value of the asset it will be able to provide some benefit into the community. first it will make a fully featured currency which will empower the community. 
 
 <table>
   <tr>
@@ -88,6 +87,9 @@ Despite a value capture mechanism can be applied to any other assets than commod
     <td></td>
   </tr>
 </table>
+<br/>
+
+Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
 
 <table>
   <tr>
@@ -108,7 +110,9 @@ Despite a value capture mechanism can be applied to any other assets than commod
     <td></td>
   </tr>
 </table>
+<br/>
 
+By issuing a CryptoCommodity the project proposer has the opportunity to fund the real economy project with fund from investors and deliver extended utilities to society a DeFi Services. A funding mechanim ha been designed and incorporated into the CryptoCommodity framework.
 
 ### 1.5. Requirements
 
@@ -140,7 +144,7 @@ To work as Unit of Account:
 
 * the underlying asset must be <b>Fungible</b>. This must be enforced by the design
 
-From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
 #### 1.5.1. The challenge of Velocity of Circulation
 
@@ -240,14 +244,7 @@ All the requirements described in section 3 and 4, namely, currency requirements
 
 Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
 
-### 1.3. Ecosystem
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
-</div>
-
-
-The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined.
 
 The next sections will discuss the main obtacles for adoption.
 
