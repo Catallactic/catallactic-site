@@ -7,6 +7,11 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 ---
 
+import Chart from 'chart.js/auto';
+
+import { Line } from "react-chartjs-2";
+
+
 :::danger
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
@@ -116,7 +121,7 @@ By issuing a CryptoCommodity the project proposer has the opportunity to fund th
 
 ### 1.5. Requirements
 
-To deliver the 3 function of money, a cryptocommodity mut comply with th following reuirement:
+Creating a token is not enough to guarantee it will become a currency. To deliver the 3 function of money, a cryptocommodity mut comply with the following requirement:
 
 To work a Mean of Payment:
 
@@ -182,73 +187,19 @@ The aforementioned requirements must be particularized to every stage of the val
 
 
 
-## 2. Supply Management of CryptoCommodites
+
+## 2. The CryptoCommodity Value Chain
 ---
 
-
-### 2.1. Determining Max Supply
-
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/utilities_profile.svg" width="100%"></img>
-</div>
-
-
-
-### 2.2 Consolidated Supply Managment
-
-Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
-</div>
-
-vry itm i rdmabl by a ral itm.
-
-at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
-
-stable system
-
-### 2.3. Supply Management on launch
-
-
-
-### 2.4. Capturing Value
-
-
-
-### 2.5. Singular events on the lifecycle
-
-
-
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-## 3. The CryptoCommodites Value Chain
----
-
-All the requirements described in section 3 and 4, namely, currency requirements, cryptocurrency requirements and UoA requirements, must be particularized for each stage of the UoA Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will visit every funding stage and discuss requirements and opportunities.
+A CryptoCommodity takes economic value from nature and delivers to the adopting society.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/token_value_chain.svg" width="100%"></img>
 </div>
 
-Creating a token is not enough to guarantee it will become a currency. In order to get a currency, some other requirement must be fulfilled:
+All the requirements described must be particularized for each stage of the CryptoCommodity Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will explore every funding stage and discuss requirements and opportunities.
 
-
-
-The next sections will discuss the main obtacles for adoption.
-
-### 3.1. Funding
+### 2.1. Funding
 
 
 - crypcommodity allow unding 
@@ -258,7 +209,7 @@ The next sections will discuss the main obtacles for adoption.
 - rgulatort advantag
 
 
-### 3.2. Negotiation
+### 2.2. Negotiation
 
 - capturing th valu
 
@@ -266,7 +217,7 @@ The next sections will discuss the main obtacles for adoption.
 
 
 
-### 3.3. Distribution
+### 2.3. Distribution
 
 
 
@@ -274,7 +225,7 @@ The next sections will discuss the main obtacles for adoption.
 
 
 
-### 3.4. DeFi Services
+### 2.4. DeFi Services
 
 
 - rvic to ocity
@@ -282,11 +233,11 @@ The next sections will discuss the main obtacles for adoption.
 - additional commiion
 
 
-### 3.5. Crowdsolving
+### 2.5. Crowdsolving
 
 
 
-### 3.6. UoA vs Stablecoin
+### 2.6. UoA vs Stablecoin
 
 Stablecoin-based RWA tokenization
 
@@ -312,11 +263,148 @@ tokenization of RWA blablabla
 
 
 
-## 4. Implementation of CryptoCommodites
+
+## 3. Supply Management of CryptoCommodites
 ---
 
+Supply Management is a critical aspect in the CryptoCommodity lifecycle. 
 
-https://github.com/Catallactic/catallactic-suite
+### 3.1. Determining Max Supply
+
+
+<Line
+  data={{
+		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
+		datasets: [{
+			fill: true,
+			label: 'Gold Standard',
+			backgroundColor: "rgba(161,174,212,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [150,150,150,null,null,null,null,null,null,null,null]
+		},{
+			fill: true,
+			label: 'Unit of Account',
+			backgroundColor: "rgba(6,11,39,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
+		}],
+	}}
+	options={{
+		scales: {
+			y: {
+				min: 0,
+				max: 1200,
+				display: true,
+				title: {
+					display: true,
+					text: 'Tokens Created',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 30, left: 0, right: 0, bottom: 0},
+				},
+			},
+			x: {
+				display: true,
+				title: {
+					display: true,
+					text: 'Orders Delivered (30 days rolling average)',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 20, left: 0, right: 0, bottom: 0},
+				},
+				/*ticks: {
+						font: {
+							family: 'Comic Sans MS',
+							size: 20,
+							// weight: 'bold',
+							lineHeight: 1,
+						},
+				}*/
+	
+			},
+		},
+		plugins: {
+			legend: {
+				labels: {
+						usePointStyle: true,
+					font: {
+							family: 'Comic Sans MS',
+							size: 20,
+							weight: 'bold',
+							lineHeight: 1.2,
+					},
+					padding: 20,
+				},
+			},
+			annotation: {
+				annotations: {
+					line1: {
+						type: 'line',
+						xMin: 2,
+						xMax: 2,
+						borderColor: 'rgb(255, 99, 132)',
+						borderWidth: 2,
+						borderDash: [5, 5],
+					},
+					label1: {
+						type: 'label',
+						xValue: 2,
+						yValue: 600,
+						content: ['Value','Capture','Event'],
+						backgroundColor: 'rgba(245,245,245)',
+						font: {
+							size: 18
+						}
+					},
+					point1: {
+						type: 'point',
+						xValue: 2,
+						yValue: 150,
+						backgroundColor: 'rgba(255, 99, 132, 0.25)'
+					}
+				}
+			}
+		}
+	}}
+/>
+
+### 3.2 Consolidated Supply Managment
+
+Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+</div>
+
+vry itm i rdmabl by a ral itm.
+
+at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
+
+stable system
+
+### 3.3. Supply Management on launch
+
+
+
+### 3.4. Capturing Value
+
+
+
+### 3.5. Singular events on the lifecycle
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/utilities_profile.svg" width="100%"></img>
+</div>
+
 
 
 
@@ -326,10 +414,25 @@ https://github.com/Catallactic/catallactic-suite
 
 
 
-## 5. Managmnt of CryptoCommodites
+## 4. Managmnt of CryptoCommodites
 ---
 
 https://github.com/Catallactic/catallactic-admin
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 5. Implementation of CryptoCommodites
+---
+
+
+https://github.com/Catallactic/catallactic-suite
+
 
 
 
