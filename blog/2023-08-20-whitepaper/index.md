@@ -170,15 +170,16 @@ The aforementioned requirements must be particularized to every stage of the val
 #### 1.3.7. The challenge of Transparency
 
 
-### 1.4. CryptoCommodity vs Stablecoin
+### 1.4. CryptoCommodity vs Fiat Stablecoin
 
-The only Token Model that ha the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
+The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
-|                                 | Stablecoin                                        | CryptoCommodity                                                     |
+|                                 | Fiat Stablecoin                                   | CryptoCommodity                                                     |
 | :-------------------------------| :-------------------------------------------------| :-------------------------------------------------------------------|
 | Applies to                      | Physical, digital, financial asset                | Fungible physical or digital asset with a underlying market         |
-| Scope                           | Global														                | Local or Global                                                     |
+| Scope                           | Mostly Global														          | Local or Global                                                     |
 | What is pegged to?              | Fiat Price of asset in internacional market       | Economic value in underlying asset market                           |
+| Value Centralized?              | Yes, pegged to fiat prices				                | No, forms its own price                                             |
 | Allows project funding?         | No                                                | Yes                                                                 |
 | Collateral on inception needed? | Yes                                               | No                                                                  |
 

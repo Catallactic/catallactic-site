@@ -16,20 +16,24 @@ image: https://i.imgur.com/mErPwqL.png
 
 Stablecoins peg their price to the price of an underlying asset. This underlying asset can be a commodity, a fiat currency, a financial product or another cryptocurrency. They can be collateralized by the same asset (stablecoins), by another asset or basket of assets (synths) or by an algorithm (algorithmic stablecoins).
 
-## 2. Creating Stablecoins
+## 2. Definitions
+
+The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/" target="_blank">FSB’s 2020 report</a>, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a GSC from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates GSCs from other stablecoins.
+
+## 3. Creating Stablecoins
 ---
 
 
-## 3. Assets
+## 4. Assets
 ---
 
-### 3.1. Peg
+### 4.1. Peg
 
 
-### 3.2. Collateral
+### 4.2. Collateral
 
 
-### 3.3. Existing Stablecoins
+### 4.3. Existing Stablecoins
 
 <table class="table w-auto mx-auto fs-6">
 	<thead class="thead-dark">
@@ -212,25 +216,25 @@ Stablecoins peg their price to the price of an underlying asset. This underlying
 	</tbody>
 </table>
 
-## 4. Features
+## 5. Features
 ---
 
-### 4.1. Decentralization
+### 5.1. Decentralization
 
 
 
 
 
-## 5. Regulation
+## 6. Regulation
 ---
 
 
 
 
-## 6. Market
+## 7. Market
 ---
 
-### 6.1. Stablecoin Platforms
+### 7.1. Stablecoin Platforms
 
 reserve protocol
 

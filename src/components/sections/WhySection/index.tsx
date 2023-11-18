@@ -42,7 +42,7 @@ export default function WhySection(): JSX.Element {
 								</a>
 
 								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab1" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => setShownTab(1)}>
-									<span className="font-weight-bold text-uppercase">Why not stablecoins?</span>
+									<span className="font-weight-bold text-uppercase">Why not fiat stablecoins?</span>
 								</a>
 
 								<a className="nav-link mb-3 p-3 shadow" id="v-whytab2" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => setShownTab(2)}>
@@ -61,13 +61,14 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5 show active" id="whytab0" role="tabpanel" aria-labelledby="v-pills-home-tab">
 										<h4 className="font-italic mb-4">Why Catallactic?</h4>
-										<p className="font-italic text-muted mb-2">Catallactic is created to build cryptocurrencies capturing value of Commodities. Capturing value means transferring to the token price the marginal (incremental) utility as perceived by consumers. Differently to stablecoins, where the price is forced to an external amount by modifying the supply, in a value capture process, the supply matches the demand to allow a natural price formation performed by a required underlying market of the commodity.</p>
+										<p className="font-italic text-muted mb-2">Catallactic is created to build cryptocurrencies capturing value of Commodities.</p>
+										<p className="font-italic text-muted mb-2">Capturing value means transferring to the token price the marginal (incremental) utility as perceived by consumers. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
 										<p className="font-italic text-muted mb-2">Capturing the value of commodity provides to Units of Account <a href="/blog/The%206%20Styles%20of%20RWA%20Tokenization#6-rwa-unit-of-account">different features to an stablecoin</a>.</p>
 									</div>
 									
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-										<h4 className="font-italic mb-4">Why not stablecoins?</h4>
-										<p className="font-italic text-muted mb-2">Crypto was born in 2013 with the promise of decentralization from a non fiat currency, Bitcoin. However, tokenization projects have evolved with the financing of venture-capital backed crypto companies and financial firms, that have modified the initial promise, to make it more centralized and fiat dependent. Whereas we think this is a distortion from the initial principles, we find that the tools and processs developed inherit this centraliced and fiat nature and alternative approaches are miss-represented. In short there is a fiat bias in tools and processes. Stablecoins are centralized by definition..</p>
+										<h4 className="font-italic mb-4">Why not fiat stablecoins?</h4>
+										<p className="font-italic text-muted mb-2">Crypto was born in 2013 with the promise of decentralization from a non fiat currency, Bitcoin. However, tokenization projects have evolved with the financing of venture-capital backed crypto companies and financial firms, that have modified the initial promise, to make it more centralized and fiat dependent. Whereas we think this is a distortion from the initial principles, we find that the tools and processs developed inherit this centraliced and fiat nature and alternative approaches are miss-represented. In short there is a fiat bias in tools and processes. <b>Stablecoins are centralized because they are pegged to a fiat price</b>.</p>
 										<p className="font-italic text-muted mb-2">Catallactic aims to define the principles, know-how, tools and processes to tokenize, fund and manage decentralized commodity based tokens and relief the issuer from the technological and operational burden.</p>
 									</div>
 									
