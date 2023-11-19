@@ -196,14 +196,17 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td><a href="https://www.brztoken.io/" target="_blank">BRZ</a></td>
 		</tr>
 		<tr>
-			<td>UAE dirham</td>
-			<td>UAE dirham</td>
+			<td>UAE Dirham</td>
+			<td>UAE Dirham</td>
 			<td><a href="https://www.linkedin.com/feed/update/urn:li:activity:7114463707258060800/" target="_blank">DRAM</a></td>
 		</tr>
 		<tr>
-			<td>mex peso</td>
-			<td></td>
-			<td><a href="https://tether.to/en/transparency/#mxnt" target="_blank">MXNT</a></td>
+			<td>MEX Peso</td>
+			<td>MEX Peso</td>
+			<td>
+				<a href="https://tether.to/en/transparency/#mxnt" target="_blank">MXNT</a>, 
+				<a href="https://mxnc.mx/" target="_blank">MXNC</a>
+			</td>
 		</tr>
 		<tr>
 			<td>Crypto Stablecoins</td>

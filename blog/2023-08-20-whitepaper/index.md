@@ -179,7 +179,10 @@ The only Token Model that has the purpose to become a currency today is the Stab
 | Applies to                      | Physical, digital, financial asset                | Fungible physical or digital asset with a underlying market         |
 | Scope                           | Mostly Global														          | Local or Global                                                     |
 | What is pegged to?              | Fiat Price of asset in internacional market       | Economic value in underlying asset market                           |
-| Value Centralized?              | Yes, pegged to fiat prices				                | No, forms its own price                                             |
+| Value Decentralized?            | No, pegged to fiat prices				                  | Yes, forms its own price                                            |
+| Process Decentralized?          | No, manual stabilization					                | Yes, built-in stabiization                                          |
+| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                       |
+| Disclosures  										| No                                                | Yes, full disclosure                                                |
 | Allows project funding?         | No                                                | Yes                                                                 |
 | Collateral on inception needed? | Yes                                               | No                                                                  |
 
