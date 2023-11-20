@@ -291,14 +291,27 @@ Differently to a stablecoin, which is stabilized to capture the fiat price of th
 
 ### 3.1. Supply Profile
 
-Supply Management is a critical aspect in the CryptoCommodity lifecycle a it i part o th tting ruird to dlivr it atur.  
+Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is part of the setting reuired to deliver its features. There are several stages involved in the lifecycle of a CryptoCommodity.
+
+- Process starts with an optional funding period. Thi period is dedicated to create one or multiple funding round my the issuing team and raise funds from investor to fund the project,
+
+- When fuding rounds are finished, the Token Generation Event happens. During this event, supply is first added to the CryptoCommodity and investors are assigned their purchased funds. In this TGE tokens are first added to exchages and starts getting its market price.
+
+- After the TGE, the project activities will push up the price of the token whereas it captures the value of the underlying asset. During this stage, the more benefitial profile for the token is this of a gold standard because it will allow uick growth of the value for investors,
+
+- When the supply in the exchanges matches the demand, it is considered that the value has been captured. This is called Value Capture Event,
+
+- After the Value Capture Event. the stabilization mechanism guarantees that the value of the underlying asset is maintained,
 
 
 import Chart from 'chart.js/auto';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
-import ChartAnnotation from 'chartjs-plugin-annotation';
+import annotationPlugin from 'chartjs-plugin-annotation';
+Chart.register(annotationPlugin);
+// https://github.com/chartjs/chartjs-plugin-annotation/issues/786
 import { Line } from "react-chartjs-2";
 
+<div className="panel">
 <Line
   data={{
 		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
@@ -307,18 +320,18 @@ import { Line } from "react-chartjs-2";
 			label: 'Gold Standard',
 			backgroundColor: "rgba(161,174,212,1.0)",
 			borderColor: "rgba(0,0,0,0.1)",
-			data: [150,150,150,null,null,null,null,null,null,null,null]
+			data: [null,null,null,400,400,400,400,400,null,null,null]
 		},{
 			fill: true,
 			label: 'Unit of Account',
 			backgroundColor: "rgba(6,11,39,1.0)",
 			borderColor: "rgba(0,0,0,0.1)",
-			data: [null,null,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
+			data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
 		}],
 	}}
 	options={{
 		responsive: true,
-		maintainAspectRatio: true,
+		maintainAspectRatio: false,
 		scales: {
 			y: {
 				min: 0,
@@ -335,6 +348,9 @@ import { Line } from "react-chartjs-2";
 					},
 					padding: {top: 30, left: 0, right: 0, bottom: 0},
 				},
+				ticks: {
+					display: false,
+				}
 			},
 			x: {
 				display: true,
@@ -350,12 +366,13 @@ import { Line } from "react-chartjs-2";
 					padding: {top: 20, left: 0, right: 0, bottom: 0},
 				},
 				ticks: {
-						font: {
-							family: 'Comic Sans MS',
-							size: 20,
-							// weight: 'bold',
-							lineHeight: 1,
-						},
+					display: false,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						// weight: 'bold',
+						lineHeight: 1,
+					},
 				}	
 			},
 		},
@@ -375,17 +392,53 @@ import { Line } from "react-chartjs-2";
       annotation: {
         annotations: [{
 					type: 'line',
-			    mode: 'vertical',
-					borderColor: 'black',
-					borderWidth: 3,
-					scaleID: 'y',
-					value: 50
+					xMin: 7,
+					xMax: 7,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 7,
+					yValue: 800,
+					content: ['Value','Capture','Event'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 7,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}, {
+					type: 'line',
+					xMin: 3,
+					xMax: 3,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 3,
+					yValue: 800,
+					content: ['Token','Generation','Event'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 3,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
 				}]
       }
 		}
 	}}
-	plugins={[ChartDataLabels, /*ChartAnnotation*/]}
+	plugins={[/*ChartDataLabels*/]}
 />
+</div>
 
 #### 3.1.1. Token Generation Event
 
@@ -396,7 +449,7 @@ import { Line } from "react-chartjs-2";
 
 
 
-### 3.2. Supply Management on launch
+### 3.2. Supply Management on Launch
 
 
 #### 3.2.1. Determining Initial Supply
