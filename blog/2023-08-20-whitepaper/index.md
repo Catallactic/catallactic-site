@@ -96,7 +96,11 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 <table>
   <tr>
-    <td rowSpan={4}>Monetary Services</td>
+    <td rowSpan={5}>Monetary Services</td>
+    <td>Launchpad</td>
+    <td>Built-in in dAppmin</td>
+  </tr>
+  <tr>
     <td>Payments</td>
     <td></td>
   </tr>
@@ -158,33 +162,31 @@ The aforementioned requirements must be particularized to every stage of the val
 #### 1.3.3. The challenge of Compliance
 
 
-#### 1.3.4. The challenge of Privacy
+#### 1.3.4. The challenge of Security
 
 
-#### 1.3.5. The challenge of Security
+#### 1.3.5. The challenge of Decentralization
 
 
-#### 1.3.6. The challenge of Decentralization
-
-
-#### 1.3.7. The challenge of Transparency
+#### 1.3.6. The challenge of Transparency
 
 
 ### 1.4. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
-|                                 | Fiat Stablecoin                                   | CryptoCommodity                                                     |
-| :-------------------------------| :-------------------------------------------------| :-------------------------------------------------------------------|
-| Applies to                      | Physical, digital, financial asset                | Fungible physical or digital asset with a underlying market         |
-| Scope                           | Mostly Global														          | Local or Global                                                     |
-| What is pegged to?              | Fiat Price of asset in internacional market       | Economic value in underlying asset market                           |
-| Value Decentralized?            | No, pegged to fiat prices				                  | Yes, forms its own price                                            |
-| Process Decentralized?          | No, manual stabilization					                | Yes, built-in stabiization                                          |
-| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                       |
-| Disclosures  										| No                                                | Yes, full disclosure                                                |
-| Allows project funding?         | No                                                | Yes                                                                 |
-| Collateral on inception needed? | Yes                                               | No                                                                  |
+|                                 | Fiat Stablecoin                                             | CryptoCommodity                                                     |
+| :-------------------------------| :-----------------------------------------------------------| :-------------------------------------------------------------------|
+| Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset             |
+| Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset             |
+| Price Formation                 | Pegged to Fiat Price of asset in internacional market       | Pegged to economic value of asset in underlying market              |
+| Scope                           | Mostly Global														                    | Local or Global                                                     |
+| Value Decentralized?            | No, pegged to fiat prices				                            | Yes, forms its own price                                            |
+| Process Decentralized?          | No, manual stabilization					                          | Yes, built-in automated stabilization                               |
+| Decisions Decentralized?        | No, opaque decisions  			   		                          | Yes, releasing to the community when possible                       |
+| Disclosures  										| No                                                          | Yes, full disclosure                                                |
+| Allows project funding?         | No                                                          | Yes                                                                 |
+| Collateral on inception needed? | Yes                                                         | No                                                                  |
 
 
 
@@ -218,16 +220,23 @@ All the requirements described must be particularized for each stage of the Cryp
 
 ### 2.1. Funding
 
-Differently to a stablecoin, which must accomplish the required collateral on inception, CryptoCommodity Framework provides the infrastructure to fund projects. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
+Differently to a stablecoin, which must accomplish the required collateral on inception, CryptoCommodity Framework provides to th issuer the infrastructure to fund his project. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
 
 On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required. This makes launching a currency friendly for any citizen which has a real world project.
 
+Launchpad is build-in in dAppmin
+
+Special attention must be paid to compliance.
+
+
+
+
+#### 2.1.1. Investors Profit
+
+
 ### 2.2. Negotiation
 
-- capturing th valu
-
-- cryptocommodity v tablcoin.Both captur pric, on rom it ownmarkt, th othr ro m intrnational markt
-
+Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
 
 ### 2.3. Distribution
@@ -241,9 +250,18 @@ On launching a CryptoCommodity, the monetary policy will follow an Utility Token
 ### 2.4. DeFi Services
 
 
-- rvic to ocity
+#### 3.1.1. Payments
 
-- additional commiion
+
+#### 3.1.1. Cards
+
+
+#### 3.1.1. Transfers
+
+
+#### 3.1.1. Lending
+
+
 
 
 ### 2.5. Crowdsolving
@@ -267,11 +285,11 @@ On launching a CryptoCommodity, the monetary policy will follow an Utility Token
 
 
 
-## 3. Supply Management of CryptoCommodites
+## 3. Supply Management
 ---
 
 
-### 3.1. CryptoCommodites Supply Profile
+### 3.1. Supply Profile
 
 Supply Management is a critical aspect in the CryptoCommodity lifecycle a it i part o th tting ruird to dlivr it atur.  
 
@@ -357,6 +375,7 @@ import { Line } from "react-chartjs-2";
       annotation: {
         annotations: [{
 					type: 'line',
+			    mode: 'vertical',
 					borderColor: 'black',
 					borderWidth: 3,
 					scaleID: 'y',
@@ -368,37 +387,44 @@ import { Line } from "react-chartjs-2";
 	plugins={[ChartDataLabels, /*ChartAnnotation*/]}
 />
 
-### 3.2 Consolidated Supply Managment
+#### 3.1.1. Token Generation Event
+
+
+
+#### 3.1.2. Value Capture Event
+
+
+
+
+### 3.2. Supply Management on launch
+
+
+#### 3.2.1. Determining Initial Supply
+
+
+
+### 3.3. Consolidated Supply Management
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
-</div>
-
 vry itm i rdmabl by a ral itm.
 
-at vry mont, th xiting collatral match th dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
+at vry mont, th xiting collatral match the dmand. A a conunc thi kind o currncy i not ully collatralizd. Thi allow providing liuidity without impact in th pric.
+
+#### 3.3.1. Stabilization Mechanism
 
 stable system
 
-### 3.3. Supply Management on launch
 
-
-
-### 3.4. Capturing Value
-
-
-### 3.1. Determining Initial Supply
-
-
-### 3.1. Determining Max Supply
+#### 3.3.1. Determining Max Supply
 
 
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/utilities_profile.svg" width="100%"></img>
 </div>
+
+#### 3.3.1. Collateral
 
 
 
@@ -425,6 +451,24 @@ https://github.com/Catallactic/catallactic-admin
 ## 5. Implementation of CryptoCommodites
 ---
 
+### 3.3. Smart Contract
+
+
+
+### 3.3. Upgradable
+
+
+
+### 3.3. Security
+
+
+### 3.3. Decentralization
+
+
+### 3.3. Privacy
+
+
+### 3.3. Compliance
 
 https://github.com/Catallactic/catallactic-suite
 

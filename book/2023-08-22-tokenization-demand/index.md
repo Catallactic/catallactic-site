@@ -89,7 +89,9 @@ In order to allow value capture, we must focus in fungible assets. From the tabl
 
 ### 4.1. Token Extended Ecosystem
 
-![Supply Definition Monetary Policies](https://gasclick.co/img/cryptogas_ecosystem_layers.svg)
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.co/img/cryptogas_ecosystem_layers.svg" width="60%"></img>
+</div>
 
 ### 4.2. Typical Token Utilities
 
