@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import WhySection from '../components/sections/WhySection/index';
+import WhySection from '@site/src/components/sections/WhySection';
 import ValueChainSection from '@site/src/components/sections/ValueChainSection';
 import DecentralizationSection from '@site/src/components/sections/DecentralizationSection';
 import MaturityModelSection from '@site/src/components/sections/MaturityModelSection';

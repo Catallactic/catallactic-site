@@ -240,6 +240,14 @@ Chart.register(annotationPlugin);
 // https://github.com/chartjs/chartjs-plugin-annotation/issues/786
 import { Line } from "react-chartjs-2";
 
+import { SupplyProfileChart } from '@site/src/components/charts/SupplyProfileChart';
+//var SupplyProfileChart = require('@site/src/components/charts/SupplyProfileChart').default
+{
+  <>
+    <SupplyProfileChart/>
+  </>
+}
+
 <div className="panel">
 <Line
   data={{
@@ -368,7 +376,6 @@ import { Line } from "react-chartjs-2";
 	plugins={[/*ChartDataLabels*/]}
 />
 </div>
-
 
 #### 2.1.1. Investors Exit
 
@@ -588,7 +595,6 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 - When the supply in the exchanges matches the demand, it is considered that the value has been captured. This is called Value Capture Event,
 
 - After the Value Capture Event. the stabilization mechanism guarantees that the value of the underlying asset is maintained,
-
 
 <div className="panel">
 <Line
