@@ -298,31 +298,37 @@ export const SupplyProfileChart = () => {
 						y: {
 							min: 0,
 							max: 160,
+							display: true,
+							stacked: true,
+							title: {
 								display: true,
-								stacked: true,
-								title: {
-									display: true,
-									text: 'Tokens Created',
-										font: {
-											family: 'Comic Sans MS',
-											size: 20,
-											weight: 'bold',
-											lineHeight: 1.2,
-										},
-								}
+								text: 'Total Supply',
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+							},
+							ticks: {
+								display: false,
+							},
 						},
 						x: {
 							display: true,
 							title: {
 								display: true,
-							text: 'Months from TGE',
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
+								text: 'Months from TGE',
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
 								},
-							}
+							},
+							ticks: {
+								display: false,
+							},
 						},
 					}
 				}}
@@ -394,13 +400,13 @@ export const SupplyProfileChart = () => {
 				stacked: false,
 				title: {
 					display: true,
-					text: 'Num. Tokens',
-						font: {
-							family: 'Comic Sans MS',
-							size: 20,
-							weight: 'bold',
-							lineHeight: 1.2,
-						},
+					text: 'Total Supply',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
 				},
 				ticks: {
 					display: false,
@@ -490,13 +496,39 @@ export const SupplyProfileChart = () => {
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
+#### 2.2.1. Mechanism
+
+Typically ngotiation happnd by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
+</div>
+
+In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
+
+#### 2.2.1. Considerations
+
+Negotiation is highly impacted by <b>decentralization</b> as it affects the price of the asset. Decentralization at this stage must pay attention to different aspects:
+
+- networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity
+
+- decentralization on governance, the stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.
+
+Depending on the scope of the CryptoCommodity, <b>compliance</b> may also have to be considered as some juritdiction impose restrictive rules on investment accounts, trading diclosure or governance of the contract. A record must be kept of compliance reuirement in the juridictions to deploy and CryptoCommodity must allow reconfiguration of the compliance.
+
+<b>Security</b> is another aspect to consider since token unit will be deployed to exchange pair and thereore subject to vulnerabilities.
+
+The system must care about the reputation of the Cryptocommodity by enabling <b>transparency</b>. full diclosure must be provided on operation
+
+Finally, optionally <b>privacy</b> should be included on the Cryptocommodity and lt to the consideration of the issuer according to compliance rule and personal prefFerences.
+
 
 ### 2.3. Distribution
 
+#### 2.3.1. Mechanism
 
 
-
-
+#### 2.3.1. Considerations
 
 
 ### 2.4. DeFi Services
