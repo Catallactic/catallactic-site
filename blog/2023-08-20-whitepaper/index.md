@@ -17,6 +17,8 @@ image: https://i.imgur.com/mErPwqL.png
 ## 1. CryptoCommodites
 ---
 
+The following whitepaper describe CryptoCommodities as a new kind of cryptocurrency which will work as a currency. Probably the biggest innovation on CryptoCommodities is that they have the ability to form their own prices. This is an empowering factor for the real economy. We describe how CryptoCommodities work, what are the stages, the utilities, the reuirements, the distribution mechanims and opportunities which bring for issuers, adopters and the whole society.
+
 <!-- truncate -->
 
 
@@ -525,11 +527,26 @@ Finally, optionally <b>privacy</b> should be included on the Cryptocommodity and
 
 ### 2.3. Distribution
 
+Distribution is the process of handling over new Cryptocommodity units to the community.
+
 #### 2.3.1. Mechanism
 
+There are several distribution schemes that can be applied in different stages of a Cryptocommodity:
 
-#### 2.3.1. Considerations
+- Airdrops
 
+- Giveaway
+
+- Rewards on Community Activity
+
+Is probably up to the issuer the selection o the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
+
+##### 2.3.1.1. Premined Tokens vs Fair Launch
+
+
+#### 2.3.2. Considerations
+
+An important reuirement to distribute tokens in a juridiction is that there should not be rules preventing currency utilities, e.g. the Cryptocommodity must be allowed a a payment method i this utility is going to be included. 
 
 ### 2.4. DeFi Services
 
