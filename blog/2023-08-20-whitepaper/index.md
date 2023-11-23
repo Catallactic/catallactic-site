@@ -690,6 +690,33 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 			},
       annotation: {
         annotations: [{
+					type: 'label',
+					xValue: 1.5,
+					yValue: 200,
+					content: ['Funding','Rounds'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 5,
+					yValue: 200,
+					content: ['Value','Capture'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 15,
+					yValue: 200,
+					content: ['Value','Release'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
 					type: 'line',
 					xMin: 7,
 					xMax: 7,
@@ -955,5 +982,4 @@ Finally we have described how the adoption of this new token could empower the s
 
 [3] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
 
-
-
+[4] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
