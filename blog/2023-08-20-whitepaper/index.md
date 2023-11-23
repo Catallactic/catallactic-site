@@ -789,24 +789,47 @@ stable system
 
 ### 4.1. Smart Contract
 
+CryptoCommodity smart contract is created as a diamond standard contract. As a diamond contract it includes 4 facets deployed at different addresses that the main contract.
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_structure.svg" width="60%"></img>
+</div>
+<br/>
+
+Every facet contains specific functions which implement its functionality. 
 
 ### 4.2. Upgradable
 
-
+Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
 
 ### 4.3. Security
+
+Code includes multisig access to unctionalities.
+
+It also creates backup of the status to allow reverting in case of vulnerability.
+
+The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
 
 
 ### 4.4. Decentralization
 
+Decentralization is a features that should analized at different levels:
 
-### 4.5. Privacy
+- network decentralization
+
+- smart contract decentralization
+
+- governance decentralization
 
 
-### 4.6. Compliance
+### 4.5. Compliance
+
+Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
 https://github.com/Catallactic/catallactic-suite
+
+### 4.6. Privacy
+
 
 ### 4.7. Deployment
 
