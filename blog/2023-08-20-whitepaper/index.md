@@ -527,26 +527,32 @@ Finally, optionally <b>privacy</b> should be included on the Cryptocommodity and
 
 ### 2.3. Distribution
 
-Distribution is the process of handling over new Cryptocommodity units to the community.
+Distribution is the process of handling over new Cryptocommodity units. There are 2 targets of distribution:
 
-#### 2.3.1. Mechanism
+- genesis distribution, which refers to token units initially premined to launch the system. Includes funding round investors, team and collaborators, liquidty pools and reserves
+
+- ongoing distribution, which refers to token units ditributed during the system operation, with operation or marketing purposes.
+
+#### 2.3.1. Ongoing Distribution Mechanism
 
 There are several distribution schemes that can be applied in different stages of a Cryptocommodity:
+
+- Rewards on Community Activity
 
 - Airdrops
 
 - Giveaway
 
-- Rewards on Community Activity
+Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
-Is probably up to the issuer the selection o the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
-
-##### 2.3.1.1. Premined Tokens vs Fair Launch
+#### 2.3.2. Premined Tokens vs Fair Launch
 
 
-#### 2.3.2. Considerations
+#### 2.3.3. Considerations
 
-An important reuirement to distribute tokens in a juridiction is that there should not be rules preventing currency utilities, e.g. the Cryptocommodity must be allowed a a payment method i this utility is going to be included. 
+An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the Cryptocommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
+
+Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the Cryptocommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
 
 ### 2.4. DeFi Services
 
@@ -774,6 +780,37 @@ stable system
 
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 4. Implementation of CryptoCommodites
+---
+
+### 4.1. Smart Contract
+
+
+
+### 4.2. Upgradable
+
+
+
+### 4.3. Security
+
+
+### 4.4. Decentralization
+
+
+### 4.5. Privacy
+
+
+### 4.6. Compliance
+
+https://github.com/Catallactic/catallactic-suite
+
+### 4.7. Deployment
+
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -781,42 +818,10 @@ stable system
 
 
 
-## 4. Managmnt of CryptoCommodites
+## 5. Managmnt of CryptoCommodites
 ---
 
 https://github.com/Catallactic/catallactic-admin
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-## 5. Implementation of CryptoCommodites
----
-
-### 3.3. Smart Contract
-
-
-
-### 3.3. Upgradable
-
-
-
-### 3.3. Security
-
-
-### 3.3. Decentralization
-
-
-### 3.3. Privacy
-
-
-### 3.3. Compliance
-
-https://github.com/Catallactic/catallactic-suite
 
 
 
@@ -901,8 +906,15 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 ## 7. Conclusion
 ---
 
+We have exposed how a new kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
 
+The token borrows from Stablecoins the concept of stabilization mechanim. However, differs to Stablecoins in how to form the price. This new token forms its own price by capturing the value generated in an underling market. This complies with initial blockchain promises of decentralizacion in value. The stabilization mechanism provides to the token a foundation to fulfill currency based utilities a payment, card, lending or transfer.
 
+On the other hand, the new token also borrows from utility tokens the notion of funding rounds. This allows any issuer to fund his project, either globally or locally, and offer additional services to the society as defi services. The model is open to staking, launchapd, or other defi services.
+
+We have also covered how this new token can be implemented as a diamond standard, managed by the issuing team and what are the main requirements (security, decentralization, compliance, privacy and transparency) and challenges (velocity of circulation and wallets) for its adoption.
+
+Finally we have described how the adoption of this new token could empower the strangled real economy.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -914,8 +926,11 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 ## 8. References
 ---
 
+[1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
+
+[2] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
+
+[3] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
 
 
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
