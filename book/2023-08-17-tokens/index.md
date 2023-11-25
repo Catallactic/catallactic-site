@@ -22,6 +22,11 @@ In this essay, first we make a review on existing currency protocols, then we ar
 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwMgL87DfiO7WGYnVrYPkx1z_e-aKwbn_iIA&usqp=CAU" width="60%"></img>
 </div>
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/tokenization2.svg" width="100%"></img>
+</div>
+<br/>
+
 This whitepaper does not assume you master crypto. The goal is to convince those 80% that are not yet in crypto and explain why should matter to them. And, of course, get you as an investor.
 
 <!-- truncate -->

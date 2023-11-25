@@ -39,6 +39,8 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
+
+
 ### 2.2. Ecosystem
 
 The CryptoCommodities are designed to create real economy projects. The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or provide services.
@@ -127,8 +129,11 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 By issuing a CryptoCommodity the project proposer has the opportunity to fund the real economy project with fund from investors and deliver extended utilities to society a DeFi Services. A funding mechanim ha been designed and incorporated into the CryptoCommodity framework.
 
+### 2.3. The quality of money
 
-### 2.3. CryptoCommodity vs Fiat Stablecoin
+
+
+### 2.4. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -803,11 +808,13 @@ To work as Unit of Account:
 
 The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
-#### 5.2. The challenge of Velocity of Circulation
+#### 5.2. The challenge of Velocity of Circulation (Saleableness)
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
 Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
+
+A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
 
 Causes of the high token velocity is that the prices are not expressed on the currency.
 
@@ -977,6 +984,8 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 #### 8.1.1. Monetary Expansion
 
 
+
+
 #### 8.1.2. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
@@ -1072,3 +1081,7 @@ Finally we have described how the adoption of this new token could empower the s
 [4] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
 
 [5] https://wtfhappenedin1971.com/
+
+[6] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
+
+[7] 
