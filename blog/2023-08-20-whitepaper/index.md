@@ -79,13 +79,15 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
 
 There is a natural formation in the price of the CryptoCommodity. This currency will growth a long the issuer is providing value to the society. If the provider denies to provide value, the CryptoCommodity will shrink and will be replaced by another CryptoCommodity. This will guarantee a natural selection in the value provision and a environment of wealth.
 
-### 2.3. Real Economy Projects
+### 2.3 Benefits
+
+#### 2.3.1. Real Economy Projects
 
 The CryptoCommodity Framework has been designed to enable citizens to fund and realize real economy projects. CryptoCommodities include a provision which allows the issuer to launch funding rounds and capitalize his project. The investors can be local or global.
 
 
 
-### 2.3. Financial Services Provided
+#### 2.3.2. Currency Functions
 
 By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
@@ -107,6 +109,9 @@ First it will make a fully featured currency which will empower the community.
   </tr>
 </table>
 <br/>
+
+
+#### 2.3.2. Currency Services
 
 Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
 
@@ -130,6 +135,8 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
   </tr>
 </table>
 <br/>
+
+#### 2.3.2. Financial Services
 
 Finally, the CryptoCommodity can deliver additional Financial Services as DeFi Services:
 
