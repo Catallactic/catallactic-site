@@ -151,14 +151,8 @@ The only Token Model that has the purpose to become a currency today is the Stab
 
 
 
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
 
 
 
@@ -480,14 +474,14 @@ Depending on the scope of the CryptoCommodity, <b>compliance</b> may also have t
 
 <b>Security</b> is another aspect to consider since token unit will be deployed to exchange pair and thereore subject to vulnerabilities.
 
-The system must care about the reputation of the Cryptocommodity by enabling <b>transparency</b>. full diclosure must be provided on operation
+The system must care about the reputation of the CryptoCommodity by enabling <b>transparency</b>. full diclosure must be provided on operation
 
-Finally, optionally <b>privacy</b> should be included on the Cryptocommodity and lt to the consideration of the issuer according to compliance rule and personal prefFerences.
+Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and lt to the consideration of the issuer according to compliance rule and personal prefFerences.
 
 
 ### 3.3. Distribution
 
-Distribution is the process of handling over new Cryptocommodity units. There are 2 targets of distribution:
+Distribution is the process of handling over new CryptoCommodity units. There are 2 targets of distribution:
 
 - genesis distribution, which refers to token units initially premined to launch the system. Includes funding round investors, team and collaborators, liquidty pools and reserves
 
@@ -495,7 +489,7 @@ Distribution is the process of handling over new Cryptocommodity units. There ar
 
 #### 3.3.1. Ongoing Distribution Mechanism
 
-There are several distribution schemes that can be applied in different stages of a Cryptocommodity:
+There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
 
 - Rewards on Community Activity
 
@@ -510,9 +504,9 @@ Is probably up to the issuer the selection of the distribution mechanims that he
 
 #### 3.3.3. Considerations
 
-An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the Cryptocommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
+An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
 
-Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the Cryptocommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
+Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the CryptoCommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
 
 ### 3.4. DeFi Services
 
@@ -814,7 +808,7 @@ A token that has limited utility and lack of incentive to encourage holding of t
 
 Causes of the high token velocity is that the prices are not expressed on the currency.
 
-To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the Cryptocommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
+To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
 
 ##### 5.2.1. Token Velocity during Value Capture 
 
@@ -856,58 +850,20 @@ vending machines?
 #### 5.7. The challenge of Transparency
 
 
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 6. Implementation of CryptoCommodites
+## 6. CryptoCommodity as currency
 ---
 
-### 6.1. Smart Contract
+### 6.1. Quality of Money
 
-CryptoCommodity smart contract is created as a diamond standard contract. As a diamond contract it includes 4 facets deployed at different addresses that the main contract.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/token_structure.svg" width="60%"></img>
-</div>
-<br/>
-
-Every facet contains specific functions which implement its functionality. 
-
-### 6.2. Upgradable
-
-Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
-
-### 6.3. Security
-
-Code includes multisig access to unctionalities.
-
-It also creates backup of the status to allow reverting in case of vulnerability.
-
-The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
+### 6.2. Quantity of Money
 
 
-### 6.4. Decentralization
 
-Decentralization is a features that should analized at different levels:
-
-- network decentralization
-
-- smart contract decentralization
-
-- governance decentralization
-
-
-### 6.5. Compliance
-
-Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
-
-https://github.com/Catallactic/catallactic-suite
-
-### 6.6. Privacy
-
-
-### 6.7. Deployment
 
 
 
@@ -916,54 +872,22 @@ https://github.com/Catallactic/catallactic-suite
 
 
 
-
-## 7. Supporting Tools
+## 7. At the rescue of real economy
 ---
 
-### 7.6. DAppmin
+### 7.1. The 2 types of economy
 
-https://github.com/Catallactic/catallactic-admin
-
-### 7.6. ICO Purchases DApp
-
-
-### 7.6. Vesting Tracker
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 8. Cryptocommodity as a currency
----
-
-### 8.1. Quality of Money
-
-### 8.1. Quantity of Money
-
-
-
-
-
-
-
-## 9. At the rescue of real economy
----
-
-### 9.1. The 2 types of economy
-
-#### 9.1.1. The real economy
+#### 7.1.1. The real economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
 Real economy can be measured by the GDP.
 
-#### 9.1.2. The financial economy
+#### 7.1.2. The financial economy
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources.
 
-#### 9.1.3. Comparing real vs financial economy
+#### 7.1.3. Comparing real vs financial economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -977,14 +901,14 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 </div>
 
 
-### 9.2. Interaction real vs financial economy
+### 7.2. Interaction real vs financial economy
 
-#### 9.1.1. Monetary Expansion
-
-
+#### 7.1.1. Monetary Expansion
 
 
-#### 9.1.2. Neutrality of Money
+
+
+#### 7.1.2. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -994,7 +918,7 @@ The neutrality of money, also called neutral money, is an economic theory statin
 </div>
 
 
-### 9.2. The strangle of the real economy
+### 7.2. The strangle of the real economy
 
 barreras a la entrada impuestas x el fiat
 
@@ -1005,18 +929,18 @@ Cantillon Effects
 
 
 
-### 9.4. A decentralized commodities based economy
+### 7.4. A decentralized commodities based economy
 
 ecosystem of companies
 
 hayek
 
-#### 9.4.1 The Regresion Principle
+#### 7.4.1 The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-#### 9.4.2. Stability of a UoA Market
+#### 7.4.2. Stability of a UoA Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -1026,7 +950,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-### 9.5. Comparing Economic Models
+### 7.5. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -1034,6 +958,95 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 - built-in price formation
 
 - cryptocommodity vs stablecoin. Both capture price, one from it fownmarkt, the other from international market
+
+
+
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 8. Implementation of CryptoCommodites
+---
+
+### 8.1. Smart Contract
+
+CryptoCommodity smart contract is created as a diamond standard contract. As a diamond contract it includes 4 facets deployed at different addresses that the main contract.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_structure.svg" width="60%"></img>
+</div>
+<br/>
+
+Every facet contains specific functions which implement its functionality. 
+
+### 8.2. Upgradable
+
+Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
+
+### 8.3. Security
+
+Code includes multisig access to unctionalities.
+
+It also creates backup of the status to allow reverting in case of vulnerability.
+
+The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
+
+
+### 8.4. Decentralization
+
+Decentralization is a features that should analized at different levels:
+
+- network decentralization
+
+- smart contract decentralization
+
+- governance decentralization
+
+
+### 8.5. Compliance
+
+Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
+
+https://github.com/Catallactic/catallactic-suite
+
+### 8.6. Privacy
+
+
+### 8.7. Deployment
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 9. Supporting Tools
+---
+
+### 9.6. DAppmin
+
+https://github.com/Catallactic/catallactic-admin
+
+### 9.6. ICO Purchases DApp
+
+
+### 9.6. Vesting Tracker
+
+
+
+
+
+
 
 
 
@@ -1070,20 +1083,20 @@ Finally we have described how the adoption of this new token could empower the s
 ## 11. References
 ---
 
+[1] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
+
+[1] Money creation in the modern economy, Bank of England, 14 March 2014 - https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy
+
 [1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
 
-[2] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
+[1] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
 
-[3] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
+[1] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
 
-[4] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
+[1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
 
-[5] https://wtfhappenedin1971.com/
+[1] https://wtfhappenedin1971.com/
 
-[6] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
+[1] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
 
-[7] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
-
-[8] Money creation in the modern economy, Bank of England, 14 March 2014 - https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy
-
-[9] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
+[1] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
