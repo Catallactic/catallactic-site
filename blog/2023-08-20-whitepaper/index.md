@@ -44,11 +44,15 @@ CryptoCommodities are designed to be applied in both, local or international sco
 The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
+	<img src="/img/unit_of_account_ecosystem_before.svg" width="80%"></img>
 </div>
 <br/>
 
-To be eligible a underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
+A CryptoCommodity has a built-in dtsbilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
+
+The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
+
+To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
 <table>
    <tr>
@@ -64,6 +68,14 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
     <td>Digital Assets</td>
     <td></td>
   </tr>
+</table>
+<br/>
+
+Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
+
+Additionally, the price is formed in the basis of a service. Some services that are suitable include:
+
+<table>
   <tr>
     <td rowSpan={2}>Service</td>
     <td>Acquisition</td>
@@ -75,9 +87,6 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
   </tr>
 </table>
 <br/>
-
-
-There is a natural formation in the price of the CryptoCommodity. This currency will growth a long the issuer is providing value to the society. If the provider denies to provide value, the CryptoCommodity will shrink and will be replaced by another CryptoCommodity. This will guarantee a natural selection in the value provision and a environment of wealth.
 
 ### 2.3 Benefits
 
