@@ -41,7 +41,7 @@ CryptoCommodities are designed to be applied in both, local or international sco
 
 ### 2.2. Ecosystem
 
-The CryptoCommodities are designed to create real economy projects. The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
+The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
@@ -79,7 +79,17 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
 
 There is a natural formation in the price of the CryptoCommodity. This currency will growth a long the issuer is providing value to the society. If the provider denies to provide value, the CryptoCommodity will shrink and will be replaced by another CryptoCommodity. This will guarantee a natural selection in the value provision and a environment of wealth.
 
-By using the CryptoCommodity a heartbit of the marketplace, by extract the economic value of the asset it will be able to provide some benefit into the community. first it will make a fully featured currency which will empower the community. 
+### 2.3. Real Economy Projects
+
+The CryptoCommodity Framework has been designed to enable citizens to fund and realize real economy projects. CryptoCommodities include a provision which allows the issuer to launch funding rounds and capitalize his project. The investors can be local or global.
+
+
+
+### 2.3. Financial Services Provided
+
+By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
+
+First it will make a fully featured currency which will empower the community. 
 
 <table>
   <tr>
@@ -102,11 +112,7 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 <table>
   <tr>
-    <td rowSpan={5}>Monetary Services</td>
-    <td>Launchpad</td>
-    <td>Built-in in dAppmin</td>
-  </tr>
-  <tr>
+    <td rowSpan={4}>Monetary Services</td>
     <td>Payments</td>
     <td></td>
   </tr>
@@ -125,11 +131,24 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 </table>
 <br/>
 
-By issuing a CryptoCommodity the project proposer has the opportunity to fund the real economy project with fund from investors and deliver extended utilities to society a DeFi Services. A funding mechanim ha been designed and incorporated into the CryptoCommodity framework.
+Finally, the CryptoCommodity can deliver additional Financial Services as DeFi Services:
+
+<table>
+  <tr>
+    <td rowSpan={2}>Financial Services</td>
+    <td>Staking</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Liquidity Provision</td>
+    <td></td>
+  </tr>
+</table>
+<br/>
 
 
 
-### 2.3. CryptoCommodity vs Fiat Stablecoin
+### 2.4. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -935,9 +954,14 @@ ecosystem of companies
 
 hayek
 
+
+
+
 #### 7.4.1 The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
+
 
 
 #### 7.4.2. Stability of a UoA Market
@@ -948,6 +972,8 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
 </div>
+
+#### 7.4.3 Credit without Cantillon
 
 
 ### 7.5. Comparing Economic Models
