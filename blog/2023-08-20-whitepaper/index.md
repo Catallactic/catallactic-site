@@ -30,20 +30,18 @@ We describe how CryptoCommodities work, what are the stages, the utilities, the 
 
 CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
-CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
-
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
 </div>
 <br/>
 
+CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
+
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
-
-
 
 ### 2.2. Ecosystem
 
-The CryptoCommodities are designed to create real economy projects. The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or provide services.
+The CryptoCommodities are designed to create real economy projects. The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem.svg" width="100%"></img>
@@ -81,7 +79,7 @@ To be eligible a underlaying asset within the CryptoCommodities framework, the a
 
 There is a natural formation in the price of the CryptoCommodity. This currency will growth a long the issuer is providing value to the society. If the provider denies to provide value, the CryptoCommodity will shrink and will be replaced by another CryptoCommodity. This will guarantee a natural selection in the value provision and a environment of wealth.
 
-By using the CryptoCommodity a barebone of the marketplace, by extract the economic value of the asset it will be able to provide some benefit into the community. first it will make a fully featured currency which will empower the community. 
+By using the CryptoCommodity a heartbit of the marketplace, by extract the economic value of the asset it will be able to provide some benefit into the community. first it will make a fully featured currency which will empower the community. 
 
 <table>
   <tr>
@@ -129,11 +127,9 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 By issuing a CryptoCommodity the project proposer has the opportunity to fund the real economy project with fund from investors and deliver extended utilities to society a DeFi Services. A funding mechanim ha been designed and incorporated into the CryptoCommodity framework.
 
-### 2.3. The quality of money
 
 
-
-### 2.4. CryptoCommodity vs Fiat Stablecoin
+### 2.3. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -939,33 +935,35 @@ https://github.com/Catallactic/catallactic-admin
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-## 8. At the rescue of real economy
+## 8. Cryptocommodity as a currency
 ---
 
-### 8.1. The 2 types of economy
+### 8.1. Quality of Money
 
-#### 8.1.1. The real economy
+### 8.1. Quantity of Money
+
+
+
+
+
+
+
+## 9. At the rescue of real economy
+---
+
+### 9.1. The 2 types of economy
+
+#### 9.1.1. The real economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
 Real economy can be measured by the GDP.
 
-#### 8.1.2. The financial economy
+#### 9.1.2. The financial economy
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources.
 
-#### 8.1.3. Comparing real vs financial economy
+#### 9.1.3. Comparing real vs financial economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -979,14 +977,14 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 </div>
 
 
-### 8.2. Interaction real vs financial economy
+### 9.2. Interaction real vs financial economy
 
-#### 8.1.1. Monetary Expansion
-
-
+#### 9.1.1. Monetary Expansion
 
 
-#### 8.1.2. Neutrality of Money
+
+
+#### 9.1.2. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -996,7 +994,7 @@ The neutrality of money, also called neutral money, is an economic theory statin
 </div>
 
 
-### 8.2. The strangle of the real economy
+### 9.2. The strangle of the real economy
 
 barreras a la entrada impuestas x el fiat
 
@@ -1007,18 +1005,18 @@ Cantillon Effects
 
 
 
-### 8.4. A decentralized commodities based economy
+### 9.4. A decentralized commodities based economy
 
 ecosystem of companies
 
 hayek
 
-#### 8.4.1 The Regresion Principle
+#### 9.4.1 The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-#### 8.4.2. Stability of a UoA Market
+#### 9.4.2. Stability of a UoA Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -1028,7 +1026,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-### 8.5. Comparing Economic Models
+### 9.5. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -1049,7 +1047,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-## 9. Conclusion
+## 10. Conclusion
 ---
 
 We have exposed how a new kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
@@ -1069,7 +1067,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 
-## 10. References
+## 11. References
 ---
 
 [1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
@@ -1084,4 +1082,8 @@ Finally we have described how the adoption of this new token could empower the s
 
 [6] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
 
-[7] 
+[7] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
+
+[8] Money creation in the modern economy, Bank of England, 14 March 2014 - https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy
+
+[9] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0

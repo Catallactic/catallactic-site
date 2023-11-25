@@ -22,54 +22,21 @@ In this essay, first we make a review on existing currency protocols, then we ar
 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwMgL87DfiO7WGYnVrYPkx1z_e-aKwbn_iIA&usqp=CAU" width="60%"></img>
 </div>
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/tokenization2.svg" width="100%"></img>
-</div>
-<br/>
+
 
 This whitepaper does not assume you master crypto. The goal is to convince those 80% that are not yet in crypto and explain why should matter to them. And, of course, get you as an investor.
 
 <!-- truncate -->
 
 
-## 2. Tokenization Protocols
----
-
-### 2.1. Blockchain Layered Architecture
-
-We can see blockchain as a layered architecture. 
+## 2. A Tokenization Map
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://www.nigeriabitcoincommunity.com/wp-content/uploads/2022/05/smart-contracts.c-1.png" width="60%"></img>
+	<img src="/img/tokenization2.svg" width="100%"></img>
 </div>
 <br/>
 
-### 2.2. Blockchain Protocols
 
-A blockchain protocol is a set of underlying rules that define how a blockchain will work. Based on the underlying rules of the protocol it’s possible to build a business ecosystem. Usually, protocol’s rules comprise everything from how tokens can be issued, how value is created, and how interactions happen on top of the protocol.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/cryptocommodities_scope.svg" width="100%"></img>
-</div>
-<br/>
-
-Every layer is simply a set of protocols that describe how the blockchain operates.
-
-### 2.3. Tokenization Protocols
-
-The topmost layer is the layer on which different applications on the network run, including smart contracts, oracles. 
-
-Tokenization Protocols produce tokens which are specialized smart contracts.
-
-- Infra
-- DeFi
-- CeFi
-- ReFi
-- SocialFi
-- eBuiness
-- Currencies
-
-### 2.4. Smart Contracts
 
 
 
@@ -85,7 +52,7 @@ Tokenization Protocols produce tokens which are specialized smart contracts.
 
 ## 3. Tokens
 
-### 3.1. What is a Token
+### 3.1. Anatomy of a Token
 
 A crypto token is an special kind of smart contract. A token typically resides in one blockchain and, therefore, its content is replicated in all the nodes of the blockchain. A token can also resides in several blockchain by making use of some interoperability mechanim. As any other smart contract, a token is implemented in one of the smart contract languages supported by the blockchain in which is deployed, as Solidity, Cairo, Vyepr, Rust, Clarity or Yul.
 
@@ -109,12 +76,20 @@ When we design a token we bind 2 worlds. On one hand, we have the real world rep
 
 Whereas our efforts will focus in having a higher demand as possible, the demand is not a variable that we can control or decide. Instead, in order to design a token, we will adjust the supply accordingly to obtain the intended token profile. As there are a few possible ways to adjust the supply, we have a tool to design tokens with different profiles. We will discuss about this in the next sections.
 
-## 4. Anatomy of a Token
+### 3.3. Smart Contracts
+
+### 3.4. Token Standards
 
 
 
-## 4. Tokens by Utility
+## 4. Tokens by Asset Capture
+---
 
+### 4.1. Tokenization Platforms
+
+
+## 5. Tokens by Utility
+---
 
 
 - Identification tokens not described here
@@ -125,7 +100,45 @@ Whereas our efforts will focus in having a higher demand as possible, the demand
 
 
 
-### 6. Token Standards
 
 
-### 7. Tokenization Platforms
+
+
+
+## 6. Tokenization Protocols
+---
+
+### 6.1. Blockchain Layered Architecture
+
+We can see blockchain as a layered architecture. 
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.nigeriabitcoincommunity.com/wp-content/uploads/2022/05/smart-contracts.c-1.png" width="60%"></img>
+</div>
+<br/>
+
+### 6.2. Blockchain Protocols
+
+A blockchain protocol is a set of underlying rules that define how a blockchain will work. Based on the underlying rules of the protocol it’s possible to build a business ecosystem. Usually, protocol’s rules comprise everything from how tokens can be issued, how value is created, and how interactions happen on top of the protocol.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodities_scope.svg" width="100%"></img>
+</div>
+<br/>
+
+Every layer is simply a set of protocols that describe how the blockchain operates.
+
+### 6.3. Tokenization Protocols
+
+The topmost layer is the layer on which different applications on the network run, including smart contracts, oracles. 
+
+Tokenization Protocols produce tokens which are specialized smart contracts.
+
+- Infra
+- DeFi
+- CeFi
+- ReFi
+- SocialFi
+- eBuiness
+- Currencies
+

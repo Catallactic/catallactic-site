@@ -232,15 +232,6 @@ What if the government let anyone use a currency of his or her choosing? What if
 
 ![Supply Definition Monetary Policies](https://m.media-amazon.com/images/I/51yRY-k7x4L.jpg)
 
-## 6. Crypto
----
-
-### 6.1. Tokenization
-
-Tokenization is the process of converting something with tangible or intangible value into digital tokens.
-
-![Supply Definition Monetary Policies](./tokenization.svg)
-
 ## 7. Comparison
 ---
 
@@ -438,101 +429,6 @@ Fiat Stablecoins
 
 ### 5.1. Mean of Payment Requirements
 
-<table>
-  <tr>
-    <td></td>
-    <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_plastic_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Barter</td>
-    <td>Commodity</td>
-    <td>Metal</td>
-    <td>Backed</td>
-    <td>Fiat</td>
-    <td>Plastic</td>
-    <td>Crypto</td>
-  </tr>
-  <tr>
-    <td>Uniform</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Divisible</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Portable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Durable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Scarce</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Acceptable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Recognised</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-</table>
-
-<br/>
-
 There are not many requirement to use a currency token as a mean of payment beyond those applied to a physical currency.
 
 - the main requirement probably is that it must be <b>aceptable</b> and <b>recognised</b>. And this raises 2 challenges: the velocity of circulation and the usability of the wallets.
@@ -633,11 +529,4 @@ Creating a UoA brings additional reuirement to the previous token type analized.
 - governance
 
 
-### 7.6. The UoA Tokenization Model
-
-A Unit of Account is an specialization of utility token where only a certain set of utilities are part of the price formacion mechanim.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/tokenization_maturity_model_seal.svg" width="60%"></img>
-</div>
 
