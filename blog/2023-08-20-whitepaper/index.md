@@ -807,15 +807,38 @@ The aforementioned requirements must be particularized to every stage of the val
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
-Analogous to the fiat world, in the crypto world we define token velocity.
+Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
 
-- the 
-
-- for a local market, vending machines could be used to deliver the product or service
+Causes of the high token velocity is that the prices are not expressed on the currency.
 
 To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the Cryptocommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
 
+##### 5.2.1. Token Velocity during Value Capture 
+
+During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
+
+- Introduce a profit-share mechanism
+
+- Build staking functions into the protocol
+
+- Balanced burn-and-mint mechanics
+
+- Gamification to encourage holding
+
+- for a local market, vending machines could be used to deliver the product or service
+
+- express the prices in CryptoCommodity units
+
+
+##### 5.2.1. Token Velocity during Value Delivery
+
+During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
+
+- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
+
 #### 5.3. The challenge of Wallets
+
+vending machines?
 
 
 #### 5.4. The challenge of Compliance
