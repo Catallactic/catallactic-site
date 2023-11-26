@@ -1007,10 +1007,9 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 ### 6.5. CryptoCommodity as Currency
 
+Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
 
-The quantity theory presupposes, of course, that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units.
 
-velocity of money does not apply
 
 
 
