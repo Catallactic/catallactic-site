@@ -39,7 +39,7 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 2.2. Ecosystem
+### 2.2. CryptoCommodity Ecosystem
 
 The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
 
@@ -938,12 +938,12 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 
 ### 7.2. Interaction real vs financial economy
 
-#### 7.1.1. Monetary Expansion
+#### 7.2.1. Monetary Expansion
 
 
 
 
-#### 7.1.2. Neutrality of Money
+#### 7.2.2. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -953,7 +953,7 @@ The neutrality of money, also called neutral money, is an economic theory statin
 </div>
 
 
-### 7.2. The strangle of the real economy
+#### 7.2.3. The squish of the real economy
 
 barreras a la entrada impuestas x el fiat
 
@@ -964,7 +964,7 @@ Cantillon Effects
 
 
 
-### 7.4. A decentralized commodities based economy
+### 7.3. A decentralized commodities based economy
 
 ecosystem of companies
 
@@ -973,14 +973,14 @@ hayek
 
 
 
-#### 7.4.1 The Regresion Principle
+#### 7.3.1 The Regresion Principle
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
 
 
-#### 7.4.2. Stability of a UoA Market
+#### 7.3.2. Stability of a UoA Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -989,10 +989,10 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
 </div>
 
-#### 7.4.3 Credit without Cantillon
+#### 7.3.3. Credit without Cantillon
 
 
-### 7.5. Comparing Economic Models
+### 7.4. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -1113,7 +1113,7 @@ On the other hand, the new token also borrows from utility tokens the notion of 
 
 We have also covered how this new token can be implemented as a diamond standard, managed by the issuing team and what are the main requirements (security, decentralization, compliance, privacy and transparency) and challenges (velocity of circulation and wallets) for its adoption.
 
-Finally we have described how the adoption of this new token could empower the strangled real economy.
+Finally we have described how the adoption of this new token could empower the squish real economy.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
