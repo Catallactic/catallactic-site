@@ -928,6 +928,7 @@ Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "
 
 ## 6. CryptoCommodity as Quality Currency
 
+Once we have understood that qualitative theory of money should be applied to CryptoCommodities, lest discuss in this chapter what are the criteria to have a quality currency.
 
 ### 6.1. Requirements
 
@@ -1023,6 +1024,8 @@ vending machines?
 
 ## 7. At the rescue of real economy
 ---
+
+Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
 ### 7.1. The 2 types of economy
 
