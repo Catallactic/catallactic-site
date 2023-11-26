@@ -396,11 +396,6 @@ auditor
 
 
 
-https://go.gale.com/ps/i.do?p=AONE&u=googlescholar&id=GALE%7CA221274715&v=2.1&it=r&sid=googleScholar&asid=da5dfe0b
-
-https://mises.org/library/quality-money-0
-
-https://www.economicsdiscussion.net/money/top-8-qualities-of-an-ideal-money-material/609
 
 
 ## 5. Currency Tokens as Mean of Payment

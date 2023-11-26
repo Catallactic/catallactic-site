@@ -795,105 +795,14 @@ stable system
 #### 4.3.1. Collateral
 
 
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-## 5. Challenges and Requirements
-
-
-### 5.1. Requirements
-
-Creating a token is not enough to guarantee it will become a currency. To deliver the 3 function of money, a cryptocommodity must comply with the following requirement:
-
-To work a Mean of Payment:
-
-* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
-
-* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
-
-* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
-
-* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
-
-To work as Store of Value:
-
-* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
-
-* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
-
-* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
-
-* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
-
-To work as Unit of Account:
-
-* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
-
-* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
-
-The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
-
-#### 5.2. The challenge of Velocity of Circulation (Saleableness)
-
-Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
-
-Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
-
-A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
-
-Causes of the high token velocity is that the prices are not expressed on the currency.
-
-To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
-
-##### 5.2.1. Token Velocity during Value Capture 
-
-During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
-
-- Introduce a profit-share mechanism
-
-- Build staking functions into the protocol
-
-- Balanced burn-and-mint mechanics
-
-- Gamification to encourage holding
-
-- for a local market, vending machines could be used to deliver the product or service
-
-- express the prices in CryptoCommodity units
-
-
-##### 5.2.1. Token Velocity during Value Delivery
-
-During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
-
-- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
-
-#### 5.3. The challenge of Wallets
-
-vending machines?
-
-
-#### 5.4. The challenge of Compliance
-
-
-#### 5.5. The challenge of Security
-
-
-#### 5.6. The challenge of Decentralization
-
-
-#### 5.7. The challenge of Transparency
-
-
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 6. CryptoCommodity as currency
+## 5. CryptoCommodity as Currency
 ---
 
-### 6.1. Evolution of Money
+### 5.1. Evolution of Money
 
 <table>
   <tr>
@@ -916,7 +825,7 @@ vending machines?
   </tr>
 </table>
 
-### 6.2. Quality Theory of Money
+### 5.2. Quality Theory of Money
 
 The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
 
@@ -986,7 +895,7 @@ One of the most important properties for the quality of money is the <b>existenc
   </tr>
 </table>
 
-### 6.3. Quantity Theory of Money
+### 5.3. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -1002,10 +911,10 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 
 
-### 6.4. Private Money
+### 5.4. Private Money
 
 
-### 6.5. CryptoCommodity as Currency
+### 5.5. CryptoCommodity as Currency
 
 Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
 
@@ -1013,7 +922,101 @@ Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "
 
 
 
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+## 6. CryptoCommodity as Quality Currency
+
+
+### 6.1. Requirements
+
+Creating a token is not enough to guarantee it will become a currency. To deliver the 3 function of money, a cryptocommodity must comply with the following requirement:
+
+To work a Mean of Payment:
+
+* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
+
+* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
+
+* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
+
+* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
+
+To work as Store of Value:
+
+* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+
+* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+
+* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+
+To work as Unit of Account:
+
+* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
+
+* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
+
+The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+
+#### 6.2. The challenge of Velocity of Circulation (Saleableness)
+
+Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
+
+Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
+
+A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
+
+Causes of the high token velocity is that the prices are not expressed on the currency.
+
+To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
+
+##### 6.2.1. Token Velocity during Value Capture 
+
+During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
+
+- Introduce a profit-share mechanism
+
+- Build staking functions into the protocol
+
+- Balanced burn-and-mint mechanics
+
+- Gamification to encourage holding
+
+- for a local market, vending machines could be used to deliver the product or service
+
+- express the prices in CryptoCommodity units
+
+
+##### 6.2.1. Token Velocity during Value Delivery
+
+During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
+
+- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
+
+#### 6.3. The challenge of Wallets
+
+vending machines?
+
+
+#### 6.4. The challenge of Compliance
+
+
+#### 6.5. The challenge of Security
+
+
+#### 6.6. The challenge of Decentralization
+
+
+#### 6.7. The challenge of Transparency
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
 
 
 
