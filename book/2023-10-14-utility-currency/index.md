@@ -226,12 +226,6 @@ Debt without Cantillon
 - Correct match demand/supply. Having the correct price formation for goods and services according to the will of citizens guarantees their supply matches exactly their expected demand without overpricing or undervalued mismatches of centralized money issuing. Let me social machine work on its own without bias.
 - Values are freely chosen by citizens.
 
-### 5.3. Not a new idea
-
-What if the government let anyone use a currency of his or her choosing? What if the government permitted entrepreneurs to innovate in the monetary sector, such as by creating digital currencies or minting commodity money? This is precisely what F.A. Hayek argues in his book.
-
-![Supply Definition Monetary Policies](https://m.media-amazon.com/images/I/51yRY-k7x4L.jpg)
-
 ## 7. Comparison
 ---
 
@@ -528,5 +522,6 @@ Creating a UoA brings additional reuirement to the previous token type analized.
 
 - governance
 
-
+## 7. References
+---
 

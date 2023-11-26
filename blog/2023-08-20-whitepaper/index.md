@@ -893,24 +893,125 @@ vending machines?
 ## 6. CryptoCommodity as currency
 ---
 
+### 6.1. Evolution of Money
 
-### 6.1. Quantity of Money
+<table>
+  <tr>
+    <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_plastic_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
+  </tr>
+  <tr>
+    <td>Barter</td>
+    <td>Commodity</td>
+    <td>Metal</td>
+    <td>Backed</td>
+    <td>Fiat</td>
+    <td>Plastic</td>
+    <td>Crypto</td>
+  </tr>
+</table>
 
-#### 6.2.1. Velocity of Circulation
+### 6.2. Quality Theory of Money
 
-### 6.2. Quality of Money
+The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
+
+The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. From Juan de Mariana (1609), Sir William Petty (1662), Adam Smith (1776), Jean Baptiste Say (1802), Nassau William Senior (1850), John Stuart Mill (1848), Carl Menger (1871), William Stanley Jevons’s (1875), Mises (1953), Rothbard (2004) provide different insights on the quality of money.
+
+The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
+
+One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>. 
+
+<table>
+
+  <tr>
+    <td>Quality</td>
+    <td>Authors</td>
+    <td>Mean of Exchange</td>
+    <td>Store of Value</td>
+    <td>Unit of Account</td>
+  </tr>
+  <tr>
+    <td>Uniform</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Divisible</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Scarce</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Durable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Portable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Acceptable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Recognised</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
+
+### 6.3. Quantity Theory of Money
+
+In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
+
+The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
+</div>
+
+The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-#### 6.2.1 Quality of Money and Purchasing Power
-
-#### 6.2.2 Quality of Money as Mean of Exchange
-
-#### 6.2.3 Quality of Money as Store of Value
-
-#### 6.2.4 Quality of Money as Unit of Account
 
 
-### 6.3. Private Money
+
+### 6.4. Private Money
+
+
+### 6.5. CryptoCommodity as Currency
+
+
+The quantity theory presupposes, of course, that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units.
+
+velocity of money does not apply
+
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
