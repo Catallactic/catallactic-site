@@ -88,7 +88,7 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </table>
 <br/>
 
-### 2.3 Benefits
+### 2.3 CryptoCommodity Benefits
 
 #### 2.3.1. Real Economy Projects
 
@@ -893,13 +893,24 @@ vending machines?
 ## 6. CryptoCommodity as currency
 ---
 
-### 6.1. Quality of Money
 
-### 6.2. Quantity of Money
+### 6.1. Quantity of Money
+
+#### 6.2.1. Velocity of Circulation
+
+### 6.2. Quality of Money
 
 
+#### 6.2.1 Quality of Money and Purchasing Power
+
+#### 6.2.2 Quality of Money as Mean of Exchange
+
+#### 6.2.3 Quality of Money as Store of Value
+
+#### 6.2.4 Quality of Money as Unit of Account
 
 
+### 6.3. Private Money
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1125,20 +1136,30 @@ Finally we have described how the adoption of this new token could empower the s
 ## 11. References
 ---
 
+[1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
+
 [1] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
+
+[1] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
+
+[1] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
+
+
+
+[1] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
+
+
+
 
 [1] Money creation in the modern economy, Bank of England, 14 March 2014 - https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy
 
 [1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
 
-[1] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
 
-[1] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
 
-[1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
+
 
 [1] https://wtfhappenedin1971.com/
 
-[1] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
 
 [1] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
