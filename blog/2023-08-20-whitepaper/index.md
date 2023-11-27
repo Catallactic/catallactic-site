@@ -802,28 +802,7 @@ stable system
 ## 5. CryptoCommodity as Currency
 ---
 
-### 5.1. Evolution of Money
-
-<table>
-  <tr>
-    <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_plastic_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
-  </tr>
-  <tr>
-    <td>Barter</td>
-    <td>Commodity</td>
-    <td>Metal</td>
-    <td>Backed</td>
-    <td>Fiat</td>
-    <td>Plastic</td>
-    <td>Crypto</td>
-  </tr>
-</table>
+In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account.
 
 ### 5.2. Quality Theory of Money
 
