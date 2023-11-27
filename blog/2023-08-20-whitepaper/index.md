@@ -90,6 +90,8 @@ Additionally, the price is formed in the basis of a service. Some services that 
 
 ### 2.3 CryptoCommodity Benefits
 
+By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
+
 #### 2.3.1. Real Economy Projects
 
 The CryptoCommodity Framework has been designed to enable citizens to fund and realize real economy projects. CryptoCommodities include a provision which allows the issuer to launch funding rounds and capitalize his project. The investors can be local or global.
@@ -97,8 +99,6 @@ The CryptoCommodity Framework has been designed to enable citizens to fund and r
 
 
 #### 2.3.2. Currency Functions
-
-By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
 First it will make a fully featured currency which will empower the community. 
 
@@ -887,16 +887,12 @@ The quantity theory of money is most often expressed and explained by reference 
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-
-
-
-### 5.4. Private Money
-
-
-### 5.5. CryptoCommodity as Currency
+### 5.4. CryptoCommodity as Currency
 
 Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
 
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
 
@@ -994,6 +990,7 @@ vending machines?
 
 
 
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -1001,24 +998,51 @@ vending machines?
 
 
 
-## 7. At the rescue of real economy
+### 7. A decentralized commodities based economy
+
+ecosystem of companies
+
+hayek
+
+#### 7.1. Private Money
+
+
+#### 7.3. Stability of a UoA Market
+
+
+Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
+</div>
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 8. At the rescue of real economy
 ---
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-### 7.1. The 2 types of economy
+### 8.1. The 2 types of economy
 
-#### 7.1.1. The real economy
+#### 8.1.1. The real economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
 Real economy can be measured by the GDP.
 
-#### 7.1.2. The financial economy
+#### 8.1.2. The financial economy
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources.
 
-#### 7.1.3. Comparing real vs financial economy
+#### 8.1.3. Comparing real vs financial economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -1032,14 +1056,14 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 </div>
 
 
-### 7.2. Interaction real vs financial economy
+### 8.2. Interaction real vs financial economy
 
-#### 7.2.1. Monetary Expansion
-
-
+#### 8.2.1. Monetary Expansion
 
 
-#### 7.2.2. Neutrality of Money
+
+
+#### 8.2.2. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -1049,7 +1073,7 @@ The neutrality of money, also called neutral money, is an economic theory statin
 </div>
 
 
-#### 7.2.3. The squish of the real economy
+#### 8.2.3. The squish of the real economy
 
 barreras a la entrada impuestas x el fiat
 
@@ -1058,37 +1082,7 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-
-
-### 7.3. A decentralized commodities based economy
-
-ecosystem of companies
-
-hayek
-
-
-
-
-#### 7.3.1 The Regresion Principle
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
-
-
-
-
-#### 7.3.2. Stability of a UoA Market
-
-
-Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
-</div>
-
-#### 7.3.3. Credit without Cantillon
-
-
-### 7.4. Comparing Economic Models
+### 8.4. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -1097,12 +1091,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 - cryptocommodity vs stablecoin. Both capture price, one from it fownmarkt, the other from international market
 
-
-
-
-
-
-
+- Credit without Cantillon
 
 
 
@@ -1110,10 +1099,12 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-## 8. Implementation of CryptoCommodites
+
+
+## 9. Implementation of CryptoCommodites
 ---
 
-### 8.1. Smart Contract
+### 9.1. Smart Contract
 
 CryptoCommodity smart contract is created as a diamond standard contract. As a diamond contract it includes 4 facets deployed at different addresses that the main contract.
 
@@ -1124,11 +1115,11 @@ CryptoCommodity smart contract is created as a diamond standard contract. As a d
 
 Every facet contains specific functions which implement its functionality. 
 
-### 8.2. Upgradable
+### 9.2. Upgradable
 
 Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
 
-### 8.3. Security
+### 9.3. Security
 
 Code includes multisig access to unctionalities.
 
@@ -1137,7 +1128,7 @@ It also creates backup of the status to allow reverting in case of vulnerability
 The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
 
 
-### 8.4. Decentralization
+### 9.4. Decentralization
 
 Decentralization is a features that should analized at different levels:
 
@@ -1148,16 +1139,16 @@ Decentralization is a features that should analized at different levels:
 - governance decentralization
 
 
-### 8.5. Compliance
+### 9.5. Compliance
 
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
 https://github.com/Catallactic/catallactic-suite
 
-### 8.6. Privacy
+### 9.6. Privacy
 
 
-### 8.7. Deployment
+### 9.7. Deployment
 
 
 
@@ -1168,17 +1159,17 @@ https://github.com/Catallactic/catallactic-suite
 
 
 
-## 9. Supporting Tools
+## 10. Supporting Tools
 ---
 
-### 9.6. DAppmin
+### 10.6. DAppmin
 
 https://github.com/Catallactic/catallactic-admin
 
-### 9.6. ICO Purchases DApp
+### 10.6. ICO Purchases DApp
 
 
-### 9.6. Vesting Tracker
+### 10.6. Vesting Tracker
 
 
 
@@ -1198,7 +1189,7 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 10. Conclusion
+## 11. Conclusion
 ---
 
 We have exposed how a new kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
