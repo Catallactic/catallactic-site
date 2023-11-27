@@ -207,6 +207,8 @@ All the requirements described must be particularized for each stage of the Cryp
 
 ### 3.1. Funding
 
+#### 3.1.1. Funding Rounds
+
 Differently to a stablecoin, which must accomplish the required collateral on inception, CryptoCommodity Framework provides to th issuer the infrastructure to fund his project. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
 
 On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required. This makes launching a currency friendly for any citizen which has a real world project.
@@ -216,7 +218,7 @@ Launchpad is build-in in dAppmin
 Special attention must be paid to compliance.
 
 
-#### 3.1.1. Vesting
+#### 3.1.2. Vesting
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TG, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
 
@@ -329,7 +331,7 @@ export const SupplyProfileChart = () => {
 
 
 
-#### 3.1.1. Investors Exit
+#### 3.1.3. Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -474,7 +476,7 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 />
 </div>
 
-#### 3.1.1. Investors Profit
+#### 3.1.4. Investors Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
@@ -605,11 +607,11 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 
 - Process starts with an optional funding period. Thi period is dedicated to create one or multiple funding round my the issuing team and raise funds from investor to fund the project,
 
-- When fuding rounds are finished, the Token Generation Event happens. During this event, supply is first added to the CryptoCommodity and investors are allocated their purchased funds. In this TGE tokens are first added to exchages and starts getting its market price.
+- When fuding rounds are finished, the Token Generation Event (TGE) happens. During this event, Supply is first added to the CryptoCommodity with initial allocations s described later. The TGE timing is defined by the CryptoCurrency issuer in the schedule and roadmap. 
 
 - After the TGE, the project activities will push up the price of the token whereas it captures the value of the underlying asset. During this stage, the more benefitial profile for the token is this of a gold standard because it will allow uick growth of the value for investors,
 
-- When the supply in the exchanges matches the demand, it is considered that the value has been captured. This is called Value Capture Event,
+- When the demand of the asset utility on the underlying market matches the supply, it is considered that the value has been captured. This is called Value Capture Event (VCE). The VCE is a equilibrium point, and therefore, its timing can be estimated, it can also be advanced by increasing the demand but cannot be precised beforehand.
 
 - After the Value Capture Event. the stabilization mechanism guarantees that the value of the underlying asset is maintained,
 
@@ -769,15 +771,6 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 />
 </div>
 
-#### 5.1.1. Token Generation Event
-
-
-
-#### 5.1.2. Value Capture Event
-
-
-
-
 ### 5.2. Supply Management on Launch
 
 
@@ -928,21 +921,11 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
 
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-## 7. CryptoCommodity as Quality Currency
+We must attend, therefore, to Qualitative Theory of Money in CryptoCommodity design. The quality of the CryptoCurrency as currency is the factor that must be optimized in order to get a widespread adoption. The implications of this will be discussed in the next chapter. 
 
 Once we have understood that qualitative theory of money should be applied to CryptoCommodities, lest discuss in this chapter what are the criteria to have a quality currency.
 
-### 7.1. Requirements
+### 6.5. CryptoCommodity as Quality Currency
 
 Creating a token is not enough to guarantee it will become a currency. To deliver the 3 function of money, a cryptocommodity must comply with the following requirement:
 
@@ -974,7 +957,7 @@ To work as Unit of Account:
 
 The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
-#### 7.2. The challenge of Velocity of Circulation (Saleableness)
+#### 6.5.1. The challenge of Velocity of Circulation (Saleableness)
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
@@ -986,7 +969,7 @@ Causes of the high token velocity is that the prices are not expressed on the cu
 
 To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
 
-##### 7.2.1. Token Velocity during Value Capture 
+##### 6.5.1.1. Token Velocity during Value Capture 
 
 During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
 
@@ -1003,30 +986,33 @@ During the Vauke Capture stage the CryptoCommodity will behave as an utility tok
 - express the prices in CryptoCommodity units
 
 
-##### 7.2.1. Token Velocity during Value Delivery
+##### 6.5.1.2. Token Velocity during Value Delivery
 
 During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
 
 - Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-#### 7.3. The challenge of Wallets
+#### 6.5.2. The challenge of Wallets
 
 vending machines?
 
 
-#### 7.4. The challenge of Compliance
+#### 6.5.3. The challenge of Compliance
 
 
-#### 7.5. The challenge of Security
+#### 6.5.4. The challenge of Security
 
 
-#### 7.6. The challenge of Decentralization
+#### 6.5.5. The challenge of Decentralization
 
 
-#### 7.7. The challenge of Transparency
+#### 6.5.6. The challenge of Transparency
 
 
 
+### 6.6. The ideal underying asset
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1035,11 +1021,11 @@ vending machines?
 
 
 
-### 8. A decentralized commodities based economy
+### 7. A decentralized commodities based economy
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-#### 8.1. Previous Discussions
+#### 7.1. Previous Discussions
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -1047,7 +1033,7 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-#### 8.1. Particular Scenario
+#### 7.2. Particular Scenario
 
 In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
 
@@ -1056,7 +1042,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
 
-#### 8.3. Stability of a CryptoCommodity Market
+#### 7.3. Stability of a CryptoCommodity Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -1066,7 +1052,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-#### 8.1. Free Banking in Practice
+#### 7.4. Free Banking in Practice
 
 incremental introduction
 
@@ -1074,7 +1060,7 @@ coexistence with legal ledger
 
 
 
-#### 8.1. Further Industry Development
+#### 7.5. Further Industry Development
 
 - Aggregated currencies
 
@@ -1088,24 +1074,41 @@ coexistence with legal ledger
 
 
 
-## 9. At the rescue of real economy
+## 8. At the rescue of real economy
 ---
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-### 9.1. The 2 types of economy
+### 8.1. Monetary Expansion of Legal Tender
 
-#### 9.1.1. The real economy
+
+
+#### 8.1.2. Debate on Neutrality of Money
+
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
+</div>
+
+price distortion
+
+
+
+### 8.2. The Splitted Economy
+
+#### 8.2.1. The real economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
 Real economy can be measured by the GDP.
 
-#### 9.1.2. The financial economy
+#### 8.2.2. The financial economy
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources.
 
-#### 9.1.3. Comparing real vs financial economy
+#### 8.2.3. Comparing real vs financial economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -1119,24 +1122,10 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 </div>
 
 
-### 9.2. Interaction real vs financial economy
-
-#### 9.2.1. Monetary Expansion
 
 
 
-
-#### 9.2.2. Neutrality of Money
-
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
-</div>
-
-
-#### 9.2.3. The squish of the real economy
+#### 8.2.4. The Squizzed Real Economy
 
 barreras a la entrada impuestas x el fiat
 
@@ -1145,7 +1134,7 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-### 9.4. Comparing Economic Models
+### 8.3. Comparing Economic Models
 
 
 - decoupled from fiat
@@ -1164,10 +1153,10 @@ Cantillon Effects
 
 
 
-## 10. Implementation of CryptoCommodites
+## 9. Implementation of CryptoCommodites
 ---
 
-### 10.1. Smart Contract
+### 9.1. Smart Contract
 
 CryptoCommodity smart contract is created as a diamond standard contract. As a diamond contract it includes 4 facets deployed at different addresses that the main contract.
 
@@ -1178,11 +1167,11 @@ CryptoCommodity smart contract is created as a diamond standard contract. As a d
 
 Every facet contains specific functions which implement its functionality. 
 
-### 10.2. Upgradable
+### 9.2. Upgradable
 
 Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
 
-### 10.3. Security
+### 9.3. Security
 
 Code includes multisig access to unctionalities.
 
@@ -1191,7 +1180,7 @@ It also creates backup of the status to allow reverting in case of vulnerability
 The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
 
 
-### 10.4. Decentralization
+### 9.4. Decentralization
 
 Decentralization is a features that should analized at different levels:
 
@@ -1202,16 +1191,16 @@ Decentralization is a features that should analized at different levels:
 - governance decentralization
 
 
-### 10.5. Compliance
+### 9.5. Compliance
 
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
 https://github.com/Catallactic/catallactic-suite
 
-### 10.6. Privacy
+### 9.6. Privacy
 
 
-### 10.7. Deployment
+### 9.7. Deployment
 
 
 
@@ -1222,17 +1211,17 @@ https://github.com/Catallactic/catallactic-suite
 
 
 
-## 11. Supporting Tools
+## 10. Supporting Tools
 ---
 
-### 11.6. DAppmin
+### 10.6. DAppmin
 
 https://github.com/Catallactic/catallactic-admin
 
-### 11.6. ICO Purchases DApp
+### 10.6. ICO Purchases DApp
 
 
-### 11.6. Vesting Tracker
+### 10.6. Vesting Tracker
 
 
 
@@ -1252,7 +1241,7 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 12. Conclusion
+## 11. Conclusion
 ---
 
 We have exposed how a new kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
@@ -1272,7 +1261,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 
-## 13. References
+## 12. References
 ---
 
 [1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
