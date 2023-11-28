@@ -596,16 +596,16 @@ export const TokenAllocation = () => {
 						'Funding', 'Liquidity', 'Operations', 'Project'
 					],
 					datasets: [{
-							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
-							data: [2, 3, 5, 4, 0, 0, 0, 1],
+							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#0000FF', '#0000FF'],
+							data: [2, 3, 5, 4, 5, 71, 9, 1],
 							order: [2, 3, 4, 6, 7, 9, 11, 12],
 							index: 0
 						}, {
 							backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-							data: [10, 4, 0, 1],
+							data: [10, 9, 71, 10],
 							order: [1, 5, 8, 10],
 							index: 1
-					}],
+					}]
 				}}
 				options={{
 					responsive: true,
