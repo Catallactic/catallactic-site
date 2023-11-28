@@ -7,7 +7,13 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 ---
 
-
+import Chart from 'chart.js/auto';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+import annotationPlugin from 'chartjs-plugin-annotation';
+Chart.register(annotationPlugin);
+// https://github.com/chartjs/chartjs-plugin-annotation/issues/786
+import { Line } from "react-chartjs-2";
+import { Doughnut } from 'react-chartjs-2';
 
 
 :::danger
@@ -222,12 +228,7 @@ Special attention must be paid to compliance.
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TG, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
 
-import Chart from 'chart.js/auto';
-import ChartDataLabels from 'chartjs-plugin-datalabels';
-import annotationPlugin from 'chartjs-plugin-annotation';
-Chart.register(annotationPlugin);
-// https://github.com/chartjs/chartjs-plugin-annotation/issues/786
-import { Line } from "react-chartjs-2";
+
 
 export const SupplyProfileChart = () => {
 	const pp = 1;
@@ -577,16 +578,518 @@ Another consideration is to prevent high concentration of token units in some wa
 
 
 
-## 4. Supply Initial Allocations
+## 4. Supply Allocations
 ---
 
-### 4.1. Funding Allocation
+### 4.1. Token Allocation
 
-### 4.2. Negotiation Allocation
+export const TokenAllocation = () => {
+	return (
+		<div className="panel">
+			<Doughnut
+				data={{
+					labels: [
+						'Private Sale', 'Presale', 'Crowdsale', 
+						'Exchanges', 'Exchanges',
+						'Operations', 
+						'Project', 'Project', 
+						'Funding', 'Liquidity', 'Operations', 'Project'
+					],
+					datasets: [{
+							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
+							data: [2, 3, 5, 4, 0, 0, 0, 1],
+							order: [2, 3, 4, 6, 7, 9, 11, 12],
+							index: 0
+						}, {
+							backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+							data: [10, 4, 0, 1],
+							order: [1, 5, 8, 10],
+							index: 1
+					}],
+				}}
+				options={{
+					responsive: true,
+					reverse: true,
+					plugins: {
+						tooltip: {
+							callbacks: {
+								label: function(context) {
+									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+								}
+							}
+						},
+						legend: {
+						position: 'right',
+							labels: {
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+								generateLabels: function(chart) {
+									let datasetColors = chart.data.datasets.map(function(e) {
+											return e.backgroundColor;
+									}).flat();						        	  
+									let orders = chart.data.datasets.map(function(e) {
+										return e.order;
+									}).flat();
+											
+									// Get the default label list
+									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+									const labelsOriginal = original.call(this, chart);
+									return labelsOriginal.sort((label2, label1) => {
+										return orders[label2.index] - orders[label1.index];
+									}).filter((label, index, array) => {
+										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+									}).map((label) => {
+									label.datasetIndex = label.index;
+									label.fillStyle = datasetColors[label.index];
+											return label;
+									});	
+								}
+							},
+							onClick: function(mouseEvent, legendItem, legend) {
+								// toggle the visibility of the dataset from what it currently is
+								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+								legend.chart.update();
+							}
+						}
+					}
+				}}
+			/>
+		</div>
+	);
+}
 
-### 4.2. Operations Allocation
+<TokenAllocation/>
 
-### 4.2. Project Allocation
+### 4.1.1. Funding Allocation
+
+export const FundingAllocation = () => {
+	return (
+		<div className="panel">
+			<Doughnut
+				data={{
+					labels: [
+						'Private Sale', 'Presale', 'Crowdsale', 
+						'Exchanges', 'Exchanges',
+						'Operations', 
+						'Project', 'Project', 
+						'Funding', 'Liquidity', 'Operations', 'Project'
+					],
+					datasets: [{
+							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+							data: [2, 3, 5, 4, 5, 71, 9, 1],
+							order: [2, 3, 4, 6, 7, 9, 11, 12],
+							index: 0
+						}, {
+							backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+							data: [10, 9, 71, 10],
+							order: [1, 5, 8, 10],
+							index: 1
+					}]
+				}}
+				options={{
+					responsive: true,
+					reverse: true,
+					plugins: {
+						tooltip: {
+							callbacks: {
+								label: function(context) {
+									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+								}
+							}
+						},
+						legend: {
+						position: 'right',
+							labels: {
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+								generateLabels: function(chart) {
+									let datasetColors = chart.data.datasets.map(function(e) {
+											return e.backgroundColor;
+									}).flat();						        	  
+									let orders = chart.data.datasets.map(function(e) {
+										return e.order;
+									}).flat();
+											
+									// Get the default label list
+									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+									const labelsOriginal = original.call(this, chart);
+									return labelsOriginal.sort((label2, label1) => {
+										return orders[label2.index] - orders[label1.index];
+									}).filter((label, index, array) => {
+										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+									}).map((label) => {
+									label.datasetIndex = label.index;
+									label.fillStyle = datasetColors[label.index];
+											return label;
+									});	
+								}
+							},
+							onClick: function(mouseEvent, legendItem, legend) {
+								// toggle the visibility of the dataset from what it currently is
+								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+								legend.chart.update();
+							}
+						}
+					}
+				}}
+			/>
+		</div>
+	);
+}
+
+<FundingAllocation/>
+
+### 4.1.2. Negotiation Allocation
+
+export const NegotiationAllocation = () => {
+	return (
+		<div className="panel">
+			<Doughnut
+				data={{
+					labels: [
+						'Private Sale', 'Presale', 'Crowdsale', 
+						'Exchanges', 'Exchanges',
+						'Operations', 
+						'Project', 'Project', 
+						'Funding', 'Liquidity', 'Operations', 'Project'
+					],
+					datasets: [{
+							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+							data: [2, 3, 5, 4, 5, 71, 9, 1],
+							order: [2, 3, 4, 6, 7, 9, 11, 12],
+							index: 0
+						}, {
+							backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
+							data: [10, 9, 71, 10],
+							order: [1, 5, 8, 10],
+							index: 1
+					}]
+				}}
+				options={{
+					responsive: true,
+					reverse: true,
+					plugins: {
+						tooltip: {
+							callbacks: {
+								label: function(context) {
+									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+								}
+							}
+						},
+						legend: {
+						position: 'right',
+							labels: {
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+								generateLabels: function(chart) {
+									let datasetColors = chart.data.datasets.map(function(e) {
+											return e.backgroundColor;
+									}).flat();						        	  
+									let orders = chart.data.datasets.map(function(e) {
+										return e.order;
+									}).flat();
+											
+									// Get the default label list
+									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+									const labelsOriginal = original.call(this, chart);
+									return labelsOriginal.sort((label2, label1) => {
+										return orders[label2.index] - orders[label1.index];
+									}).filter((label, index, array) => {
+										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+									}).map((label) => {
+									label.datasetIndex = label.index;
+									label.fillStyle = datasetColors[label.index];
+											return label;
+									});	
+								}
+							},
+							onClick: function(mouseEvent, legendItem, legend) {
+								// toggle the visibility of the dataset from what it currently is
+								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+								legend.chart.update();
+							}
+						}
+					}
+				}}
+			/>
+		</div>
+	);
+}
+
+<NegotiationAllocation/>
+
+### 4.1.3. Operations Allocation
+
+export const OperationsAllocation = () => {
+	return (
+		<div className="panel">
+			<Doughnut
+				data={{
+					labels: [
+						'Private Sale', 'Presale', 'Crowdsale', 
+						'Exchanges', 'Exchanges',
+						'Operations', 
+						'Project', 'Project', 
+						'Funding', 'Liquidity', 'Operations', 'Project'
+					],
+					datasets: [{
+							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+							data: [2, 3, 5, 4, 5, 71, 9, 1],
+							order: [2, 3, 4, 6, 7, 9, 11, 12],
+							index: 0
+						}, {
+							backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+							data: [10, 9, 71, 10],
+							order: [1, 5, 8, 10],
+							index: 1
+					}]
+				}}
+				options={{
+					responsive: true,
+					reverse: true,
+					plugins: {
+						tooltip: {
+							callbacks: {
+								label: function(context) {
+									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+								}
+							}
+						},
+						legend: {
+						position: 'right',
+							labels: {
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+								generateLabels: function(chart) {
+									let datasetColors = chart.data.datasets.map(function(e) {
+											return e.backgroundColor;
+									}).flat();						        	  
+									let orders = chart.data.datasets.map(function(e) {
+										return e.order;
+									}).flat();
+											
+									// Get the default label list
+									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+									const labelsOriginal = original.call(this, chart);
+									return labelsOriginal.sort((label2, label1) => {
+										return orders[label2.index] - orders[label1.index];
+									}).filter((label, index, array) => {
+										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+									}).map((label) => {
+									label.datasetIndex = label.index;
+									label.fillStyle = datasetColors[label.index];
+											return label;
+									});	
+								}
+							},
+							onClick: function(mouseEvent, legendItem, legend) {
+								// toggle the visibility of the dataset from what it currently is
+								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+								legend.chart.update();
+							}
+						}
+					}
+				}}
+			/>
+		</div>
+	);
+}
+
+<OperationsAllocation/>
+
+### 4.1.4. Project Allocation
+
+export const ProjectAllocation = () => {
+	return (
+		<div className="panel">
+			<Doughnut
+				data={{
+					labels: [
+						'Private Sale', 'Presale', 'Crowdsale', 
+						'Exchanges', 'Exchanges',
+						'Operations', 
+						'Project', 'Project', 
+						'Funding', 'Liquidity', 'Operations', 'Project'
+					],
+					datasets: [{
+							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+							data: [2, 3, 5, 4, 5, 71, 9, 1],
+							order: [2, 3, 4, 6, 7, 9, 11, 12],
+							index: 0
+						}, {
+							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+							data: [10, 9, 71, 10],
+							order: [1, 5, 8, 10],
+							index: 1
+					}]
+				}}
+				options={{
+					responsive: true,
+					reverse: true,
+					plugins: {
+						tooltip: {
+							callbacks: {
+								label: function(context) {
+									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+								}
+							}
+						},
+						legend: {
+						position: 'right',
+							labels: {
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+								generateLabels: function(chart) {
+									let datasetColors = chart.data.datasets.map(function(e) {
+											return e.backgroundColor;
+									}).flat();						        	  
+									let orders = chart.data.datasets.map(function(e) {
+										return e.order;
+									}).flat();
+											
+									// Get the default label list
+									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+									const labelsOriginal = original.call(this, chart);
+									return labelsOriginal.sort((label2, label1) => {
+										return orders[label2.index] - orders[label1.index];
+									}).filter((label, index, array) => {
+										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+									}).map((label) => {
+									label.datasetIndex = label.index;
+									label.fillStyle = datasetColors[label.index];
+											return label;
+									});	
+								}
+							},
+							onClick: function(mouseEvent, legendItem, legend) {
+								// toggle the visibility of the dataset from what it currently is
+								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+								legend.chart.update();
+							}
+						}
+					}
+				}}
+			/>
+		</div>
+	);
+}
+
+<ProjectAllocation/>
+
+### 4.2. Initial Token Allocations
+
+export const InitialTokenAllocation = () => {
+	return (
+		<div className="panel">
+			<Doughnut
+				data={{
+					labels: [
+						'Private Sale', 'Presale', 'Crowdsale', 
+						'Exchanges', 'Exchanges',
+						'Operations', 
+						'Project', 'Project', 
+						'Funding', 'Liquidity', 'Operations', 'Project'
+					],
+					datasets: [{
+							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
+							data: [2, 3, 5, 4, 0, 0, 0, 1],
+							order: [2, 3, 4, 6, 7, 9, 11, 12],
+							index: 0
+						}, {
+							backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+							data: [10, 4, 0, 1],
+							order: [1, 5, 8, 10],
+							index: 1
+					}],
+				}}
+				options={{
+					responsive: true,
+					reverse: true,
+					plugins: {
+						tooltip: {
+							callbacks: {
+								label: function(context) {
+									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+								}
+							}
+						},
+						legend: {
+						position: 'right',
+							labels: {
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+								generateLabels: function(chart) {
+									let datasetColors = chart.data.datasets.map(function(e) {
+											return e.backgroundColor;
+									}).flat();						        	  
+									let orders = chart.data.datasets.map(function(e) {
+										return e.order;
+									}).flat();
+											
+									// Get the default label list
+									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+									const labelsOriginal = original.call(this, chart);
+									return labelsOriginal.sort((label2, label1) => {
+										return orders[label2.index] - orders[label1.index];
+									}).filter((label, index, array) => {
+										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+									}).map((label) => {
+									label.datasetIndex = label.index;
+									label.fillStyle = datasetColors[label.index];
+											return label;
+									});	
+								}
+							},
+							onClick: function(mouseEvent, legendItem, legend) {
+								// toggle the visibility of the dataset from what it currently is
+								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+								legend.chart.update();
+							}
+						}
+					}
+				}}
+			/>
+		</div>
+	);
+}
+
+<InitialTokenAllocation/>
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1292,3 +1795,5 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 [1] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
+
+https://sciencepolicy.colorado.edu/students/envs_5120/friedman_1966.pdf
