@@ -1274,6 +1274,22 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 />
 </div>
 
+#### 5.1.1. Total Supply Composition
+
+The Total Supply for a CryptoCommodity is the number of tokens units existing in a certain moment.
+
+The composition of Total Supply would depend on the stage in which the CryptoCommodity is working:
+
+- before the TGE, there is not Supply in the Token. Supply comes to the token on TGE.
+
+- during the value capture period, between the TGE and the VCE, the Total Supply is fixed and 
+
+- after the VCE, the stabilization mechanism taskes palce, the DeFi Services initiates and the the Supply composition expands ni both holders and DeFi Servies.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/supply_evolution.svg" width="100%"></img>
+</div>
+
 ### 5.2. Supply Management on Launch
 
 
@@ -1300,13 +1316,7 @@ This is done by adjusting the supply in the exchanges.
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 
-#### 5.3.2. Determining Total Supply
 
-Supply Components = operations supply in exchanges + tokens for holders + tokens for defi services
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/utilities_profile.svg" width="100%"></img>
-</div>
 
 #### 5.3.3. Determining Max Supply
 
