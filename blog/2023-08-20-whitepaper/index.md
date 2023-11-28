@@ -1108,15 +1108,15 @@ export const InitialTokenAllocation = () => {
 
 Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is part of the setting reuired to deliver its features. There are several stages involved in the lifecycle of a CryptoCommodity.
 
-- Process starts with an optional funding period. Thi period is dedicated to create one or multiple funding round my the issuing team and raise funds from investor to fund the project,
+- <b>Funding Rounds</b>. The process starts with an optional funding period. This period is dedicated to create one or multiple funding rounds by the issuing team and raise funds from investors to fund the project. This is an optional step.
 
-- When fuding rounds are finished, the Token Generation Event (TGE) happens. During this event, Supply is first added to the CryptoCommodity with initial allocations s described later. The TGE timing is defined by the CryptoCurrency issuer in the schedule and roadmap. 
+- <b>Token Generation Event</b>. Once fuding rounds are finished, the Token Generation Event (TGE) happens. In this one time ocurring event, the initial supply is first added to the CryptoCommodity with the initial allocations as described later. The TGE timing is defined by the CryptoCurrency issuer in the schedule and roadmap.
 
-- After the TGE, the project activities will push up the price of the token whereas it captures the value of the underlying asset. During this stage, the more benefitial profile for the token is this of a gold standard because it will allow uick growth of the value for investors,
+- <b>Value Capture</b>>. After the TGE, the project activities will push up the price of the token whereas it captures the value of the underlying asset. During this stage, the more benefitial profile for the token is this of a gold standard because it will allow a quick growth of the value for investors,
 
-- When the demand of the asset utility on the underlying market matches the supply, it is considered that the value has been captured. This is called Value Capture Event (VCE). The VCE is a equilibrium point, and therefore, its timing can be estimated, it can also be advanced by increasing the demand but cannot be precised beforehand.
+- <b>Value Capture Event</b>When the demand of the asset utility on the underlying market matches the supply, it is considered that the value has been captured. This is called Value Capture Event (VCE). The VCE is a equilibrium point, and therefore, its timing can be estimated, can also be advanced or delayed by tuning the demand but cannot be precised beforehand.
 
-- After the Value Capture Event. the stabilization mechanism guarantees that the value of the underlying asset is maintained,
+- <b>Value Delivery</b>. After the Value Capture Event. the stabilization mechanism guarantees that the value of the underlying asset is maintained. This is the permanent regime where the token is focused in value delivery. During this period the DeFi Services take place.
 
 <div className="panel">
 <Line
@@ -1274,34 +1274,19 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 />
 </div>
 
-#### 5.1.1. Total Supply Composition
+#### 5.2. Total Supply Composition
 
 The Total Supply for a CryptoCommodity is the number of tokens units existing in a certain moment.
 
 The composition of Total Supply would depend on the stage in which the CryptoCommodity is working:
 
-- before the TGE, there is not Supply in the Token. Supply comes to the token on TGE.
+- during the <b>value capture period</b>, between the TGE and the VCE, the Total Supply is fixed. In this period, if the project raise expectations, the number of tokens on hands on holders grows as the demand also grows and, conversely, the number of tokens in the exchanges should shink. When demand matches token unit in the exchanges, the VCE is fired.
 
-- during the value capture period, between the TGE and the VCE, the Total Supply is fixed and 
-
-- after the VCE, the stabilization mechanism taskes palce, the DeFi Services initiates and the the Supply composition expands ni both holders and DeFi Servies.
+- the VCE triggers the stabilization mechanism which guarantees token units in the exchanges matching real demand, in order to maintain the captured underlying value. This is the <b>value delivery period</b> As the demand increases, the number of token units in the exchanges should also increase. At this point, the CryptoCommodity delivers the 3 functions of money and there are holders that store token units to keep their funds and other to trade the underlting market. On VCE also the DeFi Services initiates.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/supply_evolution.svg" width="100%"></img>
 </div>
-
-### 5.2. Supply Management on Launch
-
-
-#### 5.2.1. Determining Initial Supply
-
-The initial Supply must cover:
-
-- the Funding Rounds
-
-- the Trading Allocation which includes the pairs in exchanges and the reserve
-
-- the project tokens which includes the team tokens
 
 ### 5.3. Consolidated Supply Management
 
