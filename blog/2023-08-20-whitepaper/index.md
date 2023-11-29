@@ -1555,11 +1555,12 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 
 
-### 7. A decentralized commodities based economy
+## 7. A decentralized commodities based economy
+---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-#### 7.1. Previous Discussions
+### 7.1. Previous Discussions
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -1567,7 +1568,7 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-#### 7.2. Particular Scenario
+### 7.2. Particular Scenario
 
 In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
 
@@ -1576,7 +1577,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
 
-#### 7.3. Stability of a CryptoCommodity Market
+### 7.3. Stability of a CryptoCommodity Market
 
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
@@ -1586,7 +1587,7 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 </div>
 
 
-#### 7.4. Free Banking in Practice
+### 7.4. Free Banking in Practice
 
 incremental introduction
 
@@ -1594,13 +1595,80 @@ coexistence with legal ledger
 
 
 
-#### 7.5. Further Industry Development
+### 7.5. Further Industry Development
 
 - Aggregated currencies
 
 - Insurance
 
+### 7.6. Comparing Economic Models
 
+<table>
+	<thead>
+		<tr>
+			<th scope="col">Feature</th>
+			<th scope="col">Fiat</th>
+			<th scope="col">CrytoCommodity</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Price Formation</th>
+			<td>Distorted</td>
+			<td>Matching consumers will</td>
+		</tr>
+		<tr>
+			<th scope="row">Relative Prices</th>
+			<td>Distorted</td>
+			<td>Matching consumers will</td>
+		</tr>
+		<tr>
+			<th scope="row">Economic Calculation</th>
+			<td>Biased</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th scope="row">Allocation of Resources</th>
+			<td>Priviledged</td>
+			<td>Matching consumers will</td>
+		</tr>
+		<tr>
+			<th scope="row">Critical Resources</th>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Credit Availability</th>
+			<td>Yes, with Cantillon Effects</td>
+			<td>Yes, without Cantillon Effects</td>
+		</tr>
+		<tr>
+			<th scope="row">Entry Barriers</th>
+			<td>Yes</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<th scope="row">Projects Risk</th>
+			<td>Socialized</td>
+			<td>Privatized</td>
+		</tr>
+		<tr>
+			<th scope="row">Supply / Demand matching</th>
+			<td>No</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th scope="row">Externalities</th>
+			<td>No</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th scope="row">Social Values</th>
+			<td>Imposed</td>
+			<td>Natural</td>
+		</tr>
+	</tbody>
+</table>
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1667,79 +1735,7 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-### 8.3. Comparing Economic Models
 
-<table>
-	<thead>
-		<tr>
-			<th scope="col">Feature</th>
-			<th scope="col">Fiat</th>
-			<th scope="col">CrytoCommodity</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row">Price Formation</th>
-			<td>Distorted</td>
-			<td>Matching consumers will</td>
-		</tr>
-		<tr>
-			<th scope="row">Relative Prices</th>
-			<td>Distorted</td>
-			<td>Captured from consumers</td>
-		</tr>
-		<tr>
-			<th scope="row">Liquidity Available</th>
-			<td>Priviledged</td>
-			<td>Democratized</td>
-		</tr>
-		<tr>
-			<th scope="row">Critical Resources</th>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Allocation of Resources</th>
-			<td>Priviledged</td>
-			<td>Matching consumers will</td>
-		</tr>
-		<tr>
-			<th scope="row">Economic Calculation</th>
-			<td>No</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<th scope="row">Credit Availability</th>
-			<td>Yes, with Cantillon Effects</td>
-			<td>Yes, without Cantillon Effects</td>
-		</tr>
-		<tr>
-			<th scope="row">Entry Barriers</th>
-			<td>Yes</td>
-			<td>No</td>
-		</tr>
-		<tr>
-			<th scope="row">Projects Risk</th>
-			<td>Socialized</td>
-			<td>Privatized</td>
-		</tr>
-		<tr>
-			<th scope="row">Supply / Demand matching</th>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Externalities</th>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Social Values</th>
-			<td>Imposed</td>
-			<td>Natural</td>
-		</tr>
-	</tbody>
-</table>
 
 
 
