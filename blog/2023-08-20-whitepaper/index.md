@@ -239,7 +239,7 @@ Differently to a stablecoin, which must provision the collateral corresponding t
 
 On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required by law. This makes launching a currency friendly for any citizen which has a real world project.
 
-Typically there are 3 kind of finding rounds:
+Essentially there are 3 kind of funding rounds:
 
 - private rounds
 

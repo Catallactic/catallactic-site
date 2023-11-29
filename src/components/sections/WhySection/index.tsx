@@ -71,7 +71,7 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">Catallactic is created to build cryptocurrencies capturing value of Commodities.</p>
 										<p className="font-italic text-muted mb-2">Capturing value means transferring to the token price the marginal (incremental) utility as perceived by consumers. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
 										<p className="font-italic text-muted mb-2">Capturing the value of commodity provides to Units of Account <a href="/blog/The%206%20Styles%20of%20RWA%20Tokenization#6-rwa-unit-of-account">different features to an stablecoin</a>.</p>
-										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, existing since Adam Smith, which assumes a legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
+										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, which assumes a legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
 									</div>
 									
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -88,8 +88,8 @@ export default function WhySection(): JSX.Element {
 									</div>
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab3" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-										<h4 className="font-italic mb-4">How can contribute?</h4>
-										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, existing since Adam Smith, which assumes a legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
+										<h4 className="font-italic mb-4">Who can contribute?</h4>
+										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, which assumes a legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
 										<p className="font-italic text-muted mb-2">Anyone that enjoys the idea of private issued money can contribute to Catallactic.</p>
 										<p className="font-italic text-muted mb-2">Catallactic needs guidelines, articles, essays or contributions from process engineers, field specialists as economists, tax experts or lawyers, investor, traders, token issuers, philosophers or political philosophers.</p>
 									</div>
