@@ -188,6 +188,26 @@ The only Token Model that has the purpose to become a currency today is the Stab
 | Collateral on inception needed? | Yes                                                         | No                                                                  |
 
 
+### 2.5. Who will benefit?
+
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
+
 
 
 
@@ -213,18 +233,32 @@ All the requirements described must be particularized for each stage of the Cryp
 
 ### 3.1. Funding
 
-#### 3.1.1. Funding Rounds
+Differently to a stablecoin, which must provision the collateral corresponding to initial supply on inception, CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
 
-Differently to a stablecoin, which must accomplish the required collateral on inception, CryptoCommodity Framework provides to th issuer the infrastructure to fund his project. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
+#### 3.1.2. Defining Funding Rounds
 
-On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required. This makes launching a currency friendly for any citizen which has a real world project.
+On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required by law. This makes launching a currency friendly for any citizen which has a real world project.
 
-Launchpad is build-in in dAppmin
+Typically there are 3 kind of finding rounds:
+
+- private rounds
+
+- presales
+
+- crowdsales
+
+Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A custom launchpad is build-in in dAppmin.
 
 Special attention must be paid to compliance.
 
+#### 3.1.3. Calculating Investors Profit
 
-#### 3.1.2. Vesting
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
+</div>
+
+
+#### 3.1.4. Determining Vesting Schedules
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TG, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
 
@@ -330,9 +364,7 @@ export const SupplyProfileChart = () => {
 
 <SupplyProfileChart/>
 
-
-
-#### 3.1.3. Investors Exit
+#### 3.1.5. Estimating Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -476,15 +508,6 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 	plugins={[/*ChartDataLabels*/]}
 />
 </div>
-
-#### 3.1.4. Investors Profit
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
-</div>
-
-
-
 
 ### 3.2. Negotiation
 
@@ -1594,7 +1617,7 @@ price distortion
 
 
 
-### 8.2. The Splitted Economy
+### 8.2. The Split Economy
 
 #### 8.2.1. The real economy
 
@@ -1604,7 +1627,7 @@ Real economy can be measured by the GDP.
 
 #### 8.2.2. The financial economy
 
-The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources.
+The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
 #### 8.2.3. Comparing real vs financial economy
 

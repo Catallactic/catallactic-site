@@ -3,8 +3,8 @@
    id="svg207"
    version="1.1"
    preserveAspectRatio="xMinYMin meet"
-   viewBox="0 0 2073.1593 939.46039"
-   height="939.46039"
+   viewBox="0 0 2073.1593 1004.4604"
+   height="1004.4604"
    width="2073.157"
    sodipodi:docname="supply_evolution.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -25,8 +25,8 @@
      inkscape:pagecheckerboard="false"
      showgrid="false"
      inkscape:zoom="0.47031876"
-     inkscape:cx="1035.468"
-     inkscape:cy="579.39429"
+     inkscape:cx="1050.3515"
+     inkscape:cy="579.39428"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="0"
@@ -354,7 +354,7 @@
      width="231.01794"
      height="222.33279"
      x="116.98707"
-     y="662.21198"
+     y="710.21198"
      rx="23.892715"
      ry="72.521866" />
   <rect
@@ -370,12 +370,12 @@
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
      x="232.86745"
-     y="781.66718"
+     y="825.70612"
      id="text5317-6-8-7-3-4-0-6-8-6-0-3"
      transform="scale(1.0008936,0.9991072)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-0-5-2"
        x="232.86745"
-       y="781.66718"
+       y="825.70612"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">EXCHANGES</tspan></text>
   <rect
      style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.931139;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -383,19 +383,19 @@
      width="231.01794"
      height="173.0575"
      x="427.64011"
-     y="713.8623"
+     y="761.8623"
      rx="23.892715"
      ry="56.448952" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
      x="541.47363"
-     y="810.78223"
+     y="858.82471"
      id="text5317-6-8-7-3-4-0-6-8-6-0-3-8"
      transform="scale(1.0008936,0.9991072)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-0"
        x="541.47363"
-       y="810.78223"
+       y="858.82471"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">EXCHANGES</tspan></text>
   <text
      xml:space="preserve"
@@ -408,6 +408,46 @@
        x="230.87595"
        y="594.41504"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">HOLDERS</tspan></text>
+  <rect
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.472406;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-0-9-4-9-9-6-7-9"
+     width="231.03714"
+     height="44.539097"
+     x="116.96788"
+     y="663.67285"
+     rx="23.894703"
+     ry="14.528036" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
+     x="228.35371"
+     y="694.992"
+     id="text5317-6-8-7-3-4-0-6-8-6-0-3-7-3"
+     transform="scale(1.0008936,0.9991072)"><tspan
+       id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-5-3"
+       x="228.35371"
+       y="694.992"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">PROJECT</tspan></text>
+  <rect
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.472406;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-0-9-4-9-9-6-7-9-6"
+     width="231.03714"
+     height="44.539097"
+     x="427.62094"
+     y="715.8623"
+     rx="23.894703"
+     ry="14.528036" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
+     x="538.72937"
+     y="747.22852"
+     id="text5317-6-8-7-3-4-0-6-8-6-0-3-7-3-2"
+     transform="scale(1.0008936,0.9991072)"><tspan
+       id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-5-3-6"
+       x="538.72937"
+       y="747.22852"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">PROJECT</tspan></text>
   <rect
      style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:1.03901;stroke-linejoin:round;stroke-opacity:0.884574"
      id="rect7814-0-9-4-9-9-6-7-8"
@@ -434,19 +474,19 @@
      width="231.01794"
      height="123.4746"
      x="755.8172"
-     y="761.72809"
+     y="809.72809"
      rx="23.892715"
      ry="40.2757" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
      x="869.31989"
-     y="833.42554"
+     y="881.46802"
      id="text5317-6-8-7-3-4-0-6-8-6-0-3-8-2"
      transform="scale(1.0008936,0.9991072)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-0-9"
        x="869.31989"
-       y="833.42554"
+       y="881.46802"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">EXCHANGES</tspan></text>
   <rect
      style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.884946;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -454,7 +494,7 @@
      width="231.01794"
      height="156.31291"
      x="1065.7234"
-     y="728.33862"
+     y="776.33862"
      rx="23.892715"
      ry="50.987103" />
   <rect
@@ -470,12 +510,12 @@
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
      x="1180.646"
-     y="819.83777"
+     y="867.88025"
      id="text5317-6-8-7-3-4-0-6-8-6-0-3-8-2-2"
      transform="scale(1.0008936,0.9991072)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-0-9-2"
        x="1180.646"
-       y="819.83777"
+       y="867.88025"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">EXCHANGES</tspan></text>
   <rect
      style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.962403;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -483,19 +523,19 @@
      width="230.94049"
      height="184.93556"
      x="1397.6582"
-     y="700.48633"
+     y="748.48633"
      rx="23.884705"
      ry="60.323418" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
-     x="1511.0798"
-     y="809.66107"
+     x="1510.8042"
+     y="850"
      id="text5317-6-8-7-3-4-0-6-8-6-0-3-8-2-2-6"
      transform="scale(1.0008936,0.9991072)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-0-9-2-9"
-       x="1511.0798"
-       y="809.66107"
+       x="1510.8042"
+       y="850"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">EXCHANGES</tspan></text>
   <rect
      style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:1.15238;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -558,14 +598,14 @@
      rx="23.925022"
      ry="38.807762" />
   <rect
-     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:1.30376;stroke-linejoin:round;stroke-opacity:0.884574"
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:1.28725;stroke-linejoin:round;stroke-opacity:0.884574"
      id="rect7814-0-9-4-9-9-6-7-8-6-2-3"
-     width="230.96208"
-     height="339.34891"
-     x="1397.6195"
-     y="361.09869"
-     rx="23.88694"
-     ry="110.6909" />
+     width="230.97859"
+     height="330.78461"
+     x="1397.6112"
+     y="361.09042"
+     rx="23.888647"
+     ry="107.89735" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
@@ -594,19 +634,19 @@
      width="230.66647"
      height="231.97595"
      x="1814.1985"
-     y="654.46466"
+     y="702.46466"
      rx="23.856365"
      ry="75.667343" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
      x="1932.6401"
-     y="773.08966"
+     y="831.14099"
      id="text5317-6-8-7-3-4-0-6-8-6-0-3-8-2-2-6-6"
      transform="scale(1.0008936,0.9991072)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-0-9-2-9-8"
        x="1932.6401"
-       y="773.08966"
+       y="831.14099"
        style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">EXCHANGES</tspan></text>
   <rect
      style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.772572;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -618,14 +658,14 @@
      rx="23.925022"
      ry="38.807762" />
   <rect
-     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:1.60416;stroke-linejoin:round;stroke-opacity:0.884574"
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:1.56523;stroke-linejoin:round;stroke-opacity:0.884574"
      id="rect7814-0-9-4-9-9-6-7-8-6-2-3-9"
-     width="230.96208"
-     height="513.73956"
-     x="1814.1985"
-     y="140.7251"
-     rx="23.88694"
-     ry="167.57471" />
+     width="231.00101"
+     height="489.02692"
+     x="1814.1791"
+     y="140.70563"
+     rx="23.890966"
+     ry="159.51378" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
@@ -663,12 +703,12 @@
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:32px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="2095.0933"
-     y="880.95831"
+     y="926.76251"
      id="text5317-6-8-7-3-4-0-6-8-3-6-2-3-7"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-6-2-9-6-7-7-2-5"
        x="2095.0933"
-       y="880.95831"
+       y="926.76251"
        style="font-size:32px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">ORDERS</tspan></text>
   <text
      xml:space="preserve"
@@ -735,14 +775,94 @@
        y="70.209473" /></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:2.13356px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 2060.3103,885.90804 c 0,0 1.0789,2.40451 -1939.78186,-2.19684 C 115.17303,17.965012 115.17303,17.965012 115.17303,17.965012"
+     d="m 2060.3103,933.90804 c 0,0 1.0789,2.40451 -1939.78186,-2.19684 C 115.17303,65.96506 115.17303,65.96506 115.17303,65.96506"
      id="path70570" />
   <path
-     style="fill:none;stroke:#ff0000;stroke-width:3.00000335;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:9.00001006, 3.00000335;stroke-dashoffset:0"
+     style="fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9.00001, 3;stroke-dashoffset:0;stroke-opacity:1"
      d="M 84.977454,492.0271 C 1019.0019,491.9698 1020.2036,490.76808 1020.2036,490.76808"
      id="path17337" />
+  <rect
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.472406;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-0-9-4-9-9-6-7-9-7"
+     width="231.03714"
+     height="44.539097"
+     x="756.2511"
+     y="764.38239"
+     rx="23.894703"
+     ry="14.528036" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
+     x="867.06592"
+     y="795.78925"
+     id="text5317-6-8-7-3-4-0-6-8-6-0-3-7-3-5"
+     transform="scale(1.0008936,0.9991072)"><tspan
+       id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-5-3-69"
+       x="867.06592"
+       y="795.78925"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">PROJECT</tspan></text>
+  <rect
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.472406;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-0-9-4-9-9-6-7-9-8"
+     width="231.03714"
+     height="44.539097"
+     x="1065.4651"
+     y="730.26782"
+     rx="23.894703"
+     ry="14.528036" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
+     x="1176.0015"
+     y="761.64551"
+     id="text5317-6-8-7-3-4-0-6-8-6-0-3-7-3-7"
+     transform="scale(1.0008936,0.9991072)"><tspan
+       id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-5-3-2"
+       x="1176.0015"
+       y="761.64551"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">PROJECT</tspan></text>
+  <rect
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.509729;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-0-9-4-9-9-6-7-9-82"
+     width="231.03714"
+     height="51.854866"
+     x="1394.2537"
+     y="695.16553"
+     rx="23.894703"
+     ry="16.914339" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
+     x="1504.5054"
+     y="731.83392"
+     id="text5317-6-8-7-3-4-0-6-8-6-0-3-7-3-9"
+     transform="scale(1.0008936,0.9991072)"><tspan
+       id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-5-3-9"
+       x="1504.5054"
+       y="731.83392"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">PROJECT</tspan></text>
+  <rect
+     style="fill:#48bf92;fill-opacity:1;stroke:#00110f;stroke-width:0.596805;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-0-9-4-9-9-6-7-9-82-0"
+     width="231.03714"
+     height="71.084709"
+     x="1813.0397"
+     y="629.90576"
+     rx="23.894703"
+     ry="23.186848" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19037"
+     x="1922.9106"
+     y="675.75519"
+     id="text5317-6-8-7-3-4-0-6-8-6-0-3-7-3-9-2"
+     transform="scale(1.0008936,0.9991072)"><tspan
+       id="tspan5315-2-4-2-6-0-6-2-9-0-5-2-5-3-9-7"
+       x="1922.9106"
+       y="675.75519"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.19037">PROJECT</tspan></text>
   <path
-     style="fill:none;stroke:#ff0000;stroke-width:3.00000335;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:9.00001006, 3.00000335;stroke-dashoffset:0"
-     d="M 863.36734,759.85784 C 2052.394,642.69137 2052.394,642.69137 2052.394,642.69137"
-     id="path18073" />
+     style="fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:9.00001, 3;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 832.43268,812.0719 C 2021.4593,694.9054 2021.4593,694.9054 2021.4593,694.9054"
+     id="path18073-6-6" />
 </svg>
