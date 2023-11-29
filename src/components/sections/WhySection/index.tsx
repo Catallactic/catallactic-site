@@ -17,6 +17,9 @@ function setShownTab(num: number) {
 	document.getElementById("whytab3").classList.remove("show");
 	document.getElementById("whytab3").classList.remove("active");
 	document.getElementById("v-whytab3").classList.remove("active");
+	document.getElementById("whytab4").classList.remove("show");
+	document.getElementById("whytab4").classList.remove("active");
+	document.getElementById("v-whytab4").classList.remove("active");
 	
 	document.getElementById("whytab" + num).classList.add("show");
 	document.getElementById("whytab" + num).classList.add("active");
@@ -50,6 +53,10 @@ export default function WhySection(): JSX.Element {
 								</a>
 
 								<a className="nav-link mb-3 p-3 shadow" id="v-whytab3" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(3)}>
+									<span className="font-weight-bold text-uppercase">Who can contribute</span>
+								</a>
+
+								<a className="nav-link mb-3 p-3 shadow" id="v-whytab4" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(4)}>
 									<span className="font-weight-bold text-uppercase">How can I contribute</span>
 								</a>
 
@@ -64,6 +71,7 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">Catallactic is created to build cryptocurrencies capturing value of Commodities.</p>
 										<p className="font-italic text-muted mb-2">Capturing value means transferring to the token price the marginal (incremental) utility as perceived by consumers. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
 										<p className="font-italic text-muted mb-2">Capturing the value of commodity provides to Units of Account <a href="/blog/The%206%20Styles%20of%20RWA%20Tokenization#6-rwa-unit-of-account">different features to an stablecoin</a>.</p>
+										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, existing since Adam Smith, which assumes a legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
 									</div>
 									
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -78,11 +86,17 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">Catallactic aims to relief cryptocurrency issuers of Units of Account of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. The goal, for the sake of practicality is to create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
 										<p className="font-italic text-muted mb-2">The outcomes from Catallactic are Open Source and will allow private actors to build additional tools, plugins or know-how that can complement Catallactic deliverables.</p>
 									</div>
-									
+
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab3" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+										<h4 className="font-italic mb-4">How can contribute?</h4>
+										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, existing since Adam Smith, which assumes a legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
+										<p className="font-italic text-muted mb-2">Anyone that enjoys the idea of private issued money can contribute to Catallactic.</p>
+										<p className="font-italic text-muted mb-2">Catallactic needs guidelines, articles, essays or contributions from process engineers, field specialists as economists, tax experts or lawyers, investor, traders, token issuers, philosophers or political philosophers.</p>
+									</div>
+									
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
 										<h4 className="font-italic mb-4">How can I contribute?</h4>
-										<p className="font-italic text-muted mb-2">Anyone that accepts the principle of decentralization can contribute to Catallactic outcomes.</p>
-										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contract and blockchain languages, Catallactic needs guidelines, articles, essays or contributions from process engineers, field specialists as economists, tax experts or lawyers, investor, traders, token issuers, philosophers or political philosophers.</p>
+										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contract and blockchain languages, Catallactic needs guidelines, articles, essays or contributions to build a body of knowdledge.</p>
 										<p className="font-italic text-muted mb-2">We think that, as much as possible, principles as functionality, practicality, usability or decentralization must drive technological efforts, no the other way around.</p>
 										<p className="font-italic text-muted mb-2">Contributions can be done on the <a href="/docs/suite/intro">site pages</a> itself, as they are editable. We are configuring a <a href="https://discord.gg/xwJR9MZPmA">discord</a> community, we have a <a href="https://cryptonomics.network/">forum</a> (in trial period), and of course, all pages and tools are shared in <a href="https://github.com/Catallactic">github</a>.</p>
 									</div>
