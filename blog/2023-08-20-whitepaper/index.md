@@ -174,18 +174,19 @@ Finally, the CryptoCommodity can deliver additional Financial Services as DeFi S
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
-|                                 | Fiat Stablecoin                                             | CryptoCommodity                                                     |
-| :-------------------------------| :-----------------------------------------------------------| :-------------------------------------------------------------------|
-| Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset             |
-| Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset             |
-| Price Formation                 | Pegged to Fiat Price of asset in internacional market       | Pegged to economic value of asset in underlying market              |
-| Scope                           | Mostly Global														                    | Local or Global                                                     |
-| Value Decentralized?            | No, pegged to fiat prices				                            | Yes, forms its own price                                            |
-| Process Decentralized?          | No, manual stabilization					                          | Yes, built-in automated stabilization                               |
-| Decisions Decentralized?        | No, opaque decisions  			   		                          | Yes, releasing to the community when possible                       |
-| Disclosures  										| No                                                          | Yes, full disclosure                                                |
-| Allows project funding?         | No                                                          | Yes                                                                 |
-| Collateral on inception needed? | Yes                                                         | No                                                                  |
+|                                 | Fiat Stablecoin                                             | CryptoCommodity                                                               |
+| :-------------------------------| :-----------------------------------------------------------| :-----------------------------------------------------------------------------|
+| Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset                       |
+| Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset                       |
+| Price Formation                 | Pegged to Fiat Price of asset in internacional market       | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
+| Scope                           | Mostly Global														                    | Local or Global                                                               |
+| Value Decentralized?            | No, pegged to fiat prices				                            | Yes, forms its own price                                                      |
+| Process Decentralized?          | No, manual stabilization					                          | Yes, built-in automated stabilization                                         |
+| Decisions Decentralized?        | No, opaque decisions  			   		                          | Yes, releasing to the community when possible                                 |
+| Disclosures  										| No                                                          | Yes, full disclosure                                                          |
+| Allows project funding?         | No                                                          | Yes                                                                           |
+| Collateral on inception needed? | Yes                                                         | No                                                                            |
+| Provides credit? 				        | Yes, with social risk                                       | Yes, with private risk                                                        |
 
 
 ### 2.5. Who will benefit?
@@ -583,7 +584,9 @@ Another consideration is to prevent high concentration of token units in some wa
 
 #### 3.1.1. Lending
 
-
+<div style={{textAlign: 'center'}}>
+	<img src="/img/credit.png" width="70%"></img>
+</div>
 
 
 ### 3.5. Crowdsolving
@@ -1366,7 +1369,6 @@ The price of money is its purchasing power. As any price, the price of money is 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>. 
 
 <table>
-
   <tr>
     <td>Quality</td>
     <td>Authors</td>
@@ -1645,19 +1647,18 @@ The financial system is mainly concerned either with moving funds around so that
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/realvsfinancial.jpg" width="40%"></img>
-</div>
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://d.ibtimes.co.uk/en/full/1601428/im3.png?w=736&f=8255c0efab60153fdd6e458e80c307b0" width="40%"></img>
-</div>
 
 
+<table>
+	<tr>
+	  <td><img src="/img/realvsfinancial.jpg" width="100%"></img></td>
+	  <td><img src="https://d.ibtimes.co.uk/en/full/1601428/im3.png?w=736&f=8255c0efab60153fdd6e458e80c307b0" width="100%"></img></td>
+	</tr>
+</table>
 
 
 
-#### 8.2.4. The Squizzed Real Economy
+#### 8.2.4. The Squeezed Real Economy
 
 barreras a la entrada impuestas x el fiat
 
@@ -1668,14 +1669,77 @@ Cantillon Effects
 
 ### 8.3. Comparing Economic Models
 
-
-- decoupled from fiat
-
-- built-in price formation
-
-- cryptocommodity vs stablecoin. Both capture price, one from it fownmarkt, the other from international market
-
-- Credit without Cantillon
+<table>
+	<thead>
+		<tr>
+			<th scope="col">Feature</th>
+			<th scope="col">Fiat</th>
+			<th scope="col">CrytoCommodity</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Price Formation</th>
+			<td>Distorted</td>
+			<td>Matching consumers will</td>
+		</tr>
+		<tr>
+			<th scope="row">Relative Prices</th>
+			<td>Distorted</td>
+			<td>Captured from consumers</td>
+		</tr>
+		<tr>
+			<th scope="row">Liquidity Available</th>
+			<td>Priviledged</td>
+			<td>Democratized</td>
+		</tr>
+		<tr>
+			<th scope="row">Critical Resources</th>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Allocation of Resources</th>
+			<td>Priviledged</td>
+			<td>Matching consumers will</td>
+		</tr>
+		<tr>
+			<th scope="row">Economic Calculation</th>
+			<td>No</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th scope="row">Credit Availability</th>
+			<td>Yes, with Cantillon Effects</td>
+			<td>Yes, without Cantillon Effects</td>
+		</tr>
+		<tr>
+			<th scope="row">Entry Barriers</th>
+			<td>Yes</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<th scope="row">Projects Risk</th>
+			<td>Socialized</td>
+			<td>Privatized</td>
+		</tr>
+		<tr>
+			<th scope="row">Supply / Demand matching</th>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Externalities</th>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Social Values</th>
+			<td>Imposed</td>
+			<td>Natural</td>
+		</tr>
+	</tbody>
+</table>
 
 
 
@@ -1826,3 +1890,6 @@ Finally we have described how the adoption of this new token could empower the s
 [1] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
 
 https://sciencepolicy.colorado.edu/students/envs_5120/friedman_1966.pdf
+
+
+Interaction between Financial Economy and Real Economy. Ly Dai Hung, 2022 - https://hal.science/hal-03863210/
