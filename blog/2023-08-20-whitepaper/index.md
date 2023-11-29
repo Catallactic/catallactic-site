@@ -1515,19 +1515,30 @@ During the Valkue Delivery Stage the token will start its stability mechanism to
 
 #### 6.5.2. The challenge of Wallets
 
-vending machines?
+15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
+
+The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
+
+We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
+
+I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
+
+#### 6.5.3. The challenge of Security
+
+Security is crucial in crypto world. 
+
+We need to design a secure system. Code is open source to allow white hats contributions. We can explore ERC-20R with a diamond standard and DAO-protected storage backups.
 
 
-#### 6.5.3. The challenge of Compliance
+#### 6.5.4. The challenge of Decentralization
 
 
-#### 6.5.4. The challenge of Security
-
-
-#### 6.5.5. The challenge of Decentralization
+#### 6.5.5. The challenge of Compliance
 
 
 #### 6.5.6. The challenge of Transparency
+
+
 
 
 
