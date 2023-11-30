@@ -1480,69 +1480,7 @@ To work as Unit of Account:
 
 The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
-#### 6.5.1. The challenge of Velocity of Circulation (Saleableness)
-
-Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
-
-Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
-
-A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
-
-Causes of the high token velocity is that the prices are not expressed on the currency.
-
-To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
-
-##### 6.5.1.1. Token Velocity during Value Capture 
-
-During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
-
-- Introduce a profit-share mechanism
-
-- Build staking functions into the protocol
-
-- Balanced burn-and-mint mechanics
-
-- Gamification to encourage holding
-
-- for a local market, vending machines could be used to deliver the product or service
-
-- express the prices in CryptoCommodity units
-
-
-##### 6.5.1.2. Token Velocity during Value Delivery
-
-During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
-
-- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
-
-#### 6.5.2. The challenge of Wallets
-
-15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
-
-The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
-
-We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
-
-I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
-
-#### 6.5.3. The challenge of Security
-
-Security is crucial in crypto world. 
-
-We need to design a secure system. Code is open source to allow white hats contributions. We can explore ERC-20R with a diamond standard and DAO-protected storage backups.
-
-
-#### 6.5.4. The challenge of Decentralization
-
-
-#### 6.5.5. The challenge of Compliance
-
-
-#### 6.5.6. The challenge of Transparency
-
-
-
-
+We will discuss all the requirements that makes up a quality curency in the implementation section.
 
 ### 6.6. The ideal underying asset
 
@@ -1763,7 +1701,56 @@ Every facet contains specific functions which implement its functionality.
 
 Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
 
-### 9.3. Security
+### 9.3. The challenge of Velocity of Circulation (Saleableness)
+
+Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
+
+Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
+
+A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
+
+Causes of the high token velocity is that the prices are not expressed on the currency.
+
+To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
+
+#### 9.3.1. Token Velocity during Value Capture 
+
+During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
+
+- Introduce a profit-share mechanism
+
+- Build staking functions into the protocol
+
+- Balanced burn-and-mint mechanics
+
+- Gamification to encourage holding
+
+- for a local market, vending machines could be used to deliver the product or service
+
+- express the prices in CryptoCommodity units
+
+
+#### 9.3.2. Token Velocity during Value Delivery
+
+During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
+
+- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
+
+### 9.4. The challenge of Wallets
+
+15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
+
+The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
+
+We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
+
+I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
+
+### 9.5. The challenge of Security
+
+Security is crucial in crypto world. 
+
+We need to design a secure system. Code is open source to allow white hats contributions. We can explore ERC-20R with a diamond standard and DAO-protected storage backups.
 
 Code includes multisig access to unctionalities.
 
@@ -1771,8 +1758,7 @@ It also creates backup of the status to allow reverting in case of vulnerability
 
 The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
 
-
-### 9.4. Decentralization
+### 9.6. The challenge of Decentralization
 
 Decentralization is a features that should analized at different levels:
 
@@ -1782,17 +1768,18 @@ Decentralization is a features that should analized at different levels:
 
 - governance decentralization
 
-
-### 9.5. Compliance
+### 9.7. The challenge of Compliance
 
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
 https://github.com/Catallactic/catallactic-suite
 
-### 9.6. Privacy
+### 9.8. The challenge of Transparency
 
 
-### 9.7. Deployment
+
+
+### 9.9. Deployment
 
 
 
