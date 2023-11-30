@@ -1335,19 +1335,11 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 #### 5.3.4. Collateral
 
-For redeemable currencies, the goal of collateral is allow the holder to redeem its currency by the underlying asset on demand. A CryptoCommodity system is naturally collateralized, by default, by a supply equivalent to the current demand. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility.
+The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
-A first question to understand is what volume collateralization is needed
+Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
 
-A first question is if full collateralization is required. Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
-
-
-
-
-Collateralization higher that this amount should be provisioned by the issuer in case a 100% collateralization is intended.
-
-
-
+A CryptoCommodity system is naturally collateralized. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: "the realization that a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1493,7 +1485,7 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 
 
-## 7. A decentralized commodities based economy
+## 7. A CryptoCommodity Market
 ---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
@@ -1517,7 +1509,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
 ### 7.3. Stability of a CryptoCommodity Market
 
-#### 7.3.1. A regulated system
+#### 7.3.1. Understanding a regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1896,27 +1888,32 @@ Finally we have described how the adoption of this new token could empower the s
 
 [1] ERC-2535: Diamonds, Multi-Facet Proxy, 2020-02-22, Nick Mudge - https://eips.ethereum.org/EIPS/eip-2535
 
-
 [1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
 
-[1] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
+
+
+
 
 [1] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
 
-[1] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
+[1] Private Money: The Path to Monetary Stability, Kevin Dowd, Institute of Economic Affairs, 1988 - 71 pagina's https://iea.org.uk/publications/research/private-money-the-path-to-monetary-stability
 
-
+[1] In Search of a Monetary Anchor: A "New" Monetary Standard, International Monetary Fund, 01 Jan 1989 - https://www.elibrary.imf.org/view/journals/001/1989/082/001.1989.issue-082-en.xml
 
 [1] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
 
-[1] Private Money: The Path to Monetary Stability, Kevin Dowd, Institute of Economic Affairs, 1988 - 71 pagina's https://iea.org.uk/publications/research/private-money-the-path-to-monetary-stability
+[1] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
 
 
+
+
+[1] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
 
 [1] Money creation in the modern economy, Bank of England, 14 March 2014 - https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy
 
 [1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
 
+[1] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
 
 
 
@@ -1924,9 +1921,8 @@ Finally we have described how the adoption of this new token could empower the s
 [1] https://wtfhappenedin1971.com/
 
 
-[1] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
 
 https://sciencepolicy.colorado.edu/students/envs_5120/friedman_1966.pdf
 
 
-Interaction between Financial Economy and Real Economy. Ly Dai Hung, 2022 - https://hal.science/hal-03863210/
+[1] Interaction between Financial Economy and Real Economy. Ly Dai Hung, 2022 - https://hal.science/hal-03863210/
