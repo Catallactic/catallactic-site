@@ -1517,29 +1517,53 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
 ### 7.3. Stability of a CryptoCommodity Market
 
+#### 7.3.1. A regulated system
+
+In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.tutorialspoint.com/control_systems/images/positive_feedback.jpg" width="50%"></img>
+</div>
+<br/>
+
+#### 7.3.2. Positive vs Negative Feedback Loops
+
+
+<table>
+	<thead>
+		<tr>
+			<th scope="col">Negative Feedback Loop</th>
+			<th scope="col">Positive Feedback Loop</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><img src="https://assets.ltkcontent.com/images/8616/negative-feedback-loop_27c5571306.jpg" width="100%"></img></td>
+			<td><img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="100%"></img></td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+
+In the next 2 sections we will see how a market of privately issued CryptoCommodity is doubly regulated with negative feedbakc loops. This adds an extra layer of stability.
+
+In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
+
+#### 7.3.3. Regulation in a CryptoCommodity
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
 </div>
+<br/>
+
+#### 7.3.4. Regulation in competing currencies
+
+The free competition of multiple monetary systems produces a negative feedback loop regulation on every competing currency.
 
 
-### 7.4. Free Banking in Practice
-
-incremental introduction
-
-coexistence with legal ledger
-
-
-
-### 7.5. Further Industry Development
-
-- Aggregated currencies
-
-- Insurance
-
-### 7.6. Comparing Economic Models
+### 7.4. Comparing Economic Models
 
 <table>
 	<thead>
@@ -1608,6 +1632,17 @@ coexistence with legal ledger
 	</tbody>
 </table>
 
+### 7.5. Further Industry Development
+
+Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
+
+Additionaly, insurance companies could provide services in case a currency does not follow standards.
+
+### 7.6. Free Banking Introduction
+
+incremental introduction
+
+coexistence with legal ledger
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1688,18 +1723,30 @@ Cantillon Effects
 
 ### 9.1. Smart Contract
 
-CryptoCommodity smart contract is created as a diamond standard contract. As a diamond contract it includes 4 facets deployed at different addresses that the main contract.
+CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/token_structure.svg" width="60%"></img>
 </div>
 <br/>
 
-Every facet contains specific functions which implement its functionality. 
+Existing behaviours are:
 
-### 9.2. Upgradable
+- Crowdsale Facet.
 
-Every facet contains a versioned implementation of the functionality. However, they are upgradable in a way that one, or many functions, can be replaced by other functions with the same signature.
+- Vesting Facet
+
+- Common Facet
+
+- ERC-20 Facet
+
+By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
+
+### 9.2. Upgradeable
+
+As theoretical framework is still being created, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+
+Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
 
 ### 9.3. The challenge of Velocity of Circulation (Saleableness)
 
@@ -1748,21 +1795,23 @@ I the meatime, there is room for discussion if vending machines or gift cards co
 
 ### 9.5. The challenge of Security
 
-Security is crucial in crypto world. 
+Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
-We need to design a secure system. Code is open source to allow white hats contributions. We can explore ERC-20R with a diamond standard and DAO-protected storage backups.
+- Code includes <b>multisig role-based access</b> to functionalities.
 
-Code includes multisig access to unctionalities.
+- The whole CryptoCommodity code must be <b>audited</b>. 
 
-It also creates backup of the status to allow reverting in case of vulnerability.
+- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
 
-The whole CryptoCommodity code must be audited. Ideally should be also be in continuous validation by the community.
+- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
 ### 9.6. The challenge of Decentralization
 
 Decentralization is a features that should analized at different levels:
 
 - network decentralization
+
+crosschain
 
 - smart contract decentralization
 
@@ -1777,9 +1826,10 @@ https://github.com/Catallactic/catallactic-suite
 ### 9.8. The challenge of Transparency
 
 
+### 9.9. The challenge of Privacy
 
 
-### 9.9. Deployment
+### 9.10. Deployment
 
 
 
@@ -1842,6 +1892,10 @@ Finally we have described how the adoption of this new token could empower the s
 
 ## 12. References
 ---
+
+
+[1] ERC-2535: Diamonds, Multi-Facet Proxy, 2020-02-22, Nick Mudge - https://eips.ethereum.org/EIPS/eip-2535
+
 
 [1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
 
