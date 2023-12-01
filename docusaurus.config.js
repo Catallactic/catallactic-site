@@ -109,48 +109,23 @@ const config = {
         items: [
           {
 						type: 'docSidebar',
-            sidebarId: 'principlesSidebar',
+            sidebarId: 'moneyQualitySidebar',
             position: 'left',
-            label: 'Principles',
+            label: 'Money Quality',
           }, {
 						type: 'docSidebar',
-            sidebarId: 'tokenizationSidebar',
+            sidebarId: 'valueChainSidebar',
             position: 'left',
-            label: 'Tokenization',
-          }, {
-						type: 'docSidebar',
-            sidebarId: 'fundingSidebar',
-            position: 'left',
-            label: 'Funding',
-          }, {
-						type: 'docSidebar',
-            sidebarId: 'negotiationSidebar',
-            position: 'left',
-            label: 'Negotiation',
-          }, {
-						type: 'docSidebar',
-            sidebarId: 'operationSidebar',
-            position: 'left',
-            label: 'Distribution',
-					}, {
-            type: 'docSidebar',
-            sidebarId: 'defiSidebar',
-            position: 'left',
-            label: 'DeFi Services',
-          }, {
-            type: 'docSidebar',
-            sidebarId: 'crowdsolvingSidebar',
-            position: 'left',
-            label: 'Crowdsolving',
+            label: 'Value Chain',
           }, {
 						type: 'docSidebar',
             sidebarId: 'suiteSidebar',
-            position: 'right',
+            position: 'left',
             label: 'Suite',
           }, {
 						type: 'docSidebar',
             sidebarId: 'ecosystemSidebar',
-            position: 'right',
+            position: 'left',
             label: 'Ecosystem',
 					}, {
 						to: '/book', 
