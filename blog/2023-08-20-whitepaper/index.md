@@ -1350,7 +1350,7 @@ A CryptoCommodity system is naturally collateralized. At any moment, the issuer 
 
 In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account.
 
-### 6.2. Quality Theory of Money
+### 6.2. Quality of Money
 
 The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
 
@@ -1434,15 +1434,17 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 ### 6.4. CryptoCommodity as Currency
 
-Quantity Theory of Money does not reconciliate well with crypto. As Hayek said "The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+Quantity Theory of Money does not reconciliate well with crypto. As Hayek said 
 
-We must attend, therefore, to Qualitative Theory of Money in CryptoCommodity design. The quality of the CryptoCurrency as currency is the factor that must be optimized in order to get a widespread adoption. The implications of this will be discussed in the next chapter. 
+> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
 
-Once we have understood that qualitative theory of money should be applied to CryptoCommodities, lest discuss in this chapter what are the criteria to have a quality currency.
+This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+
+Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
 ### 6.5. CryptoCommodity as Quality Currency
 
-Creating a token is not enough to guarantee it will become a currency. To deliver the 3 function of money, a cryptocommodity must comply with the following requirement:
+In order to create a unified Quality Theory of Money we must start by identifying the functions that will be convered as every function would have different quality requirements.
 
 To work a Mean of Payment:
 
@@ -1470,11 +1472,11 @@ To work as Unit of Account:
 
 * the underlying asset must be <b>Fungible</b>. This must be enforced by the design
 
-The aforementioned requirements must be particularized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+Additionally, the above requirements must be customized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
 We will discuss all the requirements that makes up a quality curency in the implementation section.
 
-### 6.6. The ideal underying asset
+### 6.6. The ideal underlying asset
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
 
@@ -1550,7 +1552,7 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 
 #### 7.3.3. Regulation in a CryptoCommodity market
 
-A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
+Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
@@ -1580,7 +1582,7 @@ price distortion
 
 
 
-### 7.4.3 The Split Economy
+#### 7.4.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -1588,7 +1590,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-### 7.4.4. The Squeezed Real Economy
+#### 7.4.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -1877,10 +1879,6 @@ Finally we have described how the adoption of this new token could empower the s
 ---
 
 
-[1] ERC-2535: Diamonds, Multi-Facet Proxy, 2020-02-22, Nick Mudge - https://eips.ethereum.org/EIPS/eip-2535
-
-[1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
-
 
 
 
@@ -1929,6 +1927,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 [1] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
 
+[1] The Quality Theory of Money, De-Xing Guan*April 28, 2022 - http://web.ntpu.edu.tw/~guan/papers/QTM.pdf
 
 
 
@@ -1943,3 +1942,11 @@ Finally we have described how the adoption of this new token could empower the s
 [1] https://wtfhappenedin1971.com/
 
 [1] Interaction between Financial Economy and Real Economy. Ly Dai Hung, 2022 - https://hal.science/hal-03863210/
+
+
+
+
+
+[1] ERC-2535: Diamonds, Multi-Facet Proxy, 2020-02-22, Nick Mudge - https://eips.ethereum.org/EIPS/eip-2535
+
+[1] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
