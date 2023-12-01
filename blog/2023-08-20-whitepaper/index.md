@@ -211,6 +211,144 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 3. CryptoCommodity as Currency
+---
+
+In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account.
+
+### 3.2. Quality of Money
+
+The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
+
+The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. From Juan de Mariana (1609), Sir William Petty (1662), Adam Smith (1776), Jean Baptiste Say (1802), Nassau William Senior (1850), John Stuart Mill (1848), Carl Menger (1871), William Stanley Jevons’s (1875), Mises (1953), Rothbard (2004) provide different insights on the quality of money.
+
+The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
+
+One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>. 
+
+<table>
+  <tr>
+    <td>Quality</td>
+    <td>Authors</td>
+    <td>Mean of Exchange</td>
+    <td>Store of Value</td>
+    <td>Unit of Account</td>
+  </tr>
+  <tr>
+    <td>Uniform</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Divisible</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Scarce</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Durable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Portable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Acceptable</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Recognised</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
+
+### 3.3. Quantity Theory of Money
+
+In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
+
+The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
+</div>
+
+The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
+
+
+### 3.4. CryptoCommodity as Currency
+
+Quantity Theory of Money does not reconciliate well with crypto. As Hayek said 
+
+> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
+
+This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+
+Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
+
+### 3.5. CryptoCommodity as Quality Currency
+
+In order to create a unified Quality Theory of Money we must start by identifying the functions that will be convered as every function would have different quality requirements.
+
+To work as a Mean of Payment:
+
+* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
+
+* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
+
+* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
+
+* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
+
+To work as Store of Value:
+
+* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+
+* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+
+* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+
+To work as Unit of Account:
+
+* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
+
+* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
+
+Additionally, the above requirements must be customized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+
+We will discuss all the requirements that makes up a quality curency in the implementation section.
+
+### 3.6. The ideal underlying asset
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
 
 
 
@@ -221,7 +359,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 3. The CryptoCommodity Value Chain
+## 4. The CryptoCommodity Value Chain
 ---
 
 A CryptoCommodity takes economic value from nature and delivers to the adopting society.
@@ -232,11 +370,11 @@ A CryptoCommodity takes economic value from nature and delivers to the adopting 
 
 All the requirements described must be particularized for each stage of the CryptoCommodity Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will explore every funding stage and discuss requirements and opportunities.
 
-### 3.1. Funding
+### 4.1. Funding
 
 Differently to a stablecoin, which must provision the collateral corresponding to initial supply on inception, CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can work out a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
 
-#### 3.1.2. Defining Funding Rounds
+#### 4.1.2. Defining Funding Rounds
 
 On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required by law. This makes launching a currency friendly for any citizen which has a real world project.
 
@@ -252,14 +390,14 @@ Existing IDO portals are generalistic and do not play well with real worl projec
 
 Special attention must be paid to compliance.
 
-#### 3.1.3. Calculating Investors Profit
+#### 4.1.3. Calculating Investors Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
 </div>
 
 
-#### 3.1.4. Determining Vesting Schedules
+#### 4.1.4. Determining Vesting Schedules
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TG, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
 
@@ -365,7 +503,7 @@ export const SupplyProfileChart = () => {
 
 <SupplyProfileChart/>
 
-#### 3.1.5. Estimating Investors Exit
+#### 4.1.5. Estimating Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -510,11 +648,11 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 />
 </div>
 
-### 3.2. Negotiation
+### 4.2. Negotiation
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
-#### 3.2.1. Mechanism
+#### 4.2.1. Mechanism
 
 Typically ngotiation happnd by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
 
@@ -524,7 +662,7 @@ Typically ngotiation happnd by allocating tokn unit to xchang pair. Th xchang i 
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
 
-#### 3.2.1. Considerations
+#### 4.2.1. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it affects the price of the asset. Decentralization at this stage must pay attention to different aspects:
 
@@ -541,7 +679,7 @@ The system must care about the reputation of the CryptoCommodity by enabling <b>
 Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and lt to the consideration of the issuer according to compliance rule and personal prefFerences.
 
 
-### 3.3. Distribution
+### 4.3. Distribution
 
 Distribution is the process of handling over new CryptoCommodity units. There are 2 targets of distribution:
 
@@ -549,7 +687,7 @@ Distribution is the process of handling over new CryptoCommodity units. There ar
 
 - ongoing distribution, which refers to token units ditributed during the system operation, with operation or marketing purposes.
 
-#### 3.3.1. Ongoing Distribution Mechanism
+#### 4.3.1. Ongoing Distribution Mechanism
 
 There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
 
@@ -561,35 +699,35 @@ There are several distribution schemes that can be applied in different stages o
 
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
-#### 3.3.2. Premined Tokens vs Fair Launch
+#### 4.3.2. Premined Tokens vs Fair Launch
 
 
-#### 3.3.3. Considerations
+#### 4.3.3. Considerations
 
 An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
 
 Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the CryptoCommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
 
-### 3.4. DeFi Services
+### 4.4. DeFi Services
 
 
-#### 3.1.1. Payments
+#### 4.1.1. Payments
 
 
-#### 3.1.1. Cards
+#### 4.1.1. Cards
 
 
-#### 3.1.1. Transfers
+#### 4.1.1. Transfers
 
 
-#### 3.1.1. Lending
+#### 4.1.1. Lending
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/credit.png" width="70%"></img>
 </div>
 
 
-### 3.5. Crowdsolving
+### 4.5. Crowdsolving
 
 
 
@@ -604,10 +742,10 @@ Another consideration is to prevent high concentration of token units in some wa
 
 
 
-## 4. Supply Allocations
+## 5. Supply Allocations
 ---
 
-### 4.1. Token Allocation
+### 5.1. Token Allocation
 
 export const TokenAllocation = () => {
 	return (
@@ -692,7 +830,7 @@ export const TokenAllocation = () => {
 
 <TokenAllocation/>
 
-### 4.1.1. Funding Allocation
+### 5.1.1. Funding Allocation
 
 export const FundingAllocation = () => {
 	return (
@@ -777,7 +915,7 @@ export const FundingAllocation = () => {
 
 <FundingAllocation/>
 
-### 4.1.2. Negotiation Allocation
+### 5.1.2. Negotiation Allocation
 
 export const NegotiationAllocation = () => {
 	return (
@@ -862,7 +1000,7 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-### 4.1.3. Operations Allocation
+### 5.1.3. Operations Allocation
 
 export const OperationsAllocation = () => {
 	return (
@@ -947,7 +1085,7 @@ export const OperationsAllocation = () => {
 
 <OperationsAllocation/>
 
-### 4.1.4. Project Allocation
+### 5.1.4. Project Allocation
 
 export const ProjectAllocation = () => {
 	return (
@@ -1032,7 +1170,7 @@ export const ProjectAllocation = () => {
 
 <ProjectAllocation/>
 
-### 4.2. Initial Token Allocations
+### 5.2. Initial Token Allocations
 
 export const InitialTokenAllocation = () => {
 	return (
@@ -1126,11 +1264,11 @@ export const InitialTokenAllocation = () => {
 
 
 
-## 5. Supply Management
+## 6. Supply Management
 ---
 
 
-### 5.1. Supply Profile
+### 6.1. Supply Profile
 
 Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is part of the setting reuired to deliver its features. There are several stages involved in the lifecycle of a CryptoCommodity.
 
@@ -1300,7 +1438,7 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 />
 </div>
 
-#### 5.2. Total Supply Composition
+#### 6.2. Total Supply Composition
 
 The Total Supply for a CryptoCommodity is the number of tokens units existing in a certain moment.
 
@@ -1314,13 +1452,13 @@ The composition of Total Supply would depend on the stage in which the CryptoCom
 	<img src="/img/supply_evolution.svg" width="100%"></img>
 </div>
 
-### 5.3. Consolidated Supply Management
+### 6.3. Consolidated Supply Management
 
 Once the project has been funded and the value of the underlying asset has been captured we already know that the currency represents the value of the underlying asset utility. At this point the Cryptocurrency is an Unit of Account because it captures the underlaying asset utility. Also the Cryptocurrency is a Store of Value because there is enough number of transaction to provide stability to the system.
 
 From this point onwards, a CryptoCommodity has a built-in stabilization mechanism that guarantees taht the value is always captured.
 
-#### 5.3.1. Stabilization Mechanism
+#### 6.3.1. Stabilization Mechanism
 
 This is done by adjusting the supply in the exchanges.
 
@@ -1329,156 +1467,175 @@ Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this g
 
 
 
-#### 5.3.3. Determining Max Supply
+#### 6.3.3. Determining Max Supply
 
 
 
-#### 5.3.4. Collateral
+#### 6.3.4. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
 Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
 
-A CryptoCommodity system is naturally collateralized. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: "the realization that a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
+A CryptoCommodity system is naturally collateralized. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
+
+> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
+
+
+
+
+
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 6. CryptoCommodity as Currency
+
+
+
+
+
+
+## 7. Implementation of CryptoCommodites
 ---
 
-In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account.
+### 7.1. Smart Contract
 
-### 6.2. Quality of Money
-
-The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
-
-The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. From Juan de Mariana (1609), Sir William Petty (1662), Adam Smith (1776), Jean Baptiste Say (1802), Nassau William Senior (1850), John Stuart Mill (1848), Carl Menger (1871), William Stanley Jevons’s (1875), Mises (1953), Rothbard (2004) provide different insights on the quality of money.
-
-The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
-
-One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>. 
-
-<table>
-  <tr>
-    <td>Quality</td>
-    <td>Authors</td>
-    <td>Mean of Exchange</td>
-    <td>Store of Value</td>
-    <td>Unit of Account</td>
-  </tr>
-  <tr>
-    <td>Uniform</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Divisible</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Scarce</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Durable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Portable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Acceptable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Recognised</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-</table>
-
-### 6.3. Quantity Theory of Money
-
-In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
-
-The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
+CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
+	<img src="/img/token_structure.svg" width="60%"></img>
 </div>
+<br/>
 
-The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
+Existing behaviours are:
+
+- Crowdsale Facet.
+
+- Vesting Facet
+
+- Common Facet
+
+- ERC-20 Facet
+
+By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
+
+### 7.2. Upgradeable
+
+As theoretical framework is still being created, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+
+Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
+
+### 7.3. The challenge of Velocity of Circulation (Saleableness)
+
+Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
+
+Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
+
+A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
+
+Causes of the high token velocity is that the prices are not expressed on the currency.
+
+To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
+
+#### 7.3.1. Token Velocity during Value Capture 
+
+During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
+
+- Introduce a profit-share mechanism
+
+- Build staking functions into the protocol
+
+- Balanced burn-and-mint mechanics
+
+- Gamification to encourage holding
+
+- for a local market, vending machines could be used to deliver the product or service
+
+- express the prices in CryptoCommodity units
 
 
-### 6.4. CryptoCommodity as Currency
+#### 7.3.2. Token Velocity during Value Delivery
 
-Quantity Theory of Money does not reconciliate well with crypto. As Hayek said 
+During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
 
-> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
+- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+### 7.4. The challenge of Wallets
 
-Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
+15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
 
-### 6.5. CryptoCommodity as Quality Currency
+The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
 
-In order to create a unified Quality Theory of Money we must start by identifying the functions that will be convered as every function would have different quality requirements.
+We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
 
-To work a Mean of Payment:
+I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
-* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
+### 7.5. The challenge of Security
 
-* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
+Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
-* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
+- Code includes <b>multisig role-based access</b> to functionalities.
 
-* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
+- The whole CryptoCommodity code must be <b>audited</b>. 
 
-To work as Store of Value:
+- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
 
-* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
-* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+### 7.6. The challenge of Decentralization
 
-* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+Decentralization is a features that should analized at different levels:
 
-* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+- network decentralization
 
-To work as Unit of Account:
+crosschain
 
-* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
+- smart contract decentralization
 
-* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
+- governance decentralization
 
-Additionally, the above requirements must be customized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+### 7.7. The challenge of Compliance
 
-We will discuss all the requirements that makes up a quality curency in the implementation section.
+Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
-### 6.6. The ideal underlying asset
+https://github.com/Catallactic/catallactic-suite
 
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
+### 7.8. The challenge of Transparency
+
+
+### 7.9. The challenge of Privacy
+
+
+### 7.10. Deployment
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 8. Supporting Tools
+---
+
+### 8.6. DAppmin
+
+https://github.com/Catallactic/catallactic-admin
+
+### 8.6. ICO Purchases DApp
+
+
+### 8.6. Vesting Tracker
+
+
+
+
+
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1487,12 +1644,12 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 
 
-## 7. A CryptoCommodity-based Economy
+## 9. A CryptoCommodity-based Economy
 ---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 7.1. Existing Bibliography
+### 9.1. Existing Bibliography
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -1500,7 +1657,7 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 7.2. Particular Scenario
+### 9.2. Particular Scenario
 
 In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
 
@@ -1509,9 +1666,9 @@ First we need to disntighuish the scope of the introduced currencies. There can 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
 
-### 7.3. Stability of a CryptoCommodity Market
+### 9.3. Stability of a CryptoCommodity Market
 
-#### 7.3.1. Understanding a regulated system
+#### 9.3.1. Understanding a regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1520,7 +1677,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 7.3.2. Positive vs Negative Feedback Loops
+#### 9.3.2. Positive vs Negative Feedback Loops
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -1550,7 +1707,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 7.3.3. Regulation in a CryptoCommodity market
+#### 9.3.3. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -1561,15 +1718,15 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 7.4. At the rescue of real economy
+### 9.4. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 7.4.1. Monetary Expansion of Legal Tender
+#### 9.4.1. Monetary Expansion of Legal Tender
 
 
 
-#### 7.4.2. Debate on Neutrality of Money
+#### 9.4.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -1582,7 +1739,7 @@ price distortion
 
 
 
-#### 7.4.3 The Split Economy
+#### 9.4.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -1590,7 +1747,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 7.4.4. The Squeezed Real Economy
+#### 9.4.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -1612,7 +1769,7 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-### 7.5. Comparing Economic Models
+### 9.5. Comparing Economic Models
 
 <table>
 	<thead>
@@ -1681,165 +1838,17 @@ Cantillon Effects
 	</tbody>
 </table>
 
-### 7.6. Further Industry Development
+### 9.6. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
 Additionaly, insurance companies could provide services in case a currency does not follow standards.
 
-### 7.7. Free Banking Introduction
+### 9.7. Free Banking Introduction
 
 incremental introduction
 
 coexistence with legal ledger
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-
-## 8. Implementation of CryptoCommodites
----
-
-### 8.1. Smart Contract
-
-CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/token_structure.svg" width="60%"></img>
-</div>
-<br/>
-
-Existing behaviours are:
-
-- Crowdsale Facet.
-
-- Vesting Facet
-
-- Common Facet
-
-- ERC-20 Facet
-
-By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
-
-### 8.2. Upgradeable
-
-As theoretical framework is still being created, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
-
-Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
-
-### 8.3. The challenge of Velocity of Circulation (Saleableness)
-
-Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
-
-Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
-
-A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
-
-Causes of the high token velocity is that the prices are not expressed on the currency.
-
-To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
-
-#### 8.3.1. Token Velocity during Value Capture 
-
-During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
-
-- Introduce a profit-share mechanism
-
-- Build staking functions into the protocol
-
-- Balanced burn-and-mint mechanics
-
-- Gamification to encourage holding
-
-- for a local market, vending machines could be used to deliver the product or service
-
-- express the prices in CryptoCommodity units
-
-
-#### 8.3.2. Token Velocity during Value Delivery
-
-During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
-
-- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
-
-### 8.4. The challenge of Wallets
-
-15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
-
-The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
-
-We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
-
-I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
-
-### 8.5. The challenge of Security
-
-Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
-
-- Code includes <b>multisig role-based access</b> to functionalities.
-
-- The whole CryptoCommodity code must be <b>audited</b>. 
-
-- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
-
-- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
-
-### 8.6. The challenge of Decentralization
-
-Decentralization is a features that should analized at different levels:
-
-- network decentralization
-
-crosschain
-
-- smart contract decentralization
-
-- governance decentralization
-
-### 8.7. The challenge of Compliance
-
-Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
-
-https://github.com/Catallactic/catallactic-suite
-
-### 8.8. The challenge of Transparency
-
-
-### 8.9. The challenge of Privacy
-
-
-### 8.10. Deployment
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-## 9. Supporting Tools
----
-
-### 9.6. DAppmin
-
-https://github.com/Catallactic/catallactic-admin
-
-### 9.6. ICO Purchases DApp
-
-
-### 9.6. Vesting Tracker
-
-
-
-
 
 
 
