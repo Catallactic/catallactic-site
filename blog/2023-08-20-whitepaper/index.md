@@ -1844,6 +1844,8 @@ Some challenges still remain open in a privately issued CryptoCommodities config
 
 Additionaly, insurance companies could provide services in case a currency does not follow standards.
 
+Private 'Lender of Last Resort?
+
 ### 9.7. Free Banking Introduction
 
 incremental introduction

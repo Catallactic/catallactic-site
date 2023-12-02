@@ -23,11 +23,15 @@ const sidebars = {
 			id: 'principles/intro', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
+			type: 'doc',
+			id: 'principles/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Principles</span>',
+      value: '<span class="sidebar-heading w-100 text-center">Quality theory of Money</span>',
     }, {
 			type: 'category',
 			label: 'Decentralization',

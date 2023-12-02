@@ -111,7 +111,7 @@ const config = {
 						type: 'docSidebar',
             sidebarId: 'moneyQualitySidebar',
             position: 'left',
-            label: 'Money Quality',
+            label: 'Quality Money',
           }, {
 						type: 'docSidebar',
             sidebarId: 'valueChainSidebar',
