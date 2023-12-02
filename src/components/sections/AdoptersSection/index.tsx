@@ -19,7 +19,10 @@ export default function AdoptersSections(): JSX.Element {
 							<p>GasClick is tokenizing LPG orders with its currency CryptoGas. </p>
 							<p>Merging the new cryptoeconomy and the traditional economy. By leveraging the value already existing on LPG consumption, we tokenize, capture it and offer to worldwide investors. A match made in heaven. </p>
 							<p>GasClick offers a <a href="https://gasclick.net/whitepaper_9investors.html" target='_blank'>500x bonus</a> in first round if the token is able to capture asset value. Here is the <a href="https://gasclick.net/litepaper_en.html" target='_blank'>litepaper</a>. </p>
-							<a className='d-block btn btn-lg mt-4' href='https://gasclick.net/' role='button'>Go to GasClick</a>
+							<div className="container text-center">
+								<a className='btn btn-lg p-0 m-0 mx-3 ' href='https://gasclick.net/litepaper_en.html' role='button'>GasClick Litepaper</a>
+								<a className='btn btn-lg p-0 m-0 mx-3' href='https://gasclick.net/' role='button' target={'_blank'}>GasClick Website</a>
+							</div>
 						</div>
 					</div>
 
