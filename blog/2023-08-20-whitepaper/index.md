@@ -100,7 +100,7 @@ By using the CryptoCommodity a heartbit of the marketplace, we can extract the e
 
 #### 2.3.1. Real Economy Projects
 
-The CryptoCommodity Framework has been designed to enable citizens to fund and realize real economy projects. CryptoCommodities include a provision which allows the issuer to launch funding rounds and capitalize his project. The investors can be local or global.
+The CryptoCommodity Framework borrows from Utility Tokens the ability to run funding rounds. By runing funding rounds, citizens can propose, fund and execute Real Economy projects that today cannot developed. The scope of tjhe projects can be global or local. Also the investors can be local or global.
 
 
 
