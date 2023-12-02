@@ -94,7 +94,7 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </table>
 <br/>
 
-### 2.3 CryptoCommodity Benefits
+### 2.3 CryptoCommodity Utilities
 
 By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
@@ -108,88 +108,34 @@ The CryptoCommodity Framework has been designed to enable citizens to fund and r
 
 First it will make a fully featured currency which will empower the community. 
 
-<table>
-  <tr>
-    <td rowSpan={3}>Monetary Utilities</td>
-    <td>Medium of Exchange</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Unit of Account	</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Reserve of Value</td>
-    <td></td>
-  </tr>
-</table>
-<br/>
+- Medium of Exchange
 
+- Reserve of Value
+
+- Unit of Account
 
 #### 2.3.2. Currency Services
 
 Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
 
-<table>
-  <tr>
-    <td rowSpan={4}>Monetary Services</td>
-    <td>Payments</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Cards</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Transfers</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Lending</td>
-    <td></td>
-  </tr>
-</table>
-<br/>
+- Payments
+
+- Cards
+
+- Transfers
+
+- Lending
 
 #### 2.3.2. Financial Services
 
 Finally, the CryptoCommodity can deliver additional Financial Services as DeFi Services:
 
-<table>
-  <tr>
-    <td rowSpan={2}>Financial Services</td>
-    <td>Staking</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Liquidity Provision</td>
-    <td></td>
-  </tr>
-</table>
-<br/>
+- Staking
+
+- Liquidity Provision
 
 
-
-### 2.4. CryptoCommodity vs Fiat Stablecoin
-
-The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
-
-|                                 | Fiat Stablecoin                                             | CryptoCommodity                                                               |
-| :-------------------------------| :-----------------------------------------------------------| :-----------------------------------------------------------------------------|
-| Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset                       |
-| Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset                       |
-| Price Formation                 | Pegged to Fiat Price of asset in internacional market       | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
-| Scope                           | Mostly Global														                    | Local or Global                                                               |
-| Value Decentralized?            | No, pegged to fiat prices				                            | Yes, forms its own price                                                      |
-| Process Decentralized?          | No, manual stabilization					                          | Yes, built-in automated stabilization                                         |
-| Decisions Decentralized?        | No, opaque decisions  			   		                          | Yes, releasing to the community when possible                                 |
-| Disclosures  										| No                                                          | Yes, full disclosure                                                          |
-| Allows project funding?         | No                                                          | Yes                                                                           |
-| Collateral on inception needed? | Yes                                                         | No                                                                            |
-| Provides credit? 				        | Yes, with social risk                                       | Yes, with private risk                                                        |
-
-
-### 2.5. Who will benefit?
+### 2.4. Who will benefit?
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -208,6 +154,26 @@ Extracting value from nature and delivering into society to fullfill consumers w
 - citizens from developing countries can create their own economy and fix their problems
 
 - governments will be able to delegate the difficult part into citizens
+
+
+### 2.5. CryptoCommodity vs Fiat Stablecoin
+
+The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
+
+|                                 | Fiat Stablecoin                                             | CryptoCommodity                                                               |
+| :-------------------------------| :-----------------------------------------------------------| :-----------------------------------------------------------------------------|
+| Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset                       |
+| Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset                       |
+| Price Formation                 | Pegged to Fiat Price of asset in internacional market       | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
+| Scope                           | Mostly Global														                    | Local or Global                                                               |
+| Value Decentralized?            | No, pegged to fiat prices				                            | Yes, forms its own price                                                      |
+| Process Decentralized?          | No, manual stabilization					                          | Yes, built-in automated stabilization                                         |
+| Decisions Decentralized?        | No, opaque decisions  			   		                          | Yes, releasing to the community when possible                                 |
+| Disclosures  										| No                                                          | Yes, full disclosure                                                          |
+| Allows project funding?         | No                                                          | Yes                                                                           |
+| Collateral on inception needed? | Yes                                                         | No                                                                            |
+| Provides credit? 				        | Yes, with social risk                                       | Yes, with private risk                                                        |
+
 
 
 
@@ -1869,7 +1835,7 @@ coexistence with legal ledger
 ## 10. Conclusion
 ---
 
-We have exposed how a new kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
+We have exposed how a novel kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
 
 The token borrows from Stablecoins the concept of stabilization mechanim. However, differs to Stablecoins in how to form the price. This new token forms its own price by capturing the value generated in an underling market. This complies with initial blockchain promises of decentralizacion in value. The stabilization mechanism provides to the token a foundation to fulfill currency based utilities a payment, card, lending or transfer.
 
