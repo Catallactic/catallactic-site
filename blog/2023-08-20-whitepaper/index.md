@@ -270,7 +270,7 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 ### 3.4. CryptoCommodity as Currency
 
-Quantity Theory of Money does not reconciliate well with crypto. As Hayek said 
+Quantity Theory of Money does not reconciliate well with crypto. As Hayek claimed 
 
 > The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
 
