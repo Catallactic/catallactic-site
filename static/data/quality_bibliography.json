@@ -17,6 +17,11 @@
 	{ "subject": "ON REPRESENTATIVE MONEY", "date": "2012", "title": "Fiat versus Representative Money under Debate, or How Right Keynes Was Once", "author": "Liviu Andrei", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2191211" },
 	{ "subject": "ON REPRESENTATIVE MONEY", "date": "2021", "title": "Finance 4.0 - Towards a Socio-Ecological Finance System", "author": "Marcus M. Dapp, Dirk Helbing, Stefan Klauser", "place": "", "url": "https://link.springer.com/book/10.1007/978-3-030-71400-0" },
 
+	{ "subject": "ON PRIVATE MONEY" },
+	{ "subject": "ON PRIVATE MONEY", "date": "1983", "title": "On the economics of private money", "author": "Robert G. King Lawrence Summers", "place": "Journal of Monetary Economics, 1983, vol. 12, issue 1, 159-162", "url": "https://www.sciencedirect.com/science/article/abs/pii/0304393283900545" },
+	{ "subject": "ON PRIVATE MONEY", "date": "1988", "title": "Private Money: The Path to Monetary Stability", "author": "Kevin Dowd", "place": "Institute of Economic Affairs", "url": "https://www.iea.org.uk/sites/default/files/publications/files/PRIVATE%20MONEY.pdf" },
+	{ "subject": "ON PRIVATE MONEY", "date": "2019", "title": "The regulation of private money", "author": "Gary B. Gorton", "place": "National Bureau of Econmnic Research", "url": "https://www.nber.org/papers/w25891" },
+
 	{ "subject": "ON CURRENCY COMPETITION" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1974", "title": "The Competitive Supply of Money", "author": "Benjamin Klein", "place": "Journal of Money, Credit and Banking, 1974, vol. 6, issue 4, 423-53", "url": "https://www.resistance.money/research/library/to%20be%20organised%20better/Competition%20and%20Inflation/The%20Competitive%20Supply%20of%20Money.pdf" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1976", "title": "Choice in Currency", "author": "Friedrich A. Hayek", "place": "", "url": "https://mises.org/library/choice-currency-0" },
@@ -24,11 +29,9 @@
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1979", "title": "Toward a Free Market Monetary System", "author": "Friedrich A. Hayek", "place": "The Journal of Libertarian Studies", "url": "" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1983", "title": "A Laissez-Faire Approach to Monetary Stability", "author": "Robert L. Greenfield and Leland B. Yeager,", "place": "", "url": "https://www.jstor.org/stable/1992481" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1983", "title": "Competitive money, inside and out", "author": "Lawrence H. White", "place": "", "url": "https://www.cato.org/sites/cato.org/files/serials/files/cato-journal/1983/5/cj3n1-16.pdf" },
-	{ "subject": "ON CURRENCY COMPETITION", "date": "1983", "title": "On the economics of private money", "author": "Robert G. King Lawrence Summers", "place": "Journal of Monetary Economics, 1983, vol. 12, issue 1, 159-162", "url": "https://www.sciencedirect.com/science/article/abs/pii/0304393283900545" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1984", "title": "Competitive Payments Systems and the Unit of Account", "author": "Lawrence H. White", "place": "", "url": "https://www.cgm.pitt.edu/sites/default/files/PPE/S20PPE/1805134.pdf" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1987", "title": "Has government any role in money?", "author": "Milton Friedman, Anna J. Schwartz", "place": "", "url": "https://core.ac.uk/download/pdf/6900301.pdf" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1988", "title": "The Evolution of Central Banks", "author": "Charles Goodhart", "place": "The MIT Press", "url": "https://mitpress.mit.edu/9780262570732/the-evolution-of-central-banks/" },
-	{ "subject": "ON CURRENCY COMPETITION", "date": "1988", "title": "Private Money: The Path to Monetary Stability", "author": "Kevin Dowd", "place": "Institute of Economic Affairs", "url": "https://www.iea.org.uk/sites/default/files/publications/files/PRIVATE%20MONEY.pdf" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1988", "title": "The Theory of Free Banking: Money Supply under Competitive Note Issue", "author": "George A. Selgin", "place": "", "url": "https://oll.libertyfund.org/title/white-the-theory-of-free-banking-money-supply-under-competitive-note-issue" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1989", "title": "The State and the Monetary System", "author": "Dowd, K.", "place": "Phillip Allan Publishers, St Martin's Press", "url": "https://durham-repository.worktribe.com/output/1124158" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1990", "title": "Denationalisation of Money: The Argument Refined", "author": "Friedrich A. Hayek", "place": "", "url": "https://mises.org/library/denationalisation-money-argument-refined" },
