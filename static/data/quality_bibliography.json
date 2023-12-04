@@ -1,14 +1,5 @@
 [	
 
-	{ "subject": "ON REPRESENTATIVE MONEY" },
-	{ "subject": "ON REPRESENTATIVE MONEY", "date": "1896", "title": "Money and the Mechanism of Exchange", "author": "W. Stanley Jevons", "place": "", "url": "https://mises.org/library/money-and-mechanism-exchange" },
-	{ "subject": "ON REPRESENTATIVE MONEY", "date": "2012", "title": "Fiat versus Representative Money under Debate, or How Right Keynes Was Once", "author": "Liviu Andrei", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2191211" },
-	{ "subject": "ON REPRESENTATIVE MONEY", "date": "2021", "title": "Finance 4.0 - Towards a Socio-Ecological Finance System", "author": "Marcus M. Dapp, Dirk Helbing, Stefan Klauser", "place": "", "url": "https://link.springer.com/book/10.1007/978-3-030-71400-0" },
-
-	{ "subject": "ON MONEY STANDARD" },
-	{ "subject": "ON MONEY STANDARD", "date": "1912", "title": "The Theory of Money and Credit", "author": "Ludwig von Mises", "place": "", "url": "https://mises.org/library/theory-money-and-credit" },
-	{ "subject": "ON MONEY STANDARD", "date": "1989", "title": "In Search of a Monetary Anchor: A New Monetary Standard", "author": "International Monetary Fund", "place": "", "url": "https://www.elibrary.imf.org/view/journals/001/1989/082/001.1989.issue-082-en.xml" },
-
 	{ "subject": "ON QUALITY MONEY" },
 	{ "subject": "ON QUALITY MONEY", "date": "1609", "title": "A Treatise on the Alteration of Money", "author": "Juan de Mariana", "place": "", "url": "https://econpapers.repec.org/bookchap/elgeechap/19916_5f22.htm" },
 	{ "subject": "ON QUALITY MONEY", "date": "1662", "title": "A Treatise on Taxes and Contributions", "author": "William Petty", "place": "", "url": "https://www.gutenberg.org/ebooks/61588" },
@@ -20,6 +11,11 @@
 	{ "subject": "ON QUALITY MONEY", "date": "2020", "title": "The Quality of Money", "author": "Philipp Bagus", "place": "Universidad Rey Juan Carlos", "url": "https://mises.org/library/quality-money-0" },
 	{ "subject": "ON QUALITY MONEY", "date": "2021", "title": "Measuring the Quality of Money", "author": "Vytautas Žukauskas", "place": "", "url": "https://mises.org/library/measuring-quality-money" },
 	{ "subject": "ON QUALITY MONEY", "date": "2022", "title": "The Quality Theory of Money", "author": "De-Xing Guan", "place": "National Taipei University", "url": "http://web.ntpu.edu.tw/~guan/papers/QTM.pdf" },
+
+	{ "subject": "ON REPRESENTATIVE MONEY" },
+	{ "subject": "ON REPRESENTATIVE MONEY", "date": "1896", "title": "Money and the Mechanism of Exchange", "author": "W. Stanley Jevons", "place": "", "url": "https://mises.org/library/money-and-mechanism-exchange" },
+	{ "subject": "ON REPRESENTATIVE MONEY", "date": "2012", "title": "Fiat versus Representative Money under Debate, or How Right Keynes Was Once", "author": "Liviu Andrei", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2191211" },
+	{ "subject": "ON REPRESENTATIVE MONEY", "date": "2021", "title": "Finance 4.0 - Towards a Socio-Ecological Finance System", "author": "Marcus M. Dapp, Dirk Helbing, Stefan Klauser", "place": "", "url": "https://link.springer.com/book/10.1007/978-3-030-71400-0" },
 
 	{ "subject": "ON CURRENCY COMPETITION" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "1974", "title": "The Competitive Supply of Money", "author": "Benjamin Klein", "place": "Journal of Money, Credit and Banking, 1974, vol. 6, issue 4, 423-53", "url": "https://www.resistance.money/research/library/to%20be%20organised%20better/Competition%20and%20Inflation/The%20Competitive%20Supply%20of%20Money.pdf" },
@@ -53,6 +49,10 @@
 	{ "subject": "ON CURRENCY COMPETITION", "date": "2018", "title": "The Effects of Banking Competition on Growth and Financial Stability: Evidence from the National Banking Era", "author": "Mark Carlson†, Sergio Correia‡, and Stephan Luck", "place": "Federal Reserve Board Preliminary draft", "url": "https://www.fdic.gov/analysis/cfr/bank-research-conference/annual-18th/20-luck.pdf" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "2020", "title": "Friedrich Hayek On Monetary and Banking Systems Reforms", "author": "Adrian Ravier", "place": "ESEADE", "url": "https://jnf.ufm.edu/cgi/viewcontent.cgi?article=1006&context=journal" },
 	{ "subject": "ON CURRENCY COMPETITION", "date": "2022", "title": "Monetary Policy in a World of Cryptocurrencies", "author": "Pierpaolo Benigno", "place": "University of Bern", "url": "https://benigno.ch/wp-content/uploads/2022/09/Bitcoin-020922.pdf" },
+
+	{ "subject": "ON MONETARY STANDARD" },
+	{ "subject": "ON MONETARY STANDARD", "date": "1912", "title": "The Theory of Money and Credit", "author": "Ludwig von Mises", "place": "", "url": "https://mises.org/library/theory-money-and-credit" },
+	{ "subject": "ON MONETARY STANDARD", "date": "1989", "title": "In Search of a Monetary Anchor: A New Monetary Standard", "author": "International Monetary Fund", "place": "", "url": "https://www.elibrary.imf.org/view/journals/001/1989/082/001.1989.issue-082-en.xml" },
 
 	{ "subject": "ON FIAT METODOLOGY" },
 	{ "subject": "ON FIAT METODOLOGY", "date": "1755", "title": "An Essay on Economic Theory", "author": "Richard Cantillon", "place": "", "url": "https://mises.org/library/essay-economic-theory-0" },
