@@ -27,12 +27,36 @@ The following whitepaper proposes a novel kind of token, CryptoCommodity.  Where
 
 We describe how CryptoCommodities work, what are the stages, the utilities, the requirements, the challenges, the distribution mechanims and opportunities which bring for issuers, adopters and the whole society.
 
+This project tries to provide direction to crypto as we think it currently is in the wrong path.
+
 <!-- truncate -->
 
 ## 2. CryptoCommodites
 ---
 
 ### 2.1. Evolution of Money
+
+<table>
+  <tr>
+    <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
+    <td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
+  </tr>
+  <tr>
+    <td>Barter</td>
+    <td>Commodity</td>
+    <td>Metal</td>
+    <td>Representative</td>
+    <td>Standard</td>
+    <td>Fiat</td>
+    <td>Crypto</td>
+  </tr>
+</table>
+<br/>
 
 Initially the monetary standard was a commodity one. As a monetary economy evolved out of barter, a particular commodity (e.g., gold) came to be generally accepted as a medium
 of exchange, and it was natural to express prices in terms of units of that commodity. [9]
@@ -44,7 +68,7 @@ The gold standard as a Unit of Account suffered from gold's fluctuating relative
 ### 2.2. Representative Money
 
 
-### 2.3. Definition of CryptoCommodity
+### 2.3. CryptoCommodity
 
 CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -56,6 +80,8 @@ CryptoCommodities are a specialization of Utility Tokens, built on top of a fung
 CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
+
+Not a monetary standard
 
 ### 2.4. CryptoCommodity Ecosystem
 
