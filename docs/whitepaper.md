@@ -32,7 +32,7 @@ We describe how CryptoCommodities work, what are the stages, the utilities, the 
 ## 2. CryptoCommodites
 ---
 
-### 2.1. The hierarchy of money
+### 2.1. Evolution of Money
 
 Initially the monetary standard was a commodity one. As a monetary economy evolved out of barter, a particular commodity (e.g., gold) came to be generally accepted as a medium
 of exchange, and it was natural to express prices in terms of units of that commodity. [9]
@@ -41,7 +41,10 @@ At this stage banks began to appear which issued paper substitutes for gold, and
 
 The gold standard as a Unit of Account suffered from gold's fluctuating relative value and the costly need to redeem money for gold. [12]
 
-### 2.2. Definition of CryptoCommodity
+### 2.2. Representative Money
+
+
+### 2.3. Definition of CryptoCommodity
 
 CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -54,7 +57,7 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 2.3. CryptoCommodity Ecosystem
+### 2.4. CryptoCommodity Ecosystem
 
 The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
 
@@ -103,7 +106,7 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </table>
 <br/>
 
-### 2.4. Who will benefit?
+### 2.5. Who will benefit?
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -124,7 +127,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 - governments will be able to delegate the difficult part into citizens
 
 
-### 2.5. CryptoCommodity vs Fiat Stablecoin
+### 2.6. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 

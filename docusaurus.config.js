@@ -128,6 +128,10 @@ const config = {
             position: 'left',
             label: 'Ecosystem',
 					}, {
+						to: '/docs/whitepaper', 
+						label: 'Whitepaper (In Progress)', 
+						position: 'right'
+					}, {
 						to: '/book', 
 						label: 'Book', 
 						position: 'right'
