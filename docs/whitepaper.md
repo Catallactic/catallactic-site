@@ -61,24 +61,32 @@ coincidence of wants. A second problem is one of indivisibilities. [0]
 
 Trying to overcome the limitations of barter man arrived to money. [0] Once a <b>commodity</b> begins to be used as a medium of exchange, when the word gets out it generates even further use of the commodity as a medium. But when a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago commodity money functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
-Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. The earliest form of <b>representative</b> money consisted of small pieces of leather, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity.
+Once a commodity has been widely accepted for that use, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called representative money in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
 
 The 'monetary standard' can be defined as the commodity in terms of units of which prices are generally expressed. Initially the <b>monetary standard</b> was a commodity one. As a monetary economy evolved out of barter, a particular commodity (e.g., gold) came to be generally accepted as a medium of exchange, and it was natural to express prices in terms of units of that commodity. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-### 2.2. Functions of Money
+### 2.2. Representative Money
+
+Representative money broughts the birth of coinage. The introduction of coinage marks an important innovation in the history of money and a transition in the development of civilization itself. Sometime in the first millennium BC, coinage was invented, probably in Asia Minor, and it rapidly spread throughout the Mediterranean area. [32]
+
+Pure commodity money has the same value whether used as money or a commodity. One could say that the “fall-back” value of commodity money, measured as a proportion of the value, is 1 or 100
+percent. At the other extreme, token money is virtually worthless as a commodity. Its fall-back value is virtually zero. In between the two limits of commodity money and paper (or bank or electronic) money, there is a spectrum ranging between 1 and zero. 
+
+The earliest form of <b>representative</b> money consisted of small pieces of leather, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity. 
+
+Gold or silver certificates, for example, which are claims on precise amounts of gold or silver, could be called representative money.	
+
+### 2.3. Functions of Money
 
 In almost all market transactions in our economy, money in the form of currency or cheques is a <b>medium of exchange</b>; it is used to pay for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
-Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop.
+Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
 The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating relative value and the costly need to redeem money for gold. [12]
 
-### 2.3. Representative Money
-
-
 ### 2.4. CryptoCommodity
 
-CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token that mimics Representative Money. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
+CryptoCommodities are representative tokens in the electronic form. CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
@@ -89,7 +97,7 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-Despite CryptoCommodities aim to deliver all money functions and become high quality currencies, they do not ambition to be used as monetary standard as they can be priced in any coexisting monetary standard. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
+Despite CryptoCommodities aim to deliver all money functions and become high quality currencies, they do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
 ### 2.5. CryptoCommodity Ecosystem
 
@@ -1642,7 +1650,7 @@ https://github.com/Catallactic/catallactic-admin
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 9.1. Existing Bibliography
+### 9.1. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -1650,18 +1658,9 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 9.2. Particular Scenario
+### 9.2. Stability of a CryptoCommodity Market
 
-In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
-
-First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
-
- For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
-
-
-### 9.3. Stability of a CryptoCommodity Market
-
-#### 9.3.1. Understanding a regulated system
+#### 9.2.1. Understanding a regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1670,7 +1669,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 9.3.2. Positive vs Negative Feedback Loops
+#### 9.2.2. Positive vs Negative Feedback Loops
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -1700,7 +1699,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 9.3.3. Regulation in a CryptoCommodity market
+#### 9.2.3. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -1711,15 +1710,15 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 9.4. At the rescue of real economy
+### 9.3. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 9.4.1. Monetary Expansion of Legal Tender
+#### 9.3.1. Monetary Expansion of Legal Tender
 
 
 
-#### 9.4.2. Debate on Neutrality of Money
+#### 9.3.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -1732,7 +1731,7 @@ price distortion
 
 
 
-#### 9.4.3 The Split Economy
+#### 9.3.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -1740,7 +1739,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 9.4.4. The Squeezed Real Economy
+#### 9.3.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -1762,7 +1761,7 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-### 9.5. Comparing Economic Models
+### 9.4. Comparing Economic Models
 
 <table>
 	<thead>
@@ -1831,7 +1830,7 @@ Cantillon Effects
 	</tbody>
 </table>
 
-### 9.6. Further Industry Development
+### 9.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -1839,14 +1838,18 @@ Additionaly, insurance companies could provide services in case a currency does 
 
 Private 'Lender of Last Resort?
 
-### 9.7. Free Banking Introduction
+### 9.6. Free Banking Introduction
 
 incremental introduction
 
 coexistence with legal ledger
 
 
+In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
 
+First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
+
+ For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
 
 
@@ -1952,3 +1955,9 @@ Finally we have described how the adoption of this new token could empower the s
 [30] ERC-2535: Diamonds, Multi-Facet Proxy, 2020-02-22, Nick Mudge - https://eips.ethereum.org/EIPS/eip-2535
 
 [31] Factors of decentralization of web3 protocols: Tools for planning greater decentralization, Miles JenningsStephen WinkAdam Zuckerman, 5.31.23 - https://a16zcrypto.com/posts/article/decentralization-factors-web3-protocols-tables/
+
+
+[32] The birth of coinage, Mundell, Robert A. 2002 - https://academiccommons.columbia.edu/doi/10.7916/D8Q531TK
+[33] Tokens: their Significance for the Origin of Counting and Writing, Denise Schmandt-Besserat - https://sites.utexas.edu/dsb/tokens/tokens/
+[34] A Treatise on Money, John Maynard Keynes, 1930 - https://ia601502.us.archive.org/4/items/in.ernet.dli.2015.28575/2015.28575.A-Treatise-On-Money.pdf
+[35] A treatise on money and essays on monetary problems, Joseph Shield Nicholson, 1895 - https://www.survivorlibrary.com/library/a_treatise_on_money_1895.pdf
