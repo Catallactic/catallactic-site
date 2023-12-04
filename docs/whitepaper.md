@@ -36,7 +36,7 @@ This project tries to provide direction to crypto as we think it currently is in
 
 ### 2.1. Evolution of Money
 
-Before coinage, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double
+Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double
 coincidence of wants. A second problem is one of indivisibilities. [0]
 
 <table>
@@ -59,9 +59,9 @@ coincidence of wants. A second problem is one of indivisibilities. [0]
 </table>
 <br/>
 
-Trying to overcome the limitations of barter man arrived to money. [0] Once a <b>commodity</b> begins to be used as a medium of exchange, when the word gets out it generates even further use of the commodity as a medium. But when a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago commodity money functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
+Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
-Once a commodity has been widely accepted for that use, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called representative money in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
+Once a commodity has been widely accepted for that use, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called <b>representative money</b> in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
 
 The 'monetary standard' can be defined as the commodity in terms of units of which prices are generally expressed. Initially the <b>monetary standard</b> was a commodity one. As a monetary economy evolved out of barter, a particular commodity (e.g., gold) came to be generally accepted as a medium of exchange, and it was natural to express prices in terms of units of that commodity. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
@@ -70,11 +70,11 @@ The 'monetary standard' can be defined as the commodity in terms of units of whi
 Representative money broughts the birth of coinage. The introduction of coinage marks an important innovation in the history of money and a transition in the development of civilization itself. Sometime in the first millennium BC, coinage was invented, probably in Asia Minor, and it rapidly spread throughout the Mediterranean area. [32]
 
 Pure commodity money has the same value whether used as money or a commodity. One could say that the “fall-back” value of commodity money, measured as a proportion of the value, is 1 or 100
-percent. At the other extreme, token money is virtually worthless as a commodity. Its fall-back value is virtually zero. In between the two limits of commodity money and paper (or bank or electronic) money, there is a spectrum ranging between 1 and zero. 
+percent. At the other extreme, token money is virtually worthless as a commodity. Its fall-back value is virtually zero.
 
-The earliest form of <b>representative</b> money consisted of small pieces of leather, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity. 
+The earliest form of representative money consisted of small pieces of leather, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity. 
 
-Gold or silver certificates, for example, which are claims on precise amounts of gold or silver, could be called representative money.	
+Gold or silver certificates, for example, which are claims on precise amounts of gold or silver, could be also called representative money.	
 
 ### 2.3. Functions of Money
 
@@ -1958,6 +1958,9 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 [32] The birth of coinage, Mundell, Robert A. 2002 - https://academiccommons.columbia.edu/doi/10.7916/D8Q531TK
+
 [33] Tokens: their Significance for the Origin of Counting and Writing, Denise Schmandt-Besserat - https://sites.utexas.edu/dsb/tokens/tokens/
+
 [34] A Treatise on Money, John Maynard Keynes, 1930 - https://ia601502.us.archive.org/4/items/in.ernet.dli.2015.28575/2015.28575.A-Treatise-On-Money.pdf
+
 [35] A treatise on money and essays on monetary problems, Joseph Shield Nicholson, 1895 - https://www.survivorlibrary.com/library/a_treatise_on_money_1895.pdf
