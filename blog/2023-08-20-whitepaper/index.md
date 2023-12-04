@@ -103,48 +103,7 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </table>
 <br/>
 
-### 2.4 CryptoCommodity Utilities
-
-By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
-
-#### 2.4.1. Real Economy Projects
-
-The CryptoCommodity Framework borrows from Utility Tokens the ability to run funding rounds. By runing funding rounds, citizens can propose, fund and execute Real Economy projects that today cannot developed. The scope of tjhe projects can be global or local. Also the investors can be local or global.
-
-
-
-#### 2.4.2. Currency Functions
-
-First it will make a fully featured currency which will empower the community. 
-
-- Medium of Exchange
-
-- Reserve of Value
-
-- Unit of Account
-
-#### 2.4.2. Currency Services
-
-Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
-
-- Payments
-
-- Cards
-
-- Transfers
-
-- Lending
-
-#### 2.4.2. Financial Services
-
-Finally, the CryptoCommodity can deliver additional Financial Services as DeFi Services:
-
-- Staking
-
-- Liquidity Provision
-
-
-### 2.5. Who will benefit?
+### 2.4. Who will benefit?
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -165,7 +124,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 - governments will be able to delegate the difficult part into citizens
 
 
-### 2.6. CryptoCommodity vs Fiat Stablecoin
+### 2.5. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -685,17 +644,39 @@ Another consideration is to prevent high concentration of token units in some wa
 
 ### 4.4. DeFi Services
 
-
-#### 4.1.1. Payments
-
-
-#### 4.1.1. Cards
+By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
 
-#### 4.1.1. Transfers
+#### 4.4.1. Currency Functions
 
+First it will make a fully featured currency which will empower the community. 
 
-#### 4.1.1. Lending
+- Medium of Exchange
+
+- Reserve of Value
+
+- Unit of Account
+
+#### 4.4.2. Currency Services
+
+Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
+
+- Payments
+
+- Cards
+
+- Transfers
+
+- Lending
+
+#### 4.4.3. Financial Services
+
+Finally, the CryptoCommodity can deliver additional Financial Services as DeFi Services:
+
+- Staking
+
+- Liquidity Provision
+
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/credit.png" width="70%"></img>
