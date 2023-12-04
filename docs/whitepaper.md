@@ -27,7 +27,7 @@ The following whitepaper proposes a novel kind of token, CryptoCommodity.  Where
 
 We describe how CryptoCommodities work, what are the stages, the utilities, the requirements, the challenges, the distribution mechanims and opportunities which bring for issuers, adopters and the whole society.
 
-This project tries to provide direction to crypto as we think it currently is in the wrong path.
+This project tries to provide direction to crypto as we think it currently is in the wrong path from the initial principles for which blockchain was created.
 
 <!-- truncate -->
 
@@ -36,11 +36,13 @@ This project tries to provide direction to crypto as we think it currently is in
 
 ### 2.1. Evolution of Money
 
+Before coinage, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double
+coincidence of wants. A second problem is one of indivisibilities. [0]
+
 <table>
   <tr>
     <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
     <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
     <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
     <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
     <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
@@ -49,7 +51,6 @@ This project tries to provide direction to crypto as we think it currently is in
   <tr>
     <td>Barter</td>
     <td>Commodity</td>
-    <td>Metal</td>
     <td>Representative</td>
     <td>Standard</td>
     <td>Fiat</td>
@@ -58,19 +59,26 @@ This project tries to provide direction to crypto as we think it currently is in
 </table>
 <br/>
 
-Initially the monetary standard was a commodity one. As a monetary economy evolved out of barter, a particular commodity (e.g., gold) came to be generally accepted as a medium
-of exchange, and it was natural to express prices in terms of units of that commodity. [9]
+Trying to overcome the limitations of barter man arrived to money. [0] Once a <b>commodity</b> begins to be used as a medium of exchange, when the word gets out it generates even further use of the commodity as a medium. But when a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago commodity money functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
-At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
+Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. The earliest form of <b>representative</b> money consisted of small pieces of leather, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity.
 
-The gold standard as a Unit of Account suffered from gold's fluctuating relative value and the costly need to redeem money for gold. [12]
+The 'monetary standard' can be defined as the commodity in terms of units of which prices are generally expressed. Initially the <b>monetary standard</b> was a commodity one. As a monetary economy evolved out of barter, a particular commodity (e.g., gold) came to be generally accepted as a medium of exchange, and it was natural to express prices in terms of units of that commodity. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-### 2.2. Representative Money
+### 2.2. Functions of Money
+
+In almost all market transactions in our economy, money in the form of currency or cheques is a <b>medium of exchange</b>; it is used to pay for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
+
+Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop.
+
+The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating relative value and the costly need to redeem money for gold. [12]
+
+### 2.3. Representative Money
 
 
-### 2.3. CryptoCommodity
+### 2.4. CryptoCommodity
 
-CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
+CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token that mimics Representative Money. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
@@ -81,58 +89,24 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-Not a monetary standard
+Despite CryptoCommodities aim to deliver all money functions and become high quality currencies, they do not ambition to be used as monetary standard as they can be priced in any coexisting monetary standard. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 2.4. CryptoCommodity Ecosystem
+### 2.5. CryptoCommodity Ecosystem
 
-The project is based on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or  serviced.
+CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/unit_of_account_ecosystem_before.svg" width="80%"></img>
 </div>
 <br/>
 
-A CryptoCommodity has a built-in dtsbilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
-
 The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
 
-To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
+The value extracted from the undelying asset by the CryptoCommodity issuer will be delivered to the society in the form of DeFi Services.
 
-<table>
-   <tr>
-    <td rowSpan={3}>Product</td>
-    <td>Natural Resources</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Physical Assets</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Digital Assets</td>
-    <td></td>
-  </tr>
-</table>
-<br/>
+We will discuss about the underlying asset in the next section.
 
-Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
-
-Additionally, the price is formed in the basis of a service. Some services that are suitable include:
-
-<table>
-  <tr>
-    <td rowSpan={2}>Service</td>
-    <td>Acquisition</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Rent</td>
-    <td></td>
-  </tr>
-</table>
-<br/>
-
-### 2.5. Who will benefit?
+### 2.6. Who will benefit?
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -153,7 +127,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 - governments will be able to delegate the difficult part into citizens
 
 
-### 2.6. CryptoCommodity vs Fiat Stablecoin
+### 2.7. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -313,7 +287,41 @@ We will discuss all the requirements that makes up a quality curency in the impl
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
 
+To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
+<table>
+   <tr>
+    <td rowSpan={3}>Product</td>
+    <td>Natural Resources</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Physical Assets</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Digital Assets</td>
+    <td></td>
+  </tr>
+</table>
+<br/>
+
+Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
+
+Additionally, the price is formed in the basis of a service. Some services that are suitable include:
+
+<table>
+  <tr>
+    <td rowSpan={2}>Service</td>
+    <td>Acquisition</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td></td>
+  </tr>
+</table>
+<br/>
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1875,9 +1883,9 @@ Finally we have described how the adoption of this new token could empower the s
 ---
 
 
+[-1] Money and the Mechanism of Exchange, W. Stanley Jevons, 1896 - https://mises.org/library/money-and-mechanism-exchange
 
-
-
+[0] The Mystery of Banking, by Murray N. Rothbard, 1993, https://mises.org/library/mystery-banking
 
 [1] Wealth of Nations, by Adam Smith, https://www.gutenberg.org/files/3300/3300-h/3300-h.htm
 
@@ -1910,8 +1918,6 @@ Finally we have described how the adoption of this new token could empower the s
 [15] The Theory of Monetary Institutions. Malden, Mass.: Blackwell, 1999. White, Lawrence H.  https://cdn.mises.org/qjae4_2_8.pdf
 
 [16] Competitive money supply: the international monetary system in perspective Filippo Cesarano, 1999 https://www.emerald.com/insight/content/doi/10.1108/01443589910284354/full/html
-
-[17] On the economics of private money Robert G. King ∗ University of Rochester, Rochester, NY 14627, USA Available online 1 April 2002. https://www.sciencedirect.com/science/article/abs/pii/0304393283900533
 
 [18] How Might the Invisible Hand Handle Electronic Money? 26 Pages Posted: 5 May 2009 Last revised: 30 Jul 2014 Shann Turnbull https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1399224
 
