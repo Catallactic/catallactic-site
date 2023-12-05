@@ -67,14 +67,21 @@ The 'monetary standard' can be defined as the commodity in terms of units of whi
 
 ### 2.2. Representative Money
 
-Representative money broughts the birth of coinage. The introduction of coinage marks an important innovation in the history of money and a transition in the development of civilization itself. Sometime in the first millennium BC, coinage was invented, probably in Asia Minor, and it rapidly spread throughout the Mediterranean area. [32]
+Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
-Pure commodity money has the same value whether used as money or a commodity. One could say that the “fall-back” value of commodity money, measured as a proportion of the value, is 1 or 100
-percent. At the other extreme, token money is virtually worthless as a commodity. Its fall-back value is virtually zero.
+Earlier classifications in the history of money made of the useful distinction between money of <b>“intrinsic” and “extrinsic” value</b>. Intrinsic fall-back value of token money is virtually zero as a commodity. At the other extreme, the value of representative money is inherited for the represented commodity. Value on a commodity by the esteem in which it is held as measured by outside valuations that relate demand to supply, i.e., by scarcity. [32]
 
-The earliest form of representative money consisted of small pieces of leather, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity. 
+The earliest form of representative money consisted of <b>small pieces of leather</b>, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity.
 
-Gold or silver certificates, for example, which are claims on precise amounts of gold or silver, could be also called representative money.	
+There is no concrete evidence that the <b>clay tokens</b> used as an accounting tool to keep track of warehouse stores in ancient Mesopotamia were also used as representative money.However, the idea has been suggested. [32]
+
+The introduction of coinage, or <b>metal based</b> representative money, marks an important innovation in the history of money and a transition in the development of civilization itself. Coinage was probably invented in Asia Minor in the seventh century BC and it rapidly spread throughout the Mediterranean area. The earliest coins were made of electrum and had punch marks and some kind of identifying device. [32]
+
+Paper currency first developed in Tang dynasty China during the 7th century, where it was called "'flying money'", although true <b>paper money</b> did not appear until the 11th century, during the Song dynasty. The use of paper currency later spread throughout the Mongol Empire or Yuan dynasty China. European explorers like Marco Polo introduced the concept in Europe during the 13th century.
+
+Today, <b>gold or silver certificates</b>, for example, which are claims on precise amounts of gold or silver, could be also called representative money.	
+
+The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
 
 ### 2.3. Functions of Money
 
