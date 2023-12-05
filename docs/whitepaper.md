@@ -397,7 +397,7 @@ export const SupplyProfileChart = () => {
 			return amounts;
 	}
 	return (
-		<div className="panel">
+		<div className="chart-panel2">
 			<Line
 				data={{
 					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
@@ -488,7 +488,7 @@ Investors in Funding Rounds will get the max profit for his investment on the Va
 
 To track this variable, CryptoCommodity keeps a record of the address of all exchanges where it is deployed and traded. It is required to provide tools that allow estimating this exit according to the CryptoCommodity configuration.
 
-<div className="panel">
+<div className="chart-panel2">
 <Line
   data={{
 		labels: ['Jul 23','Jan 24','Jul 24','Jan 25','Jul 25','Jan 26','Jul 26','Jan 27','Jul 27','Jan 28','Jul 28','Jan 29','Jul 29','Jan 30'],
@@ -750,81 +750,84 @@ Finally, the CryptoCommodity can deliver additional Financial Services as DeFi S
 
 export const TokenAllocation = () => {
 	return (
-		<div className="panel">
-			<Doughnut
-				data={{
-					labels: [
-						'Private Sale', 'Presale', 'Crowdsale', 
-						'Exchanges', 'Exchanges',
-						'Operations', 
-						'Project', 'Project', 
-						'Funding', 'Liquidity', 'Operations', 'Project'
-					],
-					datasets: [{
-							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#0000FF', '#0000FF'],
-							data: [2, 3, 5, 4, 5, 71, 9, 1],
-							order: [2, 3, 4, 6, 7, 9, 11, 12],
-							index: 0
-						}, {
-							backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-							data: [10, 9, 71, 10],
-							order: [1, 5, 8, 10],
-							index: 1
-					}]
-				}}
-				options={{
-					responsive: true,
-					reverse: true,
-					plugins: {
-						tooltip: {
-							callbacks: {
-								label: function(context) {
-									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-								}
-							}
-						},
-						legend: {
-						position: 'right',
-							labels: {
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								padding: 20,
-								generateLabels: function(chart) {
-									let datasetColors = chart.data.datasets.map(function(e) {
-											return e.backgroundColor;
-									}).flat();						        	  
-									let orders = chart.data.datasets.map(function(e) {
-										return e.order;
-									}).flat();
-											
-									// Get the default label list
-									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-									const labelsOriginal = original.call(this, chart);
-									return labelsOriginal.sort((label2, label1) => {
-										return orders[label2.index] - orders[label1.index];
-									}).filter((label, index, array) => {
-										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-									}).map((label) => {
-									label.datasetIndex = label.index;
-									label.fillStyle = datasetColors[label.index];
-											return label;
-									});	
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#0000FF', '#0000FF'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
 								}
 							},
-							onClick: function(mouseEvent, legendItem, legend) {
-								// toggle the visibility of the dataset from what it currently is
-								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-								legend.chart.update();
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
 							}
 						}
-					}
-				}}
-			/>
+					}}
+				/>
+			</div>
 		</div>
 	);
 }
@@ -835,81 +838,84 @@ export const TokenAllocation = () => {
 
 export const FundingAllocation = () => {
 	return (
-		<div className="panel">
-			<Doughnut
-				data={{
-					labels: [
-						'Private Sale', 'Presale', 'Crowdsale', 
-						'Exchanges', 'Exchanges',
-						'Operations', 
-						'Project', 'Project', 
-						'Funding', 'Liquidity', 'Operations', 'Project'
-					],
-					datasets: [{
-							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-							data: [2, 3, 5, 4, 5, 71, 9, 1],
-							order: [2, 3, 4, 6, 7, 9, 11, 12],
-							index: 0
-						}, {
-							backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-							data: [10, 9, 71, 10],
-							order: [1, 5, 8, 10],
-							index: 1
-					}]
-				}}
-				options={{
-					responsive: true,
-					reverse: true,
-					plugins: {
-						tooltip: {
-							callbacks: {
-								label: function(context) {
-									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-								}
-							}
-						},
-						legend: {
-						position: 'right',
-							labels: {
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								padding: 20,
-								generateLabels: function(chart) {
-									let datasetColors = chart.data.datasets.map(function(e) {
-											return e.backgroundColor;
-									}).flat();						        	  
-									let orders = chart.data.datasets.map(function(e) {
-										return e.order;
-									}).flat();
-											
-									// Get the default label list
-									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-									const labelsOriginal = original.call(this, chart);
-									return labelsOriginal.sort((label2, label1) => {
-										return orders[label2.index] - orders[label1.index];
-									}).filter((label, index, array) => {
-										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-									}).map((label) => {
-									label.datasetIndex = label.index;
-									label.fillStyle = datasetColors[label.index];
-											return label;
-									});	
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
 								}
 							},
-							onClick: function(mouseEvent, legendItem, legend) {
-								// toggle the visibility of the dataset from what it currently is
-								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-								legend.chart.update();
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
 							}
 						}
-					}
-				}}
-			/>
+					}}
+				/>
+			</div>
 		</div>
 	);
 }
@@ -920,81 +926,84 @@ export const FundingAllocation = () => {
 
 export const NegotiationAllocation = () => {
 	return (
-		<div className="panel">
-			<Doughnut
-				data={{
-					labels: [
-						'Private Sale', 'Presale', 'Crowdsale', 
-						'Exchanges', 'Exchanges',
-						'Operations', 
-						'Project', 'Project', 
-						'Funding', 'Liquidity', 'Operations', 'Project'
-					],
-					datasets: [{
-							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-							data: [2, 3, 5, 4, 5, 71, 9, 1],
-							order: [2, 3, 4, 6, 7, 9, 11, 12],
-							index: 0
-						}, {
-							backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
-							data: [10, 9, 71, 10],
-							order: [1, 5, 8, 10],
-							index: 1
-					}]
-				}}
-				options={{
-					responsive: true,
-					reverse: true,
-					plugins: {
-						tooltip: {
-							callbacks: {
-								label: function(context) {
-									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-								}
-							}
-						},
-						legend: {
-						position: 'right',
-							labels: {
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								padding: 20,
-								generateLabels: function(chart) {
-									let datasetColors = chart.data.datasets.map(function(e) {
-											return e.backgroundColor;
-									}).flat();						        	  
-									let orders = chart.data.datasets.map(function(e) {
-										return e.order;
-									}).flat();
-											
-									// Get the default label list
-									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-									const labelsOriginal = original.call(this, chart);
-									return labelsOriginal.sort((label2, label1) => {
-										return orders[label2.index] - orders[label1.index];
-									}).filter((label, index, array) => {
-										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-									}).map((label) => {
-									label.datasetIndex = label.index;
-									label.fillStyle = datasetColors[label.index];
-											return label;
-									});	
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
 								}
 							},
-							onClick: function(mouseEvent, legendItem, legend) {
-								// toggle the visibility of the dataset from what it currently is
-								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-								legend.chart.update();
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
 							}
 						}
-					}
-				}}
-			/>
+					}}
+				/>
+			</div>
 		</div>
 	);
 }
@@ -1005,81 +1014,84 @@ export const NegotiationAllocation = () => {
 
 export const OperationsAllocation = () => {
 	return (
-		<div className="panel">
-			<Doughnut
-				data={{
-					labels: [
-						'Private Sale', 'Presale', 'Crowdsale', 
-						'Exchanges', 'Exchanges',
-						'Operations', 
-						'Project', 'Project', 
-						'Funding', 'Liquidity', 'Operations', 'Project'
-					],
-					datasets: [{
-							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-							data: [2, 3, 5, 4, 5, 71, 9, 1],
-							order: [2, 3, 4, 6, 7, 9, 11, 12],
-							index: 0
-						}, {
-							backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-							data: [10, 9, 71, 10],
-							order: [1, 5, 8, 10],
-							index: 1
-					}]
-				}}
-				options={{
-					responsive: true,
-					reverse: true,
-					plugins: {
-						tooltip: {
-							callbacks: {
-								label: function(context) {
-									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-								}
-							}
-						},
-						legend: {
-						position: 'right',
-							labels: {
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								padding: 20,
-								generateLabels: function(chart) {
-									let datasetColors = chart.data.datasets.map(function(e) {
-											return e.backgroundColor;
-									}).flat();						        	  
-									let orders = chart.data.datasets.map(function(e) {
-										return e.order;
-									}).flat();
-											
-									// Get the default label list
-									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-									const labelsOriginal = original.call(this, chart);
-									return labelsOriginal.sort((label2, label1) => {
-										return orders[label2.index] - orders[label1.index];
-									}).filter((label, index, array) => {
-										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-									}).map((label) => {
-									label.datasetIndex = label.index;
-									label.fillStyle = datasetColors[label.index];
-											return label;
-									});	
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
 								}
 							},
-							onClick: function(mouseEvent, legendItem, legend) {
-								// toggle the visibility of the dataset from what it currently is
-								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-								legend.chart.update();
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
 							}
 						}
-					}
-				}}
-			/>
+					}}
+				/>
+			</div>
 		</div>
 	);
 }
@@ -1090,81 +1102,84 @@ export const OperationsAllocation = () => {
 
 export const ProjectAllocation = () => {
 	return (
-		<div className="panel">
-			<Doughnut
-				data={{
-					labels: [
-						'Private Sale', 'Presale', 'Crowdsale', 
-						'Exchanges', 'Exchanges',
-						'Operations', 
-						'Project', 'Project', 
-						'Funding', 'Liquidity', 'Operations', 'Project'
-					],
-					datasets: [{
-							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
-							data: [2, 3, 5, 4, 5, 71, 9, 1],
-							order: [2, 3, 4, 6, 7, 9, 11, 12],
-							index: 0
-						}, {
-							backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
-							data: [10, 9, 71, 10],
-							order: [1, 5, 8, 10],
-							index: 1
-					}]
-				}}
-				options={{
-					responsive: true,
-					reverse: true,
-					plugins: {
-						tooltip: {
-							callbacks: {
-								label: function(context) {
-									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-								}
-							}
-						},
-						legend: {
-						position: 'right',
-							labels: {
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								padding: 20,
-								generateLabels: function(chart) {
-									let datasetColors = chart.data.datasets.map(function(e) {
-											return e.backgroundColor;
-									}).flat();						        	  
-									let orders = chart.data.datasets.map(function(e) {
-										return e.order;
-									}).flat();
-											
-									// Get the default label list
-									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-									const labelsOriginal = original.call(this, chart);
-									return labelsOriginal.sort((label2, label1) => {
-										return orders[label2.index] - orders[label1.index];
-									}).filter((label, index, array) => {
-										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-									}).map((label) => {
-									label.datasetIndex = label.index;
-									label.fillStyle = datasetColors[label.index];
-											return label;
-									});	
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
 								}
 							},
-							onClick: function(mouseEvent, legendItem, legend) {
-								// toggle the visibility of the dataset from what it currently is
-								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-								legend.chart.update();
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
 							}
 						}
-					}
-				}}
-			/>
+					}}
+				/>
+			</div>
 		</div>
 	);
 }
@@ -1175,81 +1190,84 @@ export const ProjectAllocation = () => {
 
 export const InitialTokenAllocation = () => {
 	return (
-		<div className="panel">
-			<Doughnut
-				data={{
-					labels: [
-						'Private Sale', 'Presale', 'Crowdsale', 
-						'Exchanges', 'Exchanges',
-						'Operations', 
-						'Project', 'Project', 
-						'Funding', 'Liquidity', 'Operations', 'Project'
-					],
-					datasets: [{
-							backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
-							data: [2, 3, 5, 4, 0, 0, 0, 1],
-							order: [2, 3, 4, 6, 7, 9, 11, 12],
-							index: 0
-						}, {
-							backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-							data: [10, 4, 0, 1],
-							order: [1, 5, 8, 10],
-							index: 1
-					}],
-				}}
-				options={{
-					responsive: true,
-					reverse: true,
-					plugins: {
-						tooltip: {
-							callbacks: {
-								label: function(context) {
-									const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-									return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-								}
-							}
-						},
-						legend: {
-						position: 'right',
-							labels: {
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								padding: 20,
-								generateLabels: function(chart) {
-									let datasetColors = chart.data.datasets.map(function(e) {
-											return e.backgroundColor;
-									}).flat();						        	  
-									let orders = chart.data.datasets.map(function(e) {
-										return e.order;
-									}).flat();
-											
-									// Get the default label list
-									const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-									const labelsOriginal = original.call(this, chart);
-									return labelsOriginal.sort((label2, label1) => {
-										return orders[label2.index] - orders[label1.index];
-									}).filter((label, index, array) => {
-										return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-									}).map((label) => {
-									label.datasetIndex = label.index;
-									label.fillStyle = datasetColors[label.index];
-											return label;
-									});	
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
+								data: [2, 3, 5, 4, 0, 0, 0, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+								data: [10, 4, 0, 1],
+								order: [1, 5, 8, 10],
+								index: 1
+						}],
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
 								}
 							},
-							onClick: function(mouseEvent, legendItem, legend) {
-								// toggle the visibility of the dataset from what it currently is
-								legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-								legend.chart.update();
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
 							}
 						}
-					}
-				}}
-			/>
+					}}
+				/>
+			</div>
 		</div>
 	);
 }
@@ -1283,7 +1301,7 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 
 - <b>Value Delivery</b>. After the Value Capture Event. the stabilization mechanism guarantees that the value of the underlying asset is maintained. This is the permanent regime where the token is focused in value delivery. During this period the DeFi Services take place.
 
-<div className="panel">
+<div className="chart-panel2">
 <Line
   data={{
 		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],

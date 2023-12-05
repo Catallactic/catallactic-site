@@ -170,8 +170,24 @@ table {
 
 
 
+.chart-container {
+	text-align: center;
+	margin: 0%;
+}
 
-
-.panel {
+.chart-panel {
 	min-height: 350px;
+	width: 60%;
+	display: inline-block;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1200px) {
+	.chart-panel {
+		width: 100%;
+  }
+}
+
+.chart-panel2 {
+	min-height: 350px;
+  margin: 0 auto;
 }
