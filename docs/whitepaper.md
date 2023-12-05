@@ -121,28 +121,7 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 2.6. Who will benefit?
-
-Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
-
-- issuers will be able to fund his local or global project
-
-- issuers will also profit by providing DeFi Services to society
-
-- investors will profit by investing in successful projects
-
-- consumers will benefit with higher offer
-
-- citizens excluded from financial system will be able to fund their projects with private risk
-
-- society will benefit from more liquid financial markets
-
-- citizens from developing countries can create their own economy and fix their problems
-
-- governments will be able to delegate the difficult part into citizens
-
-
-### 2.7. CryptoCommodity vs Fiat Stablecoin
+### 2.6. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -737,7 +716,25 @@ Finally, the CryptoCommodity can deliver additional Financial Services as DeFi S
 
 ### 4.5. Crowdsolving
 
+### 4.6. Who will benefit?
 
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
 
 
 
