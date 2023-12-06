@@ -125,6 +125,10 @@ const sidebars = {
 			id: 'funding/intro', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
+			type: 'doc',
+			id: 'funding/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
       type: 'category',
       label: 'Preparing Funding',
       items: [{
