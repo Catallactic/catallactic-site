@@ -2130,3 +2130,7 @@ Finally we have described how the adoption of this new token could empower the s
 [39] A Note on Cryptocurrency Stabilisation: Seigniorage Shares, Robert Sams, 2015 - https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf
 
 [40] What is Stablecoin?: A Survey on Its Mechanism and Potential as Decentralized Payment Systems. Makiko Mita, Kensuke Ito, Shohei Ohsawa, Hideyuki Tanaka - https://arxiv.org/pdf/1906.06037.pdf
+
+[41] The Holy Grail of Crypto Currencies: Ready to Replace Fiat Money?, Richard Senner, Didier Sornette, 2018 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3192924
+
+[42] The Market for Cryptocurrencies, Lawrence H. White - https://www.cato.org/sites/cato.org/files/serials/files/cato-journal/2015/5/cj-v35n2-13.pdf

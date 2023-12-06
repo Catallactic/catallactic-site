@@ -224,7 +224,11 @@ const sidebars = {
 			type: 'doc',
 			id: 'negotiation/intro', // document ID
 			label: 'Getting started', // sidebar label
-		},{
+		}, {
+			type: 'doc',
+			id: 'negotiation/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'category',
       label: 'Deploying to Exchanges',
       items: [
