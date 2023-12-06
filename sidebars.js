@@ -64,11 +64,7 @@ const sidebars = {
 				'principles/compliance/AML',
 				'principles/compliance/Taxes'
 			],
-		}, 
-	],
-
-  valueChainSidebar: [
-		{
+		}, {
 			type: 'doc',
 			id: 'tokenization/intro', // document ID
 			label: 'Getting started', // sidebar label
@@ -114,7 +110,11 @@ const sidebars = {
       items: [
 				'funding/allocations'
 			],
-		}, {
+		}, 
+	],
+
+  valueChainSidebar: [
+		{
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
