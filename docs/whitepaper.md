@@ -666,7 +666,13 @@ There are several distribution schemes that can be applied in different stages o
 
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
-#### 4.4.3. Considerations for Distribution
+
+#### 4.4.3. Wealth Distribution
+
+whales gini
+
+
+#### 4.4.4. Considerations for Distribution
 
 An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
 
@@ -749,13 +755,16 @@ Extracting value from nature and delivering into society to fullfill consumers w
 ## 5. Supply Allocations
 ---
 
+### 5.1. Token Allocation Concepts
+
 Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. The way tokens are allocated must align with the project's long-term goals.
 
-With that said, there is a great degree of flexibility in token allocations.  a great token allocation will not ensure a project’s success, a poor one will ensure its failure.
+There isn't a unified language or consistent definition for token allocations. The inconsistencies make it even more challenging to compare them against each other and aggregate the data. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. We propose below a classification of allocation concepts grouped by stage in the value chain.
 
-Alocation must be designed at 2 points in time: the Initial Allocation configured when the token is first generated (TGE) and the expected allocation once Max Supply has been achieved.
+There is a also great degree of flexibility in token allocation amounts. A great token allocation will not ensure a project’s success, a poor one will ensure its failure.
 
-### 5.1. Token Allocation Concepts
+
+
 
 The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors.
 
@@ -845,7 +854,7 @@ export const TokenAllocation = () => {
 
 <TokenAllocation/>
 
-### 5.1.1. Funding Allocation
+#### 5.2.1. Funding Allocation
 
 export const FundingAllocation = () => {
 	return (
@@ -933,7 +942,7 @@ export const FundingAllocation = () => {
 
 <FundingAllocation/>
 
-### 5.1.2. Negotiation Allocation
+#### 5.2.2. Negotiation Allocation
 
 export const NegotiationAllocation = () => {
 	return (
@@ -1021,7 +1030,7 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-### 5.1.3. Operations Allocation
+#### 5.2.3. Operations Allocation
 
 export const OperationsAllocation = () => {
 	return (
@@ -1109,7 +1118,7 @@ export const OperationsAllocation = () => {
 
 <OperationsAllocation/>
 
-### 5.1.4. Project Allocation
+#### 5.2.4. Project Allocation
 
 export const ProjectAllocation = () => {
 	return (
@@ -1197,7 +1206,23 @@ export const ProjectAllocation = () => {
 
 <ProjectAllocation/>
 
-### 5.2. Initial Token Allocation (TGE)
+### 5.2. Determining Supply Milestones
+
+
+#### 5.2.1. Max Supply
+
+
+#### 5.2.2. Funding Capability
+
+
+#### 5.2.3. Initial Supply
+
+
+
+### 5.3. Initial Token Allocation
+
+Alocation must be designed at 2 points in time: the Initial Allocation configured when the token is first generated (TGE) and the expected allocation once Max Supply has been achieved.
+
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://d33wubrfki0l68.cloudfront.net/7391c50d25cdb2f16ca64842dd6257fd19697ef0/8522f/assets/messari_initial_token.jpg" width="70%"></img>
@@ -1393,12 +1418,8 @@ export const TokenAllocationEvolution = () => {
 
 
 
-### 5.5. Wealth Distribution
 
-whales gini
-
-
-### 5.6. Creating Benchmarks
+### 5.5. Creating Benchmarks
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1411,7 +1432,6 @@ whales gini
 
 ## 6. Supply Management
 ---
-
 
 ### 6.1. Supply Profile
 
@@ -1605,18 +1625,14 @@ From this point onwards, a CryptoCommodity has a built-in stabilization mechanis
 
 #### 6.3.1. Stabilization Mechanism
 
+Economic history and literature are rich with schemes to peg the value of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
+
 This is done by adjusting the supply in the exchanges.
 
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 
-
-
-#### 6.3.3. Determining Max Supply
-
-
-
-#### 6.3.4. Collateral
+#### 6.3.2. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
@@ -1748,6 +1764,8 @@ Decentralization at this stage must pay attention to different aspects:
 - decentralization on governance, the stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.
 
 ### 7.7. The challenge of Compliance
+
+Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
 
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
@@ -2134,3 +2152,11 @@ Finally we have described how the adoption of this new token could empower the s
 [41] The Holy Grail of Crypto Currencies: Ready to Replace Fiat Money?, Richard Senner, Didier Sornette, 2018 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3192924
 
 [42] The Market for Cryptocurrencies, Lawrence H. White - https://www.cato.org/sites/cato.org/files/serials/files/cato-journal/2015/5/cj-v35n2-13.pdf
+
+
+
+[43] Regulation, Supervision and Oversight of “Global Stablecoin” Arrangements, FSB - https://www.fsb.org/2020/10/regulation-supervision-and-oversight-of-global-stablecoin-arrangements/
+
+[43] https://mises.org/wire/money-supply-continues-its-biggest-collapse-great-depression
+
+[44] Token Vesting and Allocations Industry Benchmarks, 2022 - https://www.liquifi.finance/post/token-vesting-and-allocation-benchmarks
