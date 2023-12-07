@@ -259,7 +259,11 @@ const sidebars = {
     }, {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Distribution</span>',
-    }, {
+		}, {
+			type: 'doc',
+			id: 'distribution/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'doc',
 			id: 'distribution/intro', // document ID
 			label: 'Getting started', // sidebar label
@@ -302,21 +306,9 @@ const sidebars = {
 			label: 'Getting started', // sidebar label
 		}, {
       type: 'category',
-      label: 'Liquidity Provision',
-      items: ['defi/liquidity/liquidity'],
-    }, {
-      type: 'category',
-      label: 'Staking',
+      label: 'Store of Value',
       items: ['defi/staking/staking'],
-    }, {
-			type: 'category',
-      label: 'Launchpad',
-      items: ['defi/launchpad/launchpad'],
-    }, {
-			type: 'category',
-      label: 'Transfers',
-      items: ['defi/transfers/transfers'],
-    }, {
+		}, {
       type: 'category',
       label: 'Payments',
       items: ['defi/payments/payments'],
@@ -325,10 +317,18 @@ const sidebars = {
       label: 'Cards',
       items: ['defi/cards/cards'],
     }, {
+			type: 'category',
+      label: 'Transfers',
+      items: ['defi/transfers/transfers'],
+    }, {
       type: 'category',
       label: 'Lending',
       items: ['defi/lending/lending'],
-    }, {
+		}, {
+			type: 'category',
+      label: 'Liquidity Provision',
+      items: ['defi/liquidity/liquidity'],
+		}, {
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
