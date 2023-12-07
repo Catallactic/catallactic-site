@@ -339,11 +339,12 @@ All the requirements described must be particularized for each stage of the Cryp
 
 ### 4.2. Funding
 
-Differently to a stablecoin, which must provision the collateral corresponding to initial supply on inception, CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project.
+Differently to a stablecoin, which must provision the collateral corresponding to initial supply on inception, CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. Will do an ICO.
 
-#### 4.2.2. Defining Funding Rounds
+#### 4.2.1. Structuring Funding Plan
 
-On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required by law. This makes launching a currency friendly for any citizen which has a real world project.
+Structuring of ICO offerings varies across projects in regards to the number of tokens issued; the proportion maintained as compared to the one distributed to investors; the allocation mechanisms; the future supply of tokens; and the sale model used. The schedule of token issuance, if tokens are not issued in a single issuance, needs to be clarified by the issuer upfront. 
+[45]
 
 Essentially there are 3 kind of funding rounds:
 
@@ -353,18 +354,19 @@ Essentially there are 3 kind of funding rounds:
 
 - crowdsales
 
-Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A custom launchpad is build-in in dAppmin.
+Most ICO offerings are capped, placing a ceiling on the amount they wish to raise which is in turn translated into a cap in the number of tokens that will be issued. Uncapped ICOs
+run the risk of token "inflation", with the value of existing tokens being eroded with every new token issuance. This effect is similar to the dilution to which equity-holders are subjected to. [45]
 
-Special attention must be paid to compliance.
 
-#### 4.2.3. Calculating Investors Profit
+
+#### 4.2.2. Calculating Investors Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
 </div>
 
 
-#### 4.2.4. Determining Vesting Schedules
+#### 4.2.3. Determining Vesting Schedules
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TG, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
 
@@ -470,7 +472,7 @@ export const SupplyProfileChart = () => {
 
 <SupplyProfileChart/>
 
-#### 4.2.5. Estimating Investors Exit
+#### 4.2.4. Estimating Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -615,7 +617,16 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 />
 </div>
 
-#### 4.2.2. Considerations for Funding
+#### 4.2.5. Chossing Funding Platform
+
+Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A custom launchpad is build-in in dAppmin.
+
+#### 4.2.6. Considerations for Funding
+
+On launching a CryptoCommodity, the monetary policy will follow an Utility Token pattern so not a collateral will be initially required by law. This makes launching a currency friendly for any citizen which has a real world project.
+
+Special attention must be paid to compliance.
+
 
 ### 4.3. Negotiation
 
@@ -623,7 +634,7 @@ Differently to a stablecoin, which is stabilized to capture the fiat price of th
 
 #### 4.3.1. Mechanism
 
-Typically ngotiation happnd by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
+Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
@@ -645,34 +656,38 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 
 ### 4.4. Distribution
 
-Distribution is the process of handling over new CryptoCommodity units. There are 2 targets of distribution:
-
-- genesis distribution, which refers to token units initially premined to launch the system. Includes funding round investors, team and collaborators, liquidty pools and reserves
-
-- ongoing distribution, which refers to token units ditributed during the system operation, with operation or marketing purposes.
-
-#### 4.4.1. Premined Tokens vs Fair Launch
+Distribution is the process of handling over new CryptoCommodity units.
 
 
-#### 4.4.2. Ongoing Distribution Mechanism
+#### 4.4.1. Fair Launch
+
+No premined tokens for funding or project
+
+
+
+#### 4.4.2. Marketing
 
 There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
 
-- Rewards on Community Activity
 
-- Airdrops
+- Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
 
 - Giveaway
 
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
+#### 4.4.3. Commodity Purchases
 
-#### 4.4.3. Wealth Distribution
+- Tokens must be purchasesd by consumers
+
+
+
+#### 4.4.4. Wealth Distribution
 
 whales gini
 
 
-#### 4.4.4. Considerations for Distribution
+#### 4.4.5. Considerations for Distribution
 
 An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
 
@@ -757,16 +772,13 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 ### 5.1. Token Allocation Concepts
 
-Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. The way tokens are allocated must align with the project's long-term goals.
+Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. 
 
-There isn't a unified language or consistent definition for token allocations. The inconsistencies make it even more challenging to compare them against each other and aggregate the data. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. We propose below a classification of allocation concepts grouped by stage in the value chain.
+Typically, the issuer will split the token into different groups and allocate a certain amount of tokens to each group. The way tokens are allocated must align with the project's long-term goals.
 
-There is a also great degree of flexibility in token allocation amounts. A great token allocation will not ensure a project’s success, a poor one will ensure its failure.
+There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. We propose below a classification of allocation concepts grouped by stage in the value chain.
 
-
-
-
-The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors.
+There is a also great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure. 
 
 export const TokenAllocation = () => {
 	return (
@@ -853,8 +865,15 @@ export const TokenAllocation = () => {
 }
 
 <TokenAllocation/>
+<br/>
+
+Token allocations state the issuer intends to grant different amount of tokens to each group. However, this allocation will be different to actual Supply Distribution. 
+
+A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer. 
 
 #### 5.2.1. Funding Allocation
+
+A fair launch, without any funding allocation is welcome by the token investors.
 
 export const FundingAllocation = () => {
 	return (
@@ -1119,6 +1138,8 @@ export const OperationsAllocation = () => {
 <OperationsAllocation/>
 
 #### 5.2.4. Project Allocation
+
+ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1). 
 
 export const ProjectAllocation = () => {
 	return (
@@ -1420,6 +1441,8 @@ export const TokenAllocationEvolution = () => {
 
 
 ### 5.5. Creating Benchmarks
+
+This exercise needs to be done upfront, before the platform is even launched and when uncertainty is at its maximum.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -2160,3 +2183,5 @@ Finally we have described how the adoption of this new token could empower the s
 [43] https://mises.org/wire/money-supply-continues-its-biggest-collapse-great-depression
 
 [44] Token Vesting and Allocations Industry Benchmarks, 2022 - https://www.liquifi.finance/post/token-vesting-and-allocation-benchmarks
+
+[45] OECD (2019), Initial Coin Offerings (ICOs) for SME Financing, - https://www.oecd.org/finance/initial-coin-offerings-for-sme-financing.htm
