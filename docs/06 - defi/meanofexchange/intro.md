@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Staking
+# Mean of Exchange

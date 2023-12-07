@@ -306,8 +306,16 @@ const sidebars = {
 			label: 'Getting started', // sidebar label
 		}, {
       type: 'category',
+      label: 'Mean of Exchange',
+      items: ['defi/meanofexchange/intro'],
+		}, {
+      type: 'category',
       label: 'Store of Value',
-      items: ['defi/staking/staking'],
+      items: ['defi/storeofvalue/intro'],
+		}, {
+      type: 'category',
+      label: 'Unit of Account',
+      items: ['defi/unitofaccount/intro'],
 		}, {
       type: 'category',
       label: 'Payments',
