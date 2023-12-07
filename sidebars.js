@@ -307,7 +307,10 @@ const sidebars = {
 		}, {
       type: 'category',
       label: 'Mean of Exchange',
-      items: ['defi/meanofexchange/intro'],
+      items: [
+				'defi/meanofexchange/intro',
+				'defi/meanofexchange/bibliography'
+			],
 		}, {
       type: 'category',
       label: 'Store of Value',
