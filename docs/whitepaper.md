@@ -1676,14 +1676,22 @@ The goal of collateral is allow the holder to redeem its currency by the underly
 
 Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
 
-A CryptoCommodity system is naturally collateralized. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
+A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
 
 > a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
 
+In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
 
+> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
+assets. [46]
 
+This is not the case for CryptoCommodities as they are redeemable by the seets service, not by cash.
 
+>  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
 
+On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
+
+Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1804,6 +1812,13 @@ Decentralization at this stage must pay attention to different aspects:
 ### 7.7. The challenge of Compliance
 
 Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
+
+Recommendations for Prudential and Conduct Regulation of the Crypto Ecosystem: Stablecoins [46]
+- Financial Stability 
+- Consumer and Investor Protection 
+- Operational and Cyber-Resiliency 
+- Financial Integrity 
+- Embracing the Potential of Stablecoins While Managing Risks
 
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
@@ -2200,3 +2215,7 @@ Finally we have described how the adoption of this new token could empower the s
 [44] Token Vesting and Allocations Industry Benchmarks, 2022 - https://www.liquifi.finance/post/token-vesting-and-allocation-benchmarks
 
 [45] OECD (2019), Initial Coin Offerings (ICOs) for SME Financing, - https://www.oecd.org/finance/initial-coin-offerings-for-sme-financing.htm
+
+
+
+[46] Regulating the Crypto Ecosystem: The Case of Stablecoins and Arrangements, 2022,  https://www.imf.org/en/Publications/fintech-notes/Issues/2022/09/26/Regulating-the-Crypto-Ecosystem-The-Case-of-Stablecoins-and-Arrangements-523724
