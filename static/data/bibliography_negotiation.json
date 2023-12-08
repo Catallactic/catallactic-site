@@ -1,5 +1,12 @@
 [	
 
+	{ "subject": "ON EXCHANGES" },
+	{ "subject": "ON EXCHANGES", "date": "2023", "title": "Competition in the Cryptocurrency Exchange Market", "author": "Junyi Hu†, Anthony Lee Zhang", "place": "", "url": "https://anthonyleezhang.github.io/pdfs/cryptoexchanges.pdf" },
+
+	{ "subject": "ON EXCHANGE LISTING" },
+	{ "subject": "ON EXCHANGE LISTING", "date": "2019", "title": "Market Reaction to Exchange Listings of Cryptocurrencies", "author": "Lennart Ante", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3450301" },
+	{ "subject": "ON EXCHANGE LISTING", "date": "2021", "title": "Cross-listings of blockchain-based tokens issued through initial coin offerings: Do liquidity and specific cryptocurrency exchanges matter?", "author": "Lennart Ante, André Meyer", "place": "", "url": "https://link.springer.com/article/10.1007/s10203-021-00323-0" },
+
 	{ "subject": "ON STABILIZATION MECHANISM" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2015", "title": "A Note on Cryptocurrency Stabilisation: Seigniorage Shares", "author": "Robert Sams", "place": "", "url": "https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2016", "title": "Hayek Money: The Cryptocurrency Price Stability Solution", "author": "Ferdinando M. Ametrano", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2425270" },
