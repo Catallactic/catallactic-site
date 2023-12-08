@@ -339,25 +339,29 @@ All the requirements described must be particularized for each stage of the Cryp
 
 ### 4.2. Funding
 
-Differently to a stablecoin, which must provision the collateral corresponding to initial supply on inception, CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. Will do an ICO.
+CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. The mechanism created for CryptoCommodities to fund the project is called a Initial Token Offering (ICO) as an analogy to IPO.
 
-#### 4.2.1. Structuring Funding Plan
+#### 4.2.1. Structuring Token Sales
 
 Structuring of ICO offerings varies across projects in regards to the number of tokens issued; the proportion maintained as compared to the one distributed to investors; the allocation mechanisms; the future supply of tokens; and the sale model used. The schedule of token issuance, if tokens are not issued in a single issuance, needs to be clarified by the issuer upfront. 
 [45]
 
-Essentially there are 3 kind of funding rounds:
+Essentially there are 3 types of funding rounds:
 
-- private rounds
+- private sale. Private Sale are similar to traditional sale since they are typically not run on a blockchain. In this model, a significant portion of tokens are sold to venture capital firms at a discount at an early stage. The destination of these tokens can be to prepare next token sales in the funding process.
 
-- presales
+- presale. ICO Presale is the token sale event unleashed before the official ICO or crowd sale goes live. Notably, the ICO Presale fund-raising targets are significantly lower when compared to what is set for the main initial coin offering (ICO).
 
-- crowdsales
+- crowdsale. Tokens are sold to the general public, often following a well-advertised launch event. This model aims to distribute tokens as widely as possible.
 
 Most ICO offerings are capped, placing a ceiling on the amount they wish to raise which is in turn translated into a cap in the number of tokens that will be issued. Uncapped ICOs
 run the risk of token "inflation", with the value of existing tokens being eroded with every new token issuance. This effect is similar to the dilution to which equity-holders are subjected to. [45]
 
+Token issuers must guarantee that no investors take a large portion of the tokens since they could become whales and manipulate the price of the token once this is traded in the exchanges.
 
+The funding process ends with the Token Generation Event (TGE) which deploys the tokens to the exchanges ready to be traded and provides the purchased tokens to the funding round investors.
+
+CryptoCommodity Framework provides support for above configurations. Proper know how must be completed with benchmarks.
 
 #### 4.2.2. Calculating Investors Profit
 
@@ -538,7 +542,7 @@ Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
 
-#### 4.3.1. Considerations for Negotiation
+#### 4.3.2. Considerations for Negotiation
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
@@ -565,18 +569,40 @@ Distribution is the process of handling over new CryptoCommodity units. There ar
 
 ##### 4.4.1.1. Fair Launch
 
-No premined tokens for funding or project
+A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
 
+A cryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
 
 ##### 4.4.1.2. Premined Distribution 
 
 ##### 4.4.1.3. Vesting Schedules
 
-No premined tokens for funding or project
+The purpose of including vesting schedules it to mitigate sell pressure. 
 
-With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TG, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
+This is acheived by locking tokens, either in a custom locker or a external service, duiring a period.
 
-Mitigate sell pressure
+
+The release can be different way, including linear...
+
+Some recommendations to lockup and vesting periods follows.
+
+The lockups for the "Core Team" should be large enough to prove that they are interested and motivated to play the long-term game. The most common vesting duration for the Core Team is 4 years with 1-year cliff.
+
+For Investors typically see a shorter lockup period on tokens than team vesting periods because they benefit from earlier liquidity and the optionality of selling. There are also token-oriented investors whose strategy is to sell the tokens as soon as they launch/unlock.
+
+With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TGE, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
+
+
+
+
+
+
+
+
+- Reserve. It's important to consider all the unforeseeable obstacles and opportunities that may arise in the future.
+
+- Marketing incentives. Typically, there are no lockups, or they are only partly locked with a 1-12 months overall lockup period.
+
 
 export const SupplyProfileChart = () => {
 	const pp = 1;
@@ -697,6 +723,10 @@ Is probably up to the issuer the selection of the distribution mechanims that he
 
 
 
+#### 4.4.3. Release Schedule
+
+
+
 #### 4.4.4. Wealth Distribution
 
 whales gini
@@ -712,6 +742,7 @@ Another consideration is to prevent high concentration of token units in some wa
 
 By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
+Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
 
 #### 4.5.1. Currency Functions
 
@@ -723,11 +754,8 @@ First it will make a fully featured currency which will empower the community.
 
 - Unit of Account
 
-#### 4.5.2. Currency Services
 
-Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
-
-#### 4.5.2.1. Payments
+#### 4.5.2. Payments
 
 Thanks to its stable nature, a CryptoCommodity can be used for payments for good and services. 
 
@@ -735,15 +763,15 @@ It needs to be as payment method for the underlying market in order to form the 
 
 It can also be used as payment method for other assets as long as commonly accepted by moth parties.
 
-#### 4.5.2.2. Cards
+#### 4.5.3. Cards
 
 Currently there are cards, both already compatible with crypto currencies. 
 
-#### 4.5.2.3. Transfers
+#### 4.5.4. Transfers
 
 CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
 
-#### 4.5.2.4. Lending
+#### 4.5.5. Lending
 
 Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
 
@@ -1154,7 +1182,8 @@ export const OperationsAllocation = () => {
 
 #### 5.2.4. Project Allocation
 
-ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1). 
+ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1).
+
 
 export const ProjectAllocation = () => {
 	return (
