@@ -333,9 +333,11 @@ Additionally, the price is formed in the basis of a service. Some services that 
 ## 4. The CryptoCommodity Value Chain
 ---
 
-A CryptoCommodity takes economic value from nature and delivers to the adopting society. In this section we will review what is the lifecycle of a CryptoCommodity and how can interact with the different actors of the society. We also discuss how it can benefit each party.
+In this section we will review what is the lifecycle of a CryptoCommodity and how can interact with the different actors of the society. We also discuss how it can benefit each party.
 
 ### 4.1. CryptoCommodity Lifecycle
+
+A CryptoCommodity takes economic value from nature and delivers to the adopting society. A CryptoCommodity builds a well-oiled ecosystem where a network of participants fulfills their objectives and meets specific needs to ensure seamless operations. All the particicipants are coordinated within the CryptoCommodity ecosystem and it must be designed as a sustainable system.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/token_value_chain2.svg" width="100%"></img>
@@ -345,7 +347,7 @@ All the requirements described must be particularized for each stage of the Cryp
 
 ### 4.2. Token Allocation Concepts
 
-Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. 
+In order to design every stage of the value chain, we must assign a portion of the whole token units to every stage. Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. 
 
 Typically, the issuer will split the token into different groups and allocate a certain amount of tokens to each group. The way tokens are allocated must align with the project's long-term goals.
 
@@ -442,275 +444,9 @@ export const TokenAllocation = () => {
 
 Token allocations state the issuer intends to grant different amount of tokens to each group. However, this allocation will be different to actual Supply Distribution. 
 
-A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer. 
+A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer.
 
-#### 4.2.1. Funding Allocation
-
-A fair launch, without any funding allocation is welcome by the token investors.
-
-export const FundingAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<FundingAllocation/>
-
-#### 4.2.2. Negotiation Allocation
-
-export const NegotiationAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<NegotiationAllocation/>
-
-#### 4.2.3. Operations Allocation
-
-export const OperationsAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<OperationsAllocation/>
-
-#### 4.2.4. Project Allocation
+#### 4.2.1. Project Allocation
 
 ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1).
 
@@ -800,6 +536,272 @@ export const ProjectAllocation = () => {
 }
 
 <ProjectAllocation/>
+
+#### 4.2.2. Funding Allocation
+
+A fair launch, without any funding allocation is welcome by the token investors.
+
+export const FundingAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<FundingAllocation/>
+
+#### 4.2.3. Negotiation Allocation
+
+export const NegotiationAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<NegotiationAllocation/>
+
+#### 4.2.4. Operations Allocation
+
+export const OperationsAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<OperationsAllocation/>
 
 ### 4.3. Determining Supply Milestones
 
@@ -1711,6 +1713,11 @@ Another consideration is to prevent high concentration of token units in some wa
 By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
 Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/unit_of_account_ecosystem_before.svg" width="80%"></img>
+</div>
+<br/>
 
 ### 8.1. Currency Functions
 
