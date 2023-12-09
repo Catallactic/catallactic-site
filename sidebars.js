@@ -36,7 +36,8 @@ const sidebars = {
 			type: 'category',
 			label: 'Decentralization',
 			items: [
-				'principles/decentralization/overview',				
+				'principles/decentralization/bibliography',
+				'principles/decentralization/overview',
 			],
 		}, {
 			type: 'category',
