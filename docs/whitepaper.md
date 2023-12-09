@@ -731,10 +731,9 @@ export const SupplyProfileChart = () => {
 
 There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
 
-
 - Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
 
-- Giveaway
+- Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
 
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
@@ -1029,7 +1028,7 @@ Token allocations state the issuer intends to grant different amount of tokens t
 
 A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer. 
 
-#### 5.2.1. Funding Allocation
+#### 5.1.1. Funding Allocation
 
 A fair launch, without any funding allocation is welcome by the token investors.
 
@@ -1119,7 +1118,7 @@ export const FundingAllocation = () => {
 
 <FundingAllocation/>
 
-#### 5.2.2. Negotiation Allocation
+#### 5.1.2. Negotiation Allocation
 
 export const NegotiationAllocation = () => {
 	return (
@@ -1207,7 +1206,7 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-#### 5.2.3. Operations Allocation
+#### 5.1.3. Operations Allocation
 
 export const OperationsAllocation = () => {
 	return (
@@ -1295,7 +1294,7 @@ export const OperationsAllocation = () => {
 
 <OperationsAllocation/>
 
-#### 5.2.4. Project Allocation
+#### 5.1.4. Project Allocation
 
 ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1).
 
@@ -1494,7 +1493,7 @@ export const InitialTokenAllocation = () => {
 
 <InitialTokenAllocation/>
 
-### 5.4. Token Allocation Evolution
+### 5.4. Token Release
 
 export const TokenAllocationEvolution = () => {
 	const pp = 1;

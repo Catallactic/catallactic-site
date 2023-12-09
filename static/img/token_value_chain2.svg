@@ -26,7 +26,7 @@
      inkscape:pagecheckerboard="false"
      showgrid="false"
      inkscape:zoom="1.0425926"
-     inkscape:cx="354.88454"
+     inkscape:cx="347.21137"
      inkscape:cy="194.22735"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
@@ -567,9 +567,9 @@
      inkscape:transform-center-y="4.8419915"><tspan
        x="406.29556"
        y="338.76971"
-       id="tspan3014"><tspan
+       id="tspan2373"><tspan
          style="font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal'"
-         id="tspan3012">Price</tspan></tspan></text>
+         id="tspan2371">Price</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.98;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.793;stroke-miterlimit:4;stroke-dasharray:none"
@@ -651,9 +651,9 @@
      inkscape:transform-center-y="4.8419915"><tspan
        x="388.83969"
        y="240.28122"
-       id="tspan3018"><tspan
+       id="tspan2377"><tspan
          style="font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal'"
-         id="tspan3016">Transfers</tspan></tspan></text>
+         id="tspan2375">Transfers</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.98;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.793;stroke-miterlimit:4;stroke-dasharray:none"
@@ -770,16 +770,30 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.98;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.793;stroke-miterlimit:4;stroke-dasharray:none"
-     x="505.33237"
-     y="267.4137"
+     x="505.84833"
+     y="266.84042"
+     id="text7933-5-6-04-6-6"
+     transform="scale(1.1163718,0.89575892)"
+     inkscape:transform-center-x="66.610537"
+     inkscape:transform-center-y="4.8419915"><tspan
+       sodipodi:role="line"
+       id="tspan7931-4-6-5-6-9"
+       x="505.84833"
+       y="266.84042"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.793;stroke-miterlimit:4;stroke-dasharray:none">Financial Inclusion</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.98;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.793;stroke-miterlimit:4;stroke-dasharray:none"
+     x="507.10376"
+     y="290.63821"
      id="text7933-5-6-3-4-4"
      transform="scale(1.1163718,0.89575892)"
      inkscape:transform-center-x="66.610537"
      inkscape:transform-center-y="4.8419915"><tspan
        sodipodi:role="line"
        id="tspan7931-4-6-9-2-0"
-       x="505.33237"
-       y="267.4137"
+       x="507.10376"
+       y="290.63821"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.793;stroke-miterlimit:4;stroke-dasharray:none">Wealth</tspan></text>
   <image
      width="79.824654"
