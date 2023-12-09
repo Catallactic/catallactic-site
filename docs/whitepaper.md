@@ -525,7 +525,7 @@ In 2018, the Initial Exchange Offering (IEO) appeared. This is a new way to run 
 
 An IDO is another evolution of the fundraising model, where a project launches its tokens on a decentralized exchange (DEX) instead of a centralized exchange like in an IEO. IDOs offer several advantages, such as faster fundraising, lower fees, and a more decentralized process. Investors participate in IDOs by providing liquidity to the token's trading pool on the DEX, typically in the form of a token pair (e.g., the project's token and a stablecoin). The tokens can then be traded on the DEX, allowing for immediate liquidity and price discovery. 
 
-Alternative generalistic models have been proposed as DAICO, ILO, SHO, ISPO, FTO, LBP and specific as ETO, IGO, STO, INO.
+Alternative generalistic models have been proposed as DAICO, ILO, SHO, IFO, ISPO, FTO, LBP and specific as ETO, IGO, STO, INO.
 
 Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A bespoken launchpad specialized in CryptoCommodity projects is build-in in dAppmin.
 
@@ -847,12 +847,9 @@ export const ReleaseScheduleChart = () => {
 
 <ReleaseScheduleChart/>
 
-#### 4.4.4. Wealth Distribution
-
-whales gini
-
-
 #### 4.4.5. Considerations for Distribution
+
+Decentralization, wealth distribution. whales gini
 
 An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
 
@@ -902,8 +899,6 @@ Credit is the main reason that motivated the obsolescence of gold standard and i
 A CryptoCommodity can work as collateral of lending operations in existing platforms. A CryptoCommodity coudl also work as payment method for lending on a own lending platform.
 
 ### 4.6. Crowdsolving
-
-### 4.7. Who will benefit?
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -1942,21 +1937,31 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 ### 7.6. The challenge of Decentralization
 
-Decentralization is a features that should analized at different levels:
+#### 7.6.1. Network Decentralization
 
 - network decentralization
 
-crosschain
-
-- smart contract decentralization
-
-- governance decentralization
-
-Decentralization at this stage must pay attention to different aspects:
-
 - networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity
 
+
+crosschain
+
+#### 7.6.2. Exchanges Decentralization
+
+
+#### 7.6.3. Smart Contract Decentralization
+
+Decentralization is a features that should analized at different levels:
+
+
+#### 7.6.4. Governance Decentralization
+
 - decentralization on governance, the stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.
+
+
+#### 7.6.5. Wealth Decentralization
+
+
 
 ### 7.7. The challenge of Compliance
 
@@ -2368,3 +2373,5 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 [46] Regulating the Crypto Ecosystem: The Case of Stablecoins and Arrangements, 2022,  https://www.imf.org/en/Publications/fintech-notes/Issues/2022/09/26/Regulating-the-Crypto-Ecosystem-The-Case-of-Stablecoins-and-Arrangements-523724
+
+[47] How centralized is decentralized? Comparison of wealth distribution in coins and tokens, Bartosz Kusmierz, Roman Overko, https://arxiv.org/pdf/2207.01340.pdf
