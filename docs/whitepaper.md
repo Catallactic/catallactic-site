@@ -317,6 +317,12 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </table>
 <br/>
 
+
+
+
+
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -337,11 +343,615 @@ A CryptoCommodity takes economic value from nature and delivers to the adopting 
 
 All the requirements described must be particularized for each stage of the CryptoCommodity Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will explore every funding stage and discuss requirements and opportunities.
 
-### 4.2. Funding
+### 4.2. Token Allocation Concepts
+
+Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. 
+
+Typically, the issuer will split the token into different groups and allocate a certain amount of tokens to each group. The way tokens are allocated must align with the project's long-term goals.
+
+There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. We propose below a classification of allocation concepts grouped by stage in the value chain.
+
+There is a also great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure. 
+
+export const TokenAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#0000FF', '#0000FF'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<TokenAllocation/>
+<br/>
+
+Token allocations state the issuer intends to grant different amount of tokens to each group. However, this allocation will be different to actual Supply Distribution. 
+
+A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer. 
+
+#### 4.2.1. Funding Allocation
+
+A fair launch, without any funding allocation is welcome by the token investors.
+
+export const FundingAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<FundingAllocation/>
+
+#### 4.2.2. Negotiation Allocation
+
+export const NegotiationAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<NegotiationAllocation/>
+
+#### 4.2.3. Operations Allocation
+
+export const OperationsAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<OperationsAllocation/>
+
+#### 4.2.4. Project Allocation
+
+ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1).
+
+
+export const ProjectAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+								data: [2, 3, 5, 4, 5, 71, 9, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+								data: [10, 9, 71, 10],
+								order: [1, 5, 8, 10],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<ProjectAllocation/>
+
+### 4.3. Determining Supply Milestones
+
+
+#### 4.3.1. Max Supply
+
+
+#### 4.3.2. Funding Capability
+
+
+#### 4.3.3. Initial Supply
+
+
+
+### 4.4. Initial Token Allocation
+
+Alocation must be designed at 2 points in time: the Initial Allocation configured when the token is first generated (TGE) and the expected allocation once Max Supply has been achieved.
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://d33wubrfki0l68.cloudfront.net/7391c50d25cdb2f16ca64842dd6257fd19697ef0/8522f/assets/messari_initial_token.jpg" width="70%"></img>
+</div>
+
+export const InitialTokenAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Project', 
+							'Funding', 'Liquidity', 'Operations', 'Project'
+						],
+						datasets: [{
+								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
+								data: [2, 3, 5, 4, 0, 0, 0, 1],
+								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								index: 0
+							}, {
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+								data: [10, 4, 0, 1],
+								order: [1, 5, 8, 10],
+								index: 1
+						}],
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<InitialTokenAllocation/>
+
+
+
+
+### 4.5. Creating Benchmarks
+
+This exercise needs to be done upfront, before the platform is even launched and when uncertainty is at its maximum.
+
+
+### 4.6. Crowdsolving
+
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+## 5. Funding
 
 CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. The mechanism created for CryptoCommodities to fund the project is called a Initial Token Offering (ICO) as an analogy to IPO.
 
-#### 4.2.1. Structuring Token Sales
+### 5.1. Structuring Token Sales
 
 Structuring of ICO offerings varies across projects in regards to the number of tokens issued; the proportion maintained as compared to the one distributed to investors; the allocation mechanisms; the future supply of tokens; and the sale model used. The schedule of token issuance, if tokens are not issued in a single issuance, needs to be clarified by the issuer upfront. 
 [45]
@@ -363,7 +973,7 @@ The funding process ends with the Token Generation Event (TGE) which deploys the
 
 CryptoCommodity Framework provides support for above configurations. Proper know how must be completed with benchmarks.
 
-#### 4.2.2. Calculating Investors Profit
+### 5.2. Calculating Investors Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
@@ -372,7 +982,7 @@ CryptoCommodity Framework provides support for above configurations. Proper know
 
 
 
-#### 4.2.4. Estimating Investors Exit
+### 5.3. Estimating Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -517,7 +1127,7 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 />
 </div>
 
-#### 4.2.5. Chossing Funding Platform
+### 5.4. Chossing Funding Platform
 
 The current ICO model means that legitimate projects need to overcome significant financial, administrative and regulatory challenges in order to see a successful outcome, requires a deep understanding of blockchain technology, cryptocurrencies, application security, smart contract implementation, token standards, Solidity programming, etc. Additionally, the issuying team needs to assemble a multidisciplinary team, create and host a website, purchase, claim and vesting widgets, write a whitepaper, a litepaper and some pitch decks, design a roadmap, plan a tokenomics, token distribution and allocations, hire good developers to write some smart contracts and pass code audits, build and maintain a community, publish in press, perform AMAs, hire influencers and maintain an investors agenda, get expert advisers, manipulate pools, deploy to exchanges, and perform manual vesting tasks, comply with all national and local regulations, and the list goes on and on. Some service providers offer some of the requirements out of the box, as ICO scripts, marketing tasks.
 
@@ -529,7 +1139,7 @@ Alternative generalistic models have been proposed as DAICO, ILO, SHO, IFO, ISPO
 
 Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A bespoken launchpad specialized in CryptoCommodity projects is build-in in dAppmin.
 
-#### 4.2.6. Considerations for Funding
+### 5.5. Considerations for Funding
 
 Democratization of funding with local or global investors. A instrumentalization of FFF funding.
 
@@ -538,11 +1148,17 @@ On launching a CryptoCommodity, the monetary policy will follow an Utility Token
 Special attention must be paid to compliance.
 
 
-### 4.3. Negotiation
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 6. Negotiation
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
-#### 4.3.1. Mechanism
+### 6.1. Negotiation Mechanism
 
 Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
 
@@ -552,1069 +1168,7 @@ Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
 
-#### 4.3.2. Considerations for Negotiation
-
-Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
-
-Depending on the scope of the CryptoCommodity, <b>compliance</b> may also have to be considered as some juritdiction impose restrictive rules on investment accounts, trading diclosure or governance of the contract. A record must be kept of compliance reuirement in the juridictions to deploy and CryptoCommodity must allow reconfiguration of the compliance.
-
-<b>Security</b> is another aspect to consider since token unit will be deployed to exchange pair and thereore subject to vulnerabilities.
-
-The system must care about the reputation of the CryptoCommodity by enabling <b>transparency</b>. full diclosure must be provided on operation
-
-Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and lt to the consideration of the issuer according to compliance rule and personal prefFerences.
-
-### 4.4. Distribution
-
-Distribution is the process of handling over new CryptoCommodity units. There are 2 targets of distribution:
-
-- genesis distribution, which refers to token units initially premined to launch the system. Includes funding round investors, team and collaborators, liquidty pools and reserves
-
-- ongoing distribution, which refers to token units ditributed during the system operation, with operation or marketing purposes.
-
-
-#### 4.4.1. Genesis Distribution
-
-
-
-##### 4.4.1.1. Fair Launch
-
-A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
-
-A cryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
-
-##### 4.4.1.2. Premined Distribution
-
-Premining is the process of generating and distributing a certain number of tokens before the cryptocurrency is launched to the public and their allocation to specified coin addresses. This process is typically done by the developers or founders of the CryptoCommodity. The premined coins are often distributed in various ways, such as:
-
-- funding the project in a initial coin offering (ICO)
-
-- providing funds to the project to cover operation costs as team salaries, 
-
-- separating funds to deploy the token on the exchanges or feed a reserves account
-
-- marketing activities as airdrops or giveaways
-
-The way premine works are typical; the team will mint out a certain % of the tokens in advance and often distribute it to specific accounts. This can be controversial, as the developers will have a large percentage of the coin’s total supply, giving them a significant degree of control over its price and direction. The way to prevent this happening is to lock or vest the premined tokens that does not need to be used at the short term. So there is a balance between reputation and premining tokens at launch.
-
-##### 4.4.1.3. Vesting Schedules
-
-The purpose of including vesting schedules it to mitigate sell pressure on premined tokens causing a unexpected price decrease.
-
-This is acheived by locking tokens, either in a custom locker or a external service, duiring a period.
-
-The release can be different way, including linear...
-
-Some recommendations to lockup and vesting periods follows.
-
-The lockups for the "Core Team" should be large enough to prove that they are interested and motivated to play the long-term game. The most common vesting duration for the Core Team is 4 years with 1-year cliff.
-
-For Investors typically see a shorter lockup period on tokens than team vesting periods because they benefit from earlier liquidity and the optionality of selling. There are also token-oriented investors whose strategy is to sell the tokens as soon as they launch/unlock.
-
-With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TGE, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
-
-
-
-
-
-
-
-
-- Reserve. It's important to consider all the unforeseeable obstacles and opportunities that may arise in the future.
-
-- Marketing incentives. Typically, there are no lockups, or they are only partly locked with a 1-12 months overall lockup period.
-
-
-export const SupplyProfileChart = () => {
-	const pp = 1;
-	function vesting(numSamples, numTokensTGE, cliff, numTokensTotal, period) {
-		const amounts = [numTokensTGE];
-		for (let i = 1; i <= numSamples; i += 1) {
-			let data = 0;
-			if(i <= cliff) data = numTokensTGE;
-			else if(i >= cliff + period) data = numTokensTotal;
-			else data = numTokensTGE + (i-cliff) * (numTokensTotal - numTokensTGE) / period;
-			amounts.push(data);
-		}
-		console.log(amounts);
-			return amounts;
-	}
-	return (
-		<div className="chart-panel2">
-			<Line
-				data={{
-					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
-					datasets: [{
-						fill: true,
-						label: 'Seed Round',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 0, 12, 10, 24),
-					},{
-						fill: true,
-						label: 'Pre-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 4, 3, 40, 24)
-					},{
-						fill: true,
-						label: 'Public-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 10, 3, 50, 12)
-					},{
-						fill: true,
-						label: 'Exchanges',
-						backgroundColor: "#006400",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 8, 12, 40, 48)
-					},{
-						fill: true,
-						label: 'Project',
-						backgroundColor: "rgba(0,0,205,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 0, 3, 10, 12)
-					}],
-				}}
-				options={{
-					responsive: true,
-					maintainAspectRatio: false,
-					scales: {
-						y: {
-							min: 0,
-							max: 160,
-							display: true,
-							stacked: true,
-							title: {
-								display: true,
-								text: 'Total Supply',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-							},
-							ticks: {
-								display: false,
-							},
-						},
-						x: {
-							display: true,
-							title: {
-								display: true,
-								text: 'Months from TGE',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-							},
-							ticks: {
-								display: false,
-							},
-						},
-					}
-				}}
-				plugins={[/*ChartDataLabels*/]}
-			/>
-		</div>
-	);
-}
-
-<SupplyProfileChart/>
-
-#### 4.4.2. Ongoing Distribution
-
-##### 4.4.2.1. Marketing
-
-There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
-
-- Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
-
-- Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
-
-Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
-
-##### 4.4.2.2. Commodity Purchases
-
-- Tokens must be purchasesd by consumers
-
-
-
-#### 4.4.3. Release Schedule
-
-
-export const ReleaseScheduleChart = () => {
-	const pp = 1;
-	function vesting(numSamples, numTokensTGE, cliff, numTokensTotal, period) {
-		const amounts = [numTokensTGE];
-		for (let i = 1; i <= numSamples; i += 1) {
-			let data = 0;
-			if(i <= cliff) data = numTokensTGE;
-			else if(i >= cliff + period) data = numTokensTotal;
-			else data = numTokensTGE + (i-cliff) * (numTokensTotal - numTokensTGE) / period;
-			amounts.push(data);
-		}
-		console.log(amounts);
-			return amounts;
-	}
-	return (
-		<div className="chart-panel2">
-			<Line
-				data={{
-					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
-					datasets: [{
-						fill: true,
-						label: 'Seed Round',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 0, 12, 10, 24),
-					},{
-						fill: true,
-						label: 'Pre-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 4, 3, 40, 24)
-					},{
-						fill: true,
-						label: 'Public-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 10, 3, 50, 12)
-					},{
-						fill: true,
-						label: 'Exchanges',
-						backgroundColor: "#006400",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 8, 12, 40, 48)
-					},{
-						fill: true,
-						label: 'Project',
-						backgroundColor: "rgba(0,0,205,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 0, 3, 10, 12)
-					}],
-				}}
-				options={{
-					responsive: true,
-					maintainAspectRatio: false,
-					scales: {
-						y: {
-							min: 0,
-							max: 160,
-							display: true,
-							stacked: true,
-							title: {
-								display: true,
-								text: 'Total Supply',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-							},
-							ticks: {
-								display: false,
-							},
-						},
-						x: {
-							display: true,
-							title: {
-								display: true,
-								text: 'Months from TGE',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-							},
-							ticks: {
-								display: false,
-							},
-						},
-					}
-				}}
-				plugins={[/*ChartDataLabels*/]}
-			/>
-		</div>
-	);
-}
-
-<ReleaseScheduleChart/>
-
-#### 4.4.5. Considerations for Distribution
-
-Decentralization, wealth distribution. whales gini
-
-An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
-
-Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the CryptoCommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
-
-### 4.5. DeFi Services
-
-By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
-
-Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
-
-#### 4.5.1. Currency Functions
-
-First it will make a fully featured currency which will empower the community. 
-
-- Medium of Exchange
-
-- Reserve of Value
-
-- Unit of Account
-
-
-#### 4.5.2. Payments
-
-Thanks to its stable nature, a CryptoCommodity can be used for payments for good and services. 
-
-It needs to be as payment method for the underlying market in order to form the price.
-
-It can also be used as payment method for other assets as long as commonly accepted by moth parties.
-
-#### 4.5.3. Cards
-
-Currently there are cards, both already compatible with crypto currencies. 
-
-#### 4.5.4. Transfers
-
-CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
-
-#### 4.5.5. Lending
-
-Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/credit.png" width="70%"></img>
-</div>
-
-A CryptoCommodity can work as collateral of lending operations in existing platforms. A CryptoCommodity coudl also work as payment method for lending on a own lending platform.
-
-### 4.6. Crowdsolving
-
-Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
-
-- issuers will be able to fund his local or global project
-
-- issuers will also profit by providing DeFi Services to society
-
-- investors will profit by investing in successful projects
-
-- consumers will benefit with higher offer
-
-- citizens excluded from financial system will be able to fund their projects with private risk
-
-- society will benefit from more liquid financial markets
-
-- citizens from developing countries can create their own economy and fix their problems
-
-- governments will be able to delegate the difficult part into citizens
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-## 5. Supply Allocations
----
-
-### 5.1. Token Allocation Concepts
-
-Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. 
-
-Typically, the issuer will split the token into different groups and allocate a certain amount of tokens to each group. The way tokens are allocated must align with the project's long-term goals.
-
-There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. We propose below a classification of allocation concepts grouped by stage in the value chain.
-
-There is a also great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure. 
-
-export const TokenAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#0000FF', '#0000FF'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<TokenAllocation/>
-<br/>
-
-Token allocations state the issuer intends to grant different amount of tokens to each group. However, this allocation will be different to actual Supply Distribution. 
-
-A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer. 
-
-#### 5.1.1. Funding Allocation
-
-A fair launch, without any funding allocation is welcome by the token investors.
-
-export const FundingAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<FundingAllocation/>
-
-#### 5.1.2. Negotiation Allocation
-
-export const NegotiationAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<NegotiationAllocation/>
-
-#### 5.1.3. Operations Allocation
-
-export const OperationsAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<OperationsAllocation/>
-
-#### 5.1.4. Project Allocation
-
-ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1).
-
-
-export const ProjectAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
-								index: 1
-						}]
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<ProjectAllocation/>
-
-### 5.2. Determining Supply Milestones
-
-
-#### 5.2.1. Max Supply
-
-
-#### 5.2.2. Funding Capability
-
-
-#### 5.2.3. Initial Supply
-
-
-
-### 5.3. Initial Token Allocation
-
-Alocation must be designed at 2 points in time: the Initial Allocation configured when the token is first generated (TGE) and the expected allocation once Max Supply has been achieved.
-
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://d33wubrfki0l68.cloudfront.net/7391c50d25cdb2f16ca64842dd6257fd19697ef0/8522f/assets/messari_initial_token.jpg" width="70%"></img>
-</div>
-
-export const InitialTokenAllocation = () => {
-	return (
-		<div className="chart-container">
-			<div className="chart-panel">
-				<Doughnut
-					data={{
-						labels: [
-							'Private Sale', 'Presale', 'Crowdsale', 
-							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
-						],
-						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
-								data: [2, 3, 5, 4, 0, 0, 0, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
-								index: 0
-							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-								data: [10, 4, 0, 1],
-								order: [1, 5, 8, 10],
-								index: 1
-						}],
-					}}
-					options={{
-						responsive: true,
-						maintainAspectRatio: false,
-						reverse: true,
-						plugins: {
-							tooltip: {
-								callbacks: {
-									label: function(context) {
-										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
-										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
-									}
-								}
-							},
-							legend: {
-							position: 'right',
-								labels: {
-									font: {
-										family: 'Comic Sans MS',
-										size: 20,
-										weight: 'bold',
-										lineHeight: 1.2,
-									},
-									padding: 20,
-									generateLabels: function(chart) {
-										let datasetColors = chart.data.datasets.map(function(e) {
-												return e.backgroundColor;
-										}).flat();						        	  
-										let orders = chart.data.datasets.map(function(e) {
-											return e.order;
-										}).flat();
-												
-										// Get the default label list
-										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
-										const labelsOriginal = original.call(this, chart);
-										return labelsOriginal.sort((label2, label1) => {
-											return orders[label2.index] - orders[label1.index];
-										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
-										}).map((label) => {
-										label.datasetIndex = label.index;
-										label.fillStyle = datasetColors[label.index];
-												return label;
-										});	
-									}
-								},
-								onClick: function(mouseEvent, legendItem, legend) {
-									// toggle the visibility of the dataset from what it currently is
-									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
-									legend.chart.update();
-								}
-							}
-						}
-					}}
-				/>
-			</div>
-		</div>
-	);
-}
-
-<InitialTokenAllocation/>
-
-### 5.4. Token Release
-
-export const TokenAllocationEvolution = () => {
-	const pp = 1;
-	function vesting(numSamples, numTokensTGE, cliff, numTokensTotal, period) {
-		const amounts = [numTokensTGE];
-		for (let i = 1; i <= numSamples; i += 1) {
-			let data = 0;
-			if(i <= cliff) data = numTokensTGE;
-			else if(i >= cliff + period) data = numTokensTotal;
-			else data = numTokensTGE + (i-cliff) * (numTokensTotal - numTokensTGE) / period;
-			amounts.push(data);
-		}
-		console.log(amounts);
-			return amounts;
-	}
-	return (
-		<div className="chart-panel2">
-			<Line
-				data={{
-					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
-					datasets: [{
-						fill: true,
-						label: 'Seed Round',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 0, 12, 10, 24),
-					},{
-						fill: true,
-						label: 'Pre-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 4, 3, 40, 24)
-					},{
-						fill: true,
-						label: 'Public-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 10, 3, 50, 12)
-					},{
-						fill: true,
-						label: 'Exchanges',
-						backgroundColor: "#006400",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 8, 12, 40, 48)
-					},{
-						fill: true,
-						label: 'Project',
-						backgroundColor: "rgba(0,0,205,1.0)",
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(60, 0, 3, 10, 12)
-					}],
-				}}
-				options={{
-					responsive: true,
-					maintainAspectRatio: false,
-					scales: {
-						y: {
-							min: 0,
-							max: 160,
-							display: true,
-							stacked: true,
-							title: {
-								display: true,
-								text: 'Total Supply',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-							},
-							ticks: {
-								display: false,
-							},
-						},
-						x: {
-							display: true,
-							title: {
-								display: true,
-								text: 'Months from TGE',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-							},
-							ticks: {
-								display: false,
-							},
-						},
-					}
-				}}
-				plugins={[/*ChartDataLabels*/]}
-			/>
-		</div>
-	);
-}
-
-<TokenAllocationEvolution/>
-
-
-
-
-### 5.5. Creating Benchmarks
-
-This exercise needs to be done upfront, before the platform is even launched and when uncertainty is at its maximum.
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-
-
-
-
-## 6. Supply Management
----
-
-### 6.1. Supply Profile
+### 6.2. Supply Profile
 
 Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is part of the setting reuired to deliver its features. There are several stages involved in the lifecycle of a CryptoCommodity.
 
@@ -1784,7 +1338,7 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 />
 </div>
 
-#### 6.2. Total Supply Composition
+### 6.3. Total Supply Composition
 
 The Total Supply for a CryptoCommodity is the number of tokens units existing in a certain moment.
 
@@ -1798,13 +1352,13 @@ The composition of Total Supply would depend on the stage in which the CryptoCom
 	<img src="/img/supply_evolution.svg" width="100%"></img>
 </div>
 
-### 6.3. Consolidated Supply Management
+### 6.4. Consolidated Supply Management
 
 Once the project has been funded and the value of the underlying asset has been captured we already know that the currency represents the value of the underlying asset utility. At this point the Cryptocurrency is an Unit of Account because it captures the underlaying asset utility. Also the Cryptocurrency is a Store of Value because there is enough number of transaction to provide stability to the system.
 
 From this point onwards, a CryptoCommodity has a built-in stabilization mechanism that guarantees taht the value is always captured.
 
-#### 6.3.1. Stabilization Mechanism
+### 6.5. Stabilization Mechanism
 
 Economic history and literature are rich with schemes to peg the value of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
 
@@ -1813,7 +1367,7 @@ This is done by adjusting the supply in the exchanges.
 Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 
-#### 6.3.2. Collateral
+### 6.6. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
@@ -1837,6 +1391,370 @@ On the other hand, a CryptoCommodity is not referenced to fiat and does not incr
 Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 
+### 6.7. Considerations for Negotiation
+
+Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
+
+Depending on the scope of the CryptoCommodity, <b>compliance</b> may also have to be considered as some juritdiction impose restrictive rules on investment accounts, trading diclosure or governance of the contract. A record must be kept of compliance reuirement in the juridictions to deploy and CryptoCommodity must allow reconfiguration of the compliance.
+
+<b>Security</b> is another aspect to consider since token unit will be deployed to exchange pair and thereore subject to vulnerabilities.
+
+The system must care about the reputation of the CryptoCommodity by enabling <b>transparency</b>. full diclosure must be provided on operation
+
+Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and lt to the consideration of the issuer according to compliance rule and personal prefFerences.
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 7. Distribution
+
+Distribution is the process of handling over new CryptoCommodity units. There are 2 targets of distribution:
+
+- genesis distribution, which refers to token units initially premined to launch the system. Includes funding round investors, team and collaborators, liquidty pools and reserves
+
+- ongoing distribution, which refers to token units ditributed during the system operation, with operation or marketing purposes.
+
+
+### 7.1. Genesis Distribution
+
+
+
+#### 7.1.1. Fair Launch
+
+A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
+
+A cryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
+
+#### 7.1.2. Premined Distribution
+
+Premining is the process of generating and distributing a certain number of tokens before the cryptocurrency is launched to the public and their allocation to specified coin addresses. This process is typically done by the developers or founders of the CryptoCommodity. The premined coins are often distributed in various ways, such as:
+
+- funding the project in a initial coin offering (ICO)
+
+- providing funds to the project to cover operation costs as team salaries, 
+
+- separating funds to deploy the token on the exchanges or feed a reserves account
+
+- marketing activities as airdrops or giveaways
+
+The way premine works are typical; the team will mint out a certain % of the tokens in advance and often distribute it to specific accounts. This can be controversial, as the developers will have a large percentage of the coin’s total supply, giving them a significant degree of control over its price and direction. The way to prevent this happening is to lock or vest the premined tokens that does not need to be used at the short term. So there is a balance between reputation and premining tokens at launch.
+
+#### 7.1.3. Vesting Schedules
+
+The purpose of including vesting schedules it to mitigate sell pressure on premined tokens causing a unexpected price decrease.
+
+This is acheived by locking tokens, either in a custom locker or a external service, duiring a period.
+
+The release can be different way, including linear...
+
+Some recommendations to lockup and vesting periods follows.
+
+The lockups for the "Core Team" should be large enough to prove that they are interested and motivated to play the long-term game. The most common vesting duration for the Core Team is 4 years with 1-year cliff.
+
+For Investors typically see a shorter lockup period on tokens than team vesting periods because they benefit from earlier liquidity and the optionality of selling. There are also token-oriented investors whose strategy is to sell the tokens as soon as they launch/unlock.
+
+With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TGE, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
+
+
+
+
+
+
+
+
+- Reserve. It's important to consider all the unforeseeable obstacles and opportunities that may arise in the future.
+
+- Marketing incentives. Typically, there are no lockups, or they are only partly locked with a 1-12 months overall lockup period.
+
+
+export const SupplyProfileChart = () => {
+	const pp = 1;
+	function vesting(numSamples, numTokensTGE, cliff, numTokensTotal, period) {
+		const amounts = [numTokensTGE];
+		for (let i = 1; i <= numSamples; i += 1) {
+			let data = 0;
+			if(i <= cliff) data = numTokensTGE;
+			else if(i >= cliff + period) data = numTokensTotal;
+			else data = numTokensTGE + (i-cliff) * (numTokensTotal - numTokensTGE) / period;
+			amounts.push(data);
+		}
+		console.log(amounts);
+			return amounts;
+	}
+	return (
+		<div className="chart-panel2">
+			<Line
+				data={{
+					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
+					datasets: [{
+						fill: true,
+						label: 'Seed Round',
+						backgroundColor: "rgba(0,205,0,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 0, 12, 10, 24),
+					},{
+						fill: true,
+						label: 'Pre-Sale',
+						backgroundColor: "rgba(0,205,0,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 4, 3, 40, 24)
+					},{
+						fill: true,
+						label: 'Public-Sale',
+						backgroundColor: "rgba(0,205,0,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 10, 3, 50, 12)
+					},{
+						fill: true,
+						label: 'Exchanges',
+						backgroundColor: "#006400",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 8, 12, 40, 48)
+					},{
+						fill: true,
+						label: 'Project',
+						backgroundColor: "rgba(0,0,205,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 0, 3, 10, 12)
+					}],
+				}}
+				options={{
+					responsive: true,
+					maintainAspectRatio: false,
+					scales: {
+						y: {
+							min: 0,
+							max: 160,
+							display: true,
+							stacked: true,
+							title: {
+								display: true,
+								text: 'Total Supply',
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+							},
+							ticks: {
+								display: false,
+							},
+						},
+						x: {
+							display: true,
+							title: {
+								display: true,
+								text: 'Months from TGE',
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+							},
+							ticks: {
+								display: false,
+							},
+						},
+					}
+				}}
+				plugins={[/*ChartDataLabels*/]}
+			/>
+		</div>
+	);
+}
+
+<SupplyProfileChart/>
+
+### 7.2. Ongoing Distribution
+
+#### 7.2.1. Marketing
+
+There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
+
+- Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
+
+- Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
+
+Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
+
+#### 7.2.2. Commodity Purchases
+
+- Tokens must be purchasesd by consumers
+
+
+
+### 7.3. Release Schedule
+
+
+export const ReleaseScheduleChart = () => {
+	const pp = 1;
+	function vesting(numSamples, numTokensTGE, cliff, numTokensTotal, period) {
+		const amounts = [numTokensTGE];
+		for (let i = 1; i <= numSamples; i += 1) {
+			let data = 0;
+			if(i <= cliff) data = numTokensTGE;
+			else if(i >= cliff + period) data = numTokensTotal;
+			else data = numTokensTGE + (i-cliff) * (numTokensTotal - numTokensTGE) / period;
+			amounts.push(data);
+		}
+		console.log(amounts);
+			return amounts;
+	}
+	return (
+		<div className="chart-panel2">
+			<Line
+				data={{
+					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
+					datasets: [{
+						fill: true,
+						label: 'Seed Round',
+						backgroundColor: "rgba(0,205,0,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 0, 12, 10, 24),
+					},{
+						fill: true,
+						label: 'Pre-Sale',
+						backgroundColor: "rgba(0,205,0,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 4, 3, 40, 24)
+					},{
+						fill: true,
+						label: 'Public-Sale',
+						backgroundColor: "rgba(0,205,0,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 10, 3, 50, 12)
+					},{
+						fill: true,
+						label: 'Exchanges',
+						backgroundColor: "#006400",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 8, 12, 40, 48)
+					},{
+						fill: true,
+						label: 'Project',
+						backgroundColor: "rgba(0,0,205,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: vesting(60, 0, 3, 10, 12)
+					}],
+				}}
+				options={{
+					responsive: true,
+					maintainAspectRatio: false,
+					scales: {
+						y: {
+							min: 0,
+							max: 160,
+							display: true,
+							stacked: true,
+							title: {
+								display: true,
+								text: 'Total Supply',
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+							},
+							ticks: {
+								display: false,
+							},
+						},
+						x: {
+							display: true,
+							title: {
+								display: true,
+								text: 'Months from TGE',
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+							},
+							ticks: {
+								display: false,
+							},
+						},
+					}
+				}}
+				plugins={[/*ChartDataLabels*/]}
+			/>
+		</div>
+	);
+}
+
+<ReleaseScheduleChart/>
+
+### 7.4. Considerations for Distribution
+
+Decentralization, wealth distribution. whales gini
+
+An important reuirement to distribute tokens in a jurisdiction is that there should not be rules preventing currency utilities, e.g. the CryptoCommodity must be allowed as a <b>payment method</b>, if this utility is going to be provided.
+
+Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the CryptoCommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 8. DeFi Services
+
+By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
+
+Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
+
+### 8.1. Currency Functions
+
+First it will make a fully featured currency which will empower the community. 
+
+- Medium of Exchange
+
+- Reserve of Value
+
+- Unit of Account
+
+
+### 8.2. Payments
+
+Thanks to its stable nature, a CryptoCommodity can be used for payments for good and services. 
+
+It needs to be as payment method for the underlying market in order to form the price.
+
+It can also be used as payment method for other assets as long as commonly accepted by moth parties.
+
+### 8.3. Cards
+
+Currently there are cards, both already compatible with crypto currencies. 
+
+### 8.4. Transfers
+
+CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
+
+### 8.5. Lending
+
+Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/credit.png" width="70%"></img>
+</div>
+
+A CryptoCommodity can work as collateral of lending operations in existing platforms. A CryptoCommodity coudl also work as payment method for lending on a own lending platform.
+
+
+
+
+
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -1847,10 +1765,11 @@ Depends on the kind of asset service, collateral could be just a provision guara
 
 
 
-## 7. Implementation of CryptoCommodites
+
+## 9. Implementation of CryptoCommodites
 ---
 
-### 7.1. Smart Contract
+### 9.1. Smart Contract
 
 CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
@@ -1871,13 +1790,13 @@ Existing behaviours are:
 
 By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
 
-### 7.2. Upgradeable
+### 9.2. Upgradeable
 
 As theoretical framework is still being created, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
 Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
 
-### 7.3. The challenge of Velocity of Circulation (Saleableness)
+### 9.3. The challenge of Velocity of Circulation (Saleableness)
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
@@ -1889,7 +1808,7 @@ Causes of the high token velocity is that the prices are not expressed on the cu
 
 To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
 
-#### 7.3.1. Token Velocity during Value Capture 
+#### 9.3.1. Token Velocity during Value Capture 
 
 During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
 
@@ -1906,13 +1825,13 @@ During the Vauke Capture stage the CryptoCommodity will behave as an utility tok
 - express the prices in CryptoCommodity units
 
 
-#### 7.3.2. Token Velocity during Value Delivery
+#### 9.3.2. Token Velocity during Value Delivery
 
 During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
 
 - Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-### 7.4. The challenge of Wallets
+### 9.4. The challenge of Wallets
 
 15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
 
@@ -1922,7 +1841,7 @@ We think a crypto wallet should be a garage control-like $20 device, that works 
 
 I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
-### 7.5. The challenge of Security
+### 9.5. The challenge of Security
 
 Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
@@ -1934,9 +1853,9 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 - We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
-### 7.6. The challenge of Decentralization
+### 9.6. The challenge of Decentralization
 
-#### 7.6.1. Network Decentralization
+#### 9.6.1. Network Decentralization
 
 - network decentralization
 
@@ -1945,24 +1864,24 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 crosschain
 
-#### 7.6.2. Exchanges Decentralization
+#### 9.6.2. Exchanges Decentralization
 
 
-#### 7.6.3. Smart Contract Decentralization
+#### 9.6.3. Smart Contract Decentralization
 
 Decentralization is a features that should analized at different levels:
 
 
-#### 7.6.4. Governance Decentralization
+#### 9.6.4. Governance Decentralization
 
 - decentralization on governance, the stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.
 
 
-#### 7.6.5. Wealth Decentralization
+#### 9.6.5. Wealth Decentralization
 
 
 
-### 7.7. The challenge of Compliance
+### 9.7. The challenge of Compliance
 
 Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
 
@@ -1977,13 +1896,13 @@ Compliance mut be reviewed according to the juridiction where the CryptoCommodit
 
 https://github.com/Catallactic/catallactic-suite
 
-### 7.8. The challenge of Transparency
+### 9.8. The challenge of Transparency
 
 
-### 7.9. The challenge of Privacy
+### 9.9. The challenge of Privacy
 
 
-### 7.10. Deployment
+### 9.10. Deployment
 
 
 
@@ -1994,17 +1913,17 @@ https://github.com/Catallactic/catallactic-suite
 
 
 
-## 8. Supporting Tools
+## 10. Supporting Tools
 ---
 
-### 8.6. DAppmin
+### 10.6. DAppmin
 
 https://github.com/Catallactic/catallactic-admin
 
-### 8.6. ICO Purchases DApp
+### 10.6. ICO Purchases DApp
 
 
-### 8.6. Vesting Tracker
+### 10.6. Vesting Tracker
 
 
 
@@ -2019,12 +1938,12 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 9. A CryptoCommodity-based Economy
+## 11. A CryptoCommodity-based Economy
 ---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 9.1. Currency competition
+### 11.1. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -2032,9 +1951,9 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 9.2. Stability of a CryptoCommodity Market
+### 11.2. Stability of a CryptoCommodity Market
 
-#### 9.2.1. Understanding a regulated system
+#### 11.2.1. Understanding a regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -2043,7 +1962,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 9.2.2. Positive vs Negative Feedback Loops
+#### 11.2.2. Positive vs Negative Feedback Loops
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -2073,7 +1992,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 9.2.3. Regulation in a CryptoCommodity market
+#### 11.2.3. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -2084,15 +2003,15 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 9.3. At the rescue of real economy
+### 11.3. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 9.3.1. Monetary Expansion of Legal Tender
+#### 11.3.1. Monetary Expansion of Legal Tender
 
 
 
-#### 9.3.2. Debate on Neutrality of Money
+#### 11.3.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -2105,7 +2024,7 @@ price distortion
 
 
 
-#### 9.3.3 The Split Economy
+#### 11.3.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -2113,7 +2032,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 9.3.4. The Squeezed Real Economy
+#### 11.3.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -2135,9 +2054,9 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-#### 9.3.5. End Financial Exclusion
+#### 11.3.5. End Financial Exclusion
 
-### 9.4. Comparing Economic Models
+### 11.4. Comparing Economic Models
 
 <table>
 	<thead>
@@ -2206,7 +2125,7 @@ Cantillon Effects
 	</tbody>
 </table>
 
-### 9.5. Further Industry Development
+### 11.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -2214,7 +2133,7 @@ Additionaly, insurance companies could provide services in case a currency does 
 
 Private 'Lender of Last Resort?
 
-### 9.6. Free Banking Introduction
+### 11.6. Free Banking Introduction
 
 incremental introduction
 
@@ -2238,7 +2157,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
 
 
-## 10. Conclusion
+## 12. Conclusion
 ---
 
 We have exposed how a novel kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
@@ -2258,7 +2177,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 
-## 11. References
+## 13. References
 ---
 
 
