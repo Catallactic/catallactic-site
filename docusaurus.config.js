@@ -196,9 +196,6 @@ const config = {
             items: [{
 								label: 'Liquidity Provision',
 								href: '/docs/defi/liquidity',
-							}, {
-								label: 'Staking',
-                href: '/docs/defi/staking',
               }, {
                 label: 'Launchap',
                 href: '/docs/defi/launchpad',
