@@ -84,6 +84,10 @@ const sidebars = {
 			id: 'tokenization/intro', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
+			type: 'doc',
+			id: 'tokenization/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
       type: 'category',
       label: 'Tokenizable Assets',
       items: [
