@@ -106,6 +106,10 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 				<a href="https://agrotoken.com/" target="_blank">WHEA</a>,
 				<a href="https://agrotoken.com/" target="_blank">SOYB</a>,
 				<a href="https://agrotoken.com/" target="_blank">CORB</a>
+				<a href="https://testnet.landx.fi/" target="_blank">XCORN</a>
+				<a href="https://testnet.landx.fi/" target="_blank">XSOY</a>
+				<a href="https://testnet.landx.fi/" target="_blank">XWHEAT</a>
+				<a href="https://testnet.landx.fi/" target="_blank">XRICE</a>
 			</td>
 		</tr>
 		<tr>
