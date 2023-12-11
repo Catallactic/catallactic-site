@@ -141,7 +141,6 @@ The only Token Model that has the purpose to become a currency today is the Stab
 
 
 
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -161,64 +160,66 @@ The price of money is its purchasing power. As any price, the price of money is 
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>. 
 
-<table>
-  <tr>
-    <td>Quality</td>
-    <td>Authors</td>
-    <td>Mean of Exchange</td>
-    <td>Store of Value</td>
-    <td>Unit of Account</td>
-  </tr>
-  <tr>
-    <td>Uniform</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Divisible</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Scarce</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Durable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Portable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Acceptable</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Recognised</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-  </tr>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Quality</td>
+			<td>Authors</td>
+			<td>Mean of Exchange</td>
+			<td>Store of Value</td>
+			<td>Unit of Account</td>
+		</tr>
+		<tr>
+			<td>Uniform</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Divisible</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Durable</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Portable</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Acceptable</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Recognised</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+	</table>
+</div>
 
 ### 3.3. Quantity Theory of Money
 
@@ -362,21 +363,21 @@ export const TokenAllocation = () => {
 				<Doughnut
 					data={{
 						labels: [
+							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
+							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#0000FF', '#0000FF'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								backgroundColor: ['#0000FF', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
+								backgroundColor: ['#0000FF', '#00FF00', '#006400', '#FF0000'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
 								index: 1
 						}]
 					}}
@@ -417,7 +418,7 @@ export const TokenAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+											return ([8, 9, 5, 7].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -458,21 +459,21 @@ export const ProjectAllocation = () => {
 				<Doughnut
 					data={{
 						labels: [
+							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
+							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								backgroundColor: ['#0000FF', '#0000FF', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
+								backgroundColor: ['#0000FF', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
 								index: 1
 						}]
 					}}
@@ -513,7 +514,7 @@ export const ProjectAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+											return ([8, 9, 5, 7].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -548,21 +549,21 @@ export const FundingAllocation = () => {
 				<Doughnut
 					data={{
 						labels: [
+							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
+							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
+								backgroundColor: ['#D3D3D3', '#00FF00', '#D3D3D3', '#D3D3D3'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
 								index: 1
 						}]
 					}}
@@ -603,7 +604,7 @@ export const FundingAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+											return ([8, 9, 5, 7].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -636,21 +637,21 @@ export const NegotiationAllocation = () => {
 				<Doughnut
 					data={{
 						labels: [
+							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
+							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#006400', '#D3D3D3'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
 								index: 1
 						}]
 					}}
@@ -691,7 +692,7 @@ export const NegotiationAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+											return ([8, 9, 5, 7].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -715,7 +716,7 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-#### 4.2.4. Operations Allocation
+#### 4.2.4. DeFi Services Allocation
 
 export const OperationsAllocation = () => {
 	return (
@@ -724,21 +725,21 @@ export const OperationsAllocation = () => {
 				<Doughnut
 					data={{
 						labels: [
+							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
+							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-								data: [2, 3, 5, 4, 5, 71, 9, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
-								data: [10, 9, 71, 10],
-								order: [1, 5, 8, 10],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
 								index: 1
 						}]
 					}}
@@ -779,7 +780,7 @@ export const OperationsAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+											return ([8, 9, 5, 7].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -832,21 +833,21 @@ export const InitialTokenAllocation = () => {
 				<Doughnut
 					data={{
 						labels: [
+							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Project', 
-							'Funding', 'Liquidity', 'Operations', 'Project'
+							'Project', 'Funding', 'Exchanges', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000', '#006400', '#0000FF'],
-								data: [2, 3, 5, 4, 0, 0, 0, 1],
-								order: [2, 3, 4, 6, 7, 9, 11, 12],
+								backgroundColor: ['#006400', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
+								data: [0, 1, 2, 3, 5, 4, 0, 0] ,
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
-								data: [10, 4, 0, 1],
-								order: [1, 5, 8, 10],
+								backgroundColor: ['#0000FF', '#00FF00', '#006400', '#FF0000'],
+								data: [1, 10, 4, 0],
+								order: [10, 1, 5, 8],
 								index: 1
 						}],
 					}}
@@ -887,7 +888,7 @@ export const InitialTokenAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [0, 1, 2, 3, 7].includes(label.index));
+											return (datasetColors[label.index] != '#FF0000' && [1, 2, 3, 4, 10].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -911,15 +912,15 @@ export const InitialTokenAllocation = () => {
 
 <InitialTokenAllocation/>
 
+### 4.5. Max Token Allocation
 
 
-
-### 4.5. Creating Benchmarks
+### 4.6. Creating Benchmarks
 
 This exercise needs to be done upfront, before the platform is even launched and when uncertainty is at its maximum.
 
 
-### 4.6. Crowdsolving
+### 4.7. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -1129,7 +1130,7 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 />
 </div>
 
-### 5.4. Chossing Funding Platform
+### 5.4. Choosing Funding Platform
 
 The current ICO model means that legitimate projects need to overcome significant financial, administrative and regulatory challenges in order to see a successful outcome, requires a deep understanding of blockchain technology, cryptocurrencies, application security, smart contract implementation, token standards, Solidity programming, etc. Additionally, the issuying team needs to assemble a multidisciplinary team, create and host a website, purchase, claim and vesting widgets, write a whitepaper, a litepaper and some pitch decks, design a roadmap, plan a tokenomics, token distribution and allocations, hire good developers to write some smart contracts and pass code audits, build and maintain a community, publish in press, perform AMAs, hire influencers and maintain an investors agenda, get expert advisers, manipulate pools, deploy to exchanges, and perform manual vesting tasks, comply with all national and local regulations, and the list goes on and on. Some service providers offer some of the requirements out of the box, as ICO scripts, marketing tasks.
 
@@ -1799,9 +1800,11 @@ By using the upgradeabity capabilities provided by the diamond front controller,
 
 ### 9.2. Upgradeable
 
-As theoretical framework is still being created, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
 Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
+
+The long term idea is to release to community the governance.
 
 ### 9.3. The challenge of Velocity of Circulation (Saleableness)
 
@@ -1886,7 +1889,7 @@ Decentralization is a features that should analized at different levels:
 
 #### 9.6.5. Wealth Decentralization
 
-
+Gini and Nakamoto Coefficients
 
 ### 9.7. The challenge of Compliance
 
@@ -2065,72 +2068,74 @@ Cantillon Effects
 
 ### 11.4. Comparing Economic Models
 
-<table>
-	<thead>
-		<tr>
-			<th scope="col">Feature</th>
-			<th scope="col">Fiat</th>
-			<th scope="col">CrytoCommodity</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row">Price Formation</th>
-			<td>Distorted</td>
-			<td>Matching consumers will</td>
-		</tr>
-		<tr>
-			<th scope="row">Relative Prices</th>
-			<td>Distorted</td>
-			<td>Matching consumers will</td>
-		</tr>
-		<tr>
-			<th scope="row">Economic Calculation</th>
-			<td>Biased</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<th scope="row">Allocation of Resources</th>
-			<td>Priviledged</td>
-			<td>Matching consumers will</td>
-		</tr>
-		<tr>
-			<th scope="row">Critical Resources</th>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Credit Availability</th>
-			<td>Yes, with Cantillon Effects</td>
-			<td>Yes, without Cantillon Effects</td>
-		</tr>
-		<tr>
-			<th scope="row">Entry Barriers</th>
-			<td>Yes</td>
-			<td>No</td>
-		</tr>
-		<tr>
-			<th scope="row">Projects Risk</th>
-			<td>Socialized</td>
-			<td>Privatized</td>
-		</tr>
-		<tr>
-			<th scope="row">Supply / Demand matching</th>
-			<td>No</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<th scope="row">Externalities</th>
-			<td>No</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<th scope="row">Social Values</th>
-			<td>Imposed</td>
-			<td>Natural</td>
-		</tr>
-	</tbody>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Feature</th>
+				<th scope="col">Fiat</th>
+				<th scope="col">CrytoCommodity</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Price Formation</th>
+				<td>Distorted</td>
+				<td>Matching consumers will</td>
+			</tr>
+			<tr>
+				<th scope="row">Relative Prices</th>
+				<td>Distorted</td>
+				<td>Matching consumers will</td>
+			</tr>
+			<tr>
+				<th scope="row">Economic Calculation</th>
+				<td>Biased</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<th scope="row">Allocation of Resources</th>
+				<td>Priviledged</td>
+				<td>Matching consumers will</td>
+			</tr>
+			<tr>
+				<th scope="row">Critical Resources</th>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">Credit Availability</th>
+				<td>Yes, with Cantillon Effects</td>
+				<td>Yes, without Cantillon Effects</td>
+			</tr>
+			<tr>
+				<th scope="row">Entry Barriers</th>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Projects Risk</th>
+				<td>Socialized</td>
+				<td>Privatized</td>
+			</tr>
+			<tr>
+				<th scope="row">Supply / Demand matching</th>
+				<td>No</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<th scope="row">Externalities</th>
+				<td>No</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<th scope="row">Social Values</th>
+				<td>Imposed</td>
+				<td>Natural</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
 ### 11.5. Further Industry Development
 
@@ -2300,3 +2305,8 @@ Finally we have described how the adoption of this new token could empower the s
 [46] Regulating the Crypto Ecosystem: The Case of Stablecoins and Arrangements, 2022,  https://www.imf.org/en/Publications/fintech-notes/Issues/2022/09/26/Regulating-the-Crypto-Ecosystem-The-Case-of-Stablecoins-and-Arrangements-523724
 
 [47] How centralized is decentralized? Comparison of wealth distribution in coins and tokens, Bartosz Kusmierz, Roman Overko, https://arxiv.org/pdf/2207.01340.pdf
+
+https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-ato-trmi-daico-eto-ifo-iao-dso-steo
+
+
+[48] DeFi lending: intermediation without information?, Sirio Aramonte, Sebastian Doerr, Wenqian Huang, Andreas Schrimpf, 14 June 2022 - https://www.bis.org/publ/bisbull57.pdf
