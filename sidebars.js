@@ -354,6 +354,10 @@ const sidebars = {
 			type: 'doc',
 			id: 'crowdsolving/intro', // document ID
 			label: 'Getting started', // sidebar label
+		}, {
+			type: 'doc',
+			id: 'crowdsolving/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
 		}, 
   ],
 

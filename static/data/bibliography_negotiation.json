@@ -15,6 +15,8 @@
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2015", "title": "What is Stablecoin?: A Survey on Its Mechanism and Potential as Decentralized Payment Systems", "author": "Makiko Mita, Kensuke Ito, Shohei Ohsawa, Hideyuki Tanaka", "place": "International Institute of Applied Informatics", "url": "https://arxiv.org/pdf/1906.06037.pdf" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2015", "title": "A Note on Cryptocurrency Stabilisation: Seigniorage Shares", "author": "Robert Sams", "place": "", "url": "https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2016", "title": "Hayek Money: The Cryptocurrency Price Stability Solution", "author": "Ferdinando M. Ametrano", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2425270" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2020", "title": "Money Creation in Decentralized Finance: A Dynamic Model of Stablecoin and Crypto Shadow Banking", "author": "Ye Li, Simon Mayer", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3757083" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Can Stablecoins Be Stable?", "author": "Adrien d'Avernas, Vincent Maurin, Quentin Vandeweyer", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4226027" },
 
 	{ "subject": "ON SEIGNIORAGE" },
 	{ "subject": "ON SEIGNIORAGE", "date": "2022", "title": "Transaction Fees and Seigniorage in Proof-of-Work Cryptocurrencies", "author": "Michele Fabi", "place": "Ecole Polytechnique, CREST, IP Paris", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4170256" }
