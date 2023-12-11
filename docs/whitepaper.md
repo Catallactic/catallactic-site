@@ -346,17 +346,15 @@ A CryptoCommodity takes economic value from nature and delivers to the adopting 
 
 All the requirements described must be particularized for each stage of the CryptoCommodity Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will explore every funding stage and discuss requirements and opportunities.
 
-### 4.2. Token Allocation Concepts
+### 4.2. CryptoCommodity Allocation Concepts
 
-In order to design every stage of the value chain, we must assign a portion of the whole token units to every stage. Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. 
-
-Typically, the issuer will split the token into different groups and allocate a certain amount of tokens to each group. The way tokens are allocated must align with the project's long-term goals.
+In order to design every stage of the value chain, the issuer assigns a portion of token units to every stage stakeholders. Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. The way tokens are allocated must align with the project's long-term goals.
 
 There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. We propose below a classification of allocation concepts grouped by stage in the value chain.
 
 There is a also great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure. 
 
-export const TokenAllocation = () => {
+export const TokenAllocationConcepts = () => {
 	return (
 		<div className="chart-container">
 			<div className="chart-panel">
@@ -440,17 +438,32 @@ export const TokenAllocation = () => {
 	);
 }
 
-<TokenAllocation/>
+<TokenAllocationConcepts/>
 <br/>
 
-Token allocations state the issuer intends to grant different amount of tokens to each group. However, this allocation will be different to actual Supply Distribution. 
+Token allocations will be different to actual Supply Distribution. 
 
 A convenient way is to prevent overconcentration of tokens in a specific account, or group of accounts, as they would have the power to determine the price of the token and this would imply a reputational cost for the issuer.
 
 #### 4.2.1. Project Allocation
 
-ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds (Section 3.1).
+ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds [45]. 
 
+The token section assigns tokens to specific accounts or tasks that contribute to project evolution. This can include:
+
+- core team
+
+- advisors
+
+- foundations
+
+- marketing and promotion
+
+- research and development
+
+- legal and regulatory
+
+This allocation is created on the Token Generation Event but only fraction is released. The most of the allocation is locked to guarantee compromise with the project by stakeholders.
 
 export const ProjectAllocation = () => {
 	return (
@@ -540,7 +553,13 @@ export const ProjectAllocation = () => {
 
 #### 4.2.2. Funding Allocation
 
-A fair launch, without any funding allocation is welcome by the token investors.
+The purpose of Funding Allocation is to provide funds to the funding rounds lopanned in the projecvt roadmap. A fair launch, without any funding allocation is welcome by the token investors. This can include:
+
+- private rounds
+
+- pre-sales
+
+- public sales
 
 export const FundingAllocation = () => {
 	return (
@@ -630,6 +649,12 @@ export const FundingAllocation = () => {
 
 #### 4.2.3. Negotiation Allocation
 
+Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
+
+- initial and future exchange pools
+
+- reserve tokens for the stabilization mechanism
+
 export const NegotiationAllocation = () => {
 	return (
 		<div className="chart-container">
@@ -717,6 +742,16 @@ export const NegotiationAllocation = () => {
 <NegotiationAllocation/>
 
 #### 4.2.4. DeFi Services Allocation
+
+The DeFi Services allocation will cover the utilities delivered by the CryptoCommodity after the Value Capture Event. This allocation is not included in the Initial Token Allocation and will be mined on demand by the stabilization mechiams in parallel to demand increases. It will include:
+
+- funds for payments
+
+- funds for cards
+
+- funds for transfers
+
+- funds for lending
 
 export const OperationsAllocation = () => {
 	return (
@@ -821,11 +856,6 @@ export const OperationsAllocation = () => {
 
 Alocation must be designed at 2 points in time: the Initial Allocation configured when the token is first generated (TGE) and the expected allocation once Max Supply has been achieved.
 
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://d33wubrfki0l68.cloudfront.net/7391c50d25cdb2f16ca64842dd6257fd19697ef0/8522f/assets/messari_initial_token.jpg" width="70%"></img>
-</div>
-
 export const InitialTokenAllocation = () => {
 	return (
 		<div className="chart-container">
@@ -912,7 +942,95 @@ export const InitialTokenAllocation = () => {
 
 <InitialTokenAllocation/>
 
-### 4.5. Max Token Allocation
+### 4.5. Consolidated Token Allocation
+
+
+export const ConsolidatedTokenAllocation = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Project', 'Project',
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Funding', 'Liquidity', 'Operations'
+						],
+						datasets: [{
+								backgroundColor: ['#0000FF', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
+								index: 0
+							}, {
+								backgroundColor: ['#0000FF', '#00FF00', '#006400', '#FF0000'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return ([8, 9, 5, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
+
+<ConsolidatedTokenAllocation/>
+<br/>
 
 
 ### 4.6. Creating Benchmarks
