@@ -1186,6 +1186,16 @@ export const ProjectAllocation = () => {
 
 
 
+### 6.2. Marketing
+
+There are several ongoing distribution schemes that can be applied in different stages of a CryptoCommodity:
+
+- Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
+
+- Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
+
+Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
+
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1900,17 +1910,6 @@ export const ConsolidatedTokenAllocation = () => {
 
 ### 9.4. Ongoing Distribution
 
-#### 9.4.1. Marketing
-
-There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
-
-- Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
-
-- Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
-
-Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
-
-#### 9.4.2. Commodity Purchases
 
 - Tokens must be purchasesd by consumers
 
