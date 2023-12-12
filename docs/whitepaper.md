@@ -1010,7 +1010,19 @@ The funding process ends with the Token Generation Event (TGE) which deploys the
 
 CryptoCommodity Framework provides support for above configurations. Proper know how must be completed with benchmarks.
 
-### 6.3. Calculating Investors Profit
+### 6.3. Choosing Funding Platform
+
+The current ICO model means that legitimate projects need to overcome significant financial, administrative and regulatory challenges in order to see a successful outcome, requires a deep understanding of blockchain technology, cryptocurrencies, application security, smart contract implementation, token standards, Solidity programming, etc. Additionally, the issuying team needs to assemble a multidisciplinary team, create and host a website, purchase, claim and vesting widgets, write a whitepaper, a litepaper and some pitch decks, design a roadmap, plan a tokenomics, token distribution and allocations, hire good developers to write some smart contracts and pass code audits, build and maintain a community, publish in press, perform AMAs, hire influencers and maintain an investors agenda, get expert advisers, manipulate pools, deploy to exchanges, and perform manual vesting tasks, comply with all national and local regulations, and the list goes on and on. Some service providers offer some of the requirements out of the box, as ICO scripts, marketing tasks.
+
+In 2018, the Initial Exchange Offering (IEO) appeared. This is a new way to run an ICO, the cryptocurrency centralized exchange is directly involved in the selection of projects, organization and sale of tokens. The exchange also becomes key marketing partner of the project, and the listing of coins is carried out only a couple of days after the campaign ends. There are several advantages of the IEO over ICO: ready-made base of potential IEO participants, risk of scams for investors is lower. The project is launched at the exchange after profound verification, Listing of new tokens is faster, investor returns are higher, the investment process is simple, main advantage of this approach for organizers is the ready-made base of potential IEO participants from a huge number of exchange users, so the marketing costs for the project team are reduced. The drawbacks of IEOs – gatekeeping, opaque vetting processes and listing fees.
+
+An IDO is another evolution of the fundraising model, where a project launches its tokens on a decentralized exchange (DEX) instead of a centralized exchange like in an IEO. IDOs offer several advantages, such as faster fundraising, lower fees, and a more decentralized process. Investors participate in IDOs by providing liquidity to the token's trading pool on the DEX, typically in the form of a token pair (e.g., the project's token and a stablecoin). The tokens can then be traded on the DEX, allowing for immediate liquidity and price discovery. 
+
+Alternative generalistic models have been proposed as DAICO, ILO, SHO, IFO, ISPO, FTO, LBP and specific as ETO, IGO, STO, INO.
+
+Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A bespoken launchpad specialized in CryptoCommodity projects is build-in in dAppmin.
+
+### 6.4. Calculating Investors Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
@@ -1019,7 +1031,7 @@ CryptoCommodity Framework provides support for above configurations. Proper know
 
 
 
-### 6.4. Estimating Investors Exit
+### 6.5. Estimating Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -1164,17 +1176,6 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 />
 </div>
 
-### 6.5. Choosing Funding Platform
-
-The current ICO model means that legitimate projects need to overcome significant financial, administrative and regulatory challenges in order to see a successful outcome, requires a deep understanding of blockchain technology, cryptocurrencies, application security, smart contract implementation, token standards, Solidity programming, etc. Additionally, the issuying team needs to assemble a multidisciplinary team, create and host a website, purchase, claim and vesting widgets, write a whitepaper, a litepaper and some pitch decks, design a roadmap, plan a tokenomics, token distribution and allocations, hire good developers to write some smart contracts and pass code audits, build and maintain a community, publish in press, perform AMAs, hire influencers and maintain an investors agenda, get expert advisers, manipulate pools, deploy to exchanges, and perform manual vesting tasks, comply with all national and local regulations, and the list goes on and on. Some service providers offer some of the requirements out of the box, as ICO scripts, marketing tasks.
-
-In 2018, the Initial Exchange Offering (IEO) appeared. This is a new way to run an ICO, the cryptocurrency centralized exchange is directly involved in the selection of projects, organization and sale of tokens. The exchange also becomes key marketing partner of the project, and the listing of coins is carried out only a couple of days after the campaign ends. There are several advantages of the IEO over ICO: ready-made base of potential IEO participants, risk of scams for investors is lower. The project is launched at the exchange after profound verification, Listing of new tokens is faster, investor returns are higher, the investment process is simple, main advantage of this approach for organizers is the ready-made base of potential IEO participants from a huge number of exchange users, so the marketing costs for the project team are reduced. The drawbacks of IEOs – gatekeeping, opaque vetting processes and listing fees.
-
-An IDO is another evolution of the fundraising model, where a project launches its tokens on a decentralized exchange (DEX) instead of a centralized exchange like in an IEO. IDOs offer several advantages, such as faster fundraising, lower fees, and a more decentralized process. Investors participate in IDOs by providing liquidity to the token's trading pool on the DEX, typically in the form of a token pair (e.g., the project's token and a stablecoin). The tokens can then be traded on the DEX, allowing for immediate liquidity and price discovery. 
-
-Alternative generalistic models have been proposed as DAICO, ILO, SHO, IFO, ISPO, FTO, LBP and specific as ETO, IGO, STO, INO.
-
-Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A bespoken launchpad specialized in CryptoCommodity projects is build-in in dAppmin.
 
 ### 6.6. Considerations for Funding
 
@@ -1195,7 +1196,17 @@ Special attention must be paid to compliance.
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
-#### 7.1. Negotiation Allocation
+### 7.1. Negotiation Mechanism
+
+Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
+</div>
+
+In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
+
+#### 7.2. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -1288,17 +1299,6 @@ export const NegotiationAllocation = () => {
 }
 
 <NegotiationAllocation/>
-
-### 7.2. Negotiation Mechanism
-
-Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
-</div>
-
-In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
-
 
 ### 7.3. Stabilization Mechanism
 
