@@ -655,20 +655,168 @@ This exercise needs to be done upfront, before the platform is even launched and
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 5. Value Capture Stage
+## 5. Value Capture
+---
+
+### 5.1. Scope
+
+<div className="chart-panel2">
+<Line
+  data={{
+		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
+		datasets: [{
+			fill: true,
+			label: 'Gold Standard',
+			backgroundColor: "rgba(161,174,212,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,400,400,400,400,400,null,null,null]
+		},{
+			fill: true,
+			label: 'Unit of Account',
+			backgroundColor: "rgba(6,11,39,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
+		}],
+	}}
+	options={{
+		responsive: true,
+		maintainAspectRatio: false,
+		scales: {
+			y: {
+				min: 0,
+				max: 1200,
+				display: true,
+				title: {
+					display: true,
+					text: 'Tokens Created',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 30, left: 0, right: 0, bottom: 0},
+				},
+				ticks: {
+					display: false,
+				}
+			},
+			x: {
+				display: true,
+				title: {
+					display: true,
+					text: 'Orders Delivered (30 days rolling average)',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 20, left: 0, right: 0, bottom: 0},
+				},
+				ticks: {
+					display: false,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						// weight: 'bold',
+						lineHeight: 1,
+					},
+				}	
+			},
+		},
+		plugins: {
+			legend: {
+				labels: {
+					usePointStyle: true,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: 20,
+				},
+			},
+      annotation: {
+        annotations: [{
+					type: 'label',
+					xValue: 1.5,
+					yValue: 200,
+					content: ['Funding','Rounds'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 5,
+					yValue: 200,
+					content: ['Value','Capture'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 15,
+					yValue: 200,
+					content: ['Value','Release'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'line',
+					xMin: 7,
+					xMax: 7,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 7,
+					yValue: 800,
+					content: ['Value','Capture','Event'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 7,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}, {
+					type: 'line',
+					xMin: 3,
+					xMax: 3,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 3,
+					yValue: 800,
+					content: ['Token','Generation','Event'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 3,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}]
+      }
+		}
+	}}
+	plugins={[/*ChartDataLabels*/]}
+/>
+</div>
 
 
-
-### 5.1. Determining Supply Milestones
-
-
-#### 5.1.1. Max Supply
-
-
-#### 5.1.2. Funding Capability
-
-
-#### 5.1.3. Initial Supply
 
 
 
@@ -765,7 +913,7 @@ export const InitialTokenAllocation = () => {
 
 
 
-#### 5.3. Project Allocation
+### 5.3. Project Allocation
 
 ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds [45]. 
 
@@ -1039,6 +1187,7 @@ export const SupplyProfileChart = () => {
 
 
 ## 6. Funding
+---
 
 CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. The mechanism created for CryptoCommodities to fund the project is called a Initial Token Offering (ICO) as an analogy to IPO.
 
@@ -1343,11 +1492,17 @@ Special attention must be paid to compliance.
 
 
 
-## 7. Negotiation
+## 7. Value Capture Negotiation
+---
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
-### 7.1. Negotiation Mechanism
+### 7.1. Token Generation Event
+
+
+
+
+### 7.2. Negotiation Mechanism
 
 Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
 
@@ -1355,9 +1510,9 @@ Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang
 	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
 </div>
 
-In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th pric.
+In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
 
-#### 7.2. Negotiation Allocation
+### 7.3. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -1451,42 +1606,11 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-### 7.3. Stabilization Mechanism
-
-Economic history and literature are rich with schemes to peg the value of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
-
-This is done by adjusting the supply in the exchanges.
-
-Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
 
 
-by protocol layer, by application layer
-
-https://arxiv.org/pdf/1906.06037.pdf
+### 7.4. Value Capture Event
 
 
-### 7.4. Collateral
-
-The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
-
-Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
-
-A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
-
-> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
-
-In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
-
-> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
-assets. [46]
-
-This is not the case for CryptoCommodities as they are redeemable by the seets service, not by cash.
-
->  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
-
-On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
-
-Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 
 ### 7.5. Considerations for Negotiation
@@ -1506,15 +1630,174 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8. Value Release Stage
+## 8. Value Release
+---
 
-### 8.1. Consolidated Supply Management
+### 8.1. Scope
+
+<div className="chart-panel2">
+<Line
+  data={{
+		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
+		datasets: [{
+			fill: true,
+			label: 'Gold Standard',
+			backgroundColor: "rgba(161,174,212,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,400,400,400,400,400,null,null,null]
+		},{
+			fill: true,
+			label: 'Unit of Account',
+			backgroundColor: "rgba(6,11,39,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
+		}],
+	}}
+	options={{
+		responsive: true,
+		maintainAspectRatio: false,
+		scales: {
+			y: {
+				min: 0,
+				max: 1200,
+				display: true,
+				title: {
+					display: true,
+					text: 'Tokens Created',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 30, left: 0, right: 0, bottom: 0},
+				},
+				ticks: {
+					display: false,
+				}
+			},
+			x: {
+				display: true,
+				title: {
+					display: true,
+					text: 'Orders Delivered (30 days rolling average)',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 20, left: 0, right: 0, bottom: 0},
+				},
+				ticks: {
+					display: false,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						// weight: 'bold',
+						lineHeight: 1,
+					},
+				}	
+			},
+		},
+		plugins: {
+			legend: {
+				labels: {
+					usePointStyle: true,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: 20,
+				},
+			},
+      annotation: {
+        annotations: [{
+					type: 'label',
+					xValue: 1.5,
+					yValue: 200,
+					content: ['Funding','Rounds'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 5,
+					yValue: 200,
+					content: ['Value','Capture'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 15,
+					yValue: 200,
+					content: ['Value','Release'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'line',
+					xMin: 7,
+					xMax: 7,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 7,
+					yValue: 800,
+					content: ['Value','Capture','Event'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 7,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}, {
+					type: 'line',
+					xMin: 3,
+					xMax: 3,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 3,
+					yValue: 800,
+					content: ['Token','Generation','Event'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 3,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}]
+      }
+		}
+	}}
+	plugins={[/*ChartDataLabels*/]}
+/>
+</div>
+
+### 8.2. Consolidated Supply Management
 
 Once the project has been funded and the value of the underlying asset has been captured we already know that the currency represents the value of the underlying asset utility. At this point the Cryptocurrency is an Unit of Account because it captures the underlaying asset utility. Also the Cryptocurrency is a Store of Value because there is enough number of transaction to provide stability to the system.
 
 From this point onwards, a CryptoCommodity has a built-in stabilization mechanism that guarantees taht the value is always captured.
 
-### 8.2. Consolidated Token Allocation
+### 8.3. Consolidated Token Allocation
 
 
 export const ConsolidatedTokenAllocation = () => {
@@ -1605,24 +1888,11 @@ export const ConsolidatedTokenAllocation = () => {
 <br/>
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
+### 8.4. Ongoing Distribution
 
-
-## 9. Distribution
-
-Distribution is the process of handling over new CryptoCommodity units. There are 2 targets of distribution:
-
-- genesis distribution, which refers to token units initially premined to launch the system. Includes funding round investors, team and collaborators, liquidty pools and reserves
-
-- ongoing distribution, which refers to token units ditributed during the system operation, with operation or marketing purposes.
-
-
-
-### 9.2. Ongoing Distribution
-
-#### 9.2.1. Marketing
+#### 8.4.1. Marketing
 
 There are several distribution schemes that can be applied in different stages of a CryptoCommodity:
 
@@ -1632,13 +1902,13 @@ There are several distribution schemes that can be applied in different stages o
 
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
-#### 9.2.2. Commodity Purchases
+#### 8.4.2. Commodity Purchases
 
 - Tokens must be purchasesd by consumers
 
 
 
-### 9.3. Release Schedule
+### 8.5. Release Schedule
 
 
 export const ReleaseScheduleChart = () => {
@@ -1741,7 +2011,7 @@ export const ReleaseScheduleChart = () => {
 
 <ReleaseScheduleChart/>
 
-### 9.4. Considerations for Distribution
+### 8.6. Considerations for Distribution
 
 Decentralization, wealth distribution. whales gini
 
@@ -1750,11 +2020,55 @@ An important reuirement to distribute tokens in a jurisdiction is that there sho
 Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the CryptoCommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 9. Value Release Negotiation
+---
+
+### 9.1. Stabilization Mechanism
+
+Economic history and literature are rich with schemes to peg the value of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
+
+This is done by adjusting the supply in the exchanges.
+
+Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
+
+
+by protocol layer, by application layer
+
+https://arxiv.org/pdf/1906.06037.pdf
+
+
+### 9.2. Collateral
+
+The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
+
+Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
+
+A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
+
+> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
+
+In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
+
+> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
+assets. [46]
+
+This is not the case for CryptoCommodities as they are redeemable by the seets service, not by cash.
+
+>  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
+
+On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
+
+Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 10. DeFi Services
+---
 
 By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
 
