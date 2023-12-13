@@ -139,23 +139,30 @@ The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating r
 
 ## 4. CryptoCommodities
 
-
 ### 4.1. CryptoCommodity
 
-CryptoCommodities are representative tokens in the electronic form. CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
+CryptoCommodities are representative money in electronic form. As representative money, they represents the intrinsic value of the underlying asset. CryptoCommodities do not aim to provide a measurement of this intrinsic value but, instead, they rely in a price formation mechanism to capture the marginal utility of the asset.
+
+CryptoCommodities are a specialization of Utility Tokens built on top of a fungible asset, that add a stabilization mechamism once value is captured, to create a Currency Token.
+
+CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
+
+CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
+
+### 4.2. CryptoCommodity Functions
+
+CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
+
+CryptoCommodities purchasing power is borrowed from the marginal utility of the underlying asset. They can be used as payment method for the underlying asset or for any other asset in a relation of the price of this other asset and the marginal utility captured from the underlyting asset.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
 </div>
 <br/>
 
-CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
+CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
-
-Despite CryptoCommodities aim to deliver all money functions and become high quality currencies, they do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
-
-### 4.2. CryptoCommodity Ecosystem
+### 4.3. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
@@ -170,7 +177,7 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 4.3. CryptoCommodity vs Fiat Stablecoin
+### 4.4. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
