@@ -70,10 +70,10 @@ Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical an
 
 
 
-## 2. CryptoCommodities
+## 3. About Money
 ---
 
-### 2.1. Evolution of Money
+### 3.1. Evolution of Money
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double
 coincidence of wants. A second problem is one of indivisibilities. [0]
@@ -104,7 +104,7 @@ Once a commodity has been widely accepted for exchanges, it may take on a value 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-### 2.2. Representative Money
+### 3.2. Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -122,7 +122,7 @@ Today, <b>gold or silver certificates</b>, for example, which are claims on prec
 
 The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
 
-### 2.3. Functions of Money
+### 3.3. Functions of Money
 
 In almost all market transactions in our economy, money in the form of currency or cheques is a <b>medium of exchange</b>; it is used to pay for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
@@ -130,7 +130,17 @@ Money also functions as a <b>store of value</b>; it is a repository of purchasin
 
 The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating relative value and the costly need to redeem money for gold. [12]
 
-### 2.4. CryptoCommodity
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 4. CryptoCommodities
+
+
+### 4.1. CryptoCommodity
 
 CryptoCommodities are representative tokens in the electronic form. CryptoCommodities are a specialization of Utility Tokens, built on top of a fungible asset to create a Currency Token. CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -145,7 +155,7 @@ CryptoCommodities are designed to be applied in both, local or international sco
 
 Despite CryptoCommodities aim to deliver all money functions and become high quality currencies, they do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 2.5. CryptoCommodity Ecosystem
+### 4.2. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
@@ -160,7 +170,7 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 2.6. CryptoCommodity vs Fiat Stablecoin
+### 4.3. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -184,12 +194,12 @@ The only Token Model that has the purpose to become a currency today is the Stab
 
 
 
-## 3. CryptoCommodity as Currency
+## 5. CryptoCommodity as Currency
 ---
 
 In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. That is to increase its demand.
 
-### 3.1. Quality of Money
+### 5.1. Quality of Money
 
 The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
 
@@ -260,7 +270,7 @@ One of the most important properties for the quality of money is the <b>existenc
 	</table>
 </div>
 
-### 3.2. Quantity Theory of Money
+### 5.2. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -275,7 +285,7 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-### 3.3. CryptoCommodity as Currency
+### 5.3. CryptoCommodity as Currency
 
 Quantity Theory of Money does not reconciliate well with crypto. As Hayek claimed 
 
@@ -285,7 +295,7 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-### 3.4. CryptoCommodity as Quality Currency
+### 5.4. CryptoCommodity as Quality Currency
 
 In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
@@ -319,7 +329,7 @@ Additionally, the above requirements must be customized to every stage of the va
 
 We will discuss all the requirements that makes up a quality curency in the implementation section.
 
-### 3.5. The ideal underlying asset
+### 5.5. The ideal underlying asset
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
 
@@ -373,12 +383,12 @@ Additionally, the price is formed in the basis of a service. Some services that 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 4. The CryptoCommodity Value Chain
+## 6. The CryptoCommodity Value Chain
 ---
 
 In this section we will review what is the lifecycle of a CryptoCommodity and how can interact with the different actors of the society. We also discuss how it can benefit each party.
 
-### 4.1. CryptoCommodity Lifecycle
+### 6.1. CryptoCommodity Lifecycle
 
 A CryptoCommodity takes economic value from nature and delivers to the adopting society. A CryptoCommodity builds a well-oiled ecosystem where a network of participants fulfills their objectives and meets specific needs to ensure seamless operations. All the particicipants are coordinated within the CryptoCommodity ecosystem and it must be designed as a sustainable system.
 
@@ -389,7 +399,7 @@ A CryptoCommodity takes economic value from nature and delivers to the adopting 
 All the requirements described must be particularized for each stage of the CryptoCommodity Value Chain. for example, the compliance in the funding stage is not the same as the compiance in the distribution stage. In this section we will explore every funding stage and discuss requirements and opportunities.
 
 
-### 4.2. Supply Profile
+### 6.2. Supply Profile
 
 Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is part of the setting required to deliver its features. There are several stages involved in the lifecycle of a CryptoCommodity.
 
@@ -562,7 +572,7 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 
 A CryptoCommodity borrows the features of both a Utility Token, before the Value Capture, and a Stablecoin on Tokens Release. This means that tokenomics for a CryptoCommodity must merge and align best practices from both token models.
 
-### 4.3. CryptoCommodity Accounts
+### 6.3. CryptoCommodity Accounts
 
 In order to design every stage of the value chain, the issuer assigns a portion of token units to every stage stakeholders. Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. The way tokens are allocated must align with the project's long-term goals.
 
@@ -666,7 +676,7 @@ A convenient way is to prevent overconcentration of tokens in a specific account
 
 
 
-### 4.4. Total Supply Composition
+### 6.4. Total Supply Composition
 
 The Total Supply for a CryptoCommodity is the number of tokens units existing in a certain moment.
 
@@ -684,7 +694,7 @@ The composition of Total Supply would depend on the stage in which the CryptoCom
 
 
 
-### 4.5. Creating Benchmarks
+### 6.5. Creating Benchmarks
 
 This exercise needs to be done upfront, before the platform is even launched and when uncertainty is at its maximum.
 
@@ -696,12 +706,12 @@ This exercise needs to be done upfront, before the platform is even launched and
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 5. Value Capture Stage
+## 7. Value Capture Stage
 ---
 
 In this chapter will be described how to launch a CryptoCommodity and what token units will be preminted to cover the initial necessities. In the next 3 chapters, what are these necessities and how the allocated tokens are used will be covered.
 
-### 5.1. Scope
+### 7.1. Scope
 
 Value Capture Stage is the period that covers from project inception to the VCE where the token value is captured. This period includes carrying out fundraising and project aactivities as well as deploying the token into the exchanges to allow price capture.
 
@@ -865,7 +875,7 @@ Value Capture Stage is the period that covers from project inception to the VCE 
 
 
 
-### 5.2. Initial Token Allocation
+### 7.2. Initial Token Allocation
 
  With the purpose of launching the project, a number of tokens are preminted and allocated to key stakeholders. Initial allocation decides how many tokens (as a percentage) will be allocated to the key stakeholders and accounts that will be involved in the project launch. 
  
@@ -972,10 +982,10 @@ A CryptoCommodity can premint and allocate tokens to the following stakeholder g
 
 We will discuss these concepts in more detail in the next sections.
 
-### 5.3. Genesis Distribution
+### 7.3. Genesis Distribution
 
 
-#### 5.3.1. Premined Distribution
+#### 7.3.1. Premined Distribution
 
 Premining is the process of generating and distributing a certain number of tokens before the cryptocurrency is launched to the public and their allocation to specified coin addresses. This process is typically done by the developers or founders of the CryptoCommodity. The premined coins are often distributed in various ways, such as:
 
@@ -989,7 +999,7 @@ Premining is the process of generating and distributing a certain number of toke
 
 The way premine works are typical; the team will mint out a certain % of the tokens in advance and often distribute it to specific accounts. This can be controversial, as the developers will have a large percentage of the coin’s total supply, giving them a significant degree of control over its price and direction. The way to prevent this happening is to lock or vest the premined tokens that does not need to be used at the short term. So there is a balance between reputation and premining tokens at launch.
 
-#### 5.3.2. Vesting Schedules
+#### 7.3.2. Vesting Schedules
 
 The purpose of including vesting schedules it to mitigate sell pressure on premined tokens causing a unexpected price decrease.
 
@@ -1113,7 +1123,7 @@ export const SupplyProfileChart = () => {
 
 
 
-### 5.4. Fair Launch
+### 7.4. Fair Launch
 
 A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
 
@@ -1128,10 +1138,10 @@ A cryptoCommodity can be launched in Fair Launch but the issuing team will lose 
 
 
 
-## 6. Project Activities
+## 8. Project Activities
 
 
-### 6.1. Project Allocation
+### 8.1. Project Allocation
 
 ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds [45]. 
 
@@ -1239,7 +1249,7 @@ export const ProjectAllocation = () => {
 
 
 
-### 6.2. Marketing
+### 8.2. Marketing
 
 There are several ongoing distribution schemes that can be applied in different stages of a CryptoCommodity:
 
@@ -1257,12 +1267,12 @@ Is probably up to the issuer the selection of the distribution mechanims that he
 
 
 
-## 7. Fundraising Activities
+## 9. Fundraising Activities
 ---
 
 CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. The mechanism created for CryptoCommodities to fund the project is called a Initial Token Offering (ICO) as an analogy to IPO.
 
-#### 7.1. Funding Allocation
+#### 9.1. Funding Allocation
 
 The purpose of Funding Allocation is to provide funds to the funding rounds lopanned in the projecvt roadmap. A fair launch, without any funding allocation is welcome by the token investors. This can include:
 
@@ -1359,7 +1369,7 @@ export const FundingAllocation = () => {
 <FundingAllocation/>
 
 
-### 7.2. Structuring Token Sales
+### 9.2. Structuring Token Sales
 
 Structuring of ICO offerings varies across projects in regards to the number of tokens issued; the proportion maintained as compared to the one distributed to investors; the allocation mechanisms; the future supply of tokens; and the sale model used. The schedule of token issuance, if tokens are not issued in a single issuance, needs to be clarified by the issuer upfront. 
 [45]
@@ -1381,7 +1391,7 @@ The funding process ends with the Token Generation Event (TGE) which deploys the
 
 CryptoCommodity Framework provides support for above configurations. Proper know how must be completed with benchmarks.
 
-### 7.3. Choosing Funding Platform
+### 9.3. Choosing Funding Platform
 
 The current ICO model means that legitimate projects need to overcome significant financial, administrative and regulatory challenges in order to see a successful outcome, requires a deep understanding of blockchain technology, cryptocurrencies, application security, smart contract implementation, token standards, Solidity programming, etc. Additionally, the issuying team needs to assemble a multidisciplinary team, create and host a website, purchase, claim and vesting widgets, write a whitepaper, a litepaper and some pitch decks, design a roadmap, plan a tokenomics, token distribution and allocations, hire good developers to write some smart contracts and pass code audits, build and maintain a community, publish in press, perform AMAs, hire influencers and maintain an investors agenda, get expert advisers, manipulate pools, deploy to exchanges, and perform manual vesting tasks, comply with all national and local regulations, and the list goes on and on. Some service providers offer some of the requirements out of the box, as ICO scripts, marketing tasks.
 
@@ -1393,7 +1403,7 @@ Alternative generalistic models have been proposed as DAICO, ILO, SHO, IFO, ISPO
 
 Existing IDO portals are generalistic and do not play well with real worl projects. CryptoCommodity Framework provides a foundation to build ICO tools which match launching of real world projects. A bespoken launchpad specialized in CryptoCommodity projects is build-in in dAppmin.
 
-### 7.4. Calculating Investors Profit
+### 9.4. Calculating Investors Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
@@ -1402,7 +1412,7 @@ Existing IDO portals are generalistic and do not play well with real worl projec
 
 
 
-### 7.5. Estimating Investors Exit
+### 9.5. Estimating Investors Exit
 
 Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
@@ -1548,7 +1558,7 @@ To track this variable, CryptoCommodity keeps a record of the address of all exc
 </div>
 
 
-### 7.6. Considerations for Funding
+### 9.6. Considerations for Funding
 
 Democratization of funding with local or global investors. A instrumentalization of FFF funding.
 
@@ -1563,18 +1573,18 @@ Special attention must be paid to compliance.
 
 
 
-## 8. Capturing Asset Value
+## 10. Capturing Asset Value
 ---
 
 Before a CryptoCommodity can be transfer the value of underlying asset to the society, this value must be captured. In order to capture the value, a CryptoCommodity behaves as a Utility Token and has features of a Utility Token.
 
-### 8.1. Token Generation Event
+### 10.1. Token Generation Event
 
 A Token Generation Event (TGE) is a business and technical act of limited duration that involves the technical generation of the token in a blockchain-based network, and its launch to the market and and made available to the public. Typically it follows a fundraising process but not necessarily.
 
 In the TGE the preminted tokens are allocated to project designated accounts, investors that purchased during the funding rounds and reserve to support trading negotiation in ythe exchanges. Additionaly, during TGE the first liquidity pool is created in the exchanges making the CryptoCommodity ready to traded. In the TGE the price discovery process of the CryptoCommodity begins.
 
-### 8.2. Negotiation Allocation
+### 10.2. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -1668,10 +1678,10 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-### 8.3. Creating Liquididty Pools
+### 10.3. Creating Liquididty Pools
 
 
-### 8.4. Negotiation Mechanism
+### 10.4. Negotiation Mechanism
 
 Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
 
@@ -1681,12 +1691,12 @@ Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
 
-### 8.5. Value Capture Event
+### 10.5. Value Capture Event
 
 
 
 
-### 8.6. Considerations
+### 10.6. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
@@ -1703,12 +1713,12 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9. Value Release Stage
+## 11. Value Release Stage
 ---
 
 Once underlying asset value has been captured, the CryptoCommodity is ready to deliver DeFi Services to the community. This chapter describes how the required tokens will be distributed. The next chapetrs will focus on the stabilization mechanism to maintain the captured value and the scope of services delivered.
 
-### 9.1. Scope
+### 11.1. Scope
 
 Value Release Stage is the period that covers from the VCE onwards and is mainly dedcaited to maintaining the captured value and delivering DeFi Services to the community.
 
@@ -1868,13 +1878,13 @@ Value Release Stage is the period that covers from the VCE onwards and is mainly
 />
 </div>
 
-### 9.2. Consolidated Supply Management
+### 11.2. Consolidated Supply Management
 
 Once the project has been funded and the value of the underlying asset has been captured we already know that the currency represents the value of the underlying asset utility. At this point the Cryptocurrency is an Unit of Account because it captures the underlaying asset utility. Also the Cryptocurrency is a Store of Value because there is enough number of transaction to provide stability to the system.
 
 From this point onwards, a CryptoCommodity has a built-in stabilization mechanism that guarantees taht the value is always captured.
 
-### 9.3. Consolidated Token Allocation
+### 11.3. Consolidated Token Allocation
 
 
 export const ConsolidatedTokenAllocation = () => {
@@ -1967,14 +1977,14 @@ export const ConsolidatedTokenAllocation = () => {
 
 
 
-### 9.4. Ongoing Distribution
+### 11.4. Ongoing Distribution
 
 
 - Tokens must be purchasesd by consumers
 
 
 
-### 9.5. Release Schedule
+### 11.5. Release Schedule
 
 
 export const ReleaseScheduleChart = () => {
@@ -2077,7 +2087,7 @@ export const ReleaseScheduleChart = () => {
 
 <ReleaseScheduleChart/>
 
-### 9.6. Considerations for Distribution
+### 11.6. Considerations for Distribution
 
 Decentralization, wealth distribution. whales gini
 
@@ -2089,16 +2099,16 @@ Another consideration is to prevent high concentration of token units in some wa
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 10. Maintaining Price Stability
+## 12. Maintaining Price Stability
 ---
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
 
-### 10.1. Stabilization Mechanism in Literature
+### 12.1. Stabilization Mechanism in Literature
 
 Economic history and literature are rich with schemes to peg the value of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
 
-### 10.1. Stabilization Mechanism
+### 12.1. Stabilization Mechanism
 
 
 This is done by adjusting the supply in the exchanges.
@@ -2121,7 +2131,7 @@ https://arxiv.org/pdf/1906.06037.pdf
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 11. Providing DeFi Services
+## 13. Providing DeFi Services
 ---
 
 By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
@@ -2136,7 +2146,7 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 
 
-#### 11.1. DeFi Services Allocation
+#### 13.1. DeFi Services Allocation
 
 The DeFi Services allocation will cover the utilities delivered by the CryptoCommodity after the Value Capture Event. This allocation is not included in the Initial Token Allocation and will be mined on demand by the stabilization mechiams in parallel to demand increases. It will include:
 
@@ -2234,7 +2244,7 @@ export const OperationsAllocation = () => {
 
 <OperationsAllocation/>
 
-### 11.2. Currency Functions
+### 13.2. Currency Functions
 
 First it will make a fully featured currency which will empower the community. 
 
@@ -2245,7 +2255,7 @@ First it will make a fully featured currency which will empower the community.
 - Unit of Account
 
 
-### 11.3. Payments
+### 13.3. Payments
 
 Thanks to its stable nature, a CryptoCommodity can be used for payments for good and services. 
 
@@ -2253,15 +2263,15 @@ It needs to be as payment method for the underlying market in order to form the 
 
 It can also be used as payment method for other assets as long as commonly accepted by moth parties.
 
-### 11.4. Cards
+### 13.4. Cards
 
 Currently there are cards, both already compatible with crypto currencies. 
 
-### 11.5. Transfers
+### 13.5. Transfers
 
 CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
 
-### 11.6. Lending
+### 13.6. Lending
 
 Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
 
@@ -2288,10 +2298,10 @@ A CryptoCommodity can work as collateral of lending operations in existing platf
 
 
 
-## 12. Implementation of CryptoCommodities
+## 14. Implementation of CryptoCommodities
 ---
 
-### 12.1. Smart Contract
+### 14.1. Smart Contract
 
 CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
@@ -2312,7 +2322,7 @@ Existing behaviours are:
 
 By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
 
-### 12.2. Upgradeable
+### 14.2. Upgradeable
 
 we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
@@ -2320,7 +2330,7 @@ Inn current implementation, every facet contains a versioned logic of the functi
 
 The long term idea is to release to community the governance.
 
-### 12.3. The challenge of Velocity of Circulation (Saleableness)
+### 14.3. The challenge of Velocity of Circulation (Saleableness)
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
@@ -2332,7 +2342,7 @@ Causes of the high token velocity is that the prices are not expressed on the cu
 
 To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
 
-#### 12.3.1. Token Velocity during Value Capture 
+#### 14.3.1. Token Velocity during Value Capture 
 
 During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
 
@@ -2349,13 +2359,13 @@ During the Vauke Capture stage the CryptoCommodity will behave as an utility tok
 - express the prices in CryptoCommodity units
 
 
-#### 12.3.2. Token Velocity during Value Delivery
+#### 14.3.2. Token Velocity during Value Delivery
 
 During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
 
 - Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-### 12.4. The challenge of Wallets
+### 14.4. The challenge of Wallets
 
 15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
 
@@ -2365,7 +2375,7 @@ We think a crypto wallet should be a garage control-like $20 device, that works 
 
 I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
-### 12.5. The challenge of Security
+### 14.5. The challenge of Security
 
 Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
@@ -2377,9 +2387,9 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 - We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
-### 12.6. The challenge of Decentralization
+### 14.6. The challenge of Decentralization
 
-#### 12.6.1. Network Decentralization
+#### 14.6.1. Network Decentralization
 
 - network decentralization
 
@@ -2388,24 +2398,24 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 crosschain
 
-#### 12.6.2. Exchanges Decentralization
+#### 14.6.2. Exchanges Decentralization
 
 
-#### 12.6.3. Smart Contract Decentralization
+#### 14.6.3. Smart Contract Decentralization
 
 Decentralization is a features that should analized at different levels:
 
 
-#### 12.6.4. Governance Decentralization
+#### 14.6.4. Governance Decentralization
 
 - decentralization on governance, the stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.
 
 
-#### 12.6.5. Wealth Decentralization
+#### 14.6.5. Wealth Decentralization
 
 Gini and Nakamoto Coefficients
 
-### 12.7. The challenge of Compliance
+### 14.7. The challenge of Compliance
 
 Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
 
@@ -2420,7 +2430,7 @@ Compliance mut be reviewed according to the juridiction where the CryptoCommodit
 
 https://github.com/Catallactic/catallactic-suite
 
-#### 12.7.1. Collateral
+#### 14.7.1. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
@@ -2443,13 +2453,13 @@ On the other hand, a CryptoCommodity is not referenced to fiat and does not incr
 
 Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
-### 12.8. The challenge of Transparency
+### 14.8. The challenge of Transparency
 
 
-### 12.9. The challenge of Privacy
+### 14.9. The challenge of Privacy
 
 
-### 12.10. Deployment
+### 14.10. Deployment
 
 
 
@@ -2460,17 +2470,17 @@ Depends on the kind of asset service, collateral could be just a provision guara
 
 
 
-## 13. Supporting Tools
+## 15. Supporting Tools
 ---
 
-### 13.6. DAppmin
+### 15.6. DAppmin
 
 https://github.com/Catallactic/catallactic-admin
 
-### 13.6. ICO Purchases DApp
+### 15.6. ICO Purchases DApp
 
 
-### 13.6. Vesting Tracker
+### 15.6. Vesting Tracker
 
 
 
@@ -2485,12 +2495,12 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 14. A CryptoCommodity-based Economy
+## 16. A CryptoCommodity-based Economy
 ---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 14.1. Currency competition
+### 16.1. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -2498,9 +2508,9 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 14.2. Stability of a CryptoCommodity Market
+### 16.2. Stability of a CryptoCommodity Market
 
-#### 14.2.1. Understanding a regulated system
+#### 16.2.1. Understanding a regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -2509,7 +2519,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 14.2.2. Positive vs Negative Feedback Loops
+#### 16.2.2. Positive vs Negative Feedback Loops
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -2539,7 +2549,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 14.2.3. Regulation in a CryptoCommodity market
+#### 16.2.3. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -2550,15 +2560,15 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 14.3. At the rescue of real economy
+### 16.3. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 14.3.1. Monetary Expansion of Legal Tender
+#### 16.3.1. Monetary Expansion of Legal Tender
 
 
 
-#### 14.3.2. Debate on Neutrality of Money
+#### 16.3.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -2571,7 +2581,7 @@ price distortion
 
 
 
-#### 14.3.3 The Split Economy
+#### 16.3.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -2579,7 +2589,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 14.3.4. The Squeezed Real Economy
+#### 16.3.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -2601,9 +2611,9 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-#### 14.3.5. End Financial Exclusion
+#### 16.3.5. End Financial Exclusion
 
-### 14.4. Comparing Economic Models
+### 16.4. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -2674,7 +2684,7 @@ Cantillon Effects
 	</table>
 </div>
 
-### 14.5. Further Industry Development
+### 16.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -2682,7 +2692,7 @@ Additionaly, insurance companies could provide services in case a currency does 
 
 Private 'Lender of Last Resort?
 
-### 14.6. Free Banking Introduction
+### 16.6. Free Banking Introduction
 
 incremental introduction
 
@@ -2695,7 +2705,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 14.7. Crowdsolving
+### 16.7. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -2724,7 +2734,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 15. Conclusion
+## 17. Conclusion
 ---
 
 We have exposed how a novel kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
@@ -2744,7 +2754,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 
-## 16. References
+## 18. References
 ---
 
 
