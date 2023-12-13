@@ -31,7 +31,7 @@ This project tries to provide direction to crypto as we think it currently is in
 
 <!-- truncate -->
 
-## 2. CryptoCommodites
+## 2. CryptoCommodities
 ---
 
 ### 2.1. Evolution of Money
@@ -231,6 +231,8 @@ The quantity theory of money is most often expressed and explained by reference 
 	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
 </div>
 
+where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
+
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
@@ -246,7 +248,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 ### 3.4. CryptoCommodity as Quality Currency
 
-In order to create a unified Quality Theory of Money we must start by identifying the functions that will be convered as every function would have different quality requirements.
+In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
 To work as a Mean of Payment:
 
@@ -478,7 +480,7 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 					type: 'label',
 					xValue: 7,
 					yValue: 800,
-					content: ['Value','Capture','Event'],
+					content: ['VCE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -499,7 +501,7 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 					type: 'label',
 					xValue: 3,
 					yValue: 800,
-					content: ['Token','Generation','Event'],
+					content: ['TGE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -516,14 +518,13 @@ Supply Management is a critical aspect in the CryptoCommodity lifecycle as it is
 	plugins={[/*ChartDataLabels*/]}
 />
 </div>
+<br/>
 
-
+A CryptoCommodity borrows the features of both a Utility Token, before the Value Capture, and a Stablecoin on Tokens Release. This means that tokenomics for a CryptoCommodity must merge and align best practices from both token models.
 
 ### 4.3. CryptoCommodity Accounts
 
 In order to design every stage of the value chain, the issuer assigns a portion of token units to every stage stakeholders. Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. The way tokens are allocated must align with the project's long-term goals.
-
-A CryptoCommodity borrows the features of both a Utility Token, before the Value Capture, and a Stablecoin on Tokens Release. This means that tokenomics for a CryptoCommodity must merge and align best practices from both token models.
 
 There is a lack of an established framework or widely accepted industry standard for designing tokenomics. There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. There is a also great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure.
 
@@ -539,8 +540,8 @@ export const TokenAllocationConcepts = () => {
 							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Funding', 'Liquidity', 'Operations'
+							'DeFi Services', 
+							'Project', 'Funding', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
 								backgroundColor: ['#0000FF', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
@@ -673,7 +674,7 @@ This exercise needs to be done upfront, before the platform is even launched and
 		},{
 			fill: true,
 			label: 'Unit of Account',
-			backgroundColor: "rgba(6,11,39,1.0)",
+			backgroundColor: 'rgba(245,245,245)',
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
 		}],
@@ -777,7 +778,7 @@ This exercise needs to be done upfront, before the platform is even launched and
 					type: 'label',
 					xValue: 7,
 					yValue: 800,
-					content: ['Value','Capture','Event'],
+					content: ['VCE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -798,7 +799,7 @@ This exercise needs to be done upfront, before the platform is even launched and
 					type: 'label',
 					xValue: 3,
 					yValue: 800,
-					content: ['Token','Generation','Event'],
+					content: ['TGE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -822,7 +823,12 @@ This exercise needs to be done upfront, before the platform is even launched and
 
 ### 5.2. Initial Token Allocation
 
-Alocation must be designed at 2 points in time: the Initial Allocation configured when the token is first generated (TGE) and the expected allocation once Max Supply has been achieved.
+ With the purpose of launching the project, a number of tokens are preminted and allocated to key stakeholders. Initial allocation decides how many tokens (as a percentage) will be allocated to the key stakeholders and accounts that will be involved in the project launch. 
+ 
+ The initial token allocation is a way to motivate contributors to join a project. Hence, it has to be sufficient enough to satisfy their expectations and necessities to collaborate into the project success. But, on the other hand, has to be small enough to prevent discouraging new stakeholders joining the project. Additionally, as any token allocation, it must avoid generatuion of whales, that is, accounts with a number of token units that allows them interfering into the token price by altering the supply. In such a way, this Initial Token Allocation is optional, which means, launching a project with no preminted tokens is a valid choice.
+
+The allocation of tokens is usually determined by the project's tokenomics or whitepaper, which outlines how the tokens will be distributed and what percentage of the total supply will be allocated to each group.
+<br/>
 
 export const InitialTokenAllocation = () => {
 	return (
@@ -909,22 +915,21 @@ export const InitialTokenAllocation = () => {
 }
 
 <InitialTokenAllocation/>
+<br/>
+<br/>
 
+A CryptoCommodity can premint and allocate tokens to the following stakeholder groups:
 
+- Project, which is the allocation for project expenses,
 
+- Funding, which includes all investors that will contribute to launch the project, and
 
+- Exchanges, which refers to the seed token units required to create initial liquidity pols in the exchanges where the CryptoCommodity is going to be traded
 
-
+We will discuss these concepts in more detail in the next sections.
 
 ### 5.3. Genesis Distribution
 
-
-
-#### 5.3.1. Fair Launch
-
-A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
-
-A cryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
 
 #### 5.3.2. Premined Distribution
 
@@ -955,12 +960,6 @@ The lockups for the "Core Team" should be large enough to prove that they are in
 For Investors typically see a shorter lockup period on tokens than team vesting periods because they benefit from earlier liquidity and the optionality of selling. There are also token-oriented investors whose strategy is to sell the tokens as soon as they launch/unlock.
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TGE, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
-
-
-
-
-
-
 
 
 - Reserve. It's important to consider all the unforeseeable obstacles and opportunities that may arise in the future.
@@ -1067,6 +1066,16 @@ export const SupplyProfileChart = () => {
 }
 
 <SupplyProfileChart/>
+
+
+
+#### 5.4. Fair Launch
+
+A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
+
+A cryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
+
+
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1510,7 +1519,7 @@ Special attention must be paid to compliance.
 
 
 
-## 8. Capturing Value
+## 8. Capturing Asset Value
 ---
 
 Before a CryptoCommodity can be transfer the value of underlying asset to the society, this value must be captured. In order to capture the value, a CryptoCommodity behaves as a Utility Token and has features of a Utility Token.
@@ -1520,15 +1529,8 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 
 
 
-### 8.2. Negotiation Mechanism
+### 8.2. Creating Liquididty Pools
 
-Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
-</div>
-
-In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
 
 ### 8.3. Negotiation Allocation
 
@@ -1624,14 +1626,22 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
+### 8.4. Negotiation Mechanism
+
+Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
+</div>
+
+In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
+
+### 8.5. Value Capture Event
 
 
-### 8.4. Value Capture Event
 
 
-
-
-### 8.5. Considerations for Negotiation
+### 8.6. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
@@ -1660,7 +1670,7 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 		datasets: [{
 			fill: true,
 			label: 'Gold Standard',
-			backgroundColor: "rgba(161,174,212,1.0)",
+			backgroundColor: 'rgba(245,245,245)',
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,400,400,400,400,400,null,null,null]
 		},{
@@ -1770,7 +1780,7 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 					type: 'label',
 					xValue: 7,
 					yValue: 800,
-					content: ['Value','Capture','Event'],
+					content: ['VCE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -1791,7 +1801,7 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 					type: 'label',
 					xValue: 3,
 					yValue: 800,
-					content: ['Token','Generation','Event'],
+					content: ['TGE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -1828,8 +1838,8 @@ export const ConsolidatedTokenAllocation = () => {
 							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Funding', 'Liquidity', 'Operations'
+							'DeFi Services', 
+							'Project', 'Funding', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
 								backgroundColor: ['#0000FF', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
@@ -2049,28 +2059,7 @@ by protocol layer, by application layer
 https://arxiv.org/pdf/1906.06037.pdf
 
 
-### 10.2. Collateral
 
-The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
-
-Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
-
-A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
-
-> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
-
-In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
-
-> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
-assets. [46]
-
-This is not the case for CryptoCommodities as they are redeemable by the seets service, not by cash.
-
->  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
-
-On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
-
-Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -2243,7 +2232,7 @@ A CryptoCommodity can work as collateral of lending operations in existing platf
 
 
 
-## 12. Implementation of CryptoCommodites
+## 12. Implementation of CryptoCommodities
 ---
 
 ### 12.1. Smart Contract
@@ -2374,6 +2363,29 @@ Recommendations for Prudential and Conduct Regulation of the Crypto Ecosystem: S
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
 
 https://github.com/Catallactic/catallactic-suite
+
+#### 12.7.1. Collateral
+
+The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
+
+Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
+
+A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
+
+> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
+
+In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
+
+> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
+assets. [46]
+
+This is not the case for CryptoCommodities as they are redeemable by the seets service, not by cash.
+
+>  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
+
+On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
+
+Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 ### 12.8. The challenge of Transparency
 
