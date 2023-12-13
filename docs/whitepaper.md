@@ -659,7 +659,11 @@ This exercise needs to be done upfront, before the platform is even launched and
 ## 5. Value Capture Stage
 ---
 
+In this chapter will be described how to launch a CryptoCommodity and what token units will be preminted to cover the initial necessities. In the next 3 chapters, what are these necessities and how the allocated tokens are used will be covered.
+
 ### 5.1. Scope
+
+Value Capture Stage is the period that covers from project inception to the VCE where the token value is captured. This period includes carrying out fundraising and project aactivities as well as deploying the token into the exchanges to allow price capture.
 
 <div className="chart-panel2">
 <Line
@@ -1084,7 +1088,7 @@ A cryptoCommodity can be launched in Fair Launch but the issuing team will lose 
 
 
 
-## 6. Launching the Project
+## 6. Project Activities
 
 
 ### 6.1. Project Allocation
@@ -1213,7 +1217,7 @@ Is probably up to the issuer the selection of the distribution mechanims that he
 
 
 
-## 7. Fundraising
+## 7. Fundraising Activities
 ---
 
 CryptoCommodity Framework provides to the issuer the infrastructure to fund his project. Any person can propose a real world project backed by fungible assets, design a token and launch a funding campaign to fund the project. The mechanism created for CryptoCommodities to fund the project is called a Initial Token Offering (ICO) as an analogy to IPO.
@@ -1526,13 +1530,11 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 
 ### 8.1. Token Generation Event
 
+A Token Generation Event (TGE) is a business and technical act of limited duration that involves the technical generation of the token in a blockchain-based network, and its launch to the market and and made available to the public. Typically it follows a fundraising process but not necessarily.
 
+In the TGE the preminted tokens are allocated to project designated accounts, investors that purchased during the funding rounds and reserve to support trading negotiation in ythe exchanges. Additionaly, during TGE the first liquidity pool is created in the exchanges making the CryptoCommodity ready to traded. In the TGE the price discovery process of the CryptoCommodity begins.
 
-
-### 8.2. Creating Liquididty Pools
-
-
-### 8.3. Negotiation Allocation
+### 8.2. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -1626,6 +1628,9 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
+### 8.3. Creating Liquididty Pools
+
+
 ### 8.4. Negotiation Mechanism
 
 Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
@@ -1661,7 +1666,11 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 ## 9. Value Release Stage
 ---
 
+Once underlying asset value has been captured, the CryptoCommodity is ready to deliver DeFi Services to the community. This chapter describes how the required tokens will be distributed. The next chapetrs will focus on the stabilization mechanism to maintain the captured value and the scope of services delivered.
+
 ### 9.1. Scope
+
+Value Release Stage is the period that covers from the VCE onwards and is mainly dedcaited to maintaining the captured value and delivering DeFi Services to the community.
 
 <div className="chart-panel2">
 <Line
