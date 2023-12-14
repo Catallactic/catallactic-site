@@ -16,7 +16,7 @@ import { Line } from "react-chartjs-2";
 import { Doughnut } from 'react-chartjs-2';
 
 
-:::danger
+:::note
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
@@ -150,9 +150,9 @@ As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This 
 
 Economic history and literature are rich with schemes to peg the price of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
 
-Recently, the blockchain landscape is rich in fiat backed stablecoins, either pegged to a fiat currency (), a commodity () or another cryptocurrency (). They all peg their price to an external price cotization, i.e. the price formation is external to the stablecoin mechanism and such a price is first captured frmo the external source and after set into the cryptocurrency with an stabilization mechinism.
+Since blockchain advent, the cryptocurrency landscape is rich in fiat backed stablecoins, either <b>pegged to a fiat currency</b> (USDT, USDC, BUSD, FRAX, MIM, Pax Dollar, USDJ, Gemini USD, USDP,Palau, FDUSD, PYUSD, Real USD, TrueUSD, ZUSD, DAI, CUSD, USDD, USB, USDe, Raft, eUSD, TerraUSD, Fei, EUROCEUROe, GBPT, XSGD, IDRT, BIDR, BRZ, DRAM, MXNT, MXNC), <b>pegged to a commodity</b> (PAXG,GLD,MCAU,AABBG,NNN, AWG,PMGT,CTLX,XAUT,DGX,CACHE,RBZ GBDTRBZ ZiG, GODL, SLVT, CRUDE,PDX, PTR, FIX, GEM, BANANA, SOYA, CORA, WHEA, SOYB, CORB, XCORN XSOY, XWHEAT, XRICE) <b>or pegged to another cryptocurrency</b> (frxETH). They all peg their price to an external price cotization. The price formation mechanism is external to the stablecoin ecosystem so this price needs to first be captured from the external source and set into the cryptocurrency with an stabilization mechanism that implies to manage the supply. Either if the price manually set, or built-in in the smart contract and accessed with Oracles, the stablecoins will inherit the same centralization features of the price formation source. Unfortunately this is against blockchain decentralization principles.
 
-A CryptoCommodity is different animal. A Cryptocommodity is bound to the intrinsic value of the underlying asset. But there is not calculation of this value. Instead, a Cryptocommodity has the ability to form its price internally according to the marginal utility of the underlaying ,arket as perceived by the consumer.As such, it is decoupled from the fiat currency and creates an ecosystem on its own. A CryptoCommodity delivers the foundation for a truth value decentralization.
+A CryptoCommodity is different animal. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its value) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The pice formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external moentary system, fiat or not fiat, and creates an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
 
 ### 4.2. CryptoCommodity Features
 
@@ -190,7 +190,11 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 4.5. CryptoCommodity vs Fiat Stablecoin
+### 4.5. CryptoCommodity Competency
+
+Despite of creating a self-contained ecosystem, a CryptoCommodity will be required to compete with other CryptoCommodities by quality.
+
+### 4.6. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
