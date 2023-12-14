@@ -27,7 +27,7 @@ The following whitepaper proposes a novel kind of token, CryptoCommodity.  Where
 
 We describe how CryptoCommodities work, what are the stages, the utilities, the requirements, the challenges, the distribution mechanims and opportunities which bring for issuers, adopters and the whole society.
 
-This project tries to provide direction to crypto as we think it currently is in the wrong path from the initial principles for which blockchain was created.
+This project tries to provide direction to crypto as we think it currently is in the wrong path from the initial principles for which blockchain was created. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things.
 
 <!-- truncate -->
 
@@ -132,16 +132,29 @@ The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating r
 
 
 
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
 
-## 4. CryptoCommodities
 
-### 4.1. CryptoCommodity
+## 4. CryptoCommodity
 
 CryptoCommodities are representative money in electronic form. As representative money, they represents the intrinsic value of the underlying asset. CryptoCommodities do not aim to provide a measurement of this intrinsic value but, instead, they rely in a price formation mechanism to capture the marginal utility of the asset.
+
+### 4.1. CryptoCommodity Peg
+
+As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
+
+Economic history and literature are rich with schemes to peg the price of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
+
+Recently, the blockchain landscape is rich in fiat backed stablecoins, either pegged to a fiat currency (), a commodity () or another cryptocurrency (). They all peg their price to an external price cotization, i.e. the price formation is external to the stablecoin mechanism and such a price is first captured frmo the external source and after set into the cryptocurrency with an stabilization mechinism.
+
+A CryptoCommodity is different animal. A Cryptocommodity is bound to the intrinsic value of the underlying asset. But there is not calculation of this value. Instead, a Cryptocommodity has the ability to form its price internally according to the marginal utility of the underlaying ,arket as perceived by the consumer.As such, it is decoupled from the fiat currency and creates an ecosystem on its own. A CryptoCommodity delivers the foundation for a truth value decentralization.
+
+### 4.2. CryptoCommodity Features
 
 CryptoCommodities are a specialization of Utility Tokens built on top of a fungible asset, that add a stabilization mechamism once value is captured, to create a Currency Token.
 
@@ -149,7 +162,7 @@ CryptoCommodities are built on clear principle of compliance, transparency, priv
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 4.2. CryptoCommodity Functions
+### 4.3. CryptoCommodity Functions
 
 CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -162,7 +175,7 @@ CryptoCommodities purchasing power is borrowed from the marginal utility of the 
 
 CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 4.3. CryptoCommodity Ecosystem
+### 4.4. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
@@ -177,7 +190,7 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 4.4. CryptoCommodity vs Fiat Stablecoin
+### 4.5. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -2110,10 +2123,6 @@ Another consideration is to prevent high concentration of token units in some wa
 ---
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
-
-### 12.1. Stabilization Mechanism in Literature
-
-Economic history and literature are rich with schemes to peg the value of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
 
 ### 12.1. Stabilization Mechanism
 
