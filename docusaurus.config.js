@@ -129,7 +129,7 @@ const config = {
             label: 'Ecosystem',
 					}, {
 						to: '/docs/whitepaper', 
-						label: 'Whitepaper (In Progress)', 
+						label: 'Whitepaper', 
 						position: 'right'
 					}, {
 						to: '/book', 
