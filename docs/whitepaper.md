@@ -148,11 +148,11 @@ CryptoCommodities are representative money in electronic form. As representative
 
 As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
 
-Economic history and literature are rich with schemes to peg the price of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd25 (1996, Chapter 14). [38]
+Economic history and literature are rich with schemes to peg the price of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd (1996, Chapter 14). [38]
 
-Since blockchain advent, the cryptocurrency landscape is rich in fiat backed stablecoins, either <b>pegged to a fiat currency</b> (USDT, USDC, BUSD, FRAX, MIM, Pax Dollar, USDJ, Gemini USD, USDP,Palau, FDUSD, PYUSD, Real USD, TrueUSD, ZUSD, DAI, CUSD, USDD, USB, USDe, Raft, eUSD, TerraUSD, Fei, EUROCEUROe, GBPT, XSGD, IDRT, BIDR, BRZ, DRAM, MXNT, MXNC), <b>pegged to a commodity</b> (PAXG,GLD,MCAU,AABBG,NNN, AWG,PMGT,CTLX,XAUT,DGX,CACHE,RBZ GBDTRBZ ZiG, GODL, SLVT, CRUDE,PDX, PTR, FIX, GEM, BANANA, SOYA, CORA, WHEA, SOYB, CORB, XCORN XSOY, XWHEAT, XRICE) <b>or pegged to another cryptocurrency</b> (frxETH). They all peg their price to an external price cotization. The price formation mechanism is external to the stablecoin ecosystem so this price needs to first be captured from the external source and set into the cryptocurrency with an stabilization mechanism that implies to manage the supply. Either if the price manually set, or built-in in the smart contract and accessed with Oracles, the stablecoins will inherit the same centralization features of the price formation source. Unfortunately this is against blockchain decentralization principles.
+Since blockchain advent, the cryptocurrency landscape is rich in fiat backed stablecoins, either pegged to a fiat currency (USDT, USDC, BUSD, FRAX, MIM, Pax Dollar, USDJ, Gemini USD, USDP,Palau, FDUSD, PYUSD, Real USD, TrueUSD, ZUSD, DAI, CUSD, USDD, USB, USDe, Raft, eUSD, TerraUSD, Fei, EUROCEUROe, GBPT, XSGD, IDRT, BIDR, BRZ, DRAM, MXNT, MXNC), pegged to a commodity (PAXG,GLD,MCAU,AABBG,NNN, AWG,PMGT,CTLX,XAUT,DGX,CACHE,RBZ GBDTRBZ ZiG, GODL, SLVT, CRUDE,PDX, PTR, FIX, GEM, BANANA, SOYA, CORA, WHEA, SOYB, CORB, XCORN XSOY, XWHEAT, XRICE) or pegged to another cryptocurrency (frxETH). They all peg their price to the price formed  in an external market. The price formation mechanism is external to the stablecoin ecosystem. This price needs to be captured from the external source and set into the cryptocurrency with an stabilization mechanism that implies to manage the supply. Either if the price manually set by the stablecoin issuer, or the smart contract has a built-in access with Oracles, the stablecoins will inherit the centralization feature of the price formation source. Unfortunately this is against blockchain decentralization principles. [49]
 
-A CryptoCommodity is different animal. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its value) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The pice formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external moentary system, fiat or not fiat, and creates an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
+A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
 
 ### 4.2. CryptoCommodity Features
 
@@ -1715,12 +1715,8 @@ Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
 
-### 10.5. Value Capture Event
 
-
-
-
-### 10.6. Considerations
+### 10.5. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
@@ -2123,26 +2119,40 @@ Another consideration is to prevent high concentration of token units in some wa
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 12. Maintaining Price Stability
+## 12. Maintaining Value Stability
 ---
 
-Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy.
-
-### 12.1. Stabilization Mechanism
-
-
-This is done by adjusting the supply in the exchanges.
-
-Th main goal of th Unit of Account i th built-in pric ormatio mchanim. or this goal w nd to crat a ngativ dbakc loop. Thi i achivd by matching th numbr o tokn on th xchang to th xitting dmand and allowing xchang to orm th pric. Th built-in mchanim guarant that th numbr o itm conumd match th numbr th upply o th tokn in th xchang. Thror, th pric i ormd ntrily by conumr and i indpndnt o ny othr currncy.
-
-1 - Capturing intrinsic value by matching supply with demand (we capture instrinsic value, we do not try to quantify it)
-
-2 - Leave price formation for this intrinsic value in basis of utility (subjective value)
-
+Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy. [40]
 
 by protocol layer, by application layer
 
 https://arxiv.org/pdf/1906.06037.pdf
+
+### 12.1. Value Capture Event
+
+Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
+
+
+### 12.2. Stabilization Mechanism
+
+In order to re0present the undelying asset, a CryptoCommodity needs to aggregated operations: (1) capture the asset intrinsic value (2) exposes the asset intrinsic value to form its price according to the marginal utility as perceived by the consumer.
+
+Stabilization mechanism is a artifact apply in the exchanges liquitiy pools to guarantee that the CryptoCommodity represents the underlayiing asset and is able to be priced according to its marginal utility.
+
+### 12.2.1. Capturing Intrinsic Value
+
+Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand in the real world market. We do tno need to estimate the intrinsic value as long we guarantee that 1 unit of demand = 1 CryptoCommodity unit in the exchanges.
+
+
+
+
+
+### 12.2.2. Capturing Marginal Utility
+
+Leave price formation for this intrinsic value in basis of utility (subjective value)
+
+
+### 12.3. Estimating Price Evolution
 
 
 
@@ -2895,3 +2905,6 @@ https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-at
 
 
 [48] DeFi lending: intermediation without information?, Sirio Aramonte, Sebastian Doerr, Wenqian Huang, Andreas Schrimpf, 14 June 2022 - https://www.bis.org/publ/bisbull57.pdf
+
+
+[49] An impossibility theorem on truth-telling in fully decentralized systems by Rodney Garratt and Cyril Monnet, August 2023 - https://www.bis.org/publ/work1117.pdf 
