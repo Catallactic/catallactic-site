@@ -37,7 +37,7 @@ This project tries to provide direction to crypto as we think it currently is in
 
 
 
-## 2. Theories of Value
+## 2. Review on Value
 ---
 
 
@@ -144,6 +144,8 @@ The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating r
 
 CryptoCommodities are representative money in electronic form. As representative money, they represents the intrinsic value of the underlying asset. CryptoCommodities do not aim to provide a measurement of this intrinsic value but, instead, they rely in a price formation mechanism to capture the marginal utility of the asset.
 
+CryptoCommodities are a specialization of Utility Tokens built on top of a fungible asset, that add a stabilization mechamism once value is captured, to create a Currency Token.
+
 ### 4.1. CryptoCommodity Peg
 
 As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
@@ -154,15 +156,18 @@ Since blockchain advent, the cryptocurrency landscape is rich in fiat backed sta
 
 A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
 
-### 4.2. CryptoCommodity Features
+### 4.2. Collateral
 
-CryptoCommodities are a specialization of Utility Tokens built on top of a fungible asset, that add a stabilization mechamism once value is captured, to create a Currency Token.
 
-CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
 
-CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
+### 4.3. Redeemability
 
-### 4.3. CryptoCommodity Functions
+
+### 4.4. The Underlying Asset
+
+Asset Proxied by an utility
+
+### 4.5. CryptoCommodity Functions
 
 CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -175,7 +180,7 @@ CryptoCommodities purchasing power is borrowed from the marginal utility of the 
 
 CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 4.4. CryptoCommodity Ecosystem
+### 4.6. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
@@ -190,11 +195,11 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 4.5. CryptoCommodity Competency
+### 4.7. Scope
 
-Despite of creating a self-contained ecosystem, a CryptoCommodity will be required to compete with other CryptoCommodities by quality.
+CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 4.6. CryptoCommodity vs Fiat Stablecoin
+### 4.8. CryptoCommodity vs Fiat Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -309,7 +314,7 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-### 5.3. CryptoCommodity as Currency
+### 5.3. CryptoCommodity as Competing Currency
 
 Quantity Theory of Money does not reconciliate well with crypto. As Hayek claimed 
 
@@ -352,6 +357,10 @@ To work as Unit of Account:
 Additionally, the above requirements must be customized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
 
 We will discuss all the requirements that makes up a quality curency in the implementation section.
+
+### 4.6. CryptoCommodity Principles
+
+CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
 
 ### 5.5. The ideal underlying asset
 
@@ -1715,8 +1724,10 @@ Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
 
+### 10.5. Estimating Price Evolution
 
-### 10.5. Considerations
+
+### 10.6. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
@@ -2124,35 +2135,37 @@ Another consideration is to prevent high concentration of token units in some wa
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy. [40]
 
-by protocol layer, by application layer
-
-https://arxiv.org/pdf/1906.06037.pdf
-
-### 12.1. Value Capture Event
-
-Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
-
-
-### 12.2. Stabilization Mechanism
-
-In order to re0present the undelying asset, a CryptoCommodity needs to aggregated operations: (1) capture the asset intrinsic value (2) exposes the asset intrinsic value to form its price according to the marginal utility as perceived by the consumer.
+### 12.1. Stabilization Mechanism
 
 Stabilization mechanism is a artifact apply in the exchanges liquitiy pools to guarantee that the CryptoCommodity represents the underlayiing asset and is able to be priced according to its marginal utility.
 
-### 12.2.1. Capturing Intrinsic Value
+On the literature review for price stabilization, 3 mechanisms have been proposed. (I) Ametrano and Morini proposed the so-called Hayek Money (Misnomer*). Hayek Money adjust the supply to match the price obtained from an external source in a rebasement mechanism. This simple mechanism leads to the unstable purchasing power because the rebasement directly modifies the amount of money in each wallet. (II) Sams proposed a new mechanism for the price stabilization, named Seigniorage Share to automatically adjust supply through shares with which users can purchase stablecoins. The Basis stablecoin was an example of a seigniorage algorithmic stablecoin, although it was ultimately shut down due to regulatory concerns. (III) Burn and Mint Equilibrium Multitoken Model burns the “value-seeking” tokens in order to receive the “payment” tokens. Notable examples are Factom, Helium, CHR.
 
-Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand in the real world market. We do tno need to estimate the intrinsic value as long we guarantee that 1 unit of demand = 1 CryptoCommodity unit in the exchanges.
+The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply. None of these mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers.
 
+### 12.1.1. Capturing Intrinsic Value
 
+Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand in the real world market. We do not need to estimate the intrinsic value, we do not need to decide f it comes from land, from production process or from any other objective criteria. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
 
+picture
 
+This intrinsic value capture only deals with the CryptoCommodity units in the exchanges and is agnostic about the Circulating Supply, the number of locked units or the Total Supply of the CryptoCommodity. This flexibility allows a leverage that, despite it could suppose a financial risk that must be accessed, does not interfere in the value capture process itself.
 
-### 12.2.2. Capturing Marginal Utility
+### 12.1.2. Price Formation by Marginal Utility
 
 Leave price formation for this intrinsic value in basis of utility (subjective value)
 
 
-### 12.3. Estimating Price Evolution
+Multipair exposure
+
+Multitoken exposure
+
+### 12.2. Value Capture Event
+
+Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
+
+
+
 
 
 
