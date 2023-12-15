@@ -37,7 +37,7 @@ This project tries to provide direction to crypto as we think it currently is in
 
 
 
-## 2. Review on Value
+## 2. A Review on Value
 ---
 
 
@@ -146,7 +146,13 @@ CryptoCommodities are representative money in electronic form. As representative
 
 CryptoCommodities are a specialization of Utility Tokens built on top of a fungible asset, that add a stabilization mechamism once value is captured, to create a Currency Token.
 
-### 4.1. CryptoCommodity Peg
+### 4.1. The Underlying Asset
+
+Asset Proxied by an utility
+
+
+
+### 4.2. CryptoCommodity Peg
 
 As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
 
@@ -156,16 +162,17 @@ Since blockchain advent, the cryptocurrency landscape is rich in fiat backed sta
 
 A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
 
-### 4.2. Collateral
+
+### 4.3. Collateral
 
 
 
-### 4.3. Redeemability
 
 
-### 4.4. The Underlying Asset
+### 4.4. Redeemability
 
-Asset Proxied by an utility
+
+
 
 ### 4.5. CryptoCommodity Functions
 
@@ -195,15 +202,15 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 4.7. Scope
+### 4.7. CryptoCommodity Scope
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 4.8. CryptoCommodity vs Fiat Stablecoin
+### 4.8. CryptoCommodity vs Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
-|                                 | Fiat Stablecoin                                             | CryptoCommodity                                                               |
+|                                 | Stablecoin                                                  | CryptoCommodity                                                               |
 | :-------------------------------| :-----------------------------------------------------------| :-----------------------------------------------------------------------------|
 | Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset                       |
 | Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset                       |
@@ -2135,15 +2142,17 @@ Another consideration is to prevent high concentration of token units in some wa
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy. [40]
 
-### 12.1. Stabilization Mechanism
+### 12.1. Stabilization Mechanisms
 
 Stabilization mechanism is a artifact apply in the exchanges liquitiy pools to guarantee that the CryptoCommodity represents the underlayiing asset and is able to be priced according to its marginal utility.
 
 On the literature review for price stabilization, 3 mechanisms have been proposed. (I) Ametrano and Morini proposed the so-called Hayek Money (Misnomer*). Hayek Money adjust the supply to match the price obtained from an external source in a rebasement mechanism. This simple mechanism leads to the unstable purchasing power because the rebasement directly modifies the amount of money in each wallet. (II) Sams proposed a new mechanism for the price stabilization, named Seigniorage Share to automatically adjust supply through shares with which users can purchase stablecoins. The Basis stablecoin was an example of a seigniorage algorithmic stablecoin, although it was ultimately shut down due to regulatory concerns. (III) Burn and Mint Equilibrium Multitoken Model burns the “value-seeking” tokens in order to receive the “payment” tokens. Notable examples are Factom, Helium, CHR.
 
+### 12.2. CryptoCommodity Stabilization Mechanism
+
 The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply. None of these mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers.
 
-### 12.1.1. Capturing Intrinsic Value
+#### 12.2.1. Capturing Intrinsic Value
 
 Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand in the real world market. We do not need to estimate the intrinsic value, we do not need to decide f it comes from land, from production process or from any other objective criteria. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
 
@@ -2151,7 +2160,7 @@ picture
 
 This intrinsic value capture only deals with the CryptoCommodity units in the exchanges and is agnostic about the Circulating Supply, the number of locked units or the Total Supply of the CryptoCommodity. This flexibility allows a leverage that, despite it could suppose a financial risk that must be accessed, does not interfere in the value capture process itself.
 
-### 12.1.2. Price Formation by Marginal Utility
+#### 12.2.2. Price Formation by Marginal Utility
 
 Leave price formation for this intrinsic value in basis of utility (subjective value)
 
@@ -2160,7 +2169,7 @@ Multipair exposure
 
 Multitoken exposure
 
-### 12.2. Value Capture Event
+### 12.3. Value Capture Event
 
 Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
 
@@ -2287,18 +2296,45 @@ export const OperationsAllocation = () => {
 
 <OperationsAllocation/>
 
-### 13.2. Currency Functions
+### 13.2. Interfacing with exchanges
+
+#### 13.2.1. Cards
+
+Currently there are cards, both already compatible with crypto currencies. 
+
+#### 13.2.2. Vending Machines
+
+
+#### 13.2.3. Mobile Phones
+
+
+### 13.3. Unit of Account
+
+
+### 13.4. Reserve of Value
+
+
+
+### 13.5. Payments
+
+#### 13.5.1. Commodity Payments
+
+
+#### 13.5.2. Other Payments
+
+Mean of Exchange
+
+commodity payments
+
+other commodity payments
+
+unit of account
 
 First it will make a fully featured currency which will empower the community. 
 
 - Medium of Exchange
 
-- Reserve of Value
 
-- Unit of Account
-
-
-### 13.3. Payments
 
 Thanks to its stable nature, a CryptoCommodity can be used for payments for good and services. 
 
@@ -2306,15 +2342,15 @@ It needs to be as payment method for the underlying market in order to form the 
 
 It can also be used as payment method for other assets as long as commonly accepted by moth parties.
 
-### 13.4. Cards
 
-Currently there are cards, both already compatible with crypto currencies. 
 
-### 13.5. Transfers
+
+
+### 13.6. Transfers
 
 CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
 
-### 13.6. Lending
+### 13.7. Lending
 
 Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
 
