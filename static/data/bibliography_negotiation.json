@@ -12,11 +12,27 @@
 	{ "subject": "ON PRICE FORMATION", "date": "2021", "title": "Constant Function Market Makers: Multi-Asset Trades via Convex Optimization", "author": "Guillermo Angeris, Akshay Agrawal, Alex Evans, Tarun Chitra, Stephen Boyd", "place": "", "url": "https://arxiv.org/abs/2107.12484" },
 
 	{ "subject": "ON STABILIZATION MECHANISM" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2014", "title": "Inv/Sav Wallets and the Role of Financial Intermediaries in a Digital Currency", "author": "Massimo Morini", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2458890" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2015", "title": "What is Stablecoin?: A Survey on Its Mechanism and Potential as Decentralized Payment Systems", "author": "Makiko Mita, Kensuke Ito, Shohei Ohsawa, Hideyuki Tanaka", "place": "International Institute of Applied Informatics", "url": "https://arxiv.org/pdf/1906.06037.pdf" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2015", "title": "A Note on Cryptocurrency Stabilisation: Seigniorage Shares", "author": "Robert Sams", "place": "", "url": "https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2016", "title": "Hayek Money: The Cryptocurrency Price Stability Solution", "author": "Ferdinando M. Ametrano", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2425270" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2017", "title": "Basis: A Price-Stable Cryptocurrency with an Algorithmic Central Bank", "author": "Nader Al-Naji, Josh Chen, Lawrence Diao", "place": "", "url": "https://www.basis.io/basis_whitepaper_en.pdf" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2018", "title": "Volatility and Welfare in a Crypto Economy", "author": "Fahad Saleh", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3235467" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2018", "title": "How to Make a Digital Currency on a Blockchain Stable", "author": "Kenji Saito, Mitsuru Iwamura", "place": "", "url": "https://arxiv.org/abs/1801.06771" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2019", "title": "Terra Money: Stability and Adoption", "author": "Evan Kereiakes, Do Kwon, Marco Di Maggio, Nicholas Platias", "place": "", "url": "https://assets.website-files.com/611153e7af981472d8da199c/618b02d13e938ae1f8ad1e45_Terra_White_paper.pdf" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2019", "title": "State of Stablecoins (2019)", "author": "Garrick Hileman", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3533143" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2020", "title": "Money Creation in Decentralized Finance: A Dynamic Model of Stablecoin and Crypto Shadow Banking", "author": "Ye Li, Simon Mayer", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3757083" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Can Stablecoins Be Stable?", "author": "Adrien d'Avernas, Vincent Maurin, Quentin Vandeweyer", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4226027" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Can We Stabilize the Price of a Cryptocurrency?", "author": "Yukinobu Kitamura", "place": "", "url": "https://link.springer.com/chapter/10.1007/978-981-19-5591-4_6" },
+	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Discussion of Currency Stability Using Blockchain Technology", "author": "Bruno Sultanum", "place": "", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165188921000919" },
+
+	{ "subject": "ON STABLECOIN WHITEPAPERS" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "DAI Whitepaper", "author": "MakerDAO", "place": "", "url": "https://makerdao.com/en/whitepaper#dai-as-an-ecosystem-driver-and-defi-builder" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "Tether Whitepaper", "author": "Tether", "place": "", "url": "https://tether.to/en/whitepaper" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2019", "title": "PAX Gold Whitepaper", "author": " Charles Cascarilla", "place": "", "url": "https://paxos.com/wp-content/uploads/2019/09/PAX-Gold-Whitepaper.pdf" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2020", "title": "Goldario Whitepaper", "author": "Goldario", "place": "", "url": "https://www.goldario.com/#white-paper" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2022", "title": "Tether Gold Whitetaper", "author": "Tether", "place": "", "url": "https://gold.tether.to/Tether%20Gold%20Whitepaper.pdf" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2023", "title": "PDX Whitetaper", "author": "PDX", "place": "", "url": "https://pdxcoin.io/files/PDX_White_Paper.pdf" },
 
 	{ "subject": "ON SEIGNIORAGE" },
 	{ "subject": "ON SEIGNIORAGE", "date": "2022", "title": "Transaction Fees and Seigniorage in Proof-of-Work Cryptocurrencies", "author": "Michele Fabi", "place": "Ecole Polytechnique, CREST, IP Paris", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4170256" }
