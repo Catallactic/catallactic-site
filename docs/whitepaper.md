@@ -2146,28 +2146,53 @@ Differently to a stablecoin, which is stabilized to capture the fiat price of th
 
 Stabilization mechanism is a artifact apply in the exchanges liquitiy pools to guarantee that the CryptoCommodity represents the underlayiing asset and is able to be priced according to its marginal utility.
 
-On the literature review for price stabilization, 3 mechanisms have been proposed. (I) Ametrano and Morini proposed the so-called Hayek Money (Misnomer*). Hayek Money adjust the supply to match the price obtained from an external source in a rebasement mechanism. This simple mechanism leads to the unstable purchasing power because the rebasement directly modifies the amount of money in each wallet. (II) Sams proposed a new mechanism for the price stabilization, named Seigniorage Share to automatically adjust supply through shares with which users can purchase stablecoins. The Basis stablecoin was an example of a seigniorage algorithmic stablecoin, although it was ultimately shut down due to regulatory concerns. (III) Burn and Mint Equilibrium Multitoken Model burns the “value-seeking” tokens in order to receive the “payment” tokens. Notable examples are Factom, Helium, CHR.
+On the literature review for price stabilization, 3 mechanisms have been proposed. (I) Ametrano and Morini proposed the so-called Hayek Money (Misnomer*). Hayek Money adjust the amount of money stocked in each wallet, according to the data on current price provided by the external source. This simple mechanism leads to the unstable purchasing power because the rebasement directly modifies the amount of money in each wallet. (II) Sams proposed a new mechanism for the price stabilization, named Seigniorage Share to automatically adjust supply through shares with which users can purchase stablecoins. The Basis stablecoin was an example of a seigniorage algorithmic stablecoin, although it was ultimately shut down due to regulatory concerns. (III) Burn and Mint Equilibrium Multitoken Model burns the “value-seeking” tokens in order to receive the “payment” tokens. Notable examples are Factom, Helium, CHR. [46]
+
+The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply. 
 
 ### 12.2. CryptoCommodity Stabilization Mechanism
 
-The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply. None of these mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers.
+None of the existing mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers. The combined action of both mechanisms converts a CryptoCommodity into representative money for the underlying asset.
 
-#### 12.2.1. Capturing Intrinsic Value
 
-Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand in the real world market. We do not need to estimate the intrinsic value, we do not need to decide f it comes from land, from production process or from any other objective criteria. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
-
-picture
-
-This intrinsic value capture only deals with the CryptoCommodity units in the exchanges and is agnostic about the Circulating Supply, the number of locked units or the Total Supply of the CryptoCommodity. This flexibility allows a leverage that, despite it could suppose a financial risk that must be accessed, does not interfere in the value capture process itself.
-
-#### 12.2.2. Price Formation by Marginal Utility
-
-Leave price formation for this intrinsic value in basis of utility (subjective value)
-
+#### 12.2.1. Creating Expositor Pairs
 
 Multipair exposure
 
 Multitoken exposure
+
+#### 12.2.1. Creating Reserve Account
+
+
+
+#### 12.2.2. Capturing Intrinsic Value
+
+Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand for the issuer in the real world market. Estimating the intrinsic value, deciding f it comes from land, from production process or from any other objective criteria is not needed in order to this value can be exposed. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
+
+picture
+
+As both, real world demand and token units in exchange change are in continuous change and they will unsync over the time, there should be a scheduled process that resyncs real world demand with token units in exchanges. This resync means to update the token units in the exchanges periodically. In order to perform this resync there can be some cases:
+
+- real world demand is higher than number of tokens in the exchanges. This the expected case for a growing real world business, as demand is increasing, the issuer has increased his sales or CryptoCommodity users have bought many token units. The compensatory action to resync is to move token units from the reserve account to the exchange as we need to increase the number token units to match the real world demand. For the number of token units needed in excess of the token units existing in the reserve account, the CryptoCommodity must populate the reserve account with enought token units.
+
+- real world demand is smaller that number of tokens in exchanges. This is the case if the issuer has reduced his sales or CryptoCommodity users have sold many token units from the exchanges. For this scenario, the compensatory action to resync is to move token units from the exchange to the reserve account.
+
+This intrinsic value capture only deals with the CryptoCommodity units in the exchanges and is agnostic about the Circulating Supply, the number of locked units or the Total Supply of the CryptoCommodity. This flexibility allows a leverage that, despite it could suppose a financial risk that must be accessed, does not interfere in the value capture process itself.
+
+
+
+#### 12.2.3. Price Formation by Marginal Utility
+
+Once the intrinsic value of the assets is exposed into the exchanges, Leave price formation for this intrinsic value in basis of utility (subjective value)
+
+
+the resync process will create a stars figure. The longer the period, the higher the steps. 
+
+
+
+
+
+
 
 ### 12.3. Value Capture Event
 
@@ -2298,6 +2323,8 @@ export const OperationsAllocation = () => {
 
 ### 13.2. Interfacing with exchanges
 
+Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperiences users so is possible to enable other kind of access points to buy or sell CryptoCommodity units.
+
 #### 13.2.1. Cards
 
 Currently there are cards, both already compatible with crypto currencies. 
@@ -2310,17 +2337,24 @@ Currently there are cards, both already compatible with crypto currencies.
 
 ### 13.3. Unit of Account
 
+The value of a coin used as an unit of account could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002).
+
+CryptoCommodity captures the marginal utility of the underlying asset. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
+
 
 ### 13.4. Reserve of Value
 
+As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
 
 
-### 13.5. Payments
-
-#### 13.5.1. Commodity Payments
+### 13.5. Undelying Asset Payments
 
 
-#### 13.5.2. Other Payments
+
+
+
+
+### 13.6. Other Payments
 
 Mean of Exchange
 
@@ -2346,11 +2380,11 @@ It can also be used as payment method for other assets as long as commonly accep
 
 
 
-### 13.6. Transfers
+### 13.7. Transfers
 
 CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
 
-### 13.7. Lending
+### 13.8. Lending
 
 Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
 
