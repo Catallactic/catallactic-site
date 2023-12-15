@@ -1718,16 +1718,35 @@ export const NegotiationAllocation = () => {
 
 <NegotiationAllocation/>
 
-### 10.3. Creating Liquididty Pools
+### 10.3. Creating Trading Pairs
+
+A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
+</div>
+<br/>
+
+Some particular crypto trading pairs might provide better trading conditions in terms of fees and taxes.
+
+
+
+The criteria for selecting the pairs should be friendliness to the user base.
+
+The currency pairs created are a combination of 3 variables:
+
+- the number of networks in which the CryptoCommodity will be deployed
+
+- the number of exchanges that will be covered
+
+- the number of trading pairs that will be created
+
+
 
 
 ### 10.4. Negotiation Mechanism
 
 Typically negotiation happened by allocating tokn unit to xchang pair. Th xchang i in charg to orm th pric with th xiting pair.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
-</div>
 
 In ord to implnt th tabilization mchanim, a rrv account mut back vry xchang pair. Tokn will b puld rom th rrv account to h pair whn i ncary to provid liuidity to rduc th pric. Convrly, tokn will b olvd rom th pair to th rrv account whn i ncary to rduc liuidity to th pair in ordr to rduc th price.
 
@@ -2155,19 +2174,18 @@ The common goal for existing mechanisms is to adjust the token price to an exter
 None of the existing mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers. The combined action of both mechanisms converts a CryptoCommodity into representative money for the underlying asset.
 
 
-#### 12.2.1. Creating Expositor Pairs
 
-Multipair exposure
-
-Multitoken exposure
 
 #### 12.2.1. Creating Reserve Account
 
-
+To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
 
 #### 12.2.2. Capturing Intrinsic Value
 
 Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand for the issuer in the real world market. Estimating the intrinsic value, deciding f it comes from land, from production process or from any other objective criteria is not needed in order to this value can be exposed. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
+
+
+Another reason to use trading pairs is to decrease trading fees. If the trading pair did not exist, you would need to use at least two crypto trading pairs to obtain your desired cryptocurrency – and pay additional trading fees, as you would be committing to two trades as opposed to only one
 
 picture
 
@@ -2347,7 +2365,7 @@ CryptoCommodity captures the marginal utility of the underlying asset. This enab
 As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
 
 
-### 13.5. Undelying Asset Payments
+### 13.5. Underlying Asset Payments
 
 
 
