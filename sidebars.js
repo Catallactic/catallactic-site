@@ -319,11 +319,17 @@ const sidebars = {
 		}, {
       type: 'category',
       label: 'Store of Value',
-      items: ['defi/storeofvalue/intro'],
+      items: [
+				'defi/storeofvalue/intro',
+				'defi/storeofvalue/bibliography'
+			],
 		}, {
       type: 'category',
       label: 'Unit of Account',
-      items: ['defi/unitofaccount/intro'],
+      items: [
+				'defi/unitofaccount/intro',
+				'defi/unitofaccount/bibliography'
+			],
 		}, {
       type: 'category',
       label: 'Payments',

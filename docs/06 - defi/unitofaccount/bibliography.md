@@ -1,5 +1,5 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import bibliography_meanofexchange from "/static/data/bibliography_meanofexchange.json"
+import bibliography_unitofaccount from "/static/data/bibliography_unitofaccount.json"
 
 # Bibliography
 
@@ -11,7 +11,7 @@ import bibliography_meanofexchange from "/static/data/bibliography_meanofexchang
 			<th>Source</th>
 		</tr>
 	
-		{bibliography_meanofexchange.map((data, index) => {
+		{bibliography_unitofaccount.map((data, index) => {
 			if (!data.title) {
 				return (
 					<tr style={{ textAlignVertical: "center",textAlign: "center", 'backgroundColor': '#fff7d9' }}>
