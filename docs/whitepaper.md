@@ -124,15 +124,19 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 ### 3.3. Functions of Money
 
-In almost all market transactions in our economy, money in the form of currency or cheques is a <b>medium of exchange</b>; it is used to pay for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
+A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services. This is the function described in the previous sections.
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
-The gold standard as a <b>Unit of Account</b> suffered from gold's fluctuating relative value and the costly need to redeem money for gold. [12]
+Money's numéraire function is indeed crucial. Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as <b>unit of account</b> before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
+Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
+In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
 
+A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange. 
 
+Gold is far from the ideaI commodity for defining the unit of account, even in a competitive system. A broad basket of goods and services (like one for a price index) would serve better, and the level of prices in units so defined would be nearly stable
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -250,7 +254,7 @@ One of the most important properties for the quality of money is the <b>existenc
 		<tr>
 			<td>Quality</td>
 			<td>Authors</td>
-			<td>Mean of Exchange</td>
+			<td>Medium of Exchange</td>
 			<td>Store of Value</td>
 			<td>Unit of Account</td>
 		</tr>
@@ -335,7 +339,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
-To work as a Mean of Payment:
+To work as a Medium of Exchange:
 
 * comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
 
@@ -2169,7 +2173,7 @@ On the literature review for price stabilization, 3 mechanisms have been propose
 
 The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply. 
 
-### 12.2. CryptoCommodity Stabilization Mechanism
+### 12.2. CryptoCommodity Stabilization
 
 None of the existing mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers. The combined action of both mechanisms converts a CryptoCommodity into representative money for the underlying asset.
 
@@ -2343,14 +2347,18 @@ export const OperationsAllocation = () => {
 
 Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperiences users so is possible to enable other kind of access points to buy or sell CryptoCommodity units.
 
-#### 13.2.1. Cards
+#### 13.2.1. Mobile Apps
+
+
+
+#### 13.2.2. Cards
 
 Currently there are cards, both already compatible with crypto currencies. 
 
-#### 13.2.2. Vending Machines
+#### 13.2.3. Vending Machines
 
 
-#### 13.2.3. Mobile Phones
+
 
 
 ### 13.3. Unit of Account
@@ -2374,7 +2382,7 @@ As a quality Unit of Account, CryptoCommodity works as a reserve of value for th
 
 ### 13.6. Other Payments
 
-Mean of Exchange
+Medium of Exchange
 
 commodity payments
 
@@ -3009,3 +3017,5 @@ https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-at
 
 
 [49] An impossibility theorem on truth-telling in fully decentralized systems by Rodney Garratt and Cyril Monnet, August 2023 - https://www.bis.org/publ/work1117.pdf 
+
+[50] Unit of Account, Medium of Exchange, and Prices, January 2011, Young Sik Kim, Manjong Lee - https://www.researchgate.net/publication/254421998_Unit_of_Account_Medium_of_Exchange_and_Prices
