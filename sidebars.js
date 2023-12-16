@@ -333,7 +333,10 @@ const sidebars = {
     }, {
       type: 'category',
       label: 'Lending',
-      items: ['defi/lending/lending'],
+      items: [
+				'defi/lending/lending',
+				'defi/lending/bibliography'
+			],
 		}, {
 			type: 'category',
       label: 'Liquidity Provision',
