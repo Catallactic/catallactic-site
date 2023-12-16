@@ -1,5 +1,5 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import bibliography_unitofaccount from "/static/data/bibliography_unitofaccount.json"
+import bibliography_money from "/static/data/bibliography_money.json"
 
 # Bibliography
 
@@ -11,7 +11,7 @@ import bibliography_unitofaccount from "/static/data/bibliography_unitofaccount.
 			<th>Source</th>
 		</tr>
 	
-		{bibliography_unitofaccount.map((data, index) => {
+		{bibliography_money.map((data, index) => {
 			if (!data.title) {
 				return (
 					<tr style={{ textAlignVertical: "center",textAlign: "center", 'backgroundColor': '#fff7d9' }}>

@@ -311,24 +311,12 @@ const sidebars = {
 			label: 'Getting started', // sidebar label
 		}, {
       type: 'category',
-      label: 'Mean of Exchange',
+      label: 'Money',
       items: [
-				'defi/meanofexchange/intro',
-				'defi/meanofexchange/bibliography'
-			],
-		}, {
-      type: 'category',
-      label: 'Store of Value',
-      items: [
-				'defi/storeofvalue/intro',
-				'defi/storeofvalue/bibliography'
-			],
-		}, {
-      type: 'category',
-      label: 'Unit of Account',
-      items: [
-				'defi/unitofaccount/intro',
-				'defi/unitofaccount/bibliography'
+				'defi/money/bibliography',
+				'defi/money/meanofexchange',
+				'defi/money/storeofvalue',
+				'defi/money/unitofaccount'
 			],
 		}, {
       type: 'category',
