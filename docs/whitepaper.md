@@ -166,24 +166,7 @@ Since blockchain advent, the cryptocurrency landscape is rich in fiat backed sta
 
 A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
 
-
-### 4.3. Collateral
-
-As any stablecoin, a CryptoCommodity is collateralized by its underlying assets. In the case of CryptoCommodity, the underlying asset is a asset proxied by an utility so the collateral is the utility, which means typically a service. At the heart of any stablecoin is its balance sheet which must be balanced.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/cryptocommodity_balance_sheet.svg" width="40%"></img>
-</div>
-
-The balance sheet of the CryptoCommodity issuer woudl probably be audited and publicly disclosed, including any signed contracts or agreements with providers. The CryptoCommodity does not need to be collateralized at 100%. Instead, it can be collateralized at a ratio and leave market forces and reputation adjusting the price of the CryptoCommodity units. 
-
-### 4.4. Redeemability
-
-The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio.
-
-
-
-### 4.5. CryptoCommodity Functions
+### 4.3. CryptoCommodity Functions
 
 CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -196,12 +179,12 @@ CryptoCommodities purchasing power is borrowed from the marginal utility of the 
 
 CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 4.6. CryptoCommodity Ecosystem
+### 4.4. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem_before.svg" width="80%"></img>
+	<img src="/img/ecosystem_before.svg" width="80%"></img>
 </div>
 <br/>
 
@@ -211,9 +194,23 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 4.7. CryptoCommodity Scope
+### 4.5. CryptoCommodity Scope
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
+
+### 4.6. Collateral
+
+As any stablecoin, a CryptoCommodity is collateralized by its underlying assets. In the case of CryptoCommodity, the underlying asset is a asset proxied by an utility so the collateral is the utility, which means typically a service. At the heart of any stablecoin is its balance sheet which must be balanced.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodity_balance_sheet.svg" width="40%"></img>
+</div>
+
+The balance sheet of the CryptoCommodity issuer woudl probably be audited and publicly disclosed, including any signed contracts or agreements with providers. The CryptoCommodity does not need to be collateralized at 100%. Instead, it can be collateralized at a ratio and leave market forces and reputation adjusting the price of the CryptoCommodity units. 
+
+### 4.7. Redeemability
+
+The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio. This must be in a contract
 
 ### 4.8. CryptoCommodity vs Stablecoin
 
@@ -2243,9 +2240,12 @@ By using the CryptoCommodity a heartbit of the marketplace, we can extract the e
 Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem_before.svg" width="80%"></img>
+	<img src="/img/ecosystem_before.svg" width="80%"></img>
 </div>
 <br/>
+
+
+
 
 
 
@@ -2348,44 +2348,36 @@ export const OperationsAllocation = () => {
 
 <OperationsAllocation/>
 
-### 13.2. Interfacing with exchanges
+
+
+
+
+### 13.2. Underlying Asset Payments
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_medium_of_payment.svg" width="80%"></img>
+</div>
+<br/>
+
+
+
+### 13.3. Interfacing with exchanges
 
 Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperiences users so is possible to enable other kind of access points to buy or sell CryptoCommodity units.
 
-#### 13.2.1. Mobile Apps
+#### 13.3.1. Mobile Apps
 
 
 
-#### 13.2.2. Cards
+#### 13.3.2. Cards
 
 Currently there are cards, both already compatible with crypto currencies. 
 
-#### 13.2.3. Vending Machines
+#### 13.3.3. Vending Machines
 
 
-
-
-
-### 13.3. Unit of Account
-
-The value of a coin used as an unit of account could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002).
-
-CryptoCommodity captures the marginal utility of the underlying asset. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
-
-
-### 13.4. Reserve of Value
-
-As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
-
-
-### 13.5. Underlying Asset Payments
-
-
-
-
-
-
-### 13.6. Other Payments
+### 13.4. Other Payments
 
 Medium of Exchange
 
@@ -2410,6 +2402,21 @@ It can also be used as payment method for other assets as long as commonly accep
 
 
 
+### 13.5. Unit of Account
+
+The value of a coin used as an unit of account could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002).
+
+CryptoCommodity captures the marginal utility of the underlying asset. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
+
+
+### 13.6. Reserve of Value
+
+As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
+
+
+
+
+
 
 ### 13.7. Transfers
 
@@ -2424,7 +2431,6 @@ Credit is the main reason that motivated the obsolescence of gold standard and i
 </div>
 
 A CryptoCommodity can work as collateral of lending operations in existing platforms. A CryptoCommodity coudl also work as payment method for lending on a own lending platform.
-
 
 
 
@@ -2698,7 +2704,7 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/unit_of_account_ecosystem_loop.svg" width="100%"></img>
+	<img src="/img/ecosystem_loop.svg" width="100%"></img>
 </div>
 <br/>
 
