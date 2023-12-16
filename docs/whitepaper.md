@@ -128,7 +128,7 @@ A <b>medium of exchange</b> is the set of assets in an economy that people regul
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
-Money's numéraire function is indeed crucial. Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as <b>unit of account</b> before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
+The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
@@ -2254,13 +2254,14 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 The DeFi Services allocation will cover the utilities delivered by the CryptoCommodity after the Value Capture Event. This allocation is not included in the Initial Token Allocation and will be mined on demand by the stabilization mechiams in parallel to demand increases. It will include:
 
-- funds for payments
+- fnuds for holders
 
-- funds for cards
+- funds for payments in secondary retail markets
 
 - funds for transfers
 
 - funds for lending
+
 
 export const OperationsAllocation = () => {
 	return (
@@ -2272,8 +2273,8 @@ export const OperationsAllocation = () => {
 							'Project', 'Project',
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
-							'Operations', 
-							'Project', 'Funding', 'Liquidity', 'Operations'
+							'DeFi Services', 
+							'Project', 'Funding', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
 								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000'],
@@ -2351,71 +2352,47 @@ export const OperationsAllocation = () => {
 
 
 
+### 13.2. Unit of Account
 
-### 13.2. Underlying Asset Payments
+CryptoCommodity captures the averaged marginal utility of the underlying asset across all sales points. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
 
+
+### 13.3. Underlying Asset Payments
+
+In the picture we can see the detailed CryptoCommodity ecosystem. The retailer at each location decides what price to charge for the underlying asset. The price formation is performed in the exchanges according to the aggregated demand in the primary market including all retail locations. This means that some retailers will charge above the 1 CryptoCommodity mark, and other retailers will charge below the 1 CryptoCommodity mark.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_medium_of_payment.svg" width="80%"></img>
 </div>
 <br/>
 
+The price formed in the exchanges is then reused for the supply of tokens in holder's hands and in DeFi Services markets.
 
 
-### 13.3. Interfacing with exchanges
+### 13.4. Interfacing with exchanges
 
-Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperiences users so is possible to enable other kind of access points to buy or sell CryptoCommodity units.
+Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
 
-#### 13.3.1. Mobile Apps
+- Specialized <b>smartphone aplications</b> can embed its own wallet or use and extneral wallet allowing the consumer to interface with the exchange in a seamless manner.
 
+- Cards with embedded wallet logic can be topped up with CryptoCommodity from a <b>card reader</b>. And, conversely, a card reader can also charge the CryptoCommodity fee for a purchase.
 
-
-#### 13.3.2. Cards
-
-Currently there are cards, both already compatible with crypto currencies. 
-
-#### 13.3.3. Vending Machines
-
-
-### 13.4. Other Payments
-
-Medium of Exchange
-
-commodity payments
-
-other commodity payments
-
-unit of account
-
-First it will make a fully featured currency which will empower the community. 
-
-- Medium of Exchange
+- Wallet enabled <b>vending machines</b> can interect with cards or wallets to charge CryptoCommodity
 
 
 
-Thanks to its stable nature, a CryptoCommodity can be used for payments for good and services. 
-
-It needs to be as payment method for the underlying market in order to form the price.
-
-It can also be used as payment method for other assets as long as commonly accepted by moth parties.
-
-
-
-
-### 13.5. Unit of Account
-
-The value of a coin used as an unit of account could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002).
-
-CryptoCommodity captures the marginal utility of the underlying asset. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
-
-
-### 13.6. Reserve of Value
+### 13.5. Reserve of Value
 
 As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
 
 
+### 13.6. Payments
 
+Thanks to the price formed in the exchanges as a consequence of the demand in the primary market, CryptoCommodity can become medium of exchange for other goods and services. Depending on the currency accepted for these other markets, a swap can be required.
 
+If the CryptoCommodity is accepted ni the secondary market, the consumer can pay with the its holdings of the CryptoCommodity.
+
+If the CryptoCommodity is not accepted for the secondary market, the consumer or the retailer should performa swap from the CryptoCommodity to the target currency.
 
 
 ### 13.7. Transfers
@@ -2425,10 +2402,6 @@ CryptoCommodities can participate in transfers as remittances, international tra
 ### 13.8. Lending
 
 Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/credit.png" width="70%"></img>
-</div>
 
 A CryptoCommodity can work as collateral of lending operations in existing platforms. A CryptoCommodity coudl also work as payment method for lending on a own lending platform.
 
