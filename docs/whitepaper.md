@@ -29,7 +29,7 @@ We describe how CryptoCommodities work, what are the stages, the utilities, the 
 
 This project tries to provide direction to crypto as we think it currently is in the wrong path from the initial principles for which blockchain was created. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things.
 
-The whitepaper below exposes an overview of the main ideas for creating CryptoCommodity tokens but we are aware that every single aspect of this process must be proved in reality. This is the initial design for the token CYGAS as defined by GasClick Project (gasclick.net). CYGAS would be used as early adopter to further define and elaborate the design. Additionally, for the first stage of value capture, the token is a UTility Token so there is a time slot enough to understand the value release stage. The CryptoCommodity imlpeemntation is upgradeable to accomodate the new discoveries.
+The whitepaper below aims to opena debate by exposing an overview of ideas for creating CryptoCommodity tokens. We are aware that every single aspect of this process must be proved in reality. This is the initial design for the token CYGAS as defined by GasClick Project (gasclick.net) with the goal of creating a 'Body of Knowledge' for future projects built under the same principles. CYGAS would be used as early adopter to further define and elaborate the design. Additionally, for the first stage of value capture, the token is a Utility Token, so there is a time spam enough to understand the value release stage. The CryptoCommodity implementation is also upgradeable to accomodate the new discoveries.
 
 <!-- truncate -->
 
@@ -138,8 +138,6 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange. 
 
-Gold is far from the ideaI commodity for defining the unit of account, even in a competitive system. A broad basket of goods and services (like one for a price index) would serve better, and the level of prices in units so defined would be nearly stable
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -208,7 +206,22 @@ As any stablecoin, a CryptoCommodity is collateralized by its underlying assets.
 	<img src="/img/cryptocommodity_balance_sheet.svg" width="40%"></img>
 </div>
 
-The balance sheet of the CryptoCommodity issuer woudl probably be audited and publicly disclosed, including any signed contracts or agreements with providers. The CryptoCommodity does not need to be collateralized at 100%. Instead, it can be collateralized at a ratio and leave market forces and reputation adjusting the price of the CryptoCommodity units. 
+The balance sheet of the CryptoCommodity issuer woudl probably be audited and publicly disclosed, including any signed contracts or agreements with providers. The CryptoCommodity does not need to be collateralized at 100%. Instead, it can be collateralized at a ratio and leave market forces and reputation adjusting the price of the CryptoCommodity units.
+
+A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
+
+> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
+
+In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
+
+> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
+assets. [46]
+
+This is not the case for CryptoCommodities as they are redeemable by the proxied utility, not by cash.
+
+>  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
+
+Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 ### 3.7. Redeemability
 
@@ -2256,7 +2269,7 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 
 The DeFi Services allocation will cover the utilities delivered by the CryptoCommodity after the Value Capture Event. This allocation is not included in the Initial Token Allocation and will be mined on demand by the stabilization mechiams in parallel to demand increases. It will include:
 
-- fnuds for holders
+- funds for holders
 
 - funds for payments in secondary retail markets
 
@@ -2514,31 +2527,34 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 ### 13.6. The challenge of Decentralization
 
-#### 13.6.1. Network Decentralization
-
-- network decentralization
-
-- networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity
-
-
-crosschain
-
-#### 13.6.2. Exchanges Decentralization
-
-
-#### 13.6.3. Smart Contract Decentralization
-
-Decentralization is a features that should analized at different levels:
-
-
-#### 13.6.4. Governance Decentralization
-
-- decentralization on governance, the stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.
-
-
-#### 13.6.5. Wealth Decentralization
-
-Gini and Nakamoto Coefficients
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td></td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>Network Decentralization</td>
+			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
+		</tr>
+		<tr>
+			<td>Exchanges Decentralization</td>
+			<td>Exchanges should also be decentralized regarding</td>
+		</tr>
+		<tr>
+			<td>Smart Contract Decentralization</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Governance  Decentralization</td>
+			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
+		</tr>
+		<tr>
+			<td>Wealth Decentralization</td>
+			<td>Gini and Nakamoto Coefficients</td>
+		</tr>
+	</table>
+</div>
 
 ### 13.7. The challenge of Compliance
 
@@ -2555,28 +2571,13 @@ Compliance mut be reviewed according to the juridiction where the CryptoCommodit
 
 https://github.com/Catallactic/catallactic-suite
 
+On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
+
 #### 13.7.1. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
 Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
-
-A CryptoCommodity system is naturally collateralized by the asset service in the underlying market. At any moment, the issuer can redeem the holder as a regular consumer of the underlying asset utility. According to IMF: 
-
-> a viable commodity standard does not require the redemption of money for the specific commodities defining the ultimate unit of account. This greatly simplifies and reduces the cost of operating such a system.".
-
-In order to assess compliance requirements, the redeemability features must be considered. According to IMF:
-
-> Stablecoins denominated in a monetary unit of account and offering redemption into cash on demand—that will likely be used for payments—should be fully backed in perfectly safe and liquid
-assets. [46]
-
-This is not the case for CryptoCommodities as they are redeemable by the seets service, not by cash.
-
->  Stablecoins offering redeemability within an elapsed time may be backed with safe but less liquid assets [46]
-
-On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
-
-Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
 ### 13.8. The challenge of Transparency
 
