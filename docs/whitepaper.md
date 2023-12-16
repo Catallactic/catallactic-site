@@ -169,12 +169,17 @@ A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommod
 
 ### 4.3. Collateral
 
+As any stablecoin, a CryptoCommodity is collateralized by its underlying assets. In the case of CryptoCommodity, the underlying asset is a asset proxied by an utility so the collateral is the utility, which means typically a service. At the heart of any stablecoin is its balance sheet which must be balanced.
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodity_balance_sheet.svg" width="40%"></img>
+</div>
 
-
+The balance sheet of the CryptoCommodity issuer woudl probably be audited and publicly disclosed, including any signed contracts or agreements with providers. The CryptoCommodity does not need to be collateralized at 100%. Instead, it can be collateralized at a ratio and leave market forces and reputation adjusting the price of the CryptoCommodity units. 
 
 ### 4.4. Redeemability
 
+The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio.
 
 
 
