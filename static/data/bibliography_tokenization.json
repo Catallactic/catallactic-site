@@ -26,9 +26,18 @@
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2021", "title": "Decentralized Stablecoins and Collateral Risk", "author": "Roman Kozhan, Ganesh Viswanath-Natraj", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866975" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "Making Stablecoins More Stable With Chainlink Proof of Reserve", "author": "Zubin Pratap", "place": "", "url": "https://blog.chain.link/stablecoins-and-proof-of-reserve/" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "The stable in stablecoins", "author": "Garth Baughman, Francesca Carapella, Jacob Gerszten, and David Mills", "place": "FED", "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-stable-in-stablecoins-20221216.html" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2023", "title": "Stablecoin Management and Collateral: The Challenges and Opportunities", "author": "Asad Khan", "place": "", "url": "https://medium.com/centrifuge/thoughts-on-the-management-and-collateral-of-a-stablecoin-4232372ba40e" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2023", "title": "The four types of stablecoins: A comparative analysis", "author": "Matthias Hafner, Marco Henriques Pereira†, ‡Helmut Dietl , Juan Beccuti", "place": "", "url": "https://arxiv.org/pdf/2308.07041.pdf" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2023", "title": "An Introduction to Stablecoins", "author": "Erik Anderson", "place": "", "url": "https://www.globalxetfs.com/an-introduction-to-stablecoins/" },
+
+	{ "subject": "ON STABLECOIN WHITEPAPERS" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "DAI Whitepaper", "author": "MakerDAO", "place": "", "url": "https://makerdao.com/en/whitepaper#dai-as-an-ecosystem-driver-and-defi-builder" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "Tether Whitepaper", "author": "Tether", "place": "", "url": "https://tether.to/en/whitepaper" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2019", "title": "PAX Gold Whitepaper", "author": " Charles Cascarilla", "place": "", "url": "https://paxos.com/wp-content/uploads/2019/09/PAX-Gold-Whitepaper.pdf" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2020", "title": "Goldario Whitepaper", "author": "Goldario", "place": "", "url": "https://www.goldario.com/#white-paper" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2022", "title": "Tether Gold Whitetaper", "author": "Tether", "place": "", "url": "https://gold.tether.to/Tether%20Gold%20Whitepaper.pdf" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2023", "title": "PDX Whitetaper", "author": "PDX", "place": "", "url": "https://pdxcoin.io/files/PDX_White_Paper.pdf" },
 
 	{ "subject": "ON NFT IDENTIFICATION TOKENOMICS" },
 

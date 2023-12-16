@@ -9,7 +9,18 @@
 
 
 	{ "subject": "ON PRICE FORMATION" },
+	{ "subject": "ON PRICE FORMATION", "date": "2011", "title": "Price Formation in Financialized Commodity Markets: The Role of Information", "author": "United Nations", "place": "", "url": "https://unctad.org/system/files/official-document/gds20111_en.pdf" },
+	{ "subject": "ON PRICE FORMATION", "date": "2013", "title": "Approaches to Price Formation in Financialized Commodity Markets", "author": "Sophie van Huellen", "place": "", "url": "https://eprints.soas.ac.uk/31692/6/Manuscript_Price%20formation%20in%20financialised%20commodity%20markets_accepted.pdf" },
+	{ "subject": "ON PRICE FORMATION", "date": "2013", "title": "Price Formation In Commodities Markets", "author": "Ann Berg", "place": "", "url": "https://www.files.ethz.ch/isn/173597/commodtfr.pdf" },
+	{ "subject": "ON PRICE FORMATION", "date": "2013", "title": "Price Formation In Real State Markets", "author": "Pia Nilsson", "place": "", "url": "https://www.diva-portal.org/smash/get/diva2:609031/FULLTEXT01.pdf" },
+	{ "subject": "ON PRICE FORMATION", "date": "2019", "title": "Price Formation In Agricultural Prices", "author": "Dina Nurul Fitria, Harianto, Dominicus Savio Priyarsono, Noer Azam Achsani", "place": "", "url": "https://www.jmest.org/wp-content/uploads/JMESTN42353151.pdf" },
+	{ "subject": "ON PRICE FORMATION", "date": "2021", "title": "Price Formation in Markets with Trading Delays", "author": "Gabor Pinter, Semih Uslu", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3956299" },
+	{ "subject": "ON PRICE FORMATION", "date": "2021", "title": "A simple model of price formation", "author": "K. Sznajd-Weron, R. Weron", "place": "", "url": "https://arxiv.org/abs/cond-mat/0101001" },
 	{ "subject": "ON PRICE FORMATION", "date": "2021", "title": "Constant Function Market Makers: Multi-Asset Trades via Convex Optimization", "author": "Guillermo Angeris, Akshay Agrawal, Alex Evans, Tarun Chitra, Stephen Boyd", "place": "", "url": "https://arxiv.org/abs/2107.12484" },
+	{ "subject": "ON PRICE FORMATION", "date": "2022", "title": "Price Formation: Overview of the Theory", "author": "Sabiou M. Inoua, Vernon L. Smith", "place": "", "url": "https://www.researchgate.net/publication/365778962_Price_Formation_Overview_of_the_Theory" },
+	{ "subject": "ON PRICE FORMATION", "date": "2022", "title": "Price Formation: Partial Equilibrium", "author": "Sabiou M. Inoua, Vernon L. Smith", "place": "", "url": "https://www.researchgate.net/publication/365778704_Price_Formation_Partial_Equilibrium" },
+	{ "subject": "ON PRICE FORMATION", "date": "2023", "title": "A Theory of Price Formation in Financial Markets", "author": "Emanuele Guidotti", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4377151" },
+	{ "subject": "ON PRICE FORMATION", "date": "2023", "title": "Price Formation in the Foreign Exchange Market∗", "author": "Florent Gallien, Sergei Glebkin, Serge Kassibrakis, Semyon Malamud, and Alberto Teguia", "place": "", "url": "https://sglebkin.com/FX.pdf" },
 
 	{ "subject": "ON STABILIZATION MECHANISM" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2014", "title": "Inv/Sav Wallets and the Role of Financial Intermediaries in a Digital Currency", "author": "Massimo Morini", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2458890" },
@@ -25,14 +36,6 @@
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Can Stablecoins Be Stable?", "author": "Adrien d'Avernas, Vincent Maurin, Quentin Vandeweyer", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4226027" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Can We Stabilize the Price of a Cryptocurrency?", "author": "Yukinobu Kitamura", "place": "", "url": "https://link.springer.com/chapter/10.1007/978-981-19-5591-4_6" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2022", "title": "Discussion of Currency Stability Using Blockchain Technology", "author": "Bruno Sultanum", "place": "", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165188921000919" },
-
-	{ "subject": "ON STABLECOIN WHITEPAPERS" },
-	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "DAI Whitepaper", "author": "MakerDAO", "place": "", "url": "https://makerdao.com/en/whitepaper#dai-as-an-ecosystem-driver-and-defi-builder" },
-	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "Tether Whitepaper", "author": "Tether", "place": "", "url": "https://tether.to/en/whitepaper" },
-	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2019", "title": "PAX Gold Whitepaper", "author": " Charles Cascarilla", "place": "", "url": "https://paxos.com/wp-content/uploads/2019/09/PAX-Gold-Whitepaper.pdf" },
-	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2020", "title": "Goldario Whitepaper", "author": "Goldario", "place": "", "url": "https://www.goldario.com/#white-paper" },
-	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2022", "title": "Tether Gold Whitetaper", "author": "Tether", "place": "", "url": "https://gold.tether.to/Tether%20Gold%20Whitepaper.pdf" },
-	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2023", "title": "PDX Whitetaper", "author": "PDX", "place": "", "url": "https://pdxcoin.io/files/PDX_White_Paper.pdf" },
 
 	{ "subject": "ON SEIGNIORAGE" },
 	{ "subject": "ON SEIGNIORAGE", "date": "2022", "title": "Transaction Fees and Seigniorage in Proof-of-Work Cryptocurrencies", "author": "Michele Fabi", "place": "Ecole Polytechnique, CREST, IP Paris", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4170256" }
