@@ -1,13 +1,5 @@
 [	
 
-	{ "subject": "ON EXCHANGES" },
-	{ "subject": "ON EXCHANGES", "date": "2023", "title": "Competition in the Cryptocurrency Exchange Market", "author": "Junyi Hu†, Anthony Lee Zhang", "place": "", "url": "https://anthonyleezhang.github.io/pdfs/cryptoexchanges.pdf" },
-
-	{ "subject": "ON EXCHANGE LISTING" },
-	{ "subject": "ON EXCHANGE LISTING", "date": "2019", "title": "Market Reaction to Exchange Listings of Cryptocurrencies", "author": "Lennart Ante", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3450301" },
-	{ "subject": "ON EXCHANGE LISTING", "date": "2021", "title": "Cross-listings of blockchain-based tokens issued through initial coin offerings: Do liquidity and specific cryptocurrency exchanges matter?", "author": "Lennart Ante, André Meyer", "place": "", "url": "https://link.springer.com/article/10.1007/s10203-021-00323-0" },
-
-
 	{ "subject": "ON PRICE FORMATION" },
 	{ "subject": "ON PRICE FORMATION", "date": "2011", "title": "Price Formation in Financialized Commodity Markets: The Role of Information", "author": "United Nations", "place": "", "url": "https://unctad.org/system/files/official-document/gds20111_en.pdf" },
 	{ "subject": "ON PRICE FORMATION", "date": "2013", "title": "Approaches to Price Formation in Financialized Commodity Markets", "author": "Sophie van Huellen", "place": "", "url": "https://eprints.soas.ac.uk/31692/6/Manuscript_Price%20formation%20in%20financialised%20commodity%20markets_accepted.pdf" },
@@ -21,6 +13,18 @@
 	{ "subject": "ON PRICE FORMATION", "date": "2022", "title": "Price Formation: Partial Equilibrium", "author": "Sabiou M. Inoua, Vernon L. Smith", "place": "", "url": "https://www.researchgate.net/publication/365778704_Price_Formation_Partial_Equilibrium" },
 	{ "subject": "ON PRICE FORMATION", "date": "2023", "title": "A Theory of Price Formation in Financial Markets", "author": "Emanuele Guidotti", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4377151" },
 	{ "subject": "ON PRICE FORMATION", "date": "2023", "title": "Price Formation in the Foreign Exchange Market∗", "author": "Florent Gallien, Sergei Glebkin, Serge Kassibrakis, Semyon Malamud, and Alberto Teguia", "place": "", "url": "https://sglebkin.com/FX.pdf" },
+
+	{ "subject": "ON AMM" },
+	{ "subject": "ON AMM", "date": "2020", "title": "Automated Market Makers", "author": "Pourpouneh, Mohsen; Nielsen, Kurt; Ross, Omri", "place": "", "url": "https://www.econstor.eu/bitstream/10419/222424/1/IFRO_WP_2020_08.pdf" },
+	{ "subject": "ON AMM", "date": "2023", "title": "Competition in the Cryptocurrency Exchange Market", "author": "Junyi Hu†, Anthony Lee Zhang", "place": "", "url": "https://anthonyleezhang.github.io/pdfs/cryptoexchanges.pdf" },
+
+	{ "subject": "ON AMM PRICE FORMATION" },
+	{ "subject": "ON AMM PRICE FORMATION", "date": "2021", "title": "Homogeneous Properties of Automated Market Makers", "author": "Johannes Rude Jensen, Mohsen Pourpouneh, Kurt Nielsen, Omri Ross", "place": "", "url": "https://arxiv.org/ftp/arxiv/papers/2105/2105.02782.pdf" },
+	{ "subject": "ON AMM PRICE FORMATION", "date": "2022", "title": "Automated market makers and decentralized exchanges: a DeFi primer", "author": "Vijay Mohan", "place": "", "url": "https://link.springer.com/article/10.1186/s40854-021-00314-5#Sec22" },
+
+	{ "subject": "ON AMM LISTING" },
+	{ "subject": "ON AMM LISTING", "date": "2019", "title": "Market Reaction to Exchange Listings of Cryptocurrencies", "author": "Lennart Ante", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3450301" },
+	{ "subject": "ON AMM LISTING", "date": "2021", "title": "Cross-listings of blockchain-based tokens issued through initial coin offerings: Do liquidity and specific cryptocurrency exchanges matter?", "author": "Lennart Ante, André Meyer", "place": "", "url": "https://link.springer.com/article/10.1007/s10203-021-00323-0" },
 
 	{ "subject": "ON STABILIZATION MECHANISM" },
 	{ "subject": "ON STABILIZATION MECHANISM", "date": "2014", "title": "Inv/Sav Wallets and the Role of Financial Intermediaries in a Digital Currency", "author": "Massimo Morini", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2458890" },
