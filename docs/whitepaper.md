@@ -23,13 +23,15 @@ import { Doughnut } from 'react-chartjs-2';
 ## Abstract
 ---
 
-The following whitepaper proposes a novel kind of token, CryptoCommodity.  Whereas maintaniing an stabilization mechanism to work as a currency, CryptoCommodities assume a built-in ecosystem that allows to form its own prices. Currencies forming their own prices deliver the true foundation for a decentralization in value, as a core principle in the blockchain industry. Additionally, forming its own prices is an empowering factor for the real economy. CryptoCommodities have being designed to allow its issuer raising capital in funding rounds to create his real economy project.
+The following whitepaper proposes a novel kind of token, CryptoCommodity. Whereas maintaining a stabilization mechanism to work as a currency, CryptoCommodity tokens expect an internal ecosystem to form their own prices. Currencies forming their own prices deliver the true foundation for a decentralization in value, as a core principle in the blockchain industry. Additionally, forming its own prices is an empowering factor for the real economy. 
 
 We describe how CryptoCommodities work, what are the stages, the utilities, the requirements, the challenges, the distribution mechanims and opportunities which bring for issuers, adopters and the whole society.
 
-This project tries to provide direction to crypto as we think it currently is in the wrong path from the initial principles for which blockchain was created. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things.
+CryptoCommodities have also being designed to benefit issuers in different ways: (1) issuers can run fundraising rounds to launch their real economy project. (2) Issuers will also profit by providing DeFi Services to the community. (3) CryptoCommodity underlying market can share CryptoCommodity with regular means of payments so gradual adoption is possible.
 
-The whitepaper below aims to opena debate by exposing an overview of ideas for creating CryptoCommodity tokens. We are aware that every single aspect of this process must be proved in reality. This is the initial design for the token CYGAS as defined by GasClick Project (gasclick.net) with the goal of creating a 'Body of Knowledge' for future projects built under the same principles. CYGAS would be used as early adopter to further define and elaborate the design. Additionally, for the first stage of value capture, the token is a Utility Token, so there is a time spam enough to understand the value release stage. The CryptoCommodity implementation is also upgradeable to accomodate the new discoveries.
+This project aims to provide direction to a real world crypto, as we think it currently is in the wrong path from the original blockchain principles. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things. The whitepaper below aims to open a debate by exposing an overview of ideas for creating CryptoCommodity tokens. We are aware that every single aspect of this process must be proved in reality and benchmarks must be created to back the assertions. 
+
+This is the initial design for the token CYGAS as defined by GasClick Project (gasclick.net) with the goal of creating a 'Body of Knowledge' for future projects built under the same principles. CYGAS would be used as early adopter to further define and elaborate the design. Additionally, for the first stage of value capture, the token is a Utility Token, so there is a time spam enough to understand the Value Release stage where the stabilization mechanism takes place. The CryptoCommodity implementation is also upgradeable to accomodate the new discoveries.
 
 <!-- truncate -->
 
@@ -162,9 +164,9 @@ As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This 
 
 Economic history and literature are rich with schemes to peg the price of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd (1996, Chapter 14). [38]
 
-Since blockchain advent, the cryptocurrency landscape is rich in fiat backed stablecoins, either pegged to a fiat currency (USDT, USDC, BUSD, FRAX, MIM, Pax Dollar, USDJ, Gemini USD, USDP,Palau, FDUSD, PYUSD, Real USD, TrueUSD, ZUSD, DAI, CUSD, USDD, USB, USDe, Raft, eUSD, TerraUSD, Fei, EUROCEUROe, GBPT, XSGD, IDRT, BIDR, BRZ, DRAM, MXNT, MXNC), pegged to a commodity (PAXG,GLD,MCAU,AABBG,NNN, AWG,PMGT,CTLX,XAUT,DGX,CACHE,RBZ GBDTRBZ ZiG, GODL, SLVT, CRUDE,PDX, PTR, FIX, GEM, BANANA, SOYA, CORA, WHEA, SOYB, CORB, XCORN XSOY, XWHEAT, XRICE) or pegged to another cryptocurrency (frxETH). They all peg their price to the price formed  in an external market. The price formation mechanism is external to the stablecoin ecosystem. This price needs to be captured from the external source and set into the cryptocurrency with an stabilization mechanism that implies to manage the supply. Either if the price manually set by the stablecoin issuer, or the smart contract has a built-in access with Oracles, the stablecoins will inherit the centralization feature of the price formation source. Unfortunately this is against blockchain decentralization principles. [49]
+Since blockchain advent, the cryptocurrency landscape is rich in fiat backed stablecoins, either pegged to a fiat currency (USDT, USDC, BUSD, FRAX, MIM, Pax Dollar, USDJ, Gemini USD, USDP,Palau, FDUSD, PYUSD, Real USD, TrueUSD, ZUSD, DAI, CUSD, USDD, USB, USDe, Raft, eUSD, TerraUSD, Fei, EUROCEUROe, GBPT, XSGD, IDRT, BIDR, BRZ, DRAM, MXNT, MXNC), pegged to a commodity (PAXG,GLD, MCAU, AABBG, NNN, AWG, PMGT, CTLX, XAUT, DGX, CACHE, RBZ GBDTRBZ ZiG, GODL, SLVT, CRUDE,PDX, PTR, FIX, GEM, BANANA, SOYA, CORA, WHEA, SOYB, CORB, XCORN XSOY, XWHEAT, XRICE) or pegged to another cryptocurrency (frxETH). They all peg their price to the price formed  in an external market. The price formation mechanism is external to the stablecoin ecosystem. This price needs to be captured from the external source and set into the cryptocurrency with an stabilization mechanism that implies to manage the supply. Either if the price manually set by the stablecoin issuer, or the smart contract has a built-in access with Oracles, the stablecoins will inherit the centralization feature of the price formation source. Unfortunately this is against blockchain decentralization principles. [49]
 
-A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem on its own. A CryptoCommodity delivers the foundation for a true asset value decentralization.
+A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem. A CryptoCommodity delivers the foundation for a true value decentralization.
 
 ### 3.3. CryptoCommodity Functions
 
@@ -1466,12 +1468,11 @@ Existing IDO portals are generalistic and do not play well with real worl projec
 
 ### 8.4. Calculating Investors Profit
 
+The investor profit typically will be bonus between the price at the funding round and the price at VCE. If the project is successful this is a guaranteed amount. Beyond the VCE investing does not apply because the stabilization mechanism is triggered and, therefore, not the price can be quite stable.
+
 <div style={{textAlign: 'center'}}>
 	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
 </div>
-
-
-
 
 ### 8.5. Estimating Investors Exit
 
@@ -2460,6 +2461,8 @@ Existing behaviours are:
 
 By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
 
+https://github.com/Catallactic/catallactic-suite
+
 ### 13.2. Upgradeable
 
 we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
@@ -2568,8 +2571,6 @@ Recommendations for Prudential and Conduct Regulation of the Crypto Ecosystem: S
 - Embracing the Potential of Stablecoins While Managing Risks
 
 Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
-
-https://github.com/Catallactic/catallactic-suite
 
 On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
 
