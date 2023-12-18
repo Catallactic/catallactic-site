@@ -154,9 +154,30 @@ CryptoCommodities are a specialization of Utility Tokens built on top of a fungi
 
 ### 3.1. The Underlying Asset
 
-Asset Proxied by an utility
+To understand a CryptoCommodity first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 to an RWA asset the stablecoin token is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin must borrow its price frmo an external source, typically an internaciobal RWA market. There are soome consequences of this fact: first, according to regulation, the stablecoin must be collateralized from inception and, therefore, issuers with enough resource can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
 
+A CryptoCommodity improves this process at some levels. A CryptoCommodity also binds to an asset, but it does though an utility working as proxy. The bound utility helps by providing a marginal utility when exposed to consumers. However, as an utility-proxied asset is one time event, meaning that is consumed and not possible to bind permanently, we must adapt the definition to a repeating utility-proxied asset, something that the issuer will be always able to provide.
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/underlaying_asset.svg" width="60%"></img>
+</div>
+<br/>
+
+The repeatability period must cover the timespan where the utility provides value to the consumer in order to make the marginal utility quantifiable, e.g. a gas cylinder provides value for one month at a cost of $16. This means that the marginal utility for consumers is $16 per month.
+
+So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. Therefore, a CryptoCommodity is a cryptocurrency bound to a reapetable utility-proxied asset to form a price. And this structure provides some benefits:
+
+- the price created by the marginal utlity is not formed over night. Instead, in the inception of a CryptoCommodity is price is typically only provided by the speculative utility from the future expectations. This fact allows the issuer to run fundraising campaigns to fund a project.
+
+- the price is formed ni the internal ecosystem of the CryptoCommodity so not access to external price sources is required. Also, no dependency on external systems. A CryptoCommodity is an autonomous currency and is not boud to any other system, e.g. not bound to fiat. This fact is a foundation for real value decentralization.
+
+- the collateral is a utility, typically a service, so the issuer must secure the guarantee to deliver this service on the collateralized percent, but does not need to custody the asset on its own. It remains to see the compliance requirements established by the autorities for a utilty proxied asset-backed stablecoin.
+
+- once the required supply is maintained in the exchanges, the marginal utility is captured and the price is formed, nothing prevents the CryptoCommodity issuer from minting more CryptoCommodity units to provide additional utilities, e.g. feed DeFi Services markets
+
+- there incentives for the issuer to create this structure as he will profit in a few ways: he can run fundraising campaigns, he can profit for the additional DeFi related utilities that provides to the society. The society can also get increased amount of financial services.
+
+- the adoption of CryptoCommodity as a payment method to provide the utility does not need to be complete overnight. Instead it can be gradual so the issuer will have time to undertand and acommodate the new technical requirements for its marketplace.
 
 ### 3.2. CryptoCommodity Peg
 
@@ -168,39 +189,7 @@ Since blockchain advent, the cryptocurrency landscape is rich in fiat backed sta
 
 A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem. A CryptoCommodity delivers the foundation for a true value decentralization.
 
-### 3.3. CryptoCommodity Functions
-
-CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
-
-CryptoCommodities purchasing power is borrowed from the marginal utility of the underlying asset. They can be used as payment method for the underlying asset or for any other asset in a relation of the price of this other asset and the marginal utility captured from the underlyting asset.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
-</div>
-<br/>
-
-CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
-
-### 3.4. CryptoCommodity Ecosystem
-
-CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_before.svg" width="80%"></img>
-</div>
-<br/>
-
-The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
-
-The value extracted from the undelying asset by the CryptoCommodity issuer will be delivered to the society in the form of DeFi Services.
-
-We will discuss about the underlying asset in the next section.
-
-### 3.5. CryptoCommodity Scope
-
-CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
-
-### 3.6. Collateral
+### 3.3. Collateral
 
 As any stablecoin, a CryptoCommodity is collateralized by its underlying assets. In the case of CryptoCommodity, the underlying asset is a asset proxied by an utility so the collateral is the utility, which means typically a service. At the heart of any stablecoin is its balance sheet which must be balanced.
 
@@ -225,9 +214,41 @@ This is not the case for CryptoCommodities as they are redeemable by the proxied
 
 Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
-### 3.7. Redeemability
+### 3.4. Redeemability
 
 The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio. This must be in a contract
+
+### 3.5. CryptoCommodity Functions
+
+CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
+
+CryptoCommodities purchasing power is borrowed from the marginal utility of the underlying asset. They can be used as payment method for the underlying asset or for any other asset in a relation of the price of this other asset and the marginal utility captured from the underlyting asset.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
+</div>
+<br/>
+
+CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
+
+### 3.6. CryptoCommodity Ecosystem
+
+CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_before.svg" width="80%"></img>
+</div>
+<br/>
+
+The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
+
+The value extracted from the undelying asset by the CryptoCommodity issuer will be delivered to the society in the form of DeFi Services.
+
+We will discuss about the underlying asset in the next section.
+
+### 3.7. CryptoCommodity Scope
+
+CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
 ### 3.8. CryptoCommodity vs Stablecoin
 
