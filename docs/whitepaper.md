@@ -147,6 +147,7 @@ A unit of account can coexist with multiple media of exchange. The euro existed 
 
 
 ## 3. CryptoCommodity
+---
 
 CryptoCommodities are representative money in electronic form. As representative money, they represents the intrinsic value of the underlying asset. CryptoCommodities do not aim to provide a measurement of this intrinsic value but, instead, they rely in a price formation mechanism to capture the marginal utility of the asset.
 
@@ -154,16 +155,16 @@ CryptoCommodities are a specialization of Utility Tokens built on top of a fungi
 
 ### 3.1. The Underlying Asset
 
-To understand a CryptoCommodity first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 to an RWA asset the stablecoin token is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin must borrow its price frmo an external source, typically an internaciobal RWA market. There are soome consequences of this fact: first, according to regulation, the stablecoin must be collateralized from inception and, therefore, issuers with enough resource can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
+To understand a CryptoCommodity lets first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 the supply of the stablecoin to the RWA stock as collateral, the stablecoin is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin is unable to form its own price and this must be borrowed from an external source, typically an internaciobal RWA market. There are soome consequences of this fact: first, according to regulations, the stablecoin must be collateralized from inception and, therefore, only issuers with enough collateral can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
 
-A CryptoCommodity improves this process at some levels. A CryptoCommodity also binds to an asset, but it does though an utility working as proxy. The bound utility helps by providing a marginal utility when exposed to consumers. However, as an utility-proxied asset is one time event, meaning that is consumed and not possible to bind permanently, we must adapt the definition to a repeating utility-proxied asset, something that the issuer will be always able to provide.
+A CryptoCommodity improves this process at several levels. A CryptoCommodity also binds to an asset, but it does through an utility working as proxy. The bound utility helps by providing a marginal utility when exposed to consumers. 
+
+But there is more. As an utility-proxied asset is one time event, meaning that when the utility is satisfied, the asset is consumed, is not possible to bind permanently to make an offer. By binding to this kind of asset, the CryuptoCommodity would have an continuously-growing supply. And this is not something that we want because the quality of the CrtypcCommodity would be far from optimal. In order to overcome this issue, the definition can be adapted to a "repeating utility-proxied asset", that is something that the issuer will be always able to provide periodically. Iin order to make the marginal utility quantifiable, the repeatability period must cover a known timespan where the utility provides value to the consumer, e.g. a gas cylinder provides value for one month at a cost of $16. This means that the marginal utility for consumers is $16 per month.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/underlaying_asset.svg" width="60%"></img>
 </div>
 <br/>
-
-The repeatability period must cover the timespan where the utility provides value to the consumer in order to make the marginal utility quantifiable, e.g. a gas cylinder provides value for one month at a cost of $16. This means that the marginal utility for consumers is $16 per month.
 
 So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. Therefore, a CryptoCommodity is a cryptocurrency bound to a reapetable utility-proxied asset to form a price. And this structure provides some benefits:
 
@@ -1223,7 +1224,7 @@ A cryptoCommodity can be launched in Fair Launch but the issuing team will lose 
 
 
 ## 7. Project Activities
-
+---
 
 ### 7.1. Project Allocation
 
