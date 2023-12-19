@@ -106,6 +106,7 @@ const sidebars = {
       label: 'Supply Management (Supply)',
       items: [
 				'tokenization/tokenomics/supply',
+				'tokenization/tokenomics/supplycurrent',
 			],
 		}, {
       type: 'category',
