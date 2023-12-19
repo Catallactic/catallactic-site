@@ -50,19 +50,19 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>Gold</td>
 			<td>Gold</td>
 			<td>
-				<a href="https://paxos.com/paxgold/" target="_blank">PAXG</a>, 
-				<a href="https://www.goldario.com/" target="_blank">GLD</a>, 
-				<a href="https://meld.gold/" target="_blank">MCAU</a>, 
-				<a href="https://aabbgoldtoken.com/aabbg/" target="_blank">AABBG</a>, 
-				<a href="https://novemgold.com/en/tokens/nnn.html" target="_blank">NNN</a>,<br/>
-				<a href="https://www.agagoldy.com/" target="_blank">AWG</a>, 
-				<a href="https://pmgt.io/" target="_blank">PMGT</a>, 
-				<a href="https://cashtelex.com/" target="_blank">CTLX</a>, 
-				<a href="https://gold.tether.to/" target="_blank">XAUT</a>, 
-				<a href="https://digix.global/dgx" target="_blank">DGX</a>, 
-				<a href="https://cache.gold/" target="_blank">CACHE</a>,
-				<a href="https://www.rbz.co.zw/documents/Gold-backed_Digital_Token/August/RBZ_Gold-backed_Digital_Tokens_Issue_12_Results_03_August_2023.pdf" target="_blank">RBZ GBDT</a>
-				<a href="https://beincrypto.com/zimbabwe-gold-digital-token-zig/" target="_blank">RBZ ZiG</a>
+				<a href="https://paxos.com/paxgold/" target="_blank"> PAXG</a>, 
+				<a href="https://www.goldario.com/" target="_blank"> GLD</a>, 
+				<a href="https://meld.gold/" target="_blank"> MCAU</a>, 
+				<a href="https://aabbgoldtoken.com/aabbg/" target="_blank"> AABBG</a>, 
+				<a href="https://novemgold.com/en/tokens/nnn.html" target="_blank"> NNN</a>,<br/>
+				<a href="https://www.agagoldy.com/" target="_blank"> AWG</a>, 
+				<a href="https://pmgt.io/" target="_blank"> PMGT</a>, 
+				<a href="https://cashtelex.com/" target="_blank"> CTLX</a>, 
+				<a href="https://gold.tether.to/" target="_blank"> XAUT</a>, 
+				<a href="https://digix.global/dgx" target="_blank"> DGX</a>, 
+				<a href="https://cache.gold/" target="_blank"> CACHE</a>,
+				<a href="https://www.rbz.co.zw/documents/Gold-backed_Digital_Token/August/RBZ_Gold-backed_Digital_Tokens_Issue_12_Results_03_August_2023.pdf" target="_blank"> RBZ GBDT</a>
+				<a href="https://beincrypto.com/zimbabwe-gold-digital-token-zig/" target="_blank"> RBZ ZiG</a>
 			</td>
 		</tr>
 		<tr>
@@ -83,10 +83,10 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>Oil</td>
 			<td>Oil</td>
 			<td>
-				<a href="http://crudeoil.finance/" target="_blank">CRUDE</a>, 
-				<a href="https://pdxcoin.io/" target="_blank">PDX</a>, 
-				<a href="https://www.petro.gob.ve/en/" target="_blank">PTR</a>,
-				<a href="https://finamatrix.net/fix/" target="_blank">FIX</a>
+				<a href="http://crudeoil.finance/" target="_blank"> CRUDE</a>, 
+				<a href="https://pdxcoin.io/" target="_blank"> PDX</a>, 
+				<a href="https://www.petro.gob.ve/en/" target="_blank"> PTR</a>,
+				<a href="https://finamatrix.net/fix/" target="_blank"> FIX</a>
 			</td>
 		</tr>
 		<tr>
@@ -100,16 +100,16 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>Food</td>
 			<td>Food</td>
 			<td>
-				<a href="https://www.cyberkongz.com/" target="_blank">BANANA</a>,
-				<a href="https://agrotoken.com/" target="_blank">SOYA</a>,
-				<a href="https://agrotoken.com/" target="_blank">CORA</a>,
-				<a href="https://agrotoken.com/" target="_blank">WHEA</a>,
-				<a href="https://agrotoken.com/" target="_blank">SOYB</a>,
-				<a href="https://agrotoken.com/" target="_blank">CORB</a>
-				<a href="https://testnet.landx.fi/" target="_blank">XCORN</a>
-				<a href="https://testnet.landx.fi/" target="_blank">XSOY</a>
-				<a href="https://testnet.landx.fi/" target="_blank">XWHEAT</a>
-				<a href="https://testnet.landx.fi/" target="_blank">XRICE</a>
+				<a href="https://www.cyberkongz.com/" target="_blank"> BANANA </a>, 
+				<a href="https://agrotoken.com/" target="_blank"> SOYA</a>, 
+				<a href="https://agrotoken.com/" target="_blank"> CORA</a>, 
+				<a href="https://agrotoken.com/" target="_blank"> WHEA</a>, 
+				<a href="https://agrotoken.com/" target="_blank"> SOYB</a>, 
+				<a href="https://agrotoken.com/" target="_blank"> CORB</a>, 
+				<a href="https://testnet.landx.fi/" target="_blank"> XCORN</a>, 
+				<a href="https://testnet.landx.fi/" target="_blank"> XSOY</a>, 
+				<a href="https://testnet.landx.fi/" target="_blank"> XWHEAT</a>, 
+				<a href="https://testnet.landx.fi/" target="_blank"> XRICE</a> 
 			</td>
 		</tr>
 		<tr>
@@ -123,37 +123,37 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 		<tr>
 			<td>Dollar</td>
 			<td>
-				<a href="https://www.tusd.io/trueusd" target="_blank">TrueUSD</a>, 
-				<a href="https://stablecoin.z.com/zusd/" target="_blank">ZUSD</a>
+				<a href="https://www.tusd.io/trueusd" target="_blank"> TrueUSD</a>, 
+				<a href="https://stablecoin.z.com/zusd/" target="_blank"> ZUSD</a>
 			</td>
 		</tr>
 		<tr>
 			<td>Basket</td>
 			<td>
-				<a href="https://tether.to/en/transparency/#usdt" target="_blank">USDT</a>, 
-				<a href="https://www.circle.com/en/usdc" target="_blank">USDC</a>, 
-				<a href="https://www.binance.com/en/busd" target="_blank">BUSD</a>,
-				<a href="https://frax.finance/" target="_blank">FRAX</a>, 
-				<a href="https://abracadabra.money/" target="_blank">MIM</a>,<br/> 
-				<a href="https://paxos.com/usdp/" target="_blank">Pax Dollar</a>,
-				<a href="https://just.network/" target="_blank">USDJ</a>, 
-				<a href="https://www.gemini.com/dollar" target="_blank">Gemini USD</a>,
-				<a href="https://paxos.com/usdp/" target="_blank">USDP</a>,
-				<a href="https://www.palaugov.pw/stablecoin/" target="_blank">Palau</a>,
-				<a href="https://firstdigitallabs.com/" target="_blank">FDUSD</a>,
-				<a href="https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd" target="_blank">PYUSD</a>
+				<a href="https://tether.to/en/transparency/#usdt" target="_blank"> USDT</a>, 
+				<a href="https://www.circle.com/en/usdc" target="_blank"> USDC</a>, 
+				<a href="https://www.binance.com/en/busd" target="_blank"> BUSD</a>, 
+				<a href="https://frax.finance/" target="_blank"> FRAX</a>, 
+				<a href="https://abracadabra.money/" target="_blank"> MIM</a>, 
+				<a href="https://paxos.com/usdp/" target="_blank"> Pax Dollar</a>, 
+				<a href="https://just.network/" target="_blank"> USDJ</a>, 
+				<a href="https://www.gemini.com/dollar" target="_blank"> Gemini USD</a>, 
+				<a href="https://paxos.com/usdp/" target="_blank"> USDP</a>, 
+				<a href="https://www.palaugov.pw/stablecoin/" target="_blank"> Palau</a>, 
+				<a href="https://firstdigitallabs.com/" target="_blank"> FDUSD</a>, 
+				<a href="https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd" target="_blank"> PYUSD</a>
 			</td>
 		</tr>
 		<tr>
 			<td>Basket Crypto</td>
 			<td>
-				<a href="https://makerdao.com/" target="_blank">DAI</a>, 
-				<a href="https://celo.org/" target="_blank">CUSD</a>, 
-				<a href="https://usdd.io/#/" target="_blank">USDD</a>, 
-				<a href="https://stabolut.com/" target="_blank">USB</a>,
-				<a href="https://www.ethena.fi/" target="_blank">USDe</a>,
-				<a href="https://raft.fi/" target="_blank">Raft</a>,
-				<a href="https://lybra.finance/" target="_blank">eUSD</a>
+				<a href="https://makerdao.com/" target="_blank"> DAI</a>, 
+				<a href="https://celo.org/" target="_blank"> CUSD</a>, 
+				<a href="https://usdd.io/#/" target="_blank"> USDD</a>, 
+				<a href="https://stabolut.com/" target="_blank"> USB</a>, 
+				<a href="https://www.ethena.fi/" target="_blank"> USDe</a>, 
+				<a href="https://raft.fi/" target="_blank"> Raft</a>, 
+				<a href="https://lybra.finance/" target="_blank"> eUSD</a>
 			</td>
 		</tr>
 		<tr>
@@ -172,8 +172,8 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>euro</td>
 			<td>euro</td>
 			<td>
-				<a href="https://www.circle.com/en/euro-coin" target="_blank">EUROC</a>
-				<a href="https://www.euroe.com/" target="_blank">EUROe</a>
+				<a href="https://www.circle.com/en/euro-coin" target="_blank"> EURC</a>, 
+				<a href="https://www.euroe.com/" target="_blank"> EUROe</a>
 			</td>
 		</tr>
 		<tr>
@@ -190,8 +190,8 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>rupiah</td>
 			<td></td>
 			<td>
-				<a href="" target="_blank">IDRT</a>,
-				<a href="https://www.tokocrypto.com/" target="_blank">BIDR</a>
+				<a href="https://rupiahtoken.com/" target="_blank"> IDRT</a>,
+				<a href="https://www.tokocrypto.com/" target="_blank"> BIDR</a>
 			</td>
 		</tr>
 		<tr>
@@ -208,8 +208,8 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>MEX Peso</td>
 			<td>MEX Peso</td>
 			<td>
-				<a href="https://tether.to/en/transparency/#mxnt" target="_blank">MXNT</a>, 
-				<a href="https://mxnc.mx/" target="_blank">MXNC</a>
+				<a href="https://tether.to/en/transparency/#mxnt" target="_blank"> MXNT</a>, 
+				<a href="https://mxnc.mx/" target="_blank"> MXNC</a>
 			</td>
 		</tr>
 		<tr>
