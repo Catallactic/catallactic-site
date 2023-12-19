@@ -84,24 +84,26 @@ coincidence of wants. A second problem is one of indivisibilities. [0]
 
 Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
-<table>
-  <tr>
-    <td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
-    <td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
-  </tr>
-  <tr>
-    <td>Barter</td>
-    <td>Commodity</td>
-    <td>Representative</td>
-    <td>Standard</td>
-    <td>Fiat</td>
-    <td>Crypto</td>
-  </tr>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
+			<td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
+			<td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
+			<td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
+			<td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
+			<td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
+		</tr>
+		<tr>
+			<td>Barter</td>
+			<td>Commodity</td>
+			<td>Representative</td>
+			<td>Standard</td>
+			<td>Fiat</td>
+			<td>Crypto</td>
+		</tr>
+	</table>
+</div>
 <br/>
 
 Once a commodity has been widely accepted for exchanges, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called <b>representative money</b> in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
@@ -155,9 +157,9 @@ CryptoCommodities are a specialization of Utility Tokens built on top of a fungi
 
 ### 3.1. The Underlying Asset
 
-To understand a CryptoCommodity lets first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 the supply of the stablecoin to the RWA stock as collateral, the stablecoin is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin is unable to form its own price and this must be borrowed from an external source, typically an internaciobal RWA market. There are soome consequences of this fact: first, according to regulations, the stablecoin must be collateralized from inception and, therefore, only issuers with enough collateral can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
+To understand a CryptoCommodity lets first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 the supply of the stablecoin to the RWA stock as collateral, the stablecoin is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin is unable to form its own price and this must be borrowed from an external source, typically an internaciobal RWA market. There are some consequences of this fact: first, according to regulations, the stablecoin must be collateralized from inception and, therefore, only issuers with enough collateral can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
 
-A CryptoCommodity improves this process at several levels. A CryptoCommodity also binds to an asset, but it does through an utility working as proxy. The bound utility helps by providing a marginal utility when exposed to consumers. 
+A CryptoCommodity is also an stablecoin but improves this process at several levels. A CryptoCommodity also binds to an asset, but it does through an utility working as proxy. The bound utility helps by providing a marginal utility when exposed to consumers. 
 
 But there is more. As an utility-proxied asset is one time event, meaning that when the utility is satisfied, the asset is consumed, is not possible to bind permanently to make an offer. By binding to this kind of asset, the CryuptoCommodity would have an continuously-growing supply. And this is not something that we want because the quality of the CrtypcCommodity would be far from optimal. In order to overcome this issue, the definition can be adapted to a "repeating utility-proxied asset", that is something that the issuer will be always able to provide periodically. Iin order to make the marginal utility quantifiable, the repeatability period must cover a known timespan where the utility provides value to the consumer, e.g. a gas cylinder provides value for one month at a cost of $16. This means that the marginal utility for consumers is $16 per month.
 
@@ -420,52 +422,53 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
-<table>
-   <tr>
-    <td rowSpan={3}>Product</td>
-    <td>Natural Resources</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Physical Assets</td>
-    <td></td>
-  </tr>
-   <tr>
-    <td>Digital Assets</td>
-    <td></td>
-  </tr>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td rowSpan={3}>Product</td>
+			<td>Natural Resources</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Physical Assets</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Digital Assets</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
 <br/>
 
 Despite a value capture mechanism can be applied to any other assets than commodities, some requirements made commodities specially suitable.
 
 Additionally, the price is formed in the basis of a service. Some services that are suitable include:
 
-<table>
-  <tr>
-    <td rowSpan={2}>Service</td>
-    <td>Acquisition</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Rent</td>
-    <td></td>
-  </tr>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td rowSpan={2}>Service</td>
+			<td>Acquisition</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Rent</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
 <br/>
 
 
 
 
 
-
-
-
-
-
-
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
 
 
 ## 5. The CryptoCommodity Value Chain
@@ -2676,20 +2679,22 @@ When providing ffedback to a system, there are 2 possibilities:
 
 - The opposite tendency — called positive feedback — is when a trend is positively reinforced, creating amplification, such as the squealing "feedback" loop that can occur when a mic is brought too close to a speaker which is amplifying the very sounds the mic is picking up, or the runaway heating and ultimate meltdown of a nuclear reactor.
 
-<table>
-	<thead>
-		<tr>
-			<th scope="col">Negative Feedback Loop</th>
-			<th scope="col">Positive Feedback Loop</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><img src="https://assets.ltkcontent.com/images/8616/negative-feedback-loop_27c5571306.jpg" width="100%"></img></td>
-			<td><img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="100%"></img></td>
-		</tr>
-	</tbody>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Negative Feedback Loop</th>
+				<th scope="col">Positive Feedback Loop</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><img src="https://assets.ltkcontent.com/images/8616/negative-feedback-loop_27c5571306.jpg" width="100%"></img></td>
+				<td><img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="100%"></img></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 <br/>
 
 Whereas positive feedback tends to lead to instability via exponential growth, oscillation or chaotic behavior, negative feedback generally promotes stability. Negative feedback tends to promote a settling to equilibrium, and reduces the effects of perturbations. Negative feedback loops in which just the right amount of correction is applied with optimum timing, can be very stable, accurate, and responsive.
@@ -2744,13 +2749,14 @@ The following diagram is called the Exter’s Pyramid of Liquidity. It illustrat
 
 
 
-
-<table>
-	<tr>
-	  <td><img src="/img/realvsfinancial.jpg" width="100%"></img></td>
-	  <td><img src="https://d.ibtimes.co.uk/en/full/1601428/im3.png?w=736&f=8255c0efab60153fdd6e458e80c307b0" width="100%"></img></td>
-	</tr>
-</table>
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="/img/realvsfinancial.jpg" width="100%"></img></td>
+			<td><img src="https://d.ibtimes.co.uk/en/full/1601428/im3.png?w=736&f=8255c0efab60153fdd6e458e80c307b0" width="100%"></img></td>
+		</tr>
+	</table>
+</div>
 
 
 barreras a la entrada impuestas x el fiat
