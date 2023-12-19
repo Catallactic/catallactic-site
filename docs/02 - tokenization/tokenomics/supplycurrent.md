@@ -3,7 +3,7 @@ import current_supply from "/static/data/current_supply.json"
 
 # Current Supply
 
-  <table>
+  <table style={{textAlign: 'center'}}>
 		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
 			<th>Region</th>
 			<th>Jurisdiction</th>
