@@ -8,7 +8,7 @@
 	{ "region": "WEST", "jurisdiction": "Australia", "date": "2023", "tender": "101,646 M AUDollar", "tenderusd": "$ 68.716 M", "url": "https://www.rba.gov.au/statistics/balance-sheet/" },
 	
 	{ "region": "LATAM" },
-	{ "region": "LATAM", "jurisdiction": "Mexico", "date": "2023", "tender": "2.700 M Peso", "tenderusd": "$ 157.000 M", "url": "https://www.banxico.org.mx/publicaciones-y-prensa/estado-de-cuenta-consolidado-mensual-y-balance-gen/estado-mensual-balance-genera.html" },
+	{ "region": "LATAM", "jurisdiction": "Mexico", "date": "2023", "tender": "2.700.024 M Peso", "tenderusd": "$ 157.000 M", "url": "https://www.banxico.org.mx/publicaciones-y-prensa/estado-de-cuenta-consolidado-mensual-y-balance-gen/estado-mensual-balance-genera.html" },
 	{ "region": "LATAM", "jurisdiction": "Brazil", "date": "2023", "tender": "328.771 M Real", "tenderusd": "$ 67.534 M", "url": "https://www.bcb.gov.br/en/about/balance" },
 	{ "region": "LATAM", "jurisdiction": "Peru", "date": "2022", "tender": "90.000 M Sol", "tenderusd": "$ 24.000 M", "url": "https://www.bcrp.gob.pe/transparencia/presupuesto/estados-financieros.html" },
 	{ "region": "LATAM", "jurisdiction": "Chile", "date": "2023", "tender": "13.500 M Peso", "tenderusd": "$ 15.600 M", "url": "https://www.bcentral.cl/web/banco-central/el-banco/transparencia/transparencia-activa/estados-de-situacion" },
