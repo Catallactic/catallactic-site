@@ -30,16 +30,20 @@
 
 	{ "region": "ASIA" },
 	{ "region": "ASIA", "jurisdiction": "Japan", "date": "2023", "tender": "121.720.553 M Yen", "tenderusd": "$ 850.777 M", "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/index.htm" },
+	{ "region": "ASIA", "jurisdiction": "Taiwan", "date": "2022", "tender": "3.356.829 M TWD", "tenderusd": "$ 107.351 M", "url": "https://www.cbc.gov.tw/en/lp-868-2.html" },
 	{ "region": "ASIA", "jurisdiction": "Thailand", "date": "2023", "tender": "2.299.096 M Baht", "tenderusd": "$ 65.944 M", "url": "https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?reportID=11&language=ENG" },
 	{ "region": "ASIA", "jurisdiction": "Indonesia", "date": "2023", "tender": "957.735.000 M Rupiah", "tenderusd": "$ 61.830 M", "url": "https://www.bi.go.id/en/statistik/indikator/indikator-moneter.aspx" },
+	{ "region": "ASIA", "jurisdiction": "Malaysia", "date": "2023", "tender": "162.074 M Ringgit", "tenderusd": "$ 34.813 M", "url": "https://www.bnm.gov.my/documents/20124/10150308/ar2022_en_ch4.pdf" },
 	
 	{ "region": "CARIBE" },
 	{ "region": "CARIBE", "jurisdiction": "Bahamas", "date": "2023", "tender": "31.4 M BHDollar", "tenderusd": "$ 31.5 M", "url": "https://www.bi.go.id/en/statistik/indikator/indikator-moneter.aspx" },
 	{ "region": "CARIBE", "jurisdiction": "Cayman", "date": "2023", "tender": "173.504 CIDollar", "tenderusd": "$ 208.570", "url": "https://www.cima.ky/annual-reports" },
 
 	{ "region": "MENA" },
+	{ "region": "MENA", "jurisdiction": "Bahrain", "date": "2023", "tender": "684.353 M BDinar", "tenderusd": "$ 140.003 M", "url": "https://www.cbb.gov.bh/publications/" },
 	{ "region": "MENA", "jurisdiction": "Saudi Arabia", "date": "2022", "tender": "234.505 M SAR", "tenderusd": "$ 62.514 M", "url": "https://www.sama.gov.sa/en-us/economicreports/pages/annualreport.aspx" },
 	{ "region": "MENA", "jurisdiction": "UAE", "date": "2022", "tender": "120.011 M AED", "tenderusd": "$ 32.676 M", "url": "https://www.centralbank.ae/media/lo1hqqbj/cbuae-annual-report_2022_a4_e.pdf" },
+	{ "region": "MENA", "jurisdiction": "Kuwait", "date": "2022", "tender": "1.962 M KDinar", "tenderusd": "$ 6.382 M", "url": "file:///home/pellyadolfo/Downloads/Statement_of_Account_2023_11___[EN].pdf" },
 
 	{ "region": "ISLANDS" },
 	{ "region": "ISLANDS", "jurisdiction": "Isle of Man", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
