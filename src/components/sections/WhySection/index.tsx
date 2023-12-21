@@ -57,7 +57,7 @@ export default function WhySection(): JSX.Element {
 								</a>
 
 								<a className="nav-link mb-3 p-3 shadow" id="v-whytab4" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(4)}>
-									<span className="font-weight-bold text-uppercase">How can I contribute</span>
+									<span className="font-weight-bold text-uppercase">How can contribute</span>
 								</a>
 
 							</div>
@@ -69,7 +69,7 @@ export default function WhySection(): JSX.Element {
 									<div className="tab-pane fade shadow rounded bg-white p-5 show active" id="whytab0" role="tabpanel" aria-labelledby="v-pills-home-tab">
 										<h4 className="font-italic mb-4">Why Catallactic?</h4>
 										<p className="font-italic text-muted mb-2">Because this is the real crypto. Catallactic is created to build cryptocurrencies capturing value of Commodities.</p>
-										<p className="font-italic text-muted mb-2">Capturing value means transferring to the token price the marginal utility as perceived by consumers. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
+										<p className="font-italic text-muted mb-2">Capturing value means transferring to the token price the <b>marginal utility as perceived by consumers</b>. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
 										<p className="font-italic text-muted mb-2">Capturing the marginal utility of commodity provides to CryptoCommodities <a href="/docs/whitepaper#31-the-underlying-asset">different features to a stablecoin</a>.</p>
 										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, which assumes a monopolistic legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
 									</div>
@@ -95,7 +95,7 @@ export default function WhySection(): JSX.Element {
 									</div>
 									
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-										<h4 className="font-italic mb-4">How can I contribute?</h4>
+										<h4 className="font-italic mb-4">How can contribute?</h4>
 										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contract and blockchain languages, Catallactic needs guidelines, articles, essays or contributions to build a body of knowdledge.</p>
 										<p className="font-italic text-muted mb-2">We think that, as much as possible, principles as functionality, practicality, usability or decentralization must drive technological efforts, no the other way around.</p>
 										<p className="font-italic text-muted mb-2">Contributions can be done on the <a href="/docs/suite/intro">site pages</a> itself, as they are editable. We are configuring a <a href="https://discord.gg/xwJR9MZPmA">discord</a> community, we have a <a href="https://cryptonomics.network/">forum</a> (in trial period), and of course, all pages and tools are shared in <a href="https://github.com/Catallactic">github</a>.</p>
