@@ -6,6 +6,8 @@
 	{ "region": "WEST", "jurisdiction": "UK", "date": "2018", "tender": "73.250 M Pound", "tenderusd": "$ 93.252 M", "url": "https://www.bankofengland.co.uk/annual-report/2018" },
 	{ "region": "WEST", "jurisdiction": "Canada", "date": "2023", "tender": "117.468 M CADollar", "tenderusd": "$ 88.071 M", "url": "https://www.bankofcanada.ca/rates/banking-and-financial-statistics/bank-of-canada-assets-and-liabilities-weekly-formerly-b2/" },
 	{ "region": "WEST", "jurisdiction": "Australia", "date": "2023", "tender": "101,646 M AUDollar", "tenderusd": "$ 68.716 M", "url": "https://www.rba.gov.au/statistics/balance-sheet/" },
+	{ "region": "WEST", "jurisdiction": "Andorra", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "WEST", "jurisdiction": "Monaco", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
 	
 	{ "region": "LATAM" },
 	{ "region": "LATAM", "jurisdiction": "Mexico", "date": "2023", "tender": "2.700.024 M Peso", "tenderusd": "$ 157.000 M", "url": "https://www.banxico.org.mx/publicaciones-y-prensa/estado-de-cuenta-consolidado-mensual-y-balance-gen/estado-mensual-balance-genera.html" },
@@ -24,14 +26,29 @@
 	{ "region": "LATAM", "jurisdiction": "Ecuador", "date": "2023", "tender": "?", "tenderusd": "$ 87 M", "url": "https://www.bce.fin.ec/estados-financieros-bce" },
 	{ "region": "LATAM", "jurisdiction": "Venezuela", "date": "2022", "tender": "4800 M Bolivar ", "tenderusd": "$ 0.136 M", "url": "https://www.bcv.org.ve/bcv/estados-financieros" },
 	{ "region": "LATAM", "jurisdiction": "El Salvador", "date": "2023", "tender": "0", "tenderusd": "$ 0", "url": "https://www.transparencia.gob.sv/institutions/bcr/documents/estados-financieros" },
+	{ "region": "LATAM", "jurisdiction": "Panama", "date": "2023", "tender": "0", "tenderusd": "$ 0", "url": "" },
 
 	{ "region": "ASIA" },
+	{ "region": "ASIA", "jurisdiction": "Japan", "date": "2023", "tender": "121.720.553 M Yen", "tenderusd": "$ 850.777 M", "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/index.htm" },
+	{ "region": "ASIA", "jurisdiction": "Thailand", "date": "2023", "tender": "2.299.096 M Baht", "tenderusd": "$ 65.944 M", "url": "https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?reportID=11&language=ENG" },
+	{ "region": "ASIA", "jurisdiction": "Indonesia", "date": "2023", "tender": "957.735.000 M Rupiah", "tenderusd": "$ 61.830 M", "url": "https://www.bi.go.id/en/statistik/indikator/indikator-moneter.aspx" },
 	
 	{ "region": "CARIBE" },
+	{ "region": "CARIBE", "jurisdiction": "Bahamas", "date": "2023", "tender": "31.4 M BHDollar", "tenderusd": "$ 31.5 M", "url": "https://www.bi.go.id/en/statistik/indikator/indikator-moneter.aspx" },
+	{ "region": "CARIBE", "jurisdiction": "Cayman", "date": "2023", "tender": "173.504 CIDollar", "tenderusd": "$ 208.570", "url": "https://www.cima.ky/annual-reports" },
 
 	{ "region": "MENA" },
+	{ "region": "MENA", "jurisdiction": "Saudi Arabia", "date": "2022", "tender": "234.505 M SAR", "tenderusd": "$ 62.514 M", "url": "https://www.sama.gov.sa/en-us/economicreports/pages/annualreport.aspx" },
+	{ "region": "MENA", "jurisdiction": "UAE", "date": "2022", "tender": "120.011 M AED", "tenderusd": "$ 32.676 M", "url": "https://www.centralbank.ae/media/lo1hqqbj/cbuae-annual-report_2022_a4_e.pdf" },
 
-	{ "region": "ISLANDS" }
+	{ "region": "ISLANDS" },
+	{ "region": "ISLANDS", "jurisdiction": "Isle of Man", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "ISLANDS", "jurisdiction": "Kiribati", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "ISLANDS", "jurisdiction": "Marshall", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "ISLANDS", "jurisdiction": "Micronesia", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "ISLANDS", "jurisdiction": "Nauru", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "ISLANDS", "jurisdiction": "Palaos", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" },
+	{ "region": "ISLANDS", "jurisdiction": "Tubalu", "date": "2023", "tender": "0", "tenderusd": "0", "url": "" }
 
 ]
 

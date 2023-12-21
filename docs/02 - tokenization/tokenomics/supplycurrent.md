@@ -8,7 +8,7 @@ import current_supply from "/static/data/current_supply.json"
 			<th>Region</th>
 			<th>Jurisdiction</th>
 			<th>Date</th>
-			<th>Legal Tender</th>
+			<th>Legal Tender Supply</th>
 			<th>USD Equivalent</th>
 		</tr>
 	
