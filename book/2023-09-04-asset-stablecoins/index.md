@@ -217,7 +217,8 @@ The <a href="https://www.fsb.org/2023/07/high-level-recommendations-for-the-regu
 			<td>ETH</td>
 			<td>ETH</td>
 			<td>
-				<a href="https://frax.finance/" target="_blank">frxETH</a>
+				<a href="https://frax.finance/" target="_blank"> frxETH</a>,
+				<a href="https://lien.finance/" target="_blank"> iDOL</a>,
 			</td>
 		</tr>
 	</tbody>
