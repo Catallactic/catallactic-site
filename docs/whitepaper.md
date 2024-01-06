@@ -66,14 +66,11 @@ Although the Marginal Revolution flowed from the work of Jevons, Menger and Walr
 Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/Supply-and-Demand-Curve.webp" width="40%"></img>
+	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
 </div>
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
 
 ## 2. About Money
 ---
@@ -88,12 +85,12 @@ Trying to overcome the limitations of barter, commodity began to be used as a me
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
-			<td><img src="https://gasclick.pe/img/money_type_barter_128.png" /></td>
-			<td><img src="https://gasclick.pe/img/money_type_commodity_128.png" /></td>
-			<td><img src="https://gasclick.pe/img/money_type_backed_128.png" /></td>
-			<td><img src="https://gasclick.pe/img/money_type_metal_128.png" /></td>
-			<td><img src="https://gasclick.pe/img/money_type_fiat_128.png" /></td>
-			<td><img src="https://gasclick.pe/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_barter_128.png" /></td>
+			<td><img src="/img/money_type_commodity_128.png" /></td>
+			<td><img src="/img/money_type_backed_128.png" /></td>
+			<td><img src="/img/money_type_metal_128.png" /></td>
+			<td><img src="/img/money_type_fiat_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
 		</tr>
 		<tr>
 			<td>Barter</td>
@@ -1497,7 +1494,7 @@ Existing IDO portals are generalistic and do not play well with real worl projec
 The investor profit typically will be bonus between the price at the funding round and the price at VCE. If the project is successful this is a guaranteed amount. Beyond the VCE investing does not apply because the stabilization mechanism is triggered and, therefore, not the price can be quite stable.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_estimations_black.svg" width="70%"></img>
+	<img src="/img/price_estimations_black.svg" width="70%"></img>
 </div>
 
 ### 8.5. Estimating Investors Exit
@@ -1771,7 +1768,7 @@ export const NegotiationAllocation = () => {
 A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_determination2.svg" width="70%"></img>
+	<img src="/img/price_determination2.svg" width="70%"></img>
 </div>
 <br/>
 
