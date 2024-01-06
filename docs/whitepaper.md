@@ -23,23 +23,24 @@ import { Doughnut } from 'react-chartjs-2';
 ## Abstract
 ---
 
-The following whitepaper proposes a novel kind of token, CryptoCommodity. Whereas maintaining a stabilization mechanism to work as a currency, CryptoCommodity tokens expect an internal ecosystem to form their own prices. Currencies forming their own prices deliver the true foundation for a decentralization in value, as a core principle in the blockchain industry. Additionally, forming its own prices is an empowering factor for the real economy. 
+The following whitepaper proposes a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset. They do not provide a measure of this intrinsic value. Instead, CryptoCommodity tokens rely on a built-in price formation mechanism to capture the marginal utility of the asset. Currencies forming their own prices deliver the true foundation for a decentralization in value, as a core principle in the blockchain industry. Additionally, forming its own prices is an empowering factor for the real economy. Once the intrinsic value is captured CryptoCommodity tokens include a stabilization mechanism in order to function as a cryptocurrency and deliver currency-related features.
 
-We describe how CryptoCommodities work, what are the stages, the utilities, the requirements, the challenges, the distribution mechanims and opportunities which bring for issuers, adopters and the whole society.
+This work describes what CryptoCommodities are and how they work, what their stages are, the utilities, requirements, challenges, distribution mechanisms and opportunities they provide for issuers, adopters and society as a whole.
 
-CryptoCommodities have also being designed to benefit issuers in different ways: (1) issuers can run fundraising rounds to launch their real economy project. (2) Issuers will also profit by providing DeFi Services to the community. (3) CryptoCommodity underlying market can share CryptoCommodity with regular means of payments so gradual adoption is possible.
+CryptoCommodities have been designed with the purpose of benefiting issuers in different ways: (1) Issuers can carry out fundraising rounds to launch their real economy project. (2) Issuers will benefit by providing DeFi services to the community. (3) CryptoCommodity underlying market can share CryptoCommodity with regular means of payments so gradual adoption is possible.
 
-This project aims to provide direction to a real world crypto, as we think it currently is in the wrong path from the original blockchain principles. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things. The whitepaper below aims to open a debate by exposing an overview of ideas for creating CryptoCommodity tokens. We are aware that every single aspect of this process must be proved in reality and benchmarks must be created to back the assertions. 
+This project aims to provide direction to a real world crypto industry, as we think it diverted from the original blockchain principles. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things. The whitepaper aims to open a debate by presenting an overview of ideas for creating CryptoCommodity tokens. We are aware that every single aspect of this process must be validated and benchmarks must be created. The work is released under “Open Source” license to encourage contributions.
 
-This is the initial design for the token CYGAS as defined by GasClick Project (gasclick.net) with the goal of creating a 'Body of Knowledge' for future projects built under the same principles. CYGAS would be used as early adopter to further define and elaborate the design. Additionally, for the first stage of value capture, the token is a Utility Token, so there is a time spam enough to understand the Value Release stage where the stabilization mechanism takes place. The CryptoCommodity implementation is also upgradeable to accomodate the new discoveries.
+Based on this document, the initial design of the CYGAS token has been prepared, as defined by “The GasClick Project” (gasclick.net), with the aim of creating a 'Body of Knowledge' for future developments built under the same principles. CYGAS will be pilot implementation for the CryptoCommodity model, in order to define, improve and further elaborate the design. Furthermore, for the first stage of value capture, the token will be a “Utility Token”, so there will be enough time to understand the value release stage, which is where the stabilization mechanism takes place. The CryptoCommodity implementation can also be updated to adapt to new discoveries and challenges.
+
+## Keywords
+---
+
+Cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization mechanism, tokenomics, private currencies, currency competition, Cantillon Effects
 
 <!-- truncate -->
 
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
 
 ## 1. A Review on Value
 ---
