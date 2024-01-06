@@ -134,6 +134,7 @@
 	{ "region": "ASIA", "jurisdiction": "India", "id": "IN1", "date": "2023-11-09", "target": "TBC", "scope": "TBC", "doc": "Impact Assessment of Tax Deducted at Source on the Indian Virtual Digital Asset Market", "url": "https://www.esyacentre.org/documents/2023/11/9/impact-assessment-of-tax-deducted-at-source-on-the-indian-virtual-digital-asset-market" },
 	{ "region": "ASIA", "jurisdiction": "China", "id": "CH1", "date": "2023-11-09", "target": "TBC", "scope": "TBC", "doc": "Standardized evaluation of dual attributes of stolen digital collections", "url": "https://www.chinacourt.org/article/detail/2023/11/id/7627863.shtml" },
 	{ "region": "ASIA", "jurisdiction": "South Korea", "id": "SK1", "date": "2023-12-11", "target": "TBC", "scope": "TBC", "doc": "FSC Proposes Rules on the Protection of Virtual Asset Users", "url": "https://www.fsc.go.kr/eng/pr010101/81217" },
+	{ "region": "ASIA", "jurisdiction": "South Korea", "id": "SK2", "date": "2024-04-01", "target": "TBC", "scope": "TBC", "doc": "Announcement of partial amendment to the Enforcement Decree of the Credit-Specialized Financial Business Act (draft)", "url": "https://www.fsc.go.kr/po040301/view?noticeId=3954&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=" },
 	{ "region": "ASIA", "jurisdiction": "Indonesia", "id": "ID1", "date": "2019-12-11", "target": "TBC", "scope": "TBC", "doc": "Exchanges Registration", "url": "https://bappebti.go.id/resources/docs/peraturan/sk_kep_kepala_bappebti/sk_kep_kepala_bappebti_2019_02_01_9lpcqskp_id.pdf" },
 
 	{ "region": "CARIBE" },
@@ -153,6 +154,9 @@
 	{ "region": "MENA", "jurisdiction": "Abu Dhabi", "id": "AD1", "date": "2023-02-15", "target": "TBC", "scope": "TBC", "doc": "Abu Dhabi launches ‘Hub71 + Digital Assets’", "url": "https://www.adgm.com/media/announcements/abu-dhabi-launches-hub71-plus-digital-assets-to-accelerate-growth-of-web3-startups" },
 	{ "region": "MENA", "jurisdiction": "Abu Dhabi", "id": "AD2", "date": "2023-11-01", "target": "TBC", "scope": "TBC", "doc": "ADGM welcomes Al Reem Island businesses to its community’", "url": "https://www.wam.ae/en/details/1395303216679" },
 	{ "region": "MENA", "jurisdiction": "Abu Dhabi", "id": "AD3", "date": "2023-11-01", "target": "TBC", "scope": "TBC", "doc": "Distributed Ledger Technology (DLT) Foundations Regulations 2023’", "url": "https://en.adgm.thomsonreuters.com/rulebook/1-november-distributed-ledger-technology-foundations" },
+
+	{ "region": "AFRICA" },
+	{ "region": "AFRICA", "jurisdiction": "Nigeria", "id": "NI3", "date": "2023-12-22", "target": "TBC", "scope": "TBC", "doc": "Guidelines on operations of bank accounts for virtual asset service providers", "url": "https://www.cbn.gov.ng/Out/2024/FPRD/GUIDELINES%20ON%20OPERATIONS%20OF%20BANK%20ACCOUNTS%20FOR%20VIRTUAL%20Asset%20Providers.pdf" },
 
 	{ "region": "ISLANDS" },
 	{ "region": "ISLANDS", "jurisdiction": "Marshall Islands", "id": "MI1", "date": "2023-10-0", "target": "TBC", "scope": "TBC", "doc": "Marshall Islands Further Strengthen's Law That Made DAOs Legal Entities", "url": "https://www.coindesk.com/policy/2023/10/30/marshall-islands-further-strengthens-law-that-made-daos-legal-entities" },
