@@ -458,10 +458,6 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </div>
 <br/>
 
-
-
-
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -1213,7 +1209,7 @@ export const SupplyProfileChart = () => {
 
 A fair launch refers to an equal distribution of a cryptocurrency token at launch. This means everyone will have an equal opportunity to acquire tokens from the beginning, preventing insider trading and price manipulation. The issuing team should ensure that the distribution of the new cryptocurrency is fair and equitable and avoid pre-mining or pre-allocating tokens to themselves or a select group of individuals.
 
-A cryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
+A CryptoCommodity can be launched in Fair Launch but the issuing team will lose the capability to get funded. There can be another benefits. Fair Launch configuration must be included in the benchmarks to evalute best practices.
 
 
 
@@ -1227,25 +1223,12 @@ A cryptoCommodity can be launched in Fair Launch but the issuing team will lose 
 ## 7. Project Activities
 ---
 
+
 ### 7.1. Project Allocation
 
 ICO offerings limit the flexibility of the issuer to raise further rounds of financing via follow-on offerings of tokens or of traditional equity financing. Entrepreneurs need to predetermine and reserve a portion of the tokens issued for the purposes of further financing rounds [45]. 
 
-The token section assigns tokens to specific accounts or tasks that contribute to project evolution. This can include:
-
-- core team
-
-- advisors
-
-- foundations
-
-- marketing and promotion
-
-- research and development
-
-- legal and regulatory
-
-This allocation is created on the Token Generation Event but only fraction is released. The most of the allocation is locked to guarantee compromise with the project by stakeholders.
+The CryptoCommodity Framework allows allocating a portion of the supply for the Project Stakeholders in order to carry on with Project Activities.
 
 export const ProjectAllocation = () => {
 	return (
@@ -1333,9 +1316,54 @@ export const ProjectAllocation = () => {
 
 <ProjectAllocation/>
 
+#### 7.1.1. Stakeholders Allocation
+
+The token section assigns tokens to specific accounts that contribute to project evolution. This can include:
+
+- core team
+
+- advisors
+
+- foundations
+
+#### 7.1.2. Processes Allocation
+
+The token section assigns tokens to specific tasks that contribute to project evolution. This can include:
+
+- marketing and promotion
+
+- research and development
+
+- legal and regulatory
+
+### 7.2. Project Allocation Models
+
+The allocation of supply to Project execution can be:
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Allocation on TGE</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Allocation on TGE with Vesting</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Allocation on VCE</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Allocation on VCE with Vesting</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 
-### 7.2. Marketing
+### 7.3. Marketing Distribution
 
 There are several ongoing distribution schemes that can be applied in different stages of a CryptoCommodity:
 
@@ -1343,15 +1371,13 @@ There are several ongoing distribution schemes that can be applied in different 
 
 - Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
 
+### 7.4. Recommendations
+
+Project allocation is created on the Token Generation Event but only fraction is released. The most of the allocation is locked to guarantee compromise with the project by stakeholders.
+
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
-
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
 
 ## 8. Fundraising Activities
 ---
