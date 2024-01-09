@@ -192,7 +192,9 @@ A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommod
 
 ### 3.3. Collateral
 
-As any stablecoin, a CryptoCommodity is collateralized by its underlying assets. In the case of CryptoCommodity, the underlying asset is a asset proxied by an utility so the collateral is the utility, which means typically a service. At the heart of any stablecoin is its balance sheet which must be balanced.
+No stablecoin had been invented that is both hard pegged to a stable physical asset with intrinsic utility and fully decentralized. In this context, “hard pegged” means that each token issued is directly exchangeable for a specified quantity of a physical asset [57]. Murialdo and Belof presented E-Stablecoin, a cryptocurrency that is both fully decentralized and fully collateralized by a physical asset with stable value and intrinsic utility (electricity) [57].
+
+CryptoCommodity follows a similar approach. In CryptoCommodity Framework, the underlying asset is a asset proxied by an utility. The collateral is the utility, which means typically a service. At the heart of any stablecoin is its balance sheet which must be balanced.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/cryptocommodity_balance_sheet.svg" width="40%"></img>
@@ -1318,13 +1320,45 @@ export const ProjectAllocation = () => {
 
 #### 7.1.1. Stakeholders Allocation
 
-The token section assigns tokens to specific accounts that contribute to project evolution. This can include:
+The token section assigns tokens to specific accounts that contribute to project evolution. This can include: core team, advisors, foundations, employees.
 
-- core team
-
-- advisors
-
-- foundations
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td></td>
+			<td>Year</td>
+			<td>Core Team</td>
+			<td>Advisers</td>
+			<td>Foundations</td>
+			<td>Employees</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 #### 7.1.2. Processes Allocation
 
@@ -1335,6 +1369,7 @@ The token section assigns tokens to specific tasks that contribute to project ev
 - research and development
 
 - legal and regulatory
+
 
 ### 7.2. Project Allocation Models
 
@@ -1363,7 +1398,7 @@ The allocation of supply to Project execution can be:
 <br/>
 
 
-### 7.3. Marketing Distribution
+### 7.3. Ecosystem Incentives
 
 There are several ongoing distribution schemes that can be applied in different stages of a CryptoCommodity:
 
@@ -3059,3 +3094,17 @@ https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-at
 [49] An impossibility theorem on truth-telling in fully decentralized systems by Rodney Garratt and Cyril Monnet, August 2023 - https://www.bis.org/publ/work1117.pdf 
 
 [50] Unit of Account, Medium of Exchange, and Prices, January 2011, Young Sik Kim, Manjong Lee - https://www.researchgate.net/publication/254421998_Unit_of_Account_Medium_of_Exchange_and_Prices
+
+[51] Standard Allocation: Trends and Industry in 2023 of TokenUnlocks, Pondspective - Dec 7, 2023 - https://insights.unlocks.app/tokenunlocks-standard-allocation/
+
+[52] Token Vesting and Allocations Industry Benchmarks, liquifi, June 8, 2022 - https://www.liquifi.finance/post/token-vesting-and-allocation-benchmarks
+
+[53] How To Structure Token Allocations For An ICO, Max Yampolsky, Dec 6, 2021 - https://medium.com/w3blabs/how-to-structure-token-allocations-for-an-ico-92f0a43a59ad
+
+[54] The Two Cap Tables of Crypto Companies: What They Are and How They Relate to Each Other, Oct 11, 2021, Tomasz Tunguz - https://tomtunguz.com/equity-cap-table-vs-token-cap-table/
+
+[55] Crypto Companies Insider Ownership is Approaching that of Classic Startups, Oct 3, 2021, Tomasz Tunguz - https://tomtunguz.com/l1-ownership-over-time/
+
+[56] Optimizing Your Token Distribution, Lauren Stephanian, January 4th - 2022https://lstephanian.mirror.xyz/kB9Jz_5joqbY0ePO8rU1NNDKhiqvzU6OWyYsbSA-Kcc
+
+[57] Can a Stablecoin Be Collateralized by a Fully Decentralized, Physical Asset? Cryptoeconomic Systems, Murialdo, M., & Belof, J. L. (2022). https://cryptoeconomicsystems.pubpub.org/pub/murialdo-physical-asset-stablecoin/release/2
