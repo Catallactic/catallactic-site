@@ -1320,91 +1320,31 @@ export const ProjectAllocation = () => {
 
 #### 7.1.1. Stakeholders Allocation
 
-The token section assigns tokens to specific accounts that contribute to project evolution. This can include: core team, advisors, foundations, employees.
+The token section assigns tokens to specific accounts that contribute to project evolution. It includes the group of people who has the most ownership and is responsible for driving business or building products forward. This is reserved to founder, core team, advisors, contributors, employees, foundations.
 
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td></td>
-			<td>Year</td>
-			<td>Core Team</td>
-			<td>Advisers</td>
-			<td>Foundations</td>
-			<td>Employees</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-</div>
-<br/>
+The typical number varies between 5% and 20% depending on the project valuation, team strength, number of active team members (most importantly founders), and progress so far [53]. Recent benchmarks show that the percentage allocation for the Founder/Team category has increased steadily from 18% in 2017 to 27% in 2023. This increase shows that more projects are aligning vested interests with long-term project success, reflecting the team's equity ownership in the company issuing the token. [51, 52]
 
 #### 7.1.2. Processes Allocation
 
 The token section assigns tokens to specific tasks that contribute to project evolution. This can include:
 
-- marketing and promotion
-
 - research and development
 
 - legal and regulatory
 
+#### 7.1.3. Ecosystem Incentives
 
-### 7.2. Project Allocation Models
-
-The allocation of supply to Project execution can be:
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td>Allocation on TGE</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Allocation on TGE with Vesting</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Allocation on VCE</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Allocation on VCE with Vesting</td>
-			<td></td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-
-### 7.3. Ecosystem Incentives
+- marketing and promotion
 
 There are several ongoing distribution schemes that can be applied in different stages of a CryptoCommodity:
 
 - Airdrops. The main purpose of airdrops is to kick-start the creation of a community of token-holders before or together with the ICO, or to boost the network effects of already created networks. Airdrops are used for marketing purposes; to raise awareness of a new token; drive more participants to the issuance; but also reward existing participants/token-holders for their loyalty, their active engagement in the network or for bulk purchases. [45]
 
 - Giveaway. A crypto giveaway is a promotional event in the cryptocurrency space where individuals or organizations distribute cryptocurrency tokens or coins for free to participants. Typically, these giveaways are used to promote a particular cryptocurrency project, exchange, or to increase brand awareness.
+
+### 7.2. Vesting schedules
+
+Vesting schedules serve as mechanisms to align the incentives of all involved stakeholders, thereby guaranteeing the effective delivery of projects by the team, ensuring VCs attain the milestones projected by the project team, and motivating the community to actively participate in the network. These schedules also help in mitigating the risk associated with token dumping and fostering a long-term commitment from all parties. By releasing tokens over a period of time, they ensure that all of the parties remain invested in the project's success over the long term. [51]
 
 ### 7.4. Recommendations
 
@@ -3097,7 +3037,7 @@ https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-at
 
 [51] Standard Allocation: Trends and Industry in 2023 of TokenUnlocks, Pondspective - Dec 7, 2023 - https://insights.unlocks.app/tokenunlocks-standard-allocation/
 
-[52] Token Vesting and Allocations Industry Benchmarks, liquifi, June 8, 2022 - https://www.liquifi.finance/post/token-vesting-and-allocation-benchmarks
+[52] Token Vesting and Allocations Industry Benchmarks, Robin Ji, Liquifi, June 8, 2022 - https://www.liquifi.finance/post/token-vesting-and-allocation-benchmarks
 
 [53] How To Structure Token Allocations For An ICO, Max Yampolsky, Dec 6, 2021 - https://medium.com/w3blabs/how-to-structure-token-allocations-for-an-ico-92f0a43a59ad
 
