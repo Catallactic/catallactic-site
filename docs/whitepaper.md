@@ -2293,22 +2293,180 @@ Is possible to define the Value Capture Event as the time when the CryptoCommodi
 ## 12. Providing DeFi Services
 ---
 
-By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community. 
+By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community.
+
+
+
+### 12.1. List of DeFi Services
 
 Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
+
+<table>
+	<tr>
+		<th></th>
+		<th>Utility</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<th rowspan="3">Monetary Functions</th>
+		<td>Underlying Asset Payments</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Reserve of Value</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Unit of Account</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th rowspan="3">DeFi Services</th>
+		<td>Other Asset Payments</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Transfers</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Lending</td>
+		<td></td>
+	</tr>
+</table>
+
+### 12.2. Exchange as Engine
+
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_before.svg" width="80%"></img>
 </div>
 <br/>
 
+#### 12.2.1. Interfacing with exchanges
+
+Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
+
+- Specialized <b>smartphone aplications</b> can embed its own wallet or use and extneral wallet allowing the consumer to interface with the exchange in a seamless manner.
+
+- Cards with embedded wallet logic can be topped up with CryptoCommodity from a <b>card reader</b>. And, conversely, a card reader can also charge the CryptoCommodity fee for a purchase.
+
+- Wallet enabled <b>vending machines</b> can interect with cards or wallets to charge CryptoCommodity
 
 
 
+### 12.3. Underlying Asset Payments
+
+#### 12.3.1. Payments Allocation
 
 
+export const UnderlyingAssetPayments = () => {
+	return (
+		<div className="chart-container">
+			<div className="chart-panel">
+				<Doughnut
+					data={{
+						labels: [
+							'Project', 'Project',
+							'Private Sale', 'Presale', 'Crowdsale', 
+							'Exchanges', 'Exchanges',
+							'Operations', 
+							'Project', 'Funding', 'Liquidity', 'Operations'
+						],
+						datasets: [{
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#006400', '#D3D3D3'],
+								data: [9, 1, 2, 3, 5, 4, 5, 71],
+								order: [11, 12, 2, 3, 4, 6, 7, 9],
+								index: 0
+							}, {
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3'],
+								data: [10, 10, 9, 71],
+								order: [1, 10, 5, 8],
+								index: 1
+						}]
+					}}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+						reverse: true,
+						plugins: {
+							tooltip: {
+								callbacks: {
+									label: function(context) {
+										const labelIndex = (context.datasetIndex * 7) + context.dataIndex;
+										return context.chart.data.labels[labelIndex] + ': ' + context.formattedValue + '%';
+									}
+								}
+							},
+							legend: {
+							position: 'right',
+								labels: {
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+									generateLabels: function(chart) {
+										let datasetColors = chart.data.datasets.map(function(e) {
+												return e.backgroundColor;
+										}).flat();						        	  
+										let orders = chart.data.datasets.map(function(e) {
+											return e.order;
+										}).flat();
+												
+										// Get the default label list
+										const original = Chart.overrides.pie.plugins.legend.labels.generateLabels;
+										const labelsOriginal = original.call(this, chart);
+										return labelsOriginal.sort((label2, label1) => {
+											return orders[label2.index] - orders[label1.index];
+										}).filter((label, index, array) => {
+											return ([8, 9, 5, 7].includes(label.index));
+										}).map((label) => {
+										label.datasetIndex = label.index;
+										label.fillStyle = datasetColors[label.index];
+												return label;
+										});	
+									}
+								},
+								onClick: function(mouseEvent, legendItem, legend) {
+									// toggle the visibility of the dataset from what it currently is
+									legend.chart.getDatasetMeta(legendItem.datasetIndex).hidden = legend.chart.isDatasetVisible(legendItem.datasetIndex);
+									legend.chart.update();
+								}
+							}
+						}
+					}}
+				/>
+			</div>
+		</div>
+	);
+}
 
-#### 12.1. DeFi Services Allocation
+<UnderlyingAssetPayments/>
+
+
+#### 12.3.2. Underlying Asset Payments
+
+In the picture we can see the detailed CryptoCommodity ecosystem. The retailer at each location decides what price to charge for the underlying asset. The price formation is performed in the exchanges according to the aggregated demand in the primary market including all retail locations. This means that some retailers will charge above the 1 CryptoCommodity mark, and other retailers will charge below the 1 CryptoCommodity mark.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_medium_of_payment.svg" width="80%"></img>
+</div>
+<br/>
+
+The price formed in the exchanges is then reused for the supply of tokens in holder's hands and in DeFi Services markets.
+
+### 12.3. Unit of Account
+
+CryptoCommodity captures the averaged marginal utility of the underlying asset across all sales points. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
+
+### 12.4. Reserve of Value
+
+As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
+
+### 12.5. DeFi Services
 
 The DeFi Services allocation will cover the utilities delivered by the CryptoCommodity after the Value Capture Event. This allocation is not included in the Initial Token Allocation and will be mined on demand by the stabilization mechiams in parallel to demand increases. It will include:
 
@@ -2319,6 +2477,7 @@ The DeFi Services allocation will cover the utilities delivered by the CryptoCom
 - funds for transfers
 
 - funds for lending
+
 
 
 export const OperationsAllocation = () => {
@@ -2408,50 +2567,13 @@ export const OperationsAllocation = () => {
 <OperationsAllocation/>
 
 
-
-
-### 12.2. Unit of Account
-
-CryptoCommodity captures the averaged marginal utility of the underlying asset across all sales points. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
-
-
-### 12.3. Underlying Asset Payments
-
-In the picture we can see the detailed CryptoCommodity ecosystem. The retailer at each location decides what price to charge for the underlying asset. The price formation is performed in the exchanges according to the aggregated demand in the primary market including all retail locations. This means that some retailers will charge above the 1 CryptoCommodity mark, and other retailers will charge below the 1 CryptoCommodity mark.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_medium_of_payment.svg" width="80%"></img>
-</div>
-<br/>
-
-The price formed in the exchanges is then reused for the supply of tokens in holder's hands and in DeFi Services markets.
-
-
-### 12.4. Interfacing with exchanges
-
-Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
-
-- Specialized <b>smartphone aplications</b> can embed its own wallet or use and extneral wallet allowing the consumer to interface with the exchange in a seamless manner.
-
-- Cards with embedded wallet logic can be topped up with CryptoCommodity from a <b>card reader</b>. And, conversely, a card reader can also charge the CryptoCommodity fee for a purchase.
-
-- Wallet enabled <b>vending machines</b> can interect with cards or wallets to charge CryptoCommodity
-
-
-
-### 12.5. Reserve of Value
-
-As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
-
-
-### 12.6. Payments
+### 12.6. Other Assets Payments
 
 Thanks to the price formed in the exchanges as a consequence of the demand in the primary market, CryptoCommodity can become medium of exchange for other goods and services. Depending on the currency accepted for these other markets, a swap can be required.
 
 If the CryptoCommodity is accepted ni the secondary market, the consumer can pay with the its holdings of the CryptoCommodity.
 
 If the CryptoCommodity is not accepted for the secondary market, the consumer or the retailer should performa swap from the CryptoCommodity to the target currency.
-
 
 ### 12.7. Transfers
 
