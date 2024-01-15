@@ -27,7 +27,7 @@ The following whitepaper proposes a novel kind of token, CryptoCommodity. Crypto
 
 This work describes what CryptoCommodities are and how they work, what their stages are, the utilities, requirements, challenges, distribution mechanisms and opportunities they provide for issuers, adopters and society as a whole.
 
-CryptoCommodities are designed with the purpose of benefiting issuers: (1) Issuers can carry out fundraising rounds to launch their real economy project. (2) Issuers can include transaction taxes balanced with their reputation (3) Issuers can also profit by providing DeFi services to the community. (4) Minting new tokens beyond the stabilization mechanism is a sale in itself (as long as the issuer keeps the required collateral) (5) Underlying market can share CryptoCommodity tokens with regular means of payment enabling incremental adoption.
+Introduction should not be and issue as CryptoCommodities are designed with the purpose of benefiting issuers: (1) Issuers can carry out fundraising rounds to launch their real economy project. (2) Issuers can include transaction taxes balanced with their reputation (3) Issuers can also profit by providing DeFi services to the community. (4) Minting new tokens beyond the stabilization mechanism is a sale in itself (as long as the issuer keeps the required collateral) (5) Underlying market can share CryptoCommodity tokens with regular means of payment enabling incremental adoption.
 
 This project aims to provide direction to a real world crypto industry, as we think it diverted from the original blockchain principles. We do not get too deep in implementation as we think is easy to do the things right, but is very uncommon to do the right things. This whitepaper looks for to do the right things. The whitepaper aims to open a debate by presenting an overview of ideas for creating CryptoCommodity tokens. We are aware that every single aspect of this process must be validated and benchmarks must be created. The work is released under “Open Source” license to encourage contributions.
 
@@ -414,7 +414,21 @@ We will discuss all the requirements that makes up a quality curency in the impl
 
 ### 4.5. CryptoCommodity Principles
 
-CryptoCommodities are built on clear principle of compliance, transparency, privacy, security and decentralization with the mission to provide a tool to bost real economy, in particular, in regions with financial exclusion.
+CryptoCommodities are built on clear principles. These principles must be provided in the contract. 
+
+* **security**. CryptoCommodities must be secure. 
+
+* **decentralization**. CryptoCommodities must be decentralized enough to guarantee holders and users the promised behaviour.
+
+  * **upgradeability**. CryptoCommodities must be upgradeable during the learning period to allow accomodating new changes. This upgradeability must be protected by mechanisms as DAO gobernance to prevent a conflict with decentralization.
+
+* **compliance**. CryptoCommodities must comply with the regulations in all stages of their value chain in the areas where it is deployed.
+
+  * **privacy**. CryptoCommodities must include a privacy capability so the issuer can make use of it according to the regulation in place. This must be an optional property to prevent a conflict with compliance.
+
+* **transparency**. CryptoCommodities should provide ability to get disclosures at any moment of their current features and configuration
+
+However, as the principles mayb change between regions or underlying assets a degree of configuration must be also included.
 
 ### 4.6. The ideal underlying asset
 
@@ -660,7 +674,7 @@ A CryptoCommodity borrows the features of both a Utility Token, before the Value
 
 In order to design every stage of the value chain, the issuer assigns a portion of token units to every stage stakeholders. Allocation is an allotment of tokens or equity, that may be earned, purchased, or set aside for a certain investor, team, group, organization, or other related entity. The way tokens are allocated must align with the project's long-term goals.
 
-There is a lack of an established framework or widely accepted industry standard for designing tokenomics. There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. There is a also great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure.
+There is a lack of an established framework or widely accepted industry standard for designing tokenomics. There isn't a unified language or consistent definition for token allocations. What one project names "Liquidity Mining Programs" can also be labeled by others "Community Incentives," "Farming Rewards," or "Ecosystem Pool." Some combine teams, partners, and advisors into one "Core Contributors" category, while others separate these groups into distinct categories. There is also a great degree of flexibility in token allocation amounts. The figures are typically determined by what would be considered acceptable based on benchmarks for non-investor token allocation and by bilateral negotiations between the team and the investors. A great token allocation will not ensure a project’s success, a poor one will ensure its failure.
 
 We propose below a classification of allocation concepts grouped by stage in the value chain.
 
