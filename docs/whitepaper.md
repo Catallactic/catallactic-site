@@ -2628,7 +2628,7 @@ In this chapter we will discuss what are approaches to introduce CryptoCommodity
 
 
 
-### 13.1. The challenge of Velocity of Circulation (Saleableness)
+### 13.1. The challenge of <s>Velocity of Circulation</s> Saleableness
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
@@ -2753,7 +2753,6 @@ The most limiting factor to launch a CryptoCommodity project is compliance with 
 
 
 
-### 13.6. Benefits for Consumers
 
 
 
