@@ -2616,59 +2616,17 @@ A CryptoCommodity can work as collateral of lending operations in existing platf
 
 
 
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 13. Go to Market
----
-
-### 13.1. Typical Project Description
-
-#### 13.1.1. Coexisting with Current Payment Methods
-
-
-#### 13.1.2. Gradual Introduction
-
-
-### 13.2. Benefits for Producers
-
-#### 13.2.1. Initial Fundraising
-
-
-#### 13.2.2. Project Allocation
-
-
-#### 13.2.3. Transfer Fees
-
-
-#### 13.2.4. DeFi Services Allocation
-
-
-#### 13.2.5. Lending Fees
-
-
-#### 13.2.6. Transfer Fees
-
-
-
-
-### 13.3. Requirements for Producers
-
-### 13.4. Benefits for Consumers
-
-### 13.5. Requirements for Consumers
-
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
 
-## 14. Implementation of CryptoCommodities
+
+
+## 13. Implementation of CryptoCommodities
 ---
 
-### 14.1. Smart Contract
+### 13.1. Smart Contract
 
 CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
@@ -2691,7 +2649,7 @@ By using the upgradeabity capabilities provided by the diamond front controller,
 
 https://github.com/Catallactic/catallactic-suite
 
-### 14.2. Upgradeable
+### 13.2. Upgradeable
 
 we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
@@ -2699,52 +2657,8 @@ Inn current implementation, every facet contains a versioned logic of the functi
 
 The long term idea is to release to community the governance.
 
-### 14.3. The challenge of Velocity of Circulation (Saleableness)
 
-Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
-
-Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
-
-A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
-
-Causes of the high token velocity is that the prices are not expressed on the currency.
-
-To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
-
-#### 14.3.1. Token Velocity during Value Capture 
-
-During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
-
-- Introduce a profit-share mechanism
-
-- Build staking functions into the protocol
-
-- Balanced burn-and-mint mechanics
-
-- Gamification to encourage holding
-
-- for a local market, vending machines could be used to deliver the product or service
-
-- express the prices in CryptoCommodity units
-
-
-#### 14.3.2. Token Velocity during Value Delivery
-
-During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
-
-- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
-
-### 14.4. The challenge of Wallets
-
-15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
-
-The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
-
-We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
-
-I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
-
-### 14.5. The challenge of Security
+### 13.3. The challenge of Security
 
 Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
@@ -2756,7 +2670,7 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 - We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
-### 14.6. The challenge of Decentralization
+### 13.4. The challenge of Decentralization
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -2787,7 +2701,72 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 	</table>
 </div>
 
-### 14.7. The challenge of Compliance
+
+
+### 13.5. The challenge of Transparency
+
+
+### 13.6. The challenge of Privacy
+
+
+### 13.7. Deployment
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 14. CryptoCommodity Projects
+---
+
+In this chapter we will discuss what are approaches to introduce CryptoCommodity tokens in the market.
+
+
+
+
+
+### 14.1. The challenge of Velocity of Circulation (Saleableness)
+
+Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
+
+Analogous to the fiat world, in the crypto world we define token velocity. Token velocity measures the speed at which tokens circulate in a cryptocurrency ecosystem. When tokens change hands swiftly, it means they're being used for transactions, investments, or even just as a medium of exchange. On the flip side, if tokens stay locked away in wallets, collecting dust like forgotten treasures, their velocity is low. Low velocity might sound like a good thing at first, but as we'll discover, it's not always the case.
+
+A token that has limited utility and lack of incentive to encourage holding of the token is likely to have a high velocity. In turn, this will reduce the opportunity for token price appreciation. Strategies that encourage token holding (e.g. staking) or that are deflationary (e.g. burning) may promote token price appreciation. However, this may have limited effect should velocity not already have reached its ceiling.
+
+Causes of the high token velocity is that the prices are not expressed on the currency.
+
+To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
+
+#### 14.1.1. Token Velocity during Value Capture 
+
+During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
+
+- Introduce a profit-share mechanism
+
+- Build staking functions into the protocol
+
+- Balanced burn-and-mint mechanics
+
+- Gamification to encourage holding
+
+- for a local market, vending machines could be used to deliver the product or service
+
+- express the prices in CryptoCommodity units
+
+
+#### 14.1.2. Token Velocity during Value Delivery
+
+During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
+
+- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
+
+
+
+
+### 14.2. The challenge of Compliance
 
 Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
 
@@ -2802,26 +2781,84 @@ Compliance mut be reviewed according to the juridiction where the CryptoCommodit
 
 On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
 
-#### 14.7.1. Collateral
+#### 14.2.1. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
 Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
 
-### 14.8. The challenge of Transparency
 
 
-### 14.9. The challenge of Privacy
+### 14.3. The challenge of Wallets
+
+15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
+
+The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
+
+We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
+
+I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
 
-### 14.10. Deployment
+### 14.4. Typical Project Description
+
+
+
+#### 14.4.1. Compliance Requirement
+
+The most limiting factor to launch a CryptoCommodity project is compliance with regulation. Crypto must be allowed as payment method. Suitable country / region. Argentina, El Salvador, Panama
+
+
+#### 14.4.2. Underlying Asset Requirement
+
+
+
+
+#### 14.4.3. Coexisting with Current Payment Methods
+
+
+
+
+#### 14.4.4. Gradual Introduction
+
+
+
+
+### 14.5. Benefits for Producers
+
+
+
+
+#### 14.5.1. Initial Fundraising
+
+
+
+#### 14.5.2. Project Allocation
+
+
+
+#### 14.5.3. Transaction Fees
+
+
+
+#### 14.5.4. DeFi Services Allocation
+
+
+
+#### 14.5.5. Lending Fees
+
+
+
+#### 14.5.6. Transfer Fees
+
+
+
+### 14.6. Benefits for Consumers
 
 
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
 
 
 
@@ -2836,6 +2873,8 @@ https://github.com/Catallactic/catallactic-admin
 
 
 ### 15.6. Vesting Tracker
+
+
 
 
 
