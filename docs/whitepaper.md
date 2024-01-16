@@ -2623,36 +2623,41 @@ A CryptoCommodity can work as collateral of lending operations in existing platf
 ## 13. Go to Market
 ---
 
-### 13.1. Benefits for Producers
+### 13.1. Typical Project Description
 
-### 13.1.1. Initial Fundraising
-
-
-### 13.1.2. Project Allocation
+#### 13.1.1. Coexisting with Current Payment Methods
 
 
-### 13.1.3. Transfer Fees
+#### 13.1.2. Gradual Introduction
 
 
-### 13.1.4. DeFi Services Allocation
+### 13.2. Benefits for Producers
+
+#### 13.2.1. Initial Fundraising
 
 
-### 13.1.5. Lending Fees
+#### 13.2.2. Project Allocation
 
 
-### 13.1.6. Transfer Fees
+#### 13.2.3. Transfer Fees
 
 
-### 13.1.7. Coexisting with Current Payment Methods
+#### 13.2.4. DeFi Services Allocation
 
 
-### 13.1.8. Gradual Introduction
+#### 13.2.5. Lending Fees
 
-### 13.2. Requirements for Producers
 
-### 13.3. Benefits for Producers
+#### 13.2.6. Transfer Fees
 
-### 13.4. Requirements for Consumers
+
+
+
+### 13.3. Requirements for Producers
+
+### 13.4. Benefits for Consumers
+
+### 13.5. Requirements for Consumers
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
