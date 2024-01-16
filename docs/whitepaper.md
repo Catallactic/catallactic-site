@@ -2293,7 +2293,7 @@ Is possible to define the Value Capture Event as the time when the CryptoCommodi
 ## 12. Providing DeFi Services
 ---
 
-By using the CryptoCommodity a heartbit of the marketplace, we can extract the economic value of the asset and this will allows to provide addtional benefits to the community.
+By using the CryptoCommodity as the heartbit of the marketplace, we can extract the economic value of the asset to provide addtional benefits to the community.
 
 
 
@@ -2335,15 +2335,19 @@ Besides providing a currency, the CryptoCommodity will work a foundation for add
 	</tr>
 </table>
 
-### 12.2. Exchange as Engine
+### 12.2. CrytoCommodity Ecosystem
 
+
+#### 12.2.1. Exchange as Cornerstone
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_before.svg" width="80%"></img>
 </div>
 <br/>
 
-#### 12.2.1. Interfacing with exchanges
+#### 12.2.2. MultiExchange Configuration
+
+#### 12.2.3. Interfacing with Exchanges
 
 Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
 
@@ -2352,8 +2356,6 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 - Cards with embedded wallet logic can be topped up with CryptoCommodity from a <b>card reader</b>. And, conversely, a card reader can also charge the CryptoCommodity fee for a purchase.
 
 - Wallet enabled <b>vending machines</b> can interect with cards or wallets to charge CryptoCommodity
-
-
 
 ### 12.3. Underlying Asset Payments
 
@@ -2447,7 +2449,7 @@ export const UnderlyingAssetPayments = () => {
 <UnderlyingAssetPayments/>
 
 
-#### 12.3.2. Underlying Asset Payments
+#### 12.3.2. Payments Ecosystem
 
 In the picture we can see the detailed CryptoCommodity ecosystem. The retailer at each location decides what price to charge for the underlying asset. The price formation is performed in the exchanges according to the aggregated demand in the primary market including all retail locations. This means that some retailers will charge above the 1 CryptoCommodity mark, and other retailers will charge below the 1 CryptoCommodity mark.
 
@@ -2457,6 +2459,29 @@ In the picture we can see the detailed CryptoCommodity ecosystem. The retailer a
 <br/>
 
 The price formed in the exchanges is then reused for the supply of tokens in holder's hands and in DeFi Services markets.
+
+#### 12.3.3. Executing a Payment
+
+2 operations:
+
+* customer buys CryptoCommodity units increasing CryptoCommodity price
+
+* customer transfers CryptoCommodity units to issuer
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/purchase_sequence.svg" width="80%"></img>
+</div>
+<br/>
+
+#### 12.3.4. Have a Wallet
+
+
+#### 12.3.5. Acquire CryptoCommodity Units
+
+
+#### 12.3.6. Purchase Asset with CryptoCommodity Units
+
+
 
 ### 12.3. Unit of Account
 
