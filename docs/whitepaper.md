@@ -2481,7 +2481,9 @@ The price formed in the exchanges is then reused for the supply of tokens in hol
 
 #### 12.3.6. Purchase Asset with CryptoCommodity Units
 
+#### 12.3.7. Withdraw Fiat (Optional)
 
+#### 12.3.8. One-Step Payment
 
 ### 12.3. Unit of Account
 
@@ -2592,7 +2594,7 @@ export const OperationsAllocation = () => {
 <OperationsAllocation/>
 
 
-### 12.6. Other Assets Payments
+### 12.6. Mainstream Payments
 
 Thanks to the price formed in the exchanges as a consequence of the demand in the primary market, CryptoCommodity can become medium of exchange for other goods and services. Depending on the currency accepted for these other markets, a swap can be required.
 
@@ -2618,18 +2620,50 @@ A CryptoCommodity can work as collateral of lending operations in existing platf
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-
-
-
-
-
-
-
-
-## 13. Implementation of CryptoCommodities
+## 13. Go to Market
 ---
 
-### 13.1. Smart Contract
+### 13.1. Benefits for Producers
+
+### 13.1.1. Initial Fundraising
+
+
+### 13.1.2. Project Allocation
+
+
+### 13.1.3. Transfer Fees
+
+
+### 13.1.4. DeFi Services Allocation
+
+
+### 13.1.5. Lending Fees
+
+
+### 13.1.6. Transfer Fees
+
+
+### 13.1.7. Coexisting with Current Payment Methods
+
+
+### 13.1.8. Gradual Introduction
+
+### 13.2. Requirements for Producers
+
+### 13.3. Benefits for Producers
+
+### 13.4. Requirements for Consumers
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 14. Implementation of CryptoCommodities
+---
+
+### 14.1. Smart Contract
 
 CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
@@ -2652,7 +2686,7 @@ By using the upgradeabity capabilities provided by the diamond front controller,
 
 https://github.com/Catallactic/catallactic-suite
 
-### 13.2. Upgradeable
+### 14.2. Upgradeable
 
 we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
@@ -2660,7 +2694,7 @@ Inn current implementation, every facet contains a versioned logic of the functi
 
 The long term idea is to release to community the governance.
 
-### 13.3. The challenge of Velocity of Circulation (Saleableness)
+### 14.3. The challenge of Velocity of Circulation (Saleableness)
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
@@ -2672,7 +2706,7 @@ Causes of the high token velocity is that the prices are not expressed on the cu
 
 To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
 
-#### 13.3.1. Token Velocity during Value Capture 
+#### 14.3.1. Token Velocity during Value Capture 
 
 During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
 
@@ -2689,13 +2723,13 @@ During the Vauke Capture stage the CryptoCommodity will behave as an utility tok
 - express the prices in CryptoCommodity units
 
 
-#### 13.3.2. Token Velocity during Value Delivery
+#### 14.3.2. Token Velocity during Value Delivery
 
 During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
 
 - Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-### 13.4. The challenge of Wallets
+### 14.4. The challenge of Wallets
 
 15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
 
@@ -2705,7 +2739,7 @@ We think a crypto wallet should be a garage control-like $20 device, that works 
 
 I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
-### 13.5. The challenge of Security
+### 14.5. The challenge of Security
 
 Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
@@ -2717,7 +2751,7 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 - We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
-### 13.6. The challenge of Decentralization
+### 14.6. The challenge of Decentralization
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -2748,7 +2782,7 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 	</table>
 </div>
 
-### 13.7. The challenge of Compliance
+### 14.7. The challenge of Compliance
 
 Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
 
@@ -2763,19 +2797,19 @@ Compliance mut be reviewed according to the juridiction where the CryptoCommodit
 
 On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
 
-#### 13.7.1. Collateral
+#### 14.7.1. Collateral
 
 The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
 
 Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
 
-### 13.8. The challenge of Transparency
+### 14.8. The challenge of Transparency
 
 
-### 13.9. The challenge of Privacy
+### 14.9. The challenge of Privacy
 
 
-### 13.10. Deployment
+### 14.10. Deployment
 
 
 
@@ -2786,17 +2820,17 @@ Increasingly, goverments are requiring to stablecoins a full collateralization o
 
 
 
-## 14. Supporting Tools
+## 15. Supporting Tools
 ---
 
-### 14.6. DAppmin
+### 15.6. DAppmin
 
 https://github.com/Catallactic/catallactic-admin
 
-### 14.6. ICO Purchases DApp
+### 15.6. ICO Purchases DApp
 
 
-### 14.6. Vesting Tracker
+### 15.6. Vesting Tracker
 
 
 
@@ -2811,12 +2845,12 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 15. A CryptoCommodity-based Economy
+## 16. A CryptoCommodity-based Economy
 ---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 15.1. Currency competition
+### 16.1. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -2824,9 +2858,9 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 15.2. Stability of a CryptoCommodity Market
+### 16.2. Stability of a CryptoCommodity Market
 
-#### 15.2.1. Understanding a regulated system
+#### 16.2.1. Understanding a regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -2835,7 +2869,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 15.2.2. Positive vs Negative Feedback Loops
+#### 16.2.2. Positive vs Negative Feedback Loops
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -2867,7 +2901,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 15.2.3. Regulation in a CryptoCommodity market
+#### 16.2.3. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -2878,15 +2912,15 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 15.3. At the rescue of real economy
+### 16.3. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 15.3.1. Monetary Expansion of Legal Tender
+#### 16.3.1. Monetary Expansion of Legal Tender
 
 
 
-#### 15.3.2. Debate on Neutrality of Money
+#### 16.3.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -2899,7 +2933,7 @@ price distortion
 
 
 
-#### 15.3.3 The Split Economy
+#### 16.3.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -2907,7 +2941,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 15.3.4. The Squeezed Real Economy
+#### 16.3.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -2930,9 +2964,9 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-#### 15.3.5. End Financial Exclusion
+#### 16.3.5. End Financial Exclusion
 
-### 15.4. Comparing Economic Models
+### 16.4. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -3003,7 +3037,7 @@ Cantillon Effects
 	</table>
 </div>
 
-### 15.5. Further Industry Development
+### 16.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -3011,7 +3045,7 @@ Additionaly, insurance companies could provide services in case a currency does 
 
 Private 'Lender of Last Resort?
 
-### 15.6. Free Banking Introduction
+### 16.6. Free Banking Introduction
 
 incremental introduction
 
@@ -3024,7 +3058,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 15.7. Crowdsolving
+### 16.7. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -3053,7 +3087,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 16. Conclusion
+## 17. Conclusion
 ---
 
 We have exposed how a novel kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
@@ -3073,7 +3107,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 
-## 17. References
+## 18. References
 ---
 
 
