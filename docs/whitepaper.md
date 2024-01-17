@@ -1364,6 +1364,25 @@ There are several ongoing distribution schemes that can be applied in different 
 
 Vesting schedules serve as mechanisms to align the incentives of all involved stakeholders, thereby guaranteeing the effective delivery of projects by the team, ensuring VCs attain the milestones projected by the project team, and motivating the community to actively participate in the network. These schedules also help in mitigating the risk associated with token dumping and fostering a long-term commitment from all parties. By releasing tokens over a period of time, they ensure that all of the parties remain invested in the project's success over the long term. [51]
 
+### 7.3. Issuance Compliance
+Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
+
+Recommendations for Prudential and Conduct Regulation of the Crypto Ecosystem: Stablecoins [46]
+
+Financial Stability
+Consumer and Investor Protection
+Operational and Cyber-Resiliency
+Financial Integrity
+Embracing the Potential of Stablecoins While Managing Risks
+Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
+
+On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
+
+#### 7.3.1. Collateral
+The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
+
+Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
+
 ### 7.4. Recommendations
 
 Project allocation is created on the Token Generation Event but only fraction is released. The most of the allocation is locked to guarantee compromise with the project by stakeholders.
@@ -2663,30 +2682,35 @@ During the Valkue Delivery Stage the token will start its stability mechanism to
 
 - Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-
-
-
 ### 13.2. The challenge of Compliance
 
-Despite they do not have a fiat collateral, CryptoCommodities will be possibly considered as stablecoins for regulatory bodies. The FSB’s 2020 report, “Regulation, Supervision and Oversight of ‘Global Stablecoin’ Arrangements” described three characteristics that distinguish a Global Stablecoin from other crypto-assets and other stablecoins. Those characteristics include: (i) the existence of a stabilisation mechanism, (ii) the usability as a means of payment and/or store of value, and (iii) the potential reach and adoption across multiple jurisdictions. The first two characteristics (the existence of a stabilisation mechanism and usability as a means of payment and/or store of value), and the unique risks that these characteristics pose, distinguish stablecoins from other crypto-assets. The third, the potential reach and adoption across multiple jurisdictions, differentiates Global Stablecoin from other stablecoins. [43]
+A CryptoCommodity Project must comply with regulation in jurisdictions were each activity is deployed. As a CryptoCommodity Project can be cross jurisdictional we need to analyze compliance for the different stages in the value chain. This table provides an overview:
 
-Recommendations for Prudential and Conduct Regulation of the Crypto Ecosystem: Stablecoins [46]
-- Financial Stability 
-- Consumer and Investor Protection 
-- Operational and Cyber-Resiliency 
-- Financial Integrity 
-- Embracing the Potential of Stablecoins While Managing Risks
-
-Compliance mut be reviewed according to the juridiction where the CryptoCommodity will be deployed.
-
-On the other hand, a CryptoCommodity is not referenced to fiat and does not increase regulatory risk.
-
-#### 13.2.1. Collateral
-
-The goal of collateral is allow the holder to redeem its currency by the underlying asset on demand.
-
-Increasingly, goverments are requiring to stablecoins a full collateralization of the issued supply. For fiat stablecoins this implies, storing a number of assets equivalent to the total supply. This is mainly required to prevent expansion on fiat supply with desvirtuates regulatory policies. CryptoCommodities do not increase fiat supply so they should have a diffeernt consideration for collateral.
-
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th>Value Chain Stage</th>
+			<th>Compliance Requirements</th>
+		</tr>
+		<tr>
+			<td>Issuance</td>
+			<td>In Jurisdictions where a CryptoCommodity is issued, the Project must comply local legislation on Virtual Asset Service Providers. At the time of writing only 7 juristictions have incorporated laws to regulate stablecoins. This typically covers requirements on collateral and transparency of processes (see section 7.3.)</td>
+		</tr>
+		<tr>
+			<td>Funding</td>
+			<td>Some jurisdictions have regulated ICOs and Funding Rounds. This must be considered if the project includes this stage.</td>
+		</tr>
+		<tr>
+			<td>Distribution</td>
+			<td>In Jurisdictions where a CryptoCommodity will be held in citizens wallets, we must consider consumer protection rules.</td>
+		</tr>
+		<tr>
+			<td>DeFi Services</td>
+			<td>In jurisdictions where DeFi Services are provided, the Project must also comply with Virtual Asset Service Providers legislation, if existing. This typically includes crypto payments are authorized in the jurisdiction.</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 
 ### 13.3. The challenge of Wallets
@@ -2702,7 +2726,7 @@ I the meatime, there is room for discussion if vending machines or gift cards co
 
 ### 13.4. Typical Project Description
 
-
+A typical catallactic project will include an underlying asset consumed by many customers. These custoomer should ideally be individuals rather than corporation since corporations do not have yet cryptopaments integrated in their processes.
 
 #### 13.4.1. Compliance Requirement
 
@@ -2713,13 +2737,17 @@ The most limiting factor to launch a CryptoCommodity project is compliance with 
 
 
 
-
-#### 13.4.3. Coexisting with Current Payment Methods
-
+#### 13.4.3. Managing Wallets Restrictions
 
 
 
-#### 13.4.4. Gradual Introduction
+
+#### 13.4.4. Coexisting with Current Payment Methods
+
+
+
+
+#### 13.4.5. Gradual Introduction
 
 
 
@@ -2766,6 +2794,8 @@ The most limiting factor to launch a CryptoCommodity project is compliance with 
 
 ## 14. Implementation of CryptoCommodities
 ---
+
+This section provides an overview of CryptoCommodities implementation technologies as well as identified technological challenges.
 
 ### 14.1. Smart Contract
 
