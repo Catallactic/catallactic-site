@@ -2657,7 +2657,7 @@ A token that has limited utility and lack of incentive to encourage holding of t
 
 Causes of the high token velocity is that the prices are not expressed on the currency.
 
-To understand token velocity we must distinguish the value capture stage from the value delivery stage. In the value delivery stage, the CryptoCommodity will make use t=of the stabilization mechanism to become and stablecoin. This shoud, provide guarantees to holders to keep the currency on their wallets.
+Token velocity can be an issue during the Value Capture stage. However, once marginal utility has been captured and stabilization mechanism takes places, the CryptoCommodity becomes an stablecoin and the Value Release stage is triggered. If people genuinely come to believe in the CryptoCommodity as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
 #### 13.1.1. Token Velocity during Value Capture 
 
@@ -2675,12 +2675,6 @@ During the Vauke Capture stage the CryptoCommodity will behave as an utility tok
 
 - express the prices in CryptoCommodity units
 
-
-#### 13.1.2. Token Velocity during Value Delivery
-
-During the Valkue Delivery Stage the token will start its stability mechanism to become stablecoin so holders will be willing to hold onto excess tokens rather than sell them for something else.
-
-- Become a store of value. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
 ### 13.2. The challenge of Compliance
 
@@ -2778,6 +2772,7 @@ In order to introduce the project into the community, there must be incentives f
 </div>
 <br/>
 
+You can learn about benefits for consumers and the society as a whole on chapter 16.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
