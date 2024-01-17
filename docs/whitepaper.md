@@ -2661,7 +2661,7 @@ Token velocity can be an issue during the Value Capture stage. However, once mar
 
 #### 13.1.1. Token Velocity during Value Capture 
 
-During the Vauke Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
+During the Value Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
 
 - Introduce a profit-share mechanism
 
@@ -2719,13 +2719,13 @@ I the meatime, there is room for discussion if vending machines or gift cards co
 
 ### 13.4. Incremental adoption
 
-The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be prportional to the volume of transaction that the providers experiences with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
+The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be proportional to the volume of transactions that the providers experience with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
 
-This incremental feature will ease execution of pilot projects and in general a gradual introduction of the model.
+This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
 
 ### 13.5. Typical Project Description
 
-A typical catallactic project will include an underlying asset consumed by many customers. These custoomer should ideally be individuals rather than corporation since corporations do not have yet cryptopaments integrated in their processes.
+A typical catallactic project will include an underlying asset consumed by many customers. These customer should ideally be individuals rather than corporation since corporations do not have yet cryptopaments integrated in their processes.
 
 The most limiting factor to launch a CryptoCommodity project is compliance with regulation. Crypto must be allowed as payment method. Suitable country / region. Argentina, El Salvador, Panama.
 
@@ -2772,7 +2772,7 @@ In order to introduce the project into the community, there must be incentives f
 </div>
 <br/>
 
-You can learn about benefits for consumers and the society as a whole on chapter 16.
+The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manne. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
