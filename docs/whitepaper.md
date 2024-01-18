@@ -2376,6 +2376,8 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 
 - Wallet enabled <b>vending machines</b> can interect with cards or wallets to charge CryptoCommodity
 
+#### 12.2.4. Wallets
+
 ### 12.3. Underlying Asset Payments
 
 #### 12.3.1. Payments Allocation
@@ -2481,28 +2483,22 @@ The price formed in the exchanges is then reused for the supply of tokens in hol
 
 #### 12.3.3. Executing a Payment
 
-2 operations:
+Executing a payment with CryptoCommodity requires using CryptoCommodity units as medium of exchange. The customer can require a previous conversion from his currency to CryptoCommodity in an exchange. :
 
-* customer buys CryptoCommodity units increasing CryptoCommodity price
+* customer swaps his money by CryptoCommodity units. Acquiring CryptoCommodity units from an exchange increases the CryptoCommodity price.
 
-* customer transfers CryptoCommodity units to issuer
+* customer then transfers CryptoCommodity units to the producer. This operation does not affect CryptoCommodity price.
+
+* once received the payment in CryptoCommodity units, the producer can held the CryptoCommodity in his wallet to maintain the CryptoCommodity price unmodified. Optionally, the producer can swap n the exchange the received CryptoCommodity units to his preferred currency. This operation will also reduce the CryptoCommodity price.
+
+The process is depicted in the figure below:
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/purchase_sequence.svg" width="80%"></img>
 </div>
 <br/>
 
-#### 12.3.4. Have a Wallet
-
-
-#### 12.3.5. Acquire CryptoCommodity Units
-
-
-#### 12.3.6. Purchase Asset with CryptoCommodity Units
-
-#### 12.3.7. Withdraw Fiat (Optional)
-
-#### 12.3.8. One-Step Payment
+It would be possible to have the swap and transfer integrated into the corporate payment tools. At the moment we do not know this possibility is available as it would have compliance requirements. This is a future development.
 
 ### 12.3. Unit of Account
 
@@ -2740,11 +2736,11 @@ In order to introduce the project into the community, there must be incentives f
 		</tr>
 		<tr>
 			<td>Project Allocation</td>
-			<td>When the token allocation is desisged, a CryptoCommodity allows the issuer to allocate a portion of the token supply to fund the project beyond the initial capital raise. Refer to section for details.</td>
+			<td>When the token allocation is designed, a CryptoCommodity allows the issuer to allocate a portion of the token supply to fund the project beyond the initial capital raise. Refer to section for details.</td>
 		</tr>
 		<tr>
 			<td>Transaction Fees</td>
-			<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a precentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
+			<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a percentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
 		</tr>
 		<tr>
 			<td>DeFi Services Allocation</td>
