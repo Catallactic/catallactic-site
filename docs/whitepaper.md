@@ -2723,18 +2723,8 @@ The CryptoCommodity will capture its price from the underlying asset utility. Th
 
 This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
 
-### 13.5. Typical Project Description
 
-A typical catallactic project will include an underlying asset consumed by many customers. These customer should ideally be individuals rather than corporation since corporations do not have yet cryptopaments integrated in their processes.
-
-The most limiting factor to launch a CryptoCommodity project is compliance with regulation. Crypto must be allowed as payment method. Suitable country / region. Argentina, El Salvador, Panama.
-
-The underlaying asset must comply with description on section . Candidates are energy providers, LPG providers, water providers, mining providers, agrocommodities providers.
-
-The current limitations on wallets availability must also be considered. Currently the best bet is to use gift cards.
-
-
-### 13.6. Benefits for Producers
+### 13.5. Benefits for Producers
 
 In order to introduce the project into the community, there must be incentives for all parties to adopt the CryptoCommodities. Producers that fullfill the required conditions to adopt CryptoCommodity have great economic benefits:
 
@@ -2773,6 +2763,16 @@ In order to introduce the project into the community, there must be incentives f
 <br/>
 
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manne. You can learn about benefits for consumers and the society as a whole on chapter 16.
+
+### 13.6. Typical Project Description
+
+A typical catallactic project will include an underlying asset consumed by many customers. These customer should ideally be individuals rather than corporation since corporations do not have yet cryptopaments integrated in their processes.
+
+The most limiting factor to launch a CryptoCommodity project is compliance with regulation. Crypto must be allowed as payment method. Suitable country / region. Argentina, El Salvador, Panama.
+
+The underlaying asset must comply with description on section . Candidates are energy providers, LPG providers, water providers, mining providers, agrocommodities providers.
+
+The current limitations on wallets availability must also be considered. Currently the best bet is to use gift cards.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
