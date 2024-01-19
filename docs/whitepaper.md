@@ -2377,56 +2377,71 @@ Crypto wallets range from simple-to-use apps to more complex security solutions.
 		<th></th>
 		<th>Keys Storage</th>
 		<th>Connected</th>
+		<th>Portable</th>
+		<th>Private</th>
 	</tr>
 	<tr>
 		<th>Paper Wallets</th>
 		<td>a physical medium like paper</td>
 		<td>No</td>
+		<td>Yes</td>
+		<td>Yes</td>
 	</tr>
 	<tr>
 		<th>HW Wallets</th>
 		<td>a thumb-drive device</td>
 		<td>No</td>
+		<td>Yes</td>
+		<td>Yes</td>
 	</tr>
 	<tr>
 		<th>HW Card Wallets</th>
 		<td>a thumb-drive device</td>
 		<td>No</td>
+		<td>Yes</td>
+		<td>Yes</td>
 	</tr>
 	<tr>
 		<th>SW Desktop App Wallets</th>
 		<td>a computer's hard drive</td>
 		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
 	</tr>
 	<tr>
 		<th>SW Browser Plugins Wallets</th>
 		<td>a computer's hard drive</td>
 		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
 	</tr>
 	<tr>
 		<th>SW Messenger Bot Wallets</th>
 		<td>a computer's hard drive</td>
 		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
 	</tr>
 	<tr>
 		<th>SW Mobile Apps Wallets</th>
 		<td>a mobile's hard drive</td>
 		<td>Yes</td>
+		<td>Yes</td>
+		<td>No</td>
 	</tr>
 	<tr>
 		<th>SW Exchange Wallets</th>
 		<td>in the exhange</td>
 		<td>Yes</td>
+		<td>Yes</td>
+		<td>No</td>
 	</tr>
 </table>
 <br/>
 
 Existing HW wallets are cold wallets. A cold wallet is a crypto wallet that is not connected to the internet and stores your private keys offline. In order to be used they need to be connected to a computer. SW Desktop Wallets run in a computer. Needing a computer to perform wallet operations is not well suitable for a retail real economy. Mobile wallets, differently to computer-dependant wallets, are portable. However, their privacy is compromised by mobile operating system. Finally, custodian wallets running in a exchange are owned by the the exchange itself. So, we find, that after 15 years of crypto, there is not a wallet suitable for retail real economy.
 
-#### 12.2.4. A Wallet for Real Economy
-
-
-#### 12.2.5. Interfacing with Exchanges
+#### 12.2.4. Interfacing with Exchanges
 
 Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
 
