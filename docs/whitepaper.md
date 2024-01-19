@@ -2835,13 +2835,15 @@ The volume of each benefit should be estimated in relation to the project capita
 
 ### 13.6. Typical Project Description
 
-A typical catallactic project will include an underlying asset consumed by many customers. These customer should ideally be individuals rather than corporation since corporations do not have yet cryptopaments integrated in their processes.
+CryptoCommodity is the first initiative to build non-fiat stablecoins focused on the real economy. The existing tools in the market have not been built specifically for the real economy so some level of customization as well as some new developments are required. According to the current availability, in order to determine the right pilot projects we can consider the following aspects:
 
-The most limiting factor to launch a CryptoCommodity project is compliance with regulation. Crypto must be allowed as payment method. Suitable country / region. Argentina, El Salvador, Panama.
+The <b>scope</b> of the project can can be municipal, regional, national or global as long there is a supply large enough to create a currency delivering its services in the same scope.
 
-The underlaying asset must comply with description on section . Candidates are energy providers, LPG providers, water providers, mining providers, agrocommodities providers.
+Compliance with regulation, as described in section 13.2. is a must to decide to invest in a project. <b>Compliance</b> is a multifaceted aspect. Depending on the activities covered in each jurisdiction, it can be required comply with VASPs rules, crypto allowed as a payment method or ICO as authorized funding method. Some suitable countries / region can be: Argentina, El Salvador, Panama.
 
-The current limitations on wallets availability must also be considered. Currently the best bet is to use gift cards.
+The stakeholders of typical CryptoCommodity Project should be a provider of an <b>underlying asset</b> consumed by many customers. The underlaying asset must comply with description on section . Candidates are energy providers, LPG providers, water providers, mining providers, agrocommodities providers. At time of writing this whitepaper, crypto is not yet integrated in corporate payment processes so B2B providers are probably not yet ready for CryptoCommodity Projects. Therefore, the ideal CryptoCommodity issuer at this point is a <b>B2C provider</b> of an conformant asset.
+
+Finally, the current limitations on <b>wallets</b> availability must also be considered as a work in progress for future improvement. Wallets packaged as mobile apps are suitable to operate CryptoCommodity tokens. A cheaper alternative could rechargeable gift cards.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
