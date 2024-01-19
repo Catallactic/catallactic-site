@@ -17,7 +17,7 @@ import { Doughnut } from 'react-chartjs-2';
 
 
 :::note
-`(Under development. Please, come back later. Just published to share the progress)`
+`(Please, be aware that, whereas this whitepaper already gives an idea of what a CryptoCommodity is, still is a work in progress)`
 :::
 
 ## Abstract
