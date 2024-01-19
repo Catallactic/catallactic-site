@@ -89,6 +89,7 @@
 	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA1", "date": "2023-06-01", "target": "TBC", "scope": "TBC", "doc": "Blockchain Technology: Cryptocurrencies and Beyond", "url": "https://www.ourcommons.ca/Content/Committee/441/INDU/Reports/RP12522346/indurp15/indurp15-e.pdf" },
 	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA2", "date": "2023-06-26", "target": "TBC", "scope": "TBC", "doc": "Consultation on regulatory capital and liquidity treatment of crypto-asset exposures", "url": "https://www.osfi-bsif.gc.ca/Eng/osfi-bsif/med/Pages/crypto-bnk-ins-nr.aspx" },
 	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA2", "date": "2023-11-20", "target": "TBC", "scope": "TBC", "doc": "OSFI seeks feedback on disclosure of crypto-asset exposures", "url": "https://www.osfi-bsif.gc.ca/Eng/osfi-bsif/med/Pages/crypto-231129-nr.aspx" },
+	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA2", "date": "2024-01-18", "target": "TBC", "scope": "TBC", "doc": "Proposed Amendments to National Instrument 81-102 Investment Funds Pertaining to Crypto Assets", "url": "https://www.osc.ca/sites/default/files/2024-01/csa_20240118_81-102_rfc_crypto-assets.pdf" },
 	{ "region": "WEST", "jurisdiction": "Spain", "id": "ES1", "date": "2023-11-06", "target": "TBC", "scope": "TBC", "doc": "Circular 1/2022 of 10 January, on the advertising of crypto-assets presented as means of investment", "url": "https://cnmv.es/DocPortal/Legislacion/Circulares/Circular_1_2022_EN.pdf" },
 
 	{ "region": "LATAM" },
