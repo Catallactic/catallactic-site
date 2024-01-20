@@ -28,7 +28,7 @@ export default function AdoptersSections(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex  justify-content-center">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://gasclick.pe/img/cryptogas.webp" width={300}/>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://gasclick.co/img/cryptogas.webp" width={300}/>
 						</div>
 					</div>
 

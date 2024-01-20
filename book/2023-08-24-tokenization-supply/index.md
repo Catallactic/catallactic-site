@@ -108,7 +108,7 @@ The number of units of a token can be fixed or can be variable, depending on the
 We call <b>Max Supply</b> to the max amount of units that a token can have. Not all tokens have a defined max supply, some tokens can increase the supply indefinitely. We say they are uncapped tokens. Other tokens ha a known Max Supply, either because there is a physical limitation on creation or because it is limited by token designer. These tokens are denominated capped tokens.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/token_supply_components.svg" width="28%"></img>
+	<img src="https://gasclick.co/img/token_supply_components.svg" width="28%"></img>
 </div>
 
 The number of unit that a token has in a certain moment is called Total Supply. The unit o the token are typically aigned to dierent account and can have in dierent ituation o liuidity. locked v circulating

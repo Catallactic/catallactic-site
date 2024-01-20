@@ -44,7 +44,7 @@ The lower the total traded supply amount across the liquidity pools for a token,
 <b>Price formation in crypto happens in the exchanges</b>. The price is alway formed between 2 tokens paired in a pool. The exchanges have algorithms to work out the price of every token in the pool depending on their respective demand.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/price_determination2.svg" width="100%"></img>
+	<img src="https://gasclick.co/img/price_determination2.svg" width="100%"></img>
 </div>
 
 The pools where our token is trading, can be in one exchange, or can be in many exchanges, in the same network or distributed across different blockchains. When several exchanges are involved, the price is consolidated between the different pools by investors practicing <b>arbitrage</b>. This guarantees that the price is mostly uniform across all the exchanges on a determined time.
@@ -167,7 +167,7 @@ Depending on the goal of every project, a supply definition strategy must be dec
 Th intrcation btw th dmand and th upply will din th pric o th tokn and also its proil.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://gasclick.pe/img/Supply-and-Demand-Curve.webp" width="60%"></img>
+	<img src="https://gasclick.co/img/Supply-and-Demand-Curve.webp" width="60%"></img>
 </div>
 
 There are essentially 3 mechanims to manage the supply:
