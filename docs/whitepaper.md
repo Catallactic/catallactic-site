@@ -2573,15 +2573,15 @@ The process is depicted in the figure below:
 
 It would be possible to have the swap and transfer integrated into the corporate payment tools. At the moment we do not know this possibility is available as it would have compliance requirements. This is a future development.
 
-### 12.3. Unit of Account
+### 12.4. Unit of Account
 
 CryptoCommodity captures the averaged marginal utility of the underlying asset across all sales points. This enables CryptoCommodity to become a Unit of Account for the underlying asset.
 
-### 12.4. Reserve of Value
+### 12.5. Reserve of Value
 
 As a quality Unit of Account, CryptoCommodity works as a reserve of value for the holders.
 
-### 12.5. DeFi Services
+### 12.6. DeFi Services
 
 The DeFi Services allocation will cover the utilities delivered by the CryptoCommodity after the Value Capture Event. This allocation is not included in the Initial Token Allocation and will be mined on demand by the stabilization mechiams in parallel to demand increases. It will include:
 
@@ -2682,7 +2682,7 @@ export const OperationsAllocation = () => {
 <OperationsAllocation/>
 
 
-### 12.6. Mainstream Payments
+### 12.7. Mainstream Payments
 
 Thanks to the price formed in the exchanges as a consequence of the demand in the primary market, CryptoCommodity can become medium of exchange for other goods and services. Depending on the currency accepted for these other markets, a swap can be required.
 
@@ -2690,11 +2690,11 @@ If the CryptoCommodity is accepted ni the secondary market, the consumer can pay
 
 If the CryptoCommodity is not accepted for the secondary market, the consumer or the retailer should performa swap from the CryptoCommodity to the target currency.
 
-### 12.7. Transfers
+### 12.8. Transfers
 
 CryptoCommodities can participate in transfers as remittances, international transfers as long as is accepted.
 
-### 12.8. Lending
+### 12.9. Lending
 
 Credit is the main reason that motivated the obsolescence of gold standard and introduction of fiat currencies. The problem of credit with the legal tender is that risk is collectivized. CryptoCommodities, as private money, allow lending with the benefit that the irsk is privatized, not affecting to the society as a whoe. 
 
