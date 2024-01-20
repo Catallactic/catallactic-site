@@ -257,19 +257,19 @@ CryptoCommodities are designed to be applied in both, local or international sco
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
-|                                 | Stablecoin                                                  | CryptoCommodity                                                               |
-| :-------------------------------| :-----------------------------------------------------------| :-----------------------------------------------------------------------------|
-| Backed by                       | Physical, digital, financial asset                          | Underlying market of fungible physical or digital asset                       |
-| Collateralized by               | Multiple                                                    | Underlying market of fungible physical or digital asset                       |
-| Price Formation                 | Pegged to Fiat Price of asset in internacional market       | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
-| Scope                           | Mostly Global														                    | Local or Global                                                               |
-| Value Decentralized?            | No, pegged to fiat prices				                            | Yes, forms its own price                                                      |
-| Process Decentralized?          | No, manual stabilization					                          | Yes, built-in automated stabilization                                         |
-| Decisions Decentralized?        | No, opaque decisions  			   		                          | Yes, releasing to the community when possible                                 |
-| Disclosures  										| No                                                          | Yes, full disclosure                                                          |
-| Allows project funding?         | No                                                          | Yes                                                                           |
-| Collateral on inception needed? | Yes                                                         | No                                                                            |
-| Provides credit? 				        | Yes, with social risk                                       | Yes, with private risk                                                        |
+|                                 | Stablecoin                                        | CryptoCommodity                                                               |
+| :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
+| Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
+| Collateralized by               | Multiple                                          | Underlying market of fungible physical or digital asset                       |
+| Price Formation                 | Pegged to Fiat Price of asset in external market  | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
+| Scope                           | Mostly Global														          | Local or Global                                                               |
+| Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
+| Process Decentralized?          | No, manual stabilization					                | Yes, built-in automated stabilization                                         |
+| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                                 |
+| Disclosures  										| No                                                | Yes, full disclosure                                                          |
+| Allows project funding?         | No                                                | Yes                                                                           |
+| Collateral on inception needed? | Yes                                               | No                                                                            |
+| Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
 
