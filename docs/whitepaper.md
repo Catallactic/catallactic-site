@@ -2714,9 +2714,20 @@ In this chapter we will discuss what are approaches to introduce CryptoCommodity
 
 
 
+### 13.1. Typical Project Description
+
+CryptoCommodity is the first initiative to build non-fiat stablecoins focused on the real economy. The existing tools in the market have not been built specifically for the real economy so some level of customization as well as some new developments are required. According to the current availability, in order to determine the right pilot projects we can consider the following aspects:
+
+The <b>scope</b> of the project can can be municipal, regional, national or global as long there is a supply large enough to create a currency delivering its services in the same scope.
+
+Compliance with regulation, as described in section 13.2. is a must to decide to invest in a project. <b>Compliance</b> is a multifaceted aspect. Depending on the activities covered in each jurisdiction, it can be required comply with VASPs rules, crypto allowed as a payment method or ICO as authorized funding method. Some suitable countries / region can be: Argentina, El Salvador, Panama.
+
+The stakeholders of typical CryptoCommodity Project should be a provider of an <b>underlying asset</b> consumed by many customers. The underlaying asset must comply with description on section . Candidates are energy providers, LPG providers, water providers, mining providers, agrocommodities providers. At time of writing this whitepaper, crypto is not yet integrated in corporate payment processes so B2B providers are probably not yet ready for CryptoCommodity Projects. Therefore, the ideal CryptoCommodity issuer at this point is a <b>B2C provider</b> of an conformant asset.
+
+Finally, the current limitations on <b>wallets</b> availability must also be considered as a work in progress for future improvement. Wallets packaged as mobile apps are suitable to operate CryptoCommodity tokens. A cheaper alternative could rechargeable gift cards.
 
 
-### 13.1. The challenge of <s>Velocity of Circulation</s> Saleableness
+### 13.2. The challenge of <s>Velocity of Circulation</s> Saleableness
 
 Velocity serves as a measurement of the rate at which money is exchanged within an economy. Most countries calculate their velocity of money using a ratio that divides Gross Domestic Product by the country's total money supply.
 
@@ -2728,7 +2739,7 @@ Causes of the high token velocity is that the prices are not expressed on the cu
 
 Token velocity can be an issue during the Value Capture stage. However, once marginal utility has been captured and stabilization mechanism takes places, the CryptoCommodity becomes an stablecoin and the Value Release stage is triggered. If people genuinely come to believe in the CryptoCommodity as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
-#### 13.1.1. Token Velocity during Value Capture 
+#### 13.2.1. Token Velocity during Value Capture 
 
 During the Value Capture stage the CryptoCommodity will behave as an utility token. This is the critical part where the holders can be reluctant to keep the tokens in their wallets. In order to reduce velocity some approaches can be considered:
 
@@ -2745,7 +2756,7 @@ During the Value Capture stage the CryptoCommodity will behave as an utility tok
 - express the prices in CryptoCommodity units
 
 
-### 13.2. The challenge of Compliance
+### 13.3. The challenge of Compliance
 
 A CryptoCommodity Project must comply with regulation in jurisdictions were each activity is deployed. As a CryptoCommodity Project can be cross jurisdictional we need to analyze compliance for the different stages in the value chain. This table provides an overview:
 
@@ -2775,8 +2786,7 @@ A CryptoCommodity Project must comply with regulation in jurisdictions were each
 </div>
 <br/>
 
-
-### 13.3. The challenge of Wallets
+### 13.4. The challenge of Wallets
 
 15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
 
@@ -2786,14 +2796,16 @@ We think a crypto wallet should be a garage control-like $20 device, that works 
 
 I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
-### 13.4. Incremental adoption
+### 13.5. Incremental adoption
 
 The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be proportional to the volume of transactions that the providers experience with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
 
 This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
 
 
-### 13.5. Benefits for Producers
+
+
+### 13.6. Benefits for Producers
 
 In order to introduce the project into the community, there must be incentives for all parties to adopt the CryptoCommodities. Producers that fullfill the required conditions to adopt CryptoCommodity have great economic benefits:
 
@@ -2833,17 +2845,7 @@ In order to introduce the project into the community, there must be incentives f
 
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manne. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
-### 13.6. Typical Project Description
 
-CryptoCommodity is the first initiative to build non-fiat stablecoins focused on the real economy. The existing tools in the market have not been built specifically for the real economy so some level of customization as well as some new developments are required. According to the current availability, in order to determine the right pilot projects we can consider the following aspects:
-
-The <b>scope</b> of the project can can be municipal, regional, national or global as long there is a supply large enough to create a currency delivering its services in the same scope.
-
-Compliance with regulation, as described in section 13.2. is a must to decide to invest in a project. <b>Compliance</b> is a multifaceted aspect. Depending on the activities covered in each jurisdiction, it can be required comply with VASPs rules, crypto allowed as a payment method or ICO as authorized funding method. Some suitable countries / region can be: Argentina, El Salvador, Panama.
-
-The stakeholders of typical CryptoCommodity Project should be a provider of an <b>underlying asset</b> consumed by many customers. The underlaying asset must comply with description on section . Candidates are energy providers, LPG providers, water providers, mining providers, agrocommodities providers. At time of writing this whitepaper, crypto is not yet integrated in corporate payment processes so B2B providers are probably not yet ready for CryptoCommodity Projects. Therefore, the ideal CryptoCommodity issuer at this point is a <b>B2C provider</b> of an conformant asset.
-
-Finally, the current limitations on <b>wallets</b> availability must also be considered as a work in progress for future improvement. Wallets packaged as mobile apps are suitable to operate CryptoCommodity tokens. A cheaper alternative could rechargeable gift cards.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
