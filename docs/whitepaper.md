@@ -2813,20 +2813,16 @@ In order to introduce the project into the community, there must be incentives f
 			<th>Description</th>
 		</tr>
 		<tr>
-			<td>Initial Fundraising</td>
-			<td>An initial fundraising can be launched by the producer in order to improve the services that will be offered to the community. The amount that can be raised must be estimated and is proportional to the project capitalization. Refer to section for details on this.</td>
-		</tr>
-		<tr>
 			<td>Project Allocation</td>
 			<td>When the token allocation is designed, a CryptoCommodity allows the issuer to allocate a portion of the token supply to fund the project beyond the initial capital raise. Refer to section for details.</td>
 		</tr>
 		<tr>
-			<td>Transaction Fees</td>
-			<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a percentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
+			<td>Initial Fundraising</td>
+			<td>An initial fundraising can be launched by the producer in order to improve the services that will be offered to the community. The amount that can be raised must be estimated and is proportional to the project capitalization. Refer to section for details on this.</td>
 		</tr>
 		<tr>
-			<td>DeFi Services Allocation</td>
-			<td>In order to have an stablization mechanism, exchanges needs to maintain a number of tokens that match the phisical demand of the provider. This guarantees that the CryptoCommodity will capture the marginal utility of the underlaying asset. However, nothing prevents that, in the Value Release Stage, the supply can be extended beyond this initial supply. Every token that is added from the intiial capitalization represents a sale for the issuer.</td>
+			<td>Transaction Fees</td>
+			<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a percentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
 		</tr>
 		<tr>
 			<td>Lending Fees</td>
@@ -2835,6 +2831,10 @@ In order to introduce the project into the community, there must be incentives f
 		<tr>
 			<td>Transfer Fees</td>
 			<td>As the CryptoCommodity is involved as collaterla for Transfers, a fee can also be applied for the lending transfers.</td>
+		</tr>
+		<tr>
+			<td>DeFi Services Allocation</td>
+			<td>In order to have an stablization mechanism, exchanges needs to maintain a number of tokens that match the phisical demand of the provider. This guarantees that the CryptoCommodity will capture the marginal utility of the underlaying asset. However, nothing prevents that, in the Value Release Stage, the supply can be extended beyond this initial supply. Every token that is added from the intiial capitalization represents a sale for the issuer.</td>
 		</tr>
 	</table>
 </div>
@@ -3017,12 +3017,12 @@ The volume of each benefit should be estimated in relation to the project capita
 		</tr>
 		<tr>
 			<td>Ratio Initial Supply %</td>
-			<td></td>
+			<td bgcolor="#FFFDE6"></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>Ratio Exchange to Total %</td>
-			<td></td>
+			<td bgcolor="#FFFDE6"></td>
 			<td></td>
 		</tr>
 		<tr>
@@ -3057,22 +3057,6 @@ The volume of each benefit should be estimated in relation to the project capita
 			<td></td>
 		</tr>
 		<tr>
-			<th rowspan="3">BORROWED</th>
-			<td>Leverage</td>
-			<td bgcolor="#FFFDE6">5</td>
-			<td>Num Orders * Size Order * Leverage</td>
-		</tr>
-		<tr>
-			<td>3 - DeFi Services Allocation</td>
-			<td>75000000</td>
-			<td></td>
-		</tr>
-		<tr>
-			<th>TOTAL BORROWED</th>
-			<th>75000000</th>
-			<td></td>
-		</tr>
-		<tr>
 			<th rowspan="9">PER PERIOD</th>
 			<td>Percent Exchanges %</td>
 			<td bgcolor="#FFFDE6">23</td>
@@ -3099,23 +3083,39 @@ The volume of each benefit should be estimated in relation to the project capita
 			<td></td>
 		</tr>
 		<tr>
-			<td>4 - Transaction Fees</td>
+			<td>3 - Transaction Fees</td>
 			<td>45000</td>
 			<td>Num Transactions * Transaction Fees</td>
 		</tr>
 		<tr>
-			<td>5 - Lending Fees</td>
+			<td>4 - Lending Fees</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>6 - Transfer Fees</td>
+			<td>5 - Transfer Fees</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th>TOTAL PER PERIOD</th>
 			<th>45000</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th rowspan="3">BORROWED</th>
+			<td>Leverage</td>
+			<td bgcolor="#FFFDE6">5</td>
+			<td>Num Orders * Size Order * Leverage</td>
+		</tr>
+		<tr>
+			<td>6 - DeFi Services Allocation</td>
+			<td>75000000</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>TOTAL BORROWED</th>
+			<th>75000000</th>
 			<td></td>
 		</tr>
 	</table>
