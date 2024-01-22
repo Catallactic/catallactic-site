@@ -2802,9 +2802,6 @@ The CryptoCommodity will capture its price from the underlying asset utility. Th
 
 This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
 
-
-
-
 ### 13.6. Benefits for Producers
 
 In order to introduce the project into the community, there must be incentives for all parties to adopt the CryptoCommodities. Producers that fullfill the required conditions to adopt CryptoCommodity have great economic benefits:
@@ -2845,7 +2842,285 @@ In order to introduce the project into the community, there must be incentives f
 
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manne. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
+### 13.6. Metrics
 
+<div className="chart-panel2">
+<Line
+  data={{
+		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
+		datasets: [{
+			fill: true,
+			label: 'Gold Standard',
+			backgroundColor: "rgba(161,174,212,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,400,400,400,400,400,null,null,null]
+		},{
+			fill: true,
+			label: 'Unit of Account',
+			backgroundColor: "rgba(6,11,39,1.0)",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
+		}],
+	}}
+	options={{
+		responsive: true,
+		maintainAspectRatio: false,
+		scales: {
+			y: {
+				min: 0,
+				max: 1200,
+				display: true,
+				title: {
+					display: true,
+					text: 'Tokens Created',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 30, left: 0, right: 0, bottom: 0},
+				},
+				ticks: {
+					display: false,
+				}
+			},
+			x: {
+				display: true,
+				title: {
+					display: true,
+					text: 'Orders Delivered (30 days rolling average)',
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: {top: 20, left: 0, right: 0, bottom: 0},
+				},
+				ticks: {
+					display: false,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						// weight: 'bold',
+						lineHeight: 1,
+					},
+				}	
+			},
+		},
+		plugins: {
+			legend: {
+				labels: {
+					usePointStyle: true,
+					font: {
+						family: 'Comic Sans MS',
+						size: 20,
+						weight: 'bold',
+						lineHeight: 1.2,
+					},
+					padding: 20,
+				},
+			},
+      annotation: {
+        annotations: [{
+					type: 'label',
+					xValue: 1.5,
+					yValue: 200,
+					content: ['Funding','Rounds'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 5,
+					yValue: 200,
+					content: ['Value','Capture'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 15,
+					yValue: 200,
+					content: ['Value','Release'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'line',
+					xMin: 7,
+					xMax: 7,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 7,
+					yValue: 800,
+					content: ['VCE'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 7,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}, {
+					type: 'line',
+					xMin: 3,
+					xMax: 3,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 3,
+					yValue: 800,
+					content: ['TGE'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 3,
+					yValue: 400,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}]
+      }
+		}
+	}}
+	plugins={[/*ChartDataLabels*/]}
+/>
+</div>
+<br/>
+
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th rowspan="4">GENERAL</th>
+			<td>Num Orders Period</td>
+			<td bgcolor="#FFFDE6">1000000</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Size Order (USD)</td>
+			<td bgcolor="#FFFDE6">15</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Ratio Initial Supply %</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Ratio Exchange to Total %</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th rowspan="6">ONE TIME</th>
+			<td>Percent Project %</td>
+			<td bgcolor="#FFFDE6">10</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Percent ICOs %</td>
+			<td bgcolor="#FFFDE6">67</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ICO Bonus</td>
+			<td bgcolor="#FFFDE6">5</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>1 - Project Allocation</td>
+			<td>1500000</td>
+			<td>Num Orders * Size Order * Percent Project</td>
+		</tr>
+		<tr>
+			<td>2 - Initial Fundraising</td>
+			<td>9547500</td>
+			<td>Num Orders * Size Order * Percent Fundraising / ICO Bonus</td>
+		</tr>
+		<tr>
+			<th>TOTAL ONE TIME</th>
+			<th>11047500</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th rowspan="3">BORROWED</th>
+			<td>Leverage</td>
+			<td bgcolor="#FFFDE6">5</td>
+			<td>Num Orders * Size Order * Leverage</td>
+		</tr>
+		<tr>
+			<td>3 - DeFi Services Allocation</td>
+			<td>75000000</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>TOTAL BORROWED</th>
+			<th>75000000</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th rowspan="9">PER PERIOD</th>
+			<td>Percent Exchanges %</td>
+			<td bgcolor="#FFFDE6">23</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Ratio Transactions-Orders Period</td>
+			<td bgcolor="#FFFDE6">0.3</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Transaction Fees %</td>
+			<td bgcolor="#FFFDE6">1</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lending Fees %</td>
+			<td bgcolor="#FFFDE6">1</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Transfer Fees %</td>
+			<td bgcolor="#FFFDE6">1</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>4 - Transaction Fees</td>
+			<td>45000</td>
+			<td>Num Transactions * Transaction Fees</td>
+		</tr>
+		<tr>
+			<td>5 - Lending Fees</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>6 - Transfer Fees</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>TOTAL PER PERIOD</th>
+			<th>45000</th>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
