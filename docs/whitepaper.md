@@ -696,12 +696,12 @@ export const TokenAllocationConcepts = () => {
 							'Project', 'Funding', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
-								backgroundColor: ['#0000FF', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
+								backgroundColor: ['#00FF00', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#0000FF'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#0000FF', '#00FF00', '#006400', '#FF0000'],
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -1000,12 +1000,12 @@ export const InitialTokenAllocation = () => {
 							'Project', 'Funding', 'Exchanges', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#006400', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
+								backgroundColor: ['#FF0000', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#FF0000'],
 								data: [0, 1, 2, 3, 5, 4, 0, 0] ,
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#0000FF', '#00FF00', '#006400', '#FF0000'],
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#FF0000'],
 								data: [1, 10, 4, 0],
 								order: [10, 1, 5, 8],
 								index: 1
@@ -1264,12 +1264,12 @@ export const ProjectAllocation = () => {
 							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#0000FF', '#0000FF', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#0000FF', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -1420,12 +1420,12 @@ export const FundingAllocation = () => {
 							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#00FF00', '#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#006400', '#006400', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#00FF00', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -1729,12 +1729,12 @@ export const NegotiationAllocation = () => {
 							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#006400', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#FF0000', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2041,12 +2041,12 @@ export const ConsolidatedTokenAllocation = () => {
 							'Project', 'Funding', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
-								backgroundColor: ['#0000FF', '#0000FF', '#00FF00', '#00FF00', '#00FF00', '#006400', '#006400', '#FF0000'],
+								backgroundColor: ['#00FF00', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#0000FF'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#0000FF', '#00FF00', '#006400', '#FF0000'],
+								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2470,12 +2470,12 @@ export const UnderlyingAssetPayments = () => {
 							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#006400', '#006400', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#FF0000', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#006400', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2609,12 +2609,12 @@ export const OperationsAllocation = () => {
 							'Project', 'Funding', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2840,7 +2840,7 @@ In order to introduce the project into the community, there must be incentives f
 </div>
 <br/>
 
-The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manne. You can learn about benefits for consumers and the society as a whole on chapter 16.
+The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manner. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
 ### 13.6. Metrics
 
@@ -2850,29 +2850,47 @@ The volume of each benefit should be estimated in relation to the project capita
 		labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
 		datasets: [{
 			fill: true,
-			label: 'Gold Standard',
-			backgroundColor: "rgba(161,174,212,1.0)",
+			label: 'Exchanges',
+			backgroundColor: "#FF0000",
 			borderColor: "rgba(0,0,0,0.1)",
-			data: [null,null,null,400,400,400,400,400,null,null,null]
-		},{
+			data: [null,null,null,100,125,150,125,100,125,150,175,200,225,250,275,300,300,300,300,300,300,300,300,300]
+		}, {
 			fill: true,
-			label: 'Unit of Account',
-			backgroundColor: "rgba(6,11,39,1.0)",
+			label: 'Holders',
+			backgroundColor: "#006400",
 			borderColor: "rgba(0,0,0,0.1)",
-			data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
+			data: [null,null,null,200,175,150,175,200,208.3,216.6,225,233,242,250,259,267,284,300,317,333,350,366,382,400]
+		}, {
+			fill: true,
+			label: 'Project',
+			backgroundColor: "#00FF00",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,100,100,100,100,100,104.16,108.3,112.5,117,121,125,129,133,141,150,158,166,175,183,191,200]
+		}, {
+			fill: true,
+			label: 'DeFi ServiCes',
+			backgroundColor: "#0000FF",
+			borderColor: "rgba(0,0,0,0.1)",
+			data: [null,null,null,null,null,null,null,0,12.5,25,37.5,50,62.5,75,87.5,100,125,150,175,201,225,250,275,300]
 		}],
 	}}
 	options={{
 		responsive: true,
 		maintainAspectRatio: false,
+		elements: {
+				point:{
+						radius: 0
+				}
+		},
 		scales: {
 			y: {
 				min: 0,
 				max: 1200,
 				display: true,
+				stacked: true,
 				title: {
 					display: true,
-					text: 'Tokens Created',
+					text: 'Supply',
 					font: {
 						family: 'Comic Sans MS',
 						size: 20,
@@ -2889,7 +2907,7 @@ The volume of each benefit should be estimated in relation to the project capita
 				display: true,
 				title: {
 					display: true,
-					text: 'Orders Delivered (30 days rolling average)',
+					text: 'Demand',
 					font: {
 						family: 'Comic Sans MS',
 						size: 20,
@@ -2926,8 +2944,8 @@ The volume of each benefit should be estimated in relation to the project capita
         annotations: [{
 					type: 'label',
 					xValue: 1.5,
-					yValue: 200,
-					content: ['Funding','Rounds'],
+					yValue: 100,
+					content: ['Fundraising'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -2935,17 +2953,26 @@ The volume of each benefit should be estimated in relation to the project capita
 				}, {
 					type: 'label',
 					xValue: 5,
-					yValue: 200,
-					content: ['Value','Capture'],
+					yValue: 500,
+					content: ['Value Capture'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
 					}
 				}, {
 					type: 'label',
-					xValue: 15,
-					yValue: 200,
-					content: ['Value','Release'],
+					xValue: 11,
+					yValue: 100,
+					content: ['Value Release'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'label',
+					xValue: 19,
+					yValue: 100,
+					content: ['Value Leverage'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
 						size: 18
@@ -2960,7 +2987,7 @@ The volume of each benefit should be estimated in relation to the project capita
 				}, {
 					type: 'label',
 					xValue: 7,
-					yValue: 800,
+					yValue: 1000,
 					content: ['VCE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
@@ -2981,7 +3008,7 @@ The volume of each benefit should be estimated in relation to the project capita
 				}, {
 					type: 'label',
 					xValue: 3,
-					yValue: 800,
+					yValue: 1000,
 					content: ['TGE'],
 					backgroundColor: 'rgba(245,245,245)',
 					font: {
@@ -2992,7 +3019,28 @@ The volume of each benefit should be estimated in relation to the project capita
 					xValue: 3,
 					yValue: 400,
 					backgroundColor: 'rgba(255, 99, 132, 0.25)'
-				}]
+				}, {
+					type: 'line',
+					xMin: 15,
+					xMax: 15,
+					borderColor: 'rgb(255, 99, 132)',
+					borderWidth: 2,
+					borderDash: [5, 5],
+				}, {
+					type: 'label',
+					xValue: 15,
+					yValue: 1000,
+					content: ['DSE'],
+					backgroundColor: 'rgba(245,245,245)',
+					font: {
+						size: 18
+					}
+				}, {
+					type: 'point',
+					xValue: 15,
+					yValue: 800,
+					backgroundColor: 'rgba(255, 99, 132, 0.25)'
+				}, ]
       }
 		}
 	}}
@@ -3005,7 +3053,7 @@ The volume of each benefit should be estimated in relation to the project capita
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
-			<th rowspan="4">GENERAL</th>
+			<th rowspan="2">GENERAL</th>
 			<td>Num Orders Period</td>
 			<td bgcolor="#FFFDE6">1000000</td>
 			<td></td>
@@ -3016,17 +3064,12 @@ The volume of each benefit should be estimated in relation to the project capita
 			<td></td>
 		</tr>
 		<tr>
+			<th rowspan="7">ONE TIME</th>
 			<td>Ratio Initial Supply %</td>
 			<td bgcolor="#FFFDE6"></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>Ratio Exchange to Total %</td>
-			<td bgcolor="#FFFDE6"></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th rowspan="6">ONE TIME</th>
 			<td>Percent Project %</td>
 			<td bgcolor="#FFFDE6">10</td>
 			<td></td>
@@ -3057,19 +3100,14 @@ The volume of each benefit should be estimated in relation to the project capita
 			<td></td>
 		</tr>
 		<tr>
-			<th rowspan="9">PER PERIOD</th>
-			<td>Percent Exchanges %</td>
-			<td bgcolor="#FFFDE6">23</td>
+			<th rowspan="8">PER PERIOD</th>
+			<td>Transaction Fees %</td>
+			<td bgcolor="#FFFDE6">1</td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>Ratio Transactions-Orders Period</td>
 			<td bgcolor="#FFFDE6">0.3</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Transaction Fees %</td>
-			<td bgcolor="#FFFDE6">1</td>
 			<td></td>
 		</tr>
 		<tr>
