@@ -696,12 +696,12 @@ export const TokenAllocationConcepts = () => {
 							'Project', 'Holders', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#0000FF'],
+								backgroundColor: ['#0a1172', '#0a1172', '#1338be', '#1338be', '#1338be', '#d1d1f6', '#d1d1f6', '#add8e6'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+								backgroundColor: ['#0a1172', '#1338be', '#d1d1f6', '#add8e6'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -795,25 +795,25 @@ The VCE triggers the stabilization mechanism which guarantees token units in the
 		datasets: [{
 			fill: true,
 			label: 'Exchanges',
-			backgroundColor: "#FF0000",
+			backgroundColor: "#d1d1f6",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,100,125,150,125,100,125,150,175,200,225,250,275,300,300,300,300,300,300,300,300,300]
 		}, {
 			fill: true,
 			label: 'Holders',
-			backgroundColor: "#006400",
+			backgroundColor: "#1338be",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,200,175,150,175,200,208.3,216.6,225,233,242,250,259,267,284,300,317,333,350,366,382,400]
 		}, {
 			fill: true,
 			label: 'Project',
-			backgroundColor: "#00FF00",
+			backgroundColor: "#0a1172",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,100,100,100,100,100,104.16,108.3,112.5,117,121,125,129,133,141,150,158,166,175,183,191,200]
 		}, {
 			fill: true,
 			label: 'DeFi ServiCes',
-			backgroundColor: "#0000FF",
+			backgroundColor: "#add8e6",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,null,null,null,null,0,12.5,25,37.5,50,62.5,75,87.5,100,125,150,175,201,225,250,275,300]
 		}],
@@ -1199,12 +1199,12 @@ export const InitialTokenAllocation = () => {
 							'Project', 'Funding', 'Exchanges', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#FF0000', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#FF0000'],
+								backgroundColor: ['#d1d1f6', '#0a1172', '#1338be', '#1338be', '#1338be', '#d1d1f6', '#d1d1f6', '#d1d1f6'],
 								data: [0, 1, 2, 3, 5, 4, 0, 0] ,
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#FF0000'],
+								backgroundColor: ['#0a1172', '#1338be', '#d1d1f6', '#d1d1f6'],
 								data: [1, 10, 4, 0],
 								order: [10, 1, 5, 8],
 								index: 1
@@ -1247,7 +1247,7 @@ export const InitialTokenAllocation = () => {
 										return labelsOriginal.sort((label2, label1) => {
 											return orders[label2.index] - orders[label1.index];
 										}).filter((label, index, array) => {
-											return (datasetColors[label.index] != '#FF0000' && [1, 2, 3, 4, 10].includes(label.index));
+											return (datasetColors[label.index] != '#d1d1f6' && [1, 2, 3, 4, 10].includes(label.index));
 										}).map((label) => {
 										label.datasetIndex = label.index;
 										label.fillStyle = datasetColors[label.index];
@@ -1344,31 +1344,31 @@ export const SupplyProfileChart = () => {
 					datasets: [{
 						fill: true,
 						label: 'Exchanges',
-						backgroundColor: "#006400",
+						backgroundColor: "#d1d1f6",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 8, 12, 40, 48)
 					}, {
 						fill: true,
 						label: 'Seed Round',
-						backgroundColor: "rgba(0,205,0,1.0)",
+						backgroundColor: "#1338be",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 0, 12, 10, 24),
 					}, {
 						fill: true,
 						label: 'Pre-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
+						backgroundColor: "#1338be",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 4, 3, 40, 24)
 					}, {
 						fill: true,
 						label: 'Public-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
+						backgroundColor: "#1338be",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 10, 3, 50, 12)
 					}, {
 						fill: true,
 						label: 'Project',
-						backgroundColor: "rgba(0,0,205,1.0)",
+						backgroundColor: "#0a1172",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 0, 3, 10, 12)
 					}],
@@ -1376,6 +1376,11 @@ export const SupplyProfileChart = () => {
 				options={{
 					responsive: true,
 					maintainAspectRatio: false,
+					elements: {
+							point:{
+									radius: 0
+							}
+					},
 					scales: {
 						y: {
 							min: 0,
@@ -1463,12 +1468,12 @@ export const ProjectAllocation = () => {
 							'Project', 'Holders', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#0a1172', '#0a1172', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#0a1172', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -1619,12 +1624,12 @@ export const FundingAllocation = () => {
 							'Project', 'Funding', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#006400', '#006400', '#006400', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#1338be', '#1338be', '#1338be', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#006400', '#D3D3D3', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#1338be', '#D3D3D3', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -1928,12 +1933,12 @@ export const NegotiationAllocation = () => {
 							'Project', 'Holders', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#FF0000', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#d1d1f6', '#d1d1f6', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#d1d1f6', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2240,12 +2245,12 @@ export const ConsolidatedTokenAllocation = () => {
 							'Project', 'Holders', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
-								backgroundColor: ['#00FF00', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#0000FF'],
+								backgroundColor: ['#0a1172', '#0a1172', '#1338be', '#1338be', '#1338be', '#d1d1f6', '#d1d1f6', '#add8e6'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#00FF00', '#006400', '#FF0000', '#0000FF'],
+								backgroundColor: ['#0a1172', '#1338be', '#d1d1f6', '#add8e6'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2348,31 +2353,31 @@ export const ReleaseScheduleChart = () => {
 					datasets: [{
 						fill: true,
 						label: 'Exchanges',
-						backgroundColor: "#006400",
+						backgroundColor: "#d1d1f6",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 8, 12, 40, 48)
 					}, {
 						fill: true,
 						label: 'Seed Round',
-						backgroundColor: "rgba(0,205,0,1.0)",
+						backgroundColor: "#1338be",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 0, 12, 10, 24),
 					}, {
 						fill: true,
 						label: 'Pre-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
+						backgroundColor: "#1338be",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 4, 3, 40, 24)
 					}, {
 						fill: true,
 						label: 'Public-Sale',
-						backgroundColor: "rgba(0,205,0,1.0)",
+						backgroundColor: "#1338be",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 10, 3, 50, 12)
 					}, {
 						fill: true,
 						label: 'Project',
-						backgroundColor: "rgba(0,0,205,1.0)",
+						backgroundColor: "#0a1172",
 						borderColor: "rgba(0,0,0,0.1)",
 						data: vesting(60, 0, 3, 10, 12)
 					}],
@@ -2380,6 +2385,11 @@ export const ReleaseScheduleChart = () => {
 				options={{
 					responsive: true,
 					maintainAspectRatio: false,
+					elements: {
+							point:{
+									radius: 0
+							}
+					},
 					scales: {
 						y: {
 							min: 0,
@@ -2669,12 +2679,12 @@ export const UnderlyingAssetPayments = () => {
 							'Project', 'Holders', 'Liquidity', 'Operations'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#FF0000', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#d1d1f6', '#d1d1f6', '#D3D3D3'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#FF0000', '#D3D3D3'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#d1d1f6', '#D3D3D3'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -2808,12 +2818,12 @@ export const OperationsAllocation = () => {
 							'Project', 'Holders', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#add8e6'],
 								data: [9, 1, 2, 3, 5, 4, 5, 71],
 								order: [11, 12, 2, 3, 4, 6, 7, 9],
 								index: 0
 							}, {
-								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
+								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#add8e6'],
 								data: [10, 10, 9, 71],
 								order: [1, 10, 5, 8],
 								index: 1
@@ -3050,25 +3060,25 @@ The volume of each benefit should be estimated in relation to the project capita
 		datasets: [{
 			fill: true,
 			label: 'Exchanges',
-			backgroundColor: "#FF0000",
+			backgroundColor: "#d1d1f6",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,100,125,150,125,100,125,150,175,200,225,250,275,300,300,300,300,300,300,300,300,300]
 		}, {
 			fill: true,
 			label: 'Holders',
-			backgroundColor: "#006400",
+			backgroundColor: "#1338be",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,200,175,150,175,200,208.3,216.6,225,233,242,250,259,267,284,300,317,333,350,366,382,400]
 		}, {
 			fill: true,
 			label: 'Project',
-			backgroundColor: "#00FF00",
+			backgroundColor: "#0a1172",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,100,100,100,100,100,104.16,108.3,112.5,117,121,125,129,133,141,150,158,166,175,183,191,200]
 		}, {
 			fill: true,
 			label: 'DeFi ServiCes',
-			backgroundColor: "#0000FF",
+			backgroundColor: "#add8e6",
 			borderColor: "rgba(0,0,0,0.1)",
 			data: [null,null,null,null,null,null,null,0,12.5,25,37.5,50,62.5,75,87.5,100,125,150,175,201,225,250,275,300]
 		}],
@@ -3299,7 +3309,23 @@ The volume of each benefit should be estimated in relation to the project capita
 			<td></td>
 		</tr>
 		<tr>
-			<th rowspan="8">PER PERIOD</th>
+			<th rowspan="3">BORROWED</th>
+			<td>Leverage</td>
+			<td bgcolor="#FFFDE6">5</td>
+			<td>Num Orders * Size Order * Leverage</td>
+		</tr>
+		<tr>
+			<td>3 - DeFi Services Allocation</td>
+			<td>75000000</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th>TOTAL BORROWED</th>
+			<th>75000000</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th rowspan="8">CONTINUOUS</th>
 			<td>Transaction Fees %</td>
 			<td bgcolor="#FFFDE6">1</td>
 			<td></td>
@@ -3320,39 +3346,23 @@ The volume of each benefit should be estimated in relation to the project capita
 			<td></td>
 		</tr>
 		<tr>
-			<td>3 - Transaction Fees</td>
+			<td>4 - Transaction Fees</td>
 			<td>45000</td>
 			<td>Num Transactions * Transaction Fees</td>
 		</tr>
 		<tr>
-			<td>4 - Lending Fees</td>
+			<td>5 - Lending Fees</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>5 - Transfer Fees</td>
+			<td>6 - Transfer Fees</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th>TOTAL PER PERIOD</th>
 			<th>45000</th>
-			<td></td>
-		</tr>
-		<tr>
-			<th rowspan="3">BORROWED</th>
-			<td>Leverage</td>
-			<td bgcolor="#FFFDE6">5</td>
-			<td>Num Orders * Size Order * Leverage</td>
-		</tr>
-		<tr>
-			<td>6 - DeFi Services Allocation</td>
-			<td>75000000</td>
-			<td></td>
-		</tr>
-		<tr>
-			<th>TOTAL BORROWED</th>
-			<th>75000000</th>
 			<td></td>
 		</tr>
 	</table>
