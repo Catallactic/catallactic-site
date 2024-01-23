@@ -693,7 +693,7 @@ export const TokenAllocationConcepts = () => {
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'DeFi Services', 
-							'Project', 'Funding', 'Liquidity', 'DeFi Services'
+							'Project', 'Holders', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
 								backgroundColor: ['#00FF00', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#0000FF'],
@@ -1460,7 +1460,7 @@ export const ProjectAllocation = () => {
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Funding', 'Liquidity', 'Operations'
+							'Project', 'Holders', 'Liquidity', 'Operations'
 						],
 						datasets: [{
 								backgroundColor: ['#00FF00', '#00FF00', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3'],
@@ -1925,7 +1925,7 @@ export const NegotiationAllocation = () => {
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Funding', 'Liquidity', 'Operations'
+							'Project', 'Holders', 'Liquidity', 'Operations'
 						],
 						datasets: [{
 								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#FF0000', '#D3D3D3'],
@@ -2237,7 +2237,7 @@ export const ConsolidatedTokenAllocation = () => {
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'DeFi Services', 
-							'Project', 'Funding', 'Liquidity', 'DeFi Services'
+							'Project', 'Holders', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
 								backgroundColor: ['#00FF00', '#00FF00', '#006400', '#006400', '#006400', '#FF0000', '#FF0000', '#0000FF'],
@@ -2666,7 +2666,7 @@ export const UnderlyingAssetPayments = () => {
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'Operations', 
-							'Project', 'Funding', 'Liquidity', 'Operations'
+							'Project', 'Holders', 'Liquidity', 'Operations'
 						],
 						datasets: [{
 								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#FF0000', '#FF0000', '#D3D3D3'],
@@ -2805,7 +2805,7 @@ export const OperationsAllocation = () => {
 							'Private Sale', 'Presale', 'Crowdsale', 
 							'Exchanges', 'Exchanges',
 							'DeFi Services', 
-							'Project', 'Funding', 'Liquidity', 'DeFi Services'
+							'Project', 'Holders', 'Liquidity', 'DeFi Services'
 						],
 						datasets: [{
 								backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#0000FF'],
