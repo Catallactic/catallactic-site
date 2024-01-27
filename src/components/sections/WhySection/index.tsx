@@ -33,7 +33,7 @@ export default function WhySection(): JSX.Element {
 
 				<div className="text-center pb-1 mb-4">
 				{<div className="h1 fw-bold color-theme-reverse2">Capturing Commodities Marginal Utility</div>}
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework and Community to capture the  Marginal Utility of Commodity Assets, build <b>Commodity-backed No-fiat Stablecoins</b> and provide DeFi Services back to the Society</p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework and Community to capture the Marginal Utility of Commodity Assets and build <b>Commodity-backed No-fiat Stablecoins</b> that can provide DeFi Services back to the Community</p>
 				</div>
 
 				<div className="row">
