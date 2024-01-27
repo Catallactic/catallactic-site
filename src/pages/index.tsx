@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -13,6 +13,7 @@ import SuiteSection from '@site/src/components/sections/SuiteSection';
 import EcosystemSection from '@site/src/components/sections/EcosystemSection';
 import AdoptersSections from '@site/src/components/sections/AdoptersSection';
 import InvestorsSection from '@site/src/components/sections/InvestorsSection';
+import {Survey} from '@site/src/components/sections/Survey';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -64,6 +65,8 @@ export default function Home(): JSX.Element {
         <SuiteSection />
         <AdoptersSections />
 				{/* <InvestorsSection /> */}
+				{/* <Survey/>*/}
+
       </main>
     </Layout>
   );
