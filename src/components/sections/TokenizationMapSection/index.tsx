@@ -16,7 +16,7 @@ export default function TokenizationMapSection(): JSX.Element {
 				<div className="row margin-bottom--lg feature_eSJM">
 
 					<div className="col col--6 my-auto d-flex">
-						<div className="text--center">
+						<div className="text--center" style={{overflowX : 'auto'}}>
 							<table className="table w-auto mx-auto fs-6">
 								<thead className="thead-dark">
 									<tr>
