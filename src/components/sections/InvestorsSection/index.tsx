@@ -36,7 +36,7 @@ export default function InvestorsSection(): JSX.Element {
 
 						<div className="padding-horiz--md margin-top--lg shadow">
 							<h3>VCs</h3>
-							<p className="text--left">Some criteria: invest in no-fiat-tokenization, tokenized investor, disruptive, contrarian, challenge status quo, emerging market, consumer oriented, massification, no-only gaming/AI/metaverse combo</p>
+							<p className="text--left">Some criteria: invest in non-fiat-tokenization, tokenized investor, disruptive, contrarian, challenge status quo, emerging market, consumer oriented, massification, no-only gaming/AI/metaverse combo</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/vc' role='button'>Access the list</a>
 						</div>
 
