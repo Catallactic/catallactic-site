@@ -11,7 +11,7 @@ function Survey2() {
   );
 }
 
-export const Survey = () => {
+export default function Survey(): JSX.Element {
 
 	// 0: showing button
 	// 1: showing survey
@@ -32,7 +32,9 @@ export const Survey = () => {
 	}
 	async function handleCloseThanks(e) {
 		e.preventDefault();
-		localStorage.setItem('voted', 'true');
+		if (typeof window !== "undefined") {
+			localStorage.setItem('voted', 'true');
+		}
 		setStatus(3);
 	}
 
@@ -50,7 +52,7 @@ export const Survey = () => {
       [input]: value
     }));
 
-  };
+  }
   async function handleSubmit(e) {
     e.preventDefault();
 		setStatus(2);
@@ -73,7 +75,7 @@ export const Survey = () => {
 	// https://hasura.io/docs/latest/index/
 	return (
 		<div>
-				{ localStorage.getItem('voted') != null ? (
+				{ typeof window !== "undefined" && localStorage.getItem('voted') != null ? (
 					<div/>
 
 				) : STATUS == 0 ? (
@@ -157,9 +159,9 @@ export const Survey = () => {
 						</div>
 					</div>
 
-        ) : 
+        ) : (
 					<div/>
-				}
+				)}
       </div>
-  );
-};
+  )
+}

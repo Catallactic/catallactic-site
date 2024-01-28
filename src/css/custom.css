@@ -172,11 +172,11 @@ table {
 /****************************** survey **************************************/
 /****************************************************************************/
 
+/* survey button */
 .chart-container {
 	text-align: center;
 	margin: 0%;
 }
-
 .chart-panel {
 	min-height: 350px;
 	width: 60%;
@@ -188,13 +188,10 @@ table {
 		width: 100%;
   }
 }
-
 .chart-panel2 {
 	min-height: 350px;
   margin: 0 auto;
 }
-
-
 .chat-popup {
 	bottom: 20px;
 	position: fixed;
@@ -224,9 +221,7 @@ table {
 	width: 20px;
 }
 
-
-
-
+/* survey container */
 .survey{
   margin: 2rem auto;
   background: white;
@@ -248,21 +243,7 @@ table {
 	width: 100%;
 }
 
-/**
- * How it should look when hovered
- */
-.active-label{
-  color: #1976D2;
-
-  &:before{
-    background: white;
-    border-color: #1976D2;
-  }
-}
-
-/**
- * Make those labels sexy
- */
+/* survey labels */
 .survey label{
   font-size: 1.2rem;
   line-height: 1;
@@ -272,81 +253,48 @@ table {
   position: relative;
   border-top: 1px solid rgba(black,.1);
   background: white;
-  whitespace: no-wrap;
   overflow: hidden;
   text-overflow: ellipsis;
   transition: all .15s ease;
 	color:  #1976D2;
-
-  &:focus,
-  &:hover,
-  &:active{
-    @extend .active-label;
-  }
-
-  &:first-of-type{
-    border: 0;
-  }
-  
-  /**
-   * This is the radio fake dot basically
-   */
-  &:before{
-    content: "";
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    border: .2rem solid #ccc;
-  }
 }
-
+.survey label:first-of-type {
+  border: 0;
+}
+.survey label:before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 0.2rem solid #ccc;
+}
+.survey input:checked + label, .survey label:focus, .survey label:hover, .survey label:active {
+  color: #1976D2;
+}
+.survey input:checked + label:before, .survey label:focus:before, .survey label:hover:before, .survey label:active:before {
+  background: white;
+  border-color: #1976D2;
+}
 .surveyitem {
 	margin: 0%;
 	padding: 0%;
 }
-
 .survey input[type=radio]{
   display: none;
 }
-
-/**
- * How it should look when checked
- */
-.survey input:checked + label{ 
-  @extend .active-label;
-
-  &:before{
-    border-color: white;
-    border: none;
-    background: #1976D2;
-  }
+.survey input:checked + label:before {
+  border-color: white;
+  border: none;
+  background: #1976D2;
 }
 
-/**
- * How it should look when disabled
- */
-.survey input:disabled + label{ 
-  background: #efefef;
-  color: rgba(black,.5);
-  cursor: not-allowed;
-
-  &:hover{
-    border-color: rgba(black,.1);
-  }
-
-  &:before{
-    border-color: white;
-    background: white;
-  }
-}
-
+/* survey button */
 .surveybuttons {
 	text-align: center;
 }
-
 .surveybutton {
   outline: none;
   cursor: pointer;
