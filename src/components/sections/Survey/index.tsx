@@ -91,7 +91,7 @@ export default function Survey(): JSX.Element {
 					</div>
 
         ) : STATUS == 1 ? (
-					<div className="survey" style={{ position: 'fixed', bottom: 0, right: '20px' }}>
+					<div className="survey" style={{ position: 'fixed', bottom: 0 }}>
 						<form onSubmit={handleSubmit} target="_self">
 
 							<div className="surveytitle">
