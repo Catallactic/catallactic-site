@@ -65,7 +65,7 @@ export default function Home(): JSX.Element {
         <SuiteSection />
         <AdoptersSections />
 				{/* <InvestorsSection /> */}
-				{/* <Survey/>*/}
+				{<Survey/>}
 
       </main>
     </Layout>
