@@ -223,14 +223,14 @@ const config = {
 								label: 'Blog',
                 to: '/blog',
               }, {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/CryptoAustrians/',
+							}, {
                 label: 'GitHub',
                 href: 'https://github.com/Catallactic',
               }, {
-                label: 'Discord',
-                href: 'https://discord.gg/xwJR9MZPmA',
-              }, {
-								to: 'https://www.linkedin.com/company/catallactic/', 
 								label: 'LinkedIn', 
+								to: 'https://www.linkedin.com/company/catallactic/', 
 							},
             ],
           },
