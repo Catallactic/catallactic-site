@@ -286,7 +286,73 @@ In this section we will discuss the requirements that enable CryptoCommodity to 
 
 The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
 
-The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. From Juan de Mariana (1609), Sir William Petty (1662), Adam Smith (1776), Jean Baptiste Say (1802), Nassau William Senior (1850), John Stuart Mill (1848), Carl Menger (1871), William Stanley Jevons’s (1875), Mises (1953), Rothbard (2004) provide different insights on the quality of money.
+The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. Different authors provided different insights on the quality of money.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Money</td>
+			<td>Functions</td>
+			<td>Qualities</td>
+		</tr>
+		<tr>
+			<td>Juan de Mariana (1609)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Sir William Petty (1662)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Adam Smith (1776)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Jean Baptiste Say (1802)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Nassau William Senior (1850)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>John Stuart Mill (1848)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Carl Menger (1871)</td>
+			<td>Medium of exchange</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>William Stanley Jevons’s (1875)</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Mises (1953)</td>
+			<td>Medium of exchange</td>
+			<td>Does not mention the quality of money</td>
+		</tr>
+		<tr>
+			<td>Rothbard (2004)</td>
+			<td>Medium of exchange</td>
+			<td>In heavy demand, highly divisible, portable, durable, and has a high value per unit weight</td>
+		</tr>
+		<tr>
+			<td>Hayek</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
 
@@ -296,62 +362,49 @@ One of the most important properties for the quality of money is the <b>existenc
 	<table>
 		<tr>
 			<td>Quality</td>
-			<td>Authors</td>
 			<td>Medium of Exchange</td>
 			<td>Store of Value</td>
 			<td>Unit of Account</td>
 		</tr>
 		<tr>
 			<td>Uniform</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Say</td>
 			<td>-</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>Divisible</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Scarce</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Adam Smith, Say, Rothbard [0]</td>
 			<td>-</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>Durable</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Adam Smith, Say, Rothbard [0]</td>
 			<td>-</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>Portable</td>
+			<td>Rothbard [0]</td>
 			<td>-</td>
 			<td>-</td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td>Say, </td>
 			<td>-</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>Acceptable</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Recognised</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Rothbard [0]</td>
 			<td>-</td>
 			<td>-</td>
 		</tr>
 	</table>
 </div>
+<br/>
 
 ### 4.2. Quantity Theory of Money
 
@@ -384,7 +437,7 @@ In order to create a complete Quality Theory of Money we must identify the funct
 
 To work as a Medium of Exchange:
 
-* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problm or an smart contract
+* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problem for an smart contract
 
 * the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
 
