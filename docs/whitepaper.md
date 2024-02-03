@@ -298,27 +298,22 @@ The theory of the quality of money, even though not under this label, has a long
 		<tr>
 			<td>Juan de Mariana (1609)</td>
 			<td>-</td>
-			<td>-</td>
+			<td>Deterioration of the quality of gold coins must be considered a tax</td>
 		</tr>
 		<tr>
 			<td>Sir William Petty (1662)</td>
 			<td>-</td>
-			<td>-</td>
+			<td>Deterioration of the quality of coins by the government a tax</td>
 		</tr>
 		<tr>
 			<td>Adam Smith (1776)</td>
 			<td>-</td>
-			<td>-</td>
+			<td>Durability and divisibility</td>
 		</tr>
 		<tr>
 			<td>Jean Baptiste Say (1802)</td>
 			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Nassau William Senior (1850)</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Divisible, of the same quality, resistant to friction, sufficiently rare, and malleable</td>
 		</tr>
 		<tr>
 			<td>John Stuart Mill (1848)</td>
@@ -346,7 +341,7 @@ The theory of the quality of money, even though not under this label, has a long
 			<td>In heavy demand, highly divisible, portable, durable, and has a high value per unit weight</td>
 		</tr>
 		<tr>
-			<td>Hayek</td>
+			<td>Friedrich Hayek</td>
 			<td>-</td>
 			<td>-</td>
 		</tr>
