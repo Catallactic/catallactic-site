@@ -9,7 +9,7 @@ export default function SuiteSction(): JSX.Element {
 
 				<div className="text-center">
 					 <div className="h1 fw-bold color-theme-reverse2">Catallactic Suite</div> 
-					<p className="h3 color-theme-reverse1 m-5 lh-base">Catallactic Suite will enable interaction with described features</p>
+					<p className="h3 color-theme-reverse1 m-5 lh-base">Catallactic Suite will enable any commodities producer to issue a currency. The currency is standard with built-in best practices. The issuer configures the currency and provides the value.</p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">
