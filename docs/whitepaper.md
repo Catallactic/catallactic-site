@@ -357,45 +357,43 @@ One of the most important properties for the quality of money is the <b>existenc
 	<table>
 		<tr>
 			<td>Quality</td>
-			<td>Medium of Exchange</td>
-			<td>Store of Value</td>
-			<td>Unit of Account</td>
+			<td>Author</td>
+			<td>Description</td>
 		</tr>
 		<tr>
 			<td>Uniform</td>
 			<td>Say</td>
-			<td>-</td>
-			<td>-</td>
+			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
 		</tr>
 		<tr>
 			<td>Divisible</td>
 			<td>Adam Smith, Say, Rothbard [0]</td>
-			<td>-</td>
-			<td>-</td>
+			<td>easy to divide up in smaller parts or put them together to larger parts</td>
 		</tr>
 		<tr>
 			<td>Durable</td>
 			<td>Adam Smith, Say, Rothbard [0]</td>
-			<td>-</td>
-			<td>-</td>
+			<td>we can store it and it won’t age with time</td>
 		</tr>
 		<tr>
-			<td>Portable</td>
-			<td>Rothbard [0]</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Recognizable</td>
+			<td></td>
+			<td>easy to recognize the material, it should not demand extensive tests to prove what material it is</td>
+		</tr>
+		<tr>
+			<td>Recognizable</td>
+			<td></td>
+			<td>very hard or even impossible to counterfeit</td>
 		</tr>
 		<tr>
 			<td>Scarce</td>
 			<td>Say, </td>
-			<td>-</td>
-			<td>-</td>
+			<td>total supply of the medium is limited and known</td>
 		</tr>
 		<tr>
 			<td>Acceptable</td>
 			<td>Rothbard [0]</td>
-			<td>-</td>
-			<td>-</td>
+			<td>accepted as a medium of exchange in the community</td>
 		</tr>
 	</table>
 </div>
