@@ -221,20 +221,8 @@ Depends on the kind of asset service, collateral could be just a provision guara
 
 The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio. This must be in a contract
 
-### 3.5. CryptoCommodity Functions
 
-CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
-
-CryptoCommodities purchasing power is borrowed from the marginal utility of the underlying asset. They can be used as payment method for the underlying asset or for any other asset in a relation of the price of this other asset and the marginal utility captured from the underlyting asset.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
-</div>
-<br/>
-
-CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
-
-### 3.6. CryptoCommodity Ecosystem
+### 3.5. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
@@ -249,11 +237,11 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 3.7. CryptoCommodity Scope
+### 3.6. CryptoCommodity Scope
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 3.8. CryptoCommodity vs Stablecoin
+### 3.7. CryptoCommodity vs Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -277,12 +265,25 @@ The only Token Model that has the purpose to become a currency today is the Stab
 
 
 
-## 4. CryptoCommodity as Currency
+## 4. CryptoCommodity as Quality Money
 ---
 
 In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. That is to increase its demand.
 
-### 4.1. Quality of Money
+### 4.1. CryptoCommodity Functions
+
+CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
+
+CryptoCommodities purchasing power is borrowed from the marginal utility of the underlying asset. They can be used as payment method for the underlying asset or for any other asset in a relation of the price of this other asset and the marginal utility captured from the underlyting asset.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/cryptocommodities_scope3.svg" width="100%"></img>
+</div>
+<br/>
+
+CryptoCommodities do not ambition to be used as monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represents the value of the underlaying asset and ignore any aspect external to the underlying asset.
+
+### 4.2. CryptoCommodity as Currency (Medium of Exchange)
 
 The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
 
@@ -292,57 +293,46 @@ The theory of the quality of money, even though not under this label, has a long
 	<table>
 		<tr>
 			<td>Money</td>
-			<td>Functions</td>
-			<td>Qualities</td>
+			<td>Qualities as Currency</td>
 		</tr>
 		<tr>
 			<td>Juan de Mariana (1609)</td>
-			<td>-</td>
 			<td>Deterioration of the quality of gold coins must be considered a tax</td>
 		</tr>
 		<tr>
 			<td>Sir William Petty (1662)</td>
-			<td>-</td>
 			<td>Deterioration of the quality of coins by the government a tax</td>
 		</tr>
 		<tr>
 			<td>Adam Smith (1776)</td>
-			<td>-</td>
 			<td>Durability and divisibility</td>
 		</tr>
 		<tr>
 			<td>Jean Baptiste Say (1802)</td>
-			<td>-</td>
 			<td>Divisible, of the same quality, resistant to friction, sufficiently rare, and malleable</td>
 		</tr>
 		<tr>
 			<td>John Stuart Mill (1848)</td>
 			<td>-</td>
-			<td>-</td>
 		</tr>
 		<tr>
 			<td>Carl Menger (1871)</td>
-			<td>Medium of exchange</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>William Stanley Jevons’s (1875)</td>
 			<td>-</td>
-			<td>-</td>
 		</tr>
 		<tr>
 			<td>Mises (1953)</td>
-			<td>Medium of exchange</td>
 			<td>Does not mention the quality of money</td>
 		</tr>
 		<tr>
 			<td>Rothbard (2004)</td>
-			<td>Medium of exchange</td>
 			<td>In heavy demand, highly divisible, portable, durable, and has a high value per unit weight</td>
 		</tr>
 		<tr>
 			<td>Friedrich Hayek</td>
-			<td>-</td>
 			<td>-</td>
 		</tr>
 	</table>
@@ -399,7 +389,19 @@ One of the most important properties for the quality of money is the <b>existenc
 </div>
 <br/>
 
-### 4.2. Quantity Theory of Money
+### 4.3. CryptoCommodity Additional Functions
+
+### 4.4. CryptoCommodity as Competing Money
+
+Quantity Theory of Money does not reconciliate well with crypto. As Hayek claimed 
+
+> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
+
+This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+
+Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
+
+#### 4.4.1. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -413,18 +415,7 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
-
-### 4.3. CryptoCommodity as Competing Currency
-
-Quantity Theory of Money does not reconciliate well with crypto. As Hayek claimed 
-
-> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
-
-This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
-
-Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
-
-### 4.4. CryptoCommodity as Quality Currency
+#### 4.4.2. CryptoCommodity as Quality Money
 
 In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
