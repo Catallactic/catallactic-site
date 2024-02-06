@@ -381,7 +381,7 @@ One of the most important properties for the quality of money is the <b>existenc
 			<td>easy to recognize the material, it should not demand extensive tests to prove what material it is</td>
 		</tr>
 		<tr>
-			<td>Recognizable</td>
+			<td>Unforgeable</td>
 			<td></td>
 			<td>very hard or even impossible to counterfeit</td>
 		</tr>
