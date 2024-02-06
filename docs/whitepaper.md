@@ -355,7 +355,7 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
 -->
-### 4.2. CryptoCommodity as Quality Money
+### 4.2. CryptoCommodity Qualities
 
 <div style={{overflowX : 'auto'}}>
 	<table>
