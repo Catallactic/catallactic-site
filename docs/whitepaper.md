@@ -343,7 +343,11 @@ The price of money is its purchasing power. As any price, the price of money is 
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-#### 4.1.2. CryptoCommodity Additional Functions
+#### 4.1.2. Regression Theorem
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
+#### 4.1.3. CryptoCommodity Additional Functions
 
 
 
@@ -476,8 +480,6 @@ CryptoCommodities are built on clear principles. These principles must be provid
 However, as the principles mayb change between regions or underlying assets a degree of configuration must be also included.
 
 ### 4.5. The ideal underlying asset
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity. 
 
 To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
