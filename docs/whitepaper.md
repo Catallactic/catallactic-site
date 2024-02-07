@@ -347,8 +347,11 @@ One of the most important properties for the quality of money is the <b>existenc
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-#### 4.1.3. CryptoCommodity Additional Functions
+#### 4.1.3. Store of Value
 
+#### 4.1.3. Unit of Account
+
+Price Formation
 
 
 
