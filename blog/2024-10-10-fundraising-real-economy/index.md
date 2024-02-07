@@ -1,6 +1,6 @@
 ---
-slug: Fundraising for the Real Economy
-title: Fundraising for the Real Economy
+slug: TODO -Fundraising for the Real Economy
+title: TODO -Fundraising for the Real Economy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---

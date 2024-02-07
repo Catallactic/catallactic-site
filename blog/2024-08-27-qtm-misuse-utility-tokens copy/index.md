@@ -1,6 +1,6 @@
 ---
-slug: QTM Misuse on Utility Tokens
-title: QTM Misuse on Utility Tokens
+slug: TODO - QTM Misuse on Utility Tokens
+title: TODO - QTM Misuse on Utility Tokens
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: /img/catallactic-banner.jpg

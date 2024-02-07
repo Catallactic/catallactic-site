@@ -1,6 +1,6 @@
 ---
-slug: Investors Profit in Units of Account
-title: Investors Profit in Units of Account
+slug: TODO - Investors Profit with CryptoCommodities
+title: TODO - Investors Profit with CryptoCommodities
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: https://i.imgur.com/mErPwqL.png
@@ -11,9 +11,8 @@ image: https://i.imgur.com/mErPwqL.png
 `(Under development. Please, come back later. Just published to share the progress)`
 :::
 
-## Introduction
+## Investors Profit with CryptoCommodities
 
-## Estimating investors profit
 
 
 
