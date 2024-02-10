@@ -1,13 +1,13 @@
 ---
-slug: How would be an Austrian Economics compliant cryptocurrency
-title: How would be an Austrian Economics compliant cryptocurrency
+slug: What qualities should have an Austrian Economics compliant cryptocurrency
+title: What qualities should have an Austrian Economics compliant cryptocurrency
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: /img/catallactic-banner.jpg
 ---
 ---
 
-## How would be an Austrian Economics compliant cryptocurrency?
+## What qualities should have an Austrian Economics compliant cryptocurrency?
 
 There is not consensus between the authors in what a currency is, what are their qualities and funcions. Below is a list of qualities for a currency mentioned in the literature.
 
@@ -70,6 +70,4 @@ In fact, a proper Quality Theory of Money is long overdue and should be foundati
 Without a proper Quality Theory of Money is not possible to build Quality Cryptocurrencies and have a Currency Competition. Existing cryptocurrencies do not comply with many of the functions above and so, they cannot be ranked by quality and a Currency Competition based on Quality cannot be established.
 
 What seems clear is that, an Austrian CryptoCurrency, should be a non-fiat stablecoin, capturing marginal utility of a commodity, plus additional features.
-
-What do you thing? Do you recall more qualities of currencies to this list?
 <br/>
