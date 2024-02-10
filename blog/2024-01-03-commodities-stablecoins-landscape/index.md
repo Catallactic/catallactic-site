@@ -95,4 +95,6 @@ Saying that they are backed by the "value" of a commodity is misleading. Instead
 Therefore all of them are fiat currencies. In other words, they are centralized in value. In this case, "backed by commodities" does not mean an implementation of the AE principles.
 
 Additionally, in order to set the price in the smart contract, this smart contract needs to inquiry an Oracle. This creates an architectural weakpoint since there is a single point of manipulation.
+
+One of the Hayek's requirements to deploy a commodities backed currency competition was to remove fiat money. <b>Pegging privately issued currencies to fiat money cannot compliant with AE principles</b> as it is a violation of the assumption.
 <br/>
