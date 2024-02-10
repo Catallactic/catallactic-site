@@ -32,3 +32,4 @@ Furthermore, none of the 5 previous kind of tokens comply with Mises's Regressio
 The full list of requirements to fit into the AE and how to create an AE compliant cryptocurrency will be discussed on another post.
 
 Do you see any other points here?
+<br/>

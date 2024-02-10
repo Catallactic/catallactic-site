@@ -72,3 +72,4 @@ Without a proper Quality Theory of Money is not possible to build Quality Crypto
 What seems clear is that, an Austrian CryptoCurrency, should be a non-fiat stablecoin, capturing marginal utility of a commodity, plus additional features.
 
 What do you thing? Do you recall more qualities of currencies to this list?
+<br/>

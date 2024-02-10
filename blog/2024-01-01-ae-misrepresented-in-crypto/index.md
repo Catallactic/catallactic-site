@@ -24,3 +24,4 @@ The community will need technical skillsets to implement the ideas. But it also 
 Relying in establishment action for AE adoption, e.g. adopting a gold standard, seems a delusional belief. Instead, enabling individuals to solve their own problems with private iniciatives and private risk looks closer to AE principles. In fact, Gold Standard probably will come AFTER by itself.
 
 AE advocates is typically rational and skilled people. We know how to solve problems under the core foundational principle of mutual respect so, hopefully, wont need making the mistake of using politics, ideology or sensationalism to bring our ideas forward.
+<br/>

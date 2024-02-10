@@ -42,3 +42,4 @@ On the other hand, most of citizens make their living in the Real Economy but bu
 If, according to Austrian Economics, wealth comes from commodities and money is only a Medium of Exchange for real world transactions, with the advent of electronic money, what prevents Real Economy providers to issue cryptocurrencies by capturing the wealth of commodities as perceived by customers and use them to fund their projects providing financial services to their communities?
 
 Can someone provide an insight on this?
+<br/>
