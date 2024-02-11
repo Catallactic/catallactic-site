@@ -1,6 +1,6 @@
 ---
-slug: TODO - The 6 Styles of RWA Tokenization
-title: TODO - The 6 Styles of RWA Tokenization
+slug: TODO - Supply management strategies
+title: TODO - Supply management strategies
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: /img/catallactic-banner.jpg
