@@ -7,10 +7,6 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-:::danger
-`(Under development. Please, come back later. Just published to share the progress)`
-:::
-
 ## 1. Introduction
 
 - RWA Utility Token
