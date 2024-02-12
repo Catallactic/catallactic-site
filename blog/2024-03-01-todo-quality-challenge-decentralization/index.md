@@ -7,6 +7,4 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## 1. Introduction
-
 2024-03-01-quality-decentralization-challenge copy
