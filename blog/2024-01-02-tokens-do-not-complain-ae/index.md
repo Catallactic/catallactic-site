@@ -12,7 +12,7 @@ None of them fits complies the requirements for an Austrian Economics currency c
 <!-- truncate -->
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/tokenization_maturity_model_seal.svg" width="70%"></img>
+	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
 </div>
 <br/>
 <br/>
