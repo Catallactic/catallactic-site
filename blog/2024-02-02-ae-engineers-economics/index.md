@@ -61,8 +61,9 @@ Hayek accused to Milton Friedman of being a Keynesian.
 <div style={{textAlign: 'center'}}>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fXqc-yyoVKg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br/>
 
-In fact, methodology was the cornerstone of the debate between Austrians and Keynesians.
+Methodology was at the center of the debate between Austrians and Keynesians.
 
 <div style={{textAlign: 'center'}}>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d0nERTFo-Sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
