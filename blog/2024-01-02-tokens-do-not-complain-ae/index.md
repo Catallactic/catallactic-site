@@ -7,8 +7,6 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## Why existing tokens do not fit into Austrian Economics currency competition?
-
 None of them fits complies the requirements for an Austrian Economics currency competition, for different reasons.
 
 <!-- truncate -->

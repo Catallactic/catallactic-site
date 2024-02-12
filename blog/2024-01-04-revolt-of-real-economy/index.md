@@ -7,8 +7,6 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## Commodities-backed Currency Competition as the revolt of the Squeezed Real Economy
-
 We wake up these days with news about <a href="https://www.lemonde.fr/en/economy/article/2024/01/24/farmers-anger-is-mounting-across-europe_6460470_19.html">farmers unrest</a> across Europe. Back in 2009, when I first heard about cryptocurrencies, I have the expectation that they were coming to boost the Real Economy. The fact is that, after 15 years, just a few tokens in Supply Chain and tokenization, with no real use cases, have been created. And their purpose was, not to become currencies, but instead to become some kind of good identifiers for traceability in their ecosystems.
 
 <!-- truncate -->

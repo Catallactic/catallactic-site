@@ -7,9 +7,9 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## Commodities-backed Stablecoins Lanscape: All Fiat
-
 Below is the list of commodities-backed stablecoins available in the market now.
+
+<!-- truncate -->
 
 <table class="table w-auto mx-auto fs-6">
 	<thead class="thead-dark">

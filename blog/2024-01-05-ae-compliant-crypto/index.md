@@ -7,8 +7,6 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## What qualities should have an Austrian Economics compliant cryptocurrency?
-
 There is not consensus between the authors in what a currency is, what are their qualities and funcions. Below is a list of qualities for a currency mentioned in the literature.
 
 <!-- truncate -->

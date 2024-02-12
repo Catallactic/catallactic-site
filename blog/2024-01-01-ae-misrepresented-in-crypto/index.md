@@ -7,8 +7,6 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## Austrian Economics misrepresented in crypto
-
 This community has been created because we think Austrian Economics is not represented in crypto industry and we are missing a huge opportunity.
 
 <!-- truncate -->
