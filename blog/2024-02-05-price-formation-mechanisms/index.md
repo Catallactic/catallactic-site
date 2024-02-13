@@ -13,6 +13,12 @@ When we speak about the type of tokens, we are mostly referring to how its price
 
 According to the nature of the asset, or asset property, that the token is pegged, existing cryptocurrencies come typically in 5 flavours: Unpegged Tokens, Utility Tokens, Security Tokens, Stablecoins and NFT. We will discuss each type below.
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
+</div>
+<br/>
+<br/>
+
 The more basic category would be the <b>Unpegged Tokens</b>. Unpegged tokens have not any collateral asset or asset property providing value to the token units. As they do nto have any utility, the price of these tokens is based according to purely speculative value, eg memecoins.
 
 A large and heterogeneus list of utility tokens comes next as the foundation for pegged tokens. <b>Utility tokens</b> typically are valued by the utility, or service, provided to the participants in their ecosystem. Despite they can include some supply manipulation they do not follow a specific monetary policy to maintain the underlying value or price of this service and it is delegated to their holders. Therefore these tokens are expected to have price fluctuations. The captured utility can derive from an objective, or intrinsic, value as access (GameFi), action (Play to Earn, Move to Earn, Recycle to Earn), operation (DePIN) or governance (veTokens, DAOs). This utility can also derive from a subjective value as a payments for a service e.g. network operation (utility coins), defi commision (e.g. exchange, payment or lending). 
@@ -22,12 +28,6 @@ A <b>Security Token</b> is the blockchain equivalent of a securitized asset trad
 The first tokens aimed to become currencies are the Stablecoins. <b>Stablecoins</b> capture the price of an asset formed in an external market and set the captured price into the token.  Stablecoins include a stabilization mechanism that aim to maintain the captured price typically by supply manipulations, either manual or built-in by an Oracle. Stablecoins either can be collateralized by nothing (algorithmic stablecoins), by the asset (commodity, fiat of digital) or by a basket of products equivalent to the price of the assset (syncs).
 
 Regarding <b>NFT tokens</b> are not in charge of any price formation by themselves. NFT tokens grant ownership of the asset to their holder and, therefore, the price of a NFT token is defined by the price of the backing asset itself. So they do not have supply or price considerations as they match on-to-one with the tokenized asset. Therefore, as they are not fungible tokens, each NFT can have a different price. Some tokens instead are created to represent some <b>identity</b> with the purpose of tracking, membership mor access. In this category we can include gobernance tokens which provide a voting power to the holder, souldbound tokens that represent a person, tracking tokens to track an asset as it progress in a supply chain.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
-</div>
-<br/>
-<br/>
 
 If we look back to the literature, <b>Hayek</b> dedicated a <a href="https://mises.org/library/denationalisation-money-argument-refined">few chapters</a> to define how private money should be created. For Hayek, privately issued currency units should be collateralized by a basket of commodities and the issuer should announce the composition of the basket to maintain the price as compromised.
 
