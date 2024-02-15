@@ -7,7 +7,7 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-## From bubble to bubble until reset
+From bubble to bubble until reset
 
 
 
