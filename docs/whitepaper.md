@@ -349,6 +349,12 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 #### 4.1.3. Store of Value
 
+<!---
+https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
+* divisible
+* fungible
+* countable
+-->
 #### 4.1.3. Unit of Account
 
 Price Formation
