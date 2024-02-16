@@ -190,9 +190,9 @@ The main innovation of cryptocurrencies have been converting the money into a <b
 
 The function as <b>Medium of Fundraising</b> of a project for the currency issuer has been brought by Utility Tokens and is adopted by CryptoCommodities. We think this function contributes to enterpreneurship and wealth for the society.
 
-And finally, the 3 social functions of money: Credit or Standard of Deferred Payments, Income Distribution and Social Control.
+And finally, the 3 social functions of money: Credit, Income Distribution and Social Control.
 
-Credit.
+The <b>Credit</b> function is a contractual agreement in which a borrower receives something of value immediately and agrees to pay for it later, usually with interest. The function of credit was the main topic that favours fiat money to the detriment of Gold Standard. Our lifes are built on credit. Cryptocurrencies, specially Stablecoins and NFT, come with the promise to increase the amount of credit available. Utility Tokens are less suitable for credit because their price inestability. The advantage of withdrawing the credit function from fiat and transferring the to the cryptocurrencies is the privatization of risk. CryptoCmmodities inherit ability to provide credit derived from their stablecoin nature and price stability.
 
 The last 2 funcions "Wealth Distribution" and "Social Control" are antagonists. Neither Fiat money nor existing tokens deal with <b>Wealth Distribution</b> as long as creating a cryptocurrency is a painfull process, not suitable for everyone, and requires a specific set of skills. Tokenization Platforms enabling CryptoCommodities as a service attemp to provide anyone the ability to fund their projects and therefore the possibility of Wealth Distribution.  <b>Social Control</b> instead is not a desirable fucntion of money. A currency to provide Social Control must have 2 features: expandable supply at the will of the issuer and lender of last resort. Only fiat money by definition fulfills these requirements with the consequences that we all know.
 
