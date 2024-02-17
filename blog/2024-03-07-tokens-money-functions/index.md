@@ -7,7 +7,11 @@ image: /img/catallactic-banner.jpg
 ---
 ---
 
-In this post we will review how the different forms of currency are suitable to deliver the functions of money. We will also cover how these money funcions are currently delivered by fiat, what benefits brought the advent of electronic money and finally how CryptoCommodities disrupt on it. Initially we will cover the 3 primary functions: Medium of Exchange, Store of Value and Unit of Account. A call of attention here, authors from Austrian School of Economics considered Medium of Exchange <a href="https://mises.org/library/quality-money-0">as the only valid function of money</a>.
+In this post we will review how the different forms of currency are suitable to deliver the functions of money. We will also cover how these money funcions are currently delivered by fiat, what benefits brought the advent of electronic money and finally how CryptoCommodities disrupt on it. 
+
+<!-- truncate -->
+
+Initially we will cover the 3 primary functions: Medium of Exchange, Store of Value and Unit of Account. A call of attention here, authors from Austrian School of Economics considered Medium of Exchange <a href="https://mises.org/library/quality-money-0">as the only valid function of money</a>.
 
 A <b>medium of exchange</b> is any item that is widely acceptable in exchange for goods and services. Fiat is the universal medium of exchange <a href="https://wtfhappenedin1971.com/">from 1971</a>. The advent of blockchain and tokenization has not done much to improve this function of money as cryptocurrencies are not  yet significantly used as medium of exchange. The lack of standalone cheap wallets have not helped with this situation. Instead, cryptocurrencies have been more focused in other functions of money as investment. CryptoCommodities borrows Austrian Economics ideas to be proposed as a reliable medium of exchange.
 
