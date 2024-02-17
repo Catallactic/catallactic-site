@@ -46,7 +46,7 @@ const config = {
           editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
         },
         blog: {
-          blogSidebarTitle: 'All posts',
+          blogSidebarTitle: 'All Posts',
           blogSidebarCount: 'ALL',
 					routeBasePath: 'blog',
 					showReadingTime: true,
@@ -79,6 +79,25 @@ const config = {
 				editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
 			},
 		],
+
+		[
+			'@docusaurus/plugin-content-blog',
+			{
+				id: 'blogES',
+				blogSidebarTitle: 'Todos los Posts',
+				blogSidebarCount: 'ALL',
+				blogTitle: 'BlogES',
+				blogDescription: 'BlogES',
+				showReadingTime: false,
+				sortPosts: 'ascending',
+
+				routeBasePath: 'blogES',
+				path: 'blogES',
+
+				editUrl: 'https://github.com/Catallactic/catallactic-site/blob/main',
+			},
+		],
+
 
     [
       '@docusaurus/plugin-google-gtag',
@@ -138,6 +157,10 @@ const config = {
 					}, {
 						to: '/blog', 
 						label: 'Blog', 
+						position: 'right'
+					}, {
+						to: '/blogES', 
+						label: 'BlogES', 
 						position: 'right'
 					}, 
         ],
@@ -219,10 +242,13 @@ const config = {
             items: [ {
 								label: 'Book',
 								to: '/book',
-						}, {	
+							}, {	
 								label: 'Blog',
                 to: '/blog',
-              }, {
+							}, {	
+								label: 'BlogES',
+                to: '/blogES',
+							}, {
                 label: 'Reddit',
                 href: 'https://www.reddit.com/r/CryptoAustrians/',
 							}, {
