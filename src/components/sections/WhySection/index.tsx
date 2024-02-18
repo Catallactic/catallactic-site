@@ -120,15 +120,15 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">And that's correct. Crypto has not reached the mainstreet yet and there are not clues than could be massified anytime soon. Instead, the main focus, driven by VCs, have been quick to-the-moon. We think there are 2 gaps to enable bring crypto to the market:</p>
 										<p className="font-italic text-muted mb-2">* Existing cryptocurrencies make a <b>terrible Medium of Exchange</b>. None of them accomplish the <a href="/blog/TODO%20-%20No%20crypto%20use%20cases.%20Why">requirements</a> as a Medium of Exchange because they have not been designed to take the mainstream but for quick profit.</p>
 										<p className="font-italic text-muted mb-2">* <b>No mainstream wallets</b>. A wallet for the market should be an affordable HW wallet, as a garage door remote control, that can work without a PC connection and without internet. And this piece of HW does not exist yet. Wallet providers have been working in "something else".</p>
-										<p className="font-italic text-muted mb-2">Catallactic aim to provide solution to these problems and bring crypto to the mainstream.</p>
+										<p className="font-italic text-muted mb-2">Catallactic aims to address this lack of use cases and bring crypto to the mainstream.</p>
 									</div>
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab6" role="tabpanel" aria-labelledby="v-pills-scam-tab">
 										<h4 className="font-italic mb-4">... But crypto is scam !!!</h4>
-										<p className="font-italic text-muted mb-2">Any new technology needs a maduration period and definition of quality standards to distinguish what is legitimate from what is not. Unfortunately, there has not been much work on transparency in the crypto sphere so far. We aim to provide 2 contributions to reduce this bad reputation:</p>
-										<p className="font-italic text-muted mb-2">* A <b>Quality Theory of Money</b> is needed, which includes definition of quality standards and transparency to help users understand what they have in their hands.</p>
+										<p className="font-italic text-muted mb-2">A high percentage of it. Any new technology needs a maduration period and definition of quality standards to distinguish what is legitimate from what is not. Unfortunately, there has not been much work on transparency in the crypto sphere so far. But crypto is still a necessity. We aim to provide 2 contributions to reduce this bad reputation:</p>
+										<p className="font-italic text-muted mb-2">* A <b>Quality Theory of Money</b> is needed, which includes definition of quality standards and transparency and enable tools guiding users to understand what they really have in their hands.</p>
 										<p className="font-italic text-muted mb-2">* Creating smart contracts is full of risks and needs a lot of resources. We think that the past experiences in failed smart contracts, either honeypots, rug pulls, hacked or just non performing, suggests that smart contract should not be created by anyone, but instead provided by <b>specialized Tokenization Platforms</b> under specific well defined principles.</p>
-										<p className="font-italic text-muted mb-2">Catallactic aims to provide solution to these problems and bring crypto to the mainstream.</p>
+										<p className="font-italic text-muted mb-2">Catallactic aims to address these reputational problems and bring crypto to the mainstream.</p>
 									</div>
 
                 </div>
