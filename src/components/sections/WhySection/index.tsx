@@ -11,16 +11,22 @@ function setShownTab(num: number) {
 	document.getElementById("whytab1").classList.remove("show");
 	document.getElementById("whytab1").classList.remove("active");
 	document.getElementById("v-whytab1").classList.remove("active");
-	document.getElementById("whytab2").classList.remove("show");
-	document.getElementById("whytab2").classList.remove("active");
-	document.getElementById("v-whytab2").classList.remove("active");
-	document.getElementById("whytab3").classList.remove("show");
-	document.getElementById("whytab3").classList.remove("active");
-	document.getElementById("v-whytab3").classList.remove("active");
-	document.getElementById("whytab4").classList.remove("show");
-	document.getElementById("whytab4").classList.remove("active");
-	document.getElementById("v-whytab4").classList.remove("active");
-	
+	//document.getElementById("whytab2").classList.remove("show");
+	//document.getElementById("whytab2").classList.remove("active");
+	//document.getElementById("v-whytab2").classList.remove("active");
+	//document.getElementById("whytab3").classList.remove("show");
+	//document.getElementById("whytab3").classList.remove("active");
+	//document.getElementById("v-whytab3").classList.remove("active");
+	//document.getElementById("whytab4").classList.remove("show");
+	//document.getElementById("whytab4").classList.remove("active");
+	//document.getElementById("v-whytab4").classList.remove("active");
+	document.getElementById("whytab5").classList.remove("show");
+	document.getElementById("whytab5").classList.remove("active");
+	document.getElementById("v-whytab5").classList.remove("active");
+	document.getElementById("whytab6").classList.remove("show");
+	document.getElementById("whytab6").classList.remove("active");
+	document.getElementById("v-whytab6").classList.remove("active");
+
 	document.getElementById("whytab" + num).classList.add("show");
 	document.getElementById("whytab" + num).classList.add("active");
 	document.getElementById("v-whytab" + num).classList.add("active");
@@ -48,7 +54,7 @@ export default function WhySection(): JSX.Element {
 									<span className="font-weight-bold text-uppercase">Why not fiat stablecoins?</span>
 								</a>
 
-								<a className="nav-link mb-3 p-3 shadow" id="v-whytab2" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => setShownTab(2)}>
+								{/*<a className="nav-link mb-3 p-3 shadow" id="v-whytab2" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => setShownTab(2)}>
 									<span className="font-weight-bold text-uppercase">How can I benefit</span>
 								</a>
 
@@ -58,6 +64,14 @@ export default function WhySection(): JSX.Element {
 
 								<a className="nav-link mb-3 p-3 shadow" id="v-whytab4" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(4)}>
 									<span className="font-weight-bold text-uppercase">How can contribute</span>
+								</a>*/}
+
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab5" data-toggle="pill" href="#v-pills-usecases" role="tab" aria-controls="v-pills-usecases" aria-selected="false" onClick={() => setShownTab(5)}>
+									<span className="font-weight-bold text-uppercase">... But no crypto use cases</span>
+								</a>
+
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab6" data-toggle="pill" href="#v-pills-scam" role="tab" aria-controls="v-pills-scam" aria-selected="false" onClick={() => setShownTab(6)}>
+									<span className="font-weight-bold text-uppercase">... But crypto is scam</span>
 								</a>
 
 							</div>
@@ -81,7 +95,7 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">Catallactic aims to define the principles, know-how, tools and processes to tokenize, fund and manage decentralized commodity based tokens and relief the issuer from the technological and operational burden.</p>
 									</div>
 									
-									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab2" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+									{/*<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab2" role="tabpanel" aria-labelledby="v-pills-messages-tab">
 										<h4 className="font-italic mb-4">How can I benefit?</h4>
 										<p className="font-italic text-muted mb-2">Catallactic aims to relief cryptocurrency issuers of Units of Account of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. The goal, for the sake of practicality is to create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
 										<p className="font-italic text-muted mb-2">The outcomes from Catallactic are Open Source and will allow private actors to build additional tools, plugins or know-how that can complement Catallactic deliverables.</p>
@@ -99,6 +113,22 @@ export default function WhySection(): JSX.Element {
 										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contract and blockchain languages, Catallactic needs guidelines, articles, essays or contributions to build a body of knowdledge.</p>
 										<p className="font-italic text-muted mb-2">We think that, as much as possible, principles as functionality, practicality, usability or decentralization must drive technological efforts, no the other way around.</p>
 										<p className="font-italic text-muted mb-2">Contributions can be done on the <a href="/docs/suite/intro">site pages</a> itself or in the  <a href="https://discord.gg/xwJR9MZPmA">Reddit</a> community, and of course, all pages and tools are shared in <a href="https://github.com/Catallactic">Github</a>.</p>
+									</div>*/}
+
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab5" role="tabpanel" aria-labelledby="v-pills-usecases-tab">
+										<h4 className="font-italic mb-4">... But no crypto use cases</h4>
+										<p className="font-italic text-muted mb-2">And that's correct. Crypto has not reached the mainstreet yet and there are not clues than could be massified anytime soon. Instead, the main focus, driven by VCs, have been quick to-the-moon. We think there are 2 gaps to enable bring crypto to the market:</p>
+										<p className="font-italic text-muted mb-2">* Existing cryptocurrencies make a <b>terrible Medium of Exchange</b>. None of them accomplish the <a href="/blog/TODO%20-%20No%20crypto%20use%20cases.%20Why">requirements</a> as a Medium of Exchange because they have not been designed to take the mainstream but for quick profit.</p>
+										<p className="font-italic text-muted mb-2">* <b>No mainstream wallets</b>. A wallet for the market should be an affordable HW wallet, as a garage door remote control, that can work without a PC connection and without internet. And this piece of HW does not exist yet. Wallet providers have been working in "something else".</p>
+										<p className="font-italic text-muted mb-2">Catallactic aim to provide solution to these problems and bring crypto to the mainstream.</p>
+									</div>
+
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab6" role="tabpanel" aria-labelledby="v-pills-scam-tab">
+										<h4 className="font-italic mb-4">... But crypto is scam</h4>
+										<p className="font-italic text-muted mb-2">Any new technology needs a maduration period and definition of quality standards to distinguish what is legitimate from what is not. Unfortunately, there has not been much work on transparency in the crypto sphere so far. We aim to provide 2 contributions to reduce this bad reputation:</p>
+										<p className="font-italic text-muted mb-2">* A <b>Quality Theory of Money</b> is needed, which includes definition of quality standards and transparency to help users understand what they have in their hands.</p>
+										<p className="font-italic text-muted mb-2">* Creating smart contracts is full of risks and needs a lot of resources. We think that the past experiences in failed smart contracts, either honeypots, rug pulls, hacked or just non performing, suggests that smart contract should not be created by anyone, but instead provided by <b>specialized Tokenization Platforms</b> under specific well defined principles.</p>
+										<p className="font-italic text-muted mb-2">Catallactic aims to provide solution to these problems and bring crypto to the mainstream.</p>
 									</div>
 
                 </div>
