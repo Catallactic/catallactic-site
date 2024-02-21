@@ -23,7 +23,7 @@ import { Doughnut } from 'react-chartjs-2';
 ## Abstract
 ---
 
-The following whitepaper proposes a novel kind of token, CryptoCommodity (CC hereinafter). CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset. They do not provide a measure of this intrinsic value. Instead, CryptoCommodity tokens expose the intrinsic value to the consumer and rely on a built-in price formation mechanism to capture the marginal utility of the asset. Currencies forming their own prices deliver the true foundation for a decentralization in value, as a core principle in the blockchain industry. Additionally, forming its own prices is an empowering factor for the real economy. Once the intrinsic value is captured CryptoCommodity tokens include a stabilization mechanism in order to function as a cryptocurrency and deliver currency-related features.
+The following whitepaper proposes a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset. They do not provide a measure of this intrinsic value. Instead, CryptoCommodity tokens expose the intrinsic value to the consumer and rely on a built-in price formation mechanism to capture the marginal utility of the asset. Currencies forming their own prices deliver the true foundation for a decentralization in value, as a core principle in the blockchain industry. Additionally, forming its own prices is an empowering factor for the real economy. Once the intrinsic value is captured CryptoCommodity tokens include a stabilization mechanism in order to function as a cryptocurrency and deliver currency-related features.
 
 This work describes what CryptoCommodities are and how they work, what their stages are, the utilities, requirements, challenges, distribution mechanisms and opportunities they provide for issuers, adopters and society as a whole.
 
@@ -2093,7 +2093,7 @@ Negotiation is the process in which the CC is swapped by its paired coin in an e
 
 In order to capture the CC marginal utility we must ensure that only CC activities related to the primary utility impact the price of the exchange. The negotiation mechanism typically implies 2 basic scenarios as described below.
 
-### 9.4.1. Holder buys CC at Exchange
+#### 9.4.1. Holder buys CC at Exchange
 
 In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation from his wallet. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility no fees should be applied on the transaction because they are already included in the purchase itself.
 
@@ -2104,7 +2104,7 @@ In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. Th
 
 The situation changes if the user is looking for a secondary utility. In this case, a fee can be charged by the CC issuer. Additionally, the CC smart contract that delivers the CC tokens to the user must perform a compensatory action to leave in the exchange pair only the tokens corresponding to the primary activity. This compensatory action implies replenishing in the exchange pair the CC and USDT amounts modified by the user. For this operation the smart contract will get the support of the reserve wallet. Addtionally if the reserver wallet does not containt enough CC, they must be minted by the smart contract to the reserve wallet.
 
-### 9.4.2. Holder sells CC at Exchange
+#### 9.4.2. Holder sells CC at Exchange
 
 For this second scenario, the user holds CC and want to acquire the paired token back. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange.
 
