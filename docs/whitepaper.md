@@ -2085,15 +2085,17 @@ The currency pairs created are a combination of 3 variables:
 - the number of trading pairs that will be created
 
 
+### 9.4. Creating Reserve Account
 
+To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
 
-### 9.4. Negotiation Mechanism
+### 9.5. Negotiation Mechanism
 
 Negotiation is the process in which the CC is swapped by its paired coin in an exchange pair. It can involve primary activity customers or user of any secondary activity. The exchange is in charge to form the price with the existing pair.
 
 In order to capture the CC marginal utility we must ensure that only CC activities related to the primary utility impact the price of the exchange. The negotiation mechanism typically implies 2 basic scenarios as described below.
 
-#### 9.4.1. Holder buys CC at Exchange
+#### 9.5.1. Holder buys CC at Exchange
 
 In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation from his wallet. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility no fees should be applied on the transaction because they are already included in the purchase itself.
 
@@ -2104,7 +2106,7 @@ In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. Th
 
 The situation changes if the user is looking for a secondary utility. In this case, a fee can be charged by the CC issuer. Additionally, the CC smart contract that delivers the CC tokens to the user must perform a compensatory action to leave in the exchange pair only the tokens corresponding to the primary activity. This compensatory action implies replenishing in the exchange pair the CC and USDT amounts modified by the user. For this operation the smart contract will get the support of the reserve wallet. Addtionally if the reserver wallet does not containt enough CC, they must be minted by the smart contract to the reserve wallet.
 
-#### 9.4.2. Holder sells CC at Exchange
+#### 9.5.2. Holder sells CC at Exchange
 
 For this second scenario, the user holds CC and want to acquire the paired token back. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange.
 
@@ -2115,10 +2117,10 @@ For this second scenario, the user holds CC and want to acquire the paired token
 
 The situation again changes if the user is not the issuer. In this case, a fee can be optionally charged by the CC issuer. Additionally, the CC smart contract that delivers the paired tokens to the user must perform a compensatory action to leave in the exchange pair only the tokens corresponding to the primary activity. This compensatory action implies replenishing in the exchange pair the CC and USDT amounts modified by the user. For this operation the smart contract will get the support of the reserve wallet. Addtionally if the reserver wallet does not containt enough paired tokens, they must be manually transferred by the issuer to the reserve wallet. 
 
-### 9.5. Estimating Price Evolution
+### 9.6. Estimating Price Evolution
 
 
-### 9.6. Considerations
+### 9.7. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
@@ -2631,33 +2633,33 @@ Another consideration is to prevent high concentration of token units in some wa
 
 Differently to a stablecoin, which is stabilized to capture the fiat price of the static asset from a broad external market, CryptoCommodity Framework includes a stabilization mechanism that allows the token to capture the economic value of the underlying from its own market. This provides a valuable tool to boost real economy. [40]
 
-### 11.1. Stabilization Mechanisms
+### 11.1. Capturing Intrinsic Value
+
+None of the existing mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers. The combined action of both mechanisms converts a CryptoCommodity into representative money for the underlying asset.
+
+Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand for the issuer in the real world market. Estimating the intrinsic value, deciding f it comes from land, from production process or from any other objective criteria is not needed in order to this value can be exposed. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
+
+Another reason to use trading pairs is to decrease trading fees. If the trading pair did not exist, you would need to use at least two crypto trading pairs to obtain your desired cryptocurrency – and pay additional trading fees, as you would be committing to two trades as opposed to only one
+
+picture
+
+This intrinsic value capture only deals with the CryptoCommodity units in the exchanges and is agnostic about the Circulating Supply, the number of locked units or the Total Supply of the CryptoCommodity. This flexibility allows a leverage that, despite it could suppose a financial risk that must be accessed, does not interfere in the value capture process itself.
+
+### 11.2. Stabilization Mechanisms
 
 Stabilization mechanism is a artifact apply in the exchanges liquitiy pools to guarantee that the CryptoCommodity represents the underlayiing asset and is able to be priced according to its marginal utility.
 
 On the literature review for price stabilization, 3 mechanisms have been proposed. (I) Ametrano and Morini proposed the so-called Hayek Money (Misnomer*). Hayek Money adjust the amount of money stocked in each wallet, according to the data on current price provided by the external source. This simple mechanism leads to the unstable purchasing power because the rebasement directly modifies the amount of money in each wallet. (II) Sams proposed a new mechanism for the price stabilization, named Seigniorage Share to automatically adjust supply through shares with which users can purchase stablecoins. The Basis stablecoin was an example of a seigniorage algorithmic stablecoin, although it was ultimately shut down due to regulatory concerns. (III) Burn and Mint Equilibrium Multitoken Model burns the “value-seeking” tokens in order to receive the “payment” tokens. Notable examples are Factom, Helium, CHR. [46]
 
-The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply. 
+The common goal for existing mechanisms is to adjust the token price to an externally formed price by adjusting the token supply.
 
-### 11.2. CryptoCommodity Stabilization
+### 11.3. CryptoCommodity Stabilization
 
-None of the existing mechanisms deals with the capture of economic value or the task of price formation itself. Instead, the mechanism that we present here for CryptoCommodities is concerned with the tasks of (1) capturing the underlying asset intrinsic value, and (2) expose the asset intrinsic value to form its price according to the marginal utility as perceived by the consumers. The combined action of both mechanisms converts a CryptoCommodity into representative money for the underlying asset.
+Once the value has been captured by the CC, the stabilization mechanism needs to maintain this value to enable further currency services. This stabilization mechanism can be run as an separated process or can be attached to the buy/sell orders themselves. Attaching the stabilization mechanism to buy/sell orders provides a smoother price changes but increases the transactions gas. Conversely, running an standalone stabilization mechanism, would create a saw line price profile but is cheaper in gas for the user. A CC should provide both options and let the issuer to configure depending on the gas fees of the network where the CC is deployed.
 
+The scenarios will be described in the next sections.
 
-
-
-#### 11.2.1. Creating Reserve Account
-
-To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
-
-#### 11.2.2. Capturing Intrinsic Value
-
-Capturing intrinsic value is what representative money does by definition as it represents the underlying assets in the defined amount. In order to achieve this goal, we can match the supply of the CryptoCommodity units in the exchanges to the existing demand for the issuer in the real world market. Estimating the intrinsic value, deciding f it comes from land, from production process or from any other objective criteria is not needed in order to this value can be exposed. As long we guarantee a 1-to-1 relationship between demand and CryptoCommodity units in the exchanges the intrinsic value of the asset will be represented in the CryptoCommodity.
-
-
-Another reason to use trading pairs is to decrease trading fees. If the trading pair did not exist, you would need to use at least two crypto trading pairs to obtain your desired cryptocurrency – and pay additional trading fees, as you would be committing to two trades as opposed to only one
-
-picture
+#### 11.3.1. Standalone Stabilization Mechanism
 
 As both, real world demand and token units in exchange change are in continuous change and they will unsync over the time, there should be a scheduled process that resyncs real world demand with token units in exchanges. This resync means to update the token units in the exchanges periodically. In order to perform this resync there can be some cases:
 
@@ -2665,32 +2667,39 @@ As both, real world demand and token units in exchange change are in continuous 
 
 - real world demand is smaller that number of tokens in exchanges. This is the case if the issuer has reduced his sales or CryptoCommodity users have sold many token units from the exchanges. For this scenario, the compensatory action to resync is to move token units from the exchange to the reserve account.
 
-This intrinsic value capture only deals with the CryptoCommodity units in the exchanges and is agnostic about the Circulating Supply, the number of locked units or the Total Supply of the CryptoCommodity. This flexibility allows a leverage that, despite it could suppose a financial risk that must be accessed, does not interfere in the value capture process itself.
+<div style={{textAlign: 'center'}}>
+	<img src="/img/swapsStabilizationMechanism.svg" width="80%"></img>
+</div>
+<br/>
 
+#### 11.3.2. Holder buys CC at Exchange with Stabilization
 
+The scenario is similar to the one described in 9.5.1. An aditional stabilization is step is added.
 
-#### 11.2.3. Price Formation by Marginal Utility
+<div style={{textAlign: 'center'}}>
+	<img src="/img/swapUSDTbyCCStabilized.svg" width="80%"></img>
+</div>
+<br/>
+
+#### 11.3.3. Holder sells CC at Exchange with Stabilization
+
+The scenario is similar to the one described in 9.5.2. An aditional stabilization is step is added.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/swapCCbyUSDTStabilized.svg" width="80%"></img>
+</div>
+<br/>
+
+### 11.4. Price Formation
 
 Once the intrinsic value of the assets is exposed into the exchanges, Leave price formation for this intrinsic value in basis of utility (subjective value)
 
-
-the resync process will create a stars figure. The longer the period, the higher the steps. 
-
+Arbitrage will homogeinise price across the exchanges. Try to minimize arbitrage steps.
 
 
-
-
-
-
-### 11.3. Value Capture Event
+### 11.5. Value Capture Event
 
 Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
-
-
-
-
-
-
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
