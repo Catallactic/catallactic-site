@@ -2655,7 +2655,9 @@ The common goal for existing mechanisms is to adjust the token price to an exter
 
 ### 11.3. CryptoCommodity Stabilization
 
-Once the value has been captured by the CC, the stabilization mechanism needs to maintain this value to enable further currency services. This stabilization mechanism can be run as an separated process or can be attached to the buy/sell orders themselves. Attaching the stabilization mechanism to buy/sell orders provides a smoother price changes but increases the transactions gas. Conversely, running an standalone stabilization mechanism, would create a saw line price profile but is cheaper in gas for the user. A CC should provide both options and let the issuer to configure depending on the gas fees of the network where the CC is deployed.
+Once the value has been captured by the CC, the stabilization mechanism needs to maintain this value to enable further currency services. 
+
+This stabilization mechanism can be run as an separated process or can be attached to the buy/sell orders themselves. Attaching the stabilization mechanism to buy/sell orders provides a smoother price changes but increases the transactions gas. Conversely, running an standalone stabilization mechanism, would create a sawtooth pattern in the price profile but is cheaper in gas for the user. A CC should provide both options and let the issuer to configure depending on the gas fees of the network where the CC is deployed.
 
 The scenarios will be described in the next sections.
 
@@ -2672,9 +2674,11 @@ As both, real world demand and token units in exchange change are in continuous 
 </div>
 <br/>
 
+This stabilization mechanism could be run as a scheduled process triggered periodically or by some event. This should be designed.
+
 #### 11.3.2. Holder buys CC at Exchange with Stabilization
 
-The scenario is similar to the one described in 9.5.1. An aditional stabilization is step is added.
+In this case, the stabilization mechanism is executed by the smart contract for each swap operation. The scenario is similar to the one described in 9.5.1 where an aditional stabilization is step is added.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/swapUSDTbyCCStabilized.svg" width="80%"></img>
@@ -2683,7 +2687,7 @@ The scenario is similar to the one described in 9.5.1. An aditional stabilizatio
 
 #### 11.3.3. Holder sells CC at Exchange with Stabilization
 
-The scenario is similar to the one described in 9.5.2. An aditional stabilization is step is added.
+In this case, the stabilization mechanism is executed by the smart contract for each swap operation. The scenario is similar to the one described in 9.5.2 where an aditional stabilization is step is added.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/swapCCbyUSDTStabilized.svg" width="80%"></img>
@@ -2695,7 +2699,6 @@ The scenario is similar to the one described in 9.5.2. An aditional stabilizatio
 Once the intrinsic value of the assets is exposed into the exchanges, Leave price formation for this intrinsic value in basis of utility (subjective value)
 
 Arbitrage will homogeinise price across the exchanges. Try to minimize arbitrage steps.
-
 
 ### 11.5. Value Capture Event
 
