@@ -2089,7 +2089,7 @@ The currency pairs created are a combination of 3 variables:
 
 To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
 
-### 9.5. Negotiation Mechanism
+### 9.5. Value Capture Mechanism
 
 Negotiation is the process in which the CC is swapped by its paired coin in an exchange pair. It can involve primary activity customers or user of any secondary activity. The exchange is in charge to form the price with the existing pair.
 
@@ -3241,7 +3241,112 @@ In order to introduce the project into the community, there must be incentives f
 
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manner. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
-### 13.6. Metrics
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+
+
+## 14. Implementation of CryptoCommodities
+---
+
+This section provides an overview of CryptoCommodities implementation technologies as well as identified technological challenges.
+
+### 14.1. Smart Contract
+
+CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_structure.svg" width="60%"></img>
+</div>
+<br/>
+
+Existing behaviours are:
+
+- Crowdsale Facet.
+
+- Vesting Facet
+
+- Common Facet
+
+- ERC-20 Facet
+
+By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
+
+https://github.com/Catallactic/catallactic-suite
+
+### 14.2. Upgradeable
+
+we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+
+Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
+
+The long term idea is to release to community the governance.
+
+
+### 14.3. The challenge of Security
+
+Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
+
+- Code includes <b>multisig role-based access</b> to functionalities.
+
+- The whole CryptoCommodity code must be <b>audited</b>. 
+
+- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
+
+- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
+
+### 14.4. The challenge of Decentralization
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td></td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>Network Decentralization</td>
+			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
+		</tr>
+		<tr>
+			<td>Exchanges Decentralization</td>
+			<td>Exchanges should also be decentralized regarding</td>
+		</tr>
+		<tr>
+			<td>Smart Contract Decentralization</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Governance  Decentralization</td>
+			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
+		</tr>
+		<tr>
+			<td>Wealth Decentralization</td>
+			<td>Gini and Nakamoto Coefficients</td>
+		</tr>
+	</table>
+</div>
+
+
+
+### 14.5. The challenge of Transparency
+
+
+### 14.6. The challenge of Privacy
+
+
+### 14.7. Deployment
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 15. Configuration
+
+### 15.1. Parametrization
 
 <div className="chart-panel2">
 <Line
@@ -3558,123 +3663,27 @@ The volume of each benefit should be estimated in relation to the project capita
 </div>
 <br/>
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+### 15.2. Benchmarks
 
 
-
-
-
-
-## 14. Implementation of CryptoCommodities
----
-
-This section provides an overview of CryptoCommodities implementation technologies as well as identified technological challenges.
-
-### 14.1. Smart Contract
-
-CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/token_structure.svg" width="60%"></img>
-</div>
-<br/>
-
-Existing behaviours are:
-
-- Crowdsale Facet.
-
-- Vesting Facet
-
-- Common Facet
-
-- ERC-20 Facet
-
-By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
-
-https://github.com/Catallactic/catallactic-suite
-
-### 14.2. Upgradeable
-
-we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
-
-Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
-
-The long term idea is to release to community the governance.
-
-
-### 14.3. The challenge of Security
-
-Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
-
-- Code includes <b>multisig role-based access</b> to functionalities.
-
-- The whole CryptoCommodity code must be <b>audited</b>. 
-
-- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
-
-- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
-
-### 14.4. The challenge of Decentralization
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td></td>
-			<td>Description</td>
-		</tr>
-		<tr>
-			<td>Network Decentralization</td>
-			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
-		</tr>
-		<tr>
-			<td>Exchanges Decentralization</td>
-			<td>Exchanges should also be decentralized regarding</td>
-		</tr>
-		<tr>
-			<td>Smart Contract Decentralization</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Governance  Decentralization</td>
-			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
-		</tr>
-		<tr>
-			<td>Wealth Decentralization</td>
-			<td>Gini and Nakamoto Coefficients</td>
-		</tr>
-	</table>
-</div>
-
-
-
-### 14.5. The challenge of Transparency
-
-
-### 14.6. The challenge of Privacy
-
-
-### 14.7. Deployment
-
-
-
-
+### 15.3. Simulation
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 15. Supporting Tools
+## 16. Supporting Tools
 ---
 
-### 15.6. DAppmin
+### 16.6. DAppmin
 
 https://github.com/Catallactic/catallactic-admin
 
-### 15.6. ICO Purchases DApp
+### 16.6. ICO Purchases DApp
 
 
-### 15.6. Vesting Tracker
+### 16.6. Vesting Tracker
 
 
 
@@ -3691,12 +3700,12 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-## 16. A CryptoCommodity-based Economy
+## 17. A CryptoCommodity-based Economy
 ---
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 16.1. Currency competition
+### 17.1. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors. 
 
@@ -3704,7 +3713,7 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 16.2. Stability of a CryptoCommodity Market
+### 17.2. Stability of a CryptoCommodity Market
 
 #### 16.2.1. Understanding a regulated system
 
@@ -3715,7 +3724,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 16.2.2. Positive vs Negative Feedback Loops
+#### 17.2.2. Positive vs Negative Feedback Loops
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -3747,7 +3756,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 16.2.3. Regulation in a CryptoCommodity market
+#### 17.2.3. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -3758,15 +3767,15 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 16.3. At the rescue of real economy
+### 17.3. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 16.3.1. Monetary Expansion of Legal Tender
+#### 17.3.1. Monetary Expansion of Legal Tender
 
 
 
-#### 16.3.2. Debate on Neutrality of Money
+#### 17.3.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -3779,7 +3788,7 @@ price distortion
 
 
 
-#### 16.3.3 The Split Economy
+#### 17.3.3 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -3787,7 +3796,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 16.3.4. The Squeezed Real Economy
+#### 17.3.4. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -3810,9 +3819,9 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-#### 16.3.5. End Financial Exclusion
+#### 17.3.5. End Financial Exclusion
 
-### 16.4. Comparing Economic Models
+### 17.4. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -3883,7 +3892,7 @@ Cantillon Effects
 	</table>
 </div>
 
-### 16.5. Further Industry Development
+### 17.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -3891,7 +3900,7 @@ Additionaly, insurance companies could provide services in case a currency does 
 
 Private 'Lender of Last Resort?
 
-### 16.6. Free Banking Introduction
+### 17.6. Free Banking Introduction
 
 incremental introduction
 
@@ -3904,7 +3913,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 16.7. Crowdsolving
+### 17.7. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -3933,7 +3942,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 17. Conclusion
+## 18. Conclusion
 ---
 
 We have exposed how a novel kind of token which takes the best of Stablecoins and best of Utility Tokens can be created. 
@@ -3953,7 +3962,7 @@ Finally we have described how the adoption of this new token could empower the s
 
 
 
-## 18. References
+## 19. References
 ---
 
 
