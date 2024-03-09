@@ -24,6 +24,7 @@
 	{ "subject": "ON SECURITY INVESTMENT TOKENOMICS" },
 
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2020", "title": "Stablecoins 2.0: Economic Foundations and Risk-based Models", "author": "Ariah Klages-Mundt, Dominik Harz, Lewis Gudgeon, Jun-You Liu, Andreea Minca", "place": "", "url": "https://berkeley-defi.github.io/assets/material/Stablecoins%202.0%20.pdf" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2021", "title": "Decentralized Stablecoins and Collateral Risk", "author": "Roman Kozhan, Ganesh Viswanath-Natraj", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866975" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "Making Stablecoins More Stable With Chainlink Proof of Reserve", "author": "Zubin Pratap", "place": "", "url": "https://blog.chain.link/stablecoins-and-proof-of-reserve/" },
 	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "Can a Stablecoin Be Collateralized by a Fully Decentralized, Physical Asset?", "author": "Maxwell Murialdo and Jonathan L. Belof", "place": "Cryptoeconomic Systems", "url": "https://cryptoeconomicsystems.pubpub.org/pub/murialdo-physical-asset-stablecoin/release/2" },
