@@ -30,7 +30,8 @@
 	{ "region": "ALL", "jurisdiction": "ALL", "id": "AN1", "date": "2023-11-17", "target": "TBC", "scope": "TBC", "doc": "BIS On par: A Money View of stablecoins", "url": "https://www.bis.org/publ/work1146.htm" },
 	{ "region": "ALL", "jurisdiction": "ALL", "id": "AN1", "date": "2023-12-14", "target": "TBC", "scope": "TBC", "doc": "BIS Cryptoasset standard amendments", "url": "https://www.bis.org/bcbs/publ/d567.pdf" },
 	{ "region": "ALL", "jurisdiction": "ALL", "id": "AN1", "date": "2023-12-19", "target": "TBC", "scope": "TBC", "doc": "IOSCO Final Report with Policy Recommendations for Decentralized Finance (DeFi)", "url": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf" },
-	{ "region": "ALL", "jurisdiction": "ALL", "id": "AN1", "date": "2024-02-09", "target": "TBC", "scope": "TBC", "doc": "Tokenisation for the real world", "url": "https://www.bis.org/speeches/sp240209.htm" },
+	{ "region": "ALL", "jurisdiction": "ALL", "id": "AN1", "date": "2024-02-09", "target": "TBC", "scope": "TBC", "doc": "BIS - Tokenisation for the real world", "url": "https://www.bis.org/speeches/sp240209.htm" },
+	{ "region": "ALL", "jurisdiction": "ALL", "id": "AN1", "date": "2024-02-29", "target": "TBC", "scope": "TBC", "doc": "BIS - Klaas Knot: The need for regulating crypto-assets - a global effort", "url": "https://www.bis.org/review/r240229h.htm" },
 
 	{ "region": "WEST" },
 	{ "region": "WEST", "jurisdiction": "USA", "id": "US1", "date": "XXXX-XX-XX", "target": "AML", "scope": "AML", "doc": "Digital Asset Anti-Money Laundering Act of 2023", "url": "https://www.govinfo.gov/app/details/BILLS-118s2669is/summary" },
