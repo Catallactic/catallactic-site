@@ -3858,7 +3858,7 @@ price distortion
 </div>
 
 
-### 17.6. Stability of a CryptoCommodity Market
+### 17.6. Stability of Economic Models
 
 When providing ffedback to a system, there are 2 possibilities:
 
