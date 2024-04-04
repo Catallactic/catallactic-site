@@ -3705,17 +3705,21 @@ https://github.com/Catallactic/catallactic-admin
 
 In this we will analyse the topic of introducing CryptoCommodity tokens in an economy with a coexisting legal tender. 
 
-### 17.1. Currency competition
 
-The coexistence of competing private currencies has been documented from some authors. 
+### 17.1. Use of Knowledge in Society
 
-
-
+[58]
 
 
-### 17.2. Stability of a CryptoCommodity Market
+#### 17.1.1 Price Formation
 
-#### 16.2.1. Understanding a regulated system
+
+
+#### 17.1.2. Economic Calculation
+
+Price formation
+
+#### 17.1.3. A self-regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -3724,7 +3728,137 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 17.2.2. Positive vs Negative Feedback Loops
+### 17.2. Economic Calculation Under Gold Standard
+
+
+### 17.3. Economic Calculation Under Currency Competition
+
+
+
+
+
+
+#### 17.3.1. Currency competition
+
+The coexistence of competing private currencies has been documented from some authors. 
+
+
+#### 17.3.2. Regulation in a CryptoCommodity market
+
+Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_loop.svg" width="70%"></img>
+</div>
+<br/>
+
+
+### 17.4. Economic Calculation Under Fiat Money
+
+#### 17.4.1. Monetary Expansion
+
+
+#### 17.4.2. Cantillon Effects
+
+
+
+#### 17.4.3. Debate on Neutrality of Money
+
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
+</div>
+
+price distortion
+
+
+### 17.5. Comparing Economic Models
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Feature</th>
+				<th scope="col">Gold Standard</th>
+				<th scope="col">CC Competition</th>
+				<th scope="col">Fiat</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Price Formation</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Distorted</td>
+			</tr>
+			<tr>
+				<th scope="row">Relative Prices</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Distorted</td>
+			</tr>
+			<tr>
+				<th scope="row">Economic Calculation</th>
+				<td></td>
+				<td>Yes</td>
+				<td>Biased</td>
+			</tr>
+			<tr>
+				<th scope="row">Allocation of Resources</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Priviledged</td>
+			</tr>
+			<tr>
+				<th scope="row">Critical Resources</th>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">Credit Availability</th>
+				<td></td>
+				<td>Yes, without Cantillon Effects</td>
+				<td>Yes, with Cantillon Effects</td>
+			</tr>
+			<tr>
+				<th scope="row">Entry Barriers</th>
+				<td></td>
+				<td>No</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<th scope="row">Projects Risk</th>
+				<td></td>
+				<td>Privatized</td>
+				<td>Socialized</td>
+			</tr>
+			<tr>
+				<th scope="row">Supply / Demand matching</th>
+				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Externalities</th>
+				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Social Values</th>
+				<td></td>
+				<td>Natural</td>
+				<td>Imposed</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+### 17.6. Stability of a CryptoCommodity Market
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -3756,39 +3890,19 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 17.2.3. Regulation in a CryptoCommodity market
-
-Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_loop.svg" width="100%"></img>
-</div>
-<br/>
 
 
 
-### 17.3. At the rescue of real economy
+
+### 17.7. At the rescue of real economy
 
 Once we have designed th principles of CryptoCommodity, in this chapter we will discuss how the Financial Economy has taken 97+% of the economic landscape and how CryptoCommodity can help providing oxygen to an exhausted Real Economy.
 
-#### 17.3.1. Monetary Expansion of Legal Tender
 
 
 
-#### 17.3.2. Debate on Neutrality of Money
 
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
-</div>
-
-price distortion
-
-
-
-#### 17.3.3 The Split Economy
+#### 17.7.1 The Split Economy
 
 The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
 
@@ -3796,7 +3910,7 @@ Real economy can be measured by the GDP.
 
 The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 17.3.4. The Squeezed Real Economy
+#### 17.7.2. The Squeezed Real Economy
 
 The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
 
@@ -3819,80 +3933,11 @@ WTF Happened In 1971?
 
 Cantillon Effects
 
-#### 17.3.5. End Financial Exclusion
+#### 17.7.3. Ending Financial Exclusion
 
-### 17.4. Comparing Economic Models
 
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<thead>
-			<tr>
-				<th scope="col">Feature</th>
-				<th scope="col">Fiat</th>
-				<th scope="col">CrytoCommodity</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th scope="row">Price Formation</th>
-				<td>Distorted</td>
-				<td>Matching consumers will</td>
-			</tr>
-			<tr>
-				<th scope="row">Relative Prices</th>
-				<td>Distorted</td>
-				<td>Matching consumers will</td>
-			</tr>
-			<tr>
-				<th scope="row">Economic Calculation</th>
-				<td>Biased</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<th scope="row">Allocation of Resources</th>
-				<td>Priviledged</td>
-				<td>Matching consumers will</td>
-			</tr>
-			<tr>
-				<th scope="row">Critical Resources</th>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th scope="row">Credit Availability</th>
-				<td>Yes, with Cantillon Effects</td>
-				<td>Yes, without Cantillon Effects</td>
-			</tr>
-			<tr>
-				<th scope="row">Entry Barriers</th>
-				<td>Yes</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<th scope="row">Projects Risk</th>
-				<td>Socialized</td>
-				<td>Privatized</td>
-			</tr>
-			<tr>
-				<th scope="row">Supply / Demand matching</th>
-				<td>No</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<th scope="row">Externalities</th>
-				<td>No</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<th scope="row">Social Values</th>
-				<td>Imposed</td>
-				<td>Natural</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
 
-### 17.5. Further Industry Development
+### 17.8. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -3900,7 +3945,7 @@ Additionaly, insurance companies could provide services in case a currency does 
 
 Private 'Lender of Last Resort?
 
-### 17.6. Free Banking Introduction
+### 17.9. Free Banking Introduction
 
 incremental introduction
 
@@ -3913,7 +3958,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 17.7. Crowdsolving
+### 17.10. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -4102,3 +4147,5 @@ https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-at
 [56] Optimizing Your Token Distribution, Lauren Stephanian, January 4th - 2022https://lstephanian.mirror.xyz/kB9Jz_5joqbY0ePO8rU1NNDKhiqvzU6OWyYsbSA-Kcc
 
 [57] Can a Stablecoin Be Collateralized by a Fully Decentralized, Physical Asset? Cryptoeconomic Systems, Murialdo, M., & Belof, J. L. (2022). https://cryptoeconomicsystems.pubpub.org/pub/murialdo-physical-asset-stablecoin/release/2
+
+[58] The Use of Knowledge in Society, Hayek, 1945 - https://www.econlib.org/library/Essays/hykKnw.html
