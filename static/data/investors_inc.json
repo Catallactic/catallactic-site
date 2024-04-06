@@ -1,3 +1,12 @@
 [
-	{ "id": "BIN", "name": "Binance Labs", "url": "Binance Labs", "reason": "invested in USDT", "verified": "NO" }
+	{ "name": "Catena Capital", "url": "https://catena-capital.com/" },
+	{ "name": "Cronos Labs", "url": "https://cronos.org/accelerators" },
+	{ "name": "Fabric Ventures", "url": "https://fabric.vc/" },
+	{ "name": "Genius X", "url": "https://www.genius-x.co/" },
+	{ "name": "Gotbit Labs Incubator", "url": "https://gotbit.io/vc" },
+	{ "name": "GravityX Capital", "url": "https://gravityx.capital/" },
+	{ "name": "LongHash Ventures", "url": "https://www.longhash.vc/" },
+	{ "name": "Majinx Capital", "url": "https://majinx.io/" },
+	{ "name": "Morningstar Ventures", "url": "https://morningstar.ventures/" },
+	{ "name": "UNOPND", "url": "https://unopnd.com/" }
 ]

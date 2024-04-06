@@ -178,7 +178,6 @@ const sidebars = {
 					label: 'Pitching Investors',
 					items: [
 						'funding/pitching/incubators',
-						'funding/pitching/accelerators',
 						'funding/pitching/vc',
 					],
 				}, {

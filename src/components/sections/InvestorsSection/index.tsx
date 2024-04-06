@@ -23,21 +23,15 @@ export default function InvestorsSection(): JSX.Element {
 					<div className="col col--6">
 
 						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>Incubators</h3>
-							<p className="text--left">You have an idea</p>
+							<h3>3D Incubator / Accelerator</h3>
+							<p className="text--left">You have an idea but need help to plan the fundraising</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/incubators' role='button'>Access the list</a>
 						</div>
 
 						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>Accelerators</h3>
-							<p className="text--left">You have an MVC and some traction.</p>
-							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/accelerators' role='button'>Access the list</a>
-						</div>
-
-						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>VCs</h3>
-							<p className="text--left">Some criteria: invest in non-fiat-tokenization, tokenized investor, disruptive, contrarian, challenge status quo, emerging market, consumer oriented, massification, no-only gaming/AI/metaverse combo</p>
-							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/vc' role='button'>Access the list</a>
+							<h3>Private / presale / ICO Investor</h3>
+							<p className="text--left">You are ready to raise funds for your projects, you defined the whitepaper, roadmap and all the usual steps.</p>
+							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/investors' role='button'>Access the list</a>
 						</div>
 
 					</div>
