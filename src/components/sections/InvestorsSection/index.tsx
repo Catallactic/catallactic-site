@@ -23,7 +23,7 @@ export default function InvestorsSection(): JSX.Element {
 					<div className="col col--6">
 
 						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>3D Incubator / Accelerator</h3>
+							<h3>Web3 Incubator / Accelerator</h3>
 							<p className="text--left">You have an idea but need help to plan the fundraising</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/incubators' role='button'>Access the list</a>
 						</div>
