@@ -59,7 +59,7 @@ export default function Home(): JSX.Element {
 				<WhySection/>
 				<ValueChainSection />
         <MaturityModelSection />
-				<TokenizationMapSection/>
+				{/* <TokenizationMapSection/> */}
         <FeaturesSection />
         <DecentralizationSection />
 				<EcosystemSection />
