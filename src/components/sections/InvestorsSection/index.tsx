@@ -35,7 +35,7 @@ export default function InvestorsSection(): JSX.Element {
 						</div>
 
 						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>Web3 Private Sale / Presale / ICO Investor</h3>
+							<h3>Web3 Private Sale / Presale / ICO Investors</h3>
 							<p className="text--left">Only investors in tokens are included.</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/investors' role='button'>Access the list</a>
 						</div>
