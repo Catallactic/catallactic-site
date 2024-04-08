@@ -7,8 +7,6 @@ import investors_vc from "/static/data/investors_vc.json"
 
 # VCs
 
-The more daunting tasks of pitching investors is identifying those that could suit your project. First, because most still provide funds by equity and there is little info about tokenized investors. Also because there is not a good classification of areas of interest, so you need to analyse up to [14.000 websites](https://alphagrowth.io/investors).
-
-To make this task easier for Catallactic Adopters, we include below a list of VCs that maybe potentially interested in this kind of project. The list will be completed over the time. If you want to be included in the list, please, let us know.
+There are 2 kind of investors. Those investing tokens and those investing equity. Only the former are inclluded in the list below as they are the ones that respect decentralization principles.
 
 <JSONTable theadData={Object.keys(investors_vc[0])} tbodyData={investors_vc}/>

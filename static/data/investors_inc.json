@@ -1,5 +1,6 @@
 [
 	{ "name": "Catena Capital", "url": "https://catena-capital.com/" },
+	{ "name": "Consensys Mesh", "url": "https://www.mesh.xyz/about" },
 	{ "name": "Cronos Labs", "url": "https://cronos.org/accelerators" },
 	{ "name": "Fabric Ventures", "url": "https://fabric.vc/" },
 	{ "name": "Genius X", "url": "https://www.genius-x.co/" },
@@ -7,6 +8,5 @@
 	{ "name": "GravityX Capital", "url": "https://gravityx.capital/" },
 	{ "name": "LongHash Ventures", "url": "https://www.longhash.vc/" },
 	{ "name": "Majinx Capital", "url": "https://majinx.io/" },
-	{ "name": "Morningstar Ventures", "url": "https://morningstar.ventures/" },
 	{ "name": "UNOPND", "url": "https://unopnd.com/" }
 ]

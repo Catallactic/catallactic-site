@@ -18,6 +18,7 @@ import Survey from '@site/src/components/sections/Survey';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import styles from './index.module.css';
+import BlogSection from '../components/sections/BlogSection';
 
 // https://static.wixstatic.com/media/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg/v1/fill/w_640,h_212,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16b963_cdd4fbbdfc064f3c977862a8b6b96d3b~mv2.jpg
 // https://cdn.hswstatic.com/gif/bartering.jpg
@@ -65,6 +66,7 @@ export default function Home(): JSX.Element {
         <SuiteSection />
         <AdoptersSections />
 				<InvestorsSection />
+				{/* <BlogSection /> */}
 				<Survey/>
       </main>
     </Layout>
