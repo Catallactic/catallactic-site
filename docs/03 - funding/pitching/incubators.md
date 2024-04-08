@@ -7,6 +7,6 @@ import investors_inc from "/static/data/investors_inc.json"
 
 # Incubators
 
-There are 2 kind of incubators / accelerators. Those preparing you for an ICO and those preparing you for a demo day to investors. Only the former are inclluded in the list below as they are the ones that respect decentralization principles.
+Only incubators to prepare a private round, presale or some type of ICO crowdsale are included.
 
 <JSONTable theadData={Object.keys(investors_inc[0])} tbodyData={investors_inc}/>

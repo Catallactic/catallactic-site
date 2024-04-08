@@ -7,6 +7,6 @@ import investors_vc from "/static/data/investors_vc.json"
 
 # VCs
 
-There are 2 kind of investors. Those investing tokens and those investing equity. Only the former are inclluded in the list below as they are the ones that respect decentralization principles.
+Only investors in tokens are included.
 
 <JSONTable theadData={Object.keys(investors_vc[0])} tbodyData={investors_vc}/>
