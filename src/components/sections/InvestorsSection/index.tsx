@@ -23,8 +23,8 @@ export default function InvestorsSection(): JSX.Element {
 					<div className="col col--6">
 
 						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>Web3 Incubator / Accelerator</h3>
-							<p className="text--left">You need help to plan the fundraising. Only incubators / accelerators ending in an ICO are included.</p>
+							<h3>Web3 Incubators / Accelerators</h3>
+							<p className="text--left">Only incubators / accelerators ending in an ICO are included.</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/incubators' role='button'>Access the list</a>
 						</div>
 
@@ -35,7 +35,7 @@ export default function InvestorsSection(): JSX.Element {
 						</div>
 
 						<div className="padding-horiz--md margin-top--lg shadow">
-							<h3>Private / presale / ICO Investor</h3>
+							<h3>Web3 Private Sale / Presale / ICO Investor</h3>
 							<p className="text--left">Only investors in tokens are included.</p>
 							<a className='d-block btn btn-lg p-0 m-0 ' href='/docs/funding/pitching/investors' role='button'>Access the list</a>
 						</div>
