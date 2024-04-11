@@ -53,7 +53,7 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout title={`First ever Digital Representative Money for Real Economy.`} description="An Open Source Framework and Community to capture the Marginal Utility of Commodity Assets, build Commodity-backed Crypto-Currencies and provide DeFi Services back to the Society.">
+    <Layout title={`First ever Digital Representative Money for Real Economy.`} description="An Open Source Framework for Decentralization in Value.">
       <HomepageHeader />
       <main>
 				<WhySection/>

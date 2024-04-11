@@ -39,7 +39,7 @@ export default function WhySection(): JSX.Element {
 
 				<div className="text-center pb-1 mb-4">
 				{<div className="h1 fw-bold color-theme-reverse2">Building Representative Money</div>}
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework to build <b>Representative Electronic Money</b>. A step into <b>Private Currency Competition</b>.</p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework to build <b>Decentralization in Value</b>. A step into <b>Private Currency Competition</b>.</p>
 				</div>
 
 				<div className="row">
