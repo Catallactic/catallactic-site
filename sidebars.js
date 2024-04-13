@@ -562,7 +562,8 @@ const sidebars = {
 			type: 'category',
 			label: 'DLT Networks',
 			items: [
-				'ecosystem/dlts/list',
+				'ecosystem/dlts/bitcoin',
+				'ecosystem/dlts/ethereum',
 			],
 		}, {
 			type: 'category',

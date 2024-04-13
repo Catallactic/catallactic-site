@@ -1,0 +1,72 @@
+[
+	{ "type": "L1" },
+	{ "key": "ARM", "name": "Ethereum", "url":"https://ethereum.foundation/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Fork" },
+
+	{ "type": "Sidechain" },
+	{ "key": "ARM", "name": "Polygon", "url":"https://polygon.technology/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Layer 0" },
+
+
+
+	{ "type": "Optimistic Rollup" },
+	{ "key": "ARM", "name": "Arbitrum One", "url":"https://arbitrum.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Optimism", "url":"https://www.optimism.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Base", "url":"https://www.base.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Blast", "url":"https://blastblockchain.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Mode Network", "url":"https://www.mode.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Zora", "url":"https://support.zora.co/en/collections/4159737-zora-network", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "RSS3", "url":"https://rss3.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Boba", "url":"https://boba.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Kroma", "url":"https://kroma.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Kinto", "url":"https://www.kinto.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Cartesi", "url":"https://cartesi.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Parallell", "url":"https://parallel.fi/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Fuel v1", "url":"https://fuel.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "zK Rollup" },
+	{ "key": "ARM", "name": "zkSync Era", "url":"https://zksync.io/explore", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Linea", "url":"https://linea.build/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "dydx v3", "url":"https://dydx.exchange/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Scroll", "url":"https://scroll.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Polygon zkEVM", "url":"https://polygon.technology/polygon-zkevm", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Loopring", "url":"https://loopring.org/#/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "zkSync Lite", "url":"https://lite.zksync.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "DeGate v1", "url":"https://docs.degate.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Paradex", "url":"https://zks.app/wallet/token", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "ZKSpace", "url":"https://zks.app/wallet/token", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Validium (Validity Rollup)" },
+	{ "key": "ARM", "name": "Starknet", "url":"https://www.starknet.io/en", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Inmutable X", "url":"https://www.immutable.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Astar zkEVM", "url":"https://docs.astar.network/docs/learn/zkEVM/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Apex", "url":"https://www.apex.exchange/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Rhino", "url":"http://rhino.fi/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Sorare", "url":"https://sorare.com/en-gb/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Tanx", "url":"https://tanx.fi/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Miria", "url":"https://myria.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Canvas Connect", "url":"https://canvas.co/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "ReddioEx", "url":"https://www.reddio.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Optimium" },
+	{ "key": "ARM", "name": "Mantle", "url":"https://www.mantle.xyz/grants", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Manta Pacific", "url":"https://pacific.manta.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Metis", "url":"https://www.metis.io/grants", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Aevo", "url":"https://www.aevo.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Karak", "url":"https://karak.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Arbitrum Nova", "url":"https://arbitrum.io/anytrust", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Fraxtal", "url":"https://www.fractal.is/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Lira", "url":"https://lyra.finance/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "PGN", "url":"https://publicgoods.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Orderly Network", "url":"https://orderly.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Ancient8", "url":"https://ancient8.gg/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Hypr", "url":"https://www.hypr.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Edgeless", "url":"https://edgeless.io/home", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "HYCHAIN", "url":"https://docs.hychain.com/docs/getting-started", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Channels" }
+
+
+]
