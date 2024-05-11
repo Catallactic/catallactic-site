@@ -61,17 +61,29 @@ The token’s value varies in tandem with the price of the underlying commodity.
 From its origins in medieval times, the historical evolution of the value debate became locked into a centuries old dialectical conflict between the objective and subjective approaches. This study has traced the waves of value theories which oscillated back and forth towards each approach, until Walras and Marshall accommodated both rivaling approaches of value within their separate General and Partial Equilibrium frameworks.
 
 
-### 3.1. A New Tokenization Model
+### 3.1. A New Medium of Exchange
 
 capturing intrinsic value and exposing if to for prices based on subjective value
 
 ### 3.2. Difference with Commodity Backed Stablecoins
 
-add the table
+|                                 | Stablecoin                                        | CryptoCommodity                                                               |
+| :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
+| Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
+| Collateralized by               | Multiple                                          | Underlying market of fungible physical or digital asset                       |
+| Price Formation                 | Pegged to Fiat Price of asset in external market  | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
+| Scope                           | Mostly Global														          | Local or Global                                                               |
+| Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
+| Process Decentralized?          | No, manual stabilization					                | Yes, built-in automated stabilization                                         |
+| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                                 |
+| Disclosures  										| No                                                | Yes, full disclosure                                                          |
+| Allows project funding?         | No                                                | Yes                                                                           |
+| Collateral on inception needed? | Yes                                               | No                                                                            |
+| Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
-### 3.3. Deployed in Bitcoin
+### 3.3. Deployed on Bitcoin
 
-Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a pretora of miners.
+Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
 
 ### 3.4. Accessible with Wallets
@@ -79,9 +91,9 @@ Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by
 
 
 
-### 3.5. Triggering a New Industry
+### 3.5. A New DeFi Industry
 
-The whole crypto infrastructure can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services.
+Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
 
 
 
