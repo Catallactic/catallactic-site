@@ -151,6 +151,10 @@ const config = {
 						label: 'Whitepaper', 
 						position: 'right'
 					}, {
+						to: '/docs/litepaper', 
+						label: 'Litepaper', 
+						position: 'right'
+					}, {
 						to: '/book', 
 						label: 'Book', 
 						position: 'right'
