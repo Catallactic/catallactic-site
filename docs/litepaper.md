@@ -28,7 +28,7 @@ Cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 1. A Review on State of Arts
+## 1. A Review on Cryptocurrencies
 ---
 
 ### 1.1. DLTs and Blockchains
