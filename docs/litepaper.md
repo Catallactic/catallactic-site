@@ -27,10 +27,11 @@ Cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-https://cointelegraph.com/explained/what-are-tokenized-commodities
 
-## 1. A Review on Tokenization
+## 1. A Review on State of Arts
 ---
+
+### 1.1. Tokenization
 
 The advent of bitcoin and electronic money 
 
@@ -39,9 +40,10 @@ The advent of bitcoin and electronic money
 </div>
 <br/>
 
+### 1.2. Utility Tokens
 
-## 2. Commodity Backed Stablecoins
----
+
+### 1.2. Commodity Backed Stablecoins
 
 Tokenized commodities are created through tokenization, with tokens issued on a blockchain network, followed by secure storage, decentralized trading facilitated by smart contracts and, finally, redemption facilitated by issuers or smart contracts.
 
@@ -52,25 +54,55 @@ They accomplish this by pegging their value to a tangible good such as gold, oil
 
 The token’s value varies in tandem with the price of the underlying commodity.
 
+https://cointelegraph.com/explained/what-are-tokenized-commodities
+
+
+### 1.3. Crypto Adoption
+
+* Many scams, lack of transparency
+
+* No real world utilities
+
+* No good medium of exchange
+
+* Legal constraints
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 3. Implementing Representative Money
+## 2. Implementing Representative Money
 ---
 
-From its origins in medieval times, the historical evolution of the value debate became locked into a centuries old dialectical conflict between the objective and subjective approaches. This study has traced the waves of value theories which oscillated back and forth towards each approach, until Walras and Marshall accommodated both rivaling approaches of value within their separate General and Partial Equilibrium frameworks.
-
-
-### 3.1. A New Medium of Exchange
+### 2.1. A New Medium of Exchange
 
 capturing intrinsic value and exposing if to for prices based on subjective value
 
-### 3.2. Difference with Commodity Backed Stablecoins
+
+Hayek said money with stable value would be preferred by users.
+
+Real utility to empower real economy.
+
+Configurable by issuer. Benchmarks are required.
+
+|                                 | Value                | Collateral    |
+| :-------------------------------| :--------------------| :-------------|
+| Commodity Money                 | Fixed to Itself      | Itself        | 
+| Representative Money            | Fixed to Bound Asset | 100%          |
+| Semi Representative Money       | Fixed to Bound Asset | Configurable  |
+| Fiat Money                      | Debasement           | None          |
+
+
+### 2.2. Comparing with existing crypto currencies
+
+
+
 
 |                                 | Stablecoin                                        | CryptoCommodity                                                               |
 | :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
 | Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
 | Collateralized by               | Multiple                                          | Underlying market of fungible physical or digital asset                       |
+| Collateral Size                 | 100% by law                                       | Configurable by issuer                                                        |
 | Price Formation                 | Pegged to Fiat Price of asset in external market  | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
 | Scope                           | Mostly Global														          | Local or Global                                                               |
 | Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
@@ -81,17 +113,17 @@ capturing intrinsic value and exposing if to for prices based on subjective valu
 | Collateral on inception needed? | Yes                                               | No                                                                            |
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
-### 3.3. Deployed on Bitcoin
+### 2.3. Deployed on Bitcoin
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
 
-### 3.4. Accessible with Wallets
+### 2.4. Accessible with Wallets
 
 
 
 
-### 3.5. A New DeFi Industry
+### 2.5. A New DeFi Industry
 
 Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
 
@@ -100,7 +132,7 @@ Despite the crypto industry is not been created with the real economy in mind, m
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 4. Tokenizable Assets
+## 3. Tokenizable Assets
 ---
 
 Precious metals, energy resources, agricultural products and real estate are examples of commodities that can be tokenized using blockchain technology.
@@ -110,7 +142,7 @@ Precious metals, energy resources, agricultural products and real estate are exa
 
 
 
-## 5. Delivering Representative Money
+## 4. Delivering Representative Money
 ---
 
 Decentraized tokenization platform must be avaiable for anyone.
@@ -120,5 +152,5 @@ Decentraized tokenization platform must be avaiable for anyone.
 
 
 
-## 6. Future Work
+## 5. Future Work
 ---
