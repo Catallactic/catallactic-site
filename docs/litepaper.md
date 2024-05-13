@@ -31,7 +31,10 @@ Cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization
 ## 1. A Review on State of Arts
 ---
 
-### 1.1. Tokenization
+### 1.1. DLTs and Blockchains
+
+
+### 1.2. Tokenization
 
 The advent of bitcoin and electronic money 
 
@@ -40,24 +43,10 @@ The advent of bitcoin and electronic money
 </div>
 <br/>
 
-### 1.2. Utility Tokens
-
-
-### 1.2. Commodity Backed Stablecoins
-
-Tokenized commodities are created through tokenization, with tokens issued on a blockchain network, followed by secure storage, decentralized trading facilitated by smart contracts and, finally, redemption facilitated by issuers or smart contracts.
-
-
-A type of digital asset called commodity-backed cryptocurrencies is intended to provide greater stability than conventional cryptocurrencies. 
-
-They accomplish this by pegging their value to a tangible good such as gold, oil or real estate. The physical commodity is held by a business or organization, which also releases tokens denoting a specific amount of that commodity.
-
-The token’s value varies in tandem with the price of the underlying commodity.
-
-https://cointelegraph.com/explained/what-are-tokenized-commodities
-
 
 ### 1.3. Crypto Adoption
+
+* Driven to fiat by VCs
 
 * Many scams, lack of transparency
 
@@ -71,12 +60,16 @@ https://cointelegraph.com/explained/what-are-tokenized-commodities
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 2. Implementing Representative Money
+## 2. Creating Representative Money
 ---
 
 ### 2.1. A New Medium of Exchange
 
 capturing intrinsic value and exposing if to for prices based on subjective value
+
+
+
+### 2.2. CryptoCommodity Features
 
 
 Hayek said money with stable value would be preferred by users.
@@ -93,7 +86,7 @@ Configurable by issuer. Benchmarks are required.
 | Fiat Money                      | Debasement           | None          |
 
 
-### 2.2. Comparing with existing crypto currencies
+### 2.3. Comparing with existing crypto currencies
 
 
 
@@ -113,17 +106,33 @@ Configurable by issuer. Benchmarks are required.
 | Collateral on inception needed? | Yes                                               | No                                                                            |
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
-### 2.3. Deployed on Bitcoin
+### 2.4. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
 
-### 2.4. Accessible with Wallets
+### 2.5. Accessible with Wallets
 
 
+### 2.6. Benefits of representative money:
+
+By exposing the intrinsic value allowing price formation corresponding to subjective perception of consumers we get the benefits of represetative money:
+
+ - price formation according to consumers
+ - productive resources allocated by consumers will
+ - no cantillon
+ - private risk
+ - coexisting gold standard
 
 
-### 2.5. A New DeFi Industry
+### 2.7. A New DeFi Industry
+
+
+Fundraising for entrepreneurs
+
+Investment for investors
+
+
 
 Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
 
