@@ -249,6 +249,7 @@ The only Token Model that has the purpose to become a currency today is the Stab
 | :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
 | Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
 | Collateralized by               | Multiple                                          | Underlying market of fungible physical or digital asset                       |
+| Collateral Size                 | 100% by law                                       | Configurable by issuer                                                        |
 | Price Formation                 | Pegged to Fiat Price of asset in external market  | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
 | Scope                           | Mostly Global														          | Local or Global                                                               |
 | Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
