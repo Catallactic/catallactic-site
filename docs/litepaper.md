@@ -49,16 +49,19 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 
 The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.Blo
 
-### 1.2. Tokenization
+### 1.2. Smart Contracts
 
-The advent of bitcoin and electronic money 
+A smart contract is a self-executing program that automates the actions required in an agreement or contract. Once completed, the transactions are trackable and irreversible. When a smart comtract is deployed to a blockchain network, it gets cloned to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is resposible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
+
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.catallactic.org/assets/images/ops_balances-f4a24f9af292d2e0304607b3bf4f7e54.svg" width="80%"></img>
 </div>
 <br/>
 
-### 1.3. Tokenization Models
+Smart contracts allow to build a wide variety of decentralized apps and tokens.
+
+### 1.3. Tokenization
 
 
 <div style={{textAlign: 'center'}}>
