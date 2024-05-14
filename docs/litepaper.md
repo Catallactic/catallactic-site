@@ -51,7 +51,7 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 ### 1.2. Smart Contracts
 
-A smart contract is a self-executing program that automates the actions required in an agreement or contract. Once completed, the transactions are trackable and irreversible. When a smart comtract is deployed to a blockchain network, it gets cloned to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is resposible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
+Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.” A smart contract is a self-executing program that automates the actions required in an agreement or contract. Once completed, the transactions are trackable and irreversible. When a smart comtract is deployed to a blockchain network, it gets cloned to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is resposible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.catallactic.org/assets/images/ops_balances-f4a24f9af292d2e0304607b3bf4f7e54.svg" width="80%"></img>
@@ -62,6 +62,21 @@ Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
 ### 1.3. Tokenization
 
+Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer.
+
+Tokens are created in a process called minting. Tokens can be also destroyed in a process called burning.
+
+#### 1.3.1. Properties of Tokens
+
+When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
+
+Tokens can be transferred between holders. This features applies to fungible and not-fungible tokens.
+
+A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token.
+
+Tokens can be divisible.
+
+#### 1.3.2. Types of Tokens
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
@@ -70,13 +85,23 @@ Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
 Utility tokens are bound to an on-chain or virtual utility.
 
-Purposes of tokenization:
 
-* id
 
-* investment
+#### 1.3.3. Applications of Tokenization
 
-* curreny
+The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder.
+
+
+A basic application of a priced asset is to become a <b>currency</b>. There are some requirements to be a currency...
+
+Another application of priced asssets is <b>investment</b>.
+
+
+#### 1.3.4. Tokenized Assets
+
+RWA tokenization
+
+
 
 ### 1.4. CryptoCurrencies
 
@@ -91,6 +116,8 @@ as <b>Reserve of Value</b>
 
 
 as <b>Unit of Account</b>
+
+Coins unable to become currencies
 
 
 ### 1.5. Crypto Adoption
