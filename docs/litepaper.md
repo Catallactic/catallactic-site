@@ -62,11 +62,15 @@ Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
 ### 1.3. Tokenization
 
-Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer.
+Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
+
+#### 1.3.1. Token Lifecycle
 
 Tokens are created in a process called minting. Tokens can be also destroyed in a process called burning.
 
-#### 1.3.1. Properties of Tokens
+Tokens can be expired or suspended.
+
+#### 1.3.2. Properties of Tokens
 
 When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
 
@@ -76,7 +80,7 @@ A token tokenizing a fungible assets, or asset properties, can be provided a rel
 
 Tokens can be divisible.
 
-#### 1.3.2. Types of Tokens
+#### 1.3.3. Types of Tokens
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
@@ -87,7 +91,7 @@ Utility tokens are bound to an on-chain or virtual utility.
 
 
 
-#### 1.3.3. Applications of Tokenization
+#### 1.3.4. Applications of Tokenization
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder.
 
@@ -97,7 +101,7 @@ A basic application of a priced asset is to become a <b>currency</b>. There are 
 Another application of priced asssets is <b>investment</b>.
 
 
-#### 1.3.4. Tokenized Assets
+#### 1.3.5. Tokenized Assets
 
 RWA tokenization
 
