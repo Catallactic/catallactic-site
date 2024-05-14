@@ -70,17 +70,19 @@ Tokens are created in a process called minting. Tokens can be also destroyed in 
 
 Tokens can be expired or suspended.
 
-#### 1.3.2. Properties of Tokens
+#### 1.3.2. Token Features
 
 When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
 
 Tokens can be transferred between holders. This features applies to fungible and not-fungible tokens.
 
-A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token.
+Valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token.
 
 Tokens can be divisible.
 
-#### 1.3.3. Types of Tokens
+Non-fungible tokens tokens can be configurable
+
+#### 1.3.3. Tokenization Models
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
@@ -101,7 +103,7 @@ A basic application of a priced asset is to become a <b>currency</b>. There are 
 Another application of priced asssets is <b>investment</b>.
 
 
-#### 1.3.5. Tokenized Assets
+#### 1.3.5. Tokenizable Assets
 
 RWA tokenization
 
