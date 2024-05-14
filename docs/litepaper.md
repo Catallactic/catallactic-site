@@ -53,7 +53,6 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 A smart contract is a self-executing program that automates the actions required in an agreement or contract. Once completed, the transactions are trackable and irreversible. When a smart comtract is deployed to a blockchain network, it gets cloned to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is resposible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
 
-
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.catallactic.org/assets/images/ops_balances-f4a24f9af292d2e0304607b3bf4f7e54.svg" width="80%"></img>
 </div>
@@ -71,7 +70,30 @@ Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
 Utility tokens are bound to an on-chain or virtual utility.
 
-### 1.4. Crypto Adoption
+Purposes of tokenization:
+
+* id
+
+* investment
+
+* curreny
+
+### 1.4. CryptoCurrencies
+
+It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
+
+as <b>Medium of Exchange</b>. For Austrians, a currency is just a medium of exchange. According to Hayek, the currency better adopted by public would be one which is able to keep its value.
+
+Stablecoins are not a good medium of exchange since they are fiat based. Utility tokens are not able to maintain their value so cannot be considered good currencies for a mainstream adoption.
+
+
+as <b>Reserve of Value</b>
+
+
+as <b>Unit of Account</b>
+
+
+### 1.5. Crypto Adoption
 
 * Driven to fiat by VCs
 
