@@ -35,7 +35,7 @@ Based on this document, the initial design of the CYGAS token has been prepared,
 ## Keywords
 ---
 
-Cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization mechanism, tokenomics, private currencies, currency competition, Cantillon Effects
+representative money, cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization mechanism, tokenomics, private currencies, currency competition, cantillon effects, monetary theory
 
 <!-- truncate -->
 
