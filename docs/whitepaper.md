@@ -10,7 +10,6 @@ image: https://i.imgur.com/mErPwqL.png
 import Chart from 'chart.js/auto';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import annotationPlugin from 'chartjs-plugin-annotation';
-Chart.register(annotationPlugin);
 // https://github.com/chartjs/chartjs-plugin-annotation/issues/786
 import { Line } from "react-chartjs-2";
 import { Doughnut } from 'react-chartjs-2';
