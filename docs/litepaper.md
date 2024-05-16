@@ -51,7 +51,11 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 ### 1.2. Smart Contracts
 
-Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.” A smart contract is a self-executing program that automates the actions required in an agreement or contract. Once completed, the transactions are trackable and irreversible. When a smart comtract is deployed to a blockchain network, it gets cloned to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is resposible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
+Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.” 
+
+A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
+
+Smart contracts are stored on a blockchain. This makes them transparent, secure & immutable. When a smart comtract is deployed to a blockchain network, it gets copied to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is responsible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.catallactic.org/assets/images/ops_balances-f4a24f9af292d2e0304607b3bf4f7e54.svg" width="80%"></img>
@@ -66,9 +70,21 @@ Tokenization is the process of digitally representing an asset, or asset feature
 
 #### 1.3.1. Token Lifecycle
 
+Tokens can be pre-mined for a fundraising.
+
+First tokens are created at the end of this fundraising process in a TGE.
+
 Tokens are created in a process called minting. Tokens can be also destroyed in a process called burning.
 
+Tokens can be added to exchange to be traded.
+
+Tokens are distributed to stakeholders
+
 Tokens can be expired or suspended.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_value_chain2.svg" width="100%"></img>
+</div>
 
 #### 1.3.2. Token Features
 
@@ -144,13 +160,52 @@ as <b>Medium of Exchange</b>. For Austrians, a currency is just a medium of exch
 Stablecoins are not a good medium of exchange since they are fiat based. Utility tokens are not able to maintain their value so cannot be considered good currencies for a mainstream adoption.
 
 
+
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td></td>
+			<td>Unbacked</td>
+			<td>Utility</td>
+			<td>Security</td>
+			<td>Stablecoin</td>
+			<td>NFT</td>
+		</tr>
+		<tr>
+			<td>Medium of Exchange</td>
+			<td>no collateral</td>
+			<td>unstable</td>
+			<td>no purpose</td>
+			<td>fiat based</td>
+			<td>no fungible</td>
+		</tr>
+		<tr>
+			<td>Reserve of Value</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Unit of Account</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
 as <b>Reserve of Value</b>
 
 
 as <b>Unit of Account</b>
 
 Coins unable to become currencies
-
 
 ### 1.5. Crypto Adoption
 
@@ -162,7 +217,7 @@ Coins unable to become currencies
 
 * No good medium of exchange
 
-* Legal constraints
+* Legal and regulatory constraints
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -247,7 +302,10 @@ Fundraising for entrepreneurs
 
 Investment for investors
 
-
+Blockchains are provably immutable and enable the
+rapid transfer and exchange of crypto-tokens (which can
+represent assets) without the need for separate
+clearing, settlement & reconciliation.
 
 Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
 
