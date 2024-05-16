@@ -14,22 +14,21 @@ image: https://i.imgur.com/mErPwqL.png
 ## Abstract
 ---
 
-During centuries representative money has been the preferred medium of exchange for different civilizations. The advent of electronic money brings, for the first time ever, the opportunity to create representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset. 
+During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for privately issued representative electronic money, overcoming the troubles faced in the past. However, recent initiatives looks misled about this goal. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset and aimed for private issuance.
 
 This litepaper is addressed to an advanced audience, which is able to understand the fundamentals of monetary theory. As such we wont discuss the advantages of representative money and what benefits it brings for societies as this is expected to be known by the reader.
 
 ## Keywords
 ---
 
-Cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization mechanism, tokenomics, private currencies, currency competition, Cantillon Effects, monetary theory
-
-<!-- truncate -->
+representative money, cryptocurrencies, cryptocommodities, stablecoins, price formation, stabilization mechanism, tokenomics, private currencies, currency competition, cantillon effects, monetary theory
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-
 ## 1. A Review on Cryptocurrencies
 ---
+
+As economist are not well versed in technological innovations, we think is needed to overview  the current state of decentralized technologies and blockchain. This will also help to raise the debate about the current state of affairs and contextualize were the proposed tokenization pattern fits in.
 
 ### 1.1. DLTs and Blockchains
 
