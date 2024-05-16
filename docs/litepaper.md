@@ -14,9 +14,11 @@ image: https://i.imgur.com/mErPwqL.png
 ## Abstract
 ---
 
-During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for privately issued representative electronic money, overcoming the troubles faced in the past. However, recent initiatives looks misled about this goal. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset and aimed for private issuance.
+During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for privately issued representative electronic money, overcoming the troubles faced in the past. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset and aimed for private issuance.
 
-This litepaper is addressed to an advanced audience, which is able to understand the fundamentals of monetary theory. As such we wont discuss the advantages of representative money and what benefits it brings for societies as this is expected to be known by the reader.
+The project does not propose technological innovation in itself. Instead, we aim to build on top of the existing tools, and adapt them, to an existing use case extensively documented in the economic literature. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
+
+This paper is addressed to an advanced audience, which is able to understand the fundamentals of monetary theory beyond the mainstream beliefs. As such we wont discuss the advantages of representative money and what benefits brings for societies, as this is expected to be known by the reader.
 
 ## Keywords
 ---
