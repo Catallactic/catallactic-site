@@ -275,9 +275,9 @@ Configurable by issuer. Benchmarks are required.
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
+### 2.4. Representative Currency Competition
 
-
-### 2.4. Benefits of representative money:
+Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted. [Hayek]
 
 By exposing the intrinsic value allowing price formation corresponding to subjective perception of consumers we get the benefits of represetative money:
 
@@ -349,7 +349,6 @@ Moving liquidity across chains
 
 
 ### 3.5. Delivering Representative Money
----
 
 Decentraized tokenization platform must be avaiable for anyone.
 
