@@ -154,14 +154,11 @@ RWA tokenization
 
 ### 1.4. CryptoCurrencies
 
-It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
+In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
-as <b>Medium of Exchange</b>. For Austrians, a currency is just a medium of exchange. According to Hayek, the currency better adopted by public would be one which is able to keep its value.
+A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services. This is the function described in the previous sections. For Austrians, a currency is just a medium of exchange.
 
-Stablecoins are not a good medium of exchange since they are fiat based. Utility tokens are not able to maintain their value so cannot be considered good currencies for a mainstream adoption.
-
-
-
+None of the existing cryptocurrency parterns is a suitable medium of exchange. <b>NFT</b> are not fungible tokens, they can be exchanged, but they are not created as a medium of exchange. <b>Security tokens</b> typically provide a yield which is not a feature expected in a currency. All Austrian Autors assumed that currency is backed in a commodity and there its value is reasonably stable. This disqualifies <b>unbacked tokens</b> as a serious medium of exchange because they cannot be redeemed by any colateral. <b>Utility tokens</b>, on the other hand, do not have a stable value as it is subjected to the fluctuations of enclosed utilities. Finally, <b>Stablecoins</b> are typically fiat-based currencies as they are pegged to fiat prices. They can improve on liquidity over existing fiat currencies as they are easily transferable. However, they are subjrect to the same debasement issues of fiat. Additionally, they are not good components of a price system because the price formation is distorted.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -183,19 +180,19 @@ Stablecoins are not a good medium of exchange since they are fiat based. Utility
 		</tr>
 		<tr>
 			<td>Reserve of Value</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>no collateral</td>
+			<td>unstable</td>
+			<td>no purpose</td>
+			<td>Fiat Value</td>
+			<td>Intrisic Value</td>
 		</tr>
 		<tr>
 			<td>Unit of Account</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>No</td>
+			<td>No</td>
+			<td>No</td>
+			<td>No</td>
+			<td>No</td>
 		</tr>
 	</table>
 </div>
@@ -280,6 +277,8 @@ Configurable by issuer. Benchmarks are required.
 ### 2.4. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
+
+Networks decentralization
 
 
 ### 2.5. Accessible with Wallets
