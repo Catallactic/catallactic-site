@@ -274,17 +274,10 @@ Configurable by issuer. Benchmarks are required.
 | Collateral on inception needed? | Yes                                               | No                                                                            |
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
-### 2.4. Deployed on Bitcoin L2
-
-Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
-
-Networks decentralization
 
 
-### 2.5. Accessible with Wallets
 
-
-### 2.6. Benefits of representative money:
+### 2.4. Benefits of representative money:
 
 By exposing the intrinsic value allowing price formation corresponding to subjective perception of consumers we get the benefits of represetative money:
 
@@ -295,7 +288,7 @@ By exposing the intrinsic value allowing price formation corresponding to subjec
  - coexisting gold standard
 
 
-### 2.7. A New DeFi Industry
+### 2.5. A New DeFi Industry
 
 
 Fundraising for entrepreneurs
@@ -314,7 +307,59 @@ Scope
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 3. Tokenizable Assets
+## 3. Ecosystem Definition
+---
+
+
+### 3.1. Blockchains Landscape
+
+
+#### 3.1.1. Base Ecosystems
+
+
+
+#### 3.1.2. The Layered Stack
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_layers.svg" width="60%"></img>
+</div>
+<br/>
+
+
+
+#### 3.1.3. Decentralization
+
+
+### 3.2. Deployed on Bitcoin L2
+
+Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
+
+Networks decentralization
+
+
+### 3.3. Multichain Tokens
+
+Moving liquidity across chains
+
+
+### 3.4. Accessible with Wallets
+
+
+
+
+### 3.5. Delivering Representative Money
+---
+
+Decentraized tokenization platform must be avaiable for anyone.
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 4. Application Projects
 ---
 
 Precious metals, energy resources, agricultural products and real estate are examples of commodities that can be tokenized using blockchain technology.
@@ -324,15 +369,15 @@ Precious metals, energy resources, agricultural products and real estate are exa
 
 
 
-## 4. Delivering Representative Money
+
+
+## 6. Conclusions
 ---
 
-Decentraized tokenization platform must be avaiable for anyone.
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 5. Future Work
+## 7. References
 ---
+
+
