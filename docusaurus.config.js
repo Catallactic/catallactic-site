@@ -148,13 +148,13 @@ const config = {
             label: 'Ecosystem',
 					}, {
 						type: 'doc',
-						docId: 'whitepaper', 
-						label: 'Whitepaper', 
+						docId: 'litepaper', 
+						label: 'Litepaper', 
 						position: 'right'
 					}, {
 						type: 'doc',
-						docId: 'litepaper', 
-						label: 'Litepaper', 
+						docId: 'whitepaper', 
+						label: 'Whitepaper', 
 						position: 'right'
 					}, {
 						to: '/book', 
@@ -255,8 +255,8 @@ const config = {
 								label: 'BlogES',
                 to: '/blogES',
 							}, {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/CryptoAustrians/',
+                label: 'Discord',
+                href: 'https://discord.gg/jY4XbrktCa',
 							}, {
                 label: 'GitHub',
                 href: 'https://github.com/Catallactic',
