@@ -327,44 +327,267 @@ An ecosystem is started by a base blockchan that provides some new ideas to the 
 
 Most of existing blockchains have evolved as part of already existing ecosystem, and only a few base chains can define its own infrastructure ecosystem.
 
+A fork happens whenever a community makes a change to the blockchain’s protocol, or basic set of rules. When this happens, the chain splits — producing a second blockchain that shares all of its history with the original, but is headed off in a new direction.
+
+A sidechain is a separate, independent blockchain linked to the main blockchain (mainchain) using a two-way bridge. It enables tokens or other digital assets to be transferred between the mainchain and the sidechain.
+
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_layers.svg" width="60%"></img>
 </div>
 <br/>
 
+Channels are peer-to-peer protocols that allow two parties to make an unlimited number of transactions amongst themselves and then only post the final results to the blockchain. Afterward, cryptography is used to demonstrate how the summarized data results from the earlier set of transactions. A multisig smart contract ensures the correct parties sign the transactions.
+
+A Plasma blockchain is a network of independent child chains. These child chains function as distinct blockchains, each with its own block validation mechanisms. Yet, each of the child chains remains anchored to the underlying blockchain. A Plasma chain executes transactions off-chain with its own mechanism for block validation.
+
+A rollup is a layer two (L2) blockchain that processes transactions away from the main blockchain to reduce transaction costs and increase throughput on the main chain. Batches of transactions are verified and settled back to the main chain.
 
 #### 3.1.2. Infrastructure Ecosystems
 
 
-
-
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th rowspan="2">Currency</th>
+			<th rowspan="2">Layer</th>
+			<th rowspan="2">From</th>
+			<th rowspan="2">Language</th>
+			<th rowspan="2">Ledger</th>
+			<th rowspan="2">Consensus</th>
+			<th colspan="2">Execution</th>
+		</tr>
+		<tr>
+			<th>VM</th>
+			<th>Smart Contracts</th>
+		</tr>
+		<tr>
+			<td>Bitcoin</td>
+			<td>L1</td>
+			<td>2008</td>
+			<td>C++</td>
+			<td>UTXO</td>
+			<td>PoW</td>
+			<td>Script</td>
+			<td>BitcoinScript</td>
+		</tr>
+		<tr>
+			<td>Ripple</td>
+			<td>L1</td>
+			<td>2012</td>
+			<td>C++</td>
+			<td>account</td>
+			<td>XRP Ledger Consensus</td>
+			<td></td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<td>Ethereum</td>
+			<td>L1</td>
+			<td>2013</td>
+			<td>Go</td>
+			<td>account</td>
+			<td>PoS</td>
+			<td>EVM</td>
+			<td>Solidity</td>
+		</tr>
+		<tr>
+			<td>Radix</td>
+			<td>L1</td>
+			<td>2013</td>
+			<td></td>
+			<td></td>
+			<td>Cerberus</td>
+			<td></td>
+			<td>Scrypto</td>
+		</tr>
+		<tr>
+			<td>Monero</td>
+			<td>L1</td>
+			<td>2014</td>
+			<td>C++</td>
+			<td>UTXO</td>
+			<td>PoW</td>
+			<td></td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Tezos</td>
+			<td>L1</td>
+			<td>2014</td>
+			<td></td>
+			<td>account</td>
+			<td>PoS</td>
+			<td></td>
+			<td>Michelson</td>
+		</tr>
+		<tr>
+			<td>Cosmos</td>
+			<td>L0</td>
+			<td>2014</td>
+			<td>Go</td>
+			<td>account</td>
+			<td>BFT PoS</td>
+			<td>CosmWasm</td>
+			<td>Rust</td>
+		</tr>
+		<tr>
+			<td>Cardano</td>
+			<td>L1</td>
+			<td>2015</td>
+			<td>Haskell</td>
+			<td>UTXO</td>
+			<td>PoS</td>
+			<td></td>
+			<td>Plutus, Marlowe, Glow</td>
+		</tr>
+		<tr>
+			<td>IOTA (DAG)</td>
+			<td>L1</td>
+			<td>2015</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Rust, TinyGo, Solidity</td>
+		</tr>
+		<tr>
+			<td>WAVES</td>
+			<td>L1</td>
+			<td>2016</td>
+			<td>Scala</td>
+			<td></td>
+			<td>LPoS</td>
+			<td></td>
+			<td>Ride</td>
+		</tr>
+		<tr>
+			<td>Substrate, Polkadot</td>
+			<td>L0</td>
+			<td>2016</td>
+			<td>Rust</td>
+			<td>account</td>
+			<td>NPoS</td>
+			<td></td>
+			<td>Rust</td>
+		</tr>
+		<tr>
+			<td>NEAR</td>
+			<td>L1</td>
+			<td>2017</td>
+			<td>Rust</td>
+			<td>account</td>
+			<td>PoS</td>
+			<td></td>
+			<td>Rust, Javascript</td>
+		</tr>
+		<tr>
+			<td>Algorand</td>
+			<td>L1</td>
+			<td>2017</td>
+			<td>Python</td>
+			<td>account</td>
+			<td>PoS</td>
+			<td></td>
+			<td>TEAL</td>
+		</tr>
+		<tr>
+			<td>Chia Network</td>
+			<td>L1</td>
+			<td>2017</td>
+			<td>Python</td>
+			<td>UTXO</td>
+			<td>PoST</td>
+			<td></td>
+			<td>Chialisp</td>
+		</tr>
+		<tr>
+			<td>TON</td>
+			<td>L1</td>
+			<td>2018</td>
+			<td>C++</td>
+			<td>account</td>
+			<td>PoS</td>
+			<td></td>
+			<td>FunC</td>
+		</tr>
+		<tr>
+			<td>Aleph Zero</td>
+			<td>L1</td>
+			<td>2018</td>
+			<td>Rust</td>
+			<td></td>
+			<td>PoS</td>
+			<td></td>
+			<td>ink!</td>
+		</tr>
+		<tr>
+			<td>Avalanche</td>
+			<td>L0</td>
+			<td>2018</td>
+			<td>Go</td>
+			<td>UTXO</td>
+			<td></td>
+			<td></td>
+			<td>Solidity</td>
+		</tr>
+		<tr>
+			<td>Aptos (Diem, Libra)</td>
+			<td>L1</td>
+			<td>2019</td>
+			<td>Rust</td>
+			<td>account</td>
+			<td>AptosBFT</td>
+			<td></td>
+			<td>Move</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 
 #### 3.1.3. Decentralization
 
 
-### 3.2. Deployed on Bitcoin L2
+Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth.
+
+#### 3.1.4. Execution Environment
+
+
+
+### 3.2. CryptoCommodity Infrastructure
+
+
+#### 3.2.1. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
 Networks decentralization
 
 
-### 3.3. Multichain Tokens
+#### 3.2.2. Multichain Tokens
 
 Moving liquidity across chains
 
 
-### 3.4. Accessible with Wallets
 
 
 
 
-### 3.5. Delivering Representative Money
+### 3.3. Delivering Representative Money
 
 Decentraized tokenization platform must be avaiable for anyone.
 
 
+#### 3.3.1. Tokenization Platform
+
+
+#### 3.3.2. Tradeable in Exchanges
+
+
+#### 3.3.3. Accessible with Wallets
+
+
+#### 3.3.4. Accessible with Cards
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
