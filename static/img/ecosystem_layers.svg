@@ -3,8 +3,8 @@
    id="svg207"
    version="1.1"
    preserveAspectRatio="xMinYMin meet"
-   viewBox="0 0 1151.1593 416.46039"
-   height="416.46039"
+   viewBox="0 0 1151.1593 530.46039"
+   height="530.46039"
    width="1151.157"
    sodipodi:docname="ecosystem_layers.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -25,8 +25,8 @@
      inkscape:pagecheckerboard="false"
      showgrid="false"
      inkscape:zoom="0.5212963"
-     inkscape:cx="326.11012"
-     inkscape:cy="194.70693"
+     inkscape:cx="399.00533"
+     inkscape:cy="348.17051"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="0"
@@ -363,12 +363,21 @@
     </marker>
   </defs>
   <rect
-     style="fill:#8897b9;fill-opacity:0.482353;stroke:#00110f;stroke-width:0.9314;stroke-linejoin:round;stroke-opacity:0.884574"
+     style="fill:#334446;fill-opacity:0.63813567;stroke:#00110f;stroke-width:0.9314;stroke-linejoin:round;stroke-opacity:0.884574"
      id="rect7814"
      width="579.92108"
      height="68.97541"
      x="285.56345"
-     y="310.56396"
+     y="296.56393"
+     rx="0"
+     ry="0" />
+  <rect
+     style="fill:#8897b9;fill-opacity:0.482353;stroke:#00110f;stroke-width:1.22478;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-9"
+     width="1005.2204"
+     height="68.809067"
+     x="117.88078"
+     y="425.6001"
      rx="0"
      ry="0" />
   <rect
@@ -377,7 +386,7 @@
      width="186.37825"
      height="68.97541"
      x="671.99677"
-     y="56.443138"
+     y="42.443108"
      rx="0"
      ry="0" />
   <rect
@@ -386,7 +395,7 @@
      width="235.32053"
      height="69.435562"
      x="884.50269"
-     y="309.97369"
+     y="295.97366"
      rx="0"
      ry="0" />
   <rect
@@ -394,8 +403,17 @@
      id="rect7814-8-2"
      width="1098.4778"
      height="115.19096"
-     x="39.840988"
-     y="289.9776"
+     x="35.841694"
+     y="273.96875"
+     rx="0"
+     ry="0" />
+  <rect
+     style="fill:#81fba3;fill-opacity:0.130688;stroke:#00110f;stroke-width:1.65657;stroke-linejoin:round;stroke-opacity:0.884574"
+     id="rect7814-8-2-9"
+     width="1098.4778"
+     height="115.19096"
+     x="36.623436"
+     y="403.60004"
      rx="0"
      ry="0" />
   <rect
@@ -404,7 +422,7 @@
      width="205.76927"
      height="69.464813"
      x="284.71222"
-     y="182.70886"
+     y="168.70882"
      rx="0"
      ry="0" />
   <rect
@@ -413,41 +431,52 @@
      width="145.94496"
      height="69.435562"
      x="119.87819"
-     y="311.97366"
+     y="297.97363"
      rx="0"
      ry="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="606.23871"
-     y="338.44348"
+     y="325.08395"
      id="text5317-6-8-7-3-4"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0"
        x="606.23871"
-       y="338.44348"
-       style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">BASE</tspan></text>
+       y="325.08395"
+       style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">BASE BLOCKCHAIN</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
+     x="665.61249"
+     y="452.55054"
+     id="text5317-6-8-7-3-4-3"
+     transform="scale(0.9542511,1.0479422)"><tspan
+       id="tspan5315-2-4-2-6-0-3"
+       x="665.61249"
+       y="452.55054"
+       style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">INTEROPERABILITY</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="1049.7924"
-     y="339.62173"
+     y="326.26221"
      id="text5317-6-8-7-3-4-0"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0"
        x="1049.7924"
-       y="339.62173"
+       y="326.26221"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">SIDECHAINS</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="407.40399"
-     y="219.81181"
+     y="206.45227"
      id="text5317-6-8-7-3-4-0-7"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2"
        x="407.40399"
-       y="219.81181"
+       y="206.45227"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">CHANNELS</tspan></text>
   <rect
      style="fill:#8897b9;fill-opacity:0.482353;stroke:#00110f;stroke-width:0.497623;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -455,19 +484,19 @@
      width="164.23169"
      height="69.523964"
      x="498.8598"
-     y="182.46417"
+     y="168.46413"
      rx="0"
      ry="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="608.79449"
-     y="219.60625"
+     y="206.2467"
      id="text5317-6-8-7-3-4-0-7-9"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2-9"
        x="608.79449"
-       y="219.60625"
+       y="206.2467"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">PLASMA</tspan></text>
   <rect
      style="fill:#8897b9;fill-opacity:0.482353;stroke:#00110f;stroke-width:0.534945;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -475,41 +504,41 @@
      width="189.89259"
      height="69.486641"
      x="671.11017"
-     y="182.48288"
+     y="168.48283"
      rx="0"
      ry="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="802.31982"
-     y="219.60625"
+     y="206.2467"
      id="text5317-6-8-7-3-4-0-7-9-2"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2-9-7"
        x="802.31982"
-       y="219.60625"
+       y="206.2467"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">ROLLUPS</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="799.94287"
-     y="100.1405"
+     y="86.780968"
      id="text5317-6-8-7-3-4-0-7-9-2-1"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2-9-7-3"
        x="799.94287"
-       y="100.1405"
+       y="86.780968"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">ROLLUPS</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="83.480865"
-     y="343.97427"
+     y="330.61475"
      id="text5317-6-8-7-3-4-0-7-9-2-1-1"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2-9-7-3-4"
        x="83.480865"
-       y="343.97427"
+       y="330.61475"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">L1</tspan></text>
   <rect
      style="fill:#81fba3;fill-opacity:0.130688;stroke:#00110f;stroke-width:1.65839;stroke-linejoin:round;stroke-opacity:0.884574"
@@ -517,7 +546,7 @@
      width="1100.9054"
      height="115.18915"
      x="37.841698"
-     y="158.77963"
+     y="144.77959"
      rx="0"
      ry="0" />
   <rect
@@ -525,42 +554,53 @@
      id="rect7814-8-2-6-2"
      width="1100.2108"
      height="115.18967"
-     x="38.536201"
-     y="29.589939"
+     x="37.841698"
+     y="15.589911"
      rx="113.78805"
      ry="1.739198" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="83.901726"
-     y="218.87294"
+     y="205.5134"
      id="text5317-6-8-7-3-4-0-7-9-2-1-1-9"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2-9-7-3-4-4"
        x="83.901726"
-       y="218.87294"
+       y="205.5134"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">L2</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="84.111893"
-     y="97.58625"
+     y="84.226715"
      id="text5317-6-8-7-3-4-0-7-9-2-1-1-9-2"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-2-9-7-3-4-4-6"
        x="84.111893"
-       y="97.58625"
+       y="84.226715"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">L3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
+     x="80.098061"
+     y="448.99576"
+     id="text5317-6-8-7-3-4-0-7-9-2-1-1-9-2-6"
+     transform="scale(0.9542511,1.0479422)"><tspan
+       sodipodi:role="line"
+       id="tspan7718"
+       x="80.098061"
+       y="448.99576">L0</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:34.8538px;line-height:0.95;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17835"
      x="204.12701"
-     y="344.44806"
+     y="331.08853"
      id="text5317-6-8-7-3-4-0-2"
      transform="scale(0.9542511,1.0479422)"><tspan
        id="tspan5315-2-4-2-6-0-0-6"
        x="204.12701"
-       y="344.44806"
+       y="331.08853"
        style="font-size:34.8538px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.17835">FORKS</tspan></text>
   <script
      id="mesh_polyfill"

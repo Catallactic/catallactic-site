@@ -314,17 +314,29 @@ Scope
 ### 3.1. Blockchains Landscape
 
 
-#### 3.1.1. Base Ecosystems
+#### 3.1.1. The Layered Stack Ecosystem
 
+Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot for venture capital to invest. As a consequencem blockchain networks have evolved in almost any direction and with different protocols and patterns. Over the time, some protocols have consolidates making up ecosystems around the an initial based blockchain.
 
+An ecosystem is started by a base blockchan that provides some new ideas to the market. These ideas come in some of the 4 main moddules that compose a blockchain: execution, settlement, consensus and data availability. 
 
-#### 3.1.2. The Layered Stack
+<div style={{textAlign: 'center'}}>
+	<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*9uU4Ednc_Aj-GX9M" width="60%"></img>
+</div>
+<br/>
 
+Most of existing blockchains have evolved as part of already existing ecosystem, and only a few base chains can define its own infrastructure ecosystem.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_layers.svg" width="60%"></img>
 </div>
 <br/>
+
+
+#### 3.1.2. Infrastructure Ecosystems
+
+
+
 
 
 
