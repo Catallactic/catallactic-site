@@ -226,6 +226,13 @@ Coins unable to become currencies
 
 ### 2.1. A New Medium of Exchange
 
+Hayek said money with stable value would be preferred by users.
+
+Real utility to empower real economy.
+
+
+### 2.2. The Underlaying Asset
+
 To understand a CryptoCommodity lets first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 the supply of the stablecoin to the RWA stock as collateral, the stablecoin is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin is unable to form its own price and this must be borrowed from an external source, typically an internaciobal RWA market. There are some consequences of this fact: first, according to regulations, the stablecoin must be collateralized from inception and, therefore, only issuers with enough collateral can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
 
 A CryptoCommodity is also an stablecoin but improves this process at several levels. A CryptoCommodity also binds to an asset, but it does through an utility working as proxy. The bound utility helps by providing a marginal utility when exposed to consumers. The utility must be an off-chain utility, typically a real world utility.
@@ -237,7 +244,11 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 </div>
 <br/>
 
-### 2.2. Capturing Subjective Value
+
+### 2.3. Exposing Intrinsic Value
+
+
+### 2.4. Capturing Subjective Value
 
 
 <div style={{textAlign: 'center'}}>
@@ -246,21 +257,13 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 <br/>
 
 
-### 2.3. Stabilization Mechanism
+### 2.5. Stabilization Mechanism
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/stabilization_mechanism_maintainance.svg" width="65%"></img>
 </div>
 <br/>
 
-
-
-### 2.4. CryptoCommodity Features
-
-
-Hayek said money with stable value would be preferred by users.
-
-Real utility to empower real economy.
 
 Configurable by issuer. Benchmarks are required.
 
@@ -275,7 +278,7 @@ Configurable by issuer. Benchmarks are required.
 
 
 
-### 2.5. Comparing with existing crypto currencies
+### 2.6. Comparing with existing crypto currencies
 
 
 
@@ -296,7 +299,7 @@ Configurable by issuer. Benchmarks are required.
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
-### 2.6. Representative Currency Competition
+### 2.7. Representative Currency Competition
 
 Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted. [Hayek]
 
@@ -309,7 +312,7 @@ By exposing the intrinsic value allowing price formation corresponding to subjec
  - coexisting gold standard
 
 
-### 2.7. A New DeFi Industry
+### 2.8. A New DeFi Industry
 
 
 Fundraising for entrepreneurs
