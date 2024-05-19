@@ -2678,7 +2678,7 @@ This stabilization mechanism could be run as a scheduled process triggered perio
 
 #### 11.3.2. Holder buys CC at Exchange with Stabilization
 
-In this case, the stabilization mechanism is executed by the smart contract for each swap operation. The scenario is similar to the one described in 9.5.1 where an aditional stabilization is step is added.
+In this case, the stabilization mechanism is executed by the smart contract for each swap operation. The scenario is similar to the one described in 9.5.1 where an aditional stabilization step is added.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/swapUSDTbyCCStabilized.svg" width="80%"></img>
@@ -2687,7 +2687,7 @@ In this case, the stabilization mechanism is executed by the smart contract for 
 
 #### 11.3.3. Holder sells CC at Exchange with Stabilization
 
-In this case, the stabilization mechanism is executed by the smart contract for each swap operation. The scenario is similar to the one described in 9.5.2 where an aditional stabilization is step is added.
+In this case, the stabilization mechanism is executed by the smart contract for each swap operation. The scenario is similar to the one described in 9.5.2 where an aditional stabilization step is added.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/swapCCbyUSDTStabilized.svg" width="80%"></img>
