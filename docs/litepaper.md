@@ -589,7 +589,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 
 
 
-### 3.3.1. Execution Environment
+#### 3.3.1. Execution Environment
 
 Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
 
@@ -598,10 +598,10 @@ The reason why new smart contract platforms are constantly emerging and establis
 https://www.itransition.com/blockchain/smart-contract/platforms
 
 
-### 3.3.2. Settlement
+#### 3.3.2. Settlement
 
 
-### 3.3.3. Consensus
+#### 3.3.3. Consensus
 
 Decentralization
 
@@ -609,7 +609,7 @@ Decentralization
 Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth.
 
 
-### 3.3.4. Data Availability
+#### 3.3.4. Data Availability
 
 
 ### 3.4. Ethereum Ecosystem
