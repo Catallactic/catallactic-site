@@ -237,7 +237,25 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 </div>
 <br/>
 
-### 2.2. CryptoCommodity Features
+### 2.2. Capturing Subjective Value
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/stabilization_mechanism_capture.svg" width="65%"></img>
+</div>
+<br/>
+
+
+### 2.3. Stabilization Mechanism
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/stabilization_mechanism_maintainance.svg" width="65%"></img>
+</div>
+<br/>
+
+
+
+### 2.4. CryptoCommodity Features
 
 
 Hayek said money with stable value would be preferred by users.
@@ -254,7 +272,10 @@ Configurable by issuer. Benchmarks are required.
 | Fiat Money                      | Debasement           | None          |
 
 
-### 2.3. Comparing with existing crypto currencies
+
+
+
+### 2.5. Comparing with existing crypto currencies
 
 
 
@@ -275,7 +296,7 @@ Configurable by issuer. Benchmarks are required.
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
-### 2.4. Representative Currency Competition
+### 2.6. Representative Currency Competition
 
 Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted. [Hayek]
 
@@ -288,7 +309,7 @@ By exposing the intrinsic value allowing price formation corresponding to subjec
  - coexisting gold standard
 
 
-### 2.5. A New DeFi Industry
+### 2.7. A New DeFi Industry
 
 
 Fundraising for entrepreneurs
@@ -310,6 +331,7 @@ Scope
 ## 3. Blockchains Landscape
 ---
 
+Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot for venture capital to invest. As a consequencem blockchain networks have evolved in almost any direction and with different protocols and patterns. Over the time, some protocols have consolidates making up ecosystems around the an initial based blockchain.
 
 ### 3.1. Infrastructure Ecosystems
 
@@ -533,8 +555,6 @@ Scope
 <br/>
 
 ### 3.3. The Layered Stack Ecosystem
-
-Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot for venture capital to invest. As a consequencem blockchain networks have evolved in almost any direction and with different protocols and patterns. Over the time, some protocols have consolidates making up ecosystems around the an initial based blockchain.
 
 An ecosystem is started by a base blockchan that provides some new ideas to the market. These ideas come in some of the 4 main moddules that compose a blockchain: execution, settlement, consensus and data availability. 
 
