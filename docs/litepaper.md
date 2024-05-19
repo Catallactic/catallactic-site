@@ -307,46 +307,11 @@ Scope
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 3. Ecosystem Definition
+## 3. Blockchains Landscape
 ---
 
 
-### 3.1. Blockchains Landscape
-
-
-#### 3.1.1. The Layered Stack Ecosystem
-
-Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot for venture capital to invest. As a consequencem blockchain networks have evolved in almost any direction and with different protocols and patterns. Over the time, some protocols have consolidates making up ecosystems around the an initial based blockchain.
-
-An ecosystem is started by a base blockchan that provides some new ideas to the market. These ideas come in some of the 4 main moddules that compose a blockchain: execution, settlement, consensus and data availability. 
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*9uU4Ednc_Aj-GX9M" width="60%"></img>
-</div>
-<br/>
-
-Most of existing blockchains have evolved as part of already existing ecosystem, and only a few base chains can define its own infrastructure ecosystem.
-
-A fork happens whenever a community makes a change to the blockchain’s protocol, or basic set of rules. When this happens, the chain splits — producing a second blockchain that shares all of its history with the original, but is headed off in a new direction.
-
-A sidechain is a separate, independent blockchain linked to the main blockchain (mainchain) using a two-way bridge. It enables tokens or other digital assets to be transferred between the mainchain and the sidechain.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_layers.svg" width="60%"></img>
-</div>
-<br/>
-
-The Layer 2 provides scalabilty to Layer 1. Layer 2 typically processes operations out of Layer 1 to improve throughput and reduce fees.
-
-Channels are peer-to-peer protocols that allow two parties to make an unlimited number of transactions amongst themselves and then only post the final results to the blockchain. Afterward, cryptography is used to demonstrate how the summarized data results from the earlier set of transactions. A multisig smart contract ensures the correct parties sign the transactions.
-
-A Plasma blockchain is a network of independent child chains. These child chains function as distinct blockchains, each with its own block validation mechanisms. Yet, each of the child chains remains anchored to the underlying blockchain. A Plasma chain executes transactions off-chain with its own mechanism for block validation.
-
-A rollup is a layer two (L2) blockchain that processes transactions away from the main blockchain to reduce transaction costs and increase throughput on the main chain. Batches of transactions are verified and settled back to the main chain.
-
-The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for real-world applications and executes specific functions.
-
-#### 3.1.2. Infrastructure Ecosystems
+### 3.1. Infrastructure Ecosystems
 
 
 <div style={{overflowX : 'auto'}}>
@@ -355,10 +320,10 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<th rowspan="2">Currency</th>
 			<th rowspan="2">Layer</th>
 			<th rowspan="2">From</th>
-			<th rowspan="2">Language</th>
+			<th rowspan="2">Lang</th>
 			<th rowspan="2">Ledger</th>
 			<th rowspan="2">Consensus</th>
-			<th colspan="2">Execution</th>
+			<th colspan="2">Execution Environment</th>
 		</tr>
 		<tr>
 			<th>VM</th>
@@ -380,7 +345,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td>2012</td>
 			<td>C++</td>
 			<td>account</td>
-			<td>XRP Ledger Consensus</td>
+			<td>XRP Ledger</td>
 			<td></td>
 			<td>Yes</td>
 		</tr>
@@ -411,7 +376,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td>C++</td>
 			<td>UTXO</td>
 			<td>PoW</td>
-			<td></td>
+			<td>-</td>
 			<td>-</td>
 		</tr>
 		<tr>
@@ -421,7 +386,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td></td>
 			<td>account</td>
 			<td>PoS</td>
-			<td></td>
+			<td>TezosVM</td>
 			<td>Michelson</td>
 		</tr>
 		<tr>
@@ -441,7 +406,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td>Haskell</td>
 			<td>UTXO</td>
 			<td>PoS</td>
-			<td></td>
+			<td>Ouroboros</td>
 			<td>Plutus, Marlowe, Glow</td>
 		</tr>
 		<tr>
@@ -471,7 +436,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td>Rust</td>
 			<td>account</td>
 			<td>NPoS</td>
-			<td></td>
+			<td>PEE</td>
 			<td>Rust</td>
 		</tr>
 		<tr>
@@ -491,7 +456,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td>Python</td>
 			<td>account</td>
 			<td>PoS</td>
-			<td></td>
+			<td>AlgorandVM</td>
 			<td>TEAL</td>
 		</tr>
 		<tr>
@@ -503,6 +468,16 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 			<td>PoST</td>
 			<td></td>
 			<td>Chialisp</td>
+		</tr>
+		<tr>
+			<td>Fantom (DAG)</td>
+			<td>L1</td>
+			<td>2018</td>
+			<td>Go</td>
+			<td>account</td>
+			<td>Lachesis</td>
+			<td>FVM</td>
+			<td>Solidity</td>
 		</tr>
 		<tr>
 			<td>TON</td>
@@ -548,27 +523,84 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 </div>
 <br/>
 
+### 3.2. DLT Trilemma
 
-#### 3.1.3. Decentralization
+### 3.3. The Layered Stack Ecosystem
+
+Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot for venture capital to invest. As a consequencem blockchain networks have evolved in almost any direction and with different protocols and patterns. Over the time, some protocols have consolidates making up ecosystems around the an initial based blockchain.
+
+An ecosystem is started by a base blockchan that provides some new ideas to the market. These ideas come in some of the 4 main moddules that compose a blockchain: execution, settlement, consensus and data availability. 
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*9uU4Ednc_Aj-GX9M" width="60%"></img>
+</div>
+<br/>
+
+Most of existing blockchains have evolved as part of already existing ecosystem, and only a few base chains can define its own infrastructure ecosystem.
+
+A fork happens whenever a community makes a change to the blockchain’s protocol, or basic set of rules. When this happens, the chain splits — producing a second blockchain that shares all of its history with the original, but is headed off in a new direction.
+
+A sidechain is a separate, independent blockchain linked to the main blockchain (mainchain) using a two-way bridge. It enables tokens or other digital assets to be transferred between the mainchain and the sidechain.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_layers.svg" width="60%"></img>
+</div>
+<br/>
+
+The Layer 2 provides scalabilty to Layer 1. Layer 2 typically processes operations out of Layer 1 to improve throughput and reduce fees.
+
+Channels are peer-to-peer protocols that allow two parties to make an unlimited number of transactions amongst themselves and then only post the final results to the blockchain. Afterward, cryptography is used to demonstrate how the summarized data results from the earlier set of transactions. A multisig smart contract ensures the correct parties sign the transactions.
+
+A Plasma blockchain is a network of independent child chains. These child chains function as distinct blockchains, each with its own block validation mechanisms. Yet, each of the child chains remains anchored to the underlying blockchain. A Plasma chain executes transactions off-chain with its own mechanism for block validation.
+
+A rollup is a layer two (L2) blockchain that processes transactions away from the main blockchain to reduce transaction costs and increase throughput on the main chain. Batches of transactions are verified and settled back to the main chain.
+
+The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for real-world applications and executes specific functions.
+
+
+
+
+### 3.4. Execution Environment
+
+Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
+
+The reason why new smart contract platforms are constantly emerging and established platforms are continuously updated is that it’s virtually impossible to maximize all of the three most important properties of smart contract platforms: scalability, security, and decentralization.
+
+https://www.itransition.com/blockchain/smart-contract/platforms
+
+
+### 3.5. Settlement
+
+
+### 3.6. Consensus
+
+Decentralization
 
 
 Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth.
 
-#### 3.1.4. Execution Environment
+
+### 3.7. Data Availability
 
 
 
-### 3.2. CryptoCommodity Infrastructure
 
 
-#### 3.2.1. Deployed on Bitcoin L2
+
+## 4. CryptoCommodity Infrastructure
+---
+
+
+
+
+### 4.1. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
 Networks decentralization
 
 
-#### 3.2.2. Multichain Tokens
+### 4.2. Multichain Tokens
 
 Moving liquidity across chains
 
@@ -577,27 +609,27 @@ Moving liquidity across chains
 
 
 
-### 3.3. Delivering Representative Money
+### 4.3. Delivering Representative Money
 
 Decentraized tokenization platform must be avaiable for anyone.
 
 
-#### 3.3.1. Tokenization Platform
+#### 4.3.1. Tokenization Platform
 
 
-#### 3.3.2. Tradeable in Exchanges
+#### 4.3.2. Tradeable in Exchanges
 
 
-#### 3.3.3. Accessible with Wallets
+#### 4.3.3. Accessible with Wallets
 
 
-#### 3.3.4. Accessible with Cards
+#### 4.3.4. Accessible with Cards
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 4. Application Projects
+## 5. Application Projects
 ---
 
 Precious metals, energy resources, agricultural products and real estate are examples of commodities that can be tokenized using blockchain technology.
