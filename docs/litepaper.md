@@ -523,7 +523,14 @@ Scope
 </div>
 <br/>
 
+
 ### 3.2. DLT Trilemma
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://pbs.twimg.com/media/FDaXBuNVQAMBe5U?format=jpg&name=900x900" width="50%"></img>
+</div>
+<br/>
 
 ### 3.3. The Layered Stack Ecosystem
 
@@ -559,8 +566,7 @@ The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for re
 
 
 
-
-### 3.4. Execution Environment
+### 3.3.1. Execution Environment
 
 Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
 
@@ -569,10 +575,10 @@ The reason why new smart contract platforms are constantly emerging and establis
 https://www.itransition.com/blockchain/smart-contract/platforms
 
 
-### 3.5. Settlement
+### 3.3.2. Settlement
 
 
-### 3.6. Consensus
+### 3.3.3. Consensus
 
 Decentralization
 
@@ -580,27 +586,39 @@ Decentralization
 Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth.
 
 
-### 3.7. Data Availability
+### 3.3.4. Data Availability
+
+
+### 3.4. Ethereum Ecosystem
 
 
 
+### 3.5. Bitcoin Ecosystem
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
 ## 4. CryptoCommodity Infrastructure
 ---
 
+### 4.1. Requirements
 
 
 
-### 4.1. Deployed on Bitcoin L2
+### 4.2. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
 Networks decentralization
 
 
-### 4.2. Multichain Tokens
+### 4.3. Multichain Tokens
 
 Moving liquidity across chains
 
@@ -609,21 +627,21 @@ Moving liquidity across chains
 
 
 
-### 4.3. Delivering Representative Money
+### 4.4. Delivering Representative Money
 
 Decentraized tokenization platform must be avaiable for anyone.
 
 
-#### 4.3.1. Tokenization Platform
+#### 4.4.1. Tokenization Platform
 
 
-#### 4.3.2. Tradeable in Exchanges
+#### 4.4.2. Tradeable in Exchanges
 
 
-#### 4.3.3. Accessible with Wallets
+#### 4.4.3. Accessible with Wallets
 
 
-#### 4.3.4. Accessible with Cards
+#### 4.4.4. Accessible with Cards
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
