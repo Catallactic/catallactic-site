@@ -284,6 +284,7 @@ There incentives for the issuer to create this structure as he will profit in a 
 
 #### 2.3.1. Fundraising
 
+Most of real economy projects require an initial investment in infrastructure and physical tools. This is a blocking aspect for many project that never see the light because funding limitations. To overcome this drawbacks, nothing prevents a CryptoCommodities issuer of launching an initial fundraising campaign and get the initial funding to launch his project. The number of token units pre-mited in advance for seed investors, their expected profit as well as the vesting periods must be configured by the CryptoCommodity issuer. Configuration data and best practices must be provided to the issuer with experience from previous benchmarks. This is however and optinal stage and the issuer could skip pre-miting fundraising tokens.
 
 #### 2.3.2. Capturing Subjective Value
 
