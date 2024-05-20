@@ -259,13 +259,20 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 
 #### 2.2.3. Exposing Intrinsic Value
 
+So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/underlaying_asset_exposed.svg" width="100%"></img>
 </div>
 <br/>
 
+The price is formed in the internal ecosystem of the CryptoCommodity so not access to external price sources (e.g. Oracles) or manual supply manipualtion is required. Also, no dependency on external systems. A CryptoCommodity is an autonomous currency and is not boud to any other system, e.g. not bound to fiat. This fact is a foundation for real value decentralization.
+
+The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
+
 #### 2.2.4. Representative Money Ecosystem
+
+There incentives for the issuer to create this structure as he will profit in a few ways: he can run fundraising campaigns, he can profit for the additional DeFi related utilities that provides to the society. The society can also get increased amount of financial services.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_before.svg" width="80%"></img>
@@ -281,18 +288,24 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 
 #### 2.3.2. Capturing Subjective Value
 
+If the issuer has decided the CrytoCommodity to launch a fundraising campaign, this will pre-mint initially a number of tokens allocated to ICO investors. In this case, there would be more tokens minted that the equivalent demand and the price of the token in exchanges will be lower than the subjective value. The price created by the marginal utlity is not formed over night. Instead, in the inception of the CryptoCommodity, when not demand is yet backing the token, the price is only provided by the speculative utility from the future expectations.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/stabilization_mechanism_capture.svg" width="65%"></img>
 </div>
 <br/>
 
-Capture profile options:
-* free price
-* ramp
+For this inception process, there will be a settlement time until the price in the exchanges matches the subjective value of the underlying asset. We call this period as the period to capture the subjective value of the underlying asset into the CryptoCommodity units.
+
+By adjustiing the supply in the exchanges, it is possible for the issuer to configure the profile for this capture stage. Some available options are:
+* Free price
+* Ramp
 * Constant Product
 
 #### 2.3.3. Stabilization Mechanism
+
+Once the required supply is maintained in the exchanges, the marginal utility is captured and the price is formed, nothing prevents the CryptoCommodity issuer from minting more CryptoCommodity units to provide additional utilities, e.g. feed DeFi Services markets
+
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/stabilization_mechanism_maintainance.svg" width="65%"></img>
