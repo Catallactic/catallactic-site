@@ -267,6 +267,12 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 
 #### 2.2.4. Representative Money Ecosystem
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_before.svg" width="80%"></img>
+</div>
+<br/>
+
+
 ### 2.3. Representative Money Lifecycle
 
 
