@@ -221,17 +221,18 @@ Coins unable to become currencies
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 2. Representative Money
+## 2. CryptoCommodity
 ---
 
 ### 2.1. A New Medium of Exchange
+
+CryptoCommodity proposes a new medium of exchange based on Representative Money.
 
 Hayek said money with stable value would be preferred by users.
 
 Real utility to empower real economy.
 
 ### 2.2. Creating Representative Money
-
 
 #### 2.2.1. The Underlaying Asset
 
@@ -269,7 +270,7 @@ The price is formed in the internal ecosystem of the CryptoCommodity so not acce
 
 The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
 
-#### 2.2.4. Representative Money Ecosystem
+#### 2.2.4. CryptoCommodity Ecosystem
 
 There incentives for the issuer to create this structure as he will profit in a few ways: he can run fundraising campaigns, he can profit for the additional DeFi related utilities that provides to the society. The society can also get increased amount of financial services.
 
@@ -279,7 +280,7 @@ There incentives for the issuer to create this structure as he will profit in a 
 <br/>
 
 
-### 2.3. Representative Money Lifecycle
+### 2.3. CryptoCommodity Lifecycle
 
 This section will describe the stages of a CryptoCommodity from the point that is exposed to the market.
 
