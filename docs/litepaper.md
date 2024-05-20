@@ -281,10 +281,13 @@ There incentives for the issuer to create this structure as he will profit in a 
 
 ### 2.3. Representative Money Lifecycle
 
+This section will describe the stages of a CryptoCommodity from the point that is exposed to the market.
 
 #### 2.3.1. Fundraising
 
-Most of real economy projects require an initial investment in infrastructure and physical tools. This is a blocking aspect for many project that never see the light because funding limitations. To overcome this drawbacks, nothing prevents a CryptoCommodities issuer of launching an initial fundraising campaign and get the initial funding to launch his project. The number of token units pre-mited in advance for seed investors, their expected profit as well as the vesting periods must be configured by the CryptoCommodity issuer. Configuration data and best practices must be provided to the issuer with experience from previous benchmarks. This is however and optinal stage and the issuer could skip pre-miting fundraising tokens.
+Most of real economy projects require an initial investment in infrastructure and physical tools. This is a entry barrier for many project that never see the light because funding limitations. To overcome this drawback, nothing prevents a CryptoCommodities issuer of launching an initial fundraising campaign and get the initial funding to launch his project. In this initial stage, the CryptoCommodity would be working as Utility Token. 
+
+The number of token units pre-mited in advance for seed investors, their expected profit as well as the vesting periods must be configured by the CryptoCommodity issuer. Configuration data and best practices must be provided to the issuer with experience from previous benchmarks. This is however and optinal stage and the issuer could skip pre-miting fundraising tokens.
 
 #### 2.3.2. Capturing Subjective Value
 
@@ -302,7 +305,17 @@ By adjustiing the supply in the exchanges, it is possible for the issuer to conf
 * Ramp
 * Constant Product
 
-#### 2.3.3. Stabilization Mechanism
+#### 2.3.3. CryptoCommodity Peg
+
+As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
+
+Economic history and literature are rich with schemes to peg the price of the currency to a price index or price index derivative, in order to provide price stability: monometallic (gold) standards, bimetallism, and later the symmetallism proposed by Marshall (1886, 1887a, 1887b) and Edgeworth (1895); the “fixed value of bullion” standard proposed by Williams (1892); Fisher's compensated dollar (1911, 1913a, 1913b, 1913c, 1913d, 1914, and 1920); the Commodity Reserve Currency scheme suggested by Goudriaan (1932), B. Graham (1937, 1944), F. D. Graham (1942), and revisited by Friedman (1951); Hall's (1982) ANCAP basket; the proposal by Miles (1984) and Sumner (1989, 1991, 1995) to use futures contracts, Kevin Dowd’s (1994) quasi-futures contract, and later Dowd’s (1999) price index option. For a review of this literature the reader is referred to Dowd (1996, Chapter 14). [38]
+
+Since blockchain advent, the cryptocurrency landscape is rich in fiat backed stablecoins, either pegged to a fiat currency (USDT, USDC, BUSD, FRAX, MIM, Pax Dollar, USDJ, Gemini USD, USDP,Palau, FDUSD, PYUSD, Real USD, TrueUSD, ZUSD, DAI, CUSD, USDD, USB, USDe, Raft, eUSD, TerraUSD, Fei, EUROCEUROe, GBPT, XSGD, IDRT, BIDR, BRZ, DRAM, MXNT, MXNC), pegged to a commodity (PAXG,GLD, MCAU, AABBG, NNN, AWG, PMGT, CTLX, XAUT, DGX, CACHE, RBZ GBDTRBZ ZiG, GODL, SLVT, CRUDE,PDX, PTR, FIX, GEM, BANANA, SOYA, CORA, WHEA, SOYB, CORB, XCORN XSOY, XWHEAT, XRICE) or pegged to another cryptocurrency (frxETH). They all peg their price to the price formed in an external market. The price formation mechanism is external to the stablecoin ecosystem. This price needs to be captured from the external source and set into the cryptocurrency with an stabilization mechanism that implies to manage the supply. Either if the price manually set by the stablecoin issuer, or the smart contract has a built-in access with Oracles, the stablecoins will inherit the centralization feature of the price formation source. Unfortunately this is against blockchain decentralization principles. [49]
+
+A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem. A CryptoCommodity delivers the foundation for a true value decentralization.
+
+#### 2.3.4. Stabilization Mechanism
 
 Once the required supply is maintained in the exchanges, the marginal utility is captured and the price is formed, nothing prevents the CryptoCommodity issuer from minting more CryptoCommodity units to provide additional utilities, e.g. feed DeFi Services markets
 
@@ -313,7 +326,7 @@ Once the required supply is maintained in the exchanges, the marginal utility is
 <br/>
 
 
-#### 2.3.4. Leverage
+#### 2.3.5. Leverage
 
 
 Configurable by issuer. Benchmarks are required.
@@ -325,12 +338,7 @@ Configurable by issuer. Benchmarks are required.
 | Semi Representative Money       | Fixed to Bound Asset | Configurable  |
 | Fiat Money                      | Debasement           | None          |
 
-
-
 ### 2.4. Comparing with existing crypto currencies
-
-
-
 
 |                                 | Stablecoin                                        | CryptoCommodity                                                               |
 | :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
