@@ -179,25 +179,14 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 
 So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. 
 
-
 <div style={{textAlign: 'center'}}>
 	<img src="/img/underlaying_asset_exposed.svg" width="100%"></img>
 </div>
 <br/>
 
-Therefore, a CryptoCommodity is a cryptocurrency bound to a reapetable utility-proxied asset to form a price. And this structure provides some benefits:
+The price is formed in the internal ecosystem of the CryptoCommodity so not access to external price sources (e.g. Oracles) or manual supply manipualtion is required. Also, no dependency on external systems. A CryptoCommodity is an autonomous currency and is not boud to any other system, e.g. not bound to fiat. This fact is a foundation for real value decentralization.
 
-- the price created by the marginal utlity is not formed over night. Instead, in the inception of a CryptoCommodity is price is typically only provided by the speculative utility from the future expectations. This fact allows the issuer to run fundraising campaigns to fund a project.
-
-- the price is formed ni the internal ecosystem of the CryptoCommodity so not access to external price sources is required. Also, no dependency on external systems. A CryptoCommodity is an autonomous currency and is not boud to any other system, e.g. not bound to fiat. This fact is a foundation for real value decentralization.
-
-- the collateral is a utility, typically a service, so the issuer must secure the guarantee to deliver this service on the collateralized percent, but does not need to custody the asset on its own. It remains to see the compliance requirements established by the autorities for a utilty proxied asset-backed stablecoin.
-
-- once the required supply is maintained in the exchanges, the marginal utility is captured and the price is formed, nothing prevents the CryptoCommodity issuer from minting more CryptoCommodity units to provide additional utilities, e.g. feed DeFi Services markets
-
-- there incentives for the issuer to create this structure as he will profit in a few ways: he can run fundraising campaigns, he can profit for the additional DeFi related utilities that provides to the society. The society can also get increased amount of financial services.
-
-- the adoption of CryptoCommodity as a payment method to provide the utility does not need to be complete overnight. Instead it can be gradual so the issuer will have time to undertand and acommodate the new technical requirements for its marketplace.
+The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
 
 ### 3.4. CryptoCommodity Peg
 
@@ -250,11 +239,7 @@ CryptoCommodity is built on a fungible asset that can be extracted, manufactured
 </div>
 <br/>
 
-The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
-
 The value extracted from the undelying asset by the CryptoCommodity issuer will be delivered to the society in the form of DeFi Services.
-
-We will discuss about the underlying asset in the next section.
 
 ### 3.8. CryptoCommodity Scope
 
