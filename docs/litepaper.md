@@ -240,12 +240,18 @@ A CryptoCommodity is also an stablecoin but improves this process at several lev
 But there is more. As an utility-proxied asset is one time event, meaning that when the utility is satisfied, the asset is consumed, is not possible to bind permanently to make an offer. By binding to this kind of asset, the CryuptoCommodity would have an continuously-growing supply. And this is not something that we want because the quality of the CrtypcCommodity would be far from optimal. In order to overcome this issue, the definition can be adapted to a "repeating utility-proxied asset", that is something that the issuer will be always able to provide periodically. Iin order to make the marginal utility quantifiable, the repeatability period must cover a known timespan where the utility provides value to the consumer, e.g. a gas cylinder provides value for one month at a cost of $16. This means that the marginal utility for consumers is $16 per month.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/underlaying_asset.svg" width="60%"></img>
+	<img src="/img/underlaying_asset.svg" width="40%"></img>
 </div>
 <br/>
 
 
 ### 2.3. Exposing Intrinsic Value
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/underlaying_asset_exposed.svg" width="100%"></img>
+</div>
+<br/>
 
 
 ### 2.4. Capturing Subjective Value
@@ -256,6 +262,12 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 </div>
 <br/>
 
+#### 2.4.1. Configuring Capture Profile
+
+Capture profile options:
+* free price
+* ramp
+* Constant Product
 
 ### 2.5. Stabilization Mechanism
 
@@ -618,7 +630,7 @@ Consensus plays a crucial role in blockchain networks. The main objective of a c
 
 ### 3.5. Bitcoin Ecosystem
 
-
+Traditionally, Bitcoin has been viewed as a store of value with limited functionality beyond investment. Unlike Ethereum, which supports a rich ecosystem of apps and smart contracts, Bitcoin has lacked these capabilities. However, developers are now pushing to bridge this gap through innovative solutions.
 
 
 
