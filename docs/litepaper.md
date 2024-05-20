@@ -245,6 +245,16 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 <br/>
 
 
+### 2.3. Binding Asset to CryptoCommodity
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/underlaying_asset_bound.svg" width="60%"></img>
+</div>
+<br/>
+
+
+
 ### 2.3. Exposing Intrinsic Value
 
 
