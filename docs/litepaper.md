@@ -247,15 +247,14 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 <br/>
 
 
-#### 2.2.2.  Binding Asset to CryptoCommodity
+#### 2.2.2. Binding Asset to CryptoCommodity
 
+Once the underlying asset id defined, we are reaady to bind this asset to the CryptoCommodity. The mission of the underlaying asset is to provide value to the CrytoCommodity. In sucha a way that the CryptoCommodit becomes representative of the compromissed unit of underlying asset.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/underlaying_asset_bound.svg" width="60%"></img>
 </div>
 <br/>
-
-
 
 #### 2.2.3. Exposing Intrinsic Value
 
