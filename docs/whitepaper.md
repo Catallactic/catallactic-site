@@ -161,11 +161,21 @@ A CryptoCommodity is also an stablecoin but improves this process at several lev
 But there is more. As an utility-proxied asset is one time event, meaning that when the utility is satisfied, the asset is consumed, is not possible to bind permanently to make an offer. By binding to this kind of asset, the CryuptoCommodity would have an continuously-growing supply. And this is not something that we want because the quality of the CrtypcCommodity would be far from optimal. In order to overcome this issue, the definition can be adapted to a "repeating utility-proxied asset", that is something that the issuer will be always able to provide periodically. Iin order to make the marginal utility quantifiable, the repeatability period must cover a known timespan where the utility provides value to the consumer, e.g. a gas cylinder provides value for one month at a cost of $16. This means that the marginal utility for consumers is $16 per month.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/underlaying_asset.svg" width="60%"></img>
+	<img src="/img/underlaying_asset.svg" width="40%"></img>
 </div>
 <br/>
 
-So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. Therefore, a CryptoCommodity is a cryptocurrency bound to a reapetable utility-proxied asset to form a price. And this structure provides some benefits:
+### 3.2. Exposing Intrinsic Value
+
+So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. 
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/underlaying_asset_exposed.svg" width="100%"></img>
+</div>
+<br/>
+
+Therefore, a CryptoCommodity is a cryptocurrency bound to a reapetable utility-proxied asset to form a price. And this structure provides some benefits:
 
 - the price created by the marginal utlity is not formed over night. Instead, in the inception of a CryptoCommodity is price is typically only provided by the speculative utility from the future expectations. This fact allows the issuer to run fundraising campaigns to fund a project.
 
@@ -179,7 +189,7 @@ So, for a CryptoCommodity backed by this composed asset exposed in a exchange, t
 
 - the adoption of CryptoCommodity as a payment method to provide the utility does not need to be complete overnight. Instead it can be gradual so the issuer will have time to undertand and acommodate the new technical requirements for its marketplace.
 
-### 3.2. CryptoCommodity Peg
+### 3.3. CryptoCommodity Peg
 
 As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
 
@@ -189,7 +199,7 @@ Since blockchain advent, the cryptocurrency landscape is rich in fiat backed sta
 
 A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem. A CryptoCommodity delivers the foundation for a true value decentralization.
 
-### 3.3. Collateral
+### 3.4. Collateral
 
 No stablecoin had been invented that is both hard pegged to a stable physical asset with intrinsic utility and fully decentralized. In this context, “hard pegged” means that each token issued is directly exchangeable for a specified quantity of a physical asset [57]. Murialdo and Belof presented E-Stablecoin, a cryptocurrency that is both fully decentralized and fully collateralized by a physical asset with stable value and intrinsic utility (electricity) [57].
 
@@ -216,12 +226,12 @@ This is not the case for CryptoCommodities as they are redeemable by the proxied
 
 Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
-### 3.4. Redeemability
+### 3.5. Redeemability
 
 The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio. This must be in a contract
 
 
-### 3.5. CryptoCommodity Ecosystem
+### 3.6. CryptoCommodity Ecosystem
 
 CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
 
@@ -236,11 +246,11 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 We will discuss about the underlying asset in the next section.
 
-### 3.6. CryptoCommodity Scope
+### 3.7. CryptoCommodity Scope
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 3.7. CryptoCommodity vs Stablecoin
+### 3.8. CryptoCommodity vs Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
