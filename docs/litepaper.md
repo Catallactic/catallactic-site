@@ -221,7 +221,7 @@ Coins unable to become currencies
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 2. Creating Representative Money
+## 2. Representative Money
 ---
 
 ### 2.1. A New Medium of Exchange
@@ -230,8 +230,10 @@ Hayek said money with stable value would be preferred by users.
 
 Real utility to empower real economy.
 
+### 2.2. Creating Representative Money
 
-### 2.2. The Underlaying Asset
+
+#### 2.2.1. The Underlaying Asset
 
 To understand a CryptoCommodity lets first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 the supply of the stablecoin to the RWA stock as collateral, the stablecoin is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin is unable to form its own price and this must be borrowed from an external source, typically an internaciobal RWA market. There are some consequences of this fact: first, according to regulations, the stablecoin must be collateralized from inception and, therefore, only issuers with enough collateral can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
 
@@ -245,7 +247,7 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 <br/>
 
 
-### 2.3. Binding Asset to CryptoCommodity
+#### 2.2.2.  Binding Asset to CryptoCommodity
 
 
 <div style={{textAlign: 'center'}}>
@@ -255,7 +257,7 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 
 
 
-### 2.3. Exposing Intrinsic Value
+#### 2.2.3. Exposing Intrinsic Value
 
 
 <div style={{textAlign: 'center'}}>
@@ -263,8 +265,15 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 </div>
 <br/>
 
+#### 2.2.4. Representative Money Ecosystem
 
-### 2.4. Capturing Subjective Value
+### 2.3. Representative Money Lifecycle
+
+
+#### 2.3.1. Fundraising
+
+
+#### 2.3.2. Capturing Subjective Value
 
 
 <div style={{textAlign: 'center'}}>
@@ -272,19 +281,20 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 </div>
 <br/>
 
-#### 2.4.1. Configuring Capture Profile
-
 Capture profile options:
 * free price
 * ramp
 * Constant Product
 
-### 2.5. Stabilization Mechanism
+#### 2.3.3. Stabilization Mechanism
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/stabilization_mechanism_maintainance.svg" width="65%"></img>
 </div>
 <br/>
+
+
+#### 2.3.4. Leverage
 
 
 Configurable by issuer. Benchmarks are required.
@@ -298,9 +308,7 @@ Configurable by issuer. Benchmarks are required.
 
 
 
-
-
-### 2.6. Comparing with existing crypto currencies
+### 2.4. Comparing with existing crypto currencies
 
 
 
@@ -321,7 +329,7 @@ Configurable by issuer. Benchmarks are required.
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
-### 2.7. Representative Currency Competition
+### 2.5. Representative Currency Competition
 
 Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted. [Hayek]
 
@@ -334,7 +342,7 @@ By exposing the intrinsic value allowing price formation corresponding to subjec
  - coexisting gold standard
 
 
-### 2.8. A New DeFi Industry
+### 2.6. A New DeFi Industry
 
 
 Fundraising for entrepreneurs
@@ -622,13 +630,13 @@ https://www.itransition.com/blockchain/smart-contract/platforms
 
 #### 3.3.2. Settlement
 
+The settlement layer settles transactions by processing proofs from other chains to finalize transfers. The settlement layer ensures that the transaction cannot be rolled back and the parties involved in the financial operation do not have their assets stolen after the final settlement is reached. Settlement is the process that ensures transaction immutability on the blockchain, playing a critical role in guaranteeing that no one can alter recorded transactions. Often considered the "anchor" within the blockchain's layers, settlement provides finality or irreversibility. To achieve this, the blockchain must validate transactions, confirm proofs and resolve disputes.
 
 #### 3.3.3. Consensus
 
+Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
+
 Decentralization
-
-
-Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth.
 
 
 #### 3.3.4. Data Availability
