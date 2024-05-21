@@ -34,10 +34,28 @@ As economist are not well versed in technological innovations, we think is neede
 
 ### 1.1. DLTs and Blockchains
 
-A blockchain is a database structure which organizes the information as chain of linked blocks. Each block contains a set of transactions and other essential details. When new transactions are being received into the blockchain, new blocks are being added to record the details of the transactions and state. The whole structure is packaged into a node. Blockchain nodes are computers that perform the network operations, storing, validating, and relaying transactions and blocks. Each node holds a copy of the entire ledger.
+A DLT is a database structure which organizes the information as chain of linked blocks. Each block contains a set of transactions and other essential details. When new transactions are being received into the blockchain, new blocks are being added to record the details of the transactions and state. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.nist.gov/sites/default/files/images/2019/09/25/blockchain.png" width="80%"></img>
+</div>
+<br/>
+
+The whole structure is packaged into a node. Blockchain nodes are computers that perform the network operations, storing, validating, and relaying transactions and blocks. Each node holds a copy of the entire ledger.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuw2ar7mgFLKR5anAsNlZHgbjB5c-Hg2ZHMA&s" width="80%"></img></td>
+			<td><img src="https://imageio.forbes.com/blogs-images/shermanlee/files/2018/01/2018-01-17-10.07.47.jpg?height=388&width=711&fit=bounds" width="80%"></img></td>
+			<td><img src="https://miro.medium.com/v2/resize:fit:960/1*YJgJTzHlnrXrDU_ddsWtAA.png" width="80%"></img></td>
+		</tr>
+		<tr>
+			<td>Blockchain</td>
+			<td>DAG</td>
+			<td>blockDAG</td>
+		</tr>
+	</table>
 </div>
 <br/>
 
@@ -48,13 +66,11 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 </div>
 <br/>
 
-The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.Blo
+The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.
 
 ### 1.2. Smart Contracts
 
-Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.” 
-
-A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
+Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”. A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
 
 Smart contracts are stored on a blockchain. This makes them transparent, secure & immutable. When a smart comtract is deployed to a blockchain network, it gets copied to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is responsible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
 
@@ -130,19 +146,7 @@ Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
 
-
-
-#### 1.3.4. Applications of Tokenization
-
-The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
-
-
-A basic application of a priced asset is to become a <b>currency</b>. There are some requirements to be a currency...
-
-Another application of priced asssets is <b>investment</b>.
-
-
-#### 1.3.5. Tokenizable Assets
+#### 1.3.4. Tokenizable Assets
 
 Tangible 
 
@@ -150,6 +154,14 @@ Fungible
 
 RWA tokenization
 
+#### 1.3.5. Applications of Tokenization
+
+The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
+
+
+A basic application of a priced asset is to become a <b>currency</b>. There are some requirements to be a currency...
+
+Another application of priced asssets is <b>investment</b>.
 
 
 ### 1.4. CryptoCurrencies
@@ -248,7 +260,7 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 <br/>
 
 
-#### 2.2.2. Binding Asset to CryptoCommodity
+#### 2.2.2. Binding the Asset to CryptoCommodity
 
 Once the underlying asset id defined, we are reaady to bind this asset to the CryptoCommodity. The mission of the underlaying asset is to provide value to the CrytoCommodity. In sucha a way that the CryptoCommodit becomes representative of the compromissed unit of underlying asset.
 
@@ -672,14 +684,274 @@ Decentralization
 
 ### 3.4. Ethereum Ecosystem
 
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Layer</td>
+			<td colSpan="2">Protocol Type</td>
+			<td>Protocols</td>
+		</tr>
+		<tr>
+			<td>L0</td>
+			<td colSpan="2">InterOperability</td>
+			<td>
 
+			</td>
+		</tr>
+		<tr>
+			<td rowSpan="3">L1</td>
+			<td colSpan="2">Base Chain</td>
+			<td>Ethereum</td>
+		</tr>
+		<tr>
+			<td colSpan="2">Forks</td>
+			<td>
+
+			</td>
+		</tr>
+		<tr>
+			<td colSpan="2">Sidechains</td>
+			<td>
+				Polygon
+			</td>
+		</tr>
+		<tr>
+			<td rowSpan="7">L2</td>
+			<td colSpan="2">Channels</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td colSpan="2">Plasma</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td rowSpan="5">Rollups</td>
+			<td>Optimistic</td>
+			<td>
+				Arbitrum One
+				Optimism
+				Base
+				Kroma
+				Cartesi
+				Blast
+				Mode Network
+				Zora
+				RSS3
+				Boba
+				Kinto
+				Parallell
+				Fuel v1
+			</td>
+		</tr>
+		<tr>
+			<td>Optimium</td>
+			<td>
+				Mantle
+				Manta Pacific
+				Metis
+				Aevo
+				Karak
+				Arbitrum Nova
+				Fraxtal
+				Lira
+				PGN
+				Orderly Network
+				Ancient8
+				Hypr
+				Edgeless
+				HYCHAIN
+			</td>
+		</tr>
+		<tr>
+			<td>zk</td>
+			<td>
+				Polygon zkEVM
+				zkSync Lite
+				zkSync Era
+				Starknet
+				Scroll
+				Linea
+				Loopring
+				ZKSpace
+			</td>
+		</tr>
+		<tr>
+			<td>Validium</td>
+			<td>
+				Inmutable X (games)
+				Astar zkEVM
+				Apex (DEX)
+				dydx v3 (DEX)
+				DeGate v1 (DEX)
+				Paradex (DEX)
+				Rhino (DEX Aggregator)
+				Sorare (Sports)
+				Tanx (DEX)
+				Myria (Gaming)
+				Canvas Connect (DeFi)
+				ReddioEx (Gaming)
+			</td>
+		</tr>
+		<tr>
+			<td>RaaS</td>
+			<td>
+				AltLayer
+				Caldera
+				Conduit
+				Gateway
+				Gelato
+				Karnot
+				Snapchain
+				Vistara
+				Zeeve
+				Semita
+			</td>
+		</tr>
+		<tr>
+			<td>L3</td>
+			<td colSpan="2">Rollups</td>
+			<td>-</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 ### 3.5. Bitcoin Ecosystem
 
 Traditionally, Bitcoin has been viewed as a store of value with limited functionality beyond investment. Unlike Ethereum, which supports a rich ecosystem of apps and smart contracts, Bitcoin has lacked these capabilities. However, developers are now pushing to bridge this gap through innovative solutions.
 
-
-
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Layer</td>
+			<td colSpan="2">Protocol Type</td>
+			<td>Protocols</td>
+		</tr>
+		<tr>
+			<td>L0</td>
+			<td colSpan="2">InterOperability</td>
+			<td>
+				Sovryrn,
+				Syscoin,
+				Rollux,
+				Map Protocol
+			</td>
+		</tr>
+		<tr>
+			<td rowSpan="3">L1</td>
+			<td colSpan="2">Base Chain</td>
+			<td>Bitcoin</td>
+		</tr>
+		<tr>
+			<td colSpan="2">Forks</td>
+			<td>
+				Litecoin
+				Bitcoin Cash
+				Bitcoin Cash Satoshi Version (BSV)
+				Zcash
+				Flush
+				Handshake
+				Satoshi Chain
+				Bitcoin Spark
+				Raven Coin
+			</td>
+		</tr>
+		<tr>
+			<td colSpan="2">Sidechains</td>
+			<td>
+				Bitfinity Network
+				Conflux Network
+				Rootstock
+				Zulu Network
+				Zenon Network
+				Bit Rexe
+				BEVM
+				Defi Chain
+				Botanix Labs
+				BounceBit
+				Ainn Layer
+				East Blue
+				Spectrachain
+				Dovi
+				InternertComputer
+				Liquid
+				Elements
+				Stacks
+				Gelios
+				TuringBitchain
+				TaprootChain
+				NuBit
+				Rosetta Protocol
+				Mint Layer
+				MVC Global
+				LayerTwoLabs
+				LibreBlockchain
+				Anduro
+			</td>
+		</tr>
+		<tr>
+			<td rowSpan="5">L2</td>
+			<td colSpan="2">Channels</td>
+			<td>
+				Omni Layer
+				Ark
+				Mercury Layer
+				Lightning Network
+			</td>
+		</tr>
+		<tr>
+			<td colSpan="2">Plasma</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td rowSpan="3">Rollups</td>
+			<td>Optimistic</td>
+			<td>
+				Rollkit (sovereign)
+				Building on Bitcoin (BOB)
+				Citrea (sovereign)
+				BiopDAO
+			</td>
+		</tr>
+		<tr>
+			<td>zk</td>
+			<td>
+				B² Network
+				Bitlayer
+				Merlin Chain
+				zkSats
+				Lumibit
+				Tunachain
+				SatoshiVM
+				RIF
+				BL2
+				Beet Network
+				Roos
+				U Protocol
+				Rooch Network
+				QED Protocol
+				Bison Labs (sovereign)
+				Hacash
+				Alpen Labs
+				Aligned Layer
+				Lightec
+			</td>
+		</tr>
+		<tr>
+			<td>RaaS</td>
+			<td>
+				Lumoz
+				BVM
+			</td>
+		</tr>
+		<tr>
+			<td>L3</td>
+			<td colSpan="2">Rollups</td>
+			<td>-</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
