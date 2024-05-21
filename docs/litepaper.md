@@ -16,7 +16,7 @@ image: https://i.imgur.com/mErPwqL.png
 
 During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for privately issued representative electronic money, overcoming the troubles faced in the past. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset and aimed for private issuance.
 
-Whereas the project leverages Bitcoin security, differently to Bitcoin, it allows multiple token creation for a currreny competition and provides a real world backing to the tokens. We build on top of the existing tools, and adapt them, to the use case extensively documented in the economic literature. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
+Whereas the project leverages Bitcoin security, differently to Bitcoin, it allows multiple token creation for a currreny competition and provides a real world backing to the tokens. We build the monetary configuration, extensively documented in the economic literature, on top of the existing blockchain tools. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
 
 This paper is addressed to an advanced audience, which is able to understand the fundamentals of monetary theory, beyond the mainstream beliefs. As such we wont discuss representative money and what benefits brings for societies, as this is expected to be known by the reader.
 
@@ -684,6 +684,19 @@ Decentralization
 
 ### 3.4. Ethereum Ecosystem
 
+#### 3.4.1. Ethereum Network
+
+Ethereum, from his inception on 2013, has been the foundation for many other project that derived from its code or borrowed its ideas. Ethereum projects are the network in which VCs has dedicated more their funds. As such, the Ethereum ecosystem is the one more developed in terms of user functionalities or DeFi.
+
+Ethereum is the official network of the fiat system. In fact, its decentralization is questioned since it migrated from PoW to PoS in 2013. The iage shows how a few holders can have majority on Staked Ethereum and therefore controling the protocol.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XIRXKYKFGRDJ3NULZNVJGHFD3U.png" width="80%"></img>
+</div>
+<br/>
+
+#### 3.4.2. Scaled Ethereum
+
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
@@ -819,6 +832,24 @@ Decentralization
 ### 3.5. Bitcoin Ecosystem
 
 Traditionally, Bitcoin has been viewed as a store of value with limited functionality beyond investment. Unlike Ethereum, which supports a rich ecosystem of apps and smart contracts, Bitcoin has lacked these capabilities. However, developers are now pushing to bridge this gap through innovative solutions.
+
+#### 3.5.1. Bitcoin Network
+
+With <a href="https://bitnodes.io/" target="_blank">around 19127 reachable nodes and 57852 global nodes</a>, at the moment of writting, Bitcoin is still the king of blockchain networks.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/bitcoin_nodes.png" width="80%"></img>
+</div>
+<br/>
+
+At the moment of writting, Bitcoin Domination is still higher than 50% in global market capitalization.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/global_capitalization.png" width="80%"></img>
+</div>
+<br/>
+
+#### 3.5.2. Scaled Bitcoin
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -957,21 +988,20 @@ Traditionally, Bitcoin has been viewed as a store of value with limited function
 
 
 
-## 4. CryptoCommodity Infrastructure
+## 4. CryptoCommodity Ecosystem
 ---
 
-### 4.1. Requirements
+
+### 4.1. CryptoCommodity Infrastructure
 
 
-
-### 4.2. Deployed on Bitcoin L2
+#### 4.1.1. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
-Networks decentralization
 
 
-### 4.3. Multichain Tokens
+#### 4.1.2. Multichain Tokens
 
 Moving liquidity across chains
 
@@ -980,21 +1010,52 @@ Moving liquidity across chains
 
 
 
-### 4.4. Delivering Representative Money
+### 4.2. Delivering Representative Money
 
 Decentraized tokenization platform must be avaiable for anyone.
 
 
-#### 4.4.1. Tokenization Platform
+#### 4.2.1. Payment Gateway
 
 
-#### 4.4.2. Tradeable in Exchanges
+#### 4.2.2. Tokenization Platform
 
 
-#### 4.4.3. Accessible with Wallets
+#### 4.2.3. Tradeable in Exchanges
 
 
-#### 4.4.4. Accessible with Cards
+#### 4.2.4. Accessible with Wallets
+
+
+#### 4.2.5. Accessible with Cards
+
+
+
+
+
+
+### 4.3. CryptoCommodity Features
+
+
+#### 4.3.1. Security
+
+
+#### 4.3.2. Decentralization
+
+Networks decentralization
+
+
+#### 4.3.3. Transparency
+
+
+#### 4.3.4. Privacy
+
+
+#### 4.3.5. Compliance
+
+
+
+
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
