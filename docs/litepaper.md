@@ -85,37 +85,7 @@ Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
 Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
 
-#### 1.3.1. Token Lifecycle
-
-Tokens can be pre-mined for a fundraising.
-
-First tokens are created at the end of this fundraising process in a TGE.
-
-Tokens are created in a process called minting. Tokens can be also destroyed in a process called burning.
-
-Tokens can be added to exchange to be traded.
-
-Tokens are distributed to stakeholders
-
-Tokens can be expired or suspended.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/token_value_chain2.svg" width="100%"></img>
-</div>
-
-#### 1.3.2. Token Features
-
-When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
-
-Tokens can be transferred between holders. This features applies to fungible and not-fungible tokens.
-
-Valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token.
-
-Tokens can be divisible. fractional ownership
-
-Non-fungible tokens tokens can be configurable
-
-#### 1.3.3. Tokenization Models
+#### 1.3.1. Tokenization Models
 
 When we speak about the type of tokens, we are mostly referring to how its price is formed, and maybe maintained, by the token issuer. There are several strategies for price formation. This post aims to provide an overview.
 
@@ -145,6 +115,36 @@ Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</
 
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
+
+#### 1.3.2. Token Features
+
+When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
+
+Tokens can be transferred between holders. This features applies to fungible and not-fungible tokens.
+
+Valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token.
+
+Tokens can be divisible. fractional ownership
+
+Non-fungible tokens tokens can be configurable
+
+#### 1.3.3. Token Lifecycle
+
+Tokens can be pre-mined for a fundraising.
+
+First tokens are created at the end of this fundraising process in a TGE.
+
+Tokens are created in a process called minting. Tokens can be also destroyed in a process called burning.
+
+Tokens can be added to exchange to be traded.
+
+Tokens are distributed to stakeholders
+
+Tokens can be expired or suspended.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_value_chain2.svg" width="100%"></img>
+</div>
 
 #### 1.3.4. Tokenizable Assets
 
