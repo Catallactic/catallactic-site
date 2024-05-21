@@ -691,7 +691,7 @@ Ethereum, from his inception on 2013, has been the foundation for many other pro
 Ethereum is the official network of the fiat system. In fact, its decentralization is questioned since it migrated from PoW to PoS in 2013. The iage shows how a few holders can have majority on Staked Ethereum and therefore controling the protocol.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XIRXKYKFGRDJ3NULZNVJGHFD3U.png" width="80%"></img>
+	<img src="https://assets-global.website-files.com/6048790ad5157f01d7437c77/65a38f7d7c89e05bfac85a6a_Screenshot%202024-01-11%20at%2016.41.20.webp" width="80%"></img>
 </div>
 <br/>
 
