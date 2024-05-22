@@ -835,14 +835,14 @@ Traditionally, Bitcoin has been viewed as a store of value with limited function
 
 #### 3.5.1. Bitcoin Network
 
-With <a href="https://bitnodes.io/" target="_blank">around 19127 reachable nodes and 57852 global nodes</a>, at the moment of writting, Bitcoin is still the king of blockchain networks.
+With <a href="https://bitnodes.io/" target="_blank">around 19127 reachable nodes and 57852 global nodes</a>, at the moment of writing, Bitcoin is still the king of blockchain networks.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/bitcoin_nodes.png" width="80%"></img>
 </div>
 <br/>
 
-At the moment of writting, Bitcoin Domination is still higher than 50% in global market capitalization.
+At the moment of writing, Bitcoin Domination is still higher than 50% in global market capitalization.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/global_capitalization.png" width="80%"></img>
@@ -998,6 +998,11 @@ At the moment of writting, Bitcoin Domination is still higher than 50% in global
 #### 4.1.1. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/infra_rollup.svg" width="80%"></img>
+</div>
+<br/>
 
 
 
