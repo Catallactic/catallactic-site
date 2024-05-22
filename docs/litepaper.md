@@ -1071,6 +1071,8 @@ Networks decentralization
 
 In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
 
+Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement.
+
 #### 5.1. Commodity Providers
 
 * Mining Companies: precious metals, coal, gold, silver
