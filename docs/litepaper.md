@@ -991,11 +991,33 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 ## 4. CryptoCommodity Ecosystem
 ---
 
+### 4.1. CryptoCommodity Token
 
-### 4.1. CryptoCommodity Infrastructure
+CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_structure.svg" width="60%"></img>
+</div>
+<br/>
+
+Existing behaviours are:
+
+- Crowdsale Facet.
+
+- Vesting Facet
+
+- Common Facet
+
+- ERC-20 Facet
+
+By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
+
+https://github.com/Catallactic/catallactic-suite
 
 
-#### 4.1.1. Deployed on Bitcoin L2
+### 4.2. CryptoCommodity Infrastructure
+
+#### 4.2.1. Deployed on Bitcoin L2
 
 Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
 
@@ -1006,7 +1028,7 @@ Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by
 
 
 
-#### 4.1.2. Multichain Tokens
+#### 4.2.2. Multichain Tokens
 
 Moving liquidity across chains
 
@@ -1015,48 +1037,97 @@ Moving liquidity across chains
 
 
 
-### 4.2. Delivering Representative Money
+### 4.3. Delivering Representative Money
 
 Decentraized tokenization platform must be avaiable for anyone.
 
 
-#### 4.2.1. Payment Gateway
+#### 4.3.1. Payment Gateway
 
 
-#### 4.2.2. Tokenization Platform
+#### 4.3.2. Tokenization Platform
 
 
-#### 4.2.3. Tradeable in Exchanges
+#### 4.3.3. Tradeable in Exchanges
 
 
-#### 4.2.4. Accessible with Wallets
+#### 4.3.4. Accessible with Wallets
 
 
-#### 4.2.5. Accessible with Cards
-
-
-
+#### 4.3.5. Accessible with Cards
 
 
 
-### 4.3. CryptoCommodity Features
 
 
-#### 4.3.1. Security
+
+### 4.4. CryptoCommodity Features
 
 
-#### 4.3.2. Decentralization
+
+#### 4.4.1. Upgradeable
+
+we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+
+Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
+
+The long term idea is to release to community the governance.
+
+
+#### 4.4.2. Security
+
+Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
+
+- Code includes <b>multisig role-based access</b> to functionalities.
+
+- The whole CryptoCommodity code must be <b>audited</b>. 
+
+- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
+
+- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
+
+
+#### 4.4.3. Decentralization
 
 Networks decentralization
 
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td></td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>Network Decentralization</td>
+			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
+		</tr>
+		<tr>
+			<td>Exchanges Decentralization</td>
+			<td>Exchanges should also be decentralized regarding</td>
+		</tr>
+		<tr>
+			<td>Smart Contract Decentralization</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Governance  Decentralization</td>
+			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
+		</tr>
+		<tr>
+			<td>Wealth Decentralization</td>
+			<td>Gini and Nakamoto Coefficients</td>
+		</tr>
+	</table>
+</div>
 
-#### 4.3.3. Transparency
+
+#### 4.4.4. Transparency
 
 
-#### 4.3.4. Privacy
+#### 4.4.5. Privacy
 
 
-#### 4.3.5. Compliance
+#### 4.4.5. Compliance
 
 
 
