@@ -1066,16 +1066,30 @@ Networks decentralization
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 5. Application Projects
+## 5. The CryptoCommodity Issuer
 ---
 
-Precious metals, energy resources, agricultural products and real estate are examples of commodities that can be tokenized using blockchain technology.
+In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
 
+#### 5.1. Commodity Providers
+
+* Mining Companies: precious metals, coal, gold, silver
+
+* Energy Providers: petrol station, gas retailers
+
+* Water Providers
+
+* Agro Providers
+
+#### 5.2. Services Providers
+
+* Travel Company
+
+#### 5.3. Conglomerate Providers
+
+* mall
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
 
 
 ## 6. Conclusions
