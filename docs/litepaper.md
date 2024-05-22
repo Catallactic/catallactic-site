@@ -14,7 +14,7 @@ image: https://i.imgur.com/mErPwqL.png
 ## Abstract
 ---
 
-During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for fully decentralized and cross regional, privately issued representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset and aimed for private issuance.
+During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for fully decentralized and cross regional, privately issued representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset aimed for private issuance.
 
 Whereas the project leverages Bitcoin security, differently to Bitcoin vision of a monopolistic currency, it encourages multiple token creation for a currreny competition and provides a real world backing to the tokens. We build the monetary configuration, extensively documented in the economic literature, on top of the existing blockchain tools. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
 
@@ -68,7 +68,9 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 
 The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.
 
-### 1.2. Smart Contracts
+### 1.2. Transaction Processing
+
+### 1.3. Smart Contracts
 
 Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”. A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
 
@@ -80,8 +82,6 @@ Smart contracts are stored on a blockchain. This makes them transparent, secure 
 <br/>
 
 Smart contracts allow to build a wide variety of decentralized apps and tokens.
-
-### 1.3. Transaction Processing
 
 ### 1.4. Tokenization
 
@@ -740,75 +740,75 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 		<tr>
 			<td rowSpan="5">Rollups</td>
 			<td>Optimistic</td>
-			<td><a href="" target="_blank">Arbitrum One</a>,
-				<a href="" target="_blank">Optimism</a>, 
-				<a href="" target="_blank">Base</a>, 
-				<a href="" target="_blank">Kroma</a>, 
-				<a href="" target="_blank">Cartesi</a>, 
-				<a href="" target="_blank">Blast</a>, 
-				<a href="" target="_blank">Mode Network</a>, 
-				<a href="" target="_blank">Zora</a>, 
-				<a href="" target="_blank">RSS3</a>, 
-				<a href="" target="_blank">Boba</a>, 
-				<a href="" target="_blank">Kinto</a>, 
-				<a href="" target="_blank">Parallell</a>, 
-				<a href="" target="_blank">Fuel v1</a></td>
+			<td><a href="https://arbitrum.foundation/" target="_blank">Arbitrum One</a>,
+				<a href="https://optimism.help/" target="_blank">Optimism</a>, 
+				<a href="https://www.base.org/" target="_blank">Base</a>, 
+				<a href="https://kroma.network/" target="_blank">Kroma</a>, 
+				<a href="https://cartesi.io/" target="_blank">Cartesi</a>, 
+				<a href="https://blastblockchain.com/" target="_blank">Blast</a>, 
+				<a href="https://www.mode.network/" target="_blank">Mode Network</a>, 
+				<a href="https://www.zora.co/" target="_blank">Zora</a>, 
+				<a href="https://rss3.io/" target="_blank">RSS3</a>, 
+				<a href="https://boba.network/" target="_blank">Boba</a>, 
+				<a href="https://www.kinto.xyz/" target="_blank">Kinto</a>, 
+				<a href="https://parallel.fi/" target="_blank">Parallell</a>, 
+				<a href="https://fuel.network/" target="_blank">Fuel v1</a></td>
 		</tr>
 		<tr>
 			<td>Optimium</td>
-			<td><a href="" target="_blank">Mantle</a>,
-				<a href="" target="_blank">Manta Pacific</a>,
-				<a href="" target="_blank">Metis</a>,
-				<a href="" target="_blank">Aevo</a>,
-				<a href="" target="_blank">Karak</a>,
-				<a href="" target="_blank">Arbitrum Nova</a>,
-				<a href="" target="_blank">Fraxtal</a>,
-				<a href="" target="_blank">Lira</a>,
-				<a href="" target="_blank">PGN</a>,
-				<a href="" target="_blank">Orderly Network</a>,
-				<a href="" target="_blank">Ancient8</a>,
-				<a href="" target="_blank">Hypr</a>,
-				<a href="" target="_blank">Edgeless</a>,
-				<a href="" target="_blank">HYCHAIN</a></td>
+			<td><a href="https://www.mantle.xyz/" target="_blank">Mantle</a>,
+				<a href="https://pacific.manta.network/" target="_blank">Manta Pacific</a>,
+				<a href="https://www.metis.io/" target="_blank">Metis</a>,
+				<a href="https://www.aevo.xyz/" target="_blank">Aevo</a>,
+				<a href="https://karak.network/" target="_blank">Karak</a>,
+				<a href="https://arbitrum.io/" target="_blank">Arbitrum Nova</a>,
+				<a href="https://www.fractal.is/" target="_blank">Fraxtal</a>,
+				<a href="https://lyra.finance/" target="_blank">Lira</a>,
+				<a href="https://publicgoods.network/" target="_blank">PGN</a>,
+				<a href="https://orderly.network/" target="_blank">Orderly Network</a>,
+				<a href="https://ancient8.gg/" target="_blank">Ancient8</a>,
+				<a href="https://www.hypr.com/" target="_blank">Hypr</a>,
+				<a href="https://edgeless.io/home" target="_blank">Edgeless</a>,
+				<a href="https://docs.hychain.com/docs/getting-started" target="_blank">HYCHAIN</a></td>
 		</tr>
 		<tr>
 			<td>zk</td>
-			<td><a href="" target="_blank">Polygon zkEVM</a>,
-				<a href="" target="_blank">zkSync Lite</a>,
-				<a href="" target="_blank">zkSync Era</a>,
-				<a href="" target="_blank">Starknet</a>,
-				<a href="" target="_blank">Scroll</a>,
-				<a href="" target="_blank">Linea</a>,
-				<a href="" target="_blank">Loopring</a>,
-				<a href="" target="_blank">ZKSpace</a></td>
+			<td><a href="https://polygon.technology/polygon-zkevm" target="_blank">Polygon zkEVM</a>,
+				<a href="https://lite.zksync.io/" target="_blank">zkSync Lite</a>,
+				<a href="https://zksync.io/explore" target="_blank">zkSync Era</a>,
+				<a href="https://www.starknet.io/en" target="_blank">Starknet</a>,
+				<a href="https://scroll.io/" target="_blank">Scroll</a>,
+				<a href="https://linea.build/" target="_blank">Linea</a>,
+				<a href="https://loopring.org/#/" target="_blank">Loopring</a>,
+				<a href="https://zks.app/" target="_blank">ZKSpace</a></td>
 		</tr>
 		<tr>
 			<td>Validium</td>
-			<td><a href="" target="_blank">Inmutable X (games)</a>,
-				<a href="" target="_blank">Astar zkEVM</a>,
-				<a href="" target="_blank">Apex (DEX)</a>,
-				<a href="" target="_blank">dydx v3 (DEX)</a>,
-				<a href="" target="_blank">DeGate v1 (DEX)</a>,
-				<a href="" target="_blank">Paradex (DEX)</a>,
-				<a href="" target="_blank">Rhino (DEX Aggregator)</a>,
-				<a href="" target="_blank">Sorare (Sports)</a>,
-				<a href="" target="_blank">Tanx (DEX)</a>,
-				<a href="" target="_blank">Myria (Gaming)</a>,
-				<a href="" target="_blank">Canvas Connect (DeFi)</a>,
-				<a href="" target="_blank">ReddioEx (Gaming)</a></td>
+			<td><a href="https://www.immutable.com/" target="_blank">Inmutable X (games)</a>,
+				<a href="https://docs.astar.network/docs/learn/zkEVM/" target="_blank">Astar zkEVM</a>,
+				<a href="https://www.apex.exchange/" target="_blank">Apex (DEX)</a>,
+				<a href="https://dydx.exchange/" target="_blank">dydx v3 (DEX)</a>,
+				<a href="https://docs.degate.com/" target="_blank">DeGate v1 (DEX)</a>,
+				<a href="https://www.paradex.trade/" target="_blank">Paradex (DEX)</a>,
+				<a href="http://rhino.fi/" target="_blank">Rhino (DEX Aggregator)</a>,
+				<a href="https://sorare.com/en-gb/" target="_blank">Sorare (Sports)</a>,
+				<a href="https://tanx.fi/" target="_blank">Tanx (DEX)</a>,
+				<a href="https://myria.com/" target="_blank">Myria (Gaming)</a>,
+				<a href="https://canvas.co/" target="_blank">Canvas Connect (DeFi)</a>,
+				<a href="https://www.reddio.com/" target="_blank">ReddioEx (Gaming)</a></td>
 		</tr>
 		<tr>
 			<td>RaaS</td>
-			<td><a href="" target="_blank">AltLayer</a>,
-				<a href="" target="_blank">Caldera</a>,
-				<a href="" target="_blank">Conduit</a>,
-				<a href="" target="_blank">Gateway</a>,
-				<a href="" target="_blank">Gelato</a>,
-				<a href="" target="_blank">Karnot</a>,
-				<a href="" target="_blank">Snapchain</a>,
-				<a href="" target="_blank">Vistara</a>,
-				<a href="" target="_blank">Zeeve</a>,
-				<a href="" target="_blank">Semita</a></td>
+			<td><a href="https://www.altlayer.io/" target="_blank">AltLayer</a>,
+				<a href="https://www.caldera.xyz/" target="_blank">Caldera</a>,
+				<a href="https://conduit.xyz/" target="_blank">Conduit</a>,
+				<a href="https://gateway.fm/" target="_blank">Gateway</a>,
+				<a href="https://www.gelato.network/raas" target="_blank">Gelato</a>,
+				<a href="https://www.karnot.xyz/" target="_blank">Karnot</a>,
+				<a href="https://www.snapchain.dev/" target="_blank">Snapchain</a>,
+				<a href="https://app.vistara.dev/" target="_blank">Vistara</a>,
+				<a href="https://www.zeeve.io/" target="_blank">Zeeve</a>,
+				<a href="https://nodereal.io/semita" target="_blank">Semita</a></td>
 		</tr>
 		<tr>
 			<td>L3</td>
@@ -859,7 +859,7 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 		<tr>
 			<td rowSpan="3">L1</td>
 			<td colSpan="2">Base Chain</td>
-			<td>Bitcoin</td>
+			<td><a href="https://bitcoin.org/en/" target="_blank">Bitcoin</a></td>
 		</tr>
 		<tr>
 			<td colSpan="2">Forks</td>
