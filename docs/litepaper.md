@@ -81,11 +81,13 @@ Smart contracts are stored on a blockchain. This makes them transparent, secure 
 
 Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
-### 1.3. Tokenization
+### 1.3. Transaction Processing
+
+### 1.4. Tokenization
 
 Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
 
-#### 1.3.1. Tokenization Models
+#### 1.4.1. Tokenization Models
 
 When we speak about the type of tokens, we are mostly referring to how its price is formed, and maybe maintained, by the token issuer. There are several strategies for price formation. This post aims to provide an overview.
 
@@ -116,7 +118,7 @@ Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
 
-#### 1.3.2. Token Features
+#### 1.4.2. Token Features
 
 When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
 
@@ -128,7 +130,7 @@ Tokens can be divisible. fractional ownership
 
 Non-fungible tokens tokens can be configurable
 
-#### 1.3.3. Token Lifecycle
+#### 1.4.3. Token Lifecycle
 
 Tokens can be pre-mined for a fundraising.
 
@@ -146,7 +148,7 @@ Tokens can be expired or suspended.
 	<img src="/img/token_value_chain2.svg" width="100%"></img>
 </div>
 
-#### 1.3.4. Tokenizable Assets
+#### 1.4.4. Tokenizable Assets
 
 Tangible 
 
@@ -154,7 +156,7 @@ Fungible
 
 RWA tokenization
 
-#### 1.3.5. Applications of Tokenization
+#### 1.4.5. Applications of Tokenization
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
 
@@ -164,7 +166,7 @@ A basic application of a priced asset is to become a <b>currency</b>. There are 
 Another application of priced asssets is <b>investment</b>.
 
 
-### 1.4. CryptoCurrencies
+### 1.5. CryptoCurrencies
 
 In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
@@ -217,7 +219,7 @@ as <b>Unit of Account</b>
 
 Coins unable to become currencies
 
-### 1.5. Crypto Adoption
+### 1.6. Crypto Adoption
 
 * Driven to fiat by VCs
 
@@ -700,15 +702,14 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
-			<td>Layer</td>
-			<td colSpan="2">Protocol Type</td>
-			<td>Protocols</td>
+			<th>Layer</th>
+			<th colSpan="2">Protocol Type</th>
+			<th>Protocols</th>
 		</tr>
 		<tr>
 			<td>L0</td>
 			<td colSpan="2">InterOperability</td>
 			<td>
-
 			</td>
 		</tr>
 		<tr>
@@ -719,7 +720,6 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 		<tr>
 			<td colSpan="2">Forks</td>
 			<td>
-
 			</td>
 		</tr>
 		<tr>
@@ -740,85 +740,75 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 		<tr>
 			<td rowSpan="5">Rollups</td>
 			<td>Optimistic</td>
-			<td>
-				Arbitrum One
-				Optimism
-				Base
-				Kroma
-				Cartesi
-				Blast
-				Mode Network
-				Zora
-				RSS3
-				Boba
-				Kinto
-				Parallell
-				Fuel v1
-			</td>
+			<td><a href="" target="_blank">Arbitrum One</a>,
+				<a href="" target="_blank">Optimism</a>, 
+				<a href="" target="_blank">Base</a>, 
+				<a href="" target="_blank">Kroma</a>, 
+				<a href="" target="_blank">Cartesi</a>, 
+				<a href="" target="_blank">Blast</a>, 
+				<a href="" target="_blank">Mode Network</a>, 
+				<a href="" target="_blank">Zora</a>, 
+				<a href="" target="_blank">RSS3</a>, 
+				<a href="" target="_blank">Boba</a>, 
+				<a href="" target="_blank">Kinto</a>, 
+				<a href="" target="_blank">Parallell</a>, 
+				<a href="" target="_blank">Fuel v1</a></td>
 		</tr>
 		<tr>
 			<td>Optimium</td>
-			<td>
-				Mantle
-				Manta Pacific
-				Metis
-				Aevo
-				Karak
-				Arbitrum Nova
-				Fraxtal
-				Lira
-				PGN
-				Orderly Network
-				Ancient8
-				Hypr
-				Edgeless
-				HYCHAIN
-			</td>
+			<td><a href="" target="_blank">Mantle</a>,
+				<a href="" target="_blank">Manta Pacific</a>,
+				<a href="" target="_blank">Metis</a>,
+				<a href="" target="_blank">Aevo</a>,
+				<a href="" target="_blank">Karak</a>,
+				<a href="" target="_blank">Arbitrum Nova</a>,
+				<a href="" target="_blank">Fraxtal</a>,
+				<a href="" target="_blank">Lira</a>,
+				<a href="" target="_blank">PGN</a>,
+				<a href="" target="_blank">Orderly Network</a>,
+				<a href="" target="_blank">Ancient8</a>,
+				<a href="" target="_blank">Hypr</a>,
+				<a href="" target="_blank">Edgeless</a>,
+				<a href="" target="_blank">HYCHAIN</a></td>
 		</tr>
 		<tr>
 			<td>zk</td>
-			<td>
-				Polygon zkEVM
-				zkSync Lite
-				zkSync Era
-				Starknet
-				Scroll
-				Linea
-				Loopring
-				ZKSpace
-			</td>
+			<td><a href="" target="_blank">Polygon zkEVM</a>,
+				<a href="" target="_blank">zkSync Lite</a>,
+				<a href="" target="_blank">zkSync Era</a>,
+				<a href="" target="_blank">Starknet</a>,
+				<a href="" target="_blank">Scroll</a>,
+				<a href="" target="_blank">Linea</a>,
+				<a href="" target="_blank">Loopring</a>,
+				<a href="" target="_blank">ZKSpace</a></td>
 		</tr>
 		<tr>
 			<td>Validium</td>
-			<td>
-				Inmutable X (games)
-				Astar zkEVM
-				Apex (DEX)
-				dydx v3 (DEX)
-				DeGate v1 (DEX)
-				Paradex (DEX)
-				Rhino (DEX Aggregator)
-				Sorare (Sports)
-				Tanx (DEX)
-				Myria (Gaming)
-				Canvas Connect (DeFi)
-				ReddioEx (Gaming)
-			</td>
+			<td><a href="" target="_blank">Inmutable X (games)</a>,
+				<a href="" target="_blank">Astar zkEVM</a>,
+				<a href="" target="_blank">Apex (DEX)</a>,
+				<a href="" target="_blank">dydx v3 (DEX)</a>,
+				<a href="" target="_blank">DeGate v1 (DEX)</a>,
+				<a href="" target="_blank">Paradex (DEX)</a>,
+				<a href="" target="_blank">Rhino (DEX Aggregator)</a>,
+				<a href="" target="_blank">Sorare (Sports)</a>,
+				<a href="" target="_blank">Tanx (DEX)</a>,
+				<a href="" target="_blank">Myria (Gaming)</a>,
+				<a href="" target="_blank">Canvas Connect (DeFi)</a>,
+				<a href="" target="_blank">ReddioEx (Gaming)</a></td>
 		</tr>
 		<tr>
 			<td>RaaS</td>
-			<td>
-				AltLayer
-				Caldera
-				Conduit
-				Gateway
-				Gelato
-				Karnot
-				Snapchain
-				Vistara
-				Zeeve
-				Semita
-			</td>
+			<td><a href="" target="_blank">AltLayer</a>,
+				<a href="" target="_blank">Caldera</a>,
+				<a href="" target="_blank">Conduit</a>,
+				<a href="" target="_blank">Gateway</a>,
+				<a href="" target="_blank">Gelato</a>,
+				<a href="" target="_blank">Karnot</a>,
+				<a href="" target="_blank">Snapchain</a>,
+				<a href="" target="_blank">Vistara</a>,
+				<a href="" target="_blank">Zeeve</a>,
+				<a href="" target="_blank">Semita</a></td>
 		</tr>
 		<tr>
 			<td>L3</td>
@@ -861,12 +851,10 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 		<tr>
 			<td>L0</td>
 			<td colSpan="2">InterOperability</td>
-			<td>
-				Sovryrn,
-				Syscoin,
-				Rollux,
-				Map Protocol
-			</td>
+			<td><a href="https://sovryn.com/bitcoinos" target="_blank">Sovryrn</a>,
+				<a href="https://syscoin.org/" target="_blank">Syscoin</a>,
+				<a href="https://rollux.com/" target="_blank">Rollux</a>,
+				<a href="https://www.mapprotocol.io/" target="_blank">Map Protocol</a></td>
 		</tr>
 		<tr>
 			<td rowSpan="3">L1</td>
@@ -875,60 +863,54 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 		</tr>
 		<tr>
 			<td colSpan="2">Forks</td>
-			<td>
-				Litecoin
-				Bitcoin Cash
-				Bitcoin Cash Satoshi Version (BSV)
-				Zcash
-				Flush
-				Handshake
-				Satoshi Chain
-				Bitcoin Spark
-				Raven Coin
-			</td>
+			<td><a href="https://litecoin.org/" target="_blank">Litecoin</a>,
+				<a href="https://bitcoincash.org/" target="_blank">Bitcoin Cash</a>,
+				<a href="https://www.bitcoinsv.com/" target="_blank">Bitcoin Cash Satoshi Version (BSV)</a>,
+				<a href="https://zcashcommunitygrants.org/" target="_blank">Zcash</a>,
+				<a href="https://flush.com/" target="_blank">Flush</a>,
+				<a href="https://handshake.org/" target="_blank">Handshake</a>,
+				<a href="" target="_blank">Satoshi Chain</a>,
+				<a href="https://bitcoinspark.org/" target="_blank">Bitcoin Spark</a>,
+				<a href="https://ravencoin.org/" target="_blank">Raven Coin</a></td>
 		</tr>
 		<tr>
 			<td colSpan="2">Sidechains</td>
-			<td>
-				Bitfinity Network
-				Conflux Network
-				Rootstock
-				Zulu Network
-				Zenon Network
-				Bit Rexe
-				BEVM
-				Defi Chain
-				Botanix Labs
-				BounceBit
-				Ainn Layer
-				East Blue
-				Spectrachain
-				Dovi
-				InternertComputer
-				Liquid
-				Elements
-				Stacks
-				Gelios
-				TuringBitchain
-				TaprootChain
-				NuBit
-				Rosetta Protocol
-				Mint Layer
-				MVC Global
-				LayerTwoLabs
-				LibreBlockchain
-				Anduro
-			</td>
+			<td><a href="https://linktr.ee/bitfinitnetwork" target="_blank">Bitfinity Network</a>,
+				<a href="https://linktr.ee/confluxnetwork" target="_blank">Conflux Network</a>,
+				<a href="https://rootstock.io/grants/" target="_blank">Rootstock</a>,
+				<a href="https://zulunetwork.io/" target="_blank">Zulu Network</a>,
+				<a href="https://zenon.network/" target="_blank">Zenon Network</a>,
+				<a href="https://bitrexe.gitbook.io/docs" target="_blank">Bit Rexe</a>,
+				<a href="https://www.bevm.io/" target="_blank">BEVM</a>,
+				<a href="https://defichain.com/" target="_blank">Defi Chain</a>,
+				<a href="https://www.botanixlabs.xyz/en/home" target="_blank">Botanix Labs</a>,
+				<a href="https://bouncebit.io/" target="_blank">BounceBit</a>,
+				<a href="https://anvm.io/" target="_blank">Ainn Layer</a>,
+				<a href="https://eastblue.io/" target="_blank">East Blue</a>,
+				<a href="https://spectrachain.io/" target="_blank">Spectrachain</a>,
+				<a href="https://dovil2.com/" target="_blank">Dovi</a>,
+				<a href="https://dfinity.org/community-grants/" target="_blank">InternertComputer</a>,
+				<a href="https://liquid.net/" target="_blank">Liquid</a>,
+				<a href="https://elementsproject.org/elements-code-tutorial/issuing-assets" target="_blank">Elements</a>,
+				<a href="https://stacks.org/grants" target="_blank">Stacks</a>,
+				<a href="https://www.gelios.io/" target="_blank">Gelios</a>,
+				<a href="https://turingbitchain.io/" target="_blank">TuringBitchain</a>,
+				<a href="https://taprootchain.io/home" target="_blank">TaprootChain</a>,
+				<a href="https://www.nubit.org/" target="_blank">NuBit</a>,
+				<a href="https://linktr.ee/rosettaprotocol" target="_blank">Rosetta Protocol</a>,
+				<a href="https://www.mintlayer.org/en/" target="_blank">Mint Layer</a>,
+				<a href="https://www.microvisionchain.com/" target="_blank">MVC Global</a>,
+				<a href="https://layertwolabs.com/" target="_blank">LayerTwoLabs</a>,
+				<a href="https://chain.libre.org/" target="_blank">LibreBlockchain</a>,
+				<a href="https://www.anduro.io/" target="_blank">Anduro</a></td>
 		</tr>
 		<tr>
 			<td rowSpan="5">L2</td>
 			<td colSpan="2">Channels</td>
-			<td>
-				Omni Layer
-				Ark
-				Mercury Layer
-				Lightning Network
-			</td>
+			<td><a href="https://twitter.com/Omni_Layer" target="_blank">Omni Layer</a>,
+				<a href="https://www.arkpill.me/" target="_blank">Ark</a>,
+				<a href="https://twitter.com/mercurylayer" target="_blank">Mercury Layer</a>,
+				<a href="https://lightning.network/" target="_blank">Lightning Network</a></td>
 		</tr>
 		<tr>
 			<td colSpan="2">Plasma</td>
@@ -937,43 +919,37 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 		<tr>
 			<td rowSpan="3">Rollups</td>
 			<td>Optimistic</td>
-			<td>
-				Rollkit (sovereign)
-				Building on Bitcoin (BOB)
-				Citrea (sovereign)
-				BiopDAO
-			</td>
+			<td><a href="https://rollkit.dev/" target="_blank">Rollkit (sovereign)</a>,
+				<a href="https://www.gobob.xyz/" target="_blank">Building on Bitcoin (BOB)</a>,
+				<a href="https://citrea.xyz/" target="_blank">Citrea (sovereign)</a>,
+				<a href="https://biop.io/" target="_blank">BiopDAO</a></td>
 		</tr>
 		<tr>
 			<td>zk</td>
-			<td>
-				B² Network
-				Bitlayer
-				Merlin Chain
-				zkSats
-				Lumibit
-				Tunachain
-				SatoshiVM
-				RIF
-				BL2
-				Beet Network
-				Roos
-				U Protocol
-				Rooch Network
-				QED Protocol
-				Bison Labs (sovereign)
-				Hacash
-				Alpen Labs
-				Aligned Layer
-				Lightec
-			</td>
+			<td><a href="https://www.bsquared.network/" target="_blank">B² Network</a>,
+				<a href="https://www.bitlayer.org/" target="_blank">Bitlayer</a>,
+				<a href="https://merlinchain.io/" target="_blank">Merlin Chain</a>,
+				<a href="https://zksats.io/" target="_blank">zkSats</a>,
+				<a href="https://lumibit.xyz/" target="_blank">Lumibit</a>,
+				<a href="https://tunachain.io/" target="_blank">Tunachain</a>,
+				<a href="https://www.satoshivm.io/" target="_blank">SatoshiVM</a>,
+				<a href="https://rif.technology/" target="_blank">RIF</a>,
+				<a href="https://bl2.live/" target="_blank">BL2</a>,
+				<a href="https://beetnetwork.xyz/" target="_blank">Beet Network</a>,
+				<a href="https://www.roospro.com/" target="_blank">Roos</a>,
+				<a href="https://linktr.ee/uprotocol" target="_blank">U Protocol</a>,
+				<a href="https://rooch.network/" target="_blank">Rooch Network</a>,
+				<a href="https://qedprotocol.com/" target="_blank">QED Protocol</a>,
+				<a href="https://bisonlabs.io/#/dashboard" target="_blank">Bison Labs (sovereign)</a>,
+				<a href="https://hacash.com/" target="_blank">Hacash</a>,
+				<a href="https://www.alpenlabs.io/" target="_blank">Alpen Labs</a>,
+				<a href="https://alignedlayer.com/" target="_blank">Aligned Layer</a>,
+				<a href="https://linktr.ee/Lightec.xyz" target="_blank">Lightec</a></td>
 		</tr>
 		<tr>
 			<td>RaaS</td>
-			<td>
-				Lumoz
-				BVM
-			</td>
+			<td><a href="https://lumoz.org/" target="_blank">Lumoz</a>,
+				<a href="https://bvm.network/" target="_blank">BBVM</a></td>
 		</tr>
 		<tr>
 			<td>L3</td>
@@ -1089,7 +1065,8 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 #### 4.4.3. Decentralization
 
-Networks decentralization
+Decentralization is level of distributed and public participation from users reinforcing the rules of the network. Traditionally, measured by the number of independent node operators on a
+blockchain. A node operator is an individual or entity that runs software verifying the blocks and transactions finalized on the network. 
 
 <div style={{overflowX : 'auto'}}>
 	<table>
