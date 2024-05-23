@@ -32,7 +32,9 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 As economist are not well versed in technological innovations, we think is needed to overview  the current state of decentralized technologies and blockchain. This will also help to raise the debate about the current state of affairs and contextualize were the proposed tokenization pattern fits in.
 
-### 1.1. DLTs and Blockchains
+### 1.1. DLTs
+
+#### 1.1.1. Blocks
 
 A DLT is a database structure which organizes the information as chain of linked blocks. Each block contains a set of transactions and other essential details. When new transactions are being received into the blockchain, new blocks are being added to record the details of the transactions and state. 
 
@@ -40,6 +42,8 @@ A DLT is a database structure which organizes the information as chain of linked
 	<img src="https://www.nist.gov/sites/default/files/images/2019/09/25/blockchain.png" width="80%"></img>
 </div>
 <br/>
+
+#### 1.1.2. Nodes
 
 The whole structure is packaged into a node. Blockchain nodes are computers that perform the network operations, storing, validating, and relaying transactions and blocks. Each node holds a copy of the entire ledger.
 
@@ -59,6 +63,10 @@ The whole structure is packaged into a node. Blockchain nodes are computers that
 </div>
 <br/>
 
+
+
+#### 1.1.3. DLT Network
+
 Blockchain nodes are interconnected organizing a blockchain network. The information stored in the nodes is synchronized in a way that all keep a copy of the latest transactions. Nodes are also engaged in the validation of the new transactions according to the consensus protocol defined for the network.
 
 <div style={{textAlign: 'center'}}>
@@ -68,9 +76,15 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 
 The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.
 
-### 1.2. Transaction Processing
 
-### 1.3. Smart Contracts
+#### 1.1.4. Transaction Processing
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://user-images.githubusercontent.com/69413160/162631862-b8b1da4a-1326-4e20-baac-780646ed15ee.png" width="80%"></img>
+</div>
+<br/>
+
+### 1.2. Smart Contracts
 
 Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”. A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
 
@@ -83,11 +97,11 @@ Smart contracts are stored on a blockchain. This makes them transparent, secure 
 
 Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
-### 1.4. Tokenization
+### 1.3. Tokenization
 
 Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
 
-#### 1.4.1. Tokenization Models
+#### 1.3.1. Tokenization Models
 
 When we speak about the type of tokens, we are mostly referring to how its price is formed, and maybe maintained, by the token issuer. There are several strategies for price formation. This post aims to provide an overview.
 
@@ -118,7 +132,7 @@ Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
 
-#### 1.4.2. Token Features
+#### 1.3.2. Token Features
 
 When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
 
@@ -130,7 +144,7 @@ Tokens can be divisible. fractional ownership
 
 Non-fungible tokens tokens can be configurable
 
-#### 1.4.3. Token Lifecycle
+#### 1.3.3. Token Lifecycle
 
 Tokens can be pre-mined for a fundraising.
 
@@ -148,7 +162,7 @@ Tokens can be expired or suspended.
 	<img src="/img/token_value_chain2.svg" width="100%"></img>
 </div>
 
-#### 1.4.4. Tokenizable Assets
+#### 1.3.4. Tokenizable Assets
 
 Tangible 
 
@@ -156,7 +170,7 @@ Fungible
 
 RWA tokenization
 
-#### 1.4.5. Applications of Tokenization
+#### 1.3.5. Applications of Tokenization
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
 
@@ -166,7 +180,7 @@ A basic application of a priced asset is to become a <b>currency</b>. There are 
 Another application of priced asssets is <b>investment</b>.
 
 
-### 1.5. CryptoCurrencies
+### 1.4. CryptoCurrencies
 
 In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
@@ -219,7 +233,7 @@ as <b>Unit of Account</b>
 
 Coins unable to become currencies
 
-### 1.6. Crypto Adoption
+### 1.5. Crypto Adoption
 
 * Driven to fiat by VCs
 
@@ -841,6 +855,8 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 
 #### 3.5.2. Scaled Bitcoin
 
+When Bitcoin was created in 2008, its vision was to be a peer-to-peer electronic cash system, nothing more. It was quickly realized that blockchain’s potential went far beyond transfers of value and could be used to create a trustless computing engine capable of executing arbitrary logic-based events, and thus, Ethereum and blockchain-based smart contracts were born. Bitcoin never upgraded to include these features because its main goal was always to be an electronic cash or digital gold, and its supporters did not feel it made sense to add additional features that could make the blockchain unstable or stray from Satoshi’s original vision.
+
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
@@ -933,7 +949,6 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 				<a href="https://lumibit.xyz/" target="_blank">Lumibit</a>,
 				<a href="https://tunachain.io/" target="_blank">Tunachain</a>,
 				<a href="https://www.satoshivm.io/" target="_blank">SatoshiVM</a>,
-				<a href="https://rif.technology/" target="_blank">RIF</a>,
 				<a href="https://bl2.live/" target="_blank">BL2</a>,
 				<a href="https://beetnetwork.xyz/" target="_blank">Beet Network</a>,
 				<a href="https://www.roospro.com/" target="_blank">Roos</a>,
@@ -954,7 +969,7 @@ At the moment of writing, Bitcoin Domination is still higher than 50% in global 
 		<tr>
 			<td>L3</td>
 			<td colSpan="2">Rollups</td>
-			<td>-</td>
+			<td><a href="https://rif.technology/" target="_blank">RIF</a></td>
 		</tr>
 	</table>
 </div>
@@ -1018,10 +1033,11 @@ Moving liquidity across chains
 Decentraized tokenization platform must be avaiable for anyone.
 
 
-#### 4.3.1. Payment Gateway
+#### 4.3.1. Tokenization Platform
 
+Decentralized AppStore
 
-#### 4.3.2. Tokenization Platform
+#### 4.3.2. Payment Gateway
 
 
 #### 4.3.3. Tradeable in Exchanges
