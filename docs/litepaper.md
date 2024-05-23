@@ -1134,23 +1134,34 @@ In this section we will discuss who is the suitable issuer of CryptoCommodity to
 
 Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement.
 
-#### 5.1. Commodity Providers
+### 5.1. Commodity Providers
 
-* Mining Companies: precious metals, coal, gold, silver
+#### 5.5.1. Mining Companies
 
-* Energy Providers: petrol station, gas retailers
+precious metals, coal, gold, silver
 
-* Water Providers
+#### 5.5.2. Energy Providers
 
-* Agro Providers
+petrol station, gas retailers
 
-#### 5.2. Services Providers
+#### 5.5.3. Water Supply and Sewerage
 
-* Travel Company
+The map represents the list of countries were tap water is not drinkable. They are perfect opportunity to issue a CryptoCommodity, fix the supply with the support of investors and contribute Water-backed Representative Money to their ecosystem.
 
-#### 5.3. Conglomerate Providers
+<div style={{textAlign: 'center'}}>
+	<img src="https://files.qssupplies.co.uk/world-drinking-water/you_can_and_cant_drink_tap_water.jpg" width="80%"></img>
+</div>
+<br/>
 
-* mall
+#### 5.5.4. Agro Providers
+
+### 5.2. Services Providers
+
+#### 5.2.1. Travel Companies
+
+### 5.3. Conglomerate Providers
+
+#### 5.3.1. Supermarket / Shopping Mall
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
