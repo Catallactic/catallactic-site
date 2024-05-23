@@ -1138,15 +1138,17 @@ Providing representative money boosts the real economy in sense that society is 
 
 #### 5.5.1. Mining Companies
 
-precious metals, coal, gold, silver
+Mining companies extend to many areas, including precious metals, coal, gold, silver. The problem is that they do B2B business and crypto corporate payments are not yet a mature industry.
 
 #### 5.5.2. Energy Providers
 
-petrol station, gas retailers
+Whoelsale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
+
+Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project.
 
 #### 5.5.3. Water Supply and Sewerage
 
-The map represents the list of countries were tap water is not drinkable. They are perfect opportunity to issue a CryptoCommodity, fix the supply with the support of investors and contribute Water-backed Representative Money to their ecosystem.
+The map shows the countries were tap water is not drinkable. They are perfect opportunity to issue a CryptoCommodity, fix the supply with the support of investors and contribute Water-backed Representative Money to their ecosystem.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://files.qssupplies.co.uk/world-drinking-water/you_can_and_cant_drink_tap_water.jpg" width="80%"></img>
