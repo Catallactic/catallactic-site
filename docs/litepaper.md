@@ -77,14 +77,34 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.
 
 
-#### 1.1.4. Transaction Processing
+### 1.2. Transaction Processing
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://user-images.githubusercontent.com/69413160/162631862-b8b1da4a-1326-4e20-baac-780646ed15ee.png" width="80%"></img>
 </div>
 <br/>
 
-### 1.2. Smart Contracts
+#### 1.2.1. Transactions
+
+#### 1.2.2. Consensus Mechanism
+
+Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
+
+#### 1.2.3. Execution Environment
+
+Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
+
+The reason why new smart contract platforms are constantly emerging and established platforms are continuously updated is that it’s virtually impossible to maximize all of the three most important properties of smart contract platforms: scalability, security, and decentralization.
+
+https://www.itransition.com/blockchain/smart-contract/platforms
+
+#### 1.2.4. Settlement
+
+The settlement layer settles transactions by processing proofs from other chains to finalize transfers. The settlement layer ensures that the transaction cannot be rolled back and the parties involved in the financial operation do not have their assets stolen after the final settlement is reached. Settlement is the process that ensures transaction immutability on the blockchain, playing a critical role in guaranteeing that no one can alter recorded transactions. Often considered the "anchor" within the blockchain's layers, settlement provides finality or irreversibility. To achieve this, the blockchain must validate transactions, confirm proofs and resolve disputes.
+
+#### 1.2.5. Data Availability
+
+### 1.3. Smart Contracts
 
 Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”. A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
 
@@ -97,11 +117,12 @@ Smart contracts are stored on a blockchain. This makes them transparent, secure 
 
 Smart contracts allow to build a wide variety of decentralized apps and tokens.
 
-### 1.3. Tokenization
+
+### 1.4. Tokenization
 
 Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
 
-#### 1.3.1. Tokenization Models
+#### 1.4.1. Tokenization Models
 
 When we speak about the type of tokens, we are mostly referring to how its price is formed, and maybe maintained, by the token issuer. There are several strategies for price formation. This post aims to provide an overview.
 
@@ -132,7 +153,7 @@ Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
 
-#### 1.3.2. Token Features
+#### 1.4.2. Token Features
 
 When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
 
@@ -144,7 +165,7 @@ Tokens can be divisible. fractional ownership
 
 Non-fungible tokens tokens can be configurable
 
-#### 1.3.3. Token Lifecycle
+#### 1.4.3. Token Lifecycle
 
 Tokens can be pre-mined for a fundraising.
 
@@ -162,7 +183,7 @@ Tokens can be expired or suspended.
 	<img src="/img/token_value_chain2.svg" width="100%"></img>
 </div>
 
-#### 1.3.4. Tokenizable Assets
+#### 1.4.4. Tokenizable Assets
 
 Tangible 
 
@@ -170,7 +191,7 @@ Fungible
 
 RWA tokenization
 
-#### 1.3.5. Applications of Tokenization
+#### 1.4.5. Applications of Tokenization
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
 
@@ -180,7 +201,7 @@ A basic application of a priced asset is to become a <b>currency</b>. There are 
 Another application of priced asssets is <b>investment</b>.
 
 
-### 1.4. CryptoCurrencies
+### 1.5. CryptoCurrencies
 
 In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
@@ -233,7 +254,7 @@ as <b>Unit of Account</b>
 
 Coins unable to become currencies
 
-### 1.5. Crypto Adoption
+### 1.6. Crypto Adoption
 
 * Driven to fiat by VCs
 
@@ -672,30 +693,6 @@ A Plasma blockchain is a network of independent child chains. These child chains
 A rollup is a layer two (L2) blockchain that processes transactions away from the main blockchain to reduce transaction costs and increase throughput on the main chain. Batches of transactions are verified and settled back to the main chain.
 
 The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for real-world applications and executes specific functions.
-
-
-
-#### 3.3.1. Execution Environment
-
-Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
-
-The reason why new smart contract platforms are constantly emerging and established platforms are continuously updated is that it’s virtually impossible to maximize all of the three most important properties of smart contract platforms: scalability, security, and decentralization.
-
-https://www.itransition.com/blockchain/smart-contract/platforms
-
-
-#### 3.3.2. Settlement
-
-The settlement layer settles transactions by processing proofs from other chains to finalize transfers. The settlement layer ensures that the transaction cannot be rolled back and the parties involved in the financial operation do not have their assets stolen after the final settlement is reached. Settlement is the process that ensures transaction immutability on the blockchain, playing a critical role in guaranteeing that no one can alter recorded transactions. Often considered the "anchor" within the blockchain's layers, settlement provides finality or irreversibility. To achieve this, the blockchain must validate transactions, confirm proofs and resolve disputes.
-
-#### 3.3.3. Consensus
-
-Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
-
-Decentralization
-
-
-#### 3.3.4. Data Availability
 
 
 ### 3.4. Ethereum Ecosystem
