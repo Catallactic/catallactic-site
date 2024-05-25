@@ -1021,41 +1021,34 @@ Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by
 
 #### 4.2.2. Multichain Tokens
 
-Moving liquidity across chains
-
-
-
-
-
+Different blockchains provide different features so there is not a one size fits all choice. To best accommodate business requirements, the issuer should be able to transfer liquidity across chains. At the moment, there is not standard of crosschain interoperability that derivers this functionality out of the box. Recent advances in cross messaging frameworks or interchain token services enable this feature.
 
 ### 4.3. Delivering Representative Money
 
-Decentraized tokenization platform must be avaiable for anyone.
-
+Representative money must be accesible to anyone with a physical project to back a currency issuance and deliver a real world value to society. 
 
 #### 4.3.1. Tokenization Platform
 
-Decentralized AppStore
+A decentralized tokenization platform will allow any individual to run the CryptoCurrency lifecycle. Deployment must be in a decentralized Appstore. Work is already <a href="https://catallactic.github.io/catallactic-admin/" target="_blank">in progress</a>.
 
 #### 4.3.2. Payment Gateway
 
+The decentralized tokenization platform should cover payments for the utility that backs the CryptoCommodity. Payments will also be integrated into the token to enable payment streaming.
 
 #### 4.3.3. Tradeable in Exchanges
 
+The decentralized tokenization platform shoudl allow issuers to deploy the token in different exchanges.
 
 #### 4.3.4. Accessible with Wallets
 
+A number of compatible wallets must be validated for integration with the networks where CryptoCommodity liquidity is available.
 
 #### 4.3.5. Accessible with Cards
 
-
-
-
+A number of card providers have built gift cards that can be customized to interact with exchange and payments seamlessly creating a real world POS system.
 
 
 ### 4.4. CryptoCommodity Features
-
-
 
 #### 4.4.1. Upgradeable
 
@@ -1116,14 +1109,15 @@ blockchain. A node operator is an individual or entity that runs software verify
 
 #### 4.4.4. Transparency
 
+Differently to current fiat bascked stablecoins, a CryptoCommodity should have a strong compromisse with transparency and provide reporting to users out of the box.
 
 #### 4.4.5. Privacy
 
 
+
 #### 4.4.5. Compliance
 
-
-
+Different jurisdictions have different compliance requirements. A CryptoCommodity should be to allow the issuer customizing the level of regional compliance.
 
 
 
@@ -1135,9 +1129,11 @@ blockchain. A node operator is an individual or entity that runs software verify
 
 In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
 
-Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement.
+Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement. The scope of use cases is being developed.
 
 ### 5.1. Commodity Providers
+
+The more intuitive model of Representative money is this based on commodities as commodities have been extensively used as a medium of exchange in civilization. Different commodities would allow creating different projects. Some are included below.
 
 #### 5.5.1. Mining Companies
 
@@ -1145,7 +1141,7 @@ Mining companies extend to many areas, including precious metals, coal, gold, si
 
 #### 5.5.2. Energy Providers
 
-Whoelsale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
+Wholesale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
 
 Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project.
 
@@ -1160,9 +1156,17 @@ The map shows the countries were tap water is not drinkable. They are perfect op
 
 #### 5.5.4. Agro Providers
 
-### 5.2. Services Providers
+The squeeze of the real economy by fiat currency debasement reduces the funding available for real world. In particular, farmers are revolting in many countries. CryptoCommodity would give farmers the possibility to issue their currencies backed on their own produce.
+
+On the other hand, many agro projects never see the light because they cannot raise funding. CryptoCommodity gives the opportunity to agro producers to propose their projects in their community and gets funds for execution.
+
+### 5.2. Service Providers
+
+By narrowing down an utility to back the representative token, nothing prevents that this utility is a service. Some service providers could be eligible to issue their representative currencies. there is a pending discussion if service backed representative tokens could distort natural price formaation.
 
 #### 5.2.1. Travel Companies
+
+A travel provider could back its currency in tickets or issue an ICO to fund a new travel service.
 
 ### 5.3. Conglomerate Providers
 
