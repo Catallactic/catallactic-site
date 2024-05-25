@@ -83,7 +83,7 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/infra_rollup.svg" width="100%"></img>
+	<img src="/img/transaction_processing.svg" width="100%"></img>
 </div>
 <br/>
 
