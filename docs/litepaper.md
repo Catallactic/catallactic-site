@@ -80,17 +80,16 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 ### 1.2. Transaction Processing
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://user-images.githubusercontent.com/69413160/162631862-b8b1da4a-1326-4e20-baac-780646ed15ee.png" width="80%"></img>
+	<img src="/img/infra_rollup.svg" width="100%"></img>
 </div>
 <br/>
 
-#### 1.2.1. Transactions
 
-#### 1.2.2. Consensus Mechanism
+#### 1.2.1. Consensus Mechanism
 
 Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
 
-#### 1.2.3. Execution Environment
+#### 1.2.2. Execution Environment
 
 Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
 
@@ -98,11 +97,12 @@ The reason why new smart contract platforms are constantly emerging and establis
 
 https://www.itransition.com/blockchain/smart-contract/platforms
 
-#### 1.2.4. Settlement
+#### 1.2.3. Settlement
 
 The settlement layer settles transactions by processing proofs from other chains to finalize transfers. The settlement layer ensures that the transaction cannot be rolled back and the parties involved in the financial operation do not have their assets stolen after the final settlement is reached. Settlement is the process that ensures transaction immutability on the blockchain, playing a critical role in guaranteeing that no one can alter recorded transactions. Often considered the "anchor" within the blockchain's layers, settlement provides finality or irreversibility. To achieve this, the blockchain must validate transactions, confirm proofs and resolve disputes.
 
-#### 1.2.5. Data Availability
+#### 1.2.4. Data Availability
+
 
 ### 1.3. Smart Contracts
 
