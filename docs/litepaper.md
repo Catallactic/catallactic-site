@@ -48,11 +48,11 @@ A DLT is a database structure which organizes the information as chain of linked
 The whole structure is packaged into a node. Blockchain nodes are computers that perform the network operations, storing, validating, and relaying transactions and blocks. Each node holds a copy of the entire ledger.
 
 <div style={{overflowX : 'auto'}}>
-	<table>
+	<table style={{textAlign: 'center'}}>
 		<tr>
-			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuw2ar7mgFLKR5anAsNlZHgbjB5c-Hg2ZHMA&s" width="80%"></img></td>
-			<td><img src="https://imageio.forbes.com/blogs-images/shermanlee/files/2018/01/2018-01-17-10.07.47.jpg?height=388&width=711&fit=bounds" width="80%"></img></td>
-			<td><img src="https://miro.medium.com/v2/resize:fit:960/1*YJgJTzHlnrXrDU_ddsWtAA.png" width="80%"></img></td>
+			<td><img src="/img/pattern_blockchain.png" width="100%"></img></td>
+			<td><img src="/img/pattern_dag.webp" width="100%"></img></td>
+			<td><img src="/img/pattern_blockdag.png" width="100%"></img></td>
 		</tr>
 		<tr>
 			<td>Blockchain</td>
@@ -79,29 +79,32 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 ### 1.2. Transaction Processing
 
+#### 1.2.1. Monolitic L1 Blockchain
+
+
 <div style={{textAlign: 'center'}}>
 	<img src="/img/infra_rollup.svg" width="100%"></img>
 </div>
 <br/>
 
 
-#### 1.2.1. Consensus Mechanism
+#### 1.2.2. Consensus Mechanism
 
 Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
 
-#### 1.2.2. Execution Environment
+#### 1.2.3. Execution Environment
 
 Making an informed decision about a smart contract platform is one of the most important steps toward achieving tangible results with smart contract development. As the business landscape is becoming more aware of smart contract potential, blockchains are evolving. While Ethereum remains the most recognizable platform in this field, its competitors are constantly coming up with new, unique features that attract investments.
 
 The reason why new smart contract platforms are constantly emerging and established platforms are continuously updated is that it’s virtually impossible to maximize all of the three most important properties of smart contract platforms: scalability, security, and decentralization.
 
-https://www.itransition.com/blockchain/smart-contract/platforms
+<!-- https://www.itransition.com/blockchain/smart-contract/platforms -->
 
-#### 1.2.3. Settlement
+#### 1.2.4. Settlement
 
 The settlement layer settles transactions by processing proofs from other chains to finalize transfers. The settlement layer ensures that the transaction cannot be rolled back and the parties involved in the financial operation do not have their assets stolen after the final settlement is reached. Settlement is the process that ensures transaction immutability on the blockchain, playing a critical role in guaranteeing that no one can alter recorded transactions. Often considered the "anchor" within the blockchain's layers, settlement provides finality or irreversibility. To achieve this, the blockchain must validate transactions, confirm proofs and resolve disputes.
 
-#### 1.2.4. Data Availability
+#### 1.2.5. Data Availability
 
 
 ### 1.3. Smart Contracts
