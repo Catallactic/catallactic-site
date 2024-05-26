@@ -837,10 +837,29 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 
 #### 3.4.3. Deployable Assets
 
-Ethereum, supports a rich ecosystem of apps and smart contracts. A few ERC have been added to support different cases: ERC-20, ERC-721...
+ERC standards provide a set of guidelines and specifications for the creation and implementation of tokens, smart contracts, and other blockchain-based applications. They have helped to establish a common language and set of best practices for building decentralized applications.
 
-https://web3.career/learn-web3/erc-token-standards
+* ERC-20 is a technical standard used for the creation of tokens on the Ethereum blockchain. ERC-20 tokens are fungible tokens.
 
+* ERC-165 defines a standard interface for smart contracts to publish the list of functions and capabilities they support.
+
+* ERC-621 expands upon the functionality of ERC-20 and ERC-223 standards by allowing tokens to be burned or redeemed for another asset.
+
+* ERC-721 is an Ethereum token standard that defines a non-fungible token (NFT) contract.
+
+* ERC-777 extends the functionality of ERC-20 and ERC-223 standards to allow for more efficient token transfers
+
+* ERC-827 extends the functionality of ERC-20 and ERC-223 standards by adding support for additional transaction data.
+
+* ERC-884 extends the functionality of ERC-20 and ERC-721 standards by adding support for fractional ownership of assets
+
+* ERC-865 aims to improve the user experience and reduce transaction costs associated with the transfer of tokens.
+
+* ERC-1155 allows for the creation of both fungible and non-fungible tokens within the same contract.
+
+* ERC-4626 streamlines and standardizes the technical parameters of yield-bearing vaults.
+
+Today, there are over 50 different ERC standards, covering a wide range of use cases and applications. These standards continue to evolve and expand, as new needs and opportunities arise in the blockchain space.
 
 ### 3.5. Bitcoin Ecosystem
 
