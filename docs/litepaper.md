@@ -14,7 +14,7 @@ image: https://i.imgur.com/mErPwqL.png
 ## Abstract
 ---
 
-During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government ban. The advent of electronic money brings, for the first time ever, the opportunity for fully decentralized and cross regional, privately issued representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset aimed for private issuance.
+During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government prohibition. The advent of electronic money brings, for the first time ever, the opportunity for fully decentralized and cross regional, privately issued representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset aimed for private issuance.
 
 Whereas the project leverages Bitcoin security, differently to Bitcoin vision of a monopolistic currency, it encourages multiple token creation for a currreny competition and provides a real world backing to the tokens. We build the monetary configuration, extensively documented in the economic literature, on top of the existing blockchain tools. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
 
@@ -79,10 +79,9 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.
 
 
-### 1.2. Transaction Processing
+### 1.2. Monolitic L1 Blockchain
 
-#### 1.2.1. Monolitic L1 Blockchain
-
+### 1.2.1. Transaction Processing
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/transaction_processing.svg" width="100%"></img>
