@@ -426,10 +426,7 @@ Fundraising for entrepreneurs
 
 Investment for investors
 
-Blockchains are provably immutable and enable the
-rapid transfer and exchange of crypto-tokens (which can
-represent assets) without the need for separate
-clearing, settlement & reconciliation.
+Blockchains are provably immutable and enable the rapid transfer and exchange of crypto-tokens (which can represent assets) without the need for separate clearing, settlement & reconciliation.
 
 Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
 
@@ -622,16 +619,6 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>FunC</td>
 		</tr>
 		<tr>
-			<td>Aleph Zero</td>
-			<td>L1</td>
-			<td>2018</td>
-			<td>Rust</td>
-			<td></td>
-			<td>PoS</td>
-			<td></td>
-			<td>ink!</td>
-		</tr>
-		<tr>
 			<td>Avalanche</td>
 			<td>L0</td>
 			<td>2018</td>
@@ -730,8 +717,15 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 		</tr>
 		<tr>
 			<td colSpan="2">Forks</td>
-			<td>
-			</td>
+			<td><a href="https://www.bnbchain.org/" target="_blank">BNB Smart Chain</a>,
+				<a href="https://solana.org/" target="_blank">Solana</a>,
+				<a href="https://chain.link/" target="_blank">Chainlink</a>,
+				<a href="https://www.chiliz.com/" target="_blank">Chiliz</a>,
+				<a href="https://developers.iotex.io/" target="_blank">IoTeX</a>,
+				<a href="https://livepeer.org/" target="_blank">Livepeer</a>,
+				<a href="https://uma.xyz/" target="_blank">UMA</a>,
+				<a href="https://casper.network/" target="_blank">Casper</a>,
+				<a href="https://velas.com/en" target="_blank">Velas (Solana)</a></td>
 		</tr>
 		<tr>
 			<td colSpan="2">Sidechains</td>
