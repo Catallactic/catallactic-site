@@ -100,6 +100,12 @@ Making an informed decision about a smart contract platform is one of the most i
 
 The reason why new smart contract platforms are constantly emerging and established platforms are continuously updated is that it’s virtually impossible to maximize all of the three most important properties of smart contract platforms: scalability, security, and decentralization.
 
+Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”. A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
+
+Smart contracts are stored on a blockchain. This makes them transparent, secure & immutable. When a smart comtract is deployed to a blockchain network, it gets copied to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is responsible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
+
+Smart contracts allow to build a wide variety of decentralized apps and tokens.
+
 <!-- https://www.itransition.com/blockchain/smart-contract/platforms -->
 
 #### 1.2.4. Settlement
@@ -109,25 +115,29 @@ The settlement layer settles transactions by processing proofs from other chains
 #### 1.2.5. Data Availability
 
 
-### 1.3. Smart Contracts
 
-Nick Szabo, the inventor of smart contract, defined it as such: “A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”. A smart contract is a computer program that automatically executes the terms of a contract when certain conditions are met. These conditions are written into the code of the contract. Once completed, the transactions are trackable and irreversible. 
+### 1.3. Tokenization
 
-Smart contracts are stored on a blockchain. This makes them transparent, secure & immutable. When a smart comtract is deployed to a blockchain network, it gets copied to all of the network nodes to guarantee its decentralization. When the contract is invoker for a transaction by a wallet, all the nodes participate in the valiadtion of rhe transaction but only one node is responsible for execution of the transaction. The response from the transaction will be again synchronnized to to all other nodes in the network so they can have the status.
+Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
+
+#### 1.3.1. Tokens
+
+Any asset that is digitally transferable between two people is called a token. Tokens are implemented as smart contracts and perform their capabilities inside an execution environment. When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable. Tokens can represent fungible or not fungible assets (NFT). 
+
+Fungible tokens typically maintain a key-value map of holders. As any smart contract, this key-value map is replicated across the cnodes of the network, providing it decentralization.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.catallactic.org/assets/images/ops_balances-f4a24f9af292d2e0304607b3bf4f7e54.svg" width="80%"></img>
 </div>
 <br/>
 
-Smart contracts allow to build a wide variety of decentralized apps and tokens.
+Tokens can be divisible providing fractional ownership. Tokens can also be valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token. 
 
+Fungible token features make them specially suitable to become currencies.
 
-### 1.4. Tokenization
+Non fungible assets, or NFT, represent an unique asset and provide the owner of the NFT ownership of the underlying asset. Non-fungible tokens tokens can be configurable
 
-Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
-
-#### 1.4.1. Tokenization Models
+#### 1.3.2. Tokenization Models
 
 When we speak about the type of tokens, we are mostly referring to how its price is formed, and maybe maintained, by the token issuer. There are several strategies for price formation. This post aims to provide an overview.
 
@@ -158,19 +168,7 @@ Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
 
-#### 1.4.2. Token Features
-
-When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable.
-
-Tokens can be transferred between holders. This features applies to fungible and not-fungible tokens.
-
-Valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token.
-
-Tokens can be divisible. fractional ownership
-
-Non-fungible tokens tokens can be configurable
-
-#### 1.4.3. Token Lifecycle
+#### 1.3.3. Token Lifecycle
 
 Tokens can be pre-mined for a fundraising.
 
@@ -188,15 +186,11 @@ Tokens can be expired or suspended.
 	<img src="/img/token_value_chain2.svg" width="100%"></img>
 </div>
 
-#### 1.4.4. Tokenizable Assets
-
-Tangible 
-
-Fungible
+#### 1.3.4. Tokenizable Assets
 
 RWA tokenization
 
-#### 1.4.5. Applications of Tokenization
+#### 1.3.5. Applications of Tokenization
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
 
@@ -206,7 +200,7 @@ A basic application of a priced asset is to become a <b>currency</b>. There are 
 Another application of priced asssets is <b>investment</b>.
 
 
-### 1.5. CryptoCurrencies
+### 1.4. CryptoCurrencies
 
 In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
@@ -259,7 +253,7 @@ as <b>Unit of Account</b>
 
 Coins unable to become currencies
 
-### 1.6. Crypto Adoption
+### 1.5. Crypto Adoption
 
 * Driven to fiat by VCs
 
