@@ -837,7 +837,10 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 
 #### 3.4.3. Deployable Assets
 
-ERC-20, ERC-721...
+Ethereum, supports a rich ecosystem of apps and smart contracts. A few ERC have been added to support different cases: ERC-20, ERC-721...
+
+https://web3.career/learn-web3/erc-token-standards
+
 
 ### 3.5. Bitcoin Ecosystem
 
@@ -984,12 +987,12 @@ When Bitcoin was created in 2008, its vision was to be a peer-to-peer electronic
 
 #### 3.5.3. Deployable Assets
 
-The initial release of Bitcoin Network as peer-to-peer electronic cash system did not consider the creation of assets. Over the time a number of technologies have enabled developers to build assets on Bitcoin L1. 
+For more than a decade, the primary narratives surrounding Bitcoin have focused on its role as peer-to-peer digital cash and a store of value. The initial release of Bitcoin Network as peer-to-peer electronic cash system did not consider the creation of smart contracts. Since the beginning of 2023, a number of technologies have enabled developers to build Bitcoin-native assets on Bitcoin L1.
 * Colored Coins (RGB), Taprot Assets (Taro), Bitcoin Ordinals (BRC-20, BRC-201, BRC-69, BRC-420), Bitcoin Atomicals (ARC-20) enabled for NFT tokens to be created on the core chain.
 * Technologies as Taprot Assets (Taro), Counterparty or Runes enabled the creation of fungible tokens.
 * Bitcoin Inscriptions and Bitcoin Stamps (SRC-20) allowed to insert binary content into the main blockchain.
 
-However, all the Bitcoin L1 native assets are somehow limited in their ability to perform logic operations. The advent of Bitcoin L2 and, in particular rollups, will allow Bitcoin to enjoy all the right features of embedding an EVM into the protocol. This will allow to insert in Bitcoin L1 all the assets currently available for the Etehreum Ecosystem (e.g. ERC-20).
+All the Bitcoin L1 native assets are somehow limited in their ability to perform logic operations. The advent of Bitcoin L2 and, in particular, rollups, will enhance Bitcoin to enjoy all the right features of embedding an EVM into the protocol. This will bring all the assets currently available for the Ethereum Ecosystem (e.g. ERC-20) to Bitcoin ecosystem.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
