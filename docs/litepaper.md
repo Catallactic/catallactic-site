@@ -122,20 +122,21 @@ Tokenization is the process of digitally representing an asset, or asset feature
 
 #### 1.3.1. Tokens
 
-Any asset that is digitally transferable between two people is called a token. Tokens are implemented as smart contracts and perform their capabilities inside an execution environment. When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable. Tokens can represent fungible or not fungible assets (NFT). 
+Any asset that is digitally transferable between two people is called a token. Tokens are implemented as smart contracts and perform their capabilities inside an execution environment. 
 
-Fungible tokens typically maintain a key-value map of holders. As any smart contract, this key-value map is replicated across the cnodes of the network, providing it decentralization.
+When evaluating the asset, or asset property, we must consider the concept of <b>fungibility</b>. Fungibility is the property of a good, or a commodity, whose individual units are essentially interchangeable. Tokens can represent fungible or not fungible assets (NFT).
+
+* Non fungible assets, or NFT, represent an unique asset and provide the owner of the NFT ownership of the underlying asset. Non-fungible tokens tokens can be configurable
+
+* Fungible tokens typically maintain a key-value map of holders. As any smart contract, this key-value map is replicated across the cnodes of the network, providing it decentralization. Fungible tokens can be divisible providing fractional ownership.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.catallactic.org/assets/images/ops_balances-f4a24f9af292d2e0304607b3bf4f7e54.svg" width="80%"></img>
 </div>
 <br/>
 
-Tokens can be divisible providing fractional ownership. Tokens can also be valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a token can be priced in terms of another token. 
 
-Fungible token features make them specially suitable to become currencies.
-
-Non fungible assets, or NFT, represent an unique asset and provide the owner of the NFT ownership of the underlying asset. Non-fungible tokens tokens can be configurable
+All tokens can also be valuable. A token tokenizing a fungible assets, or asset properties, can be provided a relative value when submitted to an exchange paired with other token. This relative value can be defined as a <b>price</b>. In that way, a fungible token can be priced in terms of another token. Fungible token features make them specially suitable to become currencies.
 
 #### 1.3.2. Tokenization Models
 
