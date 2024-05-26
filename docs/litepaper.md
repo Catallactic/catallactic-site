@@ -18,6 +18,8 @@ During centuries representative money has been the preferred medium of exchange 
 
 Whereas the project leverages Bitcoin security, differently to Bitcoin vision of a monopolistic currency, it encourages multiple token creation for a currreny competition and provides a real world backing to the tokens. We build the monetary configuration, extensively documented in the economic literature, on top of the existing blockchain tools. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
 
+This project also builds the ecosystem for representative money, including tokenization platform, to manage the CryptoCommodity lifecycle, payment gateway, wallets and cards. We also identify projects and issuers.
+
 This paper is addressed to an advanced audience, which is able to understand the fundamentals of monetary theory, beyond the mainstream beliefs. As such we wont discuss representative money and what benefits brings for societies, as this is expected to be known by the reader.
 
 ## Keywords
@@ -833,6 +835,10 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 </div>
 <br/>
 
+#### 3.4.3. Deployable Assets
+
+ERC-20, ERC-721...
+
 ### 3.5. Bitcoin Ecosystem
 
 Traditionally, Bitcoin has been viewed as a store of value with limited functionality beyond investment. Unlike Ethereum, which supports a rich ecosystem of apps and smart contracts, Bitcoin has lacked these capabilities. However, developers are now pushing to bridge this gap through innovative solutions.
@@ -975,9 +981,17 @@ When Bitcoin was created in 2008, its vision was to be a peer-to-peer electronic
 </div>
 <br/>
 
+
+#### 3.5.3. Deployable Assets
+
+The initial release of Bitcoin Network as peer-to-peer electronic cash system did not consider the creation of assets. Over the time a number of technologies have enabled developers to build assets on Bitcoin L1. 
+* Colored Coins (RGB), Taprot Assets (Taro), Bitcoin Ordinals (BRC-20, BRC-201, BRC-69, BRC-420), Bitcoin Atomicals (ARC-20) enabled for NFT tokens to be created on the core chain.
+* Technologies as Taprot Assets (Taro), Counterparty or Runes enabled the creation of fungible tokens.
+* Bitcoin Inscriptions and Bitcoin Stamps (SRC-20) allowed to insert binary content into the main blockchain.
+
+However, all the Bitcoin L1 native assets are somehow limited in their ability to perform logic operations. The advent of Bitcoin L2 and, in particular rollups, will allow Bitcoin to enjoy all the right features of embedding an EVM into the protocol. This will allow to insert in Bitcoin L1 all the assets currently available for the Etehreum Ecosystem (e.g. ERC-20).
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
 
 ## 4. CryptoCommodity Ecosystem
 ---
@@ -1037,7 +1051,7 @@ The decentralized tokenization platform should cover payments for the utility th
 
 #### 4.3.3. Tradeable in Exchanges
 
-The decentralized tokenization platform shoudl allow issuers to deploy the token in different exchanges.
+The decentralized tokenization platform should allow issuers to deploy the token in different exchanges.
 
 #### 4.3.4. Accessible with Wallets
 
