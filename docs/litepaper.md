@@ -210,14 +210,14 @@ Another application of priced asssets is <b>investment</b>.
 
 #### 1.4.1. Real World Asset Tokenization
 
-Real world asset tokenization is considered one of the coolest next big things in crypto. The theory is that the value of commodities, physical and financial assets is tokenized. According to the tokenization models, these prices can produce 6 different token models: RWA Utility TOkens, RWA Stablecoins/Synths, RWA Secusity Tokens and RWA NFTs.
+Real world asset tokenization is considered one of the coolest next big things in crypto. The theory is that the value of commodities, physical and financial assets is tokenized. According to the tokenization models above, 4 different token models can be created: RWA Utility Tokens, RWA Stablecoins/Synths, RWA Security Tokens and RWA NFTs.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/real_world_assets.svg" width="50%"></img>
 </div>
 <br/>
 
-The reality is that real world assets is a misnomer. Instead of capturing the value, real world assets capture the fiat price formed in international markets and set into the token with manual interventions. This is a source of a few levels of centralization as we will discuss later.
+The reality is that real world assets is a misnomer. Instead of capturing the value, real world assets capture the fiat price formed in international markets and set into the token with manual interventions. This is a source for different centralization, as we will discuss later.
 
 ### 1.5. CryptoCurrencies
 
