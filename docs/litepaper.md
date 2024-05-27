@@ -210,10 +210,14 @@ Another application of priced asssets is <b>investment</b>.
 
 #### 1.4.1. Real World Asset Tokenization
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/stablecoin_vs_representative.svg" width="50%"></img>
-</div>
+Real world asset tokenization is considered one of the coolest next big things in crypto. The theory is that the value of commodities, physical and financial assets is tokenized. According to the tokenization models, these prices can produce 6 different token models: RWA Utility TOkens, RWA Stablecoins/Synths, RWA Secusity Tokens and RWA NFTs.
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/real_world_assets.svg" width="50%"></img>
+</div>
+<br/>
+
+The reality is that real world assets is a misnomer. Instead of capturing the value, real world assets capture the fiat price formed in international markets and set into the token with manual interventions. This is a source of a few levels of centralization as we will discuss later.
 
 ### 1.5. CryptoCurrencies
 
@@ -404,6 +408,15 @@ Configurable by issuer. Benchmarks are required.
 
 ### 2.4. Comparing with existing crypto currencies
 
+As previously discussed, the only CryptoCurrencies which, potentially, can become a medium of exchange are Stablecoins.  <b>Stablecoins capture the fiat price, formed in international markets, of an underlying asset</b>. This underlying asset can have different flavours: physical asset, digital asset, financial asset or even un backed. Their stable nature is the intend of their price pegged to the price of the underlying asset. The main feature of these Stablecoins is centralization: centralized in  value as they are pegged to fiat prices, centralized in operation as they depend on external sources of information and centralized on governance.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/stablecoin_vs_representative.svg" width="50%"></img>
+</div>
+<br/>
+
+On the flip side, <b>CryptoCommodities form their own prices</b> by capturing the subjective value of the underlying asset accoring to the marginal utility provided to consumers and, therefore, there is not a dependency on external sources of information. This built-in feature provides CryptoCommodities a true value, operational and governance decentralization. Additionally CryptoCommodities boost real economy by allowing fundraising to anyone with a value to provide to society. The table below make a side by side comparison of both configurations.
+
 |                                 | Stablecoin                                        | CryptoCommodity                                                               |
 | :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
 | Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
@@ -413,11 +426,13 @@ Configurable by issuer. Benchmarks are required.
 | Scope                           | Mostly Global														          | Local or Global                                                               |
 | Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
 | Process Decentralized?          | No, manual stabilization					                | Yes, built-in automated stabilization                                         |
-| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                                 |
+| Governance Decentralized?       | No, opaque decisions  			   		                | Yes, releasing to the community when possible                                 |
 | Disclosures  										| No                                                | Yes, full disclosure                                                          |
 | Allows project funding?         | No                                                | Yes                                                                           |
 | Collateral on inception needed? | Yes                                               | No                                                                            |
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
+
+
 
 
 ### 2.5. Representative Currency Competition
