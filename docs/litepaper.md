@@ -415,7 +415,7 @@ As previously discussed, the only CryptoCurrencies which, potentially, can becom
 </div>
 <br/>
 
-On the flip side, <b>CryptoCommodities form their own prices</b> by capturing the subjective value of the underlying asset accoring to the marginal utility provided to consumers and, therefore, there is not a dependency on external sources of information. This built-in feature provides CryptoCommodities a true value, operational and governance decentralization. Additionally CryptoCommodities boost real economy by allowing fundraising to anyone with a value to provide to society. The table below make a side by side comparison of both configurations.
+On the flip side, <b>CryptoCommodities form their own prices</b> by capturing the subjective value of the underlying asset according to the marginal utility provided to consumers and, therefore, there is not a dependency on external sources of information. This built-in feature provides CryptoCommodities a true value, operational and governance decentralization. Additionally CryptoCommodities boost real economy by allowing fundraising to anyone with a value to provide to society. The table below presents a side by side comparison of both configurations.
 
 |                                 | Stablecoin                                        | CryptoCommodity                                                               |
 | :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
