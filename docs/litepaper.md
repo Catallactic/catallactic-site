@@ -1182,7 +1182,7 @@ Mining companies extend to many areas, including precious metals, coal, gold, si
 
 Wholesale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
 
-Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project.
+Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project for the Catallactic Framework. Access <a href="https://gasclick.net/litepaper_en.html">litepaper</a>.
 
 #### 5.5.3. Water Supply and Sewerage
 
