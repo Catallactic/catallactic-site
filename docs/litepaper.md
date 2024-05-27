@@ -188,9 +188,9 @@ Tokens can be expired or suspended.
 
 #### 1.3.4. Tokenizable Assets
 
-Almost any asset that can be privide a value is subject to be tokenized. Below is included a list of asset that has been tokenized:
+Almost any asset that can be provided a value is subject to be tokenized. Below is a list of asset that has been tokenized:
 
-* Natural resources: time, energy, environmental variables, carbon, mining, gras, water, agro, petrol
+* Natural resources: time, energy, environmental variables, carbon credits, mining, gas, water, agro, petrol
 
 * Physical goods: real state, art, collectibles, industrial assets
 
@@ -198,9 +198,13 @@ Almost any asset that can be privide a value is subject to be tokenized. Below i
 
 * Financial assets: currencies, equity, bonds, debt, invetment funds, loans
 
-* Certifications: diploman, certifucates, proofs of participation, vouchers, loyalty points, awards
+* Certifications: diploman, certificates, proofs of participation, vouchers, loyalty points, awards
 
 Special mention for RWA tokenization [...]
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/stablecoin_vs_representative.svg" width="50%"></img>
+</div>
 
 #### 1.3.5. Applications of Tokenization
 
