@@ -200,23 +200,22 @@ Almost any asset that can be provided a value is subject to be tokenized. Below 
 
 * Certifications: diploman, certificates, proofs of participation, vouchers, loyalty points, awards
 
-Special mention for RWA tokenization [...]
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/stablecoin_vs_representative.svg" width="50%"></img>
-</div>
-
-#### 1.3.5. Applications of Tokenization
+### 1.4. Applications of Tokenization
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
-
 
 A basic application of a priced asset is to become a <b>currency</b>. There are some requirements to be a currency...
 
 Another application of priced asssets is <b>investment</b>.
 
+#### 1.4.1. Real World Asset Tokenization
 
-### 1.4. CryptoCurrencies
+<div style={{textAlign: 'center'}}>
+	<img src="/img/stablecoin_vs_representative.svg" width="50%"></img>
+</div>
+
+
+### 1.5. CryptoCurrencies
 
 In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
@@ -269,7 +268,7 @@ as <b>Unit of Account</b>
 
 Coins unable to become currencies
 
-### 1.5. Crypto Adoption
+### 1.6. Crypto Adoption
 
 * Driven to fiat by VCs
 
