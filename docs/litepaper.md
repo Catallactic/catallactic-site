@@ -488,7 +488,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<th>Smart Contracts</th>
 		</tr>
 		<tr>
-			<td>Bitcoin</td>
+			<td><a href="https://bitcoin.org/en/" target="_blank">Bitcoin</a></td>
 			<td>L1</td>
 			<td>2008</td>
 			<td>C++</td>
@@ -498,7 +498,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>BitcoinScript</td>
 		</tr>
 		<tr>
-			<td>Ripple</td>
+			<td><a href="https://ripple.com/" target="_blank">Ripple</a></td>
 			<td>L1</td>
 			<td>2012</td>
 			<td>C++</td>
@@ -508,7 +508,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Yes</td>
 		</tr>
 		<tr>
-			<td>Ethereum</td>
+			<td><a href="https://ethereum.org/en/" target="_blank">Ethereum</a></td>
 			<td>L1</td>
 			<td>2013</td>
 			<td>Go</td>
@@ -518,7 +518,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Solidity</td>
 		</tr>
 		<tr>
-			<td>Radix</td>
+			<td><a href="https://www.radixdlt.com/" target="_blank">Radix</a></td>
 			<td>L1</td>
 			<td>2013</td>
 			<td></td>
@@ -528,7 +528,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Scrypto</td>
 		</tr>
 		<tr>
-			<td>Monero</td>
+			<td><a href="https://www.getmonero.org/" target="_blank">Monero</a></td>
 			<td>L1</td>
 			<td>2014</td>
 			<td>C++</td>
@@ -538,7 +538,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>Tezos</td>
+			<td><a href="https://tezos.com/" target="_blank">Tezos</a></td>
 			<td>L1</td>
 			<td>2014</td>
 			<td></td>
@@ -548,7 +548,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Michelson</td>
 		</tr>
 		<tr>
-			<td>Cosmos</td>
+			<td><a href="https://cosmos.network/" target="_blank">Cosmos</a></td>
 			<td>L0</td>
 			<td>2014</td>
 			<td>Go</td>
@@ -558,7 +558,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Rust</td>
 		</tr>
 		<tr>
-			<td>Cardano</td>
+			<td><a href="https://cardano.org/" target="_blank">Cardano</a></td>
 			<td>L1</td>
 			<td>2015</td>
 			<td>Haskell</td>
@@ -568,7 +568,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Plutus, Marlowe, Glow</td>
 		</tr>
 		<tr>
-			<td>IOTA (DAG)</td>
+			<td><a href="https://www.iota.org/" target="_blank">IOTA (DAG)</a></td>
 			<td>L1</td>
 			<td>2015</td>
 			<td></td>
@@ -578,7 +578,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Rust, TinyGo, Solidity</td>
 		</tr>
 		<tr>
-			<td>WAVES</td>
+			<td><a href="https://waves.tech/" target="_blank">WAVES</a></td>
 			<td>L1</td>
 			<td>2016</td>
 			<td>Scala</td>
@@ -588,7 +588,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Ride</td>
 		</tr>
 		<tr>
-			<td>Substrate, Polkadot</td>
+			<td><a href="https://polkadot.network/" target="_blank">Substrate, Polkadot</a></td>
 			<td>L0</td>
 			<td>2016</td>
 			<td>Rust</td>
@@ -598,7 +598,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Rust</td>
 		</tr>
 		<tr>
-			<td>NEAR</td>
+			<td><a href="https://near.org/" target="_blank">NEAR</a></td>
 			<td>L1</td>
 			<td>2017</td>
 			<td>Rust</td>
@@ -608,7 +608,7 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Rust, Javascript</td>
 		</tr>
 		<tr>
-			<td>Algorand</td>
+			<td><a href="https://www.algorand.foundation/" target="_blank">Algorand</a></td>
 			<td>L1</td>
 			<td>2017</td>
 			<td>Python</td>
@@ -618,17 +618,17 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>TEAL</td>
 		</tr>
 		<tr>
-			<td>Chia Network</td>
+			<td><a href="https://www.chia.net/" target="_blank">Chia Network</a></td>
 			<td>L1</td>
 			<td>2017</td>
 			<td>Python</td>
 			<td>UTXO</td>
 			<td>PoST</td>
-			<td></td>
+			<td>CLVM</td>
 			<td>Chialisp</td>
 		</tr>
 		<tr>
-			<td>Fantom (DAG)</td>
+			<td><a href="https://fantom.foundation/" target="_blank">Fantom (DAG)</a></td>
 			<td>L1</td>
 			<td>2018</td>
 			<td>Go</td>
@@ -638,33 +638,33 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 			<td>Solidity</td>
 		</tr>
 		<tr>
-			<td>TON</td>
+			<td><a href="https://ton.org/" target="_blank">TON</a></td>
 			<td>L1</td>
 			<td>2018</td>
 			<td>C++</td>
 			<td>account</td>
 			<td>PoS</td>
-			<td></td>
+			<td>TVM</td>
 			<td>FunC</td>
 		</tr>
 		<tr>
-			<td>Avalanche</td>
+			<td><a href="https://www.avax.network/" target="_blank">Avalanche (DAG)</a></td>
 			<td>L0</td>
 			<td>2018</td>
 			<td>Go</td>
 			<td>UTXO</td>
 			<td></td>
-			<td></td>
+			<td>AVM</td>
 			<td>Solidity</td>
 		</tr>
 		<tr>
-			<td>Aptos (Diem, Libra)</td>
+			<td><a href="https://aptosfoundation.org/" target="_blank">Aptos (Diem, Libra)</a></td>
 			<td>L1</td>
 			<td>2019</td>
 			<td>Rust</td>
 			<td>account</td>
 			<td>AptosBFT</td>
-			<td></td>
+			<td>MoveVM</td>
 			<td>Move</td>
 		</tr>
 	</table>
@@ -715,15 +715,15 @@ The table below compares the different scalibility patterns, showing their featu
 <div style={{overflowX : 'auto'}}>
 	<table style={{textAlign: 'center'}}>
 		<tr>
-			<th></th>
+			<th rowSpan="2"></th>
 			<th rowSpan="2">Year</th>
-			<th rowSpan="2">Consensus</th>
+			<th>Consensus</th>
 			<th colSpan="2">Execution</th>
 			<th>Settlement</th>
 			<th colSpan="3">DA / Merkel Commits</th>
 		</tr>
 		<tr>
-			<th></th>
+			<th>Loc</th>
 			<th>Loc</th>
 			<th>SC</th>
 			<th>Proofs</th>
