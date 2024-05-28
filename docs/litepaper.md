@@ -1219,7 +1219,7 @@ All the Bitcoin L1 native assets are somehow limited in their ability to perform
 
 ### 4.1. CryptoCommodity Token
 
-CryptoCommodity smart contract is created as a diamond standard ERC-2535 [1] contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
+The first implementation of CryptoCommodity smart contracts is written in Solitidy language as a diamond standard ERC-2535 contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/token_structure.svg" width="60%"></img>
@@ -1236,49 +1236,56 @@ Existing behaviours are:
 
 - ERC-20 Facet
 
-By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets.
+By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets. Code is relased as <a href="https://github.com/Catallactic/catallactic-suite" target="_blank">Open Source</a>.
 
-https://github.com/Catallactic/catallactic-suite
-
+Is possible in the future to migrate to another languages, e.g. WASM-based environments.
 
 ### 4.2. CryptoCommodity Infrastructure
 
 #### 4.2.1. Deployed on Bitcoin L2
 
-Bitcoin L2 is being created on top of bitcoin reusing bitcoin security backed by 60.000 servers and a plethora of miners.
+At the moment, CryptoCommodity needs a EVM decentralized execution environment to run. Initially, EVM execution environments were restricted to the Ethereum Ecosystem. The mainstream acceptation of EVM brought the execution environment to other ecosystems, so a plethora of EVM compatible networks have arisen in the last few years. CryptoCommodity can be deployed in any network supporting a EVM execution environment.
+
+Bitcoin security, backed by 60.000 servers and a 1 million miners, has outperformed any other network security mechanism. However, Bitcoin mainchain was created as a cross-
+
+Since 2023, Bitcoin L2, in particular rollups, have proposed to externalize the computation from the Bitcoin mainchain enabling execution of code for differen virtual machines. At the moment, some pioneer Optimistic rollups are been created supporting EVM and, different strategies are been investigated to enable zk-rollups on Bitcoin.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/infra_rollup.svg" width="80%"></img>
 </div>
 <br/>
 
-
+So, the ideal networks to run CryptoCommodity would be, from more suitable to less: 
+* zkEVM Bitcoin rollups, 
+* Optimistic EVM Bitcoin rollups,
+* EVM-capable Bitcoin Sidechains,
+* any EVM compatible network with enought security, performance and low fees, including Ethereum Rollups.
 
 #### 4.2.2. Multichain Tokens
 
+A CryptoCommodity can be created by a commodity provider. The commodity provider will choose the blockchain of preference as host network.
+
 Different blockchains provide different features so there is not a one size fits all choice. To best accommodate business requirements, the issuer should be able to transfer liquidity across chains. At the moment, there is not standard of crosschain interoperability that derivers this functionality out of the box. Recent advances in cross messaging frameworks or interchain token services enable this feature.
 
-### 4.3. Delivering Representative Money
+### 4.3. Tokenization Platform
 
 Representative money must be accesible to anyone with a physical project to back a currency issuance and deliver a real world value to society. 
 
-#### 4.3.1. Tokenization Platform
-
 A decentralized tokenization platform will allow any individual to run the CryptoCurrency lifecycle. Deployment must be in a decentralized Appstore. Work is already <a href="https://catallactic.github.io/catallactic-admin/" target="_blank">in progress</a>.
 
-#### 4.3.2. Payment Gateway
+#### 4.3.1. Payment Gateway
 
-The decentralized tokenization platform should cover payments for the utility that backs the CryptoCommodity. Payments will also be integrated into the token to enable payment streaming.
+The decentralized tokenization platform should cover payments for the utility that backs the CryptoCommodity. Payments of the asset utility will automatically adjust the supply for value stabilization. Payments will also be integrated into the token to enable payment streaming.
 
-#### 4.3.3. Tradeable in Exchanges
+#### 4.3.2. Tradeable in Exchanges
 
 The decentralized tokenization platform should allow issuers to deploy the token in different exchanges.
 
-#### 4.3.4. Accessible with Wallets
+#### 4.3.3. Accessible with Wallets
 
 A number of compatible wallets must be validated for integration with the networks where CryptoCommodity liquidity is available.
 
-#### 4.3.5. Accessible with Cards
+#### 4.3.4. Accessible with Cards
 
 A number of card providers have built gift cards that can be customized to interact with exchange and payments seamlessly creating a real world POS system.
 
