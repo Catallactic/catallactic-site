@@ -718,17 +718,18 @@ The table below compares the different scalibility patterns, showing their featu
 			<th></th>
 			<th rowSpan="2">Year</th>
 			<th rowSpan="2">Consensus</th>
-			<th colSpan="2">Computation</th>
-			<th colSpan="4">DA / Commits Merkel to</th>
+			<th colSpan="2">Execution</th>
+			<th>Settlement</th>
+			<th colSpan="3">DA / Merkel Commits</th>
 		</tr>
 		<tr>
 			<th></th>
 			<th>Loc</th>
 			<th>SC</th>
+			<th>Proofs</th>
 			<th>To</th>
 			<th>TX</th>
 			<th>State</th>
-			<th>Proofs</th>
 		</tr>
 		<tr>
 			<td colSpan="9">L0</td>
@@ -753,10 +754,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>N/Y</td>
+			<td>-</td>
 			<td>mainchain</td>
 			<td>tree</td>
 			<td>tree</td>
-			<td>-</td>
 		</tr>
 		<tr>
 			<th>Fork</th>
@@ -764,10 +765,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>own</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>-</td>
 			<td>own</td>
 			<td>tree</td>
 			<td>tree</td>
-			<td>-</td>
 		</tr>
 		<tr>
 			<th>Sidechain</th>
@@ -775,10 +776,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>own</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>-</td>
 			<td>own</td>
 			<td>tree</td>
 			<td>tree</td>
-			<td>-</td>
 		</tr>
 		<tr>
 			<th>Commitchain</th>
@@ -786,10 +787,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>own</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>fraud</td>
 			<td>mainchain</td>
 			<td>-</td>
 			<td>tree</td>
-			<td>fraud</td>
 		</tr>
 		<tr>
 			<td colSpan="9">L2</td>
@@ -800,10 +801,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>fraud</td>
 			<td>mainchain</td>
 			<td>tree</td>
 			<td>tree</td>
-			<td>fraud</td>
 		</tr>
 		<tr>
 			<th>Plasma</th>
@@ -811,10 +812,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>N</td>
+			<td>fraud</td>
 			<td>mainchain</td>
 			<td>root</td>
 			<td>-</td>
-			<td>fraud</td>
 		</tr>
 		<tr>
 			<th>Op Rollup</th>
@@ -822,10 +823,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>fraud</td>
 			<td>mainchain</td>
 			<td>tree</td>
 			<td>root</td>
-			<td>fraud</td>
 		</tr>
 		<tr>
 			<th>Optimium</th>
@@ -833,10 +834,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>fraud</td>
 			<td>custom</td>
 			<td>tree</td>
 			<td>root</td>
-			<td>fraud</td>
 		</tr>
 		<tr>
 			<th>zk Rollup</th>
@@ -844,10 +845,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>validity</td>
 			<td>mainchain</td>
 			<td>tree</td>
 			<td>root</td>
-			<td>validity</td>
 		</tr>
 		<tr>
 			<th>Validium</th>
@@ -855,10 +856,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>validity</td>
 			<td>custom</td>
 			<td>tree</td>
 			<td>root</td>
-			<td>validity</td>
 		</tr>
 		<tr>
 			<th>Volition</th>
@@ -866,10 +867,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>mainchain</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>validity</td>
 			<td>both</td>
 			<td>tree</td>
 			<td>root</td>
-			<td>validity</td>
 		</tr>
 		<tr>
 			<td colSpan="9">L3</td>
@@ -880,10 +881,10 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>L2</td>
 			<td>own</td>
 			<td>Y</td>
+			<td>any</td>
 			<td>L2</td>
 			<td>tree</td>
 			<td>root</td>
-			<td>both</td>
 		</tr>
 	</table>
 </div>
