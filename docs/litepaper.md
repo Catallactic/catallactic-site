@@ -1246,9 +1246,7 @@ Is possible in the future to migrate to another languages, e.g. WASM-based envir
 
 At the moment, CryptoCommodity needs a EVM decentralized execution environment to run. Initially, EVM execution environments were restricted to the Ethereum Ecosystem. The mainstream acceptation of EVM brought the execution environment to other ecosystems, so a plethora of EVM compatible networks have arisen in the last few years. CryptoCommodity can be deployed in any network supporting a EVM execution environment.
 
-Bitcoin security, backed by 60.000 servers and a 1 million miners, has outperformed any other network security mechanism. However, Bitcoin mainchain was created as a cross-
-
-Since 2023, Bitcoin L2, in particular rollups, have proposed to externalize the computation from the Bitcoin mainchain enabling execution of code for differen virtual machines. At the moment, some pioneer Optimistic rollups are been created supporting EVM and, different strategies are been investigated to enable zk-rollups on Bitcoin.
+Bitcoin security, backed by 60.000 servers and a 1 million miners, has outperformed any other network security mechanism. However, Bitcoin mainchain was created as a peer-to-peer electronic cash system without ability to run custom logic. Since 2023, Bitcoin L2, in particular rollups, have proposed to externalize the computation from the Bitcoin mainchain enabling execution of code for differen virtual machines. At the moment, some pioneer Optimistic rollups are been created supporting EVM and, different strategies are been investigated to enable zk-rollups on Bitcoin.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/infra_rollup.svg" width="80%"></img>
@@ -1277,22 +1275,41 @@ A decentralized tokenization platform will allow any individual to run the Crypt
 
 The decentralized tokenization platform should cover payments for the utility that backs the CryptoCommodity. Payments of the asset utility will automatically adjust the supply for value stabilization. Payments will also be integrated into the token to enable payment streaming.
 
-#### 4.3.2. Tradeable in Exchanges
+#### 4.3.2. Fundraising Platform
+
+
+#### 4.3.3. Tradeable in Exchanges
 
 The decentralized tokenization platform should allow issuers to deploy the token in different exchanges.
 
-#### 4.3.3. Accessible with Wallets
+#### 4.3.4. Cross-Platform Liquity
+
+
+
+
+### 4.4. Enabled for B2C Business
+
+#### 4.4.1. Accessible with Wallets
 
 A number of compatible wallets must be validated for integration with the networks where CryptoCommodity liquidity is available.
 
-#### 4.3.4. Accessible with Cards
+#### 4.4.2. Accessible with Cards
 
 A number of card providers have built gift cards that can be customized to interact with exchange and payments seamlessly creating a real world POS system.
 
 
-### 4.4. CryptoCommodity Features
 
-#### 4.4.1. Upgradeable
+
+
+### 4.5. Enabled for B2B Business
+
+#### 4.5.1. Integration with Corporate Payments
+
+
+
+### 4.6. CryptoCommodity Features
+
+#### 4.6.1. Upgradeable
 
 we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
@@ -1301,7 +1318,7 @@ Inn current implementation, every facet contains a versioned logic of the functi
 The long term idea is to release to community the governance.
 
 
-#### 4.4.2. Security
+#### 4.6.2. Security
 
 Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
 
@@ -1314,7 +1331,7 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 - We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
 
-#### 4.4.3. Decentralization
+#### 4.6.3. Decentralization
 
 Decentralization is level of distributed and public participation from users reinforcing the rules of the network. Traditionally, measured by the number of independent node operators on a
 blockchain. A node operator is an individual or entity that runs software verifying the blocks and transactions finalized on the network. 
@@ -1349,15 +1366,15 @@ blockchain. A node operator is an individual or entity that runs software verify
 </div>
 
 
-#### 4.4.4. Transparency
+#### 4.6.4. Transparency
 
 Differently to current fiat bascked stablecoins, a CryptoCommodity should have a strong compromisse with transparency and provide reporting to users out of the box.
 
-#### 4.4.5. Privacy
+#### 4.6.5. Privacy
 
 
 
-#### 4.4.5. Compliance
+#### 4.6.5. Compliance
 
 Different jurisdictions have different compliance requirements. A CryptoCommodity should be to allow the issuer customizing the level of regional compliance.
 
