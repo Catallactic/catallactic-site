@@ -754,8 +754,8 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>N/Y</td>
 			<td>own</td>
 			<td>own</td>
-			<td>own</td>
-			<td>own</td>
+			<td>tree</td>
+			<td>tree</td>
 			<td>-</td>
 		</tr>
 		<tr>
@@ -765,8 +765,8 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>Y</td>
 			<td>own</td>
 			<td>own</td>
-			<td>own</td>
-			<td>own</td>
+			<td>tree</td>
+			<td>tree</td>
 			<td>-</td>
 		</tr>
 		<tr>
@@ -776,8 +776,8 @@ The table below compares the different scalibility patterns, showing their featu
 			<td>Y</td>
 			<td>own</td>
 			<td>own</td>
-			<td>own</td>
-			<td>own</td>
+			<td>tree</td>
+			<td>tree</td>
 			<td>-</td>
 		</tr>
 		<tr>
