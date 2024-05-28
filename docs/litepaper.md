@@ -710,7 +710,7 @@ A rollup is a layer two (L2) blockchain that processes transactions away from th
 
 The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for real-world applications and executes specific functions.
 
-The table below compares the different scalibility patterns, showing their features and where status and TX are persisted for each case. All paterns intend to aliviate burden from their parent chain by performing their own computation of transactions, so all paterns integrate an execution environment. Plasma is the only one with not smart contracts on itself. All L1 provide their own consensus layer but L2 rely on mainchain consensus. They can commit the data to the maintchain or to an external DA layer.
+The table below compares the different scalibility patterns, showing their features and where State and TX are persisted for each case. All patterns integrate an execution environment to alleviate the burden of transaction execution from their parent chain by performing their own computation. Plasma is the only one with not ability to run smart contracts. All L1 provide their own consensus layer but L2 rely on mainchain consensus. They can commit the data to the maintchain or to an external DA layer.
 
 <div style={{overflowX : 'auto'}}>
 	<table style={{textAlign: 'center'}}>
