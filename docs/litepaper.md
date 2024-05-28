@@ -710,6 +710,186 @@ A rollup is a layer two (L2) blockchain that processes transactions away from th
 
 The Layer 3 sits on top of Layer 2 and is mainly dedicated to hosts dApps for real-world applications and executes specific functions.
 
+The table below compares the different scalibility patterns, showing their features and where status and TX are persisted for each case:
+
+<div style={{overflowX : 'auto'}}>
+	<table style={{textAlign: 'center'}}>
+		<tr>
+			<th></th>
+			<th colSpan="4">Pattern Features</th>
+			<th colSpan="4">Commits Merkel To</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th>Year</th>
+			<th>Computation</th>
+			<th>SC</th>
+			<th>Consensus</th>
+			<th>To</th>
+			<th>TX</th>
+			<th>State</th>
+			<th>Proofs</th>
+		</tr>
+		<tr>
+			<td colSpan="9">L0</td>
+		</tr>
+		<tr>
+			<th>Interop</th>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td colSpan="9">L1</td>
+		</tr>
+		<tr>
+			<th>Mainchain</th>
+			<td>2009</td>
+			<td>own</td>
+			<td>N/Y</td>
+			<td>own</td>
+			<td>own</td>
+			<td>own</td>
+			<td>own</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<th>Fork</th>
+			<td>2011</td>
+			<td>own</td>
+			<td>Y</td>
+			<td>own</td>
+			<td>own</td>
+			<td>own</td>
+			<td>own</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<th>Sidechain</th>
+			<td>2011</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>own</td>
+			<td>own</td>
+			<td>own</td>
+			<td>own</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<th>Commitchain</th>
+			<td>2017</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>own</td>
+			<td>mainchain</td>
+			<td>-</td>
+			<td>tree</td>
+			<td>fraud</td>
+		</tr>
+		<tr>
+			<td colSpan="9">L2</td>
+		</tr>
+		<tr>
+			<th>Channel</th>
+			<td>2016</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>mainchain</td>
+			<td>mainchain</td>
+			<td>tree</td>
+			<td>tree</td>
+			<td>fraud</td>
+		</tr>
+		<tr>
+			<th>Plasma</th>
+			<td>2017</td>
+			<td>externalized</td>
+			<td>N</td>
+			<td>mainchain</td>
+			<td>mainchain</td>
+			<td>root</td>
+			<td>-</td>
+			<td>fraud</td>
+		</tr>
+		<tr>
+			<th>Op Rollup</th>
+			<td>2014</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>mainchain</td>
+			<td>mainchain</td>
+			<td>tree</td>
+			<td>root</td>
+			<td>fraud</td>
+		</tr>
+		<tr>
+			<th>Optimium</th>
+			<td>2020</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>mainchain</td>
+			<td>custom</td>
+			<td>tree</td>
+			<td>root</td>
+			<td>fraud</td>
+		</tr>
+		<tr>
+			<th>zk Rollup</th>
+			<td>2018</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>mainchain</td>
+			<td>mainchain</td>
+			<td>tree</td>
+			<td>root</td>
+			<td>validity</td>
+		</tr>
+		<tr>
+			<th>Validium</th>
+			<td>2020</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>mainchain</td>
+			<td>custom</td>
+			<td>tree</td>
+			<td>root</td>
+			<td>validity</td>
+		</tr>
+		<tr>
+			<th>Volition</th>
+			<td>2023</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>mainchain</td>
+			<td>both</td>
+			<td>tree</td>
+			<td>root</td>
+			<td>validity</td>
+		</tr>
+		<tr>
+			<td colSpan="9">L3</td>
+		</tr>
+		<tr>
+			<th>Rollup</th>
+			<td>2024</td>
+			<td>externalized</td>
+			<td>Y</td>
+			<td>L2</td>
+			<td>L2</td>
+			<td>tree</td>
+			<td>root</td>
+			<td>both</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+
 
 ### 3.4. Ethereum Ecosystem
 
