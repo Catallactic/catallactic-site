@@ -950,7 +950,9 @@ Ethereum is the official network of the fiat system. In fact, its decentralizati
 		</tr>
 		<tr>
 			<td colSpan="2">Plasma</td>
-			<td>-</td>
+			<td><a href="https://polygon.technology/" target="_blank">Polygon Plasma</a>,
+				<a href="https://omg.network/" target="_blank">OMG Network</a>,
+				<a href="https://loomx.io/" target="_blank">Loom Network</a></td>
 		</tr>
 		<tr>
 			<td rowSpan="5">Rollups</td>
