@@ -38,7 +38,7 @@ As economist are not well versed in technological innovations, we think is neede
 
 #### 1.1.1. Blocks
 
-A DLT is a database structure which organizes the information as chain of linked blocks. Each block contains a set of transactions and other essential details. When new transactions are being received into the blockchain, new blocks are being added to record the details of the transactions and state. 
+A DLT is a database structure which organizes the information as chain of linked blocks. Each block contains a set of transactions and other essential details. When new transactions are received into the DLT, they are grouped, verified, and added to the chain as blockcs in chronological order. These blocks record the details of the transactions and state.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.nist.gov/sites/default/files/images/2019/09/25/blockchain.png" width="80%"></img>
@@ -47,7 +47,7 @@ A DLT is a database structure which organizes the information as chain of linked
 
 #### 1.1.2. Nodes
 
-The whole structure is packaged into a node. Blockchain nodes are computers that perform the network operations, storing, validating, and relaying transactions and blocks. Each node holds a copy of the entire ledger.
+Blocks containing transactions are linked to each other. In a blockchain, blocks are linearly connected and cryptographically secured. DAG is a different approach to structuring and validating transactions. In a DAG, each transaction is linked to multiple previous transactions, creating a mesh-like structure instead of a linear chain. In a BlockDAG, transactions are still organized in blocks, similar to a traditional blockchain. However, instead of forming a linear chain, blocks are linked to each other in a directed acyclic graph structure, allowing for parallel processing of transactions.
 
 <div style={{overflowX : 'auto'}}>
 	<table style={{textAlign: 'center'}}>
@@ -65,7 +65,55 @@ The whole structure is packaged into a node. Blockchain nodes are computers that
 </div>
 <br/>
 
+For blockchain, the process of adding new blocks to the chain involves a consensus mechanism. Participants in the network (miners or validators) compete to validate transactions and create new blocks. This ensures a robust and trustless system where no single entity has complete control over the network.
 
+DAG-based projects have the ability to handle a large number of transactions per second with minimal fees and high scalability. However, they face challenges related to security and robustness, which arise from the absence of a global consensus mechanism.
+
+Finally, BlockDAG combines aspects of both technologies, offering scalability and transaction speed while maintaining the security of traditional blockchains.
+
+<div style={{overflowX : 'auto'}}>
+	<table style={{textAlign: 'center'}}>
+		<tr>
+			<th></th>
+			<th>Blockchain</th>
+			<th>DAG</th>
+			<th>blockDAG</th>
+		</tr>
+		<tr>
+			<th>Structure</th>
+			<td>Linear</td>
+			<td>Mesh-like</td>
+			<td>Mesh-like</td>
+		</tr>
+		<tr>
+			<th>Consensus</th>
+			<td>Yes</td>
+			<td>No</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th>Security</th>
+			<td>High</td>
+			<td>Low</td>
+			<td>Intermediate</td>
+		</tr>
+		<tr>
+			<th>Fees</th>
+			<td>High</td>
+			<td>Low</td>
+			<td>Intermediate</td>
+		</tr>
+		<tr>
+			<th>TpS</th>
+			<td>Low</td>
+			<td>High</td>
+			<td>Intermediate</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+Whichever the selected structure, it is packaged in a node. We will discuss, hereinafter, blockchain structures. 
 
 #### 1.1.3. DLT Network
 
@@ -1262,6 +1310,8 @@ So, the ideal networks to run CryptoCommodity would be, from more suitable to le
 * any EVM compatible network with enought security, performance and low fees, including Ethereum Rollups.
 
 #### 4.2.2. Multichain Tokens
+
+To prevent liquidity islands
 
 A CryptoCommodity can be created by a commodity provider. The commodity provider will choose the blockchain of preference as host network.
 
