@@ -129,7 +129,7 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 ### 1.2. Monolitic L1 Blockchain
 
-### 1.2.1. Transaction Processing
+#### 1.2.1. Transaction Processing
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/transaction_processing.svg" width="100%"></img>
