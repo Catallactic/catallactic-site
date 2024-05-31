@@ -14,7 +14,7 @@ image: https://i.imgur.com/mErPwqL.png
 ## Abstract
 ---
 
-During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never persisted because limitations in scope of application and government prohibition. The advent of electronic money brings, for the first time ever, the opportunity for fully decentralized and cross regional, privately issued representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset aimed for private issuance.
+During centuries representative money has been the preferred medium of exchange for different civilizations. Competitive private currencies have been the preferred choice for citizens when government money did not deliver its promises. Unfortunately, privately issued currencies never survived because limitations in scope of application and government prohibition. The advent of electronic money brings, for the first time ever, the opportunity for fully decentralized and cross regional, privately issued representative electronic money. This litepaper outlines a novel kind of token, CryptoCommodity. CryptoCommodity tokens are representative money in electronic form that represent the intrinsic value of an underlying asset aimed for private issuance.
 
 Whereas the project leverages Bitcoin security, differently to Bitcoin vision of a monopolistic currency, it encourages multiple token creation for a currreny competition and provides a real world backing to the tokens. We build the monetary configuration, extensively documented in the economic literature, on top of the existing blockchain tools. We understand that the direction of the current technology is mislead from the best economic practices, diverts from the foundational principles of the blockchain technology and does not leverage its full potential of cryptocurrencies.
 
@@ -139,7 +139,7 @@ The architecture of a blockchain network relies heavily on the collaborative eff
 
 #### 1.2.2. Consensus Mechanism
 
-Consensus plays a crucial role in blockchain networks. The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
+The main objective of a consensus mechanism is to create a single version of truth. The consensus layer is responsible for all the nodes to agree on the blockchain state. It ensures that all transactions are valid and agrees on the order in which transactions are processed.
 
 #### 1.2.3. Execution Environment
 
@@ -265,7 +265,7 @@ Real world asset tokenization is considered one of the coolest next big things i
 </div>
 <br/>
 
-The reality is that real world assets is a misnomer. Instead of capturing the value, real world assets capture the fiat price formed in international markets and set into the token with manual interventions. This is a source for different centralization, as we will discuss later.
+The reality is that real world assets is a misnomer. Instead of capturing the value, real world assets capture the fiat price formed in international markets and set into the token with manual interventions. This configuration is a source for different levels of centralization, as we will discuss later.
 
 ### 1.5. CryptoCurrencies
 
@@ -508,6 +508,9 @@ Blockchains are provably immutable and enable the rapid transfer and exchange of
 Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
 
 Scope
+
+
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1264,6 +1267,7 @@ All the Bitcoin L1 native assets are somehow limited in their ability to perform
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
+
 ## 4. CryptoCommodity Ecosystem
 ---
 
@@ -1311,7 +1315,7 @@ So, the ideal networks to run CryptoCommodity would be, from more suitable to le
 
 #### 4.2.2. Multichain Tokens
 
-To prevent liquidity islands
+To address liquidity fragmentation
 
 A CryptoCommodity can be created by a commodity provider. The commodity provider will choose the blockchain of preference as host network.
 
@@ -1431,32 +1435,124 @@ Differently to current fiat bascked stablecoins, a CryptoCommodity should have a
 Different jurisdictions have different compliance requirements. A CryptoCommodity should be to allow the issuer customizing the level of regional compliance.
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 5. CryptoCommodity in Real World
+---
+
+In the real world, outside of the computer bits, companies are living beings. They grow, they merge, they split, they shrink and, sometimes, they collapse (or they should). Technology should encompass possible scenarios and not imposing restricions to real world operations. CryptoCommodity, as a mirror of the real world created value, should also be able to support changes in underlying demand for the issuer. This section describes how CryptoCommodity can mimic the dynamic changes.
+
+### 5.1. Fundamentals
+
+The foundation for CryptoCommodity operationns relies on updating the CryptoCommodity state in a consistent way. The basic state for a CryptoCommodity is described by a map of key accounts and value amounts. They describe the number of tokens that every wallet of a CryptoCommodity holder has allocated. If we are able to update this state, is possible to perfom operations.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/balances_map.svg" width="70%"></img>
+</div>
+<br/>
+
+using a diamond standard allows state operations
+
+### 5.2. CryptoCommodity Operations
+
+Changes in the demand of a CryptoCommodity could be originated in different: extended utilities, reduced scope, geographical expansion, quality improvements, resources constraints. 
+
+
+
+
+#### 5.2.1. Backup / Restore CryptoCommodity
+
+ERC-20R
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/balances_restore.svg" width="70%"></img>
+</div>
+<br/>
+
+
+
+#### 5.2.2. Clone CryptoCommodity
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/balances_clone.svg" width="70%"></img>
+</div>
+<br/>
+
+
+#### 5.2.3 Merging CryptoCommodities
+
+A convenient use s 
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/balances_merge.svg" width="70%"></img>
+</div>
+<br/>
+
+
+#### 5.2.4. Splittting CryptoCommodities
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/balances_split.svg" width="70%"></img>
+</div>
+<br/>
+
+#### 5.2.5. Considerations
+
+no loose of purchasing power for hodlers
+
+Any CC operations must be approved by the holders
+
+protected by DAO
+
+Reporting and notification in advance
+
+Exceptional
+
+### 5.3. CryptoCommodity Types
+
+
+#### 5.3.1. Commodity backed CryptoCommodity
+
+
+#### 5.3.2. Service backed CryptoCommodity
+
+
+#### 5.3.3. Conglomerate backed CryptoCommodity
+
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 5. The CryptoCommodity Issuer
+## 6. The CryptoCommodity Issuer
 ---
 
 In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
 
 Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement. The scope of use cases is being developed.
 
-### 5.1. Commodity Providers
+### 6.1. Estimating Supply
+
+population in area x supply per capita
+
+### 6.2. Commodity Providers
 
 The more intuitive model of Representative money is this based on commodities as commodities have been extensively used as a medium of exchange in civilization. Different commodities would allow creating different projects. Some are included below.
 
-#### 5.5.1. Mining Companies
+#### 6.2.1. Mining Companies
 
 Mining companies extend to many areas, including precious metals, coal, gold, silver. The problem is that they do B2B business and crypto corporate payments are not yet a mature industry.
 
-#### 5.5.2. Energy Providers
+#### 6.2.2. Energy Providers
 
 Wholesale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
 
 Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project for the Catallactic Framework. Access <a href="https://gasclick.net/litepaper_en.html">litepaper</a>.
 
-#### 5.5.3. Water Supply and Sewerage
+#### 6.2.3. Water Supply and Sewerage
 
 The map shows the countries were tap water is not drinkable. They are perfect opportunity to issue a CryptoCommodity, fix the supply with the support of investors and contribute Water-backed Representative Money to their ecosystem.
 
@@ -1465,34 +1561,34 @@ The map shows the countries were tap water is not drinkable. They are perfect op
 </div>
 <br/>
 
-#### 5.5.4. Agro Providers
+#### 6.2.4. Agro Providers
 
 The squeeze of the real economy by fiat currency debasement reduces the funding available for real world. In particular, farmers are revolting in many countries. CryptoCommodity would give farmers the possibility to issue their currencies backed on their own produce.
 
 On the other hand, many agro projects never see the light because they cannot raise funding. CryptoCommodity gives the opportunity to agro producers to propose their projects in their community and gets funds for execution.
 
-### 5.2. Service Providers
+### 6.3. Service Providers
 
 By narrowing down an utility to back the representative token, nothing prevents that this utility is a service. Some service providers could be eligible to issue their representative currencies. there is a pending discussion if service backed representative tokens could distort natural price formaation.
 
-#### 5.2.1. Travel Companies
+#### 6.3.1. Travel Companies
 
 A travel provider could back its currency in tickets or issue an ICO to fund a new travel service.
 
-### 5.3. Conglomerate Providers
+### 6.4. Conglomerate Providers
 
-#### 5.3.1. Supermarket / Shopping Mall
+#### 6.4.1. Supermarket / Shopping Mall
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 6. Conclusions
+## 7. Conclusions
 ---
 
 
 
 
-## 7. References
+## 8. References
 ---
 
 
