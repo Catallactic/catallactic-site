@@ -1480,36 +1480,42 @@ ERC-20R
 </div>
 <br/>
 
+#### 5.2.3. Splittting CryptoCommodities
 
-#### 5.2.3 Merging CryptoCommodities
-
-A convenient use s 
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/balances_merge.svg" width="70%"></img>
-</div>
-<br/>
-
-
-#### 5.2.4. Splittting CryptoCommodities
-
+Splitting a CryptoCommodity is possible simple operation since there are not price implications. Splitting a CryptoCommodity produces 2 CryptoCommodities sith scaled features to the original one. Typically, the same holders will remain in both children CryptoCommodity. Every holder will be asigned a fractional amount. From the time of the split, every resulting CryptoCommodity will experiment a different price evolution in exchanges.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/balances_split.svg" width="70%"></img>
 </div>
 <br/>
 
+This configuration is typical from spin off from the main issuer or by division of the company in different units.
+
+#### 5.2.4. Merging CryptoCommodities
+
+Merging CryptoCommodities is the more complicated operation. Merge operations are a convenient tool to acommodate increases in the demand caused by an increase in the scope or by additional utilities attached to the CryptoCommodity. Merge operations produce a new CryptoCommodity with a balance equivalent in purchasing power to the original balances of previous holders. Holders must maintain their purchasing power respect to the monetary standard of choice. This operaction requires consideration about prices of the CryptoCommodities at the time of merge.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/balances_merge.svg" width="70%"></img>
+</div>
+<br/>
+
+A typical application for this pattern is an incremental launch of projects in phases allowing the issuer incremental fundraising stages, e.g. merging the CryptoCommodities of 2 countries in a global CryptoCommodity.
+
+Another real world use case is merges or acquisitions between 2 CryptoCommodity backed companies.
+
+
+
 #### 5.2.5. Considerations
 
-no loose of purchasing power for hodlers
+CryptoCommodity Operations are a very exceptional resources that only should be used in exceptional occasions. Furthermore, 
 
-Any CC operations must be approved by the holders
+* no loose of purchasing power for hodlers
 
-protected by DAO
+* Any CC operations must be approved by the holders. protected by DAO
 
-Reporting and notification in advance
+* Reporting and notification in advance
 
-Exceptional
 
 ### 5.3. CryptoCommodity Types
 
