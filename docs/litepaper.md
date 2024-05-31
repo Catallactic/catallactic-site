@@ -1442,7 +1442,7 @@ Different jurisdictions have different compliance requirements. A CryptoCommodit
 ## 5. CryptoCommodity in Real World
 ---
 
-In the real world, outside of the computer bits, companies are living beings. They grow, they merge, they split, they shrink and, sometimes, they collapse (or they should). Technology should encompass possible scenarios and not imposing restricions to real world operations. CryptoCommodity, as a mirror of the real world created value, should also be able to support changes in underlying demand for the issuer. This section describes how CryptoCommodity can mimic the dynamic changes.
+In the real world, outside of the computer bits, companies are living beings. They grow, they merge, they split, they shrink and, sometimes, they collapse (or they should). Technology should encompass possible scenarios and not imposing restricions to real world operations. CryptoCommodity, as a mirror of the real world created value, should also be able to support changes in underlying demand for the issuer. This section describes how CryptoCommodity configuration can be adapted to dynamic changes in the issuer.
 
 ### 5.1. Fundamentals
 
