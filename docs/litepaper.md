@@ -1622,7 +1622,7 @@ When an issuer creates a CryptoCommodity, he will be introducing a new amount of
 		<tr>
 			<td>Compare to existing Supply</td>
 			<td>Y</td>
-			<td>population in area x supply per capita</td>
+			<td>Thsi can be estimated as population in area x <a href="https://www.catallactic.org/docs/tokenization/tokenomics/supplycurrent" target="_blank">supply per capita</a></td>
 		</tr>
 		<tr>
 			<td>**TOTAL**</td>
