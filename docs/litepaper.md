@@ -1570,6 +1570,57 @@ CryptoCommodity Operations are enabled by the architecture of the CryptoCommodit
 
 
 
+<span style={{color:'blue'}}>
+### 5.3. Benefits for Producers
+</span>
+
+In order to introduce the project into the community, there must be incentives for all parties to adopt the CryptoCommodities. Producers that fullfill the required conditions to adopt CryptoCommodity have great economic benefits:
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th>Benefit</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Project Allocation</td>
+			<td>When the token allocation is designed, a CryptoCommodity allows the issuer to allocate a portion of the token supply to fund the project beyond the initial capital raise. Refer to section for details.</td>
+		</tr>
+		<tr>
+			<td>Initial Fundraising</td>
+			<td>An initial fundraising can be launched by the producer in order to improve the services that will be offered to the community. The amount that can be raised must be estimated and is proportional to the project capitalization. Refer to section for details on this.</td>
+		</tr>
+		<tr>
+			<td>Transaction Fees</td>
+			<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a percentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
+		</tr>
+		<tr>
+			<td>Lending Fees</td>
+			<td>As the CryptoCommodity is involved as collaterla for Lending, a fee can also be applied for the lending process.</td>
+		</tr>
+		<tr>
+			<td>Transfer Fees</td>
+			<td>As the CryptoCommodity is involved as collaterla for Transfers, a fee can also be applied for the lending transfers.</td>
+		</tr>
+		<tr>
+			<td>DeFi Services Allocation</td>
+			<td>In order to have an stablization mechanism, exchanges needs to maintain a number of tokens that match the phisical demand of the provider. This guarantees that the CryptoCommodity will capture the marginal utility of the underlaying asset. However, nothing prevents that, in the Value Release Stage, the supply can be extended beyond this initial supply. Every token that is added from the intiial capitalization represents a sale for the issuer.</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manner. You can learn about benefits for consumers and the society as a whole on chapter 16.
+
+<span style={{color:'blue'}}>
+### 5.4. Incremental adoption
+</span>
+
+The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be proportional to the volume of transactions that the providers experience with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
+
+This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 <span style={{color:'blue'}}>
