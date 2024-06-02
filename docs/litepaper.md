@@ -1507,16 +1507,16 @@ Changes in the demand of a CryptoCommodity could be originated in different: ext
 
 #### 5.2.1. Backup / Restore CryptoCommodity
 
-ERC-20R
+One of the highest risk when issuing in token is the risk of being hacked. CryptoCommodity architecture, based on diamnond standard, which decouples logic from storage, enables managemente of the currency state. This setup embodies an implementation of ERC-20R standard which claims for reversible transactions to protect the CryptoCommodity health. There is room for investigation in this space. Not needed to say that this functionality should be allowed by holders and and maybe secured by DAO.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/balances_restore.svg" width="70%"></img>
 </div>
 <br/>
 
-
-
 #### 5.2.2. Clone CryptoCommodity
+
+Cloning a CryptoCommodity is as easy as cloning its state. CryptoCommodity architecture, based on diamnond standard, allows cloning the state of a CryptoCommodity if a business case arises. Of course, the cloned CryptoCommodity would not have any counterparty in the exchanges and its price will be zero at the moment of cloning.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/balances_clone.svg" width="70%"></img>
@@ -1547,18 +1547,12 @@ A typical application for this pattern is an incremental launch of projects in p
 
 Another real world use case is merges or acquisitions between 2 CryptoCommodity backed companies.
 
-
-
 #### 5.2.5. Considerations
 
-CryptoCommodity Operations are a very exceptional resources that only should be used in exceptional occasions. Furthermore, 
+CryptoCommodity Operations are enabled by the architecture of the CryptoCommodity framework, which decouples logic from storage. This capability can enhance business cases. Howver, it should be used in exceptional occasions. Furthermore, no loose of purchasing power for holders should be a requirement in any of these operations, holders must be notified in advance with option to withdraw their positions, and any CryptoCommodity must be approved by holders and, maybe protected by DAO.
 
-* no loose of purchasing power for hodlers
 
-* Any CC operations must be approved by the holders. protected by DAO
-
-* Reporting and notification in advance
-
+<!--
 <span style={{color:'blue'}}>
 ### 5.3. CryptoCommodity Types
 </span>
@@ -1571,6 +1565,8 @@ CryptoCommodity Operations are a very exceptional resources that only should be 
 
 
 #### 5.3.3. Conglomerate backed CryptoCommodity
+
+-->
 
 
 
@@ -1620,7 +1616,7 @@ When an issuer creates a CryptoCommodity, he will be introducing a new amount of
 			<td>Assume supply in the exchanges is a fraction of total supply, e.g. 20% </td>
 		</tr>
 		<tr>
-			<td>Compare to existing Supply</td>
+			<td>compare to existing supply</td>
 			<td>Y</td>
 			<td>Thsi can be estimated as population in area x <a href="https://www.catallactic.org/docs/tokenization/tokenomics/supplycurrent" target="_blank">supply per capita</a></td>
 		</tr>
@@ -1741,4 +1737,5 @@ A travel provider could back its currency in tickets or issue an ICO to fund a n
 </span>
 ---
 
+[1] Denationalisation of Money: The Argument Refined 10/15/1990 • Friedrich A. Hayek https://mises.org/library/book/denationalisation-money-argument-refined
 
