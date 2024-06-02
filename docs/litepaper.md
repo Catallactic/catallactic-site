@@ -356,9 +356,7 @@ Coins unable to become currencies
 ### 2.1. A New Medium of Exchange
 </span>
 
-CryptoCommodity proposes a new medium of exchange based on Representative Money.
-
-Hayek said money with stable value would be preferred by users.
+CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aim to deliver the missing piece in current cryptocurrency offer: a stable noon-fiat cryptocurrency. Hayek said money with stable value would be preferred by users [1]. 
 
 Real utility to empower real economy.
 
@@ -471,6 +469,7 @@ Configurable by issuer. Benchmarks are required.
 | Representative Money            | Fixed to Bound Asset | 100%          |
 | Semi Representative Money       | Fixed to Bound Asset | Configurable  |
 | Fiat Money                      | Debasement           | None          |
+<br/>
 
 <span style={{color:'blue'}}>
 ### 2.4. Comparing with existing crypto currencies
@@ -1781,7 +1780,9 @@ A travel provider could back its currency in tickets or issue an ICO to fund a n
 </span>
 ---
 
+CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aims to deliver the missing piece in current cryptocurrency offer: a stable noon-fiat cryptocurrency. Hayek said money with stable value would be preferred by users [1]. 
 
+Real utility to empower real economy.
 
 <span style={{color:'blue'}}>
 ## **8. References**
