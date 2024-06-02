@@ -334,16 +334,24 @@ Coins unable to become currencies
 ### 1.6. Crypto Adoption
 </span>
 
-* Driven to fiat by VCs
+Crypto adoption has not been as good as initially expected. Several reasons can be found to explain this fact and remain as challenges.
 
-* Many scams, lack of transparency
+First, Crypto Industry was launched by an anonymous contributor. This anonymous contributor had a very high ideal, creating a decentralized medium of exchange. This was stated in the genesis bitcoin block. Unfortunately, as medium of exchange it failed to deliver and, instead, adopted the role of store of value.
 
-* No real world utilities
+<div style={{textAlign: 'center'}}>
+	<img src="https://static.news.bitcoin.com/wp-content/uploads/2023/01/enwpu4qwkaa5gww.jpg" width="50%"></img>
+</div>
+<br/>
 
-* No good medium of exchange
+Crypto and blockchain industries have been driven to fiat by VCs and decentralization, not just in value but also in processes and governance, is currently compromised. This deviation from initial intends keeps crypto adopters away from crypto industry. 
 
-* Legal and regulatory constraints
+Secondly, the onboarding experience for new people using blockchain applications is terrible. First, you must download a browser extension to create a digital wallet. Then, you must write down random words to keep your wallet safe. You need to sign up in an exchange to buy some crypto for gas. The exchange wants you to complete KYC verification. You need to transfer money and pay fees. You need to be highly motivated to complete the onboarding experience. 
 
+Additionally, the day to day experience is not better. Continous scams and lack of transparency have been moved crypto to have a bad reputation between the mainstream. Next, legal and regulatory uncertainty. Any adopter, company, investor, or user, needs to be aware of regulations in place regarding custody, profits, money laundering or payemnts.
+
+As currency, none of the existing cryptocurrencies delivers real world utilities. Instead the utilities remained at digital scope. They do not represent a good medium of exchange as none of them is decentralized and stable enought.
+
+So, blockchains Layer 1 left plenty of open challenges for next evolutions of the technology.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1506,7 +1514,7 @@ Changes in the demand of a CryptoCommodity could be originated in different: ext
 
 #### 5.2.1. Backup / Restore CryptoCommodity
 
-One of the highest risk when issuing in token is the risk of being hacked. CryptoCommodity architecture, based on diamnond standard, which decouples logic from storage, enables managemente of the currency state. This setup embodies an implementation of ERC-20R standard which claims for reversible transactions to protect the CryptoCommodity health. There is room for investigation in this space. Not needed to say that this functionality should be allowed by holders and and maybe secured by DAO.
+One of the highest risk when issuing in token is the risk of being hacked. CryptoCommodity architecture, based on diamond standard, which decouples logic from storage, enables management of the currency state. This setup embodies an implementation of <a href="https://arxiv.org/abs/2208.00543" target="_blank">ERC-20R specification</a> which claims for reversible transactions to protect the CryptoCommodity health. There is room for investigation in this space. Needless to say that this functionality should be allowed by holders and maybe secured by DAO.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/balances_restore.svg" width="70%"></img>
@@ -1612,32 +1620,12 @@ In order to introduce the project into the community, there must be incentives f
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manner. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
 <span style={{color:'blue'}}>
-### 5.4. Incremental adoption
-</span>
-
-The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be proportional to the volume of transactions that the providers experience with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
-
-This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-<span style={{color:'blue'}}>
-## **6. The CryptoCommodity Issuer**
-</span>
----
-
-In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
-
-Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement. The scope of use cases is being developed.
-
-<span style={{color:'blue'}}>
-### 6.1. Metrics Estimation
+### 5.4. Metrics Estimation
 </span>
 
 When creating CryptoCommodities size matters. By analyzing the numbers we can determine the impact that the new currency will have on the deployed scope, the allowed amount of fundraising to execute real world project, the number of holders, the vesting periods.
 
-#### 6.1.1. Impact in Real World Ecosystem
+#### 5.4.1. Impact in Real World Ecosystem
 
 When an issuer creates a CryptoCommodity, he will be introducing a new amount of liquidity to the scope of deployment. In order to understand the impact of this new currency, we need to consider the capitalization. Estimating the impact is always a relative analysis: the higher the existing monetary base of other currencies in the deployed area, the lower the impact of a new currency.
 
@@ -1679,7 +1667,7 @@ When an issuer creates a CryptoCommodity, he will be introducing a new amount of
 </div>
 <br/>
 
-#### 6.1.2. Fundraising Availability
+#### 5.4.2. Fundraising Availability
 
 Another useful metric to estimate the convenience of introducing a new currency is the ability to raise capital for a real world project. As a rule of thumb we can do the collowing calculation:
 
@@ -1727,22 +1715,42 @@ Another useful metric to estimate the convenience of introducing a new currency 
 As a rule of thumb, we can estimate that the issuer would have a 10% of demand available for investing in the project and cause a real world impact.
 
 <span style={{color:'blue'}}>
-### 6.2. Commodity Providers
+### 5.5. Incremental Adoption
+</span>
+
+The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be proportional to the volume of transactions that the providers experience with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
+
+This incremental feature will ease execution of pilot projects and, in general, a gradual introduction of the model.
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+<span style={{color:'blue'}}>
+## **6. The CryptoCommodity Issuer**
+</span>
+---
+
+In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
+
+Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement. The scope of use cases is being developed.
+
+<span style={{color:'blue'}}>
+### 6.1. Commodity Providers
 </span>
 
 The more intuitive model of Representative money is this based on commodities as commodities have been extensively used as a medium of exchange in civilization. Different commodities would allow creating different projects. Some are included below.
 
-#### 6.2.1. Mining Companies
+#### 6.1.1. Mining Companies
 
 Mining companies extend to many areas, including precious metals, coal, gold, silver. The problem is that they do B2B business and crypto corporate payments are not yet a mature industry.
 
-#### 6.2.2. Energy Providers
+#### 6.1.2. Energy Providers
 
 Wholesale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
 
 Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project for the Catallactic Framework. Access <a href="https://gasclick.net/litepaper_en.html">litepaper</a>.
 
-#### 6.2.3. Water Supply and Sewerage
+#### 6.1.3. Water Supply and Sewerage
 
 The map shows the countries were tap water is not drinkable. They are perfect opportunity to issue a CryptoCommodity, fix the supply with the support of investors and contribute Water-backed Representative Money to their ecosystem.
 
@@ -1751,7 +1759,7 @@ The map shows the countries were tap water is not drinkable. They are perfect op
 </div>
 <br/>
 
-#### 6.2.4. Agro Providers
+#### 6.1.4. Agro Providers
 
 The squeeze of the real economy by fiat currency debasement reduces the funding available for real world. In particular, farmers are revolting in many countries. CryptoCommodity would give farmers the possibility to issue their currencies backed on their own produce.
 
@@ -1763,7 +1771,7 @@ On the other hand, many agro projects never see the light because they cannot ra
 
 By narrowing down an utility to back the representative token, nothing prevents that this utility is a service. Some service providers could be eligible to issue their representative currencies. there is a pending discussion if service backed representative tokens could distort natural price formaation.
 
-#### 6.3.1. Travel Companies
+#### 6.2.1. Travel Companies
 
 A travel provider could back its currency in tickets or issue an ICO to fund a new travel service.
 
@@ -1771,7 +1779,7 @@ A travel provider could back its currency in tickets or issue an ICO to fund a n
 ### 6.4. Conglomerate Providers
 </span>
 
-#### 6.4.1. Supermarket / Shopping Mall
+#### 6.3.1. Supermarket / Shopping Mall
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
