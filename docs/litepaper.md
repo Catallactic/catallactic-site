@@ -331,7 +331,7 @@ as <b>Unit of Account</b>
 Coins unable to become currencies
 
 <span style={{color:'blue'}}>
-### 1.6. Crypto Adoption
+### 1.6. CryptoCurrencies Adoption
 </span>
 
 Crypto adoption has not been as good as initially expected. Several reasons can be found to explain this fact and remain as challenges.
