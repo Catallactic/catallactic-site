@@ -1341,26 +1341,27 @@ Is possible in the future to migrate to another languages, e.g. WASM-based envir
 
 At the moment, CryptoCommodity needs a EVM decentralized execution environment to run. Initially, EVM execution environments were restricted to the Ethereum Ecosystem. The mainstream acceptation of EVM brought the execution environment to other ecosystems, so a plethora of EVM compatible networks have arisen in the last few years. CryptoCommodity can be deployed in any network supporting a EVM execution environment.
 
-Bitcoin security, backed by 60.000 servers and a 1 million miners, has outperformed any other network security mechanism. However, Bitcoin mainchain was created as a peer-to-peer electronic cash system without ability to run custom logic. Since 2023, Bitcoin L2, in particular rollups, have proposed to externalize the computation from the Bitcoin mainchain enabling execution of code for differen virtual machines. At the moment, some pioneer Optimistic rollups are been created supporting EVM and, different strategies are been investigated to enable zk-rollups on Bitcoin.
+Bitcoin security, backed by 60.000 servers and a 1 million miners, has outperformed any other network security mechanism. However, Bitcoin mainchain was created as a peer-to-peer electronic cash system without ability to run custom logic. Since 2023, Bitcoin L2, in particular rollups, are proposing to externalize the computation from the Bitcoin mainchain enabling execution of code for differen virtual machines. At the moment, some pioneer Optimistic rollups are been created supporting EVM and, different strategies are been investigated to enable zk-rollups on Bitcoin.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/infra_rollup.svg" width="80%"></img>
 </div>
 <br/>
 
-So, the ideal networks to run CryptoCommodity would be, from more suitable to less: 
+So, the ideal networks to host CryptoCommodity would be, from more suitable to less: 
+* zkEVM Bitcoin rollups, 
+* Optimistic EVM Bitcoin rollups,
+* EVM-capable Bitcoin Sidechains,
+
+#### 4.2.2. Multichain Tokens
+
+A CryptoCommodity can be issued by a commodity provider. The commodity provider will choose the blockchain of preference as host network. Different blockchains provide different features so there is not a one size fits all choice. To best accommodate business requirements, the issuer should be able to transfer liquidity across chains. At the moment, there is not standard of crosschain interoperability that delivers this functionality out of the box. Recent advances in cross messaging frameworks or interchain token services enable this feature.
+
+So, the ideal networks to trade CryptoCommodity would be, from more suitable to less: 
 * zkEVM Bitcoin rollups, 
 * Optimistic EVM Bitcoin rollups,
 * EVM-capable Bitcoin Sidechains,
 * any EVM compatible network with enought security, performance and low fees, including Ethereum Rollups.
-
-#### 4.2.2. Multichain Tokens
-
-To address liquidity fragmentation
-
-A CryptoCommodity can be created by a commodity provider. The commodity provider will choose the blockchain of preference as host network.
-
-Different blockchains provide different features so there is not a one size fits all choice. To best accommodate business requirements, the issuer should be able to transfer liquidity across chains. At the moment, there is not standard of crosschain interoperability that derivers this functionality out of the box. Recent advances in cross messaging frameworks or interchain token services enable this feature.
 
 <span style={{color:'blue'}}>
 ### 4.3. Tokenization Platform
