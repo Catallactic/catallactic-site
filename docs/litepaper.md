@@ -217,7 +217,7 @@ If we look back to the physical world and the literature, <b>Hayek</b> dedicated
 
 > It might be expedient that the issuing institution should from the outset announce precisely the collection of commodities in terms of which it would aim to keep the value of the 'ducat' constant
 
-Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</b></a> is different to all strategies above despite it borrows ideas from some. Catallactic aims to create non-fiat commodity backed stablecoins capturing the marginal utility of the underlaying asset. For these Catallactic CryptoCommodity tokens, price would be defined by the issuer and price formation delegated to the exchanges where the CryptoCommodity token is traded. As Stablecoins, CryptoCommodities includes an stabilization mechanism in which supply in the exchanges is paired to physical demand of the commodity for the issuer in a period of time.
+Finally, the proposal of <a href="https://www.catallactic.org/"><b>Catallactic</b></a> is different to all strategies above despite it borrows ideas from some. Catallactic aims to create non-fiat commodity backed stablecoins capturing the marginal utility of the underlaying asset. For these Catallactic CryptoCommodity tokens, price would be defined by the issuer and price formation delegated to the exchanges where the CryptoCommodity token is traded. As Stablecoins, CryptoCommodities include a stabilization mechanism in which supply in the exchanges is paired to physical demand of the commodity for the issuer in a period of time.
 
 From the token collection above, only Stablecoins and CryptoCommodities aim to maintain an stable price and, therefore, hold the potential to become currencies.
 Utility tokens are bound to an on-chain or virtual utility.
@@ -544,7 +544,7 @@ Scope
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 <span style={{color:'blue'}}>
-## **3. Blockchains Landscape**
+## **3. Blockchain Landscape**
 </span>
 ---
 
@@ -1390,13 +1390,104 @@ The decentralized tokenization platform should allow issuers to deploy the token
 </span>
 
 #### 4.4.1. Accessible with Wallets
+Crypto wallets keep private keys safe and accessible, allowing to send and receive CryptoCommodity units. Unlike a normal wallet, which can hold actual cash, crypto wallets technically don’t store crypto. The holdings live on the blockchain, but can only be accessed using a private key. The private keys prove ownership of the digital money and allow to make transactions. If you lose your private keys, you lose access to your money.
 
-A number of compatible wallets must be validated for integration with the networks where CryptoCommodity liquidity is available.
+Crypto wallets range from simple-to-use apps to more complex security solutions. The main types of wallets you can choose from include:
 
-#### 4.4.2. Accessible with Cards
+<table>
+	<tr>
+		<th></th>
+		<th>Keys Storage</th>
+		<th>Connected</th>
+		<th>Portable</th>
+		<th>Private</th>
+	</tr>
+	<tr>
+		<th>Paper Wallets</th>
+		<td>a physical medium like paper</td>
+		<td>No</td>
+		<td>Yes</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<th>HW Wallets</th>
+		<td>a thumb-drive device</td>
+		<td>No</td>
+		<td>Yes</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<th>HW Card Wallets</th>
+		<td>a thumb-drive device</td>
+		<td>No</td>
+		<td>Yes</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<th>SW Desktop App Wallets</th>
+		<td>a computer's hard drive</td>
+		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<th>SW Browser Plugins Wallets</th>
+		<td>a computer's hard drive</td>
+		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<th>SW Messenger Bot Wallets</th>
+		<td>a computer's hard drive</td>
+		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<th>SW Mobile Apps Wallets</th>
+		<td>a mobile's hard drive</td>
+		<td>Yes</td>
+		<td>Yes</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<th>SW Exchange Wallets</th>
+		<td>in the exhange</td>
+		<td>Yes</td>
+		<td>Yes</td>
+		<td>No</td>
+	</tr>
+</table>
+<br/>
+
+Existing HW wallets are cold wallets. A cold wallet is a crypto wallet that is not connected to the internet and stores your private keys offline. In order to be used they need to be connected to a computer. SW Desktop Wallets run in a computer. Needing a computer to perform wallet operations is not well suitable for a retail real economy. Mobile wallets, differently to computer-dependant wallets, are portable. However, their privacy is compromised by mobile operating system. Finally, custodian wallets running in a exchange are owned by the the exchange itself. So, we find, that after 15 years of crypto, there is not a wallet suitable for retail real economy.
+
+
+#### 4.4.2. Better Wallets are Needed
+
+15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
+
+The assumption of mobile apps working as cryptocommodity wallets sounds to degrade crypto to a subproduct. Also, smartphone operating systems are not decentralized themselves. Large software corporations have priviledges incorporated in the firmware of these devices. We think a new economic model deserves its own devices. On the other hand, existing wallets are mostly connected to the computer and this is not practical as a mainstream payment system. Also the new wallet initiatives looks to be designed for high end consumers and they see the revenue in the basis of high prices. This is not affordable for most of world population.
+
+We think a crypto wallet should be a garage control-like $20 device, that works wirelessly and, maybe without internet (e.g. via GSM). Until we do not have this kind of devices, crypto cannot be massified.
+
+I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
+
+
+#### 4.4.3. Accessible with Cards
 
 A number of card providers have built gift cards that can be customized to interact with exchange and payments seamlessly creating a real world POS system.
 
+#### 4.4.4. Interfacing with Exchanges
+
+Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
+
+- Specialized <b>smartphone aplications</b> can embed its own wallet or use and extneral wallet allowing the consumer to interface with the exchange in a seamless manner.
+
+- Wallet enabled <b>vending machines</b> can interect with cards or wallets to charge CryptoCommodity
+
+- Cards with embedded wallet logic can be topped up with CryptoCommodity from a <b>card reader</b>. And, conversely, a card reader can also charge the CryptoCommodity fee for a purchase.
 
 
 <span style={{color:'blue'}}>
@@ -1788,9 +1879,11 @@ A travel provider could back its currency in tickets or issue an ICO to fund a n
 </span>
 ---
 
-CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aims to deliver the missing piece in current cryptocurrency offer: a stable noon-fiat cryptocurrency. Hayek said money with stable value would be preferred by users [1]. 
+We consider that, despite there are pending challenges, the current blockchain infrastructure landscape is in a path to achieve decentralization. We also consider that currency landscape is orphan of currencies compliant with secular economics knowledge and there is room for improvement. We think that, in order to deliver mainstream adoption, cryptocurrencies should be privately issued, stable, in competition and provide a real world utility [1] and that this will unleash the squeezed real economy. 
 
-Real utility to empower real economy.
+CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aims to deliver the missing piece in current cryptocurrency offer: a stable non-fiat cryptocurrency. We also propose a tokenization platform for private issuance and management to release real world value providers of the technological burden.
+
+We think adoption can be multisectoral, incremental and that benchmarks of good practices are required. We do not aim to fully define how the currency competition would look like but, instead, we set a first step on this path and listen the free market to discover the best practices. We think existing work is mislead in vision but that most of the tools that has been created (exchanges, wallets) can be reused for our purposes. We also think new tools must be introduced, specially for standardization and transparency goals.
 
 <span style={{color:'blue'}}>
 ## **8. References**
