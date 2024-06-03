@@ -1501,29 +1501,15 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 ### 4.6. CryptoCommodity Features
 </span>
 
-#### 4.6.1. Upgradeable
+#### 4.6.1. Upgradeability
 
-we love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+We love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
 
 Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
 
 The long term idea is to release to community the governance.
 
-
-#### 4.6.2. Security
-
-Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
-
-- Code includes <b>multisig role-based access</b> to functionalities.
-
-- The whole CryptoCommodity code must be <b>audited</b>. 
-
-- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
-
-- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
-
-
-#### 4.6.3. Decentralization
+#### 4.6.2. Decentralization
 
 Decentralization is level of distributed and public participation from users reinforcing the rules of the network. Traditionally, measured by the number of independent node operators on a
 blockchain. A node operator is an individual or entity that runs software verifying the blocks and transactions finalized on the network. 
@@ -1557,6 +1543,17 @@ blockchain. A node operator is an individual or entity that runs software verify
 	</table>
 </div>
 
+#### 4.6.3. Security
+
+Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
+
+- Code includes <b>multisig role-based access</b> to functionalities.
+
+- The whole CryptoCommodity code must be <b>audited</b>. 
+
+- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
+
+- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
 
 #### 4.6.4. Transparency
 
@@ -1564,11 +1561,25 @@ Differently to current fiat bascked stablecoins, a CryptoCommodity should have a
 
 #### 4.6.5. Privacy
 
-
+We think that, whereas privacy feature must be incorporated into the system, it should be configurable by the CryptoCommodity issuer, according to his preferences and the requirements of his jurisdiction. Privacy is one of the points where all positions are valid and the final decisions should be translated to the market in the form of competition.
 
 #### 4.6.5. Compliance
 
-Different jurisdictions have different compliance requirements. A CryptoCommodity should be to allow the issuer customizing the level of regional compliance.
+Different jurisdictions have different compliance requirements. Some possible complince requirements can be found in:
+
+* Acquisition of crypto assets
+
+* KYC and AML
+
+* Custody of crypto assets
+
+* Ability to pay goods or services
+
+* Taxes
+
+* Special features as kill-switch (EU)
+
+A CryptoCommodity should allow the issuer customizing the level of regional compliance.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
