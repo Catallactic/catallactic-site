@@ -7,6 +7,8 @@ image: https://i.imgur.com/mErPwqL.png
 ---
 ---
 
+import '@site/src/css/papers.css';
+
 :::note
 `(Please, be aware that, whereas this litepaper already gives an idea of what a CryptoCommodity is, still is a work in progress)`
 :::
@@ -29,16 +31,13 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-<span style={{color:'blue'}}>
+
 ## **1. A Review on Cryptocurrencies**
-</span>
 ---
 
 As economist are not well versed in technological innovations, we think is needed to overview  the current state of decentralized technologies and blockchain. This will also help to raise the debate about the current state of affairs and contextualize were the proposed tokenization pattern fits in.
 
-<span style={{color:'blue'}}>
 ### 1.1. DLTs
-</span>
 
 #### 1.1.1. Blocks
 
@@ -130,9 +129,7 @@ Blockchain nodes are interconnected organizing a blockchain network. The informa
 
 The architecture of a blockchain network relies heavily on the collaborative effort of its nodes, which share and maintain a distributed ledger of transactions. This system of interconnected nodes ensures the decentralization of the network, significantly increasing its resilience against cyber threats and reducing reliance on any central authority for governance.
 
-<span style={{color:'blue'}}>
 ### 1.2. Monolitic L1 Blockchain
-</span>
 
 #### 1.2.1. Transactions Lifecycle
 
@@ -167,9 +164,7 @@ The settlement layer settles transactions by processing proofs from other chains
 #### 1.2.5. Data Availability
 
 
-<span style={{color:'blue'}}>
 ### 1.3. Tokenization
-</span>
 
 Tokenization is the process of digitally representing an asset, or asset feature, on a programmable platform. When tokenizing an asset, or asset feature, it gets bound to the token in a way that the token holder owns the asset feature. This asset feature is defined by the asset tokenizer. Tokens are created as smart contracts and, as programable logic, their lifecycle and features is managed by the logic in the smart contract.
 
@@ -254,9 +249,7 @@ Almost any asset that can be provided a value is subject to be tokenized. Below 
 
 * Certifications: diploman, certificates, proofs of participation, vouchers, loyalty points, awards
 
-<span style={{color:'blue'}}>
 ### 1.4. Applications of Tokenization
-</span>
 
 The more intuitive application of tokenization is becoming <b>identifier</b> of a non-fungible token. This can deliver several benefits as ownership or traceability of the underlying asset to the token holder. Ownership, voting rights, enabling participation in decision-making processes
 
@@ -275,9 +268,7 @@ Real world asset tokenization is considered one of the coolest next big things i
 
 The reality is that real world assets is a misnomer. Instead of capturing the value, real world assets capture the fiat price formed in international markets and set into the token with manual interventions. This configuration is a source for different levels of centralization, as we will discuss later.
 
-<span style={{color:'blue'}}>
 ### 1.5. CryptoCurrencies
-</span>
 
 In this section, we will analyze the suitability of existing cryptocurrency patterns to become mainstream currencies. It is unclear what are is the definition of a currency as there many interpretations. To further understand what a currency is, is needed to identifiy currency functions. 
 
@@ -330,9 +321,7 @@ as <b>Unit of Account</b>
 
 Coins unable to become currencies
 
-<span style={{color:'blue'}}>
 ### 1.6. CryptoCurrencies Adoption
-</span>
 
 Crypto adoption has not been as good as initially expected. Several reasons can be found to explain this fact and remain as challenges.
 
@@ -355,22 +344,16 @@ So, blockchains Layer 1 left plenty of open challenges for next evolutions of th
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-<span style={{color:'blue'}}>
 ## **2. CryptoCommodity**
-</span>
 ---
 
-<span style={{color:'blue'}}>
 ### 2.1. A New Medium of Exchange
-</span>
 
 CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aim to deliver the missing piece in current cryptocurrency offer: a stable noon-fiat cryptocurrency. Hayek said money with stable value would be preferred by users [1]. 
 
 Real utility to empower real economy.
 
-<span style={{color:'blue'}}>
 ### 2.2. Creating Representative Money
-</span>
 
 #### 2.2.1. The Underlaying Asset
 
@@ -417,9 +400,7 @@ There incentives for the issuer to create this structure as he will profit in a 
 </div>
 <br/>
 
-<span style={{color:'blue'}}>
 ### 2.3. CryptoCommodity Lifecycle
-</span>
 
 This section will describe the stages of a CryptoCommodity from the point that is exposed to the market.
 
@@ -480,11 +461,7 @@ Configurable by issuer. Benchmarks are required.
 <br/>
 
 
-
-
-<span style={{color:'blue'}}>
 ### 2.4. Comparing with existing crypto currencies
-</span>
 
 As previously discussed, the only CryptoCurrencies which, potentially, can become a medium of exchange are Stablecoins.  <b>Stablecoins capture the fiat price, formed in international markets, of an underlying asset</b>. This underlying asset can have different flavours: physical asset, digital asset, financial asset or even un backed. Their stable nature is the intend of their price pegged to the price of the underlying asset. The main feature of these Stablecoins is centralization: centralized in  value as they are pegged to fiat prices, centralized in operation as they depend on external sources of information and centralized on governance.
 
@@ -511,13 +488,7 @@ On the flip side, <b>CryptoCommodities form their own prices</b> by capturing th
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
-
-
-
-
-<span style={{color:'blue'}}>
 ### 2.5. CryptoCommodity Features
-</span>
 
 #### 2.5.1. Upgradeability
 
@@ -601,16 +572,12 @@ A CryptoCommodity should allow the issuer customizing the level of regional comp
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-<span style={{color:'blue'}}>
 ## **3. Blockchain Landscape**
-</span>
 ---
 
 Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot for venture capital to invest. As a consequencem blockchain networks have evolved in almost any direction and with different protocols and patterns. Over the time, some protocols have consolidates making up ecosystems around the an initial based blockchain.
 
-<span style={{color:'blue'}}>
 ### 3.1. Infrastructure Ecosystems
-</span>
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -811,18 +778,14 @@ Since the adveniment of Bitcoin in 2008, web3 infrastructure has been a hotspot 
 </div>
 <br/>
 
-<span style={{color:'blue'}}>
 ### 3.2. DLT Trilemma
-</span>
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://pbs.twimg.com/media/FDaXBuNVQAMBe5U?format=jpg&name=900x900" width="50%"></img>
 </div>
 <br/>
 
-<span style={{color:'blue'}}>
 ### 3.3. The Layered Stack Ecosystem
-</span>
 
 An ecosystem is started by a base blockchan that provides some new ideas to the market. These ideas come in some of the 4 main moddules that compose a blockchain: execution, settlement, consensus and data availability. 
 
@@ -1033,9 +996,7 @@ The table below compares the different scalibility patterns, showing their featu
 <br/>
 
 
-<span style={{color:'blue'}}>
 ### 3.4. Ethereum Ecosystem
-</span>
 
 #### 3.4.1. Ethereum Network
 
@@ -1205,9 +1166,7 @@ ERC standards provide a set of guidelines and specifications for the creation an
 
 Today, there are over 50 different ERC standards, covering a wide range of use cases and applications. These standards continue to evolve and expand, as new needs and opportunities arise in the blockchain space.
 
-<span style={{color:'blue'}}>
 ### 3.5. Bitcoin Ecosystem
-</span>
 
 Traditionally, Bitcoin has been viewed as a store of value with limited functionality beyond investment. Unlike Ethereum, which supports a rich ecosystem of apps and smart contracts, Bitcoin has lacked these capabilities. However, developers are now pushing to bridge this gap through innovative solutions.
 
@@ -1361,14 +1320,10 @@ All the Bitcoin L1 native assets are somehow limited in their ability to perform
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-<span style={{color:'blue'}}>
 ## **4. The CryptoCommodity Ecosystem**
-</span>
 ---
 
-<span style={{color:'blue'}}>
 ### 4.1. Ecosystem Overview
-</span>
 
 **The project aims to build an ecosystem around** (producers of) **commodities** (other assets can possibly be valid as commented below) **based on representative money with creates bottom up wealth to society**. The different pieces of the ecosystem can be organized as a stack, as depicted below. We think that many of the tools that has been created in the blockchain industry (exchanges, wallets) can be reused for our purposes. We also think new tools must be introduced, specially for standardization and transparency goals at different levels of the stack.
 
@@ -1381,9 +1336,7 @@ The key layer articulating the ecosystem are the **CryptoCommodity Contracts**. 
 
 The next sections will describe in further detail the different layers of the ecosystem.
 
-<span style={{color:'blue'}}>
 ### 4.2. CryptoCommodity Infrastructure
-</span>
 
 #### 4.2.1. Deployed on Bitcoin L2
 
@@ -1411,10 +1364,7 @@ So, the ideal networks to trade CryptoCommodity would be, from more suitable to 
 * EVM-capable Bitcoin Sidechains,
 * any EVM compatible network with enought security, performance and low fees, including Ethereum Rollups.
 
-
-<span style={{color:'blue'}}>
 ### 4.3. CryptoCommodity Token
-</span>
 
 The first implementation of CryptoCommodity smart contracts is written in Solitidy language as a diamond standard ERC-2535 contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
 
@@ -1437,10 +1387,7 @@ By using the upgradeabity capabilities provided by the diamond front controller,
 
 Is possible in the future to migrate to another languages, e.g. WASM-based environments.
 
-<span style={{color:'blue'}}>
 ### 4.4. Tokenization Platform
-</span>
-
 Representative money must be accesible to anyone with a physical project to back a currency issuance and deliver a real world value to society. 
 
 A decentralized tokenization platform will allow any individual to run the CryptoCurrency lifecycle. Deployment must be in a decentralized Appstore. Work is already <a href="https://catallactic.github.io/catallactic-admin/" target="_blank">in progress</a>.
@@ -1460,9 +1407,7 @@ The decentralized tokenization platform should allow issuers to deploy the token
 
 
 
-<span style={{color:'blue'}}>
 ### 4.5. Enabled for B2C Business
-</span>
 
 #### 4.5.1. Accessible with Wallets
 Crypto wallets keep private keys safe and accessible, allowing to send and receive CryptoCommodity units. Unlike a normal wallet, which can hold actual cash, crypto wallets technically don’t store crypto. The holdings live on the blockchain, but can only be accessed using a private key. The private keys prove ownership of the digital money and allow to make transactions. If you lose your private keys, you lose access to your money.
@@ -1565,17 +1510,13 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 - Cards with embedded wallet logic can be topped up with CryptoCommodity from a <b>card reader</b>. And, conversely, a card reader can also charge the CryptoCommodity fee for a purchase.
 
 
-<span style={{color:'blue'}}>
 ### 4.6. Enabled for B2B Business
-</span>
 
 #### 4.6.1. Integration with Corporate Payments
 
 
 
-<span style={{color:'blue'}}>
 ### 4.7. Representative Currency Competition
-</span>
 
 Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted [1]. Orchestrating multiple ecosystems in competition, the consumers and the citizens will get a broad offer of options and will be able to customize what suits him better. Wealth providers will compete to get and maintain the resources whereas there is always room for new ecosystems to enter into the competition.
 
@@ -1592,9 +1533,7 @@ By exposing the intrinsic value allowing price formation corresponding to subjec
  - private risk
  - coexisting gold standard
 
-<span style={{color:'blue'}}>
 ### 4.8. A New DeFi Industry
-</span>
 
 
 Fundraising for entrepreneurs
@@ -1610,16 +1549,12 @@ Scope
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-<span style={{color:'blue'}}>
 ## **5. CryptoCommodities in the Real World**
-</span>
 ---
 
 In the real world, outside of the computer bits, companies are living beings. They grow, they merge, they split, they shrink and, sometimes, they collapse (or they should). Technology should encompass possible scenarios and not imposing restricions to real world operations. CryptoCommodity, as a mirror of the real world created value, should also be able to support changes in underlying demand for the issuer. This section describes how CryptoCommodity configuration can be adapted to dynamic changes in the issuer.
 
-<span style={{color:'blue'}}>
 ### 5.1. Fundamentals
-</span>
 
 The foundation for CryptoCommodity operationns relies on updating the CryptoCommodity state in a consistent way. The basic state for a CryptoCommodity is described by a map of key accounts and value amounts. They describe the number of tokens that every wallet of a CryptoCommodity holder has allocated. If we are able to update this state, is possible to perfom operations.
 
@@ -1630,9 +1565,7 @@ The foundation for CryptoCommodity operationns relies on updating the CryptoComm
 
 using a diamond standard allows state operations
 
-<span style={{color:'blue'}}>
 ### 5.2. CryptoCommodity Operations
-</span>
 
 Changes in the demand of a CryptoCommodity could be originated in different: extended utilities, reduced scope, geographical expansion, quality improvements, resources constraints. 
 
@@ -1704,9 +1637,7 @@ CryptoCommodity Operations are enabled by the architecture of the CryptoCommodit
 
 
 
-<span style={{color:'blue'}}>
 ### 5.3. Benefits for Producers
-</span>
 
 In order to introduce the project into the community, there must be incentives for all parties to adopt the CryptoCommodities. Producers that fullfill the required conditions to adopt CryptoCommodity have great economic benefits:
 
@@ -1746,9 +1677,7 @@ In order to introduce the project into the community, there must be incentives f
 
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manner. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
-<span style={{color:'blue'}}>
 ### 5.4. Metrics Estimation
-</span>
 
 When creating CryptoCommodities size matters. By analyzing the numbers we can determine the impact that the new currency will have on the deployed scope, the allowed amount of fundraising to execute real world project, the number of holders, the vesting periods.
 
@@ -1841,9 +1770,7 @@ Another useful metric to estimate the convenience of introducing a new currency 
 
 As a rule of thumb, we can estimate that the issuer would have a 10% of demand available for investing in the project and cause a real world impact.
 
-<span style={{color:'blue'}}>
 ### 5.5. Incremental Adoption
-</span>
 
 The CryptoCommodity will capture its price from the underlying asset utility. The capitalization of the CryptoCommodity will be proportional to the volume of transactions that the providers experience with the CryptoCommodity. Nothing prevent that the CryptoCommodity can coexist with Current Payment Methods and allow the provider to decide what part of the business delegate to CryptoCommodity and what part keep on tradFi and when to do the transition. 
 
@@ -1852,18 +1779,14 @@ This incremental feature will ease execution of pilot projects and, in general, 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-<span style={{color:'blue'}}>
 ## **6. The CryptoCommodity Issuer**
-</span>
 ---
 
 In this section we will discuss who is the suitable issuer of CryptoCommodity tokens. A CryptoCommodity requires a collateral and redeemability. Anyone that can provide a collateral and an ability to redeem the tokens that issues can become a CryptoCommodity Issuer. This ability to collateral and redeemability can be a project and take benefit of the fundraising stage to launch the project that provides the issuer these features.
 
 Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement. The scope of use cases is being developed.
 
-<span style={{color:'blue'}}>
 ### 6.1. Commodity Providers
-</span>
 
 The more intuitive model of Representative money is this based on commodities as commodities have been extensively used as a medium of exchange in civilization. Different commodities would allow creating different projects. Some are included below.
 
@@ -1892,9 +1815,7 @@ The squeeze of the real economy by fiat currency debasement reduces the funding 
 
 On the other hand, many agro projects never see the light because they cannot raise funding. CryptoCommodity gives the opportunity to agro producers to propose their projects in their community and gets funds for execution.
 
-<span style={{color:'blue'}}>
-### 6.3. Service Providers
-</span>
+### 6.2. Service Providers
 
 By narrowing down an utility to back the representative token, nothing prevents that this utility is a service. Some service providers could be eligible to issue their representative currencies. there is a pending discussion if service backed representative tokens could distort natural price formaation.
 
@@ -1902,17 +1823,13 @@ By narrowing down an utility to back the representative token, nothing prevents 
 
 A travel provider could back its currency in tickets or issue an ICO to fund a new travel service.
 
-<span style={{color:'blue'}}>
-### 6.4. Conglomerate Providers
-</span>
+### 6.3. Conglomerate Providers
 
 #### 6.3.1. Supermarket / Shopping Mall
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-<span style={{color:'blue'}}>
 ## **7. Conclusions**
-</span>
 ---
 
 We consider that, despite there are pending challenges, the current blockchain infrastructure landscape is in a path to achieve decentralization. We also consider that currency landscape is orphan of currencies compliant with secular economics knowledge and there is room for improvement. We think that, in order to deliver mainstream adoption, cryptocurrencies should be privately issued, stable, in competition and provide a real world utility [1] and that this will unleash the squeezed real economy. 
@@ -1921,9 +1838,7 @@ CryptoCommodity proposes a new medium of exchange based on Representative Money.
 
 We think adoption can be multisectoral, incremental and that benchmarks of good practices are required. We do not aim to fully define how the currency competition would look like but, instead, we set a first step on this path and listen the free market to discover the best practices. We think existing work is mislead in vision but that most of the tools that has been created (exchanges, wallets) can be reused for our purposes. We also think new tools must be introduced, specially for standardization and transparency goals.
 
-<span style={{color:'blue'}}>
 ## **8. References**
-</span>
 ---
 
 [1] Denationalisation of Money: The Argument Refined 10/15/1990 • Friedrich A. Hayek https://mises.org/library/book/denationalisation-money-argument-refined
