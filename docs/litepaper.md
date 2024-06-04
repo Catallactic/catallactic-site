@@ -479,6 +479,9 @@ Configurable by issuer. Benchmarks are required.
 | Fiat Money                      | Debasement           | None          |
 <br/>
 
+
+
+
 <span style={{color:'blue'}}>
 ### 2.4. Comparing with existing crypto currencies
 </span>
@@ -509,8 +512,96 @@ On the flip side, <b>CryptoCommodities form their own prices</b> by capturing th
 
 
 
+
+
+
 <span style={{color:'blue'}}>
-### 2.5. Representative Currency Competition
+### 2.5. CryptoCommodity Features
+</span>
+
+#### 2.5.1. Upgradeability
+
+We love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
+
+Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
+
+The long term idea is to release to community the governance.
+
+#### 2.5.2. Decentralization
+
+Decentralization is level of distributed and public participation from users reinforcing the rules of the network. Traditionally, measured by the number of independent node operators on a
+blockchain. A node operator is an individual or entity that runs software verifying the blocks and transactions finalized on the network. 
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td></td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>Network Decentralization</td>
+			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
+		</tr>
+		<tr>
+			<td>Exchanges Decentralization</td>
+			<td>Exchanges should also be decentralized regarding</td>
+		</tr>
+		<tr>
+			<td>Smart Contract Decentralization</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Governance  Decentralization</td>
+			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
+		</tr>
+		<tr>
+			<td>Wealth Decentralization</td>
+			<td>Gini and Nakamoto Coefficients</td>
+		</tr>
+	</table>
+</div>
+
+#### 2.5.3. Security
+
+Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
+
+- Code includes <b>multisig role-based access</b> to functionalities.
+
+- The whole CryptoCommodity code must be <b>audited</b>. 
+
+- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
+
+- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
+
+#### 2.5.4. Transparency
+
+Differently to current fiat bascked stablecoins, a CryptoCommodity should have a strong compromisse with transparency and provide reporting to users out of the box.
+
+#### 2.5.5. Privacy
+
+We think that, whereas privacy feature must be incorporated into the system, it should be configurable by the CryptoCommodity issuer, according to his preferences and the requirements of his jurisdiction. Privacy is one of the points where all positions are valid and the final decisions should be translated to the market in the form of competition.
+
+#### 2.5.5. Compliance
+
+Different jurisdictions have different compliance requirements. Some possible complince requirements can be found in:
+
+* Acquisition of crypto assets
+
+* KYC and AML
+
+* Custody of crypto assets
+
+* Ability to pay goods or services
+
+* Taxes
+
+* Special features as kill-switch (EU)
+
+A CryptoCommodity should allow the issuer customizing the level of regional compliance.
+
+
+<span style={{color:'blue'}}>
+### 2.6. Representative Currency Competition
 </span>
 
 Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted. [Hayek]
@@ -524,7 +615,7 @@ By exposing the intrinsic value allowing price formation corresponding to subjec
  - coexisting gold standard
 
 <span style={{color:'blue'}}>
-### 2.6. A New DeFi Industry
+### 2.7. A New DeFi Industry
 </span>
 
 
@@ -1309,29 +1400,19 @@ All the Bitcoin L1 native assets are somehow limited in their ability to perform
 ---
 
 <span style={{color:'blue'}}>
-### 4.1. CryptoCommodity Token
+### 4.1. Ecosystem Overview
 </span>
 
-The first implementation of CryptoCommodity smart contracts is written in Solitidy language as a diamond standard ERC-2535 contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
+**The project aims to build an ecosystem around** (producers of) **commodities** (other assets can possibly be valid as commented below) **based on representative money**. The different pieces of the ecosystem can be organized as an stack as depicted below. We think that many of the tools that has been created in the blockchain industry (exchanges, wallets) can be reused for our purposes. We also think new tools must be introduced, specially for standardization and transparency goals at different levels of the stack.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/token_structure.svg" width="60%"></img>
+	<img src="/img/layered_ecosystem.svg" width="30%"></img>
 </div>
 <br/>
 
-Existing behaviours are:
+The key layer articulating the ecosystem are the CryptoCommodity Contracts. Contracts must rely on the Payments Layer to capture the subjective value of the represented assets. The Payments Layer must be enriched with devices covering both, B2B and B2C payments. The Commodities Provider should be able to mint his CryptoCommodity from the Tokenization Platform Layer, manage liquidity and deployment to exchanges and, optionally, run a fundraising campaigns to launch a promising project for his environment. This will democratize enterpreneurship encouraging anyone to contribute to his society. At the top of the ecosystem, a lending provision should allow the cmmmodities provider lend money backed on the value he provides to the ecosystem. This aims to end the financial exclusion and delegate lending risk in private hands decoupled from the rest of society. All this stack must have a solid basis of 60.000 nodes and 1 million miners which only can be provided by Bitcoin and Bitcoin L2.
 
-- Crowdsale Facet.
-
-- Vesting Facet
-
-- Common Facet
-
-- ERC-20 Facet
-
-By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets. Code is relased as <a href="https://github.com/Catallactic/catallactic-suite" target="_blank">Open Source</a>.
-
-Is possible in the future to migrate to another languages, e.g. WASM-based environments.
+The next sections will describe in further detail the different layers of the ecosystem.
 
 <span style={{color:'blue'}}>
 ### 4.2. CryptoCommodity Infrastructure
@@ -1363,34 +1444,60 @@ So, the ideal networks to trade CryptoCommodity would be, from more suitable to 
 * EVM-capable Bitcoin Sidechains,
 * any EVM compatible network with enought security, performance and low fees, including Ethereum Rollups.
 
+
 <span style={{color:'blue'}}>
-### 4.3. Tokenization Platform
+### 4.3. CryptoCommodity Token
+</span>
+
+The first implementation of CryptoCommodity smart contracts is written in Solitidy language as a diamond standard ERC-2535 contract. As a diamond contract it includes a front controller diamond whih receives all requests and is the single point of contact for the whole structure. 4 facets deployed, at different addresses that the diamont front controller, are attached to provide custom behaviours.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/token_structure.svg" width="60%"></img>
+</div>
+<br/>
+
+Existing behaviours are:
+
+- Crowdsale Facet.
+
+- Vesting Facet
+
+- Common Facet
+
+- ERC-20 Facet
+
+By using the upgradeabity capabilities provided by the diamond front controller, these facets can be updated or deleted or replaced by new facets. Code is relased as <a href="https://github.com/Catallactic/catallactic-suite" target="_blank">Open Source</a>.
+
+Is possible in the future to migrate to another languages, e.g. WASM-based environments.
+
+<span style={{color:'blue'}}>
+### 4.4. Tokenization Platform
 </span>
 
 Representative money must be accesible to anyone with a physical project to back a currency issuance and deliver a real world value to society. 
 
 A decentralized tokenization platform will allow any individual to run the CryptoCurrency lifecycle. Deployment must be in a decentralized Appstore. Work is already <a href="https://catallactic.github.io/catallactic-admin/" target="_blank">in progress</a>.
 
-#### 4.3.1. Payment Gateway
+#### 4.4.1. Payment Gateway
 
 The decentralized tokenization platform should cover payments for the utility that backs the CryptoCommodity. Payments of the asset utility will automatically adjust the supply for value stabilization. Payments will also be integrated into the token to enable payment streaming.
 
-#### 4.3.2. Fundraising Platform
+#### 4.4.2. Fundraising Platform
 
 
-#### 4.3.3. Tradeable in Exchanges
+#### 4.4.3. Tradeable in Exchanges
 
 The decentralized tokenization platform should allow issuers to deploy the token in different exchanges.
 
-#### 4.3.4. Cross-Platform Liquity
+#### 4.4.4. Cross-Platform Liquity
 
 
 
 <span style={{color:'blue'}}>
-### 4.4. Enabled for B2C Business
+### 4.5. Enabled for B2C Business
 </span>
 
-#### 4.4.1. Accessible with Wallets
+#### 4.5.1. Accessible with Wallets
 Crypto wallets keep private keys safe and accessible, allowing to send and receive CryptoCommodity units. Unlike a normal wallet, which can hold actual cash, crypto wallets technically don’t store crypto. The holdings live on the blockchain, but can only be accessed using a private key. The private keys prove ownership of the digital money and allow to make transactions. If you lose your private keys, you lose access to your money.
 
 Crypto wallets range from simple-to-use apps to more complex security solutions. The main types of wallets you can choose from include:
@@ -1465,7 +1572,7 @@ Crypto wallets range from simple-to-use apps to more complex security solutions.
 Existing HW wallets are cold wallets. A cold wallet is a crypto wallet that is not connected to the internet and stores your private keys offline. In order to be used they need to be connected to a computer. SW Desktop Wallets run in a computer. Needing a computer to perform wallet operations is not well suitable for a retail real economy. Mobile wallets, differently to computer-dependant wallets, are portable. However, their privacy is compromised by mobile operating system. Finally, custodian wallets running in a exchange are owned by the the exchange itself. So, we find, that after 15 years of crypto, there is not a wallet suitable for retail real economy.
 
 
-#### 4.4.2. Better Wallets are Needed
+#### 4.5.2. Better Wallets are Needed
 
 15 years after the advent of Bitcoin, and many million funded by VCs in crypto projects, we still do not have a gadget hardware wallet to pay in the market with crypto. And this says a lot.
 
@@ -1476,11 +1583,11 @@ We think a crypto wallet should be a garage control-like $20 device, that works 
 I the meatime, there is room for discussion if vending machines or gift cards could fit the bill for a workable crypto wallet for privately issued currencies.
 
 
-#### 4.4.3. Accessible with Cards
+#### 4.5.3. Accessible with Cards
 
 A number of card providers have built gift cards that can be customized to interact with exchange and payments seamlessly creating a real world POS system.
 
-#### 4.4.4. Interfacing with Exchanges
+#### 4.5.4. Interfacing with Exchanges
 
 Users needs CryptoCommodity units to do operations. In order to enable the price formation mechanism, users must fund their wallets from the exchanges where the token is trading. But accessing to the exchanges is not a trivial task for unexperienced users so is possible to enable other kind of access points to buy or sell CryptoCommodity units. There are a few mechanisms to make access to exchanges transparent for consumers.
 
@@ -1492,95 +1599,11 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 
 
 <span style={{color:'blue'}}>
-### 4.5. Enabled for B2B Business
+### 4.6. Enabled for B2B Business
 </span>
 
-#### 4.5.1. Integration with Corporate Payments
+#### 4.6.1. Integration with Corporate Payments
 
-
-<span style={{color:'blue'}}>
-### 4.6. CryptoCommodity Features
-</span>
-
-#### 4.6.1. Upgradeability
-
-We love the principle of inmutability but we also think technology is not yet ready for it. As theoretical framework is still being created and need to learn from experience with benchmarks, creating an inmutable token is like shooting your own feet if you want to do a serious project. We think we need to achieve trust by different means as having a great project and a mission. As a consequence, currently, the CryptoCommodity contract must be upgradeable to include new updates and definitions. In order to prevent a reputational risk, the upgrades can be protected by a voting system.
-
-Inn current implementation, every facet contains a versioned logic of the functionality. However, they can be upgraded in a way that one, or many functions, can be replaced by other functions with the same signature or adding new functions.
-
-The long term idea is to release to community the governance.
-
-#### 4.6.2. Decentralization
-
-Decentralization is level of distributed and public participation from users reinforcing the rules of the network. Traditionally, measured by the number of independent node operators on a
-blockchain. A node operator is an individual or entity that runs software verifying the blocks and transactions finalized on the network. 
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td></td>
-			<td>Description</td>
-		</tr>
-		<tr>
-			<td>Network Decentralization</td>
-			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
-		</tr>
-		<tr>
-			<td>Exchanges Decentralization</td>
-			<td>Exchanges should also be decentralized regarding</td>
-		</tr>
-		<tr>
-			<td>Smart Contract Decentralization</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Governance  Decentralization</td>
-			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
-		</tr>
-		<tr>
-			<td>Wealth Decentralization</td>
-			<td>Gini and Nakamoto Coefficients</td>
-		</tr>
-	</table>
-</div>
-
-#### 4.6.3. Security
-
-Security is crucial in crypto world. A quality money must be built on a secure system. Some security policies are being used to pervent vulnerabilities:
-
-- Code includes <b>multisig role-based access</b> to functionalities.
-
-- The whole CryptoCommodity code must be <b>audited</b>. 
-
-- Code is open source to allow <b>white hats contributions</b>. Ideally should be also be in continuous validation by the community.
-
-- We are exploring ERC-20R to create <b>DAO-protected storage backups</b> of the status to allow reverting in case of vulnerability. 
-
-#### 4.6.4. Transparency
-
-Differently to current fiat bascked stablecoins, a CryptoCommodity should have a strong compromisse with transparency and provide reporting to users out of the box.
-
-#### 4.6.5. Privacy
-
-We think that, whereas privacy feature must be incorporated into the system, it should be configurable by the CryptoCommodity issuer, according to his preferences and the requirements of his jurisdiction. Privacy is one of the points where all positions are valid and the final decisions should be translated to the market in the form of competition.
-
-#### 4.6.5. Compliance
-
-Different jurisdictions have different compliance requirements. Some possible complince requirements can be found in:
-
-* Acquisition of crypto assets
-
-* KYC and AML
-
-* Custody of crypto assets
-
-* Ability to pay goods or services
-
-* Taxes
-
-* Special features as kill-switch (EU)
-
-A CryptoCommodity should allow the issuer customizing the level of regional compliance.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
