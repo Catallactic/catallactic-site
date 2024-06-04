@@ -599,39 +599,6 @@ Different jurisdictions have different compliance requirements. Some possible co
 
 A CryptoCommodity should allow the issuer customizing the level of regional compliance.
 
-
-<span style={{color:'blue'}}>
-### 2.6. Representative Currency Competition
-</span>
-
-Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted. [Hayek]
-
-By exposing the intrinsic value allowing price formation corresponding to subjective perception of consumers we get the benefits of represetative money:
-
- - price formation according to consumers
- - productive resources allocated by consumers will
- - no cantillon
- - private risk
- - coexisting gold standard
-
-<span style={{color:'blue'}}>
-### 2.7. A New DeFi Industry
-</span>
-
-
-Fundraising for entrepreneurs
-
-Investment for investors
-
-Blockchains are provably immutable and enable the rapid transfer and exchange of crypto-tokens (which can represent assets) without the need for separate clearing, settlement & reconciliation.
-
-Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
-
-Scope
-
-
-
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 <span style={{color:'blue'}}>
@@ -1605,6 +1572,40 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 #### 4.6.1. Integration with Corporate Payments
 
 
+
+<span style={{color:'blue'}}>
+### 4.7. Representative Currency Competition
+</span>
+
+Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted [1]. Orchestrating multiple ecosystems in competition, the consumers and the citizens will get a broad offer or options and will be able to customize what suits him better.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_competition.svg" width="40%"></img>
+</div>
+<br/>
+
+By exposing the intrinsic value allowing price formation corresponding to subjective perception of consumers we get the benefits of represetative money:
+
+ - price formation according to consumers
+ - productive resources allocated by consumers will
+ - no cantillon
+ - private risk
+ - coexisting gold standard
+
+<span style={{color:'blue'}}>
+### 4.8. A New DeFi Industry
+</span>
+
+
+Fundraising for entrepreneurs
+
+Investment for investors
+
+Blockchains are provably immutable and enable the rapid transfer and exchange of crypto-tokens (which can represent assets) without the need for separate clearing, settlement & reconciliation.
+
+Despite the crypto industry is not been created with the real economy in mind, most of the existing tools can be reused to enable a new industry that brings fundraising, transactions, payments, insurance, lending, investment, trading and related financial DeFi Services for real economy amd real consumers.
+
+Scope
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
