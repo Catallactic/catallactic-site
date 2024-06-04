@@ -1577,7 +1577,7 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 ### 4.7. Representative Currency Competition
 </span>
 
-Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted [1]. Orchestrating multiple ecosystems in competition, the consumers and the citizens will get a broad offer or options and will be able to customize what suits him better.
+Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted [1]. Orchestrating multiple ecosystems in competition, the consumers and the citizens will get a broad offer of options and will be able to customize what suits him better. Wealth providers will compete to get and maintain the resources whereas there is always room for new ecosystems to enter into the competition.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/ecosystem_competition.svg" width="40%"></img>
