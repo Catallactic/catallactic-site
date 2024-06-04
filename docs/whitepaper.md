@@ -14,6 +14,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Line } from "react-chartjs-2";
 import { Doughnut } from 'react-chartjs-2';
 
+import '@site/src/css/papers.css';
 
 :::note
 `(Please, be aware that, whereas this whitepaper already gives an idea of what a CryptoCommodity is, still is a work in progress)`
