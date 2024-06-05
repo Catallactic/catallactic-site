@@ -349,7 +349,7 @@ So, blockchains Layer 1 left plenty of open challenges for next evolutions of th
 
 ### 2.1. A New Medium of Exchange
 
-CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aim to deliver the missing piece in current cryptocurrency offer: a stable noon-fiat cryptocurrency. Hayek said money with stable value would be preferred by users [1]. 
+CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aim to deliver the missing piece in current cryptocurrency offer: a stable noon-fiat cryptocurrency. Hayek said money with stable value would be preferred by users [2]. 
 
 Real utility to empower real economy.
 
@@ -1332,7 +1332,7 @@ All the Bitcoin L1 native assets are somehow limited in their ability to perform
 </div>
 <br/>
 
-The key layer articulating the ecosystem are the **CryptoCommodity Contracts**. Contracts must rely on the Payments Layer to capture the subjective value of the represented assets. The **Payments Layer** must be enriched with devices covering both, B2B and B2C payments. The Commodities Provider should be able to mint his CryptoCommodity from the **Tokenization Platform**, manage liquidity and deployment to exchanges and, optionally, run a fundraising campaigns to launch a promising project for his environment. This will democratize enterpreneurship encouraging anyone to contribute to his society. At the top of the ecosystem, a **Lending Provision** should allow the commodities provider lend money backed on the value he provides to the ecosystem. The advantages of Lending Layer are two-fold. On one hand, it delegates lending risk in private hands, decoupled from the rest of society. But also, this layer aims to end the financial exclusion. All this stack must have a solid basis of 60.000 nodes and 1 million miners which only can be provided by **Bitcoin and Bitcoin L2**.
+The key layer articulating the ecosystem are the **CryptoCommodity Contracts**. Contracts must rely on the Payments Layer to capture the subjective value of the represented assets. The **Payments Layer** must be enriched with devices covering both, B2B and B2C payments. The Commodities Provider should be able to mint his CryptoCommodity from the **Tokenization Platform**, manage liquidity and deployment to exchanges and, optionally, run a fundraising campaigns to launch a promising project for his environment. This will democratize entrepreneurship encouraging anyone to contribute to his society. At the top of the ecosystem, a **Lending Provision** should allow the commodities provider lend money backed on the value he provides to the ecosystem. The advantages of Lending Layer are two-fold. On one hand, it delegates lending risk in private hands, decoupled from the rest of society. But also, this layer aims to end the financial exclusion. All this stack must have a solid basis of 60.000 nodes and 1 million miners which only can be provided by **Bitcoin and Bitcoin L2**.
 
 The next sections will describe in further detail the different layers of the ecosystem.
 
@@ -1516,24 +1516,8 @@ Users needs CryptoCommodity units to do operations. In order to enable the price
 
 
 
-### 4.7. Representative Currency Competition
 
-Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted [1]. Orchestrating multiple ecosystems in competition, the consumers and the citizens will get a broad offer of options and will be able to customize what suits him better. Wealth providers will compete to get and maintain the resources whereas there is always room for new ecosystems to enter into the competition.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_competition.svg" width="40%"></img>
-</div>
-<br/>
-
-By exposing the intrinsic value allowing price formation corresponding to subjective perception of consumers we get the benefits of represetative money:
-
- - price formation according to consumers
- - productive resources allocated by consumers will
- - no cantillon
- - private risk
- - coexisting gold standard
-
-### 4.8. A New DeFi Industry
+### 4.7. A New DeFi Industry
 
 
 Fundraising for entrepreneurs
@@ -1827,12 +1811,44 @@ A travel provider could back its currency in tickets or issue an ICO to fund a n
 
 #### 6.3.1. Supermarket / Shopping Mall
 
+
+### 6.4. Representative Currency Competition
+
+There is nothing preventing coexistence of multiple ecosystems in a same region, competing to become the preferred monetary choice of consumers and adopters. As Hayek claimed:
+
+> Money is usually defined as the generally acceptable medium of exchange,l but there is no reason why within a given community there should be only one kind of money that is generally (or at least widely) accepted [2]
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_competition.svg" width="40%"></img>
+</div>
+<br/>
+
+By orchestrating multiple ecosystems in competition, consumers and citizens will get a broad offer of options and will be able to customize what suits him better. 
+
+* as none of the producers can manipulate the supply, price formation will happen according to consumers will, [1]
+
+* wealth providers would be incentivized to maintain, or growth, their resources allocation instead of losing quota,
+
+* productive resources would be allocated according to consumers demand, without distortion, [1]
+
+* entrepreneurs would get right signals about consumers demand to better focus their efforts,
+
+* there would always be room for new ecosystems to enter into the competition, removing entry barriers for new entrepreneurs.
+
+* credit would be maintained without the liquidity restriction of pure gold standard but, differently to fiat, with privatized risk,
+
+* there would not be any reason for financial exclusion as any citizen can be granted a loan or can propose a project to the community,
+
+* there would be incentives to provide value and benefits to the society but, every citizen, would be free to decide the amount of value, the timing and the way to provide this value,
+
+* the government could adopt the position of custoding the monetary standard, as a gold standard, to maintain his role and delegate to society and entrepreneurs all progress
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## **7. Conclusions**
 ---
 
-We consider that, despite there are pending challenges, the current blockchain infrastructure landscape is in a path to achieve decentralization. We also consider that currency landscape is orphan of currencies compliant with secular economics knowledge and there is room for improvement. We think that, in order to deliver mainstream adoption, cryptocurrencies should be privately issued, stable, in competition and provide a real world utility [1] and that this will unleash the squeezed real economy. 
+We consider that, despite there are pending challenges, the current blockchain infrastructure landscape is in a path to achieve decentralization. We also consider that currency landscape is orphan of currencies compliant with secular economics knowledge and there is room for improvement. We think that, in order to deliver mainstream adoption, cryptocurrencies should be privately issued, stable, in competition and provide a real world utility [2] and that this will unleash the squeezed real economy. 
 
 CryptoCommodity proposes a new medium of exchange based on Representative Money. CryptoCommodity aims to deliver the missing piece in current cryptocurrency offer: a stable non-fiat cryptocurrency. We also propose a tokenization platform for private issuance and management to release real world value providers of the technological burden.
 
@@ -1841,5 +1857,6 @@ We think adoption can be multisectoral, incremental and that benchmarks of good 
 ## **8. References**
 ---
 
-[1] Denationalisation of Money: The Argument Refined 10/15/1990 • Friedrich A. Hayek https://mises.org/library/book/denationalisation-money-argument-refined
+[1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
 
+[2] Denationalisation of Money: The Argument Refined 10/15/1990 • Friedrich A. Hayek https://mises.org/library/book/denationalisation-money-argument-refined
