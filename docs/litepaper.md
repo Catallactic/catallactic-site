@@ -193,7 +193,7 @@ When we speak about the type of tokens, we are mostly referring to how its price
 According to the nature of the asset, or asset property, that the token is pegged to, existing cryptocurrencies come typically in 5 flavours: Unpegged Tokens, Utility Tokens, Security Tokens, Stablecoins and NFT.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/tokenization_maturity_model_seal.svg" width="50%"></img>
+	<img src="/img/tokenization_maturity_model_seal_table.svg" width="70%"></img>
 </div>
 <br/>
 <br/>
