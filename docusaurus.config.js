@@ -246,6 +246,9 @@ const config = {
           }, {
             title: 'More',
             items: [ {
+								label: 'Pitch Deck',
+								to: 'https://docs.google.com/presentation/d/1O2gFGNBDIrWCFYe-hcp-8r4Ade2RMwyU6cLHfCzMSMY/edit?usp=sharing',
+							}, {
 								label: 'Book',
 								to: '/book',
 							}, {	
