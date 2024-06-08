@@ -3759,16 +3759,13 @@ Market itself, if not distorted, is a well performing price formation machine. A
 <br/>
 
 
-### 17.4. Economic Calculation Under Fiat Money
+### 17.4. Economic Calculation Problem
 
 #### 17.4.1. Monetary Expansion
 
 
-#### 17.4.2. Cantillon Effects
 
-
-
-#### 17.4.3. Debate on Neutrality of Money
+#### 17.4.2. Debate on Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -3778,6 +3775,8 @@ The neutrality of money, also called neutral money, is an economic theory statin
 </div>
 
 price distortion
+
+#### 17.4.3. Cantillon Effects
 
 
 ### 17.5. Comparing Economic Models
