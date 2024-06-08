@@ -1770,21 +1770,41 @@ In this section we will discuss who is the suitable issuer of CryptoCommodity to
 
 Providing representative money boosts the real economy in sense that society is built from botton up, from the consumers will. Also guarantees price formation. And prevents currency debasement. The scope of use cases is being developed.
 
-### 6.1. Commodity Providers
+### 6.1. The Squeezed Real Economy
+
+The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
+
+
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="/img/M2_as_a_%25_of_GDP.png" width="100%"></img></td>
+			<td><img src="/img/exter.png" width="100%"></img></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+The monetary base for real economy is squeezed by the financial economy, and shrinking everyday,. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
+
+The next section will discuss how representative money can rescue the real economy from its exclusion.
+
+### 6.2. Commodity Providers
 
 The more intuitive model of Representative money is this based on commodities as commodities have been extensively used as a medium of exchange in civilization. Different commodities would allow creating different projects. Some are included below.
 
-#### 6.1.1. Mining Companies
+#### 6.2.1. Mining Companies
 
 Mining companies extend to many areas, including precious metals, coal, gold, silver. The problem is that they do B2B business and crypto corporate payments are not yet a mature industry.
 
-#### 6.1.2. Energy Providers
+#### 6.2.2. Energy Providers
 
 Wholesale energy providers again has the B2B drawback as crypto corporate payments are not yet a mature industry. This includes petrol station, renewable energy providers.
 
 Energy retailers, gas retailers are suitable for issuing a CryptoCommodity. Catallactic relies on <a href="https://gasclick.net/">GasClick</a> as pilot project for the Catallactic Framework. Access <a href="https://gasclick.net/litepaper_en.html">litepaper</a>.
 
-#### 6.1.3. Water Supply and Sewerage
+#### 6.2.3. Water Supply and Sewerage
 
 The map shows the countries were tap water is not drinkable. They are perfect opportunity to issue a CryptoCommodity, fix the supply with the support of investors and contribute Water-backed Representative Money to their ecosystem.
 
@@ -1793,26 +1813,26 @@ The map shows the countries were tap water is not drinkable. They are perfect op
 </div>
 <br/>
 
-#### 6.1.4. Agro Providers
+#### 6.2.4. Agro Providers
 
 The squeeze of the real economy by fiat currency debasement reduces the funding available for real world. In particular, farmers are revolting in many countries. CryptoCommodity would give farmers the possibility to issue their currencies backed on their own produce.
 
 On the other hand, many agro projects never see the light because they cannot raise funding. CryptoCommodity gives the opportunity to agro producers to propose their projects in their community and gets funds for execution.
 
-### 6.2. Service Providers
+### 6.3. Service Providers
 
 By narrowing down an utility to back the representative token, nothing prevents that this utility is a service. Some service providers could be eligible to issue their representative currencies. there is a pending discussion if service backed representative tokens could distort natural price formaation.
 
-#### 6.2.1. Travel Companies
+#### 6.3.1. Travel Companies
 
 A travel provider could back its currency in tickets or issue an ICO to fund a new travel service.
 
-### 6.3. Conglomerate Providers
+### 6.4. Conglomerate Providers
 
-#### 6.3.1. Supermarket / Shopping Mall
+#### 6.4.1. Supermarket / Shopping Mall
 
 
-### 6.4. Representative Currency Competition
+### 6.5. Representative Currency Competition
 
 There is nothing preventing coexistence of multiple ecosystems in a same region, competing to become the preferred monetary choice of consumers and adopters. As Hayek claimed:
 
