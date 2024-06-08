@@ -1772,6 +1772,8 @@ Providing representative money boosts the real economy in sense that society is 
 
 ### 6.1. The Squeezed Real Economy
 
+Since the money is not bound to real world value, from 1971, the economy has split in 2: the financial economy mentions to the value of financial markets, including the bonds, debts, securities and related assets, while the real economy is based on the production capacity of an economy. Currency debasement is increasingly making this difference bigger, at the point that real economy today is squeezed in a sea of financial notes.
+
 As a comparison, NASDAQ has expererienced a 9x growth from 2009 whereas countries GDP growth less than 50%. But this is not the more significative effect. The worse  is in derivatives exposure. The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
 <div style={{overflowX : 'auto'}}>
@@ -1784,7 +1786,7 @@ As a comparison, NASDAQ has expererienced a 9x growth from 2009 whereas countrie
 </div>
 <br/>
 
-The monetary base for real economy is squeezed by the financial economy, and shrinking everyday,. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
+The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
 The next section will discuss how representative money can rescue the real economy from its exclusion.
 
