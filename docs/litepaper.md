@@ -1772,15 +1772,13 @@ Providing representative money boosts the real economy in sense that society is 
 
 ### 6.1. The Squeezed Real Economy
 
-The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
-
-
+As a comparison, NASDAQ has expererienced a 9x growth from 2009 whereas countries GDP growth less than 50%. But this is not the more significative effect. The worse  is in derivatives exposure. The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
 <div style={{overflowX : 'auto'}}>
-	<table>
+	<table style={{textAlign: 'center'}}>
 		<tr>
-			<td><img src="/img/M2_as_a_%25_of_GDP.png" width="100%"></img></td>
-			<td><img src="/img/exter.png" width="100%"></img></td>
+			<td><img src="/img/financial assets vs real assets March 2022_0.jpg" width="100%"></img></td>
+			<td><img src="/img/exter.png" width="80%"></img></td>
 		</tr>
 	</table>
 </div>
