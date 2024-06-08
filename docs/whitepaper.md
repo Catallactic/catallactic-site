@@ -3918,30 +3918,31 @@ The financial system is mainly concerned either with moving funds around so that
 
 #### 17.7.2. The Squeezed Real Economy
 
-The following diagram is called the Exter’s Pyramid of Liquidity. It illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold.
-
-
+The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
-			<td><img src="/img/realvsfinancial.jpg" width="100%"></img></td>
-			<td><img src="https://d.ibtimes.co.uk/en/full/1601428/im3.png?w=736&f=8255c0efab60153fdd6e458e80c307b0" width="100%"></img></td>
+			<td><img src="/img/M2_as_a_%25_of_GDP.png" width="100%"></img></td>
+			<td><img src="/img/exter.png" width="100%"></img></td>
 		</tr>
 	</table>
 </div>
+<br/>
 
-
-barreras a la entrada impuestas x el fiat
-
-WTF Happened In 1971?
-
-
-Cantillon Effects
+The monetary base for real economy is squeezed by the financial economy, and shrinking everyday,. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
 #### 17.7.3. Ending Financial Exclusion
 
+Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
+* any citizen could fundraise to grow a real economy project providing value in his community
+
+* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
+
+* there would be healthy projects a broader job offer available.
+
+In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
 ### 17.8. Further Industry Development
 
