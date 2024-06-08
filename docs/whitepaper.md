@@ -3909,27 +3909,29 @@ Once we have designed th principles of CryptoCommodity, in this chapter we will 
 
 #### 17.7.1 The Split Economy
 
-The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. 
+Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
-Real economy can be measured by the GDP.
+* The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. Real economy can be measured by the GDP.
 
-The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
+* The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
 #### 17.7.2. The Squeezed Real Economy
 
-The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
+The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
+
+
 
 <div style={{overflowX : 'auto'}}>
-	<table>
+	<table style={{textAlign: 'center'}}>
 		<tr>
-			<td><img src="/img/M2_as_a_%25_of_GDP.png" width="100%"></img></td>
-			<td><img src="/img/exter.png" width="100%"></img></td>
+			<td><img src="/img/financial assets vs real assets March 2022_0.jpg" width="100%"></img></td>
+			<td><img src="/img/exter.png" width="80%"></img></td>
 		</tr>
 	</table>
 </div>
 <br/>
 
-The monetary base for real economy is squeezed by the financial economy, and shrinking everyday,. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
+The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
 #### 17.7.3. Ending Financial Exclusion
 
