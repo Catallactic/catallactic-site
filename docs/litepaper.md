@@ -1880,3 +1880,5 @@ We think adoption can be multisectoral, incremental and that benchmarks of good 
 [1] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
 
 [2] Denationalisation of Money: The Argument Refined 10/15/1990 • Friedrich A. Hayek https://mises.org/library/book/denationalisation-money-argument-refined
+
+[3] The Use of Knowledge in Society, September 1945 By Friedrich A. Hayek - https://www.econlib.org/library/Essays/hykKnw.html
