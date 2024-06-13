@@ -10,9 +10,16 @@
 
 	{ "subject": "ON PRICE SYSTEM" },
 	{ "subject": "ON PRICE SYSTEM", "date": "1921", "title": "The engineers and the price system", "author": "Thorstein Veblen", "place": "", "url": "https://historyofeconomicthought.mcmaster.ca/veblen/Engineers.pdf" },
-	{ "subject": "ON PRICE SYSTEM", "date": "1986", "title": "Price Theory: An Intermediate Text", "author": "David D. Friedman", "place": "", "url": "http://www.daviddfriedman.com/Academic/Price_Theory/PThy_ToC.html" },
+	{ "subject": "ON PRICE SYSTEM", "date": "1944", "title": "The theory of economic progress", "author": "C. E. AYRES", "place": "", "url": "https://dspace.gipe.ac.in/xmlui/bitstream/handle/10973/32929/GIPE-013603-Contents.pdf?sequence=2&isAllowed=y" },
 	{ "subject": "ON PRICE SYSTEM", "date": "1944", "title": "I Am The Price System", "author": "R. B. Langan", "place": "", "url": "https://archive.org/details/IAmThePriceSystemTheCultureOfAbundance/page/n1/mode/2up" },
 	{ "subject": "ON PRICE SYSTEM", "date": "1945", "title": "The Use of Knowledge in Society", "author": "F. A. Hayek", "place": "", "url": "https://www.kysq.org/docs/Hayek_45.pdf" },
+	{ "subject": "ON PRICE SYSTEM", "date": "1963", "title": "Market Theory and the Price System", "author": "israel m. kirzner", "place": "", "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2491/Kirzner_1538-02_LFeBk.pdf" },
+	{ "subject": "ON PRICE SYSTEM", "date": "1985", "title": "Foundations of the Market Price System", "author": "Milton M. Saphiro", "place": "", "url": "https://cdn.mises.org/Foundations%20of%20the%20Market%20Price%20System_2.pdf" },
+	{ "subject": "ON PRICE SYSTEM", "date": "1986", "title": "Price Theory: An Intermediate Text", "author": "David D. Friedman", "place": "", "url": "http://www.daviddfriedman.com/Academic/Price_Theory/PThy_ToC.html" },
+	{ "subject": "ON PRICE SYSTEM", "date": "1986", "title": "Economists Favour the Price System - Who Else Does?", "author": "Bruno S. Frey", "place": "", "url": "https://www.bsfrey.ch/wp-content/uploads/2021/08/economists-favour-the-price-system-who-else-does.pdf" },
+	{ "subject": "ON PRICE SYSTEM", "date": "2006", "title": "The Emergence of a Price System from Decentralized Bilateral Exchange", "author": "Herbert Gintis", "place": "", "url": "https://www.umass.edu/preferen/gintis/The%20Price%20System.pdf" },
+	{ "subject": "ON PRICE SYSTEM", "date": "2015", "title": "The International Price System", "author": "Gita Gopinath∗", "place": "", "url": "https://scholar.harvard.edu/files/gopinath/files/paper_083115_01.pdf" },
+	{ "subject": "ON PRICE SYSTEM", "date": "2015", "title": "Market Theory and the Price System", "author": "Frederic Sautet", "place": "", "url": "https://www.researchgate.net/publication/312614997_Market_Theory_and_the_Price_System" },
 
 	{ "subject": "ON TOKENOMICS" },
 	{ "subject": "ON TOKENOMICS", "date": "2022", "title": "5 Laws of Tokenomics", "author": "Andy Martin", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4018141" },
