@@ -18,7 +18,7 @@ export default function PriceSystemSection(): JSX.Element {
 					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
 							<h1 className="mb-4">Composing a Price System</h1>
-							<h5>Different tokenization patterns hold different properties and are suitable for different applications. We create a maturity model to incentivize good practices. </h5>
+							<h5>A Medium of Exchange is not just something you can transfer in exchange of a good or service. A successful MoE must meet some conditions and features which enable a suitable interaction between economic actors. </h5>
 							<h5>This site and framework are dedicated to design and support CryptoCommodity, which is the only token pattern that can become a cryptocurrency representing Sound Money. </h5>
 							<a className='d-block btn btn-lg mt-4' href='/book/Tokenization%20IV%20-%20Maturity%20Model#2-a-tokenization-maturity-model' role='button'>Learn More</a>
 						</div>
