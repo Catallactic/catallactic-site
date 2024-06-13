@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-export default function MaturityModelSection(): JSX.Element {
+export default function PriceSystemSection(): JSX.Element {
   return (
     <section className={styles.services}>
       <div className="container">
@@ -17,16 +17,16 @@ export default function MaturityModelSection(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex">
 						<div className="text--center padding-horiz--md">
-							<h1 className="mb-4">Tokenization Maturity Model</h1>
+							<h1 className="mb-4">Composing a Price System</h1>
 							<h5>Different tokenization patterns hold different properties and are suitable for different applications. We create a maturity model to incentivize good practices. </h5>
-							<h5>This site and framework are dedicated to design and support Unit of Account, which is the only token pattern that can become a cryptocurrency representing Sound Money. </h5>
+							<h5>This site and framework are dedicated to design and support CryptoCommodity, which is the only token pattern that can become a cryptocurrency representing Sound Money. </h5>
 							<a className='d-block btn btn-lg mt-4' href='/book/Tokenization%20IV%20-%20Maturity%20Model#2-a-tokenization-maturity-model' role='button'>Learn More</a>
 						</div>
 					</div>
 
 					<div className="col col--6 my-auto d-flex">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model_seal.svg" />
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/tokenization_maturity_model_seal_table.svg" />
 						</div>
 					</div>
 
