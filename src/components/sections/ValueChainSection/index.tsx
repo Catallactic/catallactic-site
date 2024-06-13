@@ -9,7 +9,7 @@ export default function ValueChainSection(): JSX.Element {
 
 				<div className="text-center pb-1 my-3">
 					{<div className="h1 fw-bold color-theme-reverse2">Value Chain Coverage</div>}
-					<p className="h3 color-theme-reverse1 m-5 lh-base">Catallactic aims to cover the full lifecycle of a cryptocommodity</p>
+					<p className="h3 color-theme-reverse1 m-5 lh-base">Once a Sound Model have been created, Catallactic aims to cover the full lifecycle of a CryptoCommodity to benefit stakeholders</p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">
