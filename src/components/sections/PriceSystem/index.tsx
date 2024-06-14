@@ -17,10 +17,10 @@ export default function PriceSystemSection(): JSX.Element {
 
 					<div className="col col--6 my-auto d-flex">
 						<div className="padding-horiz--md">
-							<h1 className="mb-4">Participating in Price System</h1>
-							<h5>A Medium of Exchange is not just something you can transfer in exchange for a good or service. A successful MoE must also be stable.</h5>
-							<h5 className="my-4">Firstly, by being stable, it will be <a href="https://en.wikipedia.org/wiki/Gresham%27s_law" target="_blank">more appreciated by economic agents</a>. Additionally, a stable MoE will have a chance to participate in the <b>price system</b>, coordinating the decisions of consumers, producers, and owners of productive resources and allocating resources in the more efficient way.</h5>
-							<h5>CryptoCommodity is designed to be stable by capturing the subjective value of the underlying asset.</h5>
+							<h1 className="mb-4">Participate in the Price System</h1>
+							<h5>A medium of exchange should technically be interchangeable, transportable, and reliable. Additionally, a successful MoE, has economic requirements as having a <b>consistent stable value</b>.</h5>
+							<h5 className="my-4">By being stable, it will be <a href="https://en.wikipedia.org/wiki/Gresham%27s_law" target="_blank">more appreciated by economic agents</a>. Additionally, a stable MoE will have a chance to participate in the <b>price system</b>, coordinating the decisions of consumers, producers, and owners of productive resources and allocating resources in the more efficient way.</h5>
+							<h5>CryptoCommodity is designed to be stable by capturing the <b>subjective value of the underlying asset</b>.</h5>
 							<a className='d-block btn btn-lg mt-4' href='/docs/Whitepaper' role='button' target="_blank">Learn More</a>
 						</div>
 					</div>
