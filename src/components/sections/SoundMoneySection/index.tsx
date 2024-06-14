@@ -26,7 +26,7 @@ export default function SoundMoneySection(): JSX.Element {
 							<h1 className="mb-4">Road to Digital Sound Money</h1>
 							<h5>Existing tokenization patterns hold specialized features and are suitable for different applications.  </h5>
 							<h5 className="my-4">By different reasons, all the existing tokens, fall short in delivering the funtions of a <b>Medium of Exchange</b> and this is preventing mainstream adoption and real world use cases.</h5>
-							<h5>CryptoCommodity combines the features of existing tokens aiming to become the first (crypto)currency representing Sound Money.</h5>
+							<h5>CryptoCommodity combines the features of existing tokens aiming to become the first (crypto)currency representing Sound Money ever. The specifications have been written decades or centuries ago and we are in the time to apply this knowledge.</h5>
 							<h5 className="my-4">Join us on the mission to design how the Digital Sound Money should look like.</h5>
 							<a className='d-block btn btn-lg mt-4' href='/docs/Whitepaper' role='button' target="_blank">Learn More</a>
 						</div>
