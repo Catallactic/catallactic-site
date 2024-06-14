@@ -62,7 +62,7 @@ export default function Home(): JSX.Element {
         <FeaturesSection />
         <DecentralizationSection />
         <SoundMoneySection />
-        {/*  <PriceSystemSection /> */}
+        <PriceSystemSection />
 				<ValueChainSection />
 				{/* <TokenizationMapSection/> */}
 				<EcosystemSection />
