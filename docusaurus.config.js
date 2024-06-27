@@ -244,7 +244,7 @@ const config = {
               }
             ],
           }, {
-            title: 'More',
+            title: 'Docs',
             items: [ {
 								label: 'Pitch Deck',
 								to: 'https://docs.google.com/presentation/d/1O2gFGNBDIrWCFYe-hcp-8r4Ade2RMwyU6cLHfCzMSMY/edit?usp=sharing',
@@ -257,8 +257,15 @@ const config = {
 							}, {	
 								label: 'BlogES',
                 to: '/blogES',
+							},
+            ],
+					}, {
+            title: 'Community',
+            	items: [ {
+								label: 'ForoES',
+								href: 'https://catallactic.freeforums.net/',
 							}, {
-                label: 'Discord',
+								label: 'Discord',
                 href: 'https://discord.gg/jY4XbrktCa',
 							}, {
                 label: 'GitHub',
