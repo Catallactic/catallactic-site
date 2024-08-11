@@ -29,8 +29,8 @@
 	background-attachment: fixed;
 }
 
-
-body:after{
+/* BUILT IN PUBLIC */
+/*body:after{
   content: "built in public";
   position: fixed;
   width: 140px;
@@ -46,4 +46,4 @@ body:after{
   color: #fff;
   line-height: 27px;
   transform:rotate(45deg);
-}
+}*/
