@@ -465,10 +465,10 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-
-
+## 6. Technological Requirements for Medium of Exchange
 
 
 
@@ -482,44 +482,44 @@ The coexistence of competing private currencies has been documented from some au
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 6. Known Money Configurations
+## 7. Known Money Configurations
 
 
-### 6.1. Physical Configurations
+### 7.1. Physical Configurations
 
 
-#### 6.1.1. Barter
+#### 7.1.1. Barter
 
 
-#### 6.1.2. Commodity Money
+#### 7.1.2. Commodity Money
 
 
-#### 6.1.3. Representative Money
+#### 7.1.3. Representative Money
 
 
-#### 6.1.4. Fiat Money
+#### 7.1.4. Fiat Money
 
-### 6.2. Tokenizations
+### 7.2. Tokenizations
 
-#### 6.2.1. Unbacked Tokens
+#### 7.2.1. Unbacked Tokens
 
 
-#### 6.2.2. Utility Tokens
+#### 7.2.2. Utility Tokens
 
-##### 6.2.2.1. Bitcoin
+##### 7.2.2.1. Bitcoin
 
 bitcoin as monetary standard
 
-##### 6.2.2.2. Monero
+##### 7.2.2.2. Monero
 
-#### 6.2.3. Security Tokens
-
-
-
-#### 6.2.4. Stablecoins
+#### 7.2.3. Security Tokens
 
 
-#### 6.2.5. NFTs
+
+#### 7.2.4. Stablecoins
+
+
+#### 7.2.5. NFTs
 
 
 
@@ -532,7 +532,9 @@ bitcoin as monetary standard
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 7. On the Necessity of a Quality Theory of Money
+## 8. On the Necessity of a Quality Theory of Money
+
+#### 8.1. QTM
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -542,9 +544,89 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
+#### 8.1. Medium of Exchange Requirements
 
-
-
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Feature</b></td>
+			<td><b>Description</b></td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="3"><b>Physical Requirements</b></td>
+		</tr>
+		<tr>
+			<td>Uniform</td>
+			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
+		</tr>
+		<tr>
+			<td>Divisible</td>
+			<td>easy to divide up in smaller parts or put them together to larger parts</td>
+		</tr>
+		<tr>
+			<td>Durable</td>
+			<td>we can store it and it won’t age with time</td>
+		</tr>
+		<tr>
+			<td>Recognizable</td>
+			<td>easy to recognize the material, it should not demand extensive tests to prove what material it is</td>
+		</tr>
+		<tr>
+			<td>Unforgeable</td>
+			<td>very hard or even impossible to counterfeit</td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td>total supply of the medium is limited and known</td>
+		</tr>
+		<tr>
+			<td>Acceptable</td>
+			<td>accepted as a medium of exchange in the community</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="3"><b>Economic Requirements</b></td>
+		</tr>
+		<tr>
+			<td>Stable (Short Term)</td>
+			<td>Must be able to form a price system</td>
+		</tr>
+		<tr>
+			<td>Credit</td>
+			<td>Must be able to provide credit</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="3"><b>Engineering Requirements</b></td>
+		</tr>
+		<tr>
+			<td>Stable (Long Term)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Competing</td>
+			<td></td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="3"><b>Electronic Requirements</b></td>
+		</tr>
+		<tr>
+			<td>Secure</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Decentralized</td>
+			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
+		</tr>
+		<tr>
+			<td>Compliant</td>
+			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
+		</tr>
+		<tr>
+			<td>Transparent</td>
+			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 
 
@@ -553,9 +635,9 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8. On the Necessity of a New Kind of Money
+## 9. On the Necessity of a New Kind of Money
 
-### 8.1. Further Industry Development
+### 9.1. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -565,7 +647,7 @@ Private 'Lender of Last Resort?
 
 
 
-### 8.2. Free Banking Introduction
+### 9.2. Free Banking Introduction
 
 incremental introduction
 
@@ -578,7 +660,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 8.3. Ending Financial Exclusion
+### 9.3. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -590,7 +672,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-### 8.4. Crowdsolving
+### 9.4. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -610,7 +692,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 - governments will be able to delegate the difficult part into citizens
 
-### 8.5. Comparing Economic Models
+### 9.5. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -698,7 +780,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 9. Conclusion
+## 10. Conclusion
 ---
 
 
@@ -712,7 +794,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 10. References
+## 11. References
 ---
 
 
