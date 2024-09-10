@@ -209,7 +209,7 @@ Price Formation
 
 
 
-## 3. Physical Requirements of Medium of Exchange
+## 3. Physical Requirements for Medium of Exchange
 ---
 
 <!---
@@ -296,7 +296,7 @@ We will discuss all the requirements that makes up a quality curency in the impl
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 4. Economic Requirements of Medium of Exchange
+## 4. Economic Requirements for Medium of Exchange
 ---
 
 
@@ -381,7 +381,7 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 
 
-## 5. Engineering Requirements of Medium of Exchange
+## 5. Engineering Requirements for Medium of Exchange
 ---
 
 ### 5.1. Stability of Economic Models
@@ -479,41 +479,114 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 ## 6. Known Money Configurations
 
-### 6.1. Barter
+
+### 6.1. Physical Configurations
 
 
-### 6.2. Commodity Money
+#### 6.1.1. Barter
 
 
-### 6.3. Representative Money
+#### 6.1.2. Commodity Money
 
 
-### 6.4. Fiat Money
+#### 6.1.3. Representative Money
 
 
-### 6.5. Unbacked Tokens
+#### 6.1.4. Fiat Money
+
+### 6.2. Tokenizations
+
+#### 6.2.1. Unbacked Tokens
 
 
-### 6.6. Utility Tokens
+#### 6.2.2. Utility Tokens
+
+##### 6.2.2.1. Bitcoin
 
 
-### 6.7. Security Tokens
+###### 6.2.2.2. Monero
+
+#### 6.2.3. Security Tokens
 
 
 
-### 6.8. Stablecoins
+#### 6.2.4. Stablecoins
 
 
-### 6.9. NFTs
+#### 6.2.5. NFTs
 
 
-### 6.10. Bitcoin
 
 
-### 6.11. Monero
 
 
-### 6.12. Comparing Economic Models
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 7. The necessity of a new kind of Money
+
+### 7.1. Further Industry Development
+
+Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
+
+Additionaly, insurance companies could provide services in case a currency does not follow standards.
+
+Private 'Lender of Last Resort?
+
+
+
+### 7.2. Free Banking Introduction
+
+incremental introduction
+
+coexistence with legal ledger
+
+
+In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
+
+First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
+
+ For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
+
+### 7.3. Ending Financial Exclusion
+
+Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
+
+* any citizen could fundraise to grow a real economy project providing value in his community
+
+* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
+
+* there would be healthy projects a broader job offer available.
+
+In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
+
+### 7.4. Crowdsolving
+
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
+
+### 7.5. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -595,72 +668,6 @@ Market itself, if not distorted, is a well performing price formation machine. A
 		</tbody>
 	</table>
 </div>
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 7. The necessity of a new kind of Money
-
-### 7.1. Further Industry Development
-
-Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
-
-Additionaly, insurance companies could provide services in case a currency does not follow standards.
-
-Private 'Lender of Last Resort?
-
-
-
-### 7.2. Free Banking Introduction
-
-incremental introduction
-
-coexistence with legal ledger
-
-
-In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
-
-First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
-
- For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
-
-### 7.3. Ending Financial Exclusion
-
-Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
-
-* any citizen could fundraise to grow a real economy project providing value in his community
-
-* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
-
-* there would be healthy projects a broader job offer available.
-
-In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
-
-### 7.4. Crowdsolving
-
-Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
-
-- issuers will be able to fund his local or global project
-
-- issuers will also profit by providing DeFi Services to society
-
-- investors will profit by investing in successful projects
-
-- consumers will benefit with higher offer
-
-- citizens excluded from financial system will be able to fund their projects with private risk
-
-- society will benefit from more liquid financial markets
-
-- citizens from developing countries can create their own economy and fix their problems
-
-- governments will be able to delegate the difficult part into citizens
-
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
