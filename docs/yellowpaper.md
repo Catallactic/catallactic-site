@@ -379,8 +379,16 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 ### 5.1. Systems Stability
 
+#### 5.1.1. A Regulated System
 
-#### 5.1.1. Positive and Negative Feedback
+In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.tutorialspoint.com/control_systems/images/positive_feedback.jpg" width="50%"></img>
+</div>
+<br/>
+
+#### 5.1.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -412,37 +420,45 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-#### 5.1.1. A Regulated System
+
+#### 5.1.3. A centralized system
+
+positive feedback
 
 
-#### 5.2.4. A self-regulated system
+#### 5.1.4. A self-regulated system
 
-In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
+negative feedback
+
+Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://www.tutorialspoint.com/control_systems/images/positive_feedback.jpg" width="50%"></img>
+	<img src="/img/ecosystem_loop.svg" width="70%"></img>
 </div>
 <br/>
 
 
-
 ### 5.2. Economic Calculation
-
 
 Use of Knowledge in Society [58]
 
 
 #### 5.2.1 Price Formation
 
+price formation in a centralized system
 
-#### 5.2.2. Regression Theorem
+price formation in a self-regulated system
+
+
+
+### 5.3. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
 
 
-### 5.3. Currency competition
+### 5.4. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors.
 
@@ -451,15 +467,6 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-
-#### 5.3.1. Regulation in a CryptoCommodity market
-
-Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_loop.svg" width="70%"></img>
-</div>
-<br/>
 
 
 
