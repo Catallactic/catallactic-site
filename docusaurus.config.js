@@ -149,7 +149,7 @@ const config = {
 					}, {
 						type: 'doc',
 						docId: 'yellowpaper', 
-						label: 'yellowpaper', 
+						label: 'Yellowpaper', 
 						position: 'right'
 					}, {
 						type: 'doc',
