@@ -205,6 +205,8 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 
 Price Formation
 
+#### 4.1.4. Monetary Standard
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -471,10 +473,63 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
+
+
+
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 6. Necessity of a Quality Theory of Money
+## 6. Known Money Configurations
+
+
+### 6.1. Physical Configurations
+
+
+#### 6.1.1. Barter
+
+
+#### 6.1.2. Commodity Money
+
+
+#### 6.1.3. Representative Money
+
+
+#### 6.1.4. Fiat Money
+
+### 6.2. Tokenizations
+
+#### 6.2.1. Unbacked Tokens
+
+
+#### 6.2.2. Utility Tokens
+
+##### 6.2.2.1. Bitcoin
+
+bitcoin as monetary standard
+
+##### 6.2.2.2. Monero
+
+#### 6.2.3. Security Tokens
+
+
+
+#### 6.2.4. Stablecoins
+
+
+#### 6.2.5. NFTs
+
+
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 7. On the Necessity of a Quality Theory of Money
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -495,59 +550,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 7. Known Money Configurations
-
-
-### 7.1. Physical Configurations
-
-
-#### 7.1.1. Barter
-
-
-#### 7.1.2. Commodity Money
-
-
-#### 7.1.3. Representative Money
-
-
-#### 7.1.4. Fiat Money
-
-### 7.2. Tokenizations
-
-#### 7.2.1. Unbacked Tokens
-
-
-#### 7.2.2. Utility Tokens
-
-##### 7.2.2.1. Bitcoin
-
-
-##### 7.2.2.2. Monero
-
-#### 7.2.3. Security Tokens
-
-
-
-#### 7.2.4. Stablecoins
-
-
-#### 7.2.5. NFTs
-
-
-
-
-
-
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 8. The necessity of a new kind of Money
+## 8. On the Necessity of a New Kind of Money
 
 ### 8.1. Further Industry Development
 
