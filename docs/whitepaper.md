@@ -143,26 +143,6 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
-### 3.9. CryptoCommodity vs Stablecoin
-
-The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
-
-|                                 | Stablecoin                                        | CryptoCommodity                                                               |
-| :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
-| Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
-| Collateralized by               | Multiple                                          | Underlying market of fungible physical or digital asset                       |
-| Collateral Size                 | 100% by law                                       | Configurable by issuer                                                        |
-| Price Formation                 | Pegged to Fiat Price of asset in external market  | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
-| Scope                           | Mostly Global														          | Local or Global                                                               |
-| Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
-| Process Decentralized?          | No, manual stabilization					                | Yes, built-in automated stabilization                                         |
-| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                                 |
-| Disclosures  										| No                                                | Yes, full disclosure                                                          |
-| Allows project funding?         | No                                                | Yes                                                                           |
-| Collateral on inception needed? | Yes                                               | No                                                                            |
-| Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
-
-
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -186,17 +166,7 @@ CryptoCommodities purchasing power is borrowed from the marginal utility of the 
 
 CryptoCommodities do not aim to be become a monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represent the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 4.3. CryptoCommodity as Competing Money
-
-Quantity Theory of Money does not reconciliate well with crypto. As Hayek claimed 
-
-> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
-
-This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
-
-Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
-
-### 4.4. CryptoCommodity Principles
+### 4.2. CryptoCommodity Principles
 
 CryptoCommodities are built on clear principles. These principles must be provided in the contract. 
 
@@ -214,7 +184,7 @@ CryptoCommodities are built on clear principles. These principles must be provid
 
 However, as the principles mayb change between regions or underlying assets a degree of configuration must be also included.
 
-### 4.5. The ideal underlying asset
+### 4.3. The ideal underlying asset
 
 To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
@@ -255,6 +225,25 @@ Additionally, the price is formed in the basis of a service. Some services that 
 	</table>
 </div>
 <br/>
+
+### 4.4. CryptoCommodity vs Stablecoin
+
+The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
+
+|                                 | Stablecoin                                        | CryptoCommodity                                                               |
+| :-------------------------------| :-------------------------------------------------| :-----------------------------------------------------------------------------|
+| Backed by                       | Physical, digital, financial asset                | Underlying market of fungible physical or digital asset                       |
+| Collateralized by               | Multiple                                          | Underlying market of fungible physical or digital asset                       |
+| Collateral Size                 | 100% by law                                       | Configurable by issuer                                                        |
+| Price Formation                 | Pegged to Fiat Price of asset in external market  | Pegged to economic value of asset in underlying market. Decoupled from fiat   |
+| Scope                           | Mostly Global														          | Local or Global                                                               |
+| Value Decentralized?            | No, pegged to fiat prices with Oracles				    | Yes, forms its own price                                                      |
+| Process Decentralized?          | No, manual stabilization					                | Yes, built-in automated stabilization                                         |
+| Decisions Decentralized?        | No, opaque decisions  			   		                | Yes, releasing to the community when possible                                 |
+| Disclosures  										| No                                                | Yes, full disclosure                                                          |
+| Allows project funding?         | No                                                | Yes                                                                           |
+| Collateral on inception needed? | Yes                                               | No                                                                            |
+| Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 

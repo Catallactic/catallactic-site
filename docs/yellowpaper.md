@@ -434,6 +434,15 @@ Price formation
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
+
+
+
+#### 5.3.1. Currency competition
+
+The coexistence of competing private currencies has been documented from some authors.
+
+
+
 #### 5.2.4. A self-regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
@@ -443,17 +452,6 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-
-
-
-
-
-
-
-
-#### 5.3.1. Currency competition
-
-The coexistence of competing private currencies has been documented from some authors. 
 
 
 #### 5.3.2. Regulation in a CryptoCommodity market
@@ -473,50 +471,18 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 6. Known Money Configurations
+## 6. Necessity of a Quality Theory of Money
 
+Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
-### 6.1. Physical Configurations
+> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
 
+This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
 
-#### 6.1.1. Barter
-
-
-#### 6.1.2. Commodity Money
-
-
-#### 6.1.3. Representative Money
-
-
-#### 6.1.4. Fiat Money
-
-### 6.2. Tokenizations
-
-#### 6.2.1. Unbacked Tokens
-
-
-#### 6.2.2. Utility Tokens
-
-##### 6.2.2.1. Bitcoin
-
-
-###### 6.2.2.2. Monero
-
-#### 6.2.3. Security Tokens
-
-
-
-#### 6.2.4. Stablecoins
-
-
-#### 6.2.5. NFTs
-
-
-
+Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
 
 
@@ -529,9 +495,61 @@ Market itself, if not distorted, is a well performing price formation machine. A
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 7. The necessity of a new kind of Money
+## 7. Known Money Configurations
 
-### 7.1. Further Industry Development
+
+### 7.1. Physical Configurations
+
+
+#### 7.1.1. Barter
+
+
+#### 7.1.2. Commodity Money
+
+
+#### 7.1.3. Representative Money
+
+
+#### 7.1.4. Fiat Money
+
+### 7.2. Tokenizations
+
+#### 7.2.1. Unbacked Tokens
+
+
+#### 7.2.2. Utility Tokens
+
+##### 7.2.2.1. Bitcoin
+
+
+##### 7.2.2.2. Monero
+
+#### 7.2.3. Security Tokens
+
+
+
+#### 7.2.4. Stablecoins
+
+
+#### 7.2.5. NFTs
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 8. The necessity of a new kind of Money
+
+### 8.1. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -541,7 +559,7 @@ Private 'Lender of Last Resort?
 
 
 
-### 7.2. Free Banking Introduction
+### 8.2. Free Banking Introduction
 
 incremental introduction
 
@@ -554,7 +572,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 7.3. Ending Financial Exclusion
+### 8.3. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -566,7 +584,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-### 7.4. Crowdsolving
+### 8.4. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -586,7 +604,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 - governments will be able to delegate the difficult part into citizens
 
-### 7.5. Comparing Economic Models
+### 8.5. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -674,7 +692,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 8. Conclusion
+## 9. Conclusion
 ---
 
 
@@ -688,7 +706,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 19. References
+## 10. References
 ---
 
 
