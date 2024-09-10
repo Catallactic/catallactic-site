@@ -220,52 +220,7 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 ## 5. Engineering Requirements of Medium of Exchange
 ---
 
-
-### 5.1. Use of Knowledge in Society
-
-[58]
-
-
-#### 5.1.1 Price Formation
-
-
-
-#### 5.1.2. Economic Calculation
-
-Price formation
-
-#### 5.1.3. A self-regulated system
-
-In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://www.tutorialspoint.com/control_systems/images/positive_feedback.jpg" width="50%"></img>
-</div>
-<br/>
-
-
-
-
-
-
-
-
-
-#### 5.3.1. Currency competition
-
-The coexistence of competing private currencies has been documented from some authors. 
-
-
-#### 5.3.2. Regulation in a CryptoCommodity market
-
-Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_loop.svg" width="70%"></img>
-</div>
-<br/>
-
-### 5.6. Stability of Economic Models
+### 5.1. Stability of Economic Models
 
 When providing ffedback to a system, there are 2 possibilities:
 
@@ -298,6 +253,53 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
+### 5.2. Use of Knowledge in Society
+
+[58]
+
+
+#### 5.2.1 Price Formation
+
+
+
+#### 5.2.2. Economic Calculation
+
+Price formation
+
+#### 5.2.3. A self-regulated system
+
+In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.tutorialspoint.com/control_systems/images/positive_feedback.jpg" width="50%"></img>
+</div>
+<br/>
+
+
+
+
+
+
+
+
+
+#### 5.3.1. Currency competition
+
+The coexistence of competing private currencies has been documented from some authors. 
+
+
+#### 5.3.2. Regulation in a CryptoCommodity market
+
+Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_loop.svg" width="70%"></img>
+</div>
+<br/>
+
+
+
+
 
 
 
@@ -307,12 +309,43 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-### 6. Known Money Configurations
+## 6. Known Money Configurations
+
+### 6.1. Barter
+
+
+### 6.2. Commodity Money
+
+
+### 6.3. Representative Money
+
+
+### 6.4. Fiat Money
+
+
+### 6.5. Unbacked Tokens
+
+
+### 6.6. Utility Tokens
+
+
+### 6.7. Security Tokens
 
 
 
+### 6.8. Stablecoins
 
-### 6.5. Comparing Economic Models
+
+### 6.9. NFTs
+
+
+### 6.10. Bitcoin
+
+
+### 6.11. Monero
+
+
+### 6.12. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -396,10 +429,7 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 </div>
 
 
-### 6.2. Economic Calculation Under Gold Standard
 
-
-### 6.3. Economic Calculation Under Currency Competition
 
 
 
@@ -483,6 +513,114 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 9. References
+## 19. References
 ---
 
+
+[-1] Money and the Mechanism of Exchange, W. Stanley Jevons, 1896 - https://mises.org/library/money-and-mechanism-exchange
+
+[0] The Mystery of Banking, by Murray N. Rothbard, 1993, https://mises.org/library/mystery-banking
+
+[1] Wealth of Nations, by Adam Smith, https://www.gutenberg.org/files/3300/3300-h/3300-h.htm
+
+[2] The Theory of Money and Credit, Ludwig von Mises, 1912 - https://mises.org/library/theory-money-and-credit
+
+[3] The Competitive Supply of Money, Benjamin Klein, Journal of Money, Credit and Banking, 1974, vol. 6, issue 4, 423-53 https://econpapers.repec.org/article/mcbjmoncb/v_3a6_3ay_3a1974_3ai_3a4_3ap_3a423-53.htm
+
+[4] Toward a Free Market Monetary System, The Journal of Libertarian Studies, TAGS Free MarketsMonetary Theory, Friedrich A. Hayek, Volume 3, Number 1 (1979) https://mises.org/library/toward-free-market-monetary-system-1
+
+[5] A Laissez-Faire Approach to Monetary Stability, Robert L. Greenfield and Leland B. Yeager, 1983 - https://www.jstor.org/stable/1992481
+
+[6] `On the economics of private money' by Robert G. King Lawrence Summers, Journal of Monetary Economics, 1983, vol. 12, issue 1, 159-162 https://econpapers.repec.org/article/eeemoneco/v_3a12_3ay_3a1983_3ai_3a1_3ap_3a159-162.htm
+
+[7] Has government any role in money? Milton Friedman, Anna J. Schwartz https://www.sciencedirect.com/science/article/abs/pii/030439328690005X
+
+[8] The Evolution of Central Banks By Charles Goodhart, $30.00 Paperback Hardcover 218 pp., 5 x 8 in, Paperback 9780262570732, September 16, 1988 https://mitpress.mit.edu/9780262570732/the-evolution-of-central-banks/
+
+[9] Private Money: The Path to Monetary Stability, Kevin Dowd, Institute of Economic Affairs, 1988 - 71 pagina's https://iea.org.uk/publications/research/private-money-the-path-to-monetary-stability
+
+[10] The Theory of Free Banking: Money Supply under Competitive Note Issue, 1988 George A. Selgin https://oll.libertyfund.org/title/white-the-theory-of-free-banking-money-supply-under-competitive-note-issue
+
+[11] The State and the Monetary System. Phillip Allan Publishers, St Martin's Press, Dowd, K. (1989). https://durham-repository.worktribe.com/output/1124158
+
+[12] In Search of a Monetary Anchor: A "New" Monetary Standard, International Monetary Fund, 01 Jan 1989 - https://www.elibrary.imf.org/view/journals/001/1989/082/001.1989.issue-082-en.xml
+
+[13] Denationalisation of Money: The Argument Refined, Friedrich A. Hayek, 1990 - https://mises.org/library/denationalisation-money-argument-refined
+
+[14] How Would the Invisible Hand Handle Money? Journal of Economic Literature 32, no. 4 (1994): 1718–1749. Selgin, George A., and Lawrence H. White.  Journal of Economic Literature, 1994, vol. 32, issue 4, 1718-1749 https://econpapers.repec.org/article/aeajeclit/v_3a32_3ay_3a1994_3ai_3a4_3ap_3a1718-1749.htm
+
+[15] The Theory of Monetary Institutions. Malden, Mass.: Blackwell, 1999. White, Lawrence H.  https://cdn.mises.org/qjae4_2_8.pdf
+
+[16] Competitive money supply: the international monetary system in perspective Filippo Cesarano, 1999 https://www.emerald.com/insight/content/doi/10.1108/01443589910284354/full/html
+
+[18] How Might the Invisible Hand Handle Electronic Money? 26 Pages Posted: 5 May 2009 Last revised: 30 Jul 2014 Shann Turnbull https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1399224
+
+[19] Competing Money Supplies By Lawrence H. White https://www.econlib.org/library/Enc/CompetingMoneySupplies.html
+
+[20] Competitive Supply of Money in a New Monetarist Model, Waknis, Parag 11 September 2017 https://mpra.ub.uni-muenchen.de/75401/1/MPRA_paper_75401.pdf
+
+[21] Friedrich Hayek On Monetary and Banking Systems Reforms Adrian Ravier ESEADE, 9-15-2020  https://jnf.ufm.edu/cgi/viewcontent.cgi?article=1006&context=journal
+
+[22] The quality of money, Philipp Bagus, Dec. 2009 - https://mises.org/library/quality-money-0
+
+[23] The Quality Theory of Money, De-Xing Guan*April 28, 2022 - http://web.ntpu.edu.tw/~guan/papers/QTM.pdf
+
+
+
+[24] The Velocity of Circulation, Henry Hazlitt, 06/20/2019 - https://mises.org/library/velocity-circulation
+
+[25] Money creation in the modern economy, Bank of England, 14 March 2014 - https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy
+
+[26] An Essay on Economic Theory, Richard Cantillon, 1755 - https://mises.org/library/essay-economic-theory-0
+
+[27] Essays in Positive Economics, Milton Friedman, 1966 - https://press.uchicago.edu/ucp/books/book/chicago/E/bo25773835.html
+
+[28] https://wtfhappenedin1971.com/
+
+[29] Interaction between Financial Economy and Real Economy. Ly Dai Hung, 2022 - https://hal.science/hal-03863210/
+
+
+
+
+[32] The birth of coinage, Mundell, Robert A. 2002 - https://academiccommons.columbia.edu/doi/10.7916/D8Q531TK
+
+[33] Tokens: their Significance for the Origin of Counting and Writing, Denise Schmandt-Besserat - https://sites.utexas.edu/dsb/tokens/tokens/
+
+[34] A Treatise on Money, John Maynard Keynes, 1930 - https://ia601502.us.archive.org/4/items/in.ernet.dli.2015.28575/2015.28575.A-Treatise-On-Money.pdf
+
+[35] A treatise on money and essays on monetary problems, Joseph Shield Nicholson, 1895 - https://www.survivorlibrary.com/library/a_treatise_on_money_1895.pdf
+
+
+
+
+
+
+
+[38] Hayek Money: The Cryptocurrency Price Stability Solution, Ferdinando M. Ametrano, 2016 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2425270
+
+[39] A Note on Cryptocurrency Stabilisation: Seigniorage Shares, Robert Sams, 2015 - https://blog.bitmex.com/wp-content/uploads/2018/06/A-Note-on-Cryptocurrency-Stabilisation-Seigniorage-Shares.pdf
+
+[40] What is Stablecoin?: A Survey on Its Mechanism and Potential as Decentralized Payment Systems. Makiko Mita, Kensuke Ito, Shohei Ohsawa, Hideyuki Tanaka - https://arxiv.org/pdf/1906.06037.pdf
+
+[41] The Holy Grail of Crypto Currencies: Ready to Replace Fiat Money?, Richard Senner, Didier Sornette, 2018 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3192924
+
+[42] The Market for Cryptocurrencies, Lawrence H. White - https://www.cato.org/sites/cato.org/files/serials/files/cato-journal/2015/5/cj-v35n2-13.pdf
+
+
+
+[43] Regulation, Supervision and Oversight of “Global Stablecoin” Arrangements, FSB - https://www.fsb.org/2020/10/regulation-supervision-and-oversight-of-global-stablecoin-arrangements/
+
+[43] https://mises.org/wire/money-supply-continues-its-biggest-collapse-great-depression
+
+
+[45] OECD (2019), Initial Coin Offerings (ICOs) for SME Financing, - https://www.oecd.org/finance/initial-coin-offerings-for-sme-financing.htm
+
+
+
+[46] Regulating the Crypto Ecosystem: The Case of Stablecoins and Arrangements, 2022,  https://www.imf.org/en/Publications/fintech-notes/Issues/2022/09/26/Regulating-the-Crypto-Ecosystem-The-Case-of-Stablecoins-and-Arrangements-523724
+
+
+
+[50] Unit of Account, Medium of Exchange, and Prices, January 2011, Young Sik Kim, Manjong Lee - https://www.researchgate.net/publication/254421998_Unit_of_Account_Medium_of_Exchange_and_Prices
+
+[58] The Use of Knowledge in Society, Hayek, 1945 - https://www.econlib.org/library/Essays/hykKnw.html
