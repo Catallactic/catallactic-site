@@ -148,13 +148,18 @@ const config = {
             label: 'Ecosystem',
 					}, {
 						type: 'doc',
-						docId: 'litepaper', 
-						label: 'Litepaper', 
+						docId: 'yellowpaper', 
+						label: 'yellowpaper', 
 						position: 'right'
 					}, {
 						type: 'doc',
 						docId: 'whitepaper', 
 						label: 'Whitepaper', 
+						position: 'right'
+					}, {
+						type: 'doc',
+						docId: 'litepaper', 
+						label: 'Litepaper', 
 						position: 'right'
 					}, {
 						to: '/book', 
