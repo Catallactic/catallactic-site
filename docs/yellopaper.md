@@ -1,6 +1,6 @@
 ---
-slug: Whitepaper
-title: Whitepaper
+slug: Yellowpaper
+title: Yellowpaper
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 image: https://i.imgur.com/mErPwqL.png
