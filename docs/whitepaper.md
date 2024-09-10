@@ -43,14 +43,14 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 3. CryptoCommodity
+## 1. CryptoCommodity
 ---
 
 CryptoCommodities are representative money in electronic form. As representative money, they represents the intrinsic value of the underlying asset. CryptoCommodities do not aim to provide a measurement of this intrinsic value but, instead, they rely in a price formation mechanism to capture the marginal utility of the asset.
 
 CryptoCommodities are a specialization of Utility Tokens built on top of a fungible asset, that add a stabilization mechamism once value is captured, to create a Currency Token.
 
-### 3.1. The Underlying Asset
+### 1.1. The Underlying Asset
 
 To understand a CryptoCommodity lets first examine how a regular RWA stablecoin works. A regular RWA stablecoin is backed by an asset, typically a physical asset. This asset has an unknown intrinsic value. By binding 1-to-1 the supply of the stablecoin to the RWA stock as collateral, the stablecoin is able to capture the intrinsic value of the asset. However, the stablecoin knowns nothing about the marginal utility that the RWA will produce on consumers. Therefore, the stablecoin is unable to form its own price and this must be borrowed from an external source, typically an internaciobal RWA market. There are some consequences of this fact: first, according to regulations, the stablecoin must be collateralized from inception and, therefore, only issuers with enough collateral can issue an stablecoin. Secondly, as the value is provided from inception, issuers do not have a chance to fundraise. Also, issuers, must custody and, potentially, redeem the asset incurring in high operating expenses. Since the price is borrowed from a fiat source, this configuration typically creates a fiat-bound currency, and decentralization in value is compromissed. Similar features apply to stablecoins bound to currencies, either fiat or not fiat.
 
@@ -64,7 +64,7 @@ But there is more. As an utility-proxied asset is one time event, meaning that w
 <br/>
 
 
-### 3.2. Binding Asset to CryptoCommodity
+### 1.2. Binding Asset to CryptoCommodity
 
 Once the underlying asset id defined, we are reaady to bind this asset to the CryptoCommodity. The mission of the underlaying asset is to provide value to the CrytoCommodity. In sucha a way that the CryptoCommodit becomes representative of the compromissed unit of underlying asset.
 
@@ -73,7 +73,7 @@ Once the underlying asset id defined, we are reaady to bind this asset to the Cr
 </div>
 <br/>
 
-### 3.3. Exposing Intrinsic Value
+### 1.3. Exposing Intrinsic Value
 
 So, for a CryptoCommodity backed by this composed asset exposed in a exchange, the marginal utility will be converted into a price with the exchamnge price formation mechanism. 
 
@@ -86,7 +86,7 @@ The price is formed in the internal ecosystem of the CryptoCommodity so not acce
 
 The price formation is dynamic, which means, is in a continual revision. The purchasing power of the currency will growth in relation to other currencies as long the issuer is providing incremental value to the society. If the provider denies to provide value, the CryptoCommodity value will fall, and its purchasing power will be reduced. As a consequence consumers will prefer other currencies. This will encourage the issuer to provide the best practies and a environment of wealth.
 
-### 3.4. CryptoCommodity Peg
+### 1.4. CryptoCommodity Peg
 
 As a Stablecoin, a CryptoCommodity value has a natural built-in stability. This stability is borrowed from the underlying asset.
 
@@ -96,7 +96,7 @@ Since blockchain advent, the cryptocurrency landscape is rich in fiat backed sta
 
 A CryptoCommodity is different animal to fiat backed stablecoins. A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem. A CryptoCommodity delivers the foundation for a true value decentralization.
 
-### 3.5. Collateral
+### 1.5. Collateral
 
 No stablecoin had been invented that is both hard pegged to a stable physical asset with intrinsic utility and fully decentralized. In this context, “hard pegged” means that each token issued is directly exchangeable for a specified quantity of a physical asset [57]. Murialdo and Belof presented E-Stablecoin, a cryptocurrency that is both fully decentralized and fully collateralized by a physical asset with stable value and intrinsic utility (electricity) [57].
 
@@ -123,37 +123,24 @@ This is not the case for CryptoCommodities as they are redeemable by the proxied
 
 Depends on the kind of asset service, collateral could be just a provision guarantee with a service provider.
 
-### 3.6. Redeemability
+### 1.6. Redeemability
 
 The issuer must proof the ability of delivering the compromissed utility for the covered collaterization ratio. This must be in a contract
 
 
-### 3.7. CryptoCommodity Ecosystem
 
-CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_before.svg" width="80%"></img>
-</div>
-<br/>
-
-The value extracted from the undelying asset by the CryptoCommodity issuer will be delivered to the society in the form of DeFi Services.
-
-### 3.8. CryptoCommodity Scope
-
-CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 4. CryptoCommodity as Quality Money
+## 2. CryptoCommodity as Quality Money
 ---
 
 In this section we will discuss the requirements that enable CryptoCommodity to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. That is to increase its demand.
 
-### 4.1. CryptoCommodity Functions
+### 2.1. CryptoCommodity Functions
 
 CryptoCommodities capture the underlying asset economic value to deliver the 3 main functions of money in the same Currency Token. 
 
@@ -166,7 +153,7 @@ CryptoCommodities purchasing power is borrowed from the marginal utility of the 
 
 CryptoCommodities do not aim to be become a monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represent the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 4.2. CryptoCommodity Principles
+### 2.2. CryptoCommodity Principles
 
 CryptoCommodities are built on clear principles. These principles must be provided in the contract. 
 
@@ -184,7 +171,7 @@ CryptoCommodities are built on clear principles. These principles must be provid
 
 However, as the principles mayb change between regions or underlying assets a degree of configuration must be also included.
 
-### 4.3. The ideal underlying asset
+### 2.3. The ideal underlying asset
 
 To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
@@ -226,7 +213,7 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </div>
 <br/>
 
-### 4.4. CryptoCommodity vs Stablecoin
+### 2.4. CryptoCommodity vs Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -244,6 +231,31 @@ The only Token Model that has the purpose to become a currency today is the Stab
 | Allows project funding?         | No                                                | Yes                                                                           |
 | Collateral on inception needed? | Yes                                               | No                                                                            |
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
+
+
+
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 3. CryptoCommodity Ecosystem
+
+CryptoCommodity is built on a fungible asset that can be extracted, manufactured and/or transformed, commercialized and/or serviced. A CryptoCommodity has a built-in stabilization mechamism, in coordination with the exchange, to capture the value of the asset from the upderlying  market. As a consequence, a CryptoCommodity includes a price formation within its ecosystem. 
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_before.svg" width="80%"></img>
+</div>
+<br/>
+
+The value extracted from the undelying asset by the CryptoCommodity issuer will be delivered to the society in the form of DeFi Services.
+
+### 3.1. CryptoCommodity Scope
+
+CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
+
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
