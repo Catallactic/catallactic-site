@@ -130,7 +130,80 @@ Menger famously argued that one or a few generally employed media of exchange ev
 
 In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
 
-A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange. 
+A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
+
+
+### 2.3. Medium of Exchange
+
+The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
+
+The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. Different authors provided different insights on the quality of money.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Money</td>
+			<td>Qualities as Currency</td>
+		</tr>
+		<tr>
+			<td>Juan de Mariana (1609)</td>
+			<td>Deterioration of the quality of gold coins must be considered a tax</td>
+		</tr>
+		<tr>
+			<td>Sir William Petty (1662)</td>
+			<td>Deterioration of the quality of coins by the government a tax</td>
+		</tr>
+		<tr>
+			<td>Adam Smith (1776)</td>
+			<td>Durability and divisibility</td>
+		</tr>
+		<tr>
+			<td>Jean Baptiste Say (1802)</td>
+			<td>Divisible, of the same quality, resistant to friction, sufficiently rare, and malleable</td>
+		</tr>
+		<tr>
+			<td>John Stuart Mill (1848)</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Carl Menger (1871)</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>William Stanley Jevons’s (1875)</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Mises (1953)</td>
+			<td>Does not mention the quality of money</td>
+		</tr>
+		<tr>
+			<td>Rothbard (2004)</td>
+			<td>In heavy demand, highly divisible, portable, durable, and has a high value per unit weight</td>
+		</tr>
+		<tr>
+			<td>Friedrich Hayek</td>
+			<td>-</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
+
+One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
+
+#### 4.1.3. Store of Value
+
+<!---
+https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
+* divisible
+* fungible
+* countable
+-->
+#### 4.1.3. Unit of Account
+
+Price Formation
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -139,7 +212,86 @@ A unit of account can coexist with multiple media of exchange. The euro existed 
 ## 3. Physical Requirements of Medium of Exchange
 ---
 
+<!---
+https://bitcoinmagazine.com/guides/what-is-money
+-->
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Quality</td>
+			<td>Author</td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>Uniform</td>
+			<td>Say</td>
+			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
+		</tr>
+		<tr>
+			<td>Divisible</td>
+			<td>Adam Smith, Say, Rothbard [0]</td>
+			<td>easy to divide up in smaller parts or put them together to larger parts</td>
+		</tr>
+		<tr>
+			<td>Durable</td>
+			<td>Adam Smith, Say, Rothbard [0]</td>
+			<td>we can store it and it won’t age with time</td>
+		</tr>
+		<tr>
+			<td>Recognizable</td>
+			<td></td>
+			<td>easy to recognize the material, it should not demand extensive tests to prove what material it is</td>
+		</tr>
+		<tr>
+			<td>Unforgeable</td>
+			<td></td>
+			<td>very hard or even impossible to counterfeit</td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td>Say, </td>
+			<td>total supply of the medium is limited and known</td>
+		</tr>
+		<tr>
+			<td>Acceptable</td>
+			<td>Rothbard [0]</td>
+			<td>accepted as a medium of exchange in the community</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
+In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
+
+To work as a Medium of Exchange:
+
+* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problem for an smart contract
+
+* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
+
+* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
+
+* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
+
+To work as Store of Value:
+
+* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+
+* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+
+* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+
+To work as Unit of Account:
+
+* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
+
+* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
+
+Additionally, the above requirements must be customized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
+
+We will discuss all the requirements that makes up a quality curency in the implementation section.
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -149,6 +301,18 @@ A unit of account can coexist with multiple media of exchange. The euro existed 
 
 
 ### 4.1. Quantity Theory of Money
+
+In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
+
+The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
+</div>
+
+where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
+
+The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 #### 4.1.1. Monetary Expansion
 
@@ -266,7 +430,11 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 
 Price formation
 
-#### 5.2.3. A self-regulated system
+#### 5.2.3. Regression Theorem
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
+#### 5.2.4. A self-regulated system
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
