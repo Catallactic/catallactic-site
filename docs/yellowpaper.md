@@ -17,7 +17,7 @@ import { Doughnut } from 'react-chartjs-2';
 import '@site/src/css/papers.css';
 
 :::note
-`(Please, be aware that, whereas this whitepaper already gives an idea of what a CryptoCommodity is, still is a work in progress)`
+`(Please, be aware that, whereas this yellowpaper already gives an idea of why a new form of money is needed, still is a work in progress)`
 :::
 
 ## Abstract
@@ -51,7 +51,8 @@ An intrinsic theory of value (also called theory of objective value) is any theo
 
 Marginalism as a formal theory can be attributed to the work of three economists, W. Jevons (1835-1882) in England, C. Menger (1840-1921) in Austria, and Walras in Switzerland.  William Stanley Jevons first proposed the theory in articles in 1863 and 1871. Carl Menger presented the theory in 1871. Menger explained why individuals use marginal utility to decide amongst trade-offs. Léon Walras introduced the theory in Éléments d'économie politique pure published in 1874. Walras was able to articulate the utility maximization of the consumer far better than Jevons and Menger by assuming that utility was linked to the consumption of each good. <b>Marginal utility focused on the value that the consumer received from the good when determining its value</b>.
 
-### 1.3. Supply and Demand
+
+### 1.3. Value as Supply and Demand
 
 Although the Marginal Revolution flowed from the work of Jevons, Menger and Walras, their work might have failed to enter the mainstream were it not for a second generation of economists. In England, the second generation were exemplified by Philip Wicksteed, by William Smart, and by Alfred Marshall; in Austria by Eugen Böhm von Bawerk and by Friedrich von Wieser; in Switzerland by Vilfredo Pareto; and in America by Herbert Joseph Davenport and by Frank A. Fetter.
 
@@ -301,7 +302,6 @@ We will discuss all the requirements that makes up a quality curency in the impl
 ## 4. Economic Requirements for Medium of Exchange
 ---
 
-
 ### 4.1. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
@@ -316,27 +316,17 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
-#### 4.1.1. Monetary Expansion
-
-
-### 4.2. Price System
-
-
+### 4.2. Necessity of a Price System
 
 #### 4.2.1. Purchasing Power
 
 
-#### 4.2.2. Currency Debasement
+### 4.3. Convenience of Credit
+
+### 4.4. Monetary Expansion
 
 
-
-
-### 4.3. Economic Calculation Problem
-
-
-
-
-#### 4.3.2. Debate on Neutrality of Money
+### 4.5. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -347,11 +337,14 @@ The neutrality of money, also called neutral money, is an economic theory statin
 
 price distortion
 
-#### 4.3.3. Cantillon Effects
+
+#### 4.5.1. Currency Debasement
 
 
+#### 4.5.2. Cantillon Effects
 
-### 4.4. The Split Economy
+
+#### 4.5.3. The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -359,11 +352,9 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 * The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 4.4.1. The Squeezed Real Economy
+#### 4.5.4. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
-
-
 
 <div style={{overflowX : 'auto'}}>
 	<table style={{textAlign: 'center'}}>
@@ -386,9 +377,12 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 ## 5. Engineering Requirements for Medium of Exchange
 ---
 
-### 5.1. Stability of Economic Models
+### 5.1. Systems Stability
 
-When providing ffedback to a system, there are 2 possibilities:
+
+#### 5.1.1. Positive and Negative Feedback
+
+When providing feedback to a system, there are 2 possibilities:
 
 - Negative feedback (or balancing feedback) occurs when some function of the output of a system, process, or mechanism is fed back in a manner that tends to reduce the fluctuations in the output, whether caused by changes in the input or by other disturbances. A classic example of negative feedback is a heating system thermostat — when the temperature gets high enough, the heater is turned OFF. When the temperature gets too cold, the heat is turned back ON. In each case the "feedback" generated by the thermostat "negates" the trend.
 
@@ -418,31 +412,7 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
-
-### 5.2. Use of Knowledge in Society
-
-[58]
-
-
-#### 5.2.1 Price Formation
-
-
-
-#### 5.2.2. Economic Calculation
-
-Price formation
-
-#### 5.2.3. Regression Theorem
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
-
-
-
-
-#### 5.3.1. Currency competition
-
-The coexistence of competing private currencies has been documented from some authors.
-
+#### 5.1.1. A Regulated System
 
 
 #### 5.2.4. A self-regulated system
@@ -456,7 +426,33 @@ In a regulated system, the output is somehow modified and injected to the input.
 
 
 
-#### 5.3.2. Regulation in a CryptoCommodity market
+### 5.2. Economic Calculation
+
+
+Use of Knowledge in Society [58]
+
+
+#### 5.2.1 Price Formation
+
+
+#### 5.2.2. Regression Theorem
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
+
+
+
+### 5.3. Currency competition
+
+The coexistence of competing private currencies has been documented from some authors.
+
+
+
+
+
+
+
+#### 5.3.1. Regulation in a CryptoCommodity market
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
