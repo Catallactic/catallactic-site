@@ -153,25 +153,7 @@ CryptoCommodities purchasing power is borrowed from the marginal utility of the 
 
 CryptoCommodities do not aim to be become a monetary standard. Instead CryptoCommodities are born with the vocation to participate in private currency competition. As a consequence, they can be priced in any coexisting monetary standard, no matter if this is a legal tender or a social agreement. Their mission is to represent the value of the underlaying asset and ignore any aspect external to the underlying asset.
 
-### 2.2. CryptoCommodity Principles
-
-CryptoCommodities are built on clear principles. These principles must be provided in the contract. 
-
-* **security**. CryptoCommodities must be secure. 
-
-* **decentralization**. CryptoCommodities must be decentralized enough to guarantee holders and users the promised behaviour.
-
-  * **upgradeability**. CryptoCommodities must be upgradeable during the learning period to allow accomodating new changes. This upgradeability must be protected by mechanisms as DAO gobernance to prevent a conflict with decentralization.
-
-* **compliance**. CryptoCommodities must comply with the regulations in all stages of their value chain in the areas where it is deployed.
-
-  * **privacy**. CryptoCommodities must include a privacy capability so the issuer can make use of it according to the regulation in place. This must be an optional property to prevent a conflict with compliance.
-
-* **transparency**. CryptoCommodities should provide ability to get disclosures at any moment of their current features and configuration
-
-However, as the principles mayb change between regions or underlying assets a degree of configuration must be also included.
-
-### 2.3. The ideal underlying asset
+### 2.2. The ideal underlying asset
 
 To be eligible as underlaying asset within the CryptoCommodities framework, the asset must be fungible. It can be of any nature, physical, natural, digital and there must some kind of service provided for the asset, as purchase or rent. 
 
@@ -213,7 +195,7 @@ Additionally, the price is formed in the basis of a service. Some services that 
 </div>
 <br/>
 
-### 2.4. CryptoCommodity vs Stablecoin
+### 2.3. CryptoCommodity vs Stablecoin
 
 The only Token Model that has the purpose to become a currency today is the Stablecoin. Find below differences between CryptoCommodity and Stablecoin.
 
@@ -231,11 +213,6 @@ The only Token Model that has the purpose to become a currency today is the Stab
 | Allows project funding?         | No                                                | Yes                                                                           |
 | Collateral on inception needed? | Yes                                               | No                                                                            |
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
-
-
-
-
-
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>

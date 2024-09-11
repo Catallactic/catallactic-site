@@ -470,13 +470,21 @@ The coexistence of competing private currencies has been documented from some au
 
 ## 6. Technological Requirements for Medium of Exchange
 
+CryptoCommodities are built on clear principles. These principles must be provided in the contract. 
 
+* **security**. CryptoCommodities must be secure. 
 
+* **decentralization**. CryptoCommodities must be decentralized enough to guarantee holders and users the promised behaviour.
 
+  * **upgradeability**. CryptoCommodities must be upgradeable during the learning period to allow accomodating new changes. This upgradeability must be protected by mechanisms as DAO gobernance to prevent a conflict with decentralization.
 
+* **compliance**. CryptoCommodities must comply with the regulations in all stages of their value chain in the areas where it is deployed.
 
+  * **privacy**. CryptoCommodities must include a privacy capability so the issuer can make use of it according to the regulation in place. This must be an optional property to prevent a conflict with compliance.
 
+* **transparency**. CryptoCommodities should provide ability to get disclosures at any moment of their current features and configuration
 
+However, as the principles maybe change between regions or underlying assets a degree of configuration must be also included.
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -617,8 +625,16 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
 		</tr>
 		<tr>
+			<td>Upgradeability</td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Compliant</td>
 			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
+		</tr>
+		<tr>
+			<td>Privacy</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Transparent</td>
