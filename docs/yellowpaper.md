@@ -565,7 +565,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 			<td><b>Description</b></td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
-			<td colSpan="3"><b>Physical Requirements</b></td>
+			<td colSpan="2"><b>Physical Requirements</b></td>
 		</tr>
 		<tr>
 			<td>Uniform</td>
@@ -596,29 +596,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 			<td>accepted as a medium of exchange in the community</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
-			<td colSpan="3"><b>Economic Requirements</b></td>
-		</tr>
-		<tr>
-			<td>Stable (Short Term)</td>
-			<td>Must be able to form a price system</td>
-		</tr>
-		<tr>
-			<td>Credit</td>
-			<td>Must be able to provide credit</td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="3"><b>Engineering Requirements</b></td>
-		</tr>
-		<tr>
-			<td>Stable (Long Term)</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Competing</td>
-			<td></td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="3"><b>Electronic Requirements</b></td>
+			<td colSpan="2"><b>Electronic Requirements</b></td>
 		</tr>
 		<tr>
 			<td>Secure</td>
@@ -643,6 +621,28 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 		<tr>
 			<td>Transparent</td>
 			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Economic Requirements</b></td>
+		</tr>
+		<tr>
+			<td>Stable (Short Term)</td>
+			<td>Must be able to form a price system</td>
+		</tr>
+		<tr>
+			<td>Credit</td>
+			<td>Must be able to provide credit</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Engineering Requirements</b></td>
+		</tr>
+		<tr>
+			<td>Stable (Long Term)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Competing</td>
+			<td></td>
 		</tr>
 	</table>
 </div>
