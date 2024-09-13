@@ -23,7 +23,7 @@ import '@site/src/css/papers.css';
 ## Abstract
 ---
 
-
+Money is probably one of the oldest institutions, it is as old as mankind itself. Money was invented before written history began. Consequently, any story of how money first developed is mostly based on conjecture and logical inference. During the last centuries, different money configurations have been proposed, and tested, and many authors have discussed, and exposed, their theories on how money should look like. However, we have not yet found an optimal configuration and all the existing models fail, for one reason or another. The advent of digital money enable us, for the first time ever, to design money that follows the lessons learnt and good practices. Many money configurations are being proposed at a rate not seen before. Unfortunately, for different reasons, most of these configurations, fall short on considering the different aspects and lessons learnt over the centuries and lead to repeat the same mistakes. As a consequence, there is not a real adoption in the mainstream and the different initiatives looks mislead on their goal. This document aims to open a discussion on proposing a comprehensive framework to define the features that should be included in a currency. All of them have been extensively documented in the past but, so far, there is not an unified theory.
 
 ## Keywords
 ---
