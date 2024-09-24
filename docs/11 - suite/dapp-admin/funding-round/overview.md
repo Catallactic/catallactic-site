@@ -44,7 +44,7 @@ Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
 >> ISSUER: Install Payment Methods
 
->>> _ISSUER: Set the setReceiveFacet_
+>> _ISSUER: Set the setReceiveFacet_ (the Crowdsale facet address)
 
 > ISSUER: Initialize Cryptocommodity ERC-20 with Name, Symbol, Cryptocommodity Supply
 
