@@ -398,185 +398,209 @@ const sidebars = {
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Admin DApp</span>',
-    }, {
-			type: 'category',
-      label: 'Creating Cryptocommodity',
-      items: [
-				'suite/dapp-admin/create-suite',
-				'suite/dapp-admin/supplycurrent',
-			],
-		}, {
-			type: 'category',
-      label: 'Funding your Project',
-      items: [
-				'suite/dapp-admin/funding-round/overview',
-				'suite/dapp-admin/funding-round/prepare-funding-round',
-				'suite/dapp-admin/funding-round/create-funding-round',
-				'suite/dapp-admin/funding-round/manage-funding-round',
-				'suite/dapp-admin/funding-round/close-funding-round',
-			],
-		}, {
-			type: 'category',
-      label: 'Deploying to Exchanges',
-      items: [
-				'suite/dapp-admin/exchanges/exchanges-deploy-choose',
-				'suite/dapp-admin/exchanges/exchanges-deploy-dex',
-				'suite/dapp-admin/exchanges/exchanges-deploy-cex',
-			],
-		}, {
-			type: 'category',
-      label: 'Managing Liquidity',
-      items: [
-				'suite/dapp-admin/liquidity/liquidity-unmanaged',
-				'suite/dapp-admin/liquidity/liquidity-capture-price',
-				'suite/dapp-admin/liquidity/liquidity-capture-value',
-			],
-		}, {
-			type: 'category',
-      label: 'Distributing Rewards',
-      items: [
-				'suite/dapp-admin/rewards/distributing-rewards',
-			],
-		}, {
-			type: 'category',
-      label: 'Admin DApp Structure',
-      items: [
-				'suite/dapp-admin/structure',
-			],
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading">User DApps</span>',
-    }, {
-			type: 'category',
-      label: 'ICO Purchase Widget',
-      items: [
-				'suite/dapp-catallactic-purchase/create-token',
-				'suite/dapp-catallactic-purchase/deliver-token',
-			],
-		}, {
       type: 'category',
-      label: 'ICO Status Tracker',
-      items: [
-				'suite/dapp-catallactic-status/create-token',
-				'suite/dapp-catallactic-status/deliver-token',
-			],
-		}, {
-      type: 'category',
-      label: 'ICO Claim',
-      items: [
-				'suite/dapp-catallactic-claim/create-token',
-				'suite/dapp-catallactic-claim/deliver-token',
-			],
-		}, {
-      type: 'category',
-      label: 'ICO Vesting Tracker',
-      items: [
-				'suite/dapp-catallactic-vesting/create-token',
-				'suite/dapp-catallactic-vesting/deliver-token',
-			],
-		}, 	{
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-			type: 'html',
-      value: '<span class="sidebar-heading">Tokens</span>',
-    }, {
-			type: 'category',
-      label: 'ICO Token',
-      items: [
-				'suite/token-ico/features',
+			label: 'Admin DApp', // sidebar label
+			link: {
+        type: "doc",
+				id: 'suite/dapp-admin/intro', // document ID
+			},
+			collapsible: false,
+			items: [
 				{
 					type: 'category',
-					label: 'Functionalities',
+					label: 'Creating Cryptocommodity',
 					items: [
-						'suite/token-ico/token-ico-functionalities/structure',
-						'suite/token-ico/token-ico-functionalities/invest',
-						'suite/token-ico/token-ico-functionalities/price',
-						'suite/token-ico/token-ico-functionalities/refund',
-						'suite/token-ico/token-ico-functionalities/claim',
-						'suite/token-ico/token-ico-functionalities/withdraw',
+						'suite/dapp-admin/create-suite',
+						'suite/dapp-admin/supplycurrent',
 					],
-				},
-				'suite/token-ico/supported-standards',
-				'suite/token-ico/compliant-jurisdictions',
-				'suite/token-ico/reporting',
-			],
-    },  {
-      type: 'category',
-      label: 'Vesting Token',
-      items: [
-				'suite/token-vesting/features',
-				'suite/token-vesting/create-token',
-				'suite/token-vesting/deliver-token',
-				'suite/token-vesting/reporting',
-			],
-    }, {
-      type: 'category',
-      label: 'Catallactic Token',
-      items: [
-				'suite/token-trading/features',
-				{
+				}, {
 					type: 'category',
-					label: 'Functionalities',
+					label: 'Funding your Project',
 					items: [
-						'suite/token-trading/token-trading-functionalities/metadata',
-						'suite/token-trading/token-trading-functionalities/supply',
-						'suite/token-trading/token-trading-functionalities/transfer',
-						'suite/token-trading/token-trading-functionalities/erc-20',
-						'suite/token-trading/token-trading-functionalities/liquidity',
-						'suite/token-trading/token-trading-functionalities/governance',
+						'suite/dapp-admin/funding-round/overview',
+						'suite/dapp-admin/funding-round/prepare-funding-round',
+						'suite/dapp-admin/funding-round/create-funding-round',
+						'suite/dapp-admin/funding-round/manage-funding-round',
+						'suite/dapp-admin/funding-round/close-funding-round',
 					],
-				},
-				'suite/token-trading/supported-standards',
-				'suite/token-trading/compliant-jurisdictions',
-				'suite/token-trading/reporting',
-			],
-		},  {
-      type: 'category',
-      label: 'Escrow Token',
-      items: [
-				'suite/token-escrow/features',
-				'suite/token-escrow/create-token',
-				'suite/token-escrow/deliver-token',
-				'suite/token-escrow/reporting',
-			],
-		},  {
+				}, {
+					type: 'category',
+					label: 'Deploying to Exchanges',
+					items: [
+						'suite/dapp-admin/exchanges/exchanges-deploy-choose',
+						'suite/dapp-admin/exchanges/exchanges-deploy-dex',
+						'suite/dapp-admin/exchanges/exchanges-deploy-cex',
+					],
+				}, {
+					type: 'category',
+					label: 'Managing Liquidity',
+					items: [
+						'suite/dapp-admin/liquidity/liquidity-unmanaged',
+						'suite/dapp-admin/liquidity/liquidity-capture-price',
+						'suite/dapp-admin/liquidity/liquidity-capture-value',
+					],
+				}, {
+					type: 'category',
+					label: 'Distributing Rewards',
+					items: [
+						'suite/dapp-admin/rewards/distributing-rewards',
+					],
+				}, {
+					type: 'category',
+					label: 'Admin DApp Structure',
+					items: [
+						'suite/dapp-admin/structure',
+					],
+				}, 
+			]
+    }, {
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
+      type: 'category',
+			label: 'User DApps', // sidebar label
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'ICO Purchase Widget',
+					items: [
+						'suite/dapp-catallactic-purchase/create-token',
+						'suite/dapp-catallactic-purchase/deliver-token',
+					],
+				}, {
+					type: 'category',
+					label: 'ICO Status Tracker',
+					items: [
+						'suite/dapp-catallactic-status/create-token',
+						'suite/dapp-catallactic-status/deliver-token',
+					],
+				}, {
+					type: 'category',
+					label: 'ICO Claim',
+					items: [
+						'suite/dapp-catallactic-claim/create-token',
+						'suite/dapp-catallactic-claim/deliver-token',
+					],
+				}, {
+					type: 'category',
+					label: 'ICO Vesting Tracker',
+					items: [
+						'suite/dapp-catallactic-vesting/create-token',
+						'suite/dapp-catallactic-vesting/deliver-token',
+					],
+				}, 
+			]
+    }, 	{
       type: 'html',
-      value: '<span class="sidebar-heading">Security</span>',
-    },  {
-			type: 'category',
-      label: 'Design',
-      items: [
-				'suite/security/design',
-			],
-		}, {
-			type: 'category',
-      label: 'Tests',
-      items: [
-				'suite/security/unittests',
-			],
-		}, {
-			type: 'category',
-      label: 'Audits',
-      items: [
-				'suite/security/auditors',
-				'suite/security/software',
-			],
-		}, {
-			type: 'category',
-      label: 'Backups',
-      items: [
-				'suite/security/backups',
-			],
-		},
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Tokens', // sidebar label
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'ICO Token',
+					items: [
+						'suite/token-ico/features',
+						{
+							type: 'category',
+							label: 'Functionalities',
+							items: [
+								'suite/token-ico/token-ico-functionalities/structure',
+								'suite/token-ico/token-ico-functionalities/invest',
+								'suite/token-ico/token-ico-functionalities/price',
+								'suite/token-ico/token-ico-functionalities/refund',
+								'suite/token-ico/token-ico-functionalities/claim',
+								'suite/token-ico/token-ico-functionalities/withdraw',
+							],
+						},
+						'suite/token-ico/supported-standards',
+						'suite/token-ico/compliant-jurisdictions',
+						'suite/token-ico/reporting',
+					],
+				},  {
+					type: 'category',
+					label: 'Vesting Token',
+					items: [
+						'suite/token-vesting/features',
+						'suite/token-vesting/create-token',
+						'suite/token-vesting/deliver-token',
+						'suite/token-vesting/reporting',
+					],
+				}, {
+					type: 'category',
+					label: 'Catallactic Token',
+					items: [
+						'suite/token-trading/features',
+						{
+							type: 'category',
+							label: 'Functionalities',
+							items: [
+								'suite/token-trading/token-trading-functionalities/metadata',
+								'suite/token-trading/token-trading-functionalities/supply',
+								'suite/token-trading/token-trading-functionalities/transfer',
+								'suite/token-trading/token-trading-functionalities/erc-20',
+								'suite/token-trading/token-trading-functionalities/liquidity',
+								'suite/token-trading/token-trading-functionalities/governance',
+							],
+						},
+						'suite/token-trading/supported-standards',
+						'suite/token-trading/compliant-jurisdictions',
+						'suite/token-trading/reporting',
+					],
+				},  {
+					type: 'category',
+					label: 'Escrow Token',
+					items: [
+						'suite/token-escrow/features',
+						'suite/token-escrow/create-token',
+						'suite/token-escrow/deliver-token',
+						'suite/token-escrow/reporting',
+					],
+				},
+			]
+		},   {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Security', // sidebar label
+			link: {
+        type: "doc",
+				id: 'suite/security/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'Design',
+					items: [
+						'suite/security/design',
+					],
+				}, {
+					type: 'category',
+					label: 'Tests',
+					items: [
+						'suite/security/unittests',
+					],
+				}, {
+					type: 'category',
+					label: 'Audits',
+					items: [
+						'suite/security/auditors',
+						'suite/security/software',
+					],
+				}, {
+					type: 'category',
+					label: 'Backups',
+					items: [
+						'suite/security/backups',
+					],
+				},
+			]
+		}, 
 	],
 
   ecosystemSidebar: [
