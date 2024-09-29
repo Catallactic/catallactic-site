@@ -58,43 +58,44 @@ const sidebars = {
 				'principles/reporting/overview',
 			],
 		}, {
-			type: 'category',
-			label: 'Compliance',
+      type: 'category',
+			label: 'Compliance', // sidebar label
+			collapsible: false,
 			items: [
-				'principles/compliance/KYC',
-				'principles/compliance/AML',
-				'principles/compliance/Taxes'
-			],
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading">Compliance</span>',
-    },  {
-			type: 'doc',
-			id: 'ecosystem/compliance/cryptolaw',
-			label: 'Legal Framework',
-		}, {
-			type: 'category',
-			label: 'Jurisdictions for Funding',
-			items: [
-				'ecosystem/compliance/funding/issuer',
-				'ecosystem/compliance/funding/HQ',
-				'ecosystem/compliance/funding/investors',
-			],
-		}, {
-			type: 'category',
-			label: 'Jurisdictions for Negotiation',
-			items: [
-				'ecosystem/compliance/negotiation/issuer',
-			],
-		}, {
-			type: 'category',
-			label: 'Jurisdictions for Distribution',
-			items: [
-				'ecosystem/compliance/distribution/consumer',
-			],
+				{
+					type: 'category',
+					label: 'Compliance',
+					items: [
+						'principles/compliance/KYC',
+						'principles/compliance/AML',
+						'principles/compliance/Taxes'
+					],
+				}, {
+					type: 'doc',
+					id: 'principles/compliance/cryptolaw',
+					label: 'Legal Framework',
+				}, {
+					type: 'category',
+					label: 'Jurisdictions for Funding',
+					items: [
+						'principles/compliance/funding/issuer',
+						'principles/compliance/funding/HQ',
+						'principles/compliance/funding/investors',
+					],
+				}, {
+					type: 'category',
+					label: 'Jurisdictions for Negotiation',
+					items: [
+						'principles/compliance/negotiation/issuer',
+					],
+				}, {
+					type: 'category',
+					label: 'Jurisdictions for Distribution',
+					items: [
+						'principles/compliance/distribution/consumer',
+					],
+				}, 
+			]
 		}, 
 	],
 
@@ -191,9 +192,9 @@ const sidebars = {
 							type: 'category',
 							label: 'Perform Compliance',
 							items: [
-								'ecosystem/compliance/funding/issuer',
-								'ecosystem/compliance/funding/HQ',
-								'ecosystem/compliance/funding/investors',
+								'principles/compliance/funding/issuer',
+								'principles/compliance/funding/HQ',
+								'principles/compliance/funding/investors',
 							],
 						}, {
 							type: 'category',

@@ -1,10 +1,5 @@
 ---
-slug: Litepaper
-title: Litepaper
-authors: [catallactic, pellyadolfo]
-tags: [crypto, RWA, tokenization]
-image: https://i.imgur.com/mErPwqL.png
----
+sidebar_position: 1
 ---
 
 import '@site/src/css/papers.css';

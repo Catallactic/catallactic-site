@@ -1,10 +1,5 @@
 ---
-slug: Yellowpaper
-title: Yellowpaper
-authors: [catallactic, pellyadolfo]
-tags: [crypto, RWA, tokenization]
-image: https://i.imgur.com/mErPwqL.png
----
+sidebar_position: 1
 ---
 
 import Chart from 'chart.js/auto';

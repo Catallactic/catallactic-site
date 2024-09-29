@@ -1,3 +1,3 @@
 
-# Quality Money
+# Quality Theory of Money
 
