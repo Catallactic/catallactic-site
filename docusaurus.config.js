@@ -270,15 +270,15 @@ const config = {
 					}, {
             title: 'Community',
             	items: [ {
-								label: 'ForoES',
-								href: 'https://catallactic.freeforums.net/',
-							}, {	
 								label: 'Blog',
                 to: '/blog',
 							}, {	
 								label: 'BlogES',
                 to: '/blogES',
 							}, {
+								label: 'ForoES',
+								href: 'https://catallactic.freeforums.net/',
+							}, {	
 								label: 'Discord',
                 href: 'https://discord.gg/jY4XbrktCa',
               }, {
