@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Whitepaper
 ---
 
 import Chart from 'chart.js/auto';

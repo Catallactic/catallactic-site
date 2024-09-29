@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Litepaper
 ---
 
 import '@site/src/css/papers.css';

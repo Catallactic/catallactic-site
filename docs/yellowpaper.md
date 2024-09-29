@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Yellowpaper
 ---
 
 import Chart from 'chart.js/auto';
