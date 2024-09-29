@@ -30,35 +30,51 @@ const sidebars = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Quality theory of Money</span>',
-    }, {
-			type: 'category',
-			label: 'Decentralization',
+      type: 'category',
+			label: 'Decentralization', // sidebar label
+			collapsible: false,
+			link: {
+        type: "doc",
+				id: 'principles/decentralization/intro', // document ID
+			},
 			items: [
 				'principles/decentralization/bibliography',
-				'principles/decentralization/overview',
-			],
+			]
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
 		}, {
 			type: 'category',
-			label: 'Privacy',
-			items: [
-				'principles/privacy/overview',
-			],
-		}, {
-			type: 'category',
+			collapsible: false,
 			label: 'Security',
 			items: [
 				'principles/security/overview',
 			],
 		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+		}, {
 			type: 'category',
+			collapsible: false,
+			label: 'Privacy',
+			items: [
+				'principles/privacy/overview',
+			],
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+		}, {
+			type: 'category',
+			collapsible: false,
 			label: 'Reporting',
 			items: [
 				'principles/reporting/overview',
 			],
 		}, {
-      type: 'category',
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+		}, {
+			type: 'category',
 			label: 'Compliance', // sidebar label
 			collapsible: false,
 			items: [
