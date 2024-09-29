@@ -128,14 +128,14 @@ const config = {
         items: [
           {
 						type: 'docSidebar',
-            sidebarId: 'moneyQualitySidebar',
-            position: 'left',
-            label: 'Quality Money',
-          }, {
-						type: 'docSidebar',
             sidebarId: 'valueChainSidebar',
             position: 'left',
             label: 'Value Chain',
+					}, {
+						type: 'docSidebar',
+            sidebarId: 'moneyQualitySidebar',
+            position: 'left',
+            label: 'Quality Money',
           }, {
 						type: 'docSidebar',
             sidebarId: 'suiteSidebar',
