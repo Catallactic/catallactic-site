@@ -65,6 +65,36 @@ const sidebars = {
 				'principles/compliance/AML',
 				'principles/compliance/Taxes'
 			],
+		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'html',
+      value: '<span class="sidebar-heading">Compliance</span>',
+    },  {
+			type: 'doc',
+			id: 'ecosystem/compliance/cryptolaw',
+			label: 'Legal Framework',
+		}, {
+			type: 'category',
+			label: 'Jurisdictions for Funding',
+			items: [
+				'ecosystem/compliance/funding/issuer',
+				'ecosystem/compliance/funding/HQ',
+				'ecosystem/compliance/funding/investors',
+			],
+		}, {
+			type: 'category',
+			label: 'Jurisdictions for Negotiation',
+			items: [
+				'ecosystem/compliance/negotiation/issuer',
+			],
+		}, {
+			type: 'category',
+			label: 'Jurisdictions for Distribution',
+			items: [
+				'ecosystem/compliance/distribution/consumer',
+			],
 		}, 
 	],
 
@@ -612,57 +642,45 @@ const sidebars = {
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-      type: 'html',
-      value: '<span class="sidebar-heading">VASPs</span>',
-		}, {
-			type: 'category',
-			label: 'DLT Networks',
+      type: 'category',
+			label: 'Chains', // sidebar label
+			link: {
+        type: "doc",
+				id: 'ecosystem/dlts/intro', // document ID
+			},
+			collapsible: false,
 			items: [
 				'ecosystem/dlts/bitcoin',
 				'ecosystem/dlts/ethereum',
-			],
-		}, {
-			type: 'category',
-			label: 'Exchanges',
-			items: [
-				'ecosystem/exchanges/list',
-			],
-		}, {
-			type: 'category',
-			label: 'Wallets',
-			items: [
-				'ecosystem/wallets/list',
-			],
+			]
 		}, {
       type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
+      type: 'category',
+			label: 'Exchanges', // sidebar label
+			link: {
+        type: "doc",
+				id: 'ecosystem/exchanges/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				'ecosystem/exchanges/list',
+			]
+		}, {
       type: 'html',
-      value: '<span class="sidebar-heading">Compliance</span>',
-    },  {
-			type: 'doc',
-			id: 'ecosystem/compliance/cryptolaw',
-			label: 'Legal Framework',
-		}, {
-			type: 'category',
-			label: 'Jurisdictions for Funding',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Wallets', // sidebar label
+			link: {
+        type: "doc",
+				id: 'ecosystem/wallets/intro', // document ID
+			},
+			collapsible: false,
 			items: [
-				'ecosystem/compliance/funding/issuer',
-				'ecosystem/compliance/funding/HQ',
-				'ecosystem/compliance/funding/investors',
-			],
-		}, {
-			type: 'category',
-			label: 'Jurisdictions for Negotiation',
-			items: [
-				'ecosystem/compliance/negotiation/issuer',
-			],
-		}, {
-			type: 'category',
-			label: 'Jurisdictions for Distribution',
-			items: [
-				'ecosystem/compliance/distribution/consumer',
-			],
+				'ecosystem/wallets/list',
+			]
 		}, 
 	],
 
