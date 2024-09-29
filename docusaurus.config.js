@@ -162,6 +162,10 @@ const config = {
 						label: 'Litepaper', 
 						position: 'right'
 					}, {
+						to: 'https://docs.google.com/presentation/d/1O2gFGNBDIrWCFYe-hcp-8r4Ade2RMwyU6cLHfCzMSMY/edit?usp=sharing', 
+						label: 'Pitch', 
+						position: 'right'
+					}, {
 						to: '/blog', 
 						label: 'Blog', 
 						position: 'right'
@@ -245,16 +249,22 @@ const config = {
               }
             ],
           }, {
-            title: 'Docs',
+            title: 'Project',
             items: [ {
 								label: 'Pitch Deck',
 								to: 'https://docs.google.com/presentation/d/1O2gFGNBDIrWCFYe-hcp-8r4Ade2RMwyU6cLHfCzMSMY/edit?usp=sharing',
-							}, {	
-								label: 'Blog',
-                to: '/blog',
-							}, {	
-								label: 'BlogES',
-                to: '/blogES',
+							}, {
+								label: 'Yellowpaper',
+								to: '/docs/yellowpaper',
+							}, {
+								label: 'Whitepaper',
+								to: '/docs/whitepaper',
+							}, {
+								label: 'Litepaper',
+								to: '/docs/litepaper',
+							}, {
+                label: 'GitHub',
+                href: 'https://github.com/Catallactic',
 							},
             ],
 					}, {
@@ -262,12 +272,15 @@ const config = {
             	items: [ {
 								label: 'ForoES',
 								href: 'https://catallactic.freeforums.net/',
+							}, {	
+								label: 'Blog',
+                to: '/blog',
+							}, {	
+								label: 'BlogES',
+                to: '/blogES',
 							}, {
 								label: 'Discord',
                 href: 'https://discord.gg/jY4XbrktCa',
-							}, {
-                label: 'GitHub',
-                href: 'https://github.com/Catallactic',
               }, {
 								label: 'LinkedIn', 
 								to: 'https://www.linkedin.com/company/catallactic/', 
