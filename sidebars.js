@@ -77,294 +77,316 @@ const sidebars = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Tokenization</span>',
-    }, {
-			type: 'doc',
-			id: 'tokenization/intro', // document ID
-			label: 'Getting started', // sidebar label
-		}, {
       type: 'category',
-      label: 'Tokenization Process',
-      items: [
-				'tokenization/process/tokens/index',
-				'tokenization/process/tokenization-demand/index',
-				'tokenization/process/tokenization-supply/index',
-				'tokenization/process/tokenization-monetary-policy/index',
+			label: 'Tokenization', // sidebar label
+			link: {
+        type: "doc",
+				id: 'tokenization/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'Tokenization Process',
+					items: [
+						'tokenization/process/tokens/index',
+						'tokenization/process/tokenization-demand/index',
+						'tokenization/process/tokenization-supply/index',
+						'tokenization/process/tokenization-monetary-policy/index',
+					],
+				}, {
+					type: 'category',
+					label: 'Tokenization Models',
+					items: [
+						'tokenization/models/asset/index',
+						'tokenization/models/asset-unbacked/index',
+						'tokenization/models/asset-utility/index',
+						'tokenization/models/asset-security/index',
+						'tokenization/models/asset-stablecoins/index',
+						'tokenization/models/asset-uoa/index',
+						'tokenization/models/asset-nft/index',
+					],
+				}, {
+					type: 'category',
+					label: 'Tokenization Utilities',
+					items: [
+						'tokenization/utilities/utility/index',
+						'tokenization/utilities/utility-id/index',
+						'tokenization/utilities/utility-investment/index',
+						'tokenization/utilities/utility-currency/index',
+					],
+				}, {
+					type: 'category',
+					label: 'Tokenizable Assets',
+					items: [
+						'tokenization/tokenomics/commodities',
+					],
+				}, {
+					type: 'category',
+					label: 'Tokenomics',
+					items: [
+						'funding/allocations'
+					],
+				}, {
+					type: 'doc',
+					id: 'tokenization/bibliography', // document ID
+					label: 'Bibliography', // sidebar label
+				}, 
 			],
-		}, {
-      type: 'category',
-      label: 'Tokenization Models',
-      items: [
-				'tokenization/models/asset/index',
-				'tokenization/models/asset-unbacked/index',
-				'tokenization/models/asset-utility/index',
-				'tokenization/models/asset-security/index',
-				'tokenization/models/asset-stablecoins/index',
-				'tokenization/models/asset-uoa/index',
-				'tokenization/models/asset-nft/index',
-			],
-		}, {
-      type: 'category',
-      label: 'Tokenization Utilities',
-      items: [
-				'tokenization/utilities/utility/index',
-				'tokenization/utilities/utility-id/index',
-				'tokenization/utilities/utility-investment/index',
-				'tokenization/utilities/utility-currency/index',
-			],
-		}, {
-      type: 'category',
-      label: 'Tokenizable Assets',
-      items: [
-				'tokenization/tokenomics/commodities',
-			],
-		}, {
-      type: 'category',
-      label: 'Tokenomics',
-      items: [
-				'funding/allocations'
-			],
-		}, {
-			type: 'doc',
-			id: 'tokenization/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Funding</span>',
+      type: 'category',
+			label: 'Funding', // sidebar label
+			link: {
+        type: "doc",
+				id: 'funding/intro', // document ID
+			},
+			collapsible: false,
+			items: [{
+					type: 'category',
+					label: 'Preparing Funding',
+					items: [{
+							type: 'category',
+							label: 'Prepare Documentation',
+							items: [
+								'funding/preparing/roadmap',
+								'funding/preparing/whitepaper',
+								'funding/preparing/litepaper',
+								'funding/preparing/pitchdeck',
+								'funding/preparing/eMail',
+							],
+						}, {
+							type: 'category',
+							label: 'Perform Compliance',
+							items: [
+								'ecosystem/compliance/funding/issuer',
+								'ecosystem/compliance/funding/HQ',
+								'ecosystem/compliance/funding/investors',
+							],
+						}, {
+							type: 'category',
+							label: 'Advertise your Project',
+							items: [
+								'funding/advertising/watchers',
+								'funding/advertising/press',
+								'funding/advertising/agencies',
+								'funding/advertising/ambassador',
+								'funding/advertising/influencers',
+							],
+						}, {
+							type: 'category',
+							label: 'Build your Community',
+							items: [
+								'funding/community/ama',
+								'funding/community/community',
+								'funding/community/users',
+							],
+						}, {
+							type: 'category',
+							label: 'Pitching Investors',
+							items: [
+								'funding/pitching/incubators',
+								'funding/pitching/investors',
+							],
+						}, {
+							type: 'category',
+							label: 'Existing Launchpads',
+							items: [
+								'funding/launchpads',
+							],
+						}, 
+					],
+				}, {
+					type: 'category',
+					label: 'Funding with Catallactic Suite',
+					items: [
+						{
+							type: 'category',
+							label: 'Defining Funding Rounds',
+							items: [
+								'funding/rounds',
+							],
+						}, {
+							type: 'category',
+							label: 'Running Funding Rounds',
+							items: [
+								'suite/dapp-admin/funding-round/overview',
+								'suite/dapp-admin/funding-round/prepare-funding-round',
+								'suite/dapp-admin/funding-round/create-funding-round',
+								'suite/dapp-admin/funding-round/manage-funding-round',
+								'suite/dapp-admin/funding-round/close-funding-round',
+							],
+						}, {
+							type: 'category',
+							label: 'Perform Vesting',
+							items: [
+								'funding/TGE',
+							],
+						}, {
+							type: 'category',
+							label: 'Deploying to Exchanges',
+							items: [
+								'funding/TGE',
+								'funding/selling',
+							],
+						}, 
+					]
+				}, {
+					type: 'doc',
+					id: 'funding/bibliography', // document ID
+					label: 'Bibliography', // sidebar label
+				}
+			]
     }, {
-			type: 'doc',
-			id: 'funding/intro', // document ID
-			label: 'Getting started', // sidebar label
-		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
       type: 'category',
-      label: 'Preparing Funding',
-      items: [{
-					type: 'category',
-					label: 'Prepare Documentation',
-					items: [
-						'funding/preparing/roadmap',
-						'funding/preparing/whitepaper',
-						'funding/preparing/litepaper',
-						'funding/preparing/pitchdeck',
-						'funding/preparing/eMail',
-					],
-				}, {
-					type: 'category',
-					label: 'Perform Compliance',
-					items: [
-						'ecosystem/compliance/funding/issuer',
-						'ecosystem/compliance/funding/HQ',
-						'ecosystem/compliance/funding/investors',
-					],
-				}, {
-					type: 'category',
-					label: 'Advertise your Project',
-					items: [
-						'funding/advertising/watchers',
-						'funding/advertising/press',
-						'funding/advertising/agencies',
-						'funding/advertising/ambassador',
-						'funding/advertising/influencers',
-					],
-				}, {
-					type: 'category',
-					label: 'Build your Community',
-					items: [
-						'funding/community/ama',
-						'funding/community/community',
-						'funding/community/users',
-					],
-				}, {
-					type: 'category',
-					label: 'Pitching Investors',
-					items: [
-						'funding/pitching/incubators',
-						'funding/pitching/investors',
-					],
-				}, {
-					type: 'category',
-					label: 'Existing Launchpads',
-					items: [
-						'funding/launchpads',
-					],
-				}, 
-			],
-		}, {
-      type: 'category',
-      label: 'Funding with Catallactic Suite',
-      items: [
-				{
-					type: 'category',
-					label: 'Defining Funding Rounds',
-					items: [
-						'funding/rounds',
-					],
-				}, {
-					type: 'category',
-					label: 'Running Funding Rounds',
-					items: [
-						'suite/dapp-admin/funding-round/overview',
-						'suite/dapp-admin/funding-round/prepare-funding-round',
-						'suite/dapp-admin/funding-round/create-funding-round',
-						'suite/dapp-admin/funding-round/manage-funding-round',
-						'suite/dapp-admin/funding-round/close-funding-round',
-					],
-				}, {
-					type: 'category',
-					label: 'Perform Vesting',
-					items: [
-						'funding/TGE',
-					],
-				}, {
+			label: 'Negotiation', // sidebar label
+			link: {
+        type: "doc",
+				id: 'negotiation/intro', // document ID
+			},
+			collapsible: false,
+			items: [{
 					type: 'category',
 					label: 'Deploying to Exchanges',
 					items: [
-						'funding/TGE',
-						'funding/selling',
+						'suite/dapp-admin/exchanges/exchanges-deploy-choose',
+						'suite/dapp-admin/exchanges/exchanges-deploy-dex',
+						'suite/dapp-admin/exchanges/exchanges-deploy-cex',
 					],
-				}, 
+				}, {
+					type: 'category',
+					label: 'Trading',
+					items: [
+						'negotiation/trading',
+					],
+				}, {
+					type: 'category',
+					label: 'Monetary Policy',
+					items: [
+						'negotiation/monetary',
+						'negotiation/stability',
+					],
+				}, {
+					type: 'doc',
+					id: 'negotiation/bibliography', // document ID
+					label: 'Bibliography', // sidebar label
+				},
+			]
+    }, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Distribution', // sidebar label
+			link: {
+        type: "doc",
+				id: 'distribution/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'Distribution Models',
+					items: [
+						{
+							type: 'doc',
+							id: 'distribution/airdrops',
+						}, {
+							type: 'doc',
+							id: 'distribution/giveaways',
+						}, {
+							type: 'doc',
+							id: 'distribution/rounds',
+						}, {
+							type: 'doc',
+							id: 'distribution/operations',
+						}, {
+							type: 'doc',
+							id: 'distribution/rewards',
+						}, 
+					],
+				}, {
+					type: 'category',
+					label: 'Token Operations',
+					items: [
+						'distribution/operations',
+					]
+				}, {
+					type: 'doc',
+					id: 'distribution/bibliography', // document ID
+					label: 'Bibliography', // sidebar label
+				},
 			]
 		}, {
-			type: 'doc',
-			id: 'funding/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
-		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
+      type: 'category',
+			label: 'DeFi Services', // sidebar label
+			link: {
+        type: "doc",
+				id: 'defi/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'Money',
+					items: [
+						'defi/money/bibliography',
+						'defi/money/meanofexchange',
+						'defi/money/storeofvalue',
+						'defi/money/unitofaccount'
+					],
+				}, {
+					type: 'category',
+					label: 'Payments',
+					items: ['defi/payments/payments'],
+				}, {
+					type: 'category',
+					label: 'Cards',
+					items: ['defi/cards/cards'],
+				}, {
+					type: 'category',
+					label: 'Transfers',
+					items: ['defi/transfers/transfers'],
+				}, {
+					type: 'category',
+					label: 'Lending',
+					items: [
+						'defi/lending/lending',
+						'defi/lending/bibliography'
+					],
+				}, {
+					type: 'category',
+					label: 'Liquidity Provision',
+					items: ['defi/liquidity/liquidity'],
+				},
+			]
+		}, {
       type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Negotiation</span>',
-    }, {
-			type: 'doc',
-			id: 'negotiation/intro', // document ID
-			label: 'Getting started', // sidebar label
-		}, {
-			type: 'category',
-      label: 'Deploying to Exchanges',
-      items: [
-				'suite/dapp-admin/exchanges/exchanges-deploy-choose',
-				'suite/dapp-admin/exchanges/exchanges-deploy-dex',
-				'suite/dapp-admin/exchanges/exchanges-deploy-cex',
-			],
-		}, {
-      type: 'category',
-      label: 'Trading',
-      items: [
-				'negotiation/trading',
-			],
-		}, {
-      type: 'category',
-      label: 'Monetary Policy',
-      items: [
-				'negotiation/monetary',
-				'negotiation/stability',
-			],
-		}, {
-			type: 'doc',
-			id: 'negotiation/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
-		}, {
-			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Distribution</span>',
-		}, {
-			type: 'doc',
-			id: 'distribution/intro', // document ID
-			label: 'Getting started', // sidebar label
 		}, {
       type: 'category',
-      label: 'Distribution Models',
-      items: [
+			label: 'Crowdsolving', // sidebar label
+			link: {
+        type: "doc",
+				id: 'crowdsolving/intro', // document ID
+			},
+			collapsible: false,
+			items: [
 				{
 					type: 'doc',
-					id: 'distribution/airdrops',
-				}, {
-					type: 'doc',
-					id: 'distribution/giveaways',
-				}, {
-					type: 'doc',
-					id: 'distribution/rounds',
-				}, {
-					type: 'doc',
-					id: 'distribution/operations',
-				}, {
-					type: 'doc',
-					id: 'distribution/rewards',
-				}, 
-			],
-		}, {
-      type: 'category',
-      label: 'Token Operations',
-      items: [
-				'distribution/operations',
+					id: 'crowdsolving/bibliography', // document ID
+					label: 'Bibliography', // sidebar label
+				},
 			]
-		}, {
-			type: 'doc',
-			id: 'distribution/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">DeFi Services</span>',
-    }, {
-			type: 'doc',
-			id: 'defi/intro', // document ID
-			label: 'Getting started', // sidebar label
-		}, {
-      type: 'category',
-      label: 'Money',
-      items: [
-				'defi/money/bibliography',
-				'defi/money/meanofexchange',
-				'defi/money/storeofvalue',
-				'defi/money/unitofaccount'
-			],
-		}, {
-      type: 'category',
-      label: 'Payments',
-      items: ['defi/payments/payments'],
-    }, {
-      type: 'category',
-      label: 'Cards',
-      items: ['defi/cards/cards'],
-    }, {
-			type: 'category',
-      label: 'Transfers',
-      items: ['defi/transfers/transfers'],
-    }, {
-      type: 'category',
-      label: 'Lending',
-      items: [
-				'defi/lending/lending',
-				'defi/lending/bibliography'
-			],
-		}, {
-			type: 'category',
-      label: 'Liquidity Provision',
-      items: ['defi/liquidity/liquidity'],
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'html',
-      value: '<span class="sidebar-heading w-100 text-center">Crowdsolving</span>',
-    }, {
-			type: 'doc',
-			id: 'crowdsolving/intro', // document ID
-			label: 'Getting started', // sidebar label
-		}, {
-			type: 'doc',
-			id: 'crowdsolving/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
-		}, 
+		},  
   ],
 
   suiteSidebar: [

@@ -12,11 +12,12 @@ sidebar_position: 1
 </div>
 <br/>
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
 
 
 
 
 
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
