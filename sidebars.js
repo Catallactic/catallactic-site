@@ -71,7 +71,7 @@ const sidebars = {
   valueChainSidebar: [
 		{
 			type: 'doc',
-			id: 'tokenization/intro', // document ID
+			id: 'intro', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
 			type: 'html',
@@ -83,10 +83,6 @@ const sidebars = {
 			type: 'doc',
 			id: 'tokenization/intro', // document ID
 			label: 'Getting started', // sidebar label
-		}, {
-			type: 'doc',
-			id: 'tokenization/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
 		}, {
       type: 'category',
       label: 'Tokenization Process',
@@ -130,6 +126,10 @@ const sidebars = {
 				'funding/allocations'
 			],
 		}, {
+			type: 'doc',
+			id: 'tokenization/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -139,10 +139,6 @@ const sidebars = {
 			type: 'doc',
 			id: 'funding/intro', // document ID
 			label: 'Getting started', // sidebar label
-		}, {
-			type: 'doc',
-			id: 'funding/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
 		}, {
       type: 'category',
       label: 'Preparing Funding',
@@ -233,6 +229,10 @@ const sidebars = {
 				}, 
 			]
 		}, {
+			type: 'doc',
+			id: 'funding/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -242,10 +242,6 @@ const sidebars = {
 			type: 'doc',
 			id: 'negotiation/intro', // document ID
 			label: 'Getting started', // sidebar label
-		}, {
-			type: 'doc',
-			id: 'negotiation/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
 		}, {
 			type: 'category',
       label: 'Deploying to Exchanges',
@@ -268,15 +264,15 @@ const sidebars = {
 				'negotiation/stability',
 			],
 		}, {
+			type: 'doc',
+			id: 'negotiation/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
       value: '<span class="sidebar-heading w-100 text-center">Distribution</span>',
-		}, {
-			type: 'doc',
-			id: 'distribution/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
 		}, {
 			type: 'doc',
 			id: 'distribution/intro', // document ID
@@ -309,7 +305,11 @@ const sidebars = {
 				'distribution/operations',
 			]
 		}, {
-      type: 'html',
+			type: 'doc',
+			id: 'distribution/bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
+			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'html',
