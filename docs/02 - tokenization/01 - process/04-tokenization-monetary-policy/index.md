@@ -1,6 +1,6 @@
 ---
 slug: Tokenization 4 - Monetary Policy
-title: Tokenization 4 - Monetary Policy
+title: Monetary Policy
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---

@@ -162,10 +162,6 @@ const config = {
 						label: 'Litepaper', 
 						position: 'right'
 					}, {
-						to: '/book', 
-						label: 'Book', 
-						position: 'right'
-					}, {
 						to: '/blog', 
 						label: 'Blog', 
 						position: 'right'
@@ -179,7 +175,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [{
-            title: 'Tokenization',
+            title: 'Value Chain',
 							items: [{
 								label: 'Principles',
 								href: '/docs/principles/intro',
@@ -253,9 +249,6 @@ const config = {
             items: [ {
 								label: 'Pitch Deck',
 								to: 'https://docs.google.com/presentation/d/1O2gFGNBDIrWCFYe-hcp-8r4Ade2RMwyU6cLHfCzMSMY/edit?usp=sharing',
-							}, {
-								label: 'Book',
-								to: '/book',
 							}, {	
 								label: 'Blog',
                 to: '/blog',

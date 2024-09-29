@@ -1,6 +1,6 @@
 ---
 slug: Tokenization 2 - Demand
-title: Tokenization 2 - Demand
+title: Demand - Value Engineering
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---

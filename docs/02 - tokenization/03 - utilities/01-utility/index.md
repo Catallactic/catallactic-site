@@ -1,5 +1,19 @@
 ---
-sidebar_position: 3
+slug: By Utility 0 - Tokenization
+title: By Utility 0 - Tokenization Utilities
+authors: [catallactic, pellyadolfo]
+tags: [crypto, RWA, tokenization]
+---
+---
+
+import JSONTable from '@site/src/components/ui/JSONTable';
+import tokens_utility from "/static/data/tokens_utility.json"
+
+:::danger
+`(Under development. Please, come back later. Just published to share the progress)`
+:::
+
+## 1. Introduction
 ---
 
 # Defining Value
@@ -23,6 +37,3 @@ sidebar_position: 3
 
 
 ## Speculative Value
-
-
-

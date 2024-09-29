@@ -89,30 +89,39 @@ const sidebars = {
 			label: 'Bibliography', // sidebar label
 		}, {
       type: 'category',
+      label: 'Tokenization Process',
+      items: [
+				'tokenization/process/tokens/index',
+				'tokenization/process/tokenization-demand/index',
+				'tokenization/process/tokenization-supply/index',
+				'tokenization/process/tokenization-monetary-policy/index',
+			],
+		}, {
+      type: 'category',
+      label: 'Tokenization Models',
+      items: [
+				'tokenization/models/asset/index',
+				'tokenization/models/asset-unbacked/index',
+				'tokenization/models/asset-utility/index',
+				'tokenization/models/asset-security/index',
+				'tokenization/models/asset-stablecoins/index',
+				'tokenization/models/asset-uoa/index',
+				'tokenization/models/asset-nft/index',
+			],
+		}, {
+      type: 'category',
+      label: 'Tokenization Utilities',
+      items: [
+				'tokenization/utilities/utility/index',
+				'tokenization/utilities/utility-id/index',
+				'tokenization/utilities/utility-investment/index',
+				'tokenization/utilities/utility-currency/index',
+			],
+		}, {
+      type: 'category',
       label: 'Tokenizable Assets',
       items: [
 				'tokenization/tokenomics/commodities',
-			],
-		}, {
-      type: 'category',
-      label: 'Value Engineering (Demand)',
-      items: [
-				'tokenization/value/ecosystem',
-				'tokenization/value/utility',
-				'tokenization/value/value',
-			],
-		}, {
-      type: 'category',
-      label: 'Supply Management (Supply)',
-      items: [
-				'tokenization/tokenomics/supply',
-				'tokenization/tokenomics/supplycurrent',
-			],
-		}, {
-      type: 'category',
-      label: 'Value Capture',
-      items: [
-				'tokenization/value/cmm'
 			],
 		}, {
       type: 'category',
@@ -374,6 +383,7 @@ const sidebars = {
       label: 'Creating Cryptocommodity',
       items: [
 				'suite/dapp-admin/create-suite',
+				'suite/dapp-admin/supplycurrent',
 			],
 		}, {
 			type: 'category',

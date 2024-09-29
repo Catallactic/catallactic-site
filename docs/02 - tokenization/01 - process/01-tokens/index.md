@@ -1,6 +1,6 @@
 ---
 slug: Tokenization 1 - Tokens
-title: Tokenization 1 - Tokens
+title: Token Definition
 authors: [catallactic, pellyadolfo]
 tags: [money]
 ---

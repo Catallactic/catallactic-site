@@ -1,6 +1,6 @@
 ---
 slug: Tokenization 3 - Supply
-title: Tokenization 3  - Supply
+title: Supply - Supply Management
 authors: [catallactic, pellyadolfo]
 tags: [crypto, RWA, tokenization]
 ---
