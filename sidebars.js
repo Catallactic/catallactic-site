@@ -698,8 +698,18 @@ const sidebars = {
 			items: [
 				'ecosystem/wallets/list',
 			]
+		}, {
+      type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Mining Software', // sidebar label
+			collapsible: false,
+			items: [
+				'ecosystem/miner/intro',
+			]
 		}, 
-	],
+	]
 
 };
 
