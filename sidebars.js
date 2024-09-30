@@ -44,11 +44,50 @@ const sidebars = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
 		}, {
+      type: 'category',
+			label: 'Security', // sidebar label
+			link: {
+        type: "doc",
+				id: 'principles/security/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'Design',
+					items: [
+						'principles/security/design',
+					],
+				}, {
+					type: 'category',
+					label: 'Tests',
+					items: [
+						'principles/security/unittests',
+					],
+				}, {
+					type: 'category',
+					label: 'Audits',
+					items: [
+						'principles/security/auditors',
+						'principles/security/software',
+					],
+				}, {
+					type: 'category',
+					label: 'Backups',
+					items: [
+						'principles/security/backups',
+					],
+				},
+			]
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+		}, {
 			type: 'category',
 			collapsible: false,
-			label: 'Security',
+			label: 'Reporting',
 			items: [
-				'principles/security/overview',
+				'principles/reporting/overview',
 			],
 		}, {
 			type: 'html',
@@ -59,16 +98,6 @@ const sidebars = {
 			label: 'Privacy',
 			items: [
 				'principles/privacy/overview',
-			],
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-		}, {
-			type: 'category',
-			collapsible: false,
-			label: 'Reporting',
-			items: [
-				'principles/reporting/overview',
 			],
 		}, {
 			type: 'html',
@@ -608,46 +637,7 @@ const sidebars = {
 					],
 				},
 			]
-		},   {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Security', // sidebar label
-			link: {
-        type: "doc",
-				id: 'suite/security/intro', // document ID
-			},
-			collapsible: false,
-			items: [
-				{
-					type: 'category',
-					label: 'Design',
-					items: [
-						'suite/security/design',
-					],
-				}, {
-					type: 'category',
-					label: 'Tests',
-					items: [
-						'suite/security/unittests',
-					],
-				}, {
-					type: 'category',
-					label: 'Audits',
-					items: [
-						'suite/security/auditors',
-						'suite/security/software',
-					],
-				}, {
-					type: 'category',
-					label: 'Backups',
-					items: [
-						'suite/security/backups',
-					],
-				},
-			]
-		}, 
+		},
 	],
 
   ecosystemSidebar: [
