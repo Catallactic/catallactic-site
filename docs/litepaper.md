@@ -1321,7 +1321,14 @@ All the Bitcoin L1 native assets are somehow limited in their ability to perform
 
 ### 4.1. Ecosystem Overview
 
-**The project aims to build an ecosystem around** (producers of) **commodities** (other assets can possibly be valid as commented below) **based on representative money with creates bottom up wealth to society**. The different pieces of the ecosystem can be organized as a stack, as depicted below. We think that many of the tools that has been created in the blockchain industry (exchanges, wallets) can be reused for our purposes. We also think new tools must be introduced, specially for standardization and transparency goals at different levels of the stack.
+**The project aims to build an ecosystem around** (producers of) **commodities** (other assets can possibly be valid as commented below) **based on representative money with creates bottom up wealth to society**. We leverage existing technological pieces and provide a vision for an sustainable economic system. The architecture is shown below.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem/catallactic_all.svg" width="70%"></img>
+</div>
+<br/>
+
+The different pieces of the ecosystem can be organized as a stack, as depicted below. We think that many of the tools that has been created in the blockchain industry (exchanges, wallets) can be reused for our purposes. We also think new tools must be introduced, specially for standardization and transparency goals at different levels of the stack.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/layered_ecosystem.svg" width="30%"></img>
