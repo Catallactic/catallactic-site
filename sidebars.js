@@ -223,6 +223,10 @@ const sidebars = {
 			items: [{
 					type: 'category',
 					label: 'Preparing Funding',
+					link: {
+						type: "doc",
+						id: 'funding/preparing/intro', // document ID
+					},
 					items: [{
 							type: 'category',
 							label: 'Prepare Documentation',
