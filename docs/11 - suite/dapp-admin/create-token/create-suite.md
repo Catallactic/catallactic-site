@@ -16,14 +16,4 @@ The steps that the issuer must follow to create his CryptoCommodity are enumerat
 
 >> _ISSUER: Create Storage_ 
 
-> ISSUER: Create Vesting Period
-
-> ISSUER: Create Funding Round
-
->> ISSUER: Configure Antiwhale
-
->> ISSUER: Install Payment Methods
-
->> _ISSUER: Set the setReceiveFacet_ (the Crowdsale facet address)
-
 > ISSUER: Initialize Cryptocommodity ERC-20 with Name, Symbol, Cryptocommodity Supply

@@ -4,9 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-## Create Funding Round
-
-Once you have created a cryptocommodity, you can launch a funding round. Steps:
+## Create CryptoCommodity
 
 > ISSUER: Create Cryptocommodity
 
@@ -15,6 +13,12 @@ Once you have created a cryptocommodity, you can launch a funding round. Steps:
 >> ISSUER: Install Facets
 
 >> _ISSUER: Create Storage_ 
+
+> ISSUER: Initialize Cryptocommodity ERC-20 with Name, Symbol, Cryptocommodity Supply
+
+## Create Funding Round
+
+Once you have created a cryptocommodity, you can launch a funding round. Steps:
 
 > ISSUER: Create Vesting Period
 
@@ -25,8 +29,6 @@ Once you have created a cryptocommodity, you can launch a funding round. Steps:
 >> ISSUER: Install Payment Methods
 
 >> _ISSUER: Set the setReceiveFacet_ (the Crowdsale facet address)
-
-> ISSUER: Initialize Cryptocommodity ERC-20 with Name, Symbol, Cryptocommodity Supply
 
 ## Manage Funding Round
 

@@ -279,41 +279,6 @@ const sidebars = {
 						}, 
 					],
 				}, {
-					type: 'category',
-					label: 'Funding with Catallactic Suite',
-					items: [
-						{
-							type: 'category',
-							label: 'Defining Funding Rounds',
-							items: [
-								'funding/rounds',
-							],
-						}, {
-							type: 'category',
-							label: 'Running Funding Rounds',
-							items: [
-								'suite/dapp-admin/funding-round/overview',
-								'suite/dapp-admin/funding-round/prepare-funding-round',
-								'suite/dapp-admin/funding-round/create-funding-round',
-								'suite/dapp-admin/funding-round/manage-funding-round',
-								'suite/dapp-admin/funding-round/close-funding-round',
-							],
-						}, {
-							type: 'category',
-							label: 'Perform Vesting',
-							items: [
-								'funding/TGE',
-							],
-						}, {
-							type: 'category',
-							label: 'Deploying to Exchanges',
-							items: [
-								'funding/TGE',
-								'funding/selling',
-							],
-						}, 
-					]
-				}, {
 					type: 'doc',
 					id: 'funding/bibliography', // document ID
 					label: 'Bibliography', // sidebar label
@@ -507,8 +472,11 @@ const sidebars = {
 				}, {
 					type: 'category',
 					label: 'Funding your Project',
+					link: {
+						type: "doc",
+						id: 'suite/dapp-admin/funding-round/intro', // document ID
+					},
 					items: [
-						'suite/dapp-admin/funding-round/overview',
 						'suite/dapp-admin/funding-round/prepare-funding-round',
 						'suite/dapp-admin/funding-round/create-funding-round',
 						'suite/dapp-admin/funding-round/manage-funding-round',
