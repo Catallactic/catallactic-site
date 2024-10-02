@@ -670,6 +670,7 @@ const sidebars = {
 			items: [
 				'ecosystem/dlts/bitcoin',
 				'ecosystem/dlts/ethereum',
+				'ecosystem/miner/intro',
 			]
 		}, {
       type: 'html',
@@ -690,13 +691,14 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Wallets', // sidebar label
+			label: 'Payments', // sidebar label
 			link: {
         type: "doc",
-				id: 'ecosystem/wallets/intro', // document ID
+				id: 'ecosystem/payments/intro', // document ID
 			},
 			collapsible: false,
 			items: [
+				'ecosystem/cards',
 				'ecosystem/wallets/list',
 			]
 		}, {
@@ -704,10 +706,15 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Mining Software', // sidebar label
+			label: 'DeFi Services', // sidebar label
+			link: {
+        type: "doc",
+				id: 'ecosystem/defi', // document ID
+			},
 			collapsible: false,
 			items: [
-				'ecosystem/miner/intro',
+				'ecosystem/lending/intro',
+				'ecosystem/transfers/intro',
 			]
 		}, 
 	]
