@@ -475,7 +475,7 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Admin DApp', // sidebar label
+			label: 'Tokenization Platform', // sidebar label
 			link: {
         type: "doc",
 				id: 'suite/dapp-admin/intro', // document ID
@@ -486,8 +486,19 @@ const sidebars = {
 					type: 'category',
 					label: 'Creating Cryptocommodity',
 					items: [
-						'suite/dapp-admin/create-suite',
-						'suite/dapp-admin/supplycurrent',
+						'suite/dapp-admin/create-token/description',
+						{
+							type: 'category',
+							label: 'Designing your Token',
+							link: {
+								type: "doc",
+								id: 'suite/dapp-admin/create-token/configure', // document ID
+							},
+							items: [
+								'suite/dapp-admin/create-token/supplycurrent',
+							],
+						},
+						'suite/dapp-admin/create-token/create-suite',
 					],
 				}, {
 					type: 'category',
