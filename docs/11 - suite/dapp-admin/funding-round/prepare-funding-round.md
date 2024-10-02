@@ -4,7 +4,13 @@ sidebar_position: 1
 
 # Preparing a Funding Round
 
+> ISSUER: Create Vesting Period
 
+>> ISSUER: Configure Antiwhale
+
+>> ISSUER: Install Payment Methods
+
+>> _ISSUER: Set the setReceiveFacet_ (the Crowdsale facet address)
 
 ## Configuring Payment Methods
 
