@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# Unmanaged Liquidity
+# Liquidity across Chains

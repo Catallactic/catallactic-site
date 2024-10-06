@@ -138,15 +138,15 @@ const config = {
             label: 'Quality Money',
           }, {
 						type: 'docSidebar',
-            sidebarId: 'suiteSidebar',
-            position: 'left',
-            label: 'Suite',
-          }, {
-						type: 'docSidebar',
             sidebarId: 'ecosystemSidebar',
             position: 'left',
             label: 'Ecosystem',
 					}, {
+						type: 'docSidebar',
+            sidebarId: 'suiteSidebar',
+            position: 'left',
+            label: 'Suite',
+          }, {
 						type: 'doc',
 						docId: 'yellowpaper', 
 						label: 'Yellowpaper', 

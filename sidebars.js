@@ -494,9 +494,7 @@ const sidebars = {
 					type: 'category',
 					label: 'Managing Liquidity',
 					items: [
-						'suite/dapp-admin/liquidity/liquidity-unmanaged',
-						'suite/dapp-admin/liquidity/liquidity-capture-price',
-						'suite/dapp-admin/liquidity/liquidity-capture-value',
+						'suite/dapp-admin/liquidity/moving',
 					],
 				}, {
 					type: 'category',
@@ -642,7 +640,6 @@ const sidebars = {
 			items: [
 				'ecosystem/dlts/bitcoin',
 				'ecosystem/dlts/ethereum',
-				'ecosystem/miner/intro',
 			]
 		}, {
       type: 'html',
