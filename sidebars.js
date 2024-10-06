@@ -204,7 +204,7 @@ const sidebars = {
 			items: [
 				{
 					type: 'category',
-					label: 'Stable at Short Term', // sidebar label
+					label: 'Stable at Long Term', // sidebar label
 					link: {
 						type: "doc",
 						id: 'principles/engineering/stableLT/intro',
