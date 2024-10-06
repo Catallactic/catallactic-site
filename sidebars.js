@@ -24,6 +24,10 @@ const sidebars = {
 			label: 'Getting started', // sidebar label
 		}, {
 			type: 'doc',
+			id: 'principles/scope', // document ID
+			label: 'Scope Definition', // sidebar label
+		}, {
+			type: 'doc',
 			id: 'principles/bibliography', // document ID
 			label: 'Bibliography', // sidebar label
 		}, {
@@ -173,7 +177,17 @@ const sidebars = {
 				id: 'principles/economic/intro', // document ID
 			},
 			items: [
-				'principles/economic/stableST/intro',
+				{
+					type: 'category',
+					label: 'Stable at Short Term', // sidebar label
+					link: {
+						type: "doc",
+						id: 'principles/economic/stableST/intro',
+					},
+					items: [
+						'principles/economic/stableST/price_formation',
+					]
+				},
 				'principles/economic/creditable/intro',
 			]
 		}, {
@@ -188,7 +202,17 @@ const sidebars = {
 				id: 'principles/engineering/intro', // document ID
 			},
 			items: [
-				'principles/engineering/stableLT/intro',
+				{
+					type: 'category',
+					label: 'Stable at Short Term', // sidebar label
+					link: {
+						type: "doc",
+						id: 'principles/engineering/stableLT/intro',
+					},
+					items: [
+						'principles/engineering/stableLT/currency_debasement',
+					]
+				},
 				'principles/engineering/competitive/intro',
 			]
 		},

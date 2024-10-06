@@ -1,3 +1,3 @@
 
-# Creditable
+# Credit Capable
 
