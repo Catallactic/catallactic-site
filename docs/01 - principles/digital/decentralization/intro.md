@@ -1,5 +1,5 @@
 
-# Decentralization
+# Decentralized
 
 Including decentralization is highly consuming task for most of the projects. No only decentralization on your own systems but, also, projects should take into account decentralization in adopted tools. 
 

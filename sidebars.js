@@ -31,117 +31,167 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Decentralization', // sidebar label
+			label: 'Physical Properties', // sidebar label
 			collapsible: false,
 			link: {
         type: "doc",
-				id: 'principles/decentralization/intro', // document ID
+				id: 'principles/physical/index', // document ID
 			},
 			items: [
-				'principles/decentralization/bibliography',
+				'principles/physical/uniform/index',
+				'principles/physical/divisible/index',
+				'principles/physical/durable/index',
+				'principles/physical/recognisable/index',
+				'principles/physical/unforgeable/index',
+				'principles/physical/scarce/index',
+				'principles/physical/acceptable/index',
 			]
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-		}, {
+    }, {
       type: 'category',
-			label: 'Security', // sidebar label
+			label: 'Digital Properties', // sidebar label
+			collapsible: false,
 			link: {
         type: "doc",
-				id: 'principles/security/intro', // document ID
+				id: 'principles/digital/intro', // document ID
 			},
-			collapsible: false,
 			items: [
 				{
 					type: 'category',
-					label: 'Design',
+					label: 'Decentralized', // sidebar label
+					link: {
+						type: "doc",
+						id: 'principles/digital/decentralization/intro', // document ID
+					},
 					items: [
-						'principles/security/design',
+						'principles/digital/decentralization/bibliography',
+					]
+				}, {
+					type: 'category',
+					label: 'Secure', // sidebar label
+					link: {
+						type: "doc",
+						id: 'principles/digital/security/intro', // document ID
+					},
+					items: [
+						{
+							type: 'category',
+							label: 'Design',
+							items: [
+								'principles/digital/security/design',
+							],
+						}, {
+							type: 'category',
+							label: 'Tests',
+							items: [
+								'principles/digital/security/unittests',
+							],
+						}, {
+							type: 'category',
+							label: 'Audits',
+							items: [
+								'principles/digital/security/auditors',
+								'principles/digital/security/software',
+							],
+						}, {
+							type: 'category',
+							label: 'Backups',
+							items: [
+								'principles/digital/security/backups',
+							],
+						},
+					]
+				}, {
+					type: 'category',
+					label: 'Transparent',
+					items: [
+						'principles/digital/reporting/overview',
 					],
 				}, {
 					type: 'category',
-					label: 'Tests',
+					label: 'Private',
 					items: [
-						'principles/security/unittests',
+						'principles/digital/privacy/overview',
 					],
 				}, {
 					type: 'category',
-					label: 'Audits',
+					label: 'Compliant', // sidebar label
 					items: [
-						'principles/security/auditors',
-						'principles/security/software',
-					],
+						{
+							type: 'category',
+							label: 'Compliance',
+							items: [
+								'principles/digital/compliance/KYC',
+								'principles/digital/compliance/AML',
+								'principles/digital/compliance/Taxes'
+							],
+						}, {
+							type: 'doc',
+							id: 'principles/digital/compliance/cryptolaw',
+							label: 'Legal Framework',
+						}, {
+							type: 'category',
+							label: 'Jurisdictions for Funding',
+							items: [
+								'principles/digital/compliance/funding/issuer',
+								'principles/digital/compliance/funding/HQ',
+								'principles/digital/compliance/funding/investors',
+							],
+						}, {
+							type: 'category',
+							label: 'Jurisdictions for Negotiation',
+							items: [
+								'principles/digital/compliance/negotiation/issuer',
+							],
+						}, {
+							type: 'category',
+							label: 'Jurisdictions for Distribution',
+							items: [
+								'principles/digital/compliance/distribution/consumer',
+							],
+						}, 
+					]
 				}, {
 					type: 'category',
-					label: 'Backups',
+					label: 'Upgradeable',
 					items: [
-						'principles/security/backups',
-					],
-				},
-			]
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-		}, {
-			type: 'category',
-			collapsible: false,
-			label: 'Reporting',
-			items: [
-				'principles/reporting/overview',
-			],
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-		}, {
-			type: 'category',
-			collapsible: false,
-			label: 'Privacy',
-			items: [
-				'principles/privacy/overview',
-			],
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-		}, {
-			type: 'category',
-			label: 'Compliance', // sidebar label
-			collapsible: false,
-			items: [
-				{
-					type: 'category',
-					label: 'Compliance',
-					items: [
-						'principles/compliance/KYC',
-						'principles/compliance/AML',
-						'principles/compliance/Taxes'
-					],
-				}, {
-					type: 'doc',
-					id: 'principles/compliance/cryptolaw',
-					label: 'Legal Framework',
-				}, {
-					type: 'category',
-					label: 'Jurisdictions for Funding',
-					items: [
-						'principles/compliance/funding/issuer',
-						'principles/compliance/funding/HQ',
-						'principles/compliance/funding/investors',
-					],
-				}, {
-					type: 'category',
-					label: 'Jurisdictions for Negotiation',
-					items: [
-						'principles/compliance/negotiation/issuer',
-					],
-				}, {
-					type: 'category',
-					label: 'Jurisdictions for Distribution',
-					items: [
-						'principles/compliance/distribution/consumer',
+						'principles/digital/upgradeable/index',
 					],
 				}, 
 			]
-		}, 
+    }, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Economic Properties', // sidebar label
+			collapsible: false,
+			link: {
+        type: "doc",
+				id: 'principles/economic/intro', // document ID
+			},
+			items: [
+				'principles/economic/stableST/intro',
+				'principles/economic/creditable/intro',
+			]
+		}, {
+			type: 'html',
+      value: '<div class="border border-1 m-3" />',
+    }, {
+      type: 'category',
+			label: 'Engineering Properties', // sidebar label
+			collapsible: false,
+			link: {
+        type: "doc",
+				id: 'principles/engineering/intro', // document ID
+			},
+			items: [
+				'principles/engineering/stableLT/intro',
+				'principles/engineering/competitive/intro',
+			]
+		},
 	],
 
   valueChainSidebar: [
@@ -241,9 +291,9 @@ const sidebars = {
 							type: 'category',
 							label: 'Perform Compliance',
 							items: [
-								'principles/compliance/funding/issuer',
-								'principles/compliance/funding/HQ',
-								'principles/compliance/funding/investors',
+								'principles/digital/compliance/funding/issuer',
+								'principles/digital/compliance/funding/HQ',
+								'principles/digital/compliance/funding/investors',
 							],
 						}, {
 							type: 'category',
