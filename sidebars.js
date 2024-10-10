@@ -714,6 +714,7 @@ const sidebars = {
 			items: [
 				'ecosystem/dlts/bitcoin',
 				'ecosystem/dlts/ethereum',
+				'ecosystem/dlts/interop',
 			]
 		}, {
       type: 'html',
