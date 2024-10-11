@@ -714,7 +714,7 @@ const sidebars = {
 			items: [
 				{
 					type: 'category',
-					label: 'Chains', // sidebar label
+					label: 'DLT Networks', // sidebar label
 					link: {
 						type: "doc",
 						id: 'ecosystem/dlts/chainintro',
