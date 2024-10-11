@@ -3,6 +3,8 @@
 	{ "key": "COS", "name": "Cosmos", "url":"https://cosmos.network/", "builtOn": "Cosmos SDK", "consensus": "CometBFT", "vm": "CosmWasm" },
 	{ "key": "COS", "name": "Polkadot", "url":"https://polkadot.com/", "builtOn": "Substracte", "consensus": "NPoS", "vm": "PolkaVM" },
 	{ "key": "COS", "name": "Avalanche", "url":"https://www.avax.network/", "builtOn": "-", "consensus": "Avalanche Consensus", "vm": "AVM" },
+	{ "key": "COS", "name": "Elastic Chain", "url":"", "builtOn": "", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "BitcoinOS", "url":"https://sovryn.com/bitcoinos", "builtOn": "", "consensus": "", "vm": "" },
 
 	{ "type": "Notary Networks" },
 	{ "key": "COS", "name": "ThornChain", "url":"https://thorchain.org/", "builtOn": "Cosmos SDK", "consensus": "", "vm": "" },
@@ -20,14 +22,16 @@
 	{ "key": "COS", "name": "Tellor", "url":"https://tellor.io/", "builtOn": "-", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Sigma", "url":"https://buildwithsygma.com/", "builtOn": "-", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Nomad", "url":"https://www.nomad.xyz/", "builtOn": "-", "consensus": "", "vm": "" },
-	{ "key": "COS", "name": "Celer", "url":"https://celer.network/", "builtOn": "Tendermint", "consensus": "", "vm": "" },
 
 	{ "type": "Interop Layers L1" },
 	{ "key": "COS", "name": "Axelar", "url":"https://axelar.network/funding-program", "builtOn": "Cosmos SDK", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Entangle Protocol", "url":"https://entangle.fi/", "builtOn": "Cosmos SDK", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Pyth Network", "url":"https://www.pyth.network/", "builtOn": "Solana", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "Celer", "url":"https://celer.network/", "builtOn": "Tendermint", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "Band Protocol", "url":"https://www.bandprotocol.com/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Stork Network", "url":"https://www.stork.network/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Synapse Protocol", "url":"https://synapseprotocol.com/", "builtOn": "", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "Flare Network", "url":"https://flare.network/", "builtOn": "Tendermint", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Multichain", "url":"https://multichain.org/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Hyperlane", "url":"https://hyperlane.xyz/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Zetachain", "url":"https://www.zetachain.com/", "builtOn": "", "consensus": "", "vm": "" },
@@ -37,11 +41,10 @@
 	{ "key": "COS", "name": "Particle Network", "url":"https://particle.network/", "builtOn": "Cosmos SDK", "consensus": "CometBFT", "vm": "" },
 
 	{ "type": "Interop Layers L2" },
-	{ "key": "COS", "name": "BitcoinOS", "url":"https://sovryn.com/bitcoinos", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Map Protocol", "url":"https://www.mapprotocol.io/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "OmniNetwork", "url":"https://omni.network/", "builtOn": "", "consensus": "", "vm": "" },
-	{ "key": "COS", "name": "Elastic Chain", "url":"", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "LayerOneX", "url":"https://l1x.foundation/", "builtOn": "", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "API3", "url":"https://l1x.foundation/", "builtOn": "Arbitrum Orbit", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Polygon AggLayer", "url":"https://polygon.technology/agglayer", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Connext", "url":"https://www.connext.network/", "builtOn": "", "consensus": "", "vm": "" }
 

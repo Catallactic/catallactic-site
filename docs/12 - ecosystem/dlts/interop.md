@@ -1,7 +1,7 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
 import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 
-# Interoperability
+# Ecosystem
 
   <table>
 		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>

@@ -705,16 +705,36 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Chains', // sidebar label
+			label: 'Infrastructure', // sidebar label
 			link: {
         type: "doc",
 				id: 'ecosystem/dlts/intro', // document ID
 			},
 			collapsible: false,
 			items: [
-				'ecosystem/dlts/bitcoin',
-				'ecosystem/dlts/ethereum',
-				'ecosystem/dlts/interop',
+				{
+					type: 'category',
+					label: 'Chains', // sidebar label
+					link: {
+						type: "doc",
+						id: 'ecosystem/dlts/chainintro',
+					},
+					items: [
+						'ecosystem/dlts/bitcoin',
+						'ecosystem/dlts/ethereum',
+					]
+				}, 
+				{
+					type: 'category',
+					label: 'Interoperability', // sidebar label
+					link: {
+						type: "doc",
+						id: 'ecosystem/dlts/interintro', // document ID
+					},
+					items: [
+						'ecosystem/dlts/interop',
+					]
+				}, 
 			]
 		}, {
       type: 'html',
