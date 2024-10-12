@@ -1,7 +1,7 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
 import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 
-# Interoperability 
+# Interoperability Landscape
 
 ## Interoperability Tools
 
@@ -68,11 +68,11 @@ import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 			<td>-</td>
 		</tr>
 		<tr>
-			<th>Bridges</th>
+			<th>Bridges (Point to Point)</th>
 			<td>-</td>
 		</tr>
 		<tr>
-			<th>Native Token Transfers</th>
+			<th>Native Token Transfers (Hub and Spoke)</th>
 			<td>-</td>
 		</tr>
 		<tr>
