@@ -68,11 +68,11 @@ import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 			<td>-</td>
 		</tr>
 		<tr>
-			<th>Bridges (Point to Point)</th>
+			<th>Bridges</th>
 			<td>-</td>
 		</tr>
 		<tr>
-			<th>Native Token Transfers (Hub and Spoke)</th>
+			<th>Native Token Transfers</th>
 			<td>-</td>
 		</tr>
 		<tr>
