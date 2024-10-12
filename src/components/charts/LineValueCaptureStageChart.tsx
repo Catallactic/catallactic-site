@@ -1,20 +1,9 @@
-//import React from 'react';
-const React = require('react');
+import { Line } from "react-chartjs-2";
 
-const Chart = require('chart.js/auto')
-import ChartDataLabels from 'chartjs-plugin-datalabels';
-const annotationPlugin = require('chartjs-plugin-annotation')
-Chart.register(annotationPlugin);
-// https://github.com/chartjs/chartjs-plugin-annotation/issues/786
-const Line = require('react-chartjs-2')
-
-
-import styles from './styles.module.css';
-
-export default function SupplyProfileChart(): JSX.Element {
+export default function LineValueCaptureStageChart() {
   return (
     <>
-			<div className="panel">
+			<div className="chart-panel2">
 				<Line
 					data={{
 						labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
@@ -27,7 +16,7 @@ export default function SupplyProfileChart(): JSX.Element {
 						},{
 							fill: true,
 							label: 'Unit of Account',
-							backgroundColor: "rgba(6,11,39,1.0)",
+							backgroundColor: 'rgba(245,245,245)',
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
 						}],
@@ -94,6 +83,33 @@ export default function SupplyProfileChart(): JSX.Element {
 							},
 							annotation: {
 								annotations: [{
+									type: 'label',
+									xValue: 1.5,
+									yValue: 200,
+									content: ['Funding','Rounds'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 18
+									}
+								}, {
+									type: 'label',
+									xValue: 5,
+									yValue: 200,
+									content: ['Value','Capture'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 18
+									}
+								}, {
+									type: 'label',
+									xValue: 15,
+									yValue: 200,
+									content: ['Value','Release'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 18
+									}
+								}, {
 									type: 'line',
 									xMin: 7,
 									xMax: 7,
@@ -104,7 +120,7 @@ export default function SupplyProfileChart(): JSX.Element {
 									type: 'label',
 									xValue: 7,
 									yValue: 800,
-									content: ['Value','Capture','Event'],
+									content: ['VCE'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 18
@@ -125,7 +141,7 @@ export default function SupplyProfileChart(): JSX.Element {
 									type: 'label',
 									xValue: 3,
 									yValue: 800,
-									content: ['Token','Generation','Event'],
+									content: ['TGE'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 18
@@ -143,5 +159,5 @@ export default function SupplyProfileChart(): JSX.Element {
 				/>
 			</div>
 		</>
-  );
+	)
 }
