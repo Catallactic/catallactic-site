@@ -27,6 +27,10 @@ import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 			<th>Intends</th>
 			<td>-</td>
 		</tr>
+		<tr>
+			<th>Liquidity Networks (e.g. exchanges, AMM)</th>
+			<td>-</td>
+		</tr>
 	</table>
 </div>
 <br/>
