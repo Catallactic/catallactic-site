@@ -45,6 +45,8 @@
 	{ "key": "COS", "name": "OmniNetwork", "url":"https://omni.network/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "LayerOneX", "url":"https://l1x.foundation/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "API3", "url":"https://l1x.foundation/", "builtOn": "Arbitrum Orbit", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "exSAT", "url":"https://exsat.network/", "builtOn": "EOS", "consensus": "", "vm": "" },
+	{ "key": "COS", "name": "zKM", "url":"https://www.zkm.io/", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Polygon AggLayer", "url":"https://polygon.technology/agglayer", "builtOn": "", "consensus": "", "vm": "" },
 	{ "key": "COS", "name": "Connext", "url":"https://www.connext.network/", "builtOn": "", "consensus": "", "vm": "" }
 
