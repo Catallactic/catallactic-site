@@ -8,11 +8,7 @@ import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 <div style={{overflowX : 'auto'}}>
 	<table style={{textAlign: 'center'}}>
 		<tr>
-			<th>Messages</th>
-			<th></th>
-		</tr>
-		<tr>
-			<th>Intends</th>
+			<th>Oracles</th>
 			<td>-</td>
 		</tr>
 		<tr>
@@ -20,11 +16,15 @@ import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 			<td>-</td>
 		</tr>
 		<tr>
-			<th>Oracles</th>
+			<th>Routers</th>
 			<td>-</td>
 		</tr>
 		<tr>
-			<th>Routers</th>
+			<th>Messages</th>
+			<th></th>
+		</tr>
+		<tr>
+			<th>Intends</th>
 			<td>-</td>
 		</tr>
 	</table>
