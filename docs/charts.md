@@ -2,6 +2,15 @@
 sidebar_position: 1
 ---
 
+import DoughnutPreInitialTokenAllocationChart from '@site/src/components/charts/DoughnutPreInitialTokenAllocationChart';
+import DoughnutInitialTokenAllocationChart from '@site/src/components/charts/DoughnutInitialTokenAllocationChart';
+import DoughnutTokenAllocationConceptsChart from '@site/src/components/charts/DoughnutTokenAllocationConceptsChart';
+import DoughnutProjectAllocationChart from '@site/src/components/charts/DoughnutProjectAllocationChart';
+import DoughnutFundingAllocationChart from '@site/src/components/charts/DoughnutFundingAllocationChart';
+import DoughnutNegotiationAllocationChart from '@site/src/components/charts/DoughnutNegotiationAllocationChart';
+import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/charts/DoughnutConsolidatedTokenAllocationChart';
+import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
+import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 import LineEstimatingInvestorsExitChart from '@site/src/components/charts/LineEstimatingInvestorsExitChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
@@ -10,18 +19,10 @@ import LineTotalSupplyCompositionChart from '@site/src/components/charts/LineTot
 import LineValueCaptureStageChart from '@site/src/components/charts/LineValueCaptureStageChart';
 import LineValueReleaseStageChart from '@site/src/components/charts/LineValueReleaseStageChart';
 import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSchedulesChart';
-import DoughnutTokenAllocationConceptsChart from '@site/src/components/charts/DoughnutTokenAllocationConceptsChart';
-import DoughnutInitialTokenAllocationChart from '@site/src/components/charts/DoughnutInitialTokenAllocationChart';
-import DoughnutProjectAllocationChart from '@site/src/components/charts/DoughnutProjectAllocationChart';
-import DoughnutFundingAllocationChart from '@site/src/components/charts/DoughnutFundingAllocationChart';
-import DoughnutNegotiationAllocationChart from '@site/src/components/charts/DoughnutNegotiationAllocationChart';
-import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/charts/DoughnutConsolidatedTokenAllocationChart';
-import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
-import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 
 
-# DoughnutTokenAllocationConceptsChart
-<DoughnutTokenAllocationConceptsChart/>
+# DoughnutPreInitialTokenAllocationChart
+<DoughnutPreInitialTokenAllocationChart/>
 
 ---
 
@@ -57,6 +58,11 @@ import DoughnutOperationsAllocationChart from '@site/src/components/charts/Dough
 
 # DoughnutOperationsAllocationChart
 <DoughnutOperationsAllocationChart/>
+
+---
+
+# DoughnutTokenAllocationConceptsChart
+<DoughnutTokenAllocationConceptsChart/>
 
 ---
 

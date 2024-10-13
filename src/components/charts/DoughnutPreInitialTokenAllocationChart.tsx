@@ -22,12 +22,12 @@ export default function DoughnutInitialTokenAllocationChart() {
 								'Project', 'Funding', 'Exchanges', 'Operations'
 							],
 							datasets: [{
-									backgroundColor: [COLOR_EXCHANGES, COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_EXCHANGES, COLOR_EXCHANGES],
+									backgroundColor: [COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
 									data: [0, 1, 2, 3, 5, 4, 0, 0] ,
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: [COLOR_PROJECT, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_EXCHANGES],
+									backgroundColor: [COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
 									data: [1, 10, 4, 0],
 									order: [10, 1, 5, 8],
 									index: 1

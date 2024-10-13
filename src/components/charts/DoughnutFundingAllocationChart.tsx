@@ -22,12 +22,12 @@ export default function DoughnutFundingAllocationChart() {
 								'Project', 'Holders', 'Liquidity', 'Operations'
 							],
 							datasets: [{
-									backgroundColor: [COLOR_PROJECT, COLOR_PROJECT, COLOR_GREY, COLOR_GREY, COLOR_GREY, COLOR_GREY, COLOR_GREY, COLOR_GREY],
+									backgroundColor: [COLOR_GREY, COLOR_GREY, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_GREY, COLOR_GREY, COLOR_GREY],
 									data: [9, 1, 2, 3, 5, 4, 5, 71],
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: [COLOR_PROJECT, COLOR_GREY, COLOR_GREY, COLOR_GREY],
+									backgroundColor: [COLOR_GREY, COLOR_HOLDERS, COLOR_GREY, COLOR_GREY],
 									data: [10, 10, 9, 71],
 									order: [1, 10, 5, 8],
 									index: 1
