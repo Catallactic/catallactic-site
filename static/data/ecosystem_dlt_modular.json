@@ -1,0 +1,26 @@
+[
+
+	{ "type": "Optimium" },
+	{ "key": "ARM", "name": "Rollkit", "url":"https://rollkit.dev/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Astra", "url":"https://www.stakecito.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Mantle", "url":"https://www.mantle.xyz", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Manta Pacific", "url":"https://pacific.manta.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Metis", "url":"https://www.metis.io/grants", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Aevo", "url":"https://www.aevo.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Karak", "url":"https://karak.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Arbitrum Nova", "url":"https://arbitrum.io/anytrust", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Lira", "url":"https://lyra.finance/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "PGN", "url":"https://publicgoods.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Orderly Network", "url":"https://orderly.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Hypr (Gaming)", "url":"https://www.hypr.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Fraxtal (Gaming)", "url":"https://www.fractal.is/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Ancient8 (Gaming)", "url":"https://ancient8.gg/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Edgeless (Gaming)", "url":"https://edgeless.io/home", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "HYCHAIN (Gaming)", "url":"https://docs.hychain.com/docs/getting-started", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Validium" },
+	{ "key": "ARM", "name": "Lumia", "url":"https://lumia.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Volition" }
+
+]

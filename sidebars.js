@@ -717,11 +717,12 @@ const sidebars = {
 					label: 'DLT Networks', // sidebar label
 					link: {
 						type: "doc",
-						id: 'ecosystem/dlts/chainintro',
+						id: 'ecosystem/dlts/ecosystems/intro',
 					},
 					items: [
-						'ecosystem/dlts/bitcoin',
-						'ecosystem/dlts/ethereum',
+						'ecosystem/dlts/ecosystems/bitcoin',
+						'ecosystem/dlts/ecosystems/ethereum',
+						'ecosystem/dlts/ecosystems/modular',
 					]
 				}, 
 				{
