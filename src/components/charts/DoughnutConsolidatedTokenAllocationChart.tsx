@@ -1,6 +1,12 @@
 import Chart from 'chart.js/auto';
 import { Doughnut } from "react-chartjs-2";
 
+import { COLOR_PROJECT } from "./config";
+import { COLOR_HOLDERS } from "./config";
+import { COLOR_EXCHANGES } from "./config";
+import { COLOR_DEFI } from "./config";
+import { COLOR_GREY } from './config';
+
 export default function DoughnutConsolidatedTokenAllocationChart() {
   return (
     <>
@@ -16,12 +22,12 @@ export default function DoughnutConsolidatedTokenAllocationChart() {
 								'Project', 'Holders', 'Liquidity', 'DeFi Services'
 							],
 							datasets: [{
-									backgroundColor: ['#0a1172', '#0a1172', '#1338be', '#1338be', '#1338be', '#d1d1f6', '#d1d1f6', '#add8e6'],
+									backgroundColor: [COLOR_PROJECT, COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_EXCHANGES, COLOR_DEFI],
 									data: [9, 1, 2, 3, 5, 4, 5, 71],
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: ['#0a1172', '#1338be', '#d1d1f6', '#add8e6'],
+									backgroundColor: [COLOR_PROJECT, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_DEFI],
 									data: [10, 10, 9, 71],
 									order: [1, 10, 5, 8],
 									index: 1

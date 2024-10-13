@@ -1,6 +1,12 @@
 import Chart from 'chart.js/auto';
 import { Doughnut } from "react-chartjs-2";
 
+import { COLOR_PROJECT } from "./config";
+import { COLOR_HOLDERS } from "./config";
+import { COLOR_EXCHANGES } from "./config";
+import { COLOR_DEFI } from "./config";
+import { COLOR_GREY } from './config';
+
 export default function DoughnutInitialTokenAllocationChart() {
   return (
     <>
@@ -10,18 +16,18 @@ export default function DoughnutInitialTokenAllocationChart() {
 						data={{
 							labels: [
 								'Project', 'Project',
-								'Private Sale', 'Presale', 'Crowdsale', 
+								'Holders (Private Sale)', 'Holders (Presale)', 'Holders (Crowdsale)', 
 								'Exchanges', 'Exchanges',
 								'Operations', 
 								'Project', 'Funding', 'Exchanges', 'Operations'
 							],
 							datasets: [{
-									backgroundColor: ['#d1d1f6', '#0a1172', '#1338be', '#1338be', '#1338be', '#d1d1f6', '#d1d1f6', '#d1d1f6'],
+									backgroundColor: [COLOR_EXCHANGES, COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_EXCHANGES, COLOR_EXCHANGES],
 									data: [0, 1, 2, 3, 5, 4, 0, 0] ,
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: ['#0a1172', '#1338be', '#d1d1f6', '#d1d1f6'],
+									backgroundColor: [COLOR_PROJECT, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_EXCHANGES],
 									data: [1, 10, 4, 0],
 									order: [10, 1, 5, 8],
 									index: 1
@@ -64,12 +70,12 @@ export default function DoughnutInitialTokenAllocationChart() {
 											return labelsOriginal.sort((label2, label1) => {
 												return orders[label2.index] - orders[label1.index];
 											}).filter((label, index, array) => {
-												return (datasetColors[label.index] != '#d1d1f6' && [1, 2, 3, 4, 10].includes(label.index));
+												return (datasetColors[label.index] != COLOR_EXCHANGES && [1, 2, 3, 4, 10].includes(label.index));
 											}).map((label) => {
-											label.datasetIndex = label.index;
-											label.fillStyle = datasetColors[label.index];
-													return label;
-											});	
+												label.datasetIndex = label.index;
+												label.fillStyle = datasetColors[label.index];
+												return label;
+											});
 										}
 									},
 									onClick: function(mouseEvent, legendItem, legend) {

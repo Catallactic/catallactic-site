@@ -1,6 +1,12 @@
 import Chart from 'chart.js/auto';
 import { Doughnut } from "react-chartjs-2";
 
+import { COLOR_PROJECT } from "./config";
+import { COLOR_HOLDERS } from "./config";
+import { COLOR_EXCHANGES } from "./config";
+import { COLOR_DEFI } from "./config";
+import { COLOR_GREY } from './config';
+
 export default function DoughnutUnderlyingAssetPaymentsChart() {
   return (
     <>
@@ -16,12 +22,12 @@ export default function DoughnutUnderlyingAssetPaymentsChart() {
 								'Project', 'Holders', 'Liquidity', 'Operations'
 							],
 							datasets: [{
-									backgroundColor: ['#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#D3D3D3', '#d1d1f6', '#d1d1f6', '#D3D3D3'],
+									backgroundColor: [COLOR_GREY, COLOR_GREY, COLOR_GREY, COLOR_GREY, COLOR_GREY, COLOR_EXCHANGES, COLOR_EXCHANGES, COLOR_GREY],
 									data: [9, 1, 2, 3, 5, 4, 5, 71],
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: ['#D3D3D3', '#D3D3D3', '#d1d1f6', '#D3D3D3'],
+									backgroundColor: [COLOR_GREY, COLOR_GREY, COLOR_EXCHANGES, COLOR_GREY],
 									data: [10, 10, 9, 71],
 									order: [1, 10, 5, 8],
 									index: 1

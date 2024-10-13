@@ -1,5 +1,11 @@
 import { Line } from "react-chartjs-2";
 
+import { COLOR_PROJECT } from "./config";
+import { COLOR_HOLDERS } from "./config";
+import { COLOR_EXCHANGES } from "./config";
+import { COLOR_DEFI } from "./config";
+import { COLOR_GREY } from './config';
+
 export default function LineValueReleaseStageChart() {
   return (
     <>

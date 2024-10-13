@@ -1,5 +1,11 @@
 import { Line } from "react-chartjs-2";
 
+import { COLOR_PROJECT } from "./config";
+import { COLOR_HOLDERS } from "./config";
+import { COLOR_EXCHANGES } from "./config";
+import { COLOR_DEFI } from "./config";
+import { COLOR_GREY } from './config';
+
 export default function LineVestingSchedulesChart() {
 
 	const pp = 1;
@@ -25,31 +31,31 @@ export default function LineVestingSchedulesChart() {
 						datasets: [{
 							fill: true,
 							label: 'Exchanges',
-							backgroundColor: "#d1d1f6",
+							backgroundColor: COLOR_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(60, 8, 12, 40, 48)
 						}, {
 							fill: true,
 							label: 'Seed Round',
-							backgroundColor: "#1338be",
+							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(60, 0, 12, 10, 24),
 						}, {
 							fill: true,
 							label: 'Pre-Sale',
-							backgroundColor: "#1338be",
+							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(60, 4, 3, 40, 24)
 						}, {
 							fill: true,
 							label: 'Public-Sale',
-							backgroundColor: "#1338be",
+							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(60, 10, 3, 50, 12)
 						}, {
 							fill: true,
 							label: 'Project',
-							backgroundColor: "#0a1172",
+							backgroundColor: COLOR_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(60, 0, 3, 10, 12)
 						}],

@@ -19,45 +19,6 @@ import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/chart
 import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
 import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 
-# LineEstimatingInvestorsExitChart
-<LineEstimatingInvestorsExitChart/>
-
----
-
-# LineParametrizationChart
-<LineParametrizationChart/>
-
----
-
-# LineReleaseScheduleChart
-<LineReleaseScheduleChart/>
-
----
-
-# LineSupplyProfileChart
-<LineSupplyProfileChart/>
-
----
-
-# LineTotalSupplyCompositionChart
-<LineTotalSupplyCompositionChart/>
-
----
-
-# LineValueCaptureStageChart
-<LineValueCaptureStageChart/>
-
----
-
-# LineValueReleaseStageChart
-<LineValueReleaseStageChart/>
-
----
-
-# LineVestingSchedulesChart
-<LineVestingSchedulesChart/>
-
----
 
 # DoughnutTokenAllocationConceptsChart
 <DoughnutTokenAllocationConceptsChart/>
@@ -96,3 +57,44 @@ import DoughnutOperationsAllocationChart from '@site/src/components/charts/Dough
 
 # DoughnutOperationsAllocationChart
 <DoughnutOperationsAllocationChart/>
+
+---
+
+# LineSupplyProfileChart
+<LineSupplyProfileChart/>
+
+---
+
+# LineTotalSupplyCompositionChart
+<LineTotalSupplyCompositionChart/>
+
+---
+
+# LineValueCaptureStageChart
+<LineValueCaptureStageChart/>
+
+---
+
+# LineVestingSchedulesChart
+<LineVestingSchedulesChart/>
+
+---
+
+# LineEstimatingInvestorsExitChart
+<LineEstimatingInvestorsExitChart/>
+
+---
+
+# LineValueReleaseStageChart
+<LineValueReleaseStageChart/>
+
+---
+
+
+# LineReleaseScheduleChart
+<LineReleaseScheduleChart/>
+
+---
+
+# LineParametrizationChart
+<LineParametrizationChart/>
