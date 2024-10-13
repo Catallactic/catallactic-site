@@ -1,5 +1,27 @@
 [
 
+	{ "type": "MEV" },
+	{ "key": "ARM", "name": "SUAVE", "url":"https://collective.flashbots.net/t/suave-centauri-open-sourcing-suave-geth/2196", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Sequencers" },
+	{ "key": "ARM", "name": "Taiko", "url":"https://taiko.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Espresso", "url":"https://www.espressosys.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Metis Sequencer", "url":"https://www.metis.io/decentralized-sequencer", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Morph", "url":"https://www.morphl2.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "GOAT Network", "url":"https://www.goat.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Astria", "url":"https://www.astria.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "StarkNet Sequencer", "url":"https://medium.com/starkware/starknets-new-sequencer-339e63845003", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Levitation", "url":"https://github.com/skalenetwork/levitation_decentralized_zk_sequencer", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Madara", "url":"https://www.madara.zone/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Radious", "url":"https://www.theradius.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Anoma", "url":"", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "VM" },
+	{ "key": "ARM", "name": "Geth", "url":"", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "cosmwasm", "url":"", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "SVM", "url":"", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "MoveVM", "url":"", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
 	{ "type": "Optimium" },
 	{ "key": "ARM", "name": "Rollkit", "url":"https://rollkit.dev/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Astra", "url":"https://www.stakecito.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
@@ -19,8 +41,41 @@
 	{ "key": "ARM", "name": "HYCHAIN (Gaming)", "url":"https://docs.hychain.com/docs/getting-started", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 
 	{ "type": "Validium" },
+	{ "key": "ARM", "name": "Sovereign SDK", "url":"https://www.sovereign.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Lumia", "url":"https://lumia.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 
-	{ "type": "Volition" }
+	{ "type": "Volition" },
+
+	{ "type": "Rollup as a Service" },
+	{ "key": "ARM", "name": "Lumoz", "url":"https://lumoz.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "BVM", "url":"https://bvm.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "AltLayer", "url":"https://www.altlayer.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Caldera", "url":"https://www.caldera.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Conduit", "url":"https://conduit.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Gateway", "url":"https://gateway.fm/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Gelato", "url":"https://www.gelato.network/careers", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Karnot", "url":"https://www.karnot.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Snapchain", "url":"https://www.snapchain.dev/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Vistara", "url":"https://app.vistara.dev/admin/deployments", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Zeeve", "url":"https://www.zeeve.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Semita", "url":"https://nodereal.io/semita", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Provers" },
+	{ "key": "ARM", "name": "Scroll DPN", "url":"https://scroll.io/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "StarkNet Prover", "url":"https://www.starknet.io/blog/open-sourcing-the-starknet-prover/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "Verifiers" },
+	{ "key": "ARM", "name": "LayerEdge", "url":"https://www.layeredge.io/en", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+
+	{ "type": "DA" },
+	{ "key": "ARM", "name": "Syscoin", "url":"https://syscoin.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "B2 Hub", "url":"https://www.bsquared.network/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "NuBit", "url":"https://www.nubit.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Celestia", "url":"https://celestia.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Sovereign", "url":"https://www.sovereign.xyz/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Arbitrum AnyTrust", "url":"https://arbitrum.io/anytrust", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Timamisu", "url":"https://docs.espressosys.com/sequencer/espresso-architecture/espresso-data-availability-layer", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "AvailDA", "url":"https://www.availproject.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" }
+
 
 ]

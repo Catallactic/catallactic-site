@@ -11,7 +11,7 @@
 	{ "key": "ARM", "name": "Flush", "url":"https://flush.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Bitcoin Unlimited", "url":"https://www.bitcoinunlimited.info/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Handshake", "url":"https://handshake.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
-	{ "key": "ARM", "name": "Satoshi Chain", "url":"", "builtOn": "", "consensus": "", "vm": "", "language": "" },
+	{ "key": "ARM", "name": "Satoshi Chain", "url":"https://x.com/SatoshiChain", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Bitcoin Spark", "url":"https://bitcoinspark.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Bitcoin Minetrix", "url":"https://bitcoinminetrix.com/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
 	{ "key": "ARM", "name": "Bitcoin Gold", "url":"https://bitcoingold.org/", "builtOn": "", "consensus": "", "vm": "", "language": "" },
