@@ -729,10 +729,13 @@ const sidebars = {
 					label: 'Interoperability', // sidebar label
 					link: {
 						type: "doc",
-						id: 'ecosystem/dlts/interintro', // document ID
+						id: 'ecosystem/dlts/interop/intro', // document ID
 					},
 					items: [
-						'ecosystem/dlts/interop',
+						'ecosystem/dlts/interop/tools',
+						'ecosystem/dlts/interop/patterns',
+						'ecosystem/dlts/interop/services',
+						'ecosystem/dlts/interop/ecosystem',
 					]
 				}, 
 			]
