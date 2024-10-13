@@ -11,9 +11,9 @@ import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 	<table style={{textAlign: 'center'}}>
 		<tr>
 			<th>Interoperability Tools</th>
-			<th rowSpan="7">-</th>
+			<th rowSpan="7"><h1>+</h1></th>
 			<th>Interoperability Patterns</th>
-			<th rowSpan="7">-</th>
+			<th rowSpan="7"><h1>=</h1></th>
 			<th>Interoperability Services</th>
 		</tr>
 		<tr>
