@@ -59,7 +59,7 @@ export default function LineTotalSupplyCompositionChart() {
 								stacked: true,
 								title: {
 									display: true,
-									text: 'Supply',
+									text: 'Total Supply',
 									font: {
 										family: 'Comic Sans MS',
 										size: 20,
@@ -76,7 +76,7 @@ export default function LineTotalSupplyCompositionChart() {
 								display: true,
 								title: {
 									display: true,
-									text: 'Demand',
+									text: 'Physical Demand (Orders Delivered - 30 days rolling average)',
 									font: {
 										family: 'Comic Sans MS',
 										size: 20,

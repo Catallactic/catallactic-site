@@ -41,7 +41,7 @@ export default function LineValueReleaseStageChart() {
 								display: true,
 								title: {
 									display: true,
-									text: 'Tokens Created',
+									text: 'Total Supply',
 									font: {
 										family: 'Comic Sans MS',
 										size: 20,
@@ -58,7 +58,7 @@ export default function LineValueReleaseStageChart() {
 								display: true,
 								title: {
 									display: true,
-									text: 'Orders Delivered (30 days rolling average)',
+									text: 'Physical Demand (Orders Delivered - 30 days rolling average)',
 									font: {
 										family: 'Comic Sans MS',
 										size: 20,
@@ -95,8 +95,8 @@ export default function LineValueReleaseStageChart() {
 								annotations: [{
 									type: 'label',
 									xValue: 1.5,
-									yValue: 200,
-									content: ['Funding','Rounds'],
+									yValue: 100,
+									content: ['Fundraising'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 18
@@ -104,17 +104,26 @@ export default function LineValueReleaseStageChart() {
 								}, {
 									type: 'label',
 									xValue: 5,
-									yValue: 200,
-									content: ['Value','Capture'],
+									yValue: 100,
+									content: ['Value Capture'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 18
 									}
 								}, {
 									type: 'label',
-									xValue: 15,
-									yValue: 200,
-									content: ['Value','Release'],
+									xValue: 11,
+									yValue: 100,
+									content: ['Value Release'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 18
+									}
+								}, {
+									type: 'label',
+									xValue: 19,
+									yValue: 100,
+									content: ['Value Leverage'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 18
@@ -161,7 +170,28 @@ export default function LineValueReleaseStageChart() {
 									xValue: 3,
 									yValue: 400,
 									backgroundColor: 'rgba(255, 99, 132, 0.25)'
-								}]
+								}, {
+									type: 'line',
+									xMin: 15,
+									xMax: 15,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 15,
+									yValue: 1000,
+									content: ['DSE'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 18
+									}
+								}, {
+									type: 'point',
+									xValue: 15,
+									yValue: 800,
+									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, ]
 							}
 						}
 					}}

@@ -86,12 +86,12 @@ export default function LineEstimatingInvestorsExitChart() {
 							title: {
 							display: true,
 							text: 'Months from TGE',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
+							font: {
+								family: 'Comic Sans MS',
+								size: 20,
+								weight: 'bold',
+								lineHeight: 1.2,
+							},
 							},
 							ticks: {
 								display: false,
