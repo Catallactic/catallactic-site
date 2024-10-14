@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
+import DoughnutEndFundraisingTokenAllocationChart from '@site/src/components/charts/DoughnutEndFundraisingTokenAllocationChart';
 import DoughnutPreInitialTokenAllocationChart from '@site/src/components/charts/DoughnutPreInitialTokenAllocationChart';
 import DoughnutInitialTokenAllocationChart from '@site/src/components/charts/DoughnutInitialTokenAllocationChart';
 import DoughnutTokenAllocationConceptsChart from '@site/src/components/charts/DoughnutTokenAllocationConceptsChart';
@@ -20,87 +21,131 @@ import LineValueCaptureStageChart from '@site/src/components/charts/LineValueCap
 import LineValueReleaseStageChart from '@site/src/components/charts/LineValueReleaseStageChart';
 import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSchedulesChart';
 
-
-# DoughnutPreInitialTokenAllocationChart
-<DoughnutPreInitialTokenAllocationChart/>
-
+---
+# <center>GLOBAL SUPPLY PROFILE</center>
 ---
 
-# DoughnutInitialTokenAllocationChart
-<DoughnutInitialTokenAllocationChart/>
-
----
-
-# DoughnutProjectAllocationChart
-<DoughnutProjectAllocationChart/>
-
----
-
-# DoughnutFundingAllocationChart
-<DoughnutFundingAllocationChart/>
-
----
-
-# DoughnutNegotiationAllocationChart
-<DoughnutNegotiationAllocationChart/>
-
----
-
-# DoughnutConsolidatedTokenAllocationChart
-<DoughnutConsolidatedTokenAllocationChart/>
-
----
-
-# DoughnutUnderlyingAssetPaymentsChart
-<DoughnutUnderlyingAssetPaymentsChart/>
-
----
-
-# DoughnutOperationsAllocationChart
-<DoughnutOperationsAllocationChart/>
-
----
-
-# DoughnutTokenAllocationConceptsChart
-<DoughnutTokenAllocationConceptsChart/>
-
----
-
-# LineSupplyProfileChart
+## LineSupplyProfileChart
 <LineSupplyProfileChart/>
 
 ---
 
-# LineTotalSupplyCompositionChart
+## LineTotalSupplyCompositionChart
 <LineTotalSupplyCompositionChart/>
 
 ---
 
-# LineValueCaptureStageChart
-<LineValueCaptureStageChart/>
+## LineParametrizationChart
+<LineParametrizationChart/>
+
+---
+# <center>START FUNDRAISING EVENT</center>
+---
+
+## DoughnutPreInitialTokenAllocationChart
+<DoughnutPreInitialTokenAllocationChart/>
 
 ---
 
-# LineVestingSchedulesChart
+## DoughnutEndFundraisingTokenAllocationChart
+<DoughnutEndFundraisingTokenAllocationChart/>
+
+---
+# <center>END FUNDRAISING EVENT</center>
+---
+
+---
+# <center>START VALUE CAPTURE EVENT</center>
+---
+
+## LineValueCaptureStageChart
+<LineValueCaptureStageChart/>
+---
+
+---
+# <center>TGE</center>
+---
+
+---
+# <center>START CLIFF EVENT</center>
+---
+
+## DoughnutInitialTokenAllocationChart
+<DoughnutInitialTokenAllocationChart/>
+---
+
+---
+# <center>END CLIFF EVENT</center>
+---
+
+---
+# <center>START VESTING EVENT</center>
+---
+
+## LineVestingSchedulesChart
 <LineVestingSchedulesChart/>
 
 ---
+# <center>END VESTING EVENT</center>
+---
 
-# LineEstimatingInvestorsExitChart
+## LineEstimatingInvestorsExitChart
 <LineEstimatingInvestorsExitChart/>
 
 ---
+# <center>INVESTORS EXIT EVENT</center>
+---
 
-# LineValueReleaseStageChart
+---
+# <center>VCE</center>
+---
+
+---
+# <center>START VALUE RELEASE EVENT</center>
+---
+
+## LineValueReleaseStageChart
 <LineValueReleaseStageChart/>
 
 ---
 
-
-# LineReleaseScheduleChart
+## LineReleaseScheduleChart
 <LineReleaseScheduleChart/>
 
 ---
+# <center>STATIC ALLOCATIONS</center>
+---
 
-# LineParametrizationChart
-<LineParametrizationChart/>
+## DoughnutTokenAllocationConceptsChart
+<DoughnutTokenAllocationConceptsChart/>
+
+---
+
+## DoughnutConsolidatedTokenAllocationChart
+<DoughnutConsolidatedTokenAllocationChart/>
+
+---
+
+## DoughnutProjectAllocationChart
+<DoughnutProjectAllocationChart/>
+
+---
+
+## DoughnutFundingAllocationChart
+<DoughnutFundingAllocationChart/>
+
+---
+
+## DoughnutUnderlyingAssetPaymentsChart
+<DoughnutUnderlyingAssetPaymentsChart/>
+
+---
+
+## DoughnutNegotiationAllocationChart
+<DoughnutNegotiationAllocationChart/>
+
+---
+
+## DoughnutOperationsAllocationChart
+<DoughnutOperationsAllocationChart/>
+

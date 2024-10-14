@@ -7,7 +7,7 @@ import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
 import { COLOR_GREY } from './config';
 
-export default function DoughnutInitialTokenAllocationChart() {
+export default function DoughnutEndFundraisingTokenAllocationChart() {
   return (
     <>
 			<div className="chart-container">
@@ -15,19 +15,19 @@ export default function DoughnutInitialTokenAllocationChart() {
 					<Doughnut
 						data={{
 							labels: [
-								'Project', 'Admin (Project)',
+								'Project', 'Project',
 								'Admin (Private Sale)', 'Admin (Presale)', 'Admin (Crowdsale)', 
 								'Exchanges', 'Exchanges',
 								'Operations', 
 								'Project', 'Funding', 'Admin (Exchanges)', 'Operations'
 							],
 							datasets: [{
-									backgroundColor: [COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
+									backgroundColor: [COLOR_HOLDERS, COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
 									data: [0, 1, 2, 3, 5, 4, 0, 0] ,
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: [COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
+									backgroundColor: [COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
 									data: [1, 10, 4, 0],
 									order: [10, 1, 5, 8],
 									index: 1
