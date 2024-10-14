@@ -55,15 +55,15 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 ---
 
 ---
+# <center>TGE</center>
+---
+
+---
 # <center>START VALUE CAPTURE EVENT</center>
 ---
 
 ## LineValueCaptureStageChart
 <LineValueCaptureStageChart/>
----
-
----
-# <center>TGE</center>
 ---
 
 ---

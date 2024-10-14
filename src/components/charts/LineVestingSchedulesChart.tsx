@@ -1,4 +1,8 @@
 import { Line } from "react-chartjs-2";
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+import annotationPlugin from 'chartjs-plugin-annotation';
+import { Chart } from 'chart.js';
+Chart.register(annotationPlugin);
 
 import { COLOR_PROJECT } from "./config";
 import { COLOR_HOLDERS } from "./config";
