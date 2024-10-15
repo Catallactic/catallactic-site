@@ -165,22 +165,6 @@ export default function LineSupplyProfileEventsChart() {
 									yValue: 400,
 									backgroundColor: 'rgba(255, 99, 132, 0.25)'
 								}, {
-									type: 'line',
-									xMin: 6,
-									xMax: 6,
-									borderColor: 'rgb(255, 99, 132)',
-									borderWidth: 1,
-									borderDash: [5, 5],
-								}, {
-									type: 'label',
-									xValue: 6,
-									yValue: 600,
-									content: ['EXIT'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
-								}, {
 									type: 'point',
 									xValue: 9,
 									yValue: 500,
@@ -201,11 +185,6 @@ export default function LineSupplyProfileEventsChart() {
 									font: {
 										size: 9
 									}
-								}, {
-									type: 'point',
-									xValue: 6,
-									yValue: 400,
-									backgroundColor: 'rgba(255, 99, 132, 0.25)'
 								}, {
 									type: 'label',
 									xValue: 1.5,
@@ -305,6 +284,15 @@ export default function LineSupplyProfileEventsChart() {
 									xValue: 15,
 									yValue: 800,
 									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
+									type: 'label',
+									xValue: 7,
+									yValue: 600,
+									content: ['EXIT'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
 								}, ]
 							}
 						}

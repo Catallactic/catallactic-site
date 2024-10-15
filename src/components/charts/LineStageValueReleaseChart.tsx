@@ -212,6 +212,15 @@ export default function LineStageValueReleaseChart() {
 									xValue: 15,
 									yValue: 800,
 									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
+									type: 'label',
+									xValue: 7,
+									yValue: 600,
+									content: ['EXIT'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
 								}, ]
 							}
 						}
