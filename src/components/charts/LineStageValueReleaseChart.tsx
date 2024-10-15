@@ -10,7 +10,7 @@ import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
 import { COLOR_GREY } from './config';
 
-export default function LineValueReleaseStageChart() {
+export default function LineStageValueReleaseChart() {
   return (
     <>
 			<div className="chart-panel2">
@@ -19,13 +19,13 @@ export default function LineValueReleaseStageChart() {
 						labels: [0,'',100,'',200,'',300,'',400,'',500,'',600,'',700,'',800,'',900,'',1000,'',1100,'',1200],
 						datasets: [{
 							fill: true,
-							label: 'Gold Standard',
+							label: 'Fixed Supply',
 							backgroundColor: 'rgba(245,245,245)',
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,400,400,400,400,400,null,null,null]
 						},{
 							fill: true,
-							label: 'Unit of Account',
+							label: 'Representative',
 							backgroundColor: "rgba(6,11,39,1.0)",
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
@@ -164,6 +164,27 @@ export default function LineValueReleaseStageChart() {
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 18
+									}
+								}, {
+									type: 'point',
+									xValue: 9,
+									yValue: 500,
+									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
+									type: 'line',
+									xMin: 9,
+									xMax: 9,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 9,
+									yValue: 700,
+									content: ['LENDING'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
 									}
 								}, {
 									type: 'point',

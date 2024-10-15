@@ -10,7 +10,7 @@ import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
 import { COLOR_GREY } from './config';
 
-export default function LineSupplyProfileChart() {
+export default function LineStageFundraisingChart () {
   return (
     <>
 			<div className="chart-panel2">
@@ -20,13 +20,13 @@ export default function LineSupplyProfileChart() {
 						datasets: [{
 							fill: true,
 							label: 'Fixed Supply',
-							backgroundColor: "rgba(161,174,212,1.0)",
+							backgroundColor: 'rgba(245,245,245)',
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,400,400,400,400,400,null,null,null]
 						},{
 							fill: true,
 							label: 'Representative',
-							backgroundColor: "rgba(6,11,39,1.0)",
+							backgroundColor: 'rgba(245,245,245)',
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,null,null,null,null,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200]
 						}],
@@ -41,7 +41,7 @@ export default function LineSupplyProfileChart() {
 								display: true,
 								title: {
 									display: true,
-									text: 'Tokens Supply',
+									text: 'Total Supply',
 									font: {
 										family: 'Comic Sans MS',
 										size: 20,
@@ -93,6 +93,36 @@ export default function LineSupplyProfileChart() {
 							},
 							annotation: {
 								annotations: [{
+									type: 'line',
+									xMin: 1,
+									xMax: 1,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'line',
+									xMin: 1.5,
+									xMax: 1.5,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'line',
+									xMin: 2,
+									xMax: 2,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 1.5,
+									yValue: 1000,
+									content: ['ROUNDS'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
 									type: 'label',
 									xValue: 1.5,
 									yValue: 100,

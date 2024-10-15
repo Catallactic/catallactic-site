@@ -15,10 +15,12 @@ import DoughnutOperationsAllocationChart from '@site/src/components/charts/Dough
 import LineEstimatingInvestorsExitChart from '@site/src/components/charts/LineEstimatingInvestorsExitChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
+import LineStageFundraisingChart from '@site/src/components/charts/LineStageFundraisingChart';
+import LineStageValueCaptureChart from '@site/src/components/charts/LineStageValueCaptureChart';
+import LineStageValueReleaseChart from '@site/src/components/charts/LineStageValueReleaseChart';
 import LineSupplyProfileChart from '@site/src/components/charts/LineSupplyProfileChart';
-import LineTotalSupplyCompositionChart from '@site/src/components/charts/LineTotalSupplyCompositionChart';
-import LineValueCaptureStageChart from '@site/src/components/charts/LineValueCaptureStageChart';
-import LineValueReleaseStageChart from '@site/src/components/charts/LineValueReleaseStageChart';
+import LineSupplyProfileEventsChart from '@site/src/components/charts/LineSupplyProfileEventsChart';
+import LineSupplyCompositionChart from '@site/src/components/charts/LineSupplyCompositionChart';
 import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSchedulesChart';
 
 ---
@@ -30,8 +32,13 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ---
 
-## LineTotalSupplyCompositionChart
-<LineTotalSupplyCompositionChart/>
+## LineSupplyProfileEventsChart
+<LineSupplyProfileEventsChart/>
+
+---
+
+## LineSupplyCompositionChart
+<LineSupplyCompositionChart/>
 
 ---
 
@@ -40,6 +47,10 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ---
 # <center>START FUNDRAISING EVENT</center>
+---
+
+## LineStageFundraisingChart 
+<LineStageFundraisingChart/>
 ---
 
 ## DoughnutPreInitialTokenAllocationChart
@@ -62,8 +73,8 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 # <center>START VALUE CAPTURE EVENT</center>
 ---
 
-## LineValueCaptureStageChart
-<LineValueCaptureStageChart/>
+## LineStageValueCaptureChart
+<LineStageValueCaptureChart/>
 ---
 
 ---
@@ -104,8 +115,8 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 # <center>START VALUE RELEASE EVENT</center>
 ---
 
-## LineValueReleaseStageChart
-<LineValueReleaseStageChart/>
+## LineStageValueReleaseChart
+<LineStageValueReleaseChart/>
 
 ---
 

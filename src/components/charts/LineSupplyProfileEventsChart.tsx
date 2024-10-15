@@ -10,7 +10,7 @@ import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
 import { COLOR_GREY } from './config';
 
-export default function LineSupplyProfileChart() {
+export default function LineSupplyProfileEventsChart() {
   return (
     <>
 			<div className="chart-panel2">
@@ -93,6 +93,120 @@ export default function LineSupplyProfileChart() {
 							},
 							annotation: {
 								annotations: [{
+									type: 'line',
+									xMin: 1,
+									xMax: 1,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'line',
+									xMin: 1.5,
+									xMax: 1.5,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'line',
+									xMin: 2,
+									xMax: 2,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 1.5,
+									yValue: 700,
+									content: ['FUNDING', 'ROUNDS'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 4,
+									xMax: 4,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 4,
+									yValue: 600,
+									content: ['CLIFF'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'point',
+									xValue: 4,
+									yValue: 400,
+									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
+									type: 'line',
+									xMin: 5,
+									xMax: 5,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 5,
+									yValue: 800,
+									content: ['VESTING'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'point',
+									xValue: 5,
+									yValue: 400,
+									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
+									type: 'line',
+									xMin: 6,
+									xMax: 6,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 6,
+									yValue: 600,
+									content: ['EXIT'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'point',
+									xValue: 9,
+									yValue: 500,
+									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
+									type: 'line',
+									xMin: 9,
+									xMax: 9,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 1,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 9,
+									yValue: 700,
+									content: ['LENDING'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'point',
+									xValue: 6,
+									yValue: 400,
+									backgroundColor: 'rgba(255, 99, 132, 0.25)'
+								}, {
 									type: 'label',
 									xValue: 1.5,
 									yValue: 100,
@@ -138,7 +252,7 @@ export default function LineSupplyProfileChart() {
 								}, {
 									type: 'label',
 									xValue: 7,
-									yValue: 800,
+									yValue: 1000,
 									content: ['VCE'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
@@ -159,7 +273,7 @@ export default function LineSupplyProfileChart() {
 								}, {
 									type: 'label',
 									xValue: 3,
-									yValue: 800,
+									yValue: 1000,
 									content: ['TGE'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {

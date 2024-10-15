@@ -7,9 +7,9 @@ import LineEstimatingInvestorsExitChart from '@site/src/components/charts/LineEs
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineSupplyProfileChart from '@site/src/components/charts/LineSupplyProfileChart';
-import LineTotalSupplyCompositionChart from '@site/src/components/charts/LineTotalSupplyCompositionChart';
-import LineValueCaptureStageChart from '@site/src/components/charts/LineValueCaptureStageChart';
-import LineValueReleaseStageChart from '@site/src/components/charts/LineValueReleaseStageChart';
+import LineSupplyCompositionChart from '@site/src/components/charts/LineSupplyCompositionChart';
+import LineStageValueCaptureChart from '@site/src/components/charts/LineStageValueCaptureChart';
+import LineStageValueReleaseChart from '@site/src/components/charts/LineStageValueReleaseChart';
 import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSchedulesChart';
 import DoughnutTokenAllocationConceptsChart from '@site/src/components/charts/DoughnutTokenAllocationConceptsChart';
 import DoughnutInitialTokenAllocationChart from '@site/src/components/charts/DoughnutInitialTokenAllocationChart';
@@ -312,7 +312,7 @@ During the <b>Value Capture Stage</b>, between the TGE and the VCE, the Total Su
 
 The VCE triggers the stabilization mechanism which guarantees token units in the exchanges matching real demand, in order to maintain the captured underlying value. This is the <b>Value Delivery Stage</b>. As the demand increases, the number of CryptoCommodity units in the exchanges should also increase to keep the captured value. At this point, the CryptoCommodity delivers the 3 functions of money and there are holders that store token units to keep their funds and other to trade the underlting market. On VCE also the DeFi Services initiates.
 
-<LineTotalSupplyCompositionChart/>
+<LineSupplyCompositionChart/>
 <br/>
 
 Once all the issuer customers trade the underlying asset by means of the CryptoCommodity, starts the <b>Value Leverage Stage</b>. During this period, the captured value is maintained by the CryptoCommodity units in the exchanges. More holders use the CryptoCommodity as unit of account and additional DeFi Services are delivered.
@@ -338,7 +338,7 @@ In this chapter will be described how to launch a CryptoCommodity and what token
 
 Value Capture Stage is the period that covers from project inception to the VCE where the token value is captured. This period includes carrying out fundraising and project aactivities as well as deploying the token into the exchanges to allow price capture.
 
-<LineValueCaptureStageChart/>
+<LineStageValueCaptureChart/>
 <br/>
 
 ### 6.2. Initial Token Allocation
@@ -677,7 +677,7 @@ Once underlying asset value has been captured, the CryptoCommodity is ready to d
 
 Value Release Stage is the period that covers from the VCE onwards and is mainly dedcaited to maintaining the captured value and delivering DeFi Services to the community.
 
-<LineValueReleaseStageChart/>
+<LineStageValueReleaseChart/>
 <br/>
 
 ### 10.2. Consolidated Supply Management
