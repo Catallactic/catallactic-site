@@ -4,27 +4,13 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT } from "./config";
+import { COLOR_PROJECT, vesting } from "./config";
 import { COLOR_HOLDERS } from "./config";
 import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
 import { COLOR_GREY } from './config';
 
 export default function LineVestingSchedulesChart() {
-
-	const pp = 1;
-	function vesting(numSamples:number, numTokensTGE:number, cliff:number, numTokensTotal:number, period:number) {
-		const amounts = [numTokensTGE];
-		for (let i = 1; i <= numSamples; i += 1) {
-			let data = 0;
-			if(i <= cliff) data = numTokensTGE;
-			else if(i >= cliff + period) data = numTokensTotal;
-			else data = numTokensTGE + (i-cliff) * (numTokensTotal - numTokensTGE) / period;
-			amounts.push(data);
-		}
-		console.log(amounts);
-			return amounts;
-	}
 
   return (
     <>
@@ -108,6 +94,30 @@ export default function LineVestingSchedulesChart() {
 									display: false,
 								},
 							},
+						},
+						/*onClick: function(c,i) {
+							let e = i[0];
+							console.log(e.index)
+							var x_value = this.data.labels[e.index];
+							var y_value = this.data.datasets[0].data[e.index];
+							console.log(x_value);
+							console.log(y_value);
+						},*/
+						onClick: function(e: any) {
+							console.log(e);
+
+							/*if (e.active.length > 0) {
+								const chart = e.active[0]._chart;
+								const activePoints = chart.getElementAtEvent(e.event);
+								if ( activePoints.length > 0) {
+								 // get the internal index of slice in pie chart
+								 const clickedElementIndex = activePoints[0]._index;
+								 const label = chart.data.labels[clickedElementIndex];
+								 // get value by index
+								 const value = chart.data.datasets[0].data[clickedElementIndex];
+								 console.log(clickedElementIndex, label, value)
+								}
+							}*/
 						}
 					}}
 					plugins={[/*ChartDataLabels*/]}
