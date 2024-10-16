@@ -23,31 +23,31 @@ export default function LineVestingSchedulesChart() {
 							label: 'Exchanges',
 							backgroundColor: COLOR_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 8, 12, 40, 48)
+							data: vesting(60, 8, 12, 40, 48)			// 40 in 48 steps with 12 delay + 8 initial
 						}, {
 							fill: true,
 							label: 'Seed Round',
 							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 0, 12, 10, 24),
+							data: vesting(60, 0, 12, 10, 24),			// 10 in 24 steps with 12 delay
 						}, {
 							fill: true,
 							label: 'Pre-Sale',
 							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 4, 3, 40, 24)
+							data: vesting(60, 4, 3, 40, 24)				// 40 in 24 steps with 3 delay + 4 initial
 						}, {
 							fill: true,
 							label: 'Public-Sale',
 							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 10, 3, 50, 12)
+							data: vesting(60, 10, 3, 50, 12)			// 50 in 12 steps with 3 delay + 10 initial
 						}, {
 							fill: true,
 							label: 'Project',
 							backgroundColor: COLOR_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 0, 3, 10, 12)
+							data: vesting(60, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
 						}],
 					}}
 					options={{
@@ -75,14 +75,14 @@ export default function LineVestingSchedulesChart() {
 									},
 								},
 								ticks: {
-									display: false,
+									//display: false,
 								},
 							},
 							x: {
 								display: true,
 								title: {
 									display: true,
-									text: 'Months from TGE',
+									text: 'Vesting Periods (Months from TGE)',
 									font: {
 										family: 'Comic Sans MS',
 										size: 20,
@@ -91,34 +91,155 @@ export default function LineVestingSchedulesChart() {
 									},
 								},
 								ticks: {
-									display: false,
+									//display: false,
 								},
 							},
 						},
-						/*onClick: function(c,i) {
-							let e = i[0];
-							console.log(e.index)
-							var x_value = this.data.labels[e.index];
-							var y_value = this.data.datasets[0].data[e.index];
-							console.log(x_value);
-							console.log(y_value);
-						},*/
-						onClick: function(e: any) {
-							console.log(e);
-
-							/*if (e.active.length > 0) {
-								const chart = e.active[0]._chart;
-								const activePoints = chart.getElementAtEvent(e.event);
-								if ( activePoints.length > 0) {
-								 // get the internal index of slice in pie chart
-								 const clickedElementIndex = activePoints[0]._index;
-								 const label = chart.data.labels[clickedElementIndex];
-								 // get value by index
-								 const value = chart.data.datasets[0].data[clickedElementIndex];
-								 console.log(clickedElementIndex, label, value)
-								}
-							}*/
-						}
+						plugins: {
+							legend: {
+								labels: {
+									usePointStyle: true,
+									font: {
+										family: 'Comic Sans MS',
+										size: 20,
+										weight: 'bold',
+										lineHeight: 1.2,
+									},
+									padding: 20,
+								},
+							},
+							annotation: {
+								annotations: [{
+									type: 'line',
+									xMin: 0,
+									xMax: 0,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 1,
+									yValue: 120,
+									content: ['TGE'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 12,
+									xMax: 12,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 12,
+									yValue: 100,
+									content: ['START', 'VESTING', 'SEED'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 36,
+									xMax: 36,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 36,
+									yValue: 100,
+									content: ['END', 'VESTING', 'SEED'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 3,
+									xMax: 3,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 3,
+									yValue: 145,
+									content: ['START', 'VESTING', 'PRE'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 27,
+									xMax: 27,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 27,
+									yValue: 145,
+									content: ['END', 'VESTING', 'PRE'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 3,
+									xMax: 3,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 3,
+									yValue: 60,
+									content: ['START', 'VESTING', 'PUBLIC'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 15,
+									xMax: 15,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 15,
+									yValue: 60,
+									content: ['END', 'VESTING', 'PUBLIC'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 60,
+									xMax: 60,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 58,
+									yValue: 120,
+									content: ['END', 'VESTING'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, 
+							]
+						}},
 					}}
 					plugins={[/*ChartDataLabels*/]}
 				/>
