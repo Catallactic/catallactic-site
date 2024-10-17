@@ -647,16 +647,18 @@ To enable synchronization between the CryptoCommodity units deployed nit he exch
 
 Negotiation is the process in which the CC is swapped by its paired coin in an exchange pair. It can involve primary activity customers or user of any secondary activity. The exchange is in charge to form the price with the existing pair.
 
-In order to capture the CC marginal utility we must ensure that only CC activities related to the primary utility impact the price of the exchange. The negotiation mechanism typically implies 2 basic scenarios as described below.
+In order to capture the CC marginal utility we must ensure that only CC activities related to the primary utility impact the price of the exchange.
 
 #### 8.3.1. Definition of Value Capture
 
-
+A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. 
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/value-capture-2.svg" width="50%"></img>
 </div>
 <br/>
+
+The price formation is, therefore, internal to the CryptoCommodity ecosystem. As a consequence, a Cryptocommodity is decoupled from any external monetary system, fiat or not fiat, creating an autonomous ecosystem. A CryptoCommodity delivers the foundation for a true value decentralization.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/value-capture-1.svg" width="60%"></img>
@@ -666,12 +668,41 @@ In order to capture the CC marginal utility we must ensure that only CC activiti
 
 #### 8.3.2. Value Capture Scenarios
 
+Capturing the intrinsic value of the underlying asset into the Cryptocommodity means that there is a one-to-one relationship between Cryptocommodity units and units of redimible underlying asset. The capture itself is performed in the pool of the exchanges. Initially, the value of the Cryptocommodity is the one that the issuer sets when it deploys the Cryptocommodity in the exchange's pair. On the other hand, initially, there are not physical assets being traded with the Cryptocommodity. So there is a decoupling between both magnitudes on inception.
+
+From this inception on TGE, it is expected that the Cryptocommodity is able to trade the underlying asset by using Cryptocommodity units as Medium of Exchange. It is also expected an increase in traded assets with time. On the other hand, the number of Cryptocommodity units in the exchange will have variations. THe value is considered captured when the number of assets traded in a period and the number of Cryptocommodity units in the exchanges match.
+
 <div style={{textAlign: 'center'}}>
 	<img src="/img/value-capture.svg" width="75%"></img>
 </div>
 <br/>
 
+In order for this to happen, there are 2 possible scenarios: constant Cryptocommodity amount in the exchange or floating Cryptocommodity amount in the exchange. Both scenarios has benefits and drawback as described below:
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td style={{textAlign: 'center'}}>Benefits Floating Amount (VCE1)</td>
+			<td style={{textAlign: 'center'}}>Benefits Fixed Amount (VCE2)</td>
+		</tr>
+		<tr>
+			<td>
+				Floating amount means that value is captured before and the investor EXIT can happen earlier. This will help the Fundraising stage.<br/><br/>
+				Floating amount is also more resilient to velocity of circulation and makes the capture easier.<br/><br/>
+				Floating amount is easier to implement as we do not need to compensate trading activities of users of non-primary activity.
+			</td>
+			<td>
+				Capture for fixed amount scenario happens later in time which guarantees the system is more resilient to investors EXIT.
+			</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+In next section we will describe the operations required to guarantee scenario 1 of floating amount of tokens.
+
 ### 8.4. Value Capture Operations
+
 
 #### 8.4.1. Negotiation Staheholders
 
@@ -681,6 +712,10 @@ In order to capture the CC marginal utility we must ensure that only CC activiti
 <br/>
 
 #### 8.4.2. Holder buys CC at Exchange
+
+If the number of tokens in the exchange is intended to remain constant we must manually compensate the trading operations of investors. The operation of the consumers is self-compensated by the purchases of the physical assets. Value capture is satisfied when the issuer is able to deliver a number of physical assets matching the initial number of Cryptocommodity units in the exchange.
+
+we maintain the number of tokens in the exchange constant on purpose until the traded orders increase to the same amount, or we leave the number of tokens in the exchanges floating at the will of Cryptocommodity users. 
 
 In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation from his wallet. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility no fees should be applied on the transaction because they are already included in the purchase itself.
 
