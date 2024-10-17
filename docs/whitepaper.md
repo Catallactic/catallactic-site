@@ -677,7 +677,7 @@ From this inception on TGE, it is expected that the Cryptocommodity is able to t
 </div>
 <br/>
 
-In order for this to happen, there are 2 possible scenarios: constant Cryptocommodity amount in the exchange or floating Cryptocommodity amount in the exchange. Both scenarios has benefits and drawback as described below:
+In order for this to happen, there are 2 possible scenarios: constant Cryptocommodity amount in the exchange or floating Cryptocommodity amount in the exchange. If the number of tokens in the exchange is intended to remain constant we must manually compensate the trading operations of investors. For floating number of tokens in the exchange no compensation is required. The operation of the consumers is self-compensated by the purchases of the physical assets. Both scenarios has benefits and drawbacks as described below:
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -699,7 +699,7 @@ In order for this to happen, there are 2 possible scenarios: constant Cryptocomm
 </div>
 <br/>
 
-In next section we will describe the operations required to guarantee scenario 1 of floating amount of tokens.
+In the next section we will describe the operations required to guarantee scenario 1 of floating amount of tokens.
 
 ### 8.4. Value Capture Operations
 
@@ -711,33 +711,34 @@ In next section we will describe the operations required to guarantee scenario 1
 </div>
 <br/>
 
-#### 8.4.2. Holder buys CC at Exchange
+#### 8.4.2. User buys CC at Exchange
 
-If the number of tokens in the exchange is intended to remain constant we must manually compensate the trading operations of investors. The operation of the consumers is self-compensated by the purchases of the physical assets. Value capture is satisfied when the issuer is able to deliver a number of physical assets matching the initial number of Cryptocommodity units in the exchange.
-
-we maintain the number of tokens in the exchange constant on purpose until the traded orders increase to the same amount, or we leave the number of tokens in the exchanges floating at the will of Cryptocommodity users. 
-
-In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation from his wallet. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility no fees should be applied on the transaction because they are already included in the purchase itself.
+In this scenario, the user (either consumer or holder) holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility, i.e. from specific channels, no fees should be applied on the transaction because they are already included in the purchase itself. Conversely, if the user is looking for a secondary utility, fee can be charged by the CC issuer.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/swapUSDTbyCC.svg" width="70%"></img>
+	<img src="/img/sequence/swapUSDTByCC.svg" width="40%"></img>
 </div>
 <br/>
 
-The situation changes if the user is looking for a secondary utility. In this case, a fee can be charged by the CC issuer. Additionally, the CC smart contract that delivers the CC tokens to the user must perform a compensatory action to leave in the exchange pair only the tokens corresponding to the primary activity. This compensatory action implies replenishing in the exchange pair the CC and USDT amounts modified by the user. For this operation the smart contract will get the support of the reserve wallet. Addtionally if the reserver wallet does not containt enough CC, they must be minted by the smart contract to the reserve wallet.
+#### 8.4.3. Consumer pays product with CC
 
-#### 8.4.3. Holder buys CC at Exchange
+This operation does not represent a direct interaction with the exchange. However, the issuer must withdraw USDT to compensate purchase. This transaction can be easily integrated in to the reserve.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/sequence/purchase_sequence.svg" width="70%"></img>
+</div>
+<br/>
 
 #### 8.4.4. Holder sells CC at Exchange
 
 For this second scenario, the user holds CC and want to acquire the paired token back. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/swapCCbyUSDT.svg" width="70%"></img>
+	<img src="/img/sequence/swapCCbyUSDT.svg" width="40%"></img>
 </div>
 <br/>
 
-The situation again changes if the user is not the issuer. In this case, a fee can be optionally charged by the CC issuer. Additionally, the CC smart contract that delivers the paired tokens to the user must perform a compensatory action to leave in the exchange pair only the tokens corresponding to the primary activity. This compensatory action implies replenishing in the exchange pair the CC and USDT amounts modified by the user. For this operation the smart contract will get the support of the reserve wallet. Addtionally if the reserver wallet does not containt enough paired tokens, they must be manually transferred by the issuer to the reserve wallet. 
+The situation again changes if the user is not the issuer. In this case, a fee can be optionally charged by the CC issuer.
 
 
 
@@ -1059,7 +1060,7 @@ Executing a payment with CryptoCommodity requires using CryptoCommodity units as
 The process is depicted in the figure below:
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/purchase_sequence.svg" width="80%"></img>
+	<img src="/img/sequence/purchase_sequence.svg" width="80%"></img>
 </div>
 <br/>
 
