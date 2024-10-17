@@ -706,10 +706,14 @@ In the next section we will describe the operations required to guarantee scenar
 
 #### 8.4.1. Negotiation Staheholders
 
+The negotiation through the exchange involves typically 3 parties: the issuer, the consumer and the holders. The issuer and the consumer are the same stakeholders which would carry out the operation offchain in the physical world. By performing this operation onchain they will be able to provide a CC to their community and provide a price. Is not significantly important the time that the consumers holds the CC before its purchase (the velocity of circulation) as long as the CC offers incentives to the holder.
+
 <div style={{textAlign: 'center'}}>
 	<img src="/img/stabilization_mechanism_capture.svg" width="65%"></img>
 </div>
 <br/>
+
+The new stakeholder are the holder. The holder can be represented by different kind of actors, investors, card users, savers or any other party that takes a benefit from trading CC. The operation of holders is expected to be bullish for the CC, meaning they should be eager to hold and use CC, in order to allow the price capture mechanism taking place.
 
 #### 8.4.2. User buys CC at Exchange
 
@@ -720,18 +724,9 @@ In this scenario, the user (either consumer or holder) holds a token (e.g. USDT)
 </div>
 <br/>
 
-#### 8.4.3. Consumer pays product with CC
+#### 8.4.3. Holder sells CC at Exchange
 
-This operation does not represent a direct interaction with the exchange. However, the issuer must withdraw USDT to compensate purchase. This transaction can be easily integrated in to the reserve.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/sequence/purchase_sequence.svg" width="70%"></img>
-</div>
-<br/>
-
-#### 8.4.4. Holder sells CC at Exchange
-
-For this second scenario, the user holds CC and want to acquire the paired token back. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange.
+For this second scenario, the holder holds CC and want to swap them back by the paired token. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange. No interference in the exchange pair is required for this operation either.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/sequence/swapCCbyUSDT.svg" width="40%"></img>
@@ -740,7 +735,14 @@ For this second scenario, the user holds CC and want to acquire the paired token
 
 The situation again changes if the user is not the issuer. In this case, a fee can be optionally charged by the CC issuer.
 
+#### 8.4.4. Consumer pays product with CC
 
+This operation does not represent a direct interaction with the exchange. However, the issuer must the compensate the purchase by swapping the received CC tokens by  USDT from the exchange pair to profit from the purchase operation of the physical asset. This transaction can be easily integrated in to the reserve.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/sequence/purchase_sequence.svg" width="70%"></img>
+</div>
+<br/>
 
 ### 8.5. Estimating Price Evolution
 
