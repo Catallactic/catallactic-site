@@ -75,7 +75,7 @@ export default function LineVestingSchedulesChart() {
 									},
 								},
 								ticks: {
-									//display: false,
+									display: false,
 								},
 							},
 							x: {
@@ -91,7 +91,7 @@ export default function LineVestingSchedulesChart() {
 									},
 								},
 								ticks: {
-									//display: false,
+									display: false,
 								},
 							},
 						},
