@@ -330,17 +330,16 @@ This exercise needs to be done upfront, before the platform is even launched and
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 5. Value Capture Stage
+## 5. Pre-minted Stage
 ---
 
 In this chapter will be described how to launch a CryptoCommodity and what token units will be preminted to cover the initial necessities. In the next 3 chapters, what are these necessities and how the allocated tokens are used will be covered.
 
 ### 5.1. Scope
 
-Value Capture Stage is the period that covers from project inception to the VCE where the token value is captured. This period includes carrying out fundraising and project aactivities as well as deploying the token into the exchanges to allow price capture.
+Pre-minted Stage is the period that covers from project inception to the VCE where the token value is captured. This period includes carrying out fundraising and project aactivities as well as deploying the token into the exchanges to allow price capture.
 
-<LineStageValueCaptureChart/>
-<br/>
+
 
 ### 5.2. Initial Token Allocation
 
@@ -577,24 +576,30 @@ Special attention must be paid to compliance.
 
 
 
-## 8. Negotiation Activities
+## 8. Value Capture Stage
 ---
 
 Before a CryptoCommodity can be transfer the value of underlying asset to the society, this value must be captured. In order to capture the value, a CryptoCommodity behaves as a Utility Token and has features of a Utility Token.
 
-### 8.1. Scope of Negotiation Activities
+### 8.1. Scope of Value Capture Stage
+
+<LineStageValueCaptureChart/>
+<br/>
+
+
+#### 8.1.1. Value Capture Events
 
 <LineVestingSchedulesChart/>
 
-#### 8.1.1. Token Generation Event
+#### 8.1.2. Token Generation Event
 
 A Token Generation Event (TGE) is a business and technical act of limited duration that involves the technical generation of the token in a blockchain-based network, and its launch to the market and and made available to the public. Typically it follows a fundraising process but not necessarily.
 
 In the TGE the preminted tokens are allocated to project designated accounts, investors that purchased during the funding rounds and reserve to support trading negotiation in ythe exchanges. Additionaly, during TGE the first liquidity pool is created in the exchanges making the CryptoCommodity ready to traded. In the TGE the price discovery process of the CryptoCommodity begins.
 
-#### 8.1.2. Vesting Schedules
+#### 8.1.3. Vesting Schedules
 
-#### 8.1.3. Value Capture Event
+#### 8.1.4. Value Capture Event
 
 Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
 
@@ -632,14 +637,9 @@ The currency pairs created are a combination of 3 variables:
 
 - the number of trading pairs that will be created
 
-#### 8.2.2. Negotiation Staheholders
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/stabilization_mechanism_capture.svg" width="65%"></img>
-</div>
-<br/>
 
-#### 8.2.3. Creating Reserve Account
+#### 8.2.2. Creating Reserve Account
 
 To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
 
@@ -666,11 +666,21 @@ In order to capture the CC marginal utility we must ensure that only CC activiti
 
 #### 8.3.2. Value Capture Scenarios
 
-
+<div style={{textAlign: 'center'}}>
+	<img src="/img/value-capture.svg" width="75%"></img>
+</div>
+<br/>
 
 ### 8.4. Value Capture Operations
 
-#### 8.4.1. Holder buys CC at Exchange
+#### 8.4.1. Negotiation Staheholders
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/stabilization_mechanism_capture.svg" width="65%"></img>
+</div>
+<br/>
+
+#### 8.4.2. Holder buys CC at Exchange
 
 In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation from his wallet. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility no fees should be applied on the transaction because they are already included in the purchase itself.
 
@@ -681,9 +691,9 @@ In this scenario, the user holds a token (e.g. USDT) and wants to acquire CC. Th
 
 The situation changes if the user is looking for a secondary utility. In this case, a fee can be charged by the CC issuer. Additionally, the CC smart contract that delivers the CC tokens to the user must perform a compensatory action to leave in the exchange pair only the tokens corresponding to the primary activity. This compensatory action implies replenishing in the exchange pair the CC and USDT amounts modified by the user. For this operation the smart contract will get the support of the reserve wallet. Addtionally if the reserver wallet does not containt enough CC, they must be minted by the smart contract to the reserve wallet.
 
-#### 8.4.2. Holder buys CC at Exchange
+#### 8.4.3. Holder buys CC at Exchange
 
-#### 8.4.3. Holder sells CC at Exchange
+#### 8.4.4. Holder sells CC at Exchange
 
 For this second scenario, the user holds CC and want to acquire the paired token back. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange.
 
