@@ -713,7 +713,9 @@ The negotiation through the exchange involves typically 3 parties: the issuer, t
 </div>
 <br/>
 
-The new stakeholder are the holder. The holder can be represented by different kind of actors, investors, card users, savers or any other party that takes a benefit from trading CC. The operation of holders is expected to be bullish for the CC, meaning they should be eager to hold and use CC, in order to allow the price capture mechanism taking place.
+The new stakeholder is the holder. The holder can be represented by different kind of actors, investors, card users, savers, lenders and borrowers or any other party that has expectations on benefits from holding or trading the CC. The operation of holders is expected to be bullish for the CC, meaning they should be eager to hold and use the CC, in order to enable the price capture mechanism taking place.
+
+The next sections will describe how the operations carried out by stakeholders is implemented for the value capture stage.
 
 #### 8.4.2. User buys CC at Exchange
 

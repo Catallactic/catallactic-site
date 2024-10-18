@@ -17,37 +17,37 @@ export default function LineVestingSchedulesChart() {
 			<div className="chart-panel2">
 				<Line
 					data={{
-						labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
+						labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100],
 						datasets: [{
 							fill: true,
 							label: 'Exchanges',
 							backgroundColor: COLOR_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 8, 12, 40, 48)			// 40 in 48 steps with 12 delay + 8 initial
+							data: vesting(100, 8, 12, 40, 48)			// 40 in 48 steps with 12 delay + 8 initial
 						}, {
 							fill: true,
 							label: 'Seed Round',
 							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 0, 12, 10, 24),			// 10 in 24 steps with 12 delay
+							data: vesting(100, 0, 12, 10, 24),			// 10 in 24 steps with 12 delay
 						}, {
 							fill: true,
 							label: 'Pre-Sale',
 							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 4, 3, 40, 24)				// 40 in 24 steps with 3 delay + 4 initial
+							data: vesting(100, 4, 3, 40, 24)				// 40 in 24 steps with 3 delay + 4 initial
 						}, {
 							fill: true,
 							label: 'Public-Sale',
 							backgroundColor: COLOR_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 10, 3, 50, 12)			// 50 in 12 steps with 3 delay + 10 initial
+							data: vesting(100, 10, 3, 50, 12)			// 50 in 12 steps with 3 delay + 10 initial
 						}, {
 							fill: true,
 							label: 'Project',
 							backgroundColor: COLOR_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(60, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
+							data: vesting(100, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
 						}],
 					}}
 					options={{
@@ -230,9 +230,25 @@ export default function LineVestingSchedulesChart() {
 									borderDash: [5, 5],
 								}, {
 									type: 'label',
-									xValue: 58,
+									xValue: 60,
 									yValue: 120,
-									content: ['END', 'VESTING'],
+									content: ['END', 'VESTING', 'EXCHANGES'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									xMin: 100,
+									xMax: 100,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 98,
+									yValue: 120,
+									content: ['VCE'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 9
