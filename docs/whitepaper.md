@@ -3,8 +3,9 @@ sidebar_position: 1
 title: Whitepaper
 ---
 
-import LinePriceEstimationChart from '@site/src/components/charts/LinePriceEstimationChart';
-import LineEstimatingInvestorsExitChart from '@site/src/components/charts/LineEstimatingInvestorsExitChart';
+import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
+import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
+import LineEstimateInvestorsExitChart from '@site/src/components/charts/LineEstimateInvestorsExitChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineSupplyProfileChart from '@site/src/components/charts/LineSupplyProfileChart';
@@ -752,7 +753,7 @@ In this section we will try to determine the important outcomes from the CryptoC
 
 The **Effective Supply** is defined by the CryptoCommodity issuer and impacted by the vesting from funding rounds
 
-<LinePriceEstimationChart/>
+<LineEstimateTotalSupplyChart/>
 
 #### 8.6.2. Estimating Price Evolution
 
@@ -768,7 +769,7 @@ The Users Demand must be broken down by the different utilities that the token p
 
 - the CryptoCommodity demand by consumers (in blue)
 
-<LinePriceEstimationChart/>
+<LineEstimatePriceEvolutionChart/>
 
 #### 8.6.3. Estimating Value Capture Event
 
@@ -788,7 +789,7 @@ To estimate the **number of tokens in the exchanges** (in red) we must consider:
 
 All the above profiles can be estimated and parametrized in order to run benchmarks.
 
-<LineEstimatingInvestorsExitChart/>
+<LineEstimateInvestorsExitChart/>
 
 The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
 
