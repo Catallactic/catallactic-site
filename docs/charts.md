@@ -13,6 +13,7 @@ import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/chart
 import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
 import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 import LineEstimatingInvestorsExitChart from '@site/src/components/charts/LineEstimatingInvestorsExitChart';
+import LinePriceEstimationChart from '@site/src/components/charts/LinePriceEstimationChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineStageFundraisingChart from '@site/src/components/charts/LineStageFundraisingChart';
@@ -102,6 +103,9 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ## LineEstimatingInvestorsExitChart
 <LineEstimatingInvestorsExitChart/>
+
+## LinePriceEstimationChart
+<LinePriceEstimationChart/>
 
 ---
 # <center>INVESTORS EXIT EVENT</center>
