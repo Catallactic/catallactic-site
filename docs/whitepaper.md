@@ -746,17 +746,51 @@ This operation does not represent a direct interaction with the exchange. Howeve
 
 ### 8.6 VCE Estimations
 
-#### 8.6.1. Estimating Value Capture Event
+In this section we will try to determine the important outcomes from the CryptoCommodity lifecycle. Take in mind that all these behaviou can be parametrized and must benchmarked to determine best practices.
 
-To estimate the timing for the Value Capture Event we need to consider all the other events happening during the Value Capture Stage.
+#### 8.6.1. Estimating Effective Total Supply
+
+The **Effective Supply** is defined by the CryptoCommodity issuer and impacted by the vesting from funding rounds
+
+<LinePriceEstimationChart/>
+
+#### 8.6.2. Estimating Price Evolution
+
+Price evolution is determined by the relationship between effective Supply (including vesting periods) and users demand. 
+
+The **Effective Supply** is defined by the CryptoCommodity issuer and impacted by the vesting from funding rounds
+
+The Users Demand must be broken down by the different utilities that the token provides to its users, including:
+
+- the CryptoCommodity demand by investors (in blue)
+
+- the CryptoCommodity demand by discount cards (in blue)
+
+- the CryptoCommodity demand by consumers (in blue)
+
+<LinePriceEstimationChart/>
+
+#### 8.6.3. Estimating Value Capture Event
+
+As described in XXX, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. When this happens one token is equivalent to one timely order. In order to estimate the VCE, we need to calculate these 2 magnitudes: evolution of tokens in the exchanges and physical demand of the asset.
+
+The **physical demand** (in green) must be deducted from a sales forecasting process and is specific for every business model
+
+To estimate the **number of tokens in the exchanges** (in red) we must consider:
+
+- the Effective CryptoCommodity Supply profile regarding the vesting periods (in blue)
+
+- the CryptoCommodity demand by investors (in blue)
+
+- the CryptoCommodity demand by discount cards (in blue)
+
+- the CryptoCommodity demand by consumers (in blue)
+
+All the above profiles can be estimated and parametrized in order to run benchmarks.
 
 <LineEstimatingInvestorsExitChart/>
 
 The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
-
-#### 8.6.2. Estimating Price Evolution
-
-<LinePriceEstimationChart/>
 
 ### 8.7. Considerations
 
