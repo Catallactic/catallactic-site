@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Whitepaper
 ---
 
+import LinePriceEstimationChart from '@site/src/components/charts/LinePriceEstimationChart';
 import LineEstimatingInvestorsExitChart from '@site/src/components/charts/LineEstimatingInvestorsExitChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
@@ -552,14 +553,11 @@ The investor profit typically will be bonus between the price at the funding rou
 
 ### 7.5. Estimating Investors Exit
 
-Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Vauek Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
+Investors in Funding Rounds will get the max profit for his investment on the Value Capture Event. The Value Capture Event is defined when the price of the CryptoCommodity matches the value of the underlying asset. This can be verified when the number of CryptoCommodity units in the exchanges matches the demand.
 
 To track this variable, CryptoCommodity keeps a record of the address of all exchanges where it is deployed and traded. It is required to provide tools that allow estimating this exit according to the CryptoCommodity configuration.
 
-<LineEstimatingInvestorsExitChart/>
-<br/>
-
-
+Estimating Investor Exit requires considerations about Supply, Vesting Schedules and demand sources. Please refer to section 8.6. to learn more.
 
 ### 7.6. Considerations for Funding
 
@@ -587,23 +585,23 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 <br/>
 
 
-#### 8.1.1. Value Capture Events
+### 8.2. Value Capture Events
 
 <LineVestingSchedulesChart/>
 
-#### 8.1.2. Token Generation Event
+#### 8.2.1. Token Generation Event
 
 A Token Generation Event (TGE) is a business and technical act of limited duration that involves the technical generation of the token in a blockchain-based network, and its launch to the market and and made available to the public. Typically it follows a fundraising process but not necessarily.
 
 In the TGE the preminted tokens are allocated to project designated accounts, investors that purchased during the funding rounds and reserve to support trading negotiation in ythe exchanges. Additionaly, during TGE the first liquidity pool is created in the exchanges making the CryptoCommodity ready to traded. In the TGE the price discovery process of the CryptoCommodity begins.
 
-#### 8.1.3. Vesting Schedules
+#### 8.2.2. Vesting Schedules
 
-#### 8.1.4. Value Capture Event
+#### 8.2.3. Value Capture Event
 
 Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
 
-### 8.2. Negotiation Allocation
+### 8.3. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -614,7 +612,7 @@ Negotiation Allocation if focused mainly in assigning funds to the pools of the 
 <DoughnutNegotiationAllocationChart/>
 <br/>
 
-#### 8.2.1. Creating Trading Pairs
+#### 8.3.1. Creating Trading Pairs
 
 A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
@@ -639,17 +637,17 @@ The currency pairs created are a combination of 3 variables:
 
 
 
-#### 8.2.2. Creating Reserve Account
+#### 8.3.2. Creating Reserve Account
 
 To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
 
-### 8.3. Capturing Asset Value
+### 8.4. Capturing Asset Value
 
 Negotiation is the process in which the CC is swapped by its paired coin in an exchange pair. It can involve primary activity customers or user of any secondary activity. The exchange is in charge to form the price with the existing pair.
 
 In order to capture the CC marginal utility we must ensure that only CC activities related to the primary utility impact the price of the exchange.
 
-#### 8.3.1. Definition of Value Capture
+#### 8.4.1. Definition of Value Capture
 
 A Cryptocommodity is bound to the intrinsic value of the underlying asset. There is not need of quantification of this intrinsic value. Instead, a Cryptocommodity exposes the asset intrinsic value (whichever its quantity) to form its price according to the marginal utility of the underlaying market as perceived by the consumer. 
 
@@ -666,7 +664,7 @@ The price formation is, therefore, internal to the CryptoCommodity ecosystem. As
 <br/>
 
 
-#### 8.3.2. Value Capture Scenarios
+#### 8.4.2. Value Capture Scenarios
 
 Capturing the intrinsic value of the underlying asset into the Cryptocommodity means that there is a one-to-one relationship between Cryptocommodity units and units of redimible underlying asset. The capture itself is performed in the pool of the exchanges. Initially, the value of the Cryptocommodity is the one that the issuer sets when it deploys the Cryptocommodity in the exchange's pair. On the other hand, initially, there are not physical assets being traded with the Cryptocommodity. So there is a decoupling between both magnitudes on inception.
 
@@ -701,10 +699,10 @@ In order for this to happen, there are 2 possible scenarios: constant Cryptocomm
 
 In the next section we will describe the operations required to guarantee scenario 1 of floating amount of tokens.
 
-### 8.4. Value Capture Operations
+### 8.5. Value Capture Operations
 
 
-#### 8.4.1. Negotiation Staheholders
+#### 8.5.1. Negotiation Staheholders
 
 The negotiation through the exchange involves typically 3 parties: the issuer, the consumer and the holders. The issuer and the consumer are the same stakeholders which would carry out the operation offchain in the physical world. By performing this operation onchain they will be able to provide a CC to their community and provide a price. Is not significantly important the time that the consumers holds the CC before its purchase (the velocity of circulation) as long as the CC offers incentives to the holder.
 
@@ -717,7 +715,7 @@ The new stakeholder is the holder. The holder can be represented by different ki
 
 The next sections will describe how the operations carried out by stakeholders is implemented for the value capture stage.
 
-#### 8.4.2. User buys CC at Exchange
+#### 8.5.2. User buys CC at Exchange
 
 In this scenario, the user (either consumer or holder) holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility, i.e. from specific channels, no fees should be applied on the transaction because they are already included in the purchase itself. Conversely, if the user is looking for a secondary utility, fee can be charged by the CC issuer.
 
@@ -726,7 +724,7 @@ In this scenario, the user (either consumer or holder) holds a token (e.g. USDT)
 </div>
 <br/>
 
-#### 8.4.3. Holder sells CC at Exchange
+#### 8.5.3. Holder sells CC at Exchange
 
 For this second scenario, the holder holds CC and want to swap them back by the paired token. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange. No interference in the exchange pair is required for this operation either.
 
@@ -737,7 +735,7 @@ For this second scenario, the holder holds CC and want to swap them back by the 
 
 The situation again changes if the user is not the issuer. In this case, a fee can be optionally charged by the CC issuer.
 
-#### 8.4.4. Consumer pays product with CC
+#### 8.5.4. Consumer pays product with CC
 
 This operation does not represent a direct interaction with the exchange. However, the issuer must the compensate the purchase by swapping the received CC tokens by  USDT from the exchange pair to profit from the purchase operation of the physical asset. This transaction can be easily integrated in to the reserve.
 
@@ -746,10 +744,21 @@ This operation does not represent a direct interaction with the exchange. Howeve
 </div>
 <br/>
 
-### 8.5. Estimating Price Evolution
+### 8.6 VCE Estimations
 
+#### 8.6.1. Estimating Value Capture Event
 
-### 8.6. Considerations
+To estimate the timing for the Value Capture Event we need to consider all the other events happening during the Value Capture Stage.
+
+<LineEstimatingInvestorsExitChart/>
+
+The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
+
+#### 8.6.2. Estimating Price Evolution
+
+<LinePriceEstimationChart/>
+
+### 8.7. Considerations
 
 Negotiation is highly impacted by <b>decentralization</b> as it may affects the price of the asset and the reputation of the issuer.
 
