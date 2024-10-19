@@ -4,8 +4,9 @@ title: Whitepaper
 ---
 
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
+import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimateHeldInExchanges';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
-import LineEstimateInvestorsExitChart from '@site/src/components/charts/LineEstimateInvestorsExitChart';
+import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineSupplyProfileChart from '@site/src/components/charts/LineSupplyProfileChart';
@@ -761,25 +762,35 @@ The **Effective Total Supply** is determined by the CryptoCommodity issuer. In t
 
 The image below depicts a possible configuration of Effective Total Supply allocation items:
 
+<br/>
 <LineEstimateTotalSupplyChart/>
+<br/>
 
-#### 8.6.2. Estimating Price Evolution
+#### 8.6.2. Estimating Supply Held in Exchanges
 
-Price evolution is determined by the relationship between effective Supply (including vesting periods) and users demand. 
-
-The **Effective Supply** is defined by the CryptoCommodity issuer and impacted by the vesting from funding rounds
+The **Demand held in the exchanges** is determined by the relationship between Effective Total Supply (as described in previous section) and CryptoCommodity's users demand. Both, the Total Supply and the CryptoCommodity's users demand are sensitive to the project evolution and perception of progress by the community, vesting periods, CryptoCommodity utility and other aspects, meaning there will be a price profile.
 
 The Users Demand must be broken down by the different utilities that the token provides to its users, including:
 
-- the CryptoCommodity demand by investors (in blue)
+- the CryptoCommodity **demand by investors** (in blue)
 
-- the CryptoCommodity demand by discount cards (in blue)
+- the CryptoCommodity **demand by discount cards** (in blue)
 
-- the CryptoCommodity demand by consumers (in blue)
+- the CryptoCommodity **demand by consumers** (in blue)
 
+<br/>
+<LineEstimateHeldInExchanges/>
+<br/>
+
+#### 8.6.3. Estimating Price Evolution
+
+The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between 
+
+<br/>
 <LineEstimatePriceEvolutionChart/>
+<br/>
 
-#### 8.6.3. Estimating Value Capture Event
+#### 8.6.4. Estimating Value Capture Event
 
 As described in XXX, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. When this happens one token is equivalent to one timely order. In order to estimate the VCE, we need to calculate these 2 magnitudes: evolution of tokens in the exchanges and physical demand of the asset.
 
@@ -797,7 +808,9 @@ To estimate the **number of tokens in the exchanges** (in red) we must consider:
 
 All the above profiles can be estimated and parametrized in order to run benchmarks.
 
-<LineEstimateInvestorsExitChart/>
+<br/>
+<LineEstimateValueCaptureEventChart/>
+<br/>
 
 The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
 

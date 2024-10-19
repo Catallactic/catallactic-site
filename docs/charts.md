@@ -13,8 +13,9 @@ import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/chart
 import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
 import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
+import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimateHeldInExchanges';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
-import LineEstimateInvestorsExitChart from '@site/src/components/charts/LineEstimateInvestorsExitChart';
+import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineStageFundraisingChart from '@site/src/components/charts/LineStageFundraisingChart';
@@ -105,11 +106,14 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 ## LineEstimateTotalSupplyChart
 <LineEstimateTotalSupplyChart/>
 
-## LineEstimateInvestorsExitChart
-<LineEstimateInvestorsExitChart/>
+## LineEstimateHeldInExchanges
+<LineEstimateHeldInExchanges/>
 
 ## LineEstimatePriceEvolutionChart
 <LineEstimatePriceEvolutionChart/>
+
+## LineEstimateValueCaptureEventChart
+<LineEstimateValueCaptureEventChart/>
 
 ---
 # <center>INVESTORS EXIT EVENT</center>

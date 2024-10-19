@@ -10,7 +10,7 @@ import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
 import { COLOR_GREY } from './config';
 
-export default function LineEstimateInvestorsExitChart() {
+export default function LineEstimateValueCaptureEventChart() {
   return (
     <>
 			<div className="chart-panel2">
