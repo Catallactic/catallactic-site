@@ -745,13 +745,21 @@ This operation does not represent a direct interaction with the exchange. Howeve
 </div>
 <br/>
 
-### 8.6 VCE Estimations
+### 8.6. Value Capture Estimations
 
 In this section we will try to determine the important outcomes from the CryptoCommodity lifecycle. Take in mind that all these behaviou can be parametrized and must benchmarked to determine best practices.
 
 #### 8.6.1. Estimating Effective Total Supply
 
-The **Effective Supply** is defined by the CryptoCommodity issuer and impacted by the vesting from funding rounds
+The **Effective Total Supply** is determined by the CryptoCommodity issuer. In the Value Capture Stage, the Effective Supply is an aggregation of the supply pre-minted allocation items as done by the CryptoCommodity issuer. These aggregation is made up of the folowing items during the Pre-minting Stage. This includes:
+
+- the vested **exchanges allocation** made by the issuer when the exchange pairs are first created. 
+
+- the vested **fundraising allocation** which provided the initial funds to the issuer to launch the project
+
+- the vested **project allocation** which enables issuer to perform different tasks in the project.
+
+The image below depicts a possible configuration of Effective Total Supply allocation items:
 
 <LineEstimateTotalSupplyChart/>
 
