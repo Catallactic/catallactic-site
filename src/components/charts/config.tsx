@@ -7,7 +7,9 @@ export const COLOR_DEFI = '#add8e6';
 export const COLOR_GREY = '#d3d3d3';
 
 
-
+// **********************************************************************************************************************
+// ***************************************************** basic plotting *************************************************
+// **********************************************************************************************************************
 export const constant = (numSamples:number, value:number) => {
 	const amounts = [value];
 	for (let i = 1; i <= numSamples; i += 1) {
@@ -38,3 +40,12 @@ export const vesting = (numSamples:number, givenOnTGE:number, cliffDelay:number,
 	console.log(amounts);
 	return amounts;
 };
+
+// **********************************************************************************************************************
+// ************************************************** aggregated plotting ***********************************************
+// **********************************************************************************************************************
+export const sumArrays = (...arrays: any[]) => {
+  const n = arrays.reduce((max, xs) => Math.max(max, xs.length), 0);
+  const result = Array.from({ length: n });
+  return result.map((_, i) => arrays.map(xs => xs[i] || 0).reduce((sum, x) => sum + x, 0));
+}

@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT, vesting } from "./config";
+import { COLOR_PROJECT, sumArrays, vesting } from "./config";
 import { COLOR_HOLDERS } from "./config";
 import { COLOR_EXCHANGES } from "./config";
 import { COLOR_DEFI } from "./config";
@@ -16,8 +16,14 @@ export default function LineEstimateHeldInExchanges() {
 			<div className="chart-panel2">
 			<Line
 				data={{
-					labels: ['Jul 23','Jan 24','Jul 24','Jan 25','Jul 25','Jan 26','Jul 26','Jan 27','Jul 27','Jan 28','Jul 28','Jan 29','Jul 29','Jan 30'],
+					labels: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100],
 					datasets: [{
+						fill: false,
+						label: 'Supply with Vesting',
+						backgroundColor: "rgba(0,0,205,1.0)",
+						borderColor: "rgba(0,0,0,0.1)",
+						data: sumArrays(vesting(100, 8, 12, 40, 48), vesting(100, 0, 12, 10, 24), vesting(100, 4, 3, 40, 24), vesting(100, 10, 3, 50, 12), vesting(100, 0, 3, 10, 12)),
+					}, /*{
 						fill: false,
 						label: 'Monthly Orders',					      
 						backgroundColor: "rgba(0,205,0,1.0)",
@@ -57,7 +63,7 @@ export default function LineEstimateHeldInExchanges() {
 						backgroundColor: "rgba(205,0,0,1.0)",
 						borderColor: "rgba(205,0,0,1.0)",
 						data: [-2.33767,4.90898,19.403955,30.1265175,35.83536125,38.755610625,39.1380198125,37.37186175625,34.738153283125,30.770552836437503,25.06102401258125,16.467605738839374,4.234734235223314,-10.428961638722,-30.52245951823555,-53.26148853984723,-83.54288360036159,]
-					}],
+					}*/],
 				}}
 				options={{
 					responsive: true,
@@ -65,7 +71,7 @@ export default function LineEstimateHeldInExchanges() {
 					scales: {
 						y: {
 							min: 0,
-							max: 120,
+							max: 160,
 							stacked: false,
 							title: {
 								display: true,
@@ -124,7 +130,7 @@ export default function LineEstimateHeldInExchanges() {
 					},
 					plugins: {
 						annotation: {
-							annotations: [{
+							annotations: [/*{
 								type: 'line',
 								xMin: 10.6,
 								xMax: 10.6,
@@ -144,7 +150,7 @@ export default function LineEstimateHeldInExchanges() {
 								xValue: 10.6,
 								yValue: 20,
 								backgroundColor: 'rgba(255, 99, 132, 0.25)'
-							}]
+							}, */]
 						}
 					}
 				}}
