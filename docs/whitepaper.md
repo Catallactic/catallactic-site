@@ -4,6 +4,7 @@ title: Whitepaper
 ---
 
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
+import LineEstimateCirculatingSupplyChart from '@site/src/components/charts/LineEstimateCirculatingSupplyChart';
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
 import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimateHeldInExchanges';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
@@ -796,9 +797,17 @@ This operation does not represent a direct interaction with the exchange. Howeve
 
 In this section we will try to determine the important outcomes from the CryptoCommodity lifecycle. Take in mind that all these behaviou can be parametrized and must benchmarked to determine best practices.
 
-#### 8.6.1. Calculating Total Supply
+#### 8.6.1. Determining Total Supply
 
-The **Total Supply** is determined by the CryptoCommodity issuer. In the Value Capture Stage, the Effective Supply is an aggregation of the supply pre-minted allocation items as done by the CryptoCommodity issuer. These aggregation is made up of the folowing items during the Pre-minting Stage. This includes:
+The **Total Supply** is determined by the CryptoCommodity issuer. The Ttoal Supply is fixed for the Value Capture Stage which allows the Cryptccommodity to behave as a deflationary token.
+
+<br/>
+<LineEstimateTotalSupplyChart/>
+<br/>
+
+#### 8.6.2. Calculating Circulating Supply
+
+In the Value Capture Stage, the Circulating Supply is an aggregation of the supply pre-minted allocation items as done by the CryptoCommodity issuer. These aggregation is made up of the folowing items during the Pre-minting Stage. This includes:
 
 - the vested **exchanges allocation** made by the issuer when the exchange pairs are first created. 
 
@@ -807,16 +816,16 @@ The **Total Supply** is determined by the CryptoCommodity issuer. In the Value C
 - the vested **project allocation** which enables issuer to perform different tasks in the project.
 
 <br/>
-<center><var>Total Supply</var> = <var>Vested Exchanges Allocation</var> + <var>Vested Fundriaising Allocation</var> + <var>Vested Project Allocation</var></center>
+<center><var>Circulating Supply</var> = <var>Vested Exchanges Allocation</var> + <var>Vested Fundriaising Allocation</var> + <var>Vested Project Allocation</var></center>
 <br/>
 
-The image below depicts a possible configuration of Effective Total Supply allocation items:
+The image below depicts a possible configuration of Total Supply allocation items:
 
 <br/>
-<LineEstimateTotalSupplyChart/>
+<LineEstimateCirculatingSupplyChart/>
 <br/>
 
-#### 8.6.2. Estimating Total CryptoCommodity Demand
+#### 8.6.3. Estimating Total CryptoCommodity Demand
 
 CryptoCommodity's users demand, is sensitive to the project evolution and perception of progress by the community, by the Supply allocation's vesting periods, by the CryptoCommodity utility and other aspects, meaning the Supply in the Exchanges will variate during the CryptoCommodity' lifecycle.
 
@@ -833,7 +842,7 @@ The CryptoCommodity's users demand must be broken down by the different utilitie
 <LineEstimateTotalCryptoDemandChart/>
 <br/>
 
-#### 8.6.3. Estimating Supply Held in Exchanges
+#### 8.6.4. Estimating Supply Held in Exchanges
 
 The **Supply Held in the Exchanges** is based on:
 
@@ -851,7 +860,7 @@ The **Supply Held in the Exchanges** is based on:
 <LineEstimateHeldInExchanges/>
 <br/>
 
-#### 8.6.4. Estimating Price Evolution
+#### 8.6.5. Estimating Price Evolution
 
 The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between 
 
@@ -859,7 +868,7 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 <LineEstimatePriceEvolutionChart/>
 <br/>
 
-#### 8.6.5. Estimating Value Capture Event
+#### 8.6.6. Estimating Value Capture Event
 
 As described in XXX, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. When this happens one token is equivalent to one timely order. In order to estimate the VCE, we need to calculate these 2 magnitudes: evolution of tokens in the exchanges and physical demand of the asset.
 
@@ -867,7 +876,7 @@ The **physical demand** (in green) must be deducted from a sales forecasting pro
 
 To estimate the **number of tokens in the exchanges** (in red) we must consider:
 
-- the Effective CryptoCommodity Supply profile regarding the vesting periods (in blue)
+- the CryptoCommodity Supply profile regarding the vesting periods (in blue)
 
 - the CryptoCommodity demand by consumers (in blue)
 
@@ -887,11 +896,11 @@ All the above profiles can be estimated and parametrized in order to run benchma
 
 The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
 
-#### 8.6.6. Estimating Investor Exit
+#### 8.6.7. Estimating Investor Exit
 
 
 
-#### 8.6.7. Estimating Investor Profit
+#### 8.6.8. Estimating Investor Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/price_estimations_black.svg" width="70%"></img>
