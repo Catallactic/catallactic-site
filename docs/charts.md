@@ -17,6 +17,7 @@ import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimat
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
 import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
+import LineParametrizationVestingChart from '@site/src/components/charts/LineParametrizationVestingChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineStageFundraisingChart from '@site/src/components/charts/LineStageFundraisingChart';
 import LineStageValueCaptureChart from '@site/src/components/charts/LineStageValueCaptureChart';
@@ -47,6 +48,9 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ## LineParametrizationChart
 <LineParametrizationChart/>
+
+## LineParametrizationVestingChart
+<LineParametrizationVestingChart/>
 
 ---
 # <center>START FUNDRAISING EVENT</center>

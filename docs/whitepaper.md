@@ -8,6 +8,7 @@ import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimat
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
 import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
+import LineParametrizationVestingChart from '@site/src/components/charts/LineParametrizationVestingChart';
 import LineReleaseScheduleChart from '@site/src/components/charts/LineReleaseScheduleChart';
 import LineSupplyProfileChart from '@site/src/components/charts/LineSupplyProfileChart';
 import LineSupplyCompositionChart from '@site/src/components/charts/LineSupplyCompositionChart';
@@ -391,6 +392,9 @@ This is acheived by locking tokens, either in a custom locker or a external serv
 
 The release can be different way, including linear...
 
+<LineParametrizationVestingChart/>
+<br/>
+
 Some recommendations to lockup and vesting periods follows.
 
 The lockups for the "Core Team" should be large enough to prove that they are interested and motivated to play the long-term game. The most common vesting duration for the Core Team is 4 years with 1-year cliff.
@@ -399,14 +403,55 @@ For Investors typically see a shorter lockup period on tokens than team vesting 
 
 With the purpose of preventing overflow in the exchanges of tokens purchased during the funding rounds on the TGE, a CryptoCommodity has the potential to run vesting schedules on the purchased tokens. With or without vesting, there will be a Release Schedule. Whereas more knowledge needs to be acquired about the best practices on vesting, the funcionality is provided by the CryptoCommodity Framework.
 
-
 - Reserve. It's important to consider all the unforeseeable obstacles and opportunities that may arise in the future.
 
 - Marketing incentives. Typically, there are no lockups, or they are only partly locked with a 1-12 months overall lockup period.
 
-<LineVestingSchedulesChart/>
-
-(add vesting chart and table here)
+<table>
+	<tr>
+		<th></th>
+		<th>CLIFF</th>
+		<th>INITIAL</th>
+		<th>TOTAL</th>
+		<th>STEPS</th>
+	</tr>
+	<tr>
+		<td>Project Allocation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Seed Funding Allocation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Private Funding Allocation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Public Funding Allocation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Exchanges Allocation</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+<br/>
 
 ### 5.4. Fair Launch
 
@@ -768,7 +813,7 @@ The image below depicts a possible configuration of Effective Total Supply alloc
 
 #### 8.6.2. Estimating Supply Held in Exchanges
 
-The **Demand held in the exchanges** is determined by the relationship between Effective Total Supply (as described in previous section) and CryptoCommodity's users demand. Both, the Total Supply and the CryptoCommodity's users demand are sensitive to the project evolution and perception of progress by the community, vesting periods, CryptoCommodity utility and other aspects, meaning there will be a price profile.
+The **Supply Held in the Exchanges** is determined by the relationship between Effective Total Supply (as described in previous section) and CryptoCommodity's users demand. Both, the Total Supply and the CryptoCommodity's users demand, are sensitive to the project evolution and perception of progress by the community, by the Supply allocation's vesting periods, by the CryptoCommodity utility and other aspects, meaning the Supply in the Exchanges will variate during the CryptoCommodity' lifecycle.
 
 The Users Demand must be broken down by the different utilities that the token provides to its users, including:
 
@@ -813,6 +858,17 @@ All the above profiles can be estimated and parametrized in order to run benchma
 <br/>
 
 The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
+
+#### 8.6.5. Estimating Investor Exit
+
+
+
+#### 8.6.6. Estimating Investor Profit
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/price_estimations_black.svg" width="70%"></img>
+</div>
+<br/>
 
 ### 8.7. Considerations
 
