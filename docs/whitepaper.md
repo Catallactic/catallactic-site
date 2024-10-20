@@ -796,15 +796,19 @@ This operation does not represent a direct interaction with the exchange. Howeve
 
 In this section we will try to determine the important outcomes from the CryptoCommodity lifecycle. Take in mind that all these behaviou can be parametrized and must benchmarked to determine best practices.
 
-#### 8.6.1. Estimating Effective Total Supply
+#### 8.6.1. Calculating Total Supply
 
-The **Effective Total Supply** is determined by the CryptoCommodity issuer. In the Value Capture Stage, the Effective Supply is an aggregation of the supply pre-minted allocation items as done by the CryptoCommodity issuer. These aggregation is made up of the folowing items during the Pre-minting Stage. This includes:
+The **Total Supply** is determined by the CryptoCommodity issuer. In the Value Capture Stage, the Effective Supply is an aggregation of the supply pre-minted allocation items as done by the CryptoCommodity issuer. These aggregation is made up of the folowing items during the Pre-minting Stage. This includes:
 
 - the vested **exchanges allocation** made by the issuer when the exchange pairs are first created. 
 
 - the vested **fundraising allocation** which provided the initial funds to the issuer to launch the project
 
 - the vested **project allocation** which enables issuer to perform different tasks in the project.
+
+<br/>
+<center><var>Total Supply</var> = <var>Vested Exchanges Allocation</var> + <var>Vested Fundriaising Allocation</var> + <var>Vested Project Allocation</var></center>
+<br/>
 
 The image below depicts a possible configuration of Effective Total Supply allocation items:
 
@@ -818,11 +822,12 @@ CryptoCommodity's users demand, is sensitive to the project evolution and percep
 
 The CryptoCommodity's users demand must be broken down by the different utilities that the token provides to its users, including:
 
-- the CryptoCommodity **demand by investors** (in blue)
+- the CryptoCommodity **demand by consumers**
 
-- the CryptoCommodity **demand by discount cards** (in blue)
+- the CryptoCommodity **demand by new investors**
 
-- the CryptoCommodity **demand by consumers** (in blue)
+- the CryptoCommodity **demand by discount cards**
+
 
 <br/>
 <LineEstimateTotalCryptoDemandChart/>
@@ -830,10 +835,16 @@ The CryptoCommodity's users demand must be broken down by the different utilitie
 
 #### 8.6.3. Estimating Supply Held in Exchanges
 
-The **Supply Held in the Exchanges** is determined by the relationship between Effective Total Supply (section 8.6.1) and CryptoCommodity's users demand (section 8.6.2).
+The **Supply Held in the Exchanges** is based on:
+
+- the **Vested Initial Exchanges Allocation**
+
+- the CryptoCommodity **supply returned by fundraising investors**
+
+- the CryptoCommodity **Total Demand** (as defined in 8.6.2)
 
 <br/>
-<center><var>Supply Held in the Exchanges</var> = <var>Effective Total Supply</var> - <var>Total CryptoCommodity Demand</var></center>
+<center><var>Supply Held in the Exchanges</var> = <var>Initial Exchanges Allocation</var> + <var>Sold Fundraising Investors</var> - <var>Total CryptoCommodity demand</var></center>
 <br/>
 
 <br/>
@@ -858,11 +869,15 @@ To estimate the **number of tokens in the exchanges** (in red) we must consider:
 
 - the Effective CryptoCommodity Supply profile regarding the vesting periods (in blue)
 
+- the CryptoCommodity demand by consumers (in blue)
+
 - the CryptoCommodity demand by investors (in blue)
 
 - the CryptoCommodity demand by discount cards (in blue)
 
-- the CryptoCommodity demand by consumers (in blue)
+<br/>
+<center><var>Value Capture Event</var> = <var>Supply Held in Exchanges</var> <span>&#8745;</span> <var>Physical Demand</var></center>
+<br/>
 
 All the above profiles can be estimated and parametrized in order to run benchmarks.
 
