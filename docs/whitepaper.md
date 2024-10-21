@@ -4,9 +4,10 @@ title: Whitepaper
 ---
 
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
-import LineEstimateCirculatingSupplyStaticExDemanChart from '@site/src/components/charts/LineEstimateCirculatingSupplyStaticExDemanChart';
+import LineEstimateCirculatingSupplyStaticExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyStaticExDemandChart';
+import LineEstimateCirculatingSupplyDynamicExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyDynamicExDemandChart';
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
-import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimateHeldInExchanges';
+import LineEstimateCirculatingSupply from '@site/src/components/charts/LineEstimateCirculatingSupply';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
 import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
@@ -822,12 +823,50 @@ In the Value Capture Stage, the Circulating Supply is an aggregation of the supp
 The image below depicts a possible configuration of Total Supply allocation items:
 
 <br/>
-<LineEstimateCirculatingSupplyStaticExDemanChart/>
+<LineEstimateCirculatingSupplyStaticExDemandChart/>
 <br/>
 
-#### 8.6.2. Estimating Circulating Supply (Dynamic, ex-Demand)
+#### 8.6.3. Estimating Circulating Supply (Dynamic, ex-Demand)
 
-#### 8.6.3. Estimating CryptoCommodity Demand
+Once a vesting period has been terminated, it is expected that some of these tokens un the hands of public can be sold by merely speculative purposes. This would apply in particular to funding rounds. Project and Exchanges are in the hands of the issuer so is not expected to be sold once the vesting period is finished.
+
+<br/>
+<table>
+	<tr>
+		<th></th>
+		<th>Tokens Sold at End of Vesting</th>
+	</tr>
+	<tr>
+		<td>Project Allocation</td>
+		<td>0%</td>
+	</tr>
+	<tr>
+		<td>Seed Funding Allocation</td>
+		<td>35%</td>
+	</tr>
+	<tr>
+		<td>Private Funding Allocation</td>
+		<td>25%</td>
+	</tr>
+	<tr>
+		<td>Public Funding Allocation</td>
+		<td>15%</td>
+	</tr>
+	<tr>
+		<td>Exchanges Allocation</td>
+		<td>0%</td>
+	</tr>
+</table>
+<br/>
+<br/>
+
+When tokens are sold, it means that these tokens increase the number of tokens in the exchanges by the corresponding amount. The following cart includes these modifications.
+
+<br/>
+<LineEstimateCirculatingSupplyDynamicExDemandChart/>
+<br/>
+
+#### 8.6.4. Estimating CryptoCommodity Demand
 
 CryptoCommodity's users demand, represents the tokens purchases in the exchanges by the CryptoCommodity Users. The CryptoCommodity's users can purchases tokens by 2 different motivations: real utility or speculative value.
 
@@ -839,28 +878,24 @@ The **Speculative Demand** is the expectation that the project will achieve its 
 
 The demand caused by **Real World Utility Demand** is sensitive to the project roadmap, evolution and perception of progress by the community. For a CryptoCommodity at the Value Capture Stage, there are 2 sources of real world utility demand: the demand by consumers and the demand by discount cards.
 
-#### 8.6.2. Estimating Circulating Supply
+#### 8.6.5. Estimating Circulating Supply
 
-
-#### 8.6.4. Estimating Supply Held in Exchanges
 
 The **Supply Held in the Exchanges** is based on:
 
-- the **Vested Initial Exchanges Allocation**
+- the **Exchanges Allocation** (as defined in 8.6.3)
 
-- the CryptoCommodity **supply returned by fundraising investors**
-
-- the CryptoCommodity **Total Demand** (as defined in 8.6.2)
+- the CryptoCommodity **Total Demand** (as defined in 8.6.4)
 
 <br/>
 <center><var>Supply Held in the Exchanges</var> = <var>Initial Exchanges Allocation</var> + <var>Sold Fundraising Investors</var> - <var>Total CryptoCommodity demand</var></center>
 <br/>
 
 <br/>
-<LineEstimateHeldInExchanges/>
+<LineEstimateCirculatingSupply/>
 <br/>
 
-#### 8.6.5. Estimating Price Evolution
+#### 8.6.6. Estimating Price Evolution
 
 The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between 
 
@@ -868,7 +903,7 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 <LineEstimatePriceEvolutionChart/>
 <br/>
 
-#### 8.6.6. Estimating Value Capture Event
+#### 8.6.7. Estimating Value Capture Event
 
 As described in XXX, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. When this happens one token is equivalent to one timely order. In order to estimate the VCE, we need to calculate these 2 magnitudes: evolution of tokens in the exchanges and physical demand of the asset.
 
@@ -896,11 +931,11 @@ All the above profiles can be estimated and parametrized in order to run benchma
 
 The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
 
-#### 8.6.7. Estimating Investor Exit
+#### 8.6.8. Estimating Investor Exit
 
 
 
-#### 8.6.8. Estimating Investor Profit
+#### 8.6.9. Estimating Investor Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/price_estimations_black.svg" width="70%"></img>

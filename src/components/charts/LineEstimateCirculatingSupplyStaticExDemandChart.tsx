@@ -6,7 +6,7 @@ Chart.register(annotationPlugin);
 
 import { COLORS, vesting } from './config';
 
-export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
+export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 
   return (
     <>
@@ -121,6 +121,8 @@ export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
 									font: {
 										size: 9
 									}
+
+
 								}, {
 									type: 'line',
 									xMin: 12,
@@ -128,15 +130,27 @@ export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
 									borderDash: [5, 5],
+
 								}, {
-									type: 'label',
-									xValue: 12,
-									yValue: 100,
-									content: ['START', 'VESTING', 'SEED'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
+									type: 'line',
+									xMin: 12,
+									xMax: 12,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								
+								
+								}, {
+									type: 'line',
+									xMin: 3,
+									xMax: 3,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],			
+
+								
+								
+								
 								}, {
 									type: 'line',
 									xMin: 36,
@@ -144,31 +158,7 @@ export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
 									borderDash: [5, 5],
-								}, {
-									type: 'label',
-									xValue: 36,
-									yValue: 100,
-									content: ['END', 'VESTING', 'SEED'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
-								}, {
-									type: 'line',
-									xMin: 3,
-									xMax: 3,
-									borderColor: 'rgb(255, 99, 132)',
-									borderWidth: 2,
-									borderDash: [5, 5],
-								}, {
-									type: 'label',
-									xValue: 3,
-									yValue: 145,
-									content: ['START', 'VESTING', 'PRE'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
+
 								}, {
 									type: 'line',
 									xMin: 27,
@@ -177,30 +167,13 @@ export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
 									borderWidth: 2,
 									borderDash: [5, 5],
 								}, {
-									type: 'label',
-									xValue: 27,
-									yValue: 145,
-									content: ['END', 'VESTING', 'PRE'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
-								}, {
 									type: 'line',
 									xMin: 3,
 									xMax: 3,
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
 									borderDash: [5, 5],
-								}, {
-									type: 'label',
-									xValue: 3,
-									yValue: 60,
-									content: ['START', 'VESTING', 'PUBLIC'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
+
 								}, {
 									type: 'line',
 									xMin: 15,
@@ -209,30 +182,110 @@ export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
 									borderWidth: 2,
 									borderDash: [5, 5],
 								}, {
-									type: 'label',
-									xValue: 15,
-									yValue: 60,
-									content: ['END', 'VESTING', 'PUBLIC'],
-									backgroundColor: 'rgba(245,245,245)',
-									font: {
-										size: 9
-									}
-								}, {
 									type: 'line',
 									xMin: 60,
 									xMax: 60,
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
 									borderDash: [5, 5],
+
+
+
+
+								}, {
+									type: 'line',
+									yMax: 10,
+									yMin: 10,
+									xMin: 12,
+									xMax: 60,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
 								}, {
 									type: 'label',
-									xValue: 60,
-									yValue: 120,
-									content: ['END', 'VESTING', 'EXCHANGES'],
+									xValue: 36,
+									yValue: 10,
+									content: ['VESTING EXCHANGES'],
 									backgroundColor: 'rgba(245,245,245)',
 									font: {
 										size: 9
 									}
+								}, {
+									type: 'line',
+									yMax: 40,
+									yMin: 40,
+									xMax: 36,
+									xMin: 12,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 24,
+									yValue: 40,
+									content: ['VESTING SEED'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									yMax: 70,
+									yMin: 70,
+									xMax: 3,
+									xMin: 27,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 15,
+									yValue: 70,
+									content: ['VESTING PRE'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									yMax: 100,
+									yMin: 100,
+									xMax: 3,
+									xMin: 15,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 9,
+									yValue: 100,
+									content: ['VESTING PUBLIC'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+								}, {
+									type: 'line',
+									yMax: 130,
+									yMin: 130,
+									xMax: 3,
+									xMin: 15,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
+								}, {
+									type: 'label',
+									xValue: 9,
+									yValue: 130,
+									content: ['VESTING PROJECT'],
+									backgroundColor: 'rgba(245,245,245)',
+									font: {
+										size: 9
+									}
+
+
+
+
 								}, {
 									type: 'line',
 									xMin: 100,

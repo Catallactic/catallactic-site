@@ -6,7 +6,7 @@ Chart.register(annotationPlugin);
 
 import { COLORS, vesting } from './config';
 
-export default function LineEstimateHeldInExchanges() {
+export default function LineEstimateCirculatingSupply() {
   return (
     <>
 			<div className="chart-panel2">
