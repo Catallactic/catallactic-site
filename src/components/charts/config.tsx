@@ -1,14 +1,15 @@
 
+export const COLORS = {
+	SUPPLY_PROJECT: '#0a1172',
+	SUPPLY_HOLDERS: '#1338be',
+	SUPPLY_EXCHANGES: '#d1d1f6',
+	SUPPLY_DEFI: '#add8e6',
+	SUPPLY_GREY: '#778899',
 
-export const COLOR_PROJECT = '#0a1172';
-export const COLOR_HOLDERS = '#1338be';
-export const COLOR_EXCHANGES = '#d1d1f6';
-export const COLOR_DEFI = '#add8e6';
-export const COLOR_GREY = '#778899';
-export const COLOR_DEMAND_SPECULATIVE = '#006727';
-export const COLOR_DEMAND_CONSUMERS = '#248823';
-export const COLOR_DEMAND_CARDS = '#25a032';
-
+	DEMAND_SPECULATIVE: '#006727',
+	DEMAND_CONSUMERS: '#248823',
+	DEMAND_CARDS: '#25a032',
+}
 
 // **********************************************************************************************************************
 // ***************************************************** basic plotting *************************************************

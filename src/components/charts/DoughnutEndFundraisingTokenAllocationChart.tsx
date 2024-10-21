@@ -1,11 +1,7 @@
 import Chart from 'chart.js/auto';
 import { Doughnut } from "react-chartjs-2";
 
-import { COLOR_PROJECT } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS } from './config';
 
 export default function DoughnutEndFundraisingTokenAllocationChart() {
   return (
@@ -22,12 +18,12 @@ export default function DoughnutEndFundraisingTokenAllocationChart() {
 								'Project', 'Funding', 'Admin (Exchanges)', 'Operations'
 							],
 							datasets: [{
-									backgroundColor: [COLOR_HOLDERS, COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
+									backgroundColor: [COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_PROJECT, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS],
 									data: [0, 1, 2, 3, 5, 4, 0, 0] ,
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: [COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS],
+									backgroundColor: [COLORS.SUPPLY_PROJECT, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS],
 									data: [1, 10, 4, 0],
 									order: [10, 1, 5, 8],
 									index: 1

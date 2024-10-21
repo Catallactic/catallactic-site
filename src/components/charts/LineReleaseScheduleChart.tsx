@@ -4,11 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS } from './config';
 
 export default function LineReleaseScheduleChart() {
   return (
@@ -20,25 +16,25 @@ export default function LineReleaseScheduleChart() {
 						datasets: [{
 							fill: true,
 							label: 'Exchanges',
-							backgroundColor: COLOR_EXCHANGES,
+							backgroundColor: COLORS.SUPPLY_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,100,125,150,125,100,125,150,175,200,225,250,275,300,300,300,300,300,300,300,300,300]
 						}, {
 							fill: true,
 							label: 'Holders',
-							backgroundColor: COLOR_HOLDERS,
+							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,200,175,150,175,200,208.3,216.6,225,233,242,250,259,267,284,300,317,333,350,366,382,400]
 						}, {
 							fill: true,
 							label: 'Project',
-							backgroundColor: COLOR_PROJECT,
+							backgroundColor: COLORS.SUPPLY_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,100,100,100,100,100,104.16,108.3,112.5,117,121,125,129,133,141,150,158,166,175,183,191,200]
 						}, {
 							fill: true,
 							label: 'DeFi ServiCes',
-							backgroundColor: COLOR_DEFI,
+							backgroundColor: COLORS.SUPPLY_DEFI,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: [null,null,null,null,null,null,null,0,12.5,25,37.5,50,62.5,75,87.5,100,125,150,175,201,225,250,275,300]
 						}],

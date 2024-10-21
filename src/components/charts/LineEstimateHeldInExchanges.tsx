@@ -4,11 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT, sumArrays, vesting } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS, vesting } from './config';
 
 export default function LineEstimateHeldInExchanges() {
   return (
@@ -20,8 +16,8 @@ export default function LineEstimateHeldInExchanges() {
 					datasets: [{
 						fill: false,
 						label: 'Initial Exchanges',
-						backgroundColor: COLOR_EXCHANGES,
-						borderColor: COLOR_EXCHANGES,
+						backgroundColor: COLORS.SUPPLY_EXCHANGES,
+						borderColor: COLORS.SUPPLY_EXCHANGES,
 						data: vesting(100, 8, 12, 40, 48)			// 40 in 48 steps with 12 delay + 8 initial
 					}, /*{
 						fill: false,

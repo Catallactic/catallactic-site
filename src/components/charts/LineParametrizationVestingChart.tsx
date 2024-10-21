@@ -4,11 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT, vesting } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS, vesting } from './config';
 
 export default function LineParametrizationVestingChart() {
 
@@ -21,7 +17,7 @@ export default function LineParametrizationVestingChart() {
 						datasets: [{
 							fill: true,
 							label: '	Vested Supply',
-							backgroundColor: COLOR_HOLDERS,
+							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(100, 30, 20, 100, 36)			// 50 in 12 steps with 3 delay + 10 initial
 						}, ],

@@ -4,11 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT, constant, sumArrays, vesting } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS, constant } from './config';
 
 export default function LineEstimateTotalSupplyChart() {
 
@@ -21,8 +17,8 @@ export default function LineEstimateTotalSupplyChart() {
 						datasets: [{
 							fill: false,
 							label: 'Total Supply',
-							backgroundColor: COLOR_HOLDERS,
-							borderColor: COLOR_HOLDERS,
+							backgroundColor: COLORS.SUPPLY_HOLDERS,
+							borderColor: COLORS.SUPPLY_HOLDERS,
 							data: constant(100, 150),
 						}, ],
 					}}

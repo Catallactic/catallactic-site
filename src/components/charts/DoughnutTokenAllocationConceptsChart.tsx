@@ -1,11 +1,7 @@
 import Chart from 'chart.js/auto';
 import { Doughnut } from "react-chartjs-2";
 
-import { COLOR_PROJECT } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS } from './config';
 
 export default function DoughnutTokenAllocationConceptsChart() {
   return (
@@ -22,12 +18,12 @@ export default function DoughnutTokenAllocationConceptsChart() {
 								'Project', 'Holders', 'Liquidity', 'DeFi Services'
 							],
 							datasets: [{
-									backgroundColor: [COLOR_PROJECT, COLOR_PROJECT, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_EXCHANGES, COLOR_DEFI],
+									backgroundColor: [COLORS.SUPPLY_PROJECT, COLORS.SUPPLY_PROJECT, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_EXCHANGES, COLORS.SUPPLY_EXCHANGES, COLORS.SUPPLY_DEFI],
 									data: [9, 1, 2, 3, 5, 4, 5, 71],
 									order: [11, 12, 2, 3, 4, 6, 7, 9],
 									index: 0
 								}, {
-									backgroundColor: [COLOR_PROJECT, COLOR_HOLDERS, COLOR_EXCHANGES, COLOR_DEFI],
+									backgroundColor: [COLORS.SUPPLY_PROJECT, COLORS.SUPPLY_HOLDERS, COLORS.SUPPLY_EXCHANGES, COLORS.SUPPLY_DEFI],
 									data: [10, 10, 9, 71],
 									order: [1, 10, 5, 8],
 									index: 1

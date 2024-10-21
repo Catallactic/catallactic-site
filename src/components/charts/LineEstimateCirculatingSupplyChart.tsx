@@ -4,11 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLOR_PROJECT, vesting } from "./config";
-import { COLOR_HOLDERS } from "./config";
-import { COLOR_EXCHANGES } from "./config";
-import { COLOR_DEFI } from "./config";
-import { COLOR_GREY } from './config';
+import { COLORS, vesting } from './config';
 
 export default function LineEstimateCirculatingSupplyChart() {
 
@@ -21,31 +17,31 @@ export default function LineEstimateCirculatingSupplyChart() {
 						datasets: [{
 							fill: true,
 							label: 'Exchanges',
-							backgroundColor: COLOR_EXCHANGES,
+							backgroundColor: COLORS.SUPPLY_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(100, 8, 12, 40, 48)			// 40 in 48 steps with 12 delay + 8 initial
 						}, {
 							fill: true,
 							label: 'Seed Round',
-							backgroundColor: COLOR_HOLDERS,
+							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(100, 0, 12, 10, 24),			// 10 in 24 steps with 12 delay
 						}, {
 							fill: true,
 							label: 'Pre-Sale',
-							backgroundColor: COLOR_HOLDERS,
+							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(100, 4, 3, 40, 24)				// 40 in 24 steps with 3 delay + 4 initial
 						}, {
 							fill: true,
 							label: 'Public-Sale',
-							backgroundColor: COLOR_HOLDERS,
+							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(100, 10, 3, 50, 12)			// 50 in 12 steps with 3 delay + 10 initial
 						}, {
 							fill: true,
 							label: 'Project',
-							backgroundColor: COLOR_PROJECT,
+							backgroundColor: COLORS.SUPPLY_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
 							data: vesting(100, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
 						}],
