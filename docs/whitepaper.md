@@ -799,7 +799,7 @@ In this section we will try to determine the important outcomes from the CryptoC
 
 #### 8.6.1. Determining Total Supply
 
-The **Total Supply** is determined by the CryptoCommodity issuer. The Ttoal Supply is fixed for the Value Capture Stage which allows the Cryptccommodity to behave as a deflationary token.
+The **Total Supply** is determined by the CryptoCommodity issuer. The Total Supply is fixed for the Value Capture Stage which allows the CryptoCommodity to behave as a deflationary token.
 
 <br/>
 <LineEstimateTotalSupplyChart/>
@@ -827,20 +827,15 @@ The image below depicts a possible configuration of Total Supply allocation item
 
 #### 8.6.3. Estimating Total CryptoCommodity Demand
 
-CryptoCommodity's users demand, is sensitive to the project evolution and perception of progress by the community, by the Supply allocation's vesting periods, by the CryptoCommodity utility and other aspects, meaning the Supply in the Exchanges will variate during the CryptoCommodity' lifecycle.
+CryptoCommodity's users demand, represents the tokens purchases in the exchanges by the CryptoCommodity Users. The CryptoCommodity's users can purchases tokens by 2 different motivations: real utility or speculative value.
 
-The CryptoCommodity's users demand must be broken down by the different utilities that the token provides to its users, including:
-
-- the CryptoCommodity **demand by consumers**
-
-- the CryptoCommodity **demand by new investors**
-
-- the CryptoCommodity **demand by discount cards**
-
+The **Speculative Demand** is the expectation that the project will achieve its goals and, therefore, the price of the tokens will increase driving profits to their holders. The speculative demand is highly volatile. The speculative demand is higher at earlier stages of the project and gets reduced when the project gets closer to its goals.
 
 <br/>
 <LineEstimateTotalCryptoDemandChart/>
 <br/>
+
+The demand caused by **Real World Utility Demand** is sensitive to the project roadmap, evolution and perception of progress by the community. For a CryptoCommodity at the Value Capture Stage, there are 2 sources of real world utility demand: the demand by consumers and the demand by discount cards.
 
 #### 8.6.4. Estimating Supply Held in Exchanges
 

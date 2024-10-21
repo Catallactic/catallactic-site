@@ -111,6 +111,18 @@ export default function LineEstimateHeldInExchanges() {
 						},
 					},
 					plugins: {
+						legend: {
+							labels: {
+								usePointStyle: true,
+								font: {
+									family: 'Comic Sans MS',
+									size: 20,
+									weight: 'bold',
+									lineHeight: 1.2,
+								},
+								padding: 20,
+							},
+						},
 						annotation: {
 							annotations: [/*{
 								type: 'line',

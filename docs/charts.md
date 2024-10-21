@@ -13,6 +13,7 @@ import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/chart
 import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
 import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
+import LineEstimatedLockedSupplyChart from '@site/src/components/charts/LineEstimatedLockedSupplyChart';
 import LineEstimateCirculatingSupplyChart from '@site/src/components/charts/LineEstimateCirculatingSupplyChart';
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
 import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimateHeldInExchanges';
@@ -111,6 +112,9 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ## LineEstimateTotalSupplyChart
 <LineEstimateTotalSupplyChart/>
+
+## LineEstimatedLockedSupplyChart
+<LineEstimatedLockedSupplyChart/>
 
 ## LineEstimateCirculatingSupplyChart
 <LineEstimateCirculatingSupplyChart/>

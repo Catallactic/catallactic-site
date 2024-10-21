@@ -4,7 +4,10 @@ export const COLOR_PROJECT = '#0a1172';
 export const COLOR_HOLDERS = '#1338be';
 export const COLOR_EXCHANGES = '#d1d1f6';
 export const COLOR_DEFI = '#add8e6';
-export const COLOR_GREY = '#d3d3d3';
+export const COLOR_GREY = '#778899';
+export const COLOR_DEMAND_SPECULATIVE = '#006727';
+export const COLOR_DEMAND_CONSUMERS = '#248823';
+export const COLOR_DEMAND_CARDS = '#25a032';
 
 
 // **********************************************************************************************************************
@@ -15,7 +18,7 @@ export const constant = (numSamples:number, value:number) => {
 	for (let i = 1; i <= numSamples; i += 1) {
 		amounts.push(value);
 	}
-	console.log(amounts);
+	console.log('constant: ', amounts);
 	return amounts;
 };
 
@@ -37,7 +40,16 @@ export const vesting = (numSamples:number, givenOnTGE:number, cliffDelay:number,
 		else data = givenOnTGE + (i-cliffDelay) * (givenOnMax - givenOnTGE) / steps;
 		amounts.push(data);
 	}
-	console.log(amounts);
+	console.log('vesting: ', amounts);
+	return amounts;
+};
+
+export const atan = (numSamples: number, multiplier: number, divider: number) => {
+	const amounts = [0];
+	for (let i = 1; i <= numSamples; i += 1) {
+		amounts.push(multiplier * Math.atan(i / divider));
+	}
+	console.log('atan: ', amounts);
 	return amounts;
 };
 
