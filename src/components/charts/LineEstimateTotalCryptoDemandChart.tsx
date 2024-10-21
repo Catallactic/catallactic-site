@@ -111,27 +111,49 @@ export default function LineEstimateTotalCryptoDemandChart() {
 								font: {
 									size: 9
 								}
-							}, /*{
+							}, {
 								type: 'line',
-								xMin: 10.6,
-								xMax: 10.6,
+								xMin: 3,
+								xMax: 3,
 								borderColor: 'rgb(255, 99, 132)',
 								borderWidth: 2,
+								borderDash: [5, 5],
 							}, {
-								type: 'label',
-								xValue: 10.6,
-								yValue: 75,
-								content: ['Value','Capture','Event'],
-								backgroundColor: 'rgba(245,245,245)',
-								font: {
-									size: 18
-								}
+								type: 'line',
+								xMin: 12,
+								xMax: 12,
+								borderColor: 'rgb(255, 99, 132)',
+								borderWidth: 2,
+								borderDash: [5, 5],
 							}, {
-								type: 'point',
-								xValue: 10.6,
-								yValue: 20,
-								backgroundColor: 'rgba(255, 99, 132, 0.25)'
-							}, */{
+								type: 'line',
+								xMin: 15,
+								xMax: 15,
+								borderColor: 'rgb(255, 99, 132)',
+								borderWidth: 2,
+								borderDash: [5, 5],
+							}, {
+								type: 'line',
+								xMin: 27,
+								xMax: 27,
+								borderColor: 'rgb(255, 99, 132)',
+								borderWidth: 2,
+								borderDash: [5, 5],
+							}, {
+								type: 'line',
+								xMin: 36,
+								xMax: 36,
+								borderColor: 'rgb(255, 99, 132)',
+								borderWidth: 2,
+								borderDash: [5, 5],
+							}, {
+								type: 'line',
+								xMin: 60,
+								xMax: 60,
+								borderColor: 'rgb(255, 99, 132)',
+								borderWidth: 2,
+								borderDash: [5, 5],
+							}, {
 								type: 'line',
 								xMin: 100,
 								xMax: 100,

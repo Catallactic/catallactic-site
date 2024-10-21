@@ -26,7 +26,7 @@ export const constant = (numSamples:number, value:number) => {
 export const constantFrom = (numSamples:number, value:number, fromSample: number) => {
 	const amounts = [value];
 	for (let i = 1; i <= numSamples; i += 1) {
-		amounts.push(i < fromSample ? 0 : value);
+		amounts.push(i <= fromSample ? 0 : value);
 	}
 	console.log('constant: ', amounts);
 	return amounts;

@@ -123,21 +123,10 @@ export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 									}
 
 
-								}, {
-									type: 'line',
-									xMin: 12,
-									xMax: 12,
-									borderColor: 'rgb(255, 99, 132)',
-									borderWidth: 2,
-									borderDash: [5, 5],
 
-								}, {
-									type: 'line',
-									xMin: 12,
-									xMax: 12,
-									borderColor: 'rgb(255, 99, 132)',
-									borderWidth: 2,
-									borderDash: [5, 5],
+
+								
+
 								
 								
 								}, {
@@ -146,19 +135,21 @@ export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 									xMax: 3,
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
-									borderDash: [5, 5],			
-
-								
-								
-								
+									borderDash: [5, 5],
 								}, {
 									type: 'line',
-									xMin: 36,
-									xMax: 36,
+									xMin: 12,
+									xMax: 12,
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
 									borderDash: [5, 5],
-
+								}, {
+									type: 'line',
+									xMin: 15,
+									xMax: 15,
+									borderColor: 'rgb(255, 99, 132)',
+									borderWidth: 2,
+									borderDash: [5, 5],
 								}, {
 									type: 'line',
 									xMin: 27,
@@ -168,16 +159,8 @@ export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 									borderDash: [5, 5],
 								}, {
 									type: 'line',
-									xMin: 3,
-									xMax: 3,
-									borderColor: 'rgb(255, 99, 132)',
-									borderWidth: 2,
-									borderDash: [5, 5],
-
-								}, {
-									type: 'line',
-									xMin: 15,
-									xMax: 15,
+									xMin: 36,
+									xMax: 36,
 									borderColor: 'rgb(255, 99, 132)',
 									borderWidth: 2,
 									borderDash: [5, 5],

@@ -881,15 +881,7 @@ The demand caused by **Real World Utility Demand** is sensitive to the project r
 #### 8.6.5. Estimating Circulating Supply
 
 
-The **Supply Held in the Exchanges** is based on:
-
-- the **Exchanges Allocation** (as defined in 8.6.3)
-
-- the CryptoCommodity **Total Demand** (as defined in 8.6.4)
-
-<br/>
-<center><var>Supply Held in the Exchanges</var> = <var>Initial Exchanges Allocation</var> + <var>Sold Fundraising Investors</var> - <var>Total CryptoCommodity demand</var></center>
-<br/>
+The **Ciculating Supply** is based on the **Estimating Circulating Supply (Dynamic, ex-Demand)** (as defined in 8.6.3). The CryptoCommodity **Total Demand** (as defined in 8.6.4) must also be considered. This will have the effect of withdrawing Exchange tokens to holders.
 
 <br/>
 <LineEstimateCirculatingSupply/>
