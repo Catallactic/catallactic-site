@@ -4,7 +4,7 @@ title: Whitepaper
 ---
 
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
-import LineEstimateCirculatingSupplyChart from '@site/src/components/charts/LineEstimateCirculatingSupplyChart';
+import LineEstimateCirculatingSupplyStaticExDemanChart from '@site/src/components/charts/LineEstimateCirculatingSupplyStaticExDemanChart';
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
 import LineEstimateHeldInExchanges from '@site/src/components/charts/LineEstimateHeldInExchanges';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
@@ -805,7 +805,7 @@ The **Total Supply** is determined by the CryptoCommodity issuer. The Total Supp
 <LineEstimateTotalSupplyChart/>
 <br/>
 
-#### 8.6.2. Calculating Circulating Supply
+#### 8.6.2. Calculating Circulating Supply (Static, ex-Demand)
 
 In the Value Capture Stage, the Circulating Supply is an aggregation of the supply pre-minted allocation items as done by the CryptoCommodity issuer. These aggregation is made up of the folowing items during the Pre-minting Stage. This includes:
 
@@ -822,10 +822,12 @@ In the Value Capture Stage, the Circulating Supply is an aggregation of the supp
 The image below depicts a possible configuration of Total Supply allocation items:
 
 <br/>
-<LineEstimateCirculatingSupplyChart/>
+<LineEstimateCirculatingSupplyStaticExDemanChart/>
 <br/>
 
-#### 8.6.3. Estimating Total CryptoCommodity Demand
+#### 8.6.2. Estimating Circulating Supply (Dynamic, ex-Demand)
+
+#### 8.6.3. Estimating CryptoCommodity Demand
 
 CryptoCommodity's users demand, represents the tokens purchases in the exchanges by the CryptoCommodity Users. The CryptoCommodity's users can purchases tokens by 2 different motivations: real utility or speculative value.
 
@@ -836,6 +838,9 @@ The **Speculative Demand** is the expectation that the project will achieve its 
 <br/>
 
 The demand caused by **Real World Utility Demand** is sensitive to the project roadmap, evolution and perception of progress by the community. For a CryptoCommodity at the Value Capture Stage, there are 2 sources of real world utility demand: the demand by consumers and the demand by discount cards.
+
+#### 8.6.2. Estimating Circulating Supply
+
 
 #### 8.6.4. Estimating Supply Held in Exchanges
 

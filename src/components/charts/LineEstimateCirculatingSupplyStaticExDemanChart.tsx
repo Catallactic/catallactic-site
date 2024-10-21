@@ -6,7 +6,7 @@ Chart.register(annotationPlugin);
 
 import { COLORS, vesting } from './config';
 
-export default function LineEstimateCirculatingSupplyChart() {
+export default function LineEstimateCirculatingSupplyStaticExDemanChart() {
 
   return (
     <>
