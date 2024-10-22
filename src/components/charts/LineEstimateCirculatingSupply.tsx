@@ -30,7 +30,7 @@ export default function LineEstimateCirculatingSupply() {
 						data: coordsToLinear([{x:0,y:8},{x:3,y:6},{x:12,y:10},{x:15,y:16},{x:27,y:21},{x:27,y:18},{x:36,y:20},{x:60,y:26},{x:100,y:27}])
 					},*/ {
 						fill: true,
-						label: 'Supply Holders',
+						label: 'Holders',
 						backgroundColor: COLORS.SUPPLY_HOLDERS,
 						borderColor: COLORS.SUPPLY_HOLDERS,
 						data: VC_HOLDERS

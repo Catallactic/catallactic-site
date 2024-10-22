@@ -76,12 +76,24 @@ export const coordsToLinear = (coords:Array<Coords>) => {
 	return amounts;
 }
 
+// **********************************************************************************************************************
+// ************************************************** aggregated plotting ***********************************************
+// **********************************************************************************************************************
 export const atan = (numSamples: number, multiplier: number, divider: number) => {
 	const amounts = [0];
 	for (let i = 1; i <= numSamples; i += 1) {
 		amounts.push(multiplier * Math.atan(i / divider));
 	}
 	console.log('atan: ', amounts);
+	return amounts;
+};
+
+export const quadraticCurve = (numSamples: number, a: number, b: number, c: number) => {
+	const amounts = [0];
+	for (let i = 1; i <= numSamples; i += 1) {
+		amounts.push(a * i * i + b * i + c);
+	}
+	console.log('quadraticCurve: ', amounts);
 	return amounts;
 };
 
@@ -123,7 +135,7 @@ export const SOLD_PUBLIC = sumArrays(TGE_PUBLIC, revertArray(SOLD_PUBLIC_TO_EXCH
 export const SOLD_PROJECT = TGE_PROJECT;
 export const SOLD_HOLDERS = sumArrays(SOLD_SEED, SOLD_PRE, SOLD_PUBLIC);
 
-// DEMAND
+// TOKENS DEMAND
 export const DEMAND_SPECULATIVE = coordsToLinear([{x:0,y:8},{x:3,y:6},{x:12,y:10},{x:15,y:12},{x:27,y:15},{x:27,y:12},{x:36,y:10},{x:60,y:12},{x:100,y:10}]);
 export const DEMAND_CONSUMERS = coordsToLinear([{x:0,y:0},{x:3,y:0},{x:12,y:0},{x:15,y:2},{x:27,y:3},{x:27,y:3},{x:36,y:5},{x:60,y:6},{x:100,y:7}]);
 export const DEMAND_CARDS = coordsToLinear([{x:0,y:0},{x:3,y:0},{x:12,y:0},{x:15,y:2},{x:27,y:3},{x:27,y:3},{x:36,y:5},{x:60,y:8},{x:100,y:10}]);
@@ -133,3 +145,8 @@ export const DEMAND = sumArrays(DEMAND_SPECULATIVE, DEMAND_CONSUMERS, DEMAND_CAR
 export const VC_EXCHANGES = sumArrays(SOLD_EXCHANGES, revertArray(DEMAND));
 export const VC_HOLDERS = sumArrays(SOLD_HOLDERS, DEMAND);
 export const VC_PROJECT = SOLD_PROJECT;
+
+// PHYSICAL DEMAND
+// https://vishalchk2002.medium.com/how-to-increase-profits-in-business-using-quadratic-equations-f3f82206b031
+//export const PHYSICAL_DEMAND = coordsToLinear([{x:0,y:0},{x:3,y:0},{x:12,y:0},{x:15,y:2},{x:27,y:3},{x:27,y:3},{x:36,y:5},{x:60,y:8},{x:70,y:16},{x:80,y:24},{x:90,y:38},{x:100,y:50}]);
+export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.1, 0.1);
