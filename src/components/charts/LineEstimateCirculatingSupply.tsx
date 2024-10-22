@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, constantFrom, coordsToLinear, sumArrays, VC_EXCHANGES, VC_HOLDERS, VC_PROJECT, vesting } from './config';
+import { COLORS, constantFrom, coordsToLinear, DEMAND, SOLD_HOLDERS, sumArrays, VC_EXCHANGES, VC_HOLDERS, VC_PROJECT, vesting } from './config';
 
 export default function LineEstimateCirculatingSupply() {
   return (
@@ -19,21 +19,21 @@ export default function LineEstimateCirculatingSupply() {
 						backgroundColor: COLORS.SUPPLY_EXCHANGES,
 						borderColor: COLORS.SUPPLY_EXCHANGES,
 						data:  VC_EXCHANGES
-					}, /*{
-						fill: false,
-						label: 'Speculative Demand',
+					}, {
+						fill: true,
+						label: 'Supply Holders',
+						backgroundColor: COLORS.SUPPLY_HOLDERS,
+						borderColor: "rgba(0,0,0,0.1)",
+						data: SOLD_HOLDERS
+					}, {
+						fill: true,
+						label: 'Demand Holders',
 						borderWidth: 2,
 						pointRadius: 0,
-						backgroundColor: COLORS.DEMAND_SPECULATIVE,
-						borderColor: COLORS.DEMAND_SPECULATIVE,
-						cubicInterpolationMode: 'default',
-						data: coordsToLinear([{x:0,y:8},{x:3,y:6},{x:12,y:10},{x:15,y:16},{x:27,y:21},{x:27,y:18},{x:36,y:20},{x:60,y:26},{x:100,y:27}])
-					},*/ {
-						fill: true,
-						label: 'Holders',
 						backgroundColor: COLORS.SUPPLY_HOLDERS,
-						borderColor: COLORS.SUPPLY_HOLDERS,
-						data: VC_HOLDERS
+						borderColor: "rgba(0,0,0,0.1)",
+						cubicInterpolationMode: 'default',
+						data: DEMAND
 					}, {
 						fill: true,
 						label: 'Project',

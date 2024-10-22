@@ -891,7 +891,7 @@ The **Ciculating Supply** is based on the **Estimating Circulating Supply (Dynam
 
 As described in 8.4.1, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. In order to estimate the VCE, we need to consider these 2 magnitudes: evolution of tokens in the exchanges (as described in 8.6.5) and physical demand of the asset.
 
-The **physical demand** (in green) must be worked out from a sales forecasting process and is specific for every business model
+The **physical demand** must be estimated from a sales forecasting process and is specific for every business model and roadmap.
 
 <br/>
 <LineEstimateValueCaptureEventChart/>
