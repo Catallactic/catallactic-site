@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS } from './config';
+import { COLORS, coordsToLinear, DEMAND_CARDS, DEMAND_CONSUMERS, DEMAND_SPECULATIVE } from './config';
 
 export default function LineEstimateTotalCryptoDemandChart() {
   return (
@@ -17,29 +17,29 @@ export default function LineEstimateTotalCryptoDemandChart() {
 						fill: true,
 						label: 'Speculative Demand',
 						borderWidth: 2,
-						pointRadius: 2,
+						pointRadius: 0,
 						backgroundColor: COLORS.DEMAND_SPECULATIVE,
 						borderColor: COLORS.DEMAND_SPECULATIVE,
 						cubicInterpolationMode: 'default',
-						data: [{x:0,y:20},{x:40,y:40},{x:60,y:40},{x:100,y:20}]
+						data: DEMAND_SPECULATIVE,
 					}, {
 						fill: true,
 						label: 'Consumers Utility Demand',
 						borderWidth: 2,
-						pointRadius: 2,
+						pointRadius: 0,
 						backgroundColor: COLORS.DEMAND_CONSUMERS,
 						borderColor: COLORS.DEMAND_CONSUMERS,
 						cubicInterpolationMode: 'default',
-						data: [{x:0,y:0},{x:40,y:4},{x:60,y:6},{x:100,y:10}]
+						data: DEMAND_CONSUMERS,
 					}, {
 						fill: true,
 						label: 'Cards Utility Demand',
 						borderWidth: 2,
-						pointRadius: 2,
+						pointRadius: 0,
 						backgroundColor: COLORS.DEMAND_CARDS,
 						borderColor: COLORS.DEMAND_CARDS,
 						cubicInterpolationMode: 'default',
-						data: [{x:0,y:0},{x:40,y:4},{x:60,y:6},{x:100,y:10}]
+						data: DEMAND_CARDS,
 					},],
 				}}
 				options={{

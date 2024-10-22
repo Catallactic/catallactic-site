@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, constantFrom, sumArrays, vesting } from './config';
+import { COLORS, SOLD_EXCHANGES, SOLD_SEED, SOLD_PRE, SOLD_PUBLIC, SOLD_PROJECT } from './config';
 
 export default function LineEstimateCirculatingSupplyDynamicExDemandChart() {
 
@@ -19,31 +19,31 @@ export default function LineEstimateCirculatingSupplyDynamicExDemandChart() {
 							label: 'Exchanges',
 							backgroundColor: COLORS.SUPPLY_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: sumArrays(vesting(100, 8, 12, 40, 48), constantFrom(100, 10*0.35, 36), constantFrom(100, 40*0.25, 27), constantFrom(100, 50*0.15, 15))
+							data: SOLD_EXCHANGES
 						}, {
 							fill: true,
 							label: 'Seed Round',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: sumArrays(vesting(100, 0, 12, 10, 24), constantFrom(100, -10*0.35, 36)),
+							data: SOLD_SEED
 						}, {
 							fill: true,
 							label: 'Pre-Sale',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: sumArrays(vesting(100, 4, 3, 40, 24), constantFrom(100, -40*0.25, 27)),
+							data: SOLD_PRE
 						}, {
 							fill: true,
 							label: 'Public-Sale',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: sumArrays(vesting(100, 10, 3, 50, 12), constantFrom(100, -50*0.15, 15)),
+							data: SOLD_PUBLIC
 						}, {
 							fill: true,
 							label: 'Project',
 							backgroundColor: COLORS.SUPPLY_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(100, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
+							data: SOLD_PROJECT
 						}],
 					}}
 					options={{

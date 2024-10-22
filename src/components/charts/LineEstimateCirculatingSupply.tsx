@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, constantFrom, sumArrays, vesting } from './config';
+import { COLORS, constantFrom, coordsToLinear, sumArrays, VC_EXCHANGES, VC_HOLDERS, VC_PROJECT, vesting } from './config';
 
 export default function LineEstimateCirculatingSupply() {
   return (
@@ -17,30 +17,30 @@ export default function LineEstimateCirculatingSupply() {
 						fill: true,
 						label: 'Exchanges',
 						backgroundColor: COLORS.SUPPLY_EXCHANGES,
-						borderColor: "rgba(0,0,0,0.1)",
-						data: sumArrays(vesting(100, 8, 12, 40, 48), constantFrom(100, 10*0.35, 36), constantFrom(100, 40*0.25, 27), constantFrom(100, 50*0.15, 15))
-					}, {
-						fill: true,
-						label: 'Supply Holders',
-						backgroundColor: COLORS.SUPPLY_HOLDERS,
-						borderColor: "rgba(0,0,0,0.1)",
-						data: sumArrays(vesting(100, 0, 12, 10, 24), vesting(100, 4, 3, 40, 24), vesting(100, 10, 3, 50, 12), constantFrom(100, -10*0.35, 36), constantFrom(100, -40*0.25, 27), constantFrom(100, -50*0.15, 15)),
-					}, {
-						fill: true,
-						label: 'Project',
-						backgroundColor: COLORS.SUPPLY_PROJECT,
-						borderColor: "rgba(0,0,0,0.1)",
-						data: vesting(100, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
+						borderColor: COLORS.SUPPLY_EXCHANGES,
+						data:  VC_EXCHANGES
 					}, /*{
 						fill: false,
 						label: 'Speculative Demand',
 						borderWidth: 2,
-						pointRadius: 2,
+						pointRadius: 0,
 						backgroundColor: COLORS.DEMAND_SPECULATIVE,
 						borderColor: COLORS.DEMAND_SPECULATIVE,
 						cubicInterpolationMode: 'default',
-						data: [{x:0,y:20},{x:40,y:48},{x:60,y:52},{x:100,y:60}]
-					},*/ ],
+						data: coordsToLinear([{x:0,y:8},{x:3,y:6},{x:12,y:10},{x:15,y:16},{x:27,y:21},{x:27,y:18},{x:36,y:20},{x:60,y:26},{x:100,y:27}])
+					},*/ {
+						fill: true,
+						label: 'Supply Holders',
+						backgroundColor: COLORS.SUPPLY_HOLDERS,
+						borderColor: COLORS.SUPPLY_HOLDERS,
+						data: VC_HOLDERS
+					}, {
+						fill: true,
+						label: 'Project',
+						backgroundColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_PROJECT,
+						data: VC_PROJECT
+					}, ],
 				}}
 				options={{
 					responsive: true,

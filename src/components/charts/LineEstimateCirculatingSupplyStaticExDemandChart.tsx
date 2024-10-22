@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, vesting } from './config';
+import { COLORS, TGE_EXCHANGES, TGE_PRE, TGE_PROJECT, TGE_PUBLIC, TGE_SEED, vesting } from './config';
 
 export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 
@@ -19,31 +19,31 @@ export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 							label: 'Exchanges',
 							backgroundColor: COLORS.SUPPLY_EXCHANGES,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(100, 8, 12, 40, 48)			// 40 in 48 steps with 12 delay + 8 initial
+							data: TGE_EXCHANGES,			
 						}, {
 							fill: true,
 							label: 'Seed Round',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(100, 0, 12, 10, 24),			// 10 in 24 steps with 12 delay
+							data: TGE_SEED,
 						}, {
 							fill: true,
 							label: 'Pre-Sale',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(100, 4, 3, 40, 24)				// 40 in 24 steps with 3 delay + 4 initial
+							data: TGE_PRE,
 						}, {
 							fill: true,
 							label: 'Public-Sale',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(100, 10, 3, 50, 12)			// 50 in 12 steps with 3 delay + 10 initial
+							data: TGE_PUBLIC,
 						}, {
 							fill: true,
 							label: 'Project',
 							backgroundColor: COLORS.SUPPLY_PROJECT,
 							borderColor: "rgba(0,0,0,0.1)",
-							data: vesting(100, 0, 3, 10, 12)				// 10 in 12 steps with 3 delay
+							data: TGE_PROJECT,
 						}],
 					}}
 					options={{
