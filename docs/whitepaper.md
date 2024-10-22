@@ -887,44 +887,27 @@ The **Ciculating Supply** is based on the **Estimating Circulating Supply (Dynam
 <LineEstimateCirculatingSupply/>
 <br/>
 
-#### 8.6.6. Estimating Price Evolution
+#### 8.6.6. Estimating Value Capture Event
+
+As described in 8.4.1, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. In order to estimate the VCE, we need to consider these 2 magnitudes: evolution of tokens in the exchanges (as described in 8.6.5) and physical demand of the asset.
+
+The **physical demand** (in green) must be worked out from a sales forecasting process and is specific for every business model
+
+<br/>
+<LineEstimateValueCaptureEventChart/>
+<br/>
+
+#### 8.6.7. Estimating Investor Exit
+
+The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
+
+#### 8.6.8. Estimating Price Evolution
 
 The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between 
 
 <br/>
 <LineEstimatePriceEvolutionChart/>
 <br/>
-
-#### 8.6.7. Estimating Value Capture Event
-
-As described in XXX, the Value Capture Event happens when the Physical demand of the underlying asset in the considered period matches the number of token in the exchanges. When this happens one token is equivalent to one timely order. In order to estimate the VCE, we need to calculate these 2 magnitudes: evolution of tokens in the exchanges and physical demand of the asset.
-
-The **physical demand** (in green) must be deducted from a sales forecasting process and is specific for every business model
-
-To estimate the **number of tokens in the exchanges** (in red) we must consider:
-
-- the CryptoCommodity Supply profile regarding the vesting periods (in blue)
-
-- the CryptoCommodity demand by consumers (in blue)
-
-- the CryptoCommodity demand by investors (in blue)
-
-- the CryptoCommodity demand by discount cards (in blue)
-
-<br/>
-<center><var>Value Capture Event</var> = <var>Supply Held in Exchanges</var> <span>&#8745;</span> <var>Physical Demand</var></center>
-<br/>
-
-All the above profiles can be estimated and parametrized in order to run benchmarks.
-
-<br/>
-<LineEstimateValueCaptureEventChart/>
-<br/>
-
-The VCE will also determine the triggering of the investor EXIT event, which is the point in time where investors will get a maximum return.
-
-#### 8.6.8. Estimating Investor Exit
-
 
 
 #### 8.6.9. Estimating Investor Profit
