@@ -16,8 +16,8 @@ export default function LineEstimatePriceEvolutionChart() {
 					datasets: [{
 						fill: false,
 						label: 'Supply at Exchanges',					      
-						backgroundColor: COLORS.SUPPLY_HOLDERS,
-						borderColor: COLORS.SUPPLY_HOLDERS,
+						backgroundColor: COLORS.SUPPLY_EXCHANGES,
+						borderColor: COLORS.SUPPLY_EXCHANGES,
 						data: VC_EXCHANGES
 					}, {
 						fill: false,
