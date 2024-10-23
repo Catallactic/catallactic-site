@@ -868,7 +868,7 @@ When tokens are sold, it means that these tokens increase the number of tokens i
 
 #### 8.6.4. Estimating CryptoCommodity Demand
 
-CryptoCommodity's users demand, represents the tokens purchases in the exchanges by the CryptoCommodity Users. The CryptoCommodity's users can purchases tokens by 2 different motivations: real utility or speculative value.
+CryptoCommodity's users demand, represents the tokens purchases in the exchanges by the CryptoCommodity Users. The CryptoCommodity's users can purchase tokens by 2 different motivations: real utility or speculative value.
 
 The **Speculative Demand** is the expectation that the project will achieve its goals and, therefore, the price of the tokens will increase driving profits to their holders. The speculative demand is highly volatile. The speculative demand is higher at earlier stages of the project and gets reduced when the project gets closer to its goals.
 
@@ -903,7 +903,7 @@ The VCE will also determine the triggering of the investor EXIT event, which is 
 
 #### 8.6.8. Estimating Price Evolution
 
-The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between 
+The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between Supply at Exchanges and Token Demand.
 
 <br/>
 <LineEstimatePriceEvolutionChart/>
