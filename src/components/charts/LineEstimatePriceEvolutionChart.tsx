@@ -44,7 +44,7 @@ export default function LineEstimatePriceEvolutionChart() {
 					scales: {
 						y: {
 							min: 0,
-							max: 50,
+							max: 40,
 							stacked: false,
 							title: {
 								display: true,
@@ -133,7 +133,7 @@ export default function LineEstimatePriceEvolutionChart() {
 							}, {
 								type: 'point',
 								xValue: 91,
-								yValue: 12.8,
+								yValue: 12,
 								backgroundColor: 'rgba(255, 99, 132, 0.25)'
 							}]
 						}
