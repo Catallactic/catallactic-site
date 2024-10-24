@@ -1,10 +1,7 @@
 import { Line } from "react-chartjs-2";
-import ChartDataLabels from 'chartjs-plugin-datalabels';
 import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
-
-import { COLORS } from './config';
 
 export default function LineSupplyProfileEventsChart() {
   return (

@@ -1,4 +1,4 @@
-import { Polyfit } from "./polyfit";
+import { constant, constantFrom, divideArrays, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
@@ -17,132 +17,11 @@ export const COLORS = {
 export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99];
 
 // **********************************************************************************************************************
-// ***************************************************** basic plotting *************************************************
-// **********************************************************************************************************************
-export const constant = (numSamples:number, value:number) => {
-	const amounts = [];
-	for (let i = 0; i < numSamples; i += 1) {
-		amounts.push(value);
-	}
-	console.log('constant: ', amounts);
-	return amounts;
-};
-
-export const constantFrom = (numSamples:number, value:number, fromSample: number) => {
-	const amounts = [];
-	for (let i = 0; i < numSamples; i += 1) {
-		amounts.push(i <= fromSample ? 0 : value);
-	}
-	console.log('constantFrom: ', amounts);
-	return amounts;
-};
-
-export const ramp = (numSamples:number, value:number) => {
-	const amounts = [];
-	for (let i = 0; i <= numSamples; i++) {
-		amounts.push(value);
-	}
-	console.log(amounts);
-	return amounts;
-};
-
-export const vesting = (numSamples:number, givenOnTGE:number, cliffDelay:number, givenOnMax:number, steps:number) => {
-	const amounts = [];
-	for (let i = 0; i < numSamples; i++) {
-		let data = 0;
-		if(i <= cliffDelay) data = givenOnTGE;
-		else if(i >= cliffDelay + steps) data = givenOnMax;
-		else data = givenOnTGE + (i-cliffDelay) * (givenOnMax - givenOnTGE) / steps;
-		amounts.push(data);
-	}
-	console.log('vesting: ', amounts);
-	return amounts;
-};
-
-export const atan = (numSamples: number, multiplier: number, divider: number) => {
-	const amounts = [];
-	for (let i = 0; i < numSamples; i++) {
-		amounts.push(multiplier * Math.atan(i / divider));
-	}
-	console.log('atan: ', amounts);
-	return amounts;
-};
-
-/*interface Coords {
-	x: number;
-	y: number;
-}
-export const coordsToLinear = (coords:Array<Coords>) => {
-	const amounts = [];
-	for (let i = 1; i < coords.length; i += 1) {
-		let x1:number = coords[i-1].x;
-		let y1:number = coords[i-1].y;
-		let x2:number = coords[i].x;
-		let y2:number = coords[i].y;
-
-		for (let j=x1; j<x2; j++) {
-			let data = y1+((y2-y1)*j/x2);
-			amounts.push(data);
-		}
-	}
-	//amounts.push(coords[coords.length-1].y);
-	console.log('coordsToLinear: ', amounts);
-	return amounts;
-}*/
-
-// f(x) = ax2 + bx + c
-export const quadraticCurve = (numSamples: number, a: number, b: number, c: number) => {
-	const amounts = [];
-	for (let i = 0; i < numSamples; i++) {
-		amounts.push(a * i * i + b * i + c);
-	}
-	console.log('quadraticCurve: ', amounts);
-	return amounts;
-};
-
-export const quadraticRegression = (numSamples: number, xArray: any[], yArray: any[]) => {
-	var poly = new Polyfit(xArray, yArray);
-	var solver = poly.getPolynomial(2);
-
-	const amounts = [];
-	for (let i = 0; i < numSamples; i++) {
-		amounts.push(solver(i));
-	}
-	console.log('quadraticRegression: ', amounts);
-	return amounts;
-}
-
-// **********************************************************************************************************************
-// ************************************************** arrays operations *************************************************
-// **********************************************************************************************************************
-export const sumArrays = (...arrays: any[]) => {
-  const n = arrays.reduce((max, xs) => Math.max(max, xs.length), 0);
-  const result = Array.from({ length: n });
-  const amounts = result.map((_, i) => arrays.map(xs => xs[i] || 0).reduce((sum, x) => sum + x, 0));
-	console.log('sumArrays: ', amounts);
-	return amounts;
-}
-export const divideArrays = (dividerArray: any[], divisorArray: any[], multiplier: number) => {
-	const amounts = [];
-	for (let i = 0; i < dividerArray.length; i += 1) {
-		amounts.push(multiplier * dividerArray[i] / divisorArray[i]);
-	}
-	console.log('divideArrays: ', amounts);
-	return amounts;
-}
-export const revertArray = (array: any[]) => {
-	const amounts = [];
-	for (let i = 0; i < array.length; i += 1) {
-		amounts.push(-1 * array[i]);
-	}
-	console.log('revertArray: ', amounts);
-	return amounts;
-}
-
-// **********************************************************************************************************************
 // ****************************************************** Arrays ********************************************************
 // **********************************************************************************************************************
 // TGE
+export const VESTING_EXAMPLE = vesting(100, 30, 20, 100, 36)	// 50 in 12 steps with 3 delay + 10 initial
+export const TOTAL_SUPPLY = constant(100, 150);
 export const TGE_EXCHANGES = vesting(100, 20, 12, 40, 48);		// 40 in 20 steps with 12 delay + 20 initial
 export const TGE_SEED = vesting(100, 0, 12, 10, 24);					// 10 in 24 steps with 12 delay
 export const TGE_PRE = vesting(100, 4, 3, 40, 24);						// 40 in 24 steps with 3 delay + 4 initial

@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, constant, SCALE, sumArrays, vesting } from "./config";
+import { CIRCULATING_SUPPLY, COLORS, SCALE, TOTAL_SUPPLY } from "./config";
 
 export default function LineEstimatedLockedSupplyChart() {
 
@@ -19,13 +19,13 @@ export default function LineEstimatedLockedSupplyChart() {
 							label: 'Circulating Supply',
 							backgroundColor: COLORS.SUPPLY_HOLDERS,
 							borderColor: COLORS.SUPPLY_HOLDERS,
-							data: sumArrays(vesting(100, 8, 12, 40, 48), vesting(100, 0, 12, 10, 24), vesting(100, 4, 3, 40, 24), vesting(100, 10, 3, 50, 12), vesting(100, 0, 3, 10, 12)),
+							data: CIRCULATING_SUPPLY,
 						}, {
 							fill: true,
 							label: 'Total Supply',
 							backgroundColor: COLORS.SUPPLY_GREY,
 							borderColor: COLORS.SUPPLY_HOLDERS,
-							data: constant(100, 150),
+							data: TOTAL_SUPPLY,
 						}, ],
 					}}
 					options={{
