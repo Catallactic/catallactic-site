@@ -53,7 +53,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 <!-- truncate -->
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 1. CryptoCommodity
@@ -144,7 +144,7 @@ The issuer must proof the ability of delivering the compromissed utility for the
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -173,19 +173,21 @@ To be eligible as underlaying asset within the CryptoCommodities framework, the 
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<td rowSpan={3}>Product</td>
-			<td>Natural Resources</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Physical Assets</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Digital Assets</td>
-			<td></td>
-		</tr>
+		<tbody>
+			<tr>
+				<td rowSpan={3}>Product</td>
+				<td>Natural Resources</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Physical Assets</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Digital Assets</td>
+				<td></td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 <br/>
@@ -196,15 +198,17 @@ Additionally, the price is formed in the basis of a service. Some services that 
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<td rowSpan={2}>Service</td>
-			<td>Acquisition</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Rent</td>
-			<td></td>
-		</tr>
+		<tbody>
+			<tr>
+				<td rowSpan={2}>Service</td>
+				<td>Acquisition</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Rent</td>
+				<td></td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 <br/>
@@ -229,7 +233,7 @@ The only Token Model that has the purpose to become a currency today is the Stab
 | Provides credit? 				        | Yes, with social risk                             | Yes, with private risk                                                        |
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 3. CryptoCommodity Ecosystem
@@ -248,7 +252,7 @@ The value extracted from the undelying asset by the CryptoCommodity issuer will 
 CryptoCommodities are designed to be applied in both, local or international scopes, as long as there is enough supply in the scope of application. CryptoCommodities promote an atmosphere of investment and entrepreneurship to empower citizens to solve their own problems.
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -335,7 +339,7 @@ This exercise needs to be done upfront, before the platform is even launched and
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 5. Pre-minted Stage
 ---
@@ -411,48 +415,50 @@ With the purpose of preventing overflow in the exchanges of tokens purchased dur
 - Marketing incentives. Typically, there are no lockups, or they are only partly locked with a 1-12 months overall lockup period.
 
 <table>
-	<tr>
-		<th></th>
-		<th>CLIFF</th>
-		<th>INITIAL</th>
-		<th>TOTAL</th>
-		<th>STEPS</th>
-	</tr>
-	<tr>
-		<td>Project Allocation</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Seed Funding Allocation</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Private Funding Allocation</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Public Funding Allocation</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Exchanges Allocation</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
+	<tbody>
+		<tr>
+			<th></th>
+			<th>CLIFF</th>
+			<th>INITIAL</th>
+			<th>TOTAL</th>
+			<th>STEPS</th>
+		</tr>
+		<tr>
+			<td>Project Allocation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Seed Funding Allocation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Private Funding Allocation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Public Funding Allocation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Exchanges Allocation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
 </table>
 <br/>
 
@@ -465,7 +471,7 @@ A CryptoCommodity can be launched in Fair Launch but the issuing team will lose 
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -537,7 +543,7 @@ Project allocation is created on the Token Generation Event but only fraction is
 
 Is probably up to the issuer the selection of the distribution mechanims that he wants to provide but we should acomplish a full database of use cases and recommendations.
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 7. Fundraising Activities
 ---
@@ -615,7 +621,7 @@ Special attention must be paid to compliance.
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -686,20 +692,22 @@ In order for this to happen, there are 2 possible scenarios: constant Cryptocomm
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<td style={{textAlign: 'center'}}>Benefits Floating Amount (VCE1)</td>
-			<td style={{textAlign: 'center'}}>Benefits Fixed Amount (VCE2)</td>
-		</tr>
-		<tr>
-			<td>
-				Floating amount means that value is captured before and the investor EXIT can happen earlier. This will help the Fundraising stage.<br/><br/>
-				Floating amount is also more resilient to velocity of circulation and makes the capture easier.<br/><br/>
-				Floating amount is easier to implement as we do not need to compensate trading activities of users of non-primary activity.
-			</td>
-			<td>
-				Capture for fixed amount scenario happens later in time which guarantees the system is more resilient to investors EXIT.
-			</td>
-		</tr>
+		<tbody>
+			<tr>
+				<td style={{textAlign: 'center'}}>Benefits Floating Amount (VCE1)</td>
+				<td style={{textAlign: 'center'}}>Benefits Fixed Amount (VCE2)</td>
+			</tr>
+			<tr>
+				<td>
+					Floating amount means that value is captured before and the investor EXIT can happen earlier. This will help the Fundraising stage.<br/><br/>
+					Floating amount is also more resilient to velocity of circulation and makes the capture easier.<br/><br/>
+					Floating amount is easier to implement as we do not need to compensate trading activities of users of non-primary activity.
+				</td>
+				<td>
+					Capture for fixed amount scenario happens later in time which guarantees the system is more resilient to investors EXIT.
+				</td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 <br/>
@@ -835,30 +843,32 @@ Once a vesting period has been terminated, it is expected that some of these tok
 
 <br/>
 <table>
-	<tr>
-		<th></th>
-		<th>Tokens Sold at End of Vesting</th>
-	</tr>
-	<tr>
-		<td>Project Allocation</td>
-		<td>0%</td>
-	</tr>
-	<tr>
-		<td>Seed Funding Allocation</td>
-		<td>35%</td>
-	</tr>
-	<tr>
-		<td>Private Funding Allocation</td>
-		<td>25%</td>
-	</tr>
-	<tr>
-		<td>Public Funding Allocation</td>
-		<td>15%</td>
-	</tr>
-	<tr>
-		<td>Exchanges Allocation</td>
-		<td>0%</td>
-	</tr>
+	<tbody>
+		<tr>
+			<th></th>
+			<th>Tokens Sold at End of Vesting</th>
+		</tr>
+		<tr>
+			<td>Project Allocation</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Seed Funding Allocation</td>
+			<td>35%</td>
+		</tr>
+		<tr>
+			<td>Private Funding Allocation</td>
+			<td>25%</td>
+		</tr>
+		<tr>
+			<td>Public Funding Allocation</td>
+			<td>15%</td>
+		</tr>
+		<tr>
+			<td>Exchanges Allocation</td>
+			<td>0%</td>
+		</tr>
+	</tbody>
 </table>
 <br/>
 <br/>
@@ -934,7 +944,7 @@ Finally, optionally <b>privacy</b> should be included on the CryptoCommodity and
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 9. Value Release Stage
@@ -981,7 +991,7 @@ An important reuirement to distribute tokens in a jurisdiction is that there sho
 Another consideration is to prevent high concentration of token units in some wallets. In particular prevent the ocurrence of <b>whales</b> as they can harm the investors experience and the reputation of the CryptoCommodity. If possible, the Gini Coefficient must be controlled. Preventing whales affects to all stages of distributionm including funding, negotiation.
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 10. Maintaining Value Stability
@@ -1059,7 +1069,7 @@ Arbitrage will homogeinise price across the exchanges. Try to minimize arbitrage
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 11. Providing DeFi Services
@@ -1074,37 +1084,39 @@ By using the CryptoCommodity as the heartbit of the marketplace, we can extract 
 Besides providing a currency, the CryptoCommodity will work a foundation for additional financial services so, other citizens can propose their own CryptoCommoditi project, create their own CryptoCommodity and increae the wealt of the system.
 
 <table>
-	<tr>
-		<th></th>
-		<th>Utility</th>
-		<th>Description</th>
-	</tr>
-	<tr>
-		<th rowspan="3">Monetary Functions</th>
-		<td>Underlying Asset Payments</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Reserve of Value</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Unit of Account</td>
-		<td></td>
-	</tr>
-	<tr>
-		<th rowspan="3">DeFi Services</th>
-		<td>Other Asset Payments</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Transfers</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Lending</td>
-		<td></td>
-	</tr>
+	<tbody>
+		<tr>
+			<th></th>
+			<th>Utility</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<th rowSpan="3">Monetary Functions</th>
+			<td>Underlying Asset Payments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Reserve of Value</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Unit of Account</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th rowSpan="3">DeFi Services</th>
+			<td>Other Asset Payments</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Transfers</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Lending</td>
+			<td></td>
+		</tr>
+	</tbody>
 </table>
 
 ### 11.2. CrytoCommodity Ecosystem
@@ -1126,69 +1138,71 @@ Crypto wallets keep private keys safe and accessible, allowing to send and recei
 Crypto wallets range from simple-to-use apps to more complex security solutions. The main types of wallets you can choose from include:
 
 <table>
-	<tr>
-		<th></th>
-		<th>Keys Storage</th>
-		<th>Connected</th>
-		<th>Portable</th>
-		<th>Private</th>
-	</tr>
-	<tr>
-		<th>Paper Wallets</th>
-		<td>a physical medium like paper</td>
-		<td>No</td>
-		<td>Yes</td>
-		<td>Yes</td>
-	</tr>
-	<tr>
-		<th>HW Wallets</th>
-		<td>a thumb-drive device</td>
-		<td>No</td>
-		<td>Yes</td>
-		<td>Yes</td>
-	</tr>
-	<tr>
-		<th>HW Card Wallets</th>
-		<td>a thumb-drive device</td>
-		<td>No</td>
-		<td>Yes</td>
-		<td>Yes</td>
-	</tr>
-	<tr>
-		<th>SW Desktop App Wallets</th>
-		<td>a computer's hard drive</td>
-		<td>Yes</td>
-		<td>No</td>
-		<td>No</td>
-	</tr>
-	<tr>
-		<th>SW Browser Plugins Wallets</th>
-		<td>a computer's hard drive</td>
-		<td>Yes</td>
-		<td>No</td>
-		<td>No</td>
-	</tr>
-	<tr>
-		<th>SW Messenger Bot Wallets</th>
-		<td>a computer's hard drive</td>
-		<td>Yes</td>
-		<td>No</td>
-		<td>No</td>
-	</tr>
-	<tr>
-		<th>SW Mobile Apps Wallets</th>
-		<td>a mobile's hard drive</td>
-		<td>Yes</td>
-		<td>Yes</td>
-		<td>No</td>
-	</tr>
-	<tr>
-		<th>SW Exchange Wallets</th>
-		<td>in the exhange</td>
-		<td>Yes</td>
-		<td>Yes</td>
-		<td>No</td>
-	</tr>
+	<tbody>
+		<tr>
+			<th></th>
+			<th>Keys Storage</th>
+			<th>Connected</th>
+			<th>Portable</th>
+			<th>Private</th>
+		</tr>
+		<tr>
+			<th>Paper Wallets</th>
+			<td>a physical medium like paper</td>
+			<td>No</td>
+			<td>Yes</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th>HW Wallets</th>
+			<td>a thumb-drive device</td>
+			<td>No</td>
+			<td>Yes</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th>HW Card Wallets</th>
+			<td>a thumb-drive device</td>
+			<td>No</td>
+			<td>Yes</td>
+			<td>Yes</td>
+		</tr>
+		<tr>
+			<th>SW Desktop App Wallets</th>
+			<td>a computer's hard drive</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<th>SW Browser Plugins Wallets</th>
+			<td>a computer's hard drive</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<th>SW Messenger Bot Wallets</th>
+			<td>a computer's hard drive</td>
+			<td>Yes</td>
+			<td>No</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<th>SW Mobile Apps Wallets</th>
+			<td>a mobile's hard drive</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<th>SW Exchange Wallets</th>
+			<td>in the exhange</td>
+			<td>Yes</td>
+			<td>Yes</td>
+			<td>No</td>
+		</tr>
+	</tbody>
 </table>
 <br/>
 
@@ -1285,7 +1299,7 @@ A CryptoCommodity can work as collateral of lending operations in existing platf
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -1345,26 +1359,28 @@ A CryptoCommodity Project must comply with regulation in jurisdictions were each
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<th>Value Chain Stage</th>
-			<th>Compliance Requirements</th>
-		</tr>
-		<tr>
-			<td>Issuance</td>
-			<td>In Jurisdictions where a CryptoCommodity is issued, the Project must comply local legislation on Virtual Asset Service Providers. At the time of writing only 7 juristictions have incorporated laws to regulate stablecoins. This typically covers requirements on collateral and transparency of processes (see section 7.3.)</td>
-		</tr>
-		<tr>
-			<td>Funding</td>
-			<td>Some jurisdictions have regulated ICOs and Funding Rounds. This must be considered if the project includes this stage.</td>
-		</tr>
-		<tr>
-			<td>Negotiation</td>
-			<td>In Jurisdictions where a CryptoCommodity will be held in citizens wallets, we must consider consumer protection rules.</td>
-		</tr>
-		<tr>
-			<td>DeFi Services</td>
-			<td>In jurisdictions where DeFi Services are provided, the Project must also comply with Virtual Asset Service Providers legislation, if existing. This typically includes crypto payments are authorized in the jurisdiction.</td>
-		</tr>
+		<tbody>
+			<tr>
+				<th>Value Chain Stage</th>
+				<th>Compliance Requirements</th>
+			</tr>
+			<tr>
+				<td>Issuance</td>
+				<td>In Jurisdictions where a CryptoCommodity is issued, the Project must comply local legislation on Virtual Asset Service Providers. At the time of writing only 7 juristictions have incorporated laws to regulate stablecoins. This typically covers requirements on collateral and transparency of processes (see section 7.3.)</td>
+			</tr>
+			<tr>
+				<td>Funding</td>
+				<td>Some jurisdictions have regulated ICOs and Funding Rounds. This must be considered if the project includes this stage.</td>
+			</tr>
+			<tr>
+				<td>Negotiation</td>
+				<td>In Jurisdictions where a CryptoCommodity will be held in citizens wallets, we must consider consumer protection rules.</td>
+			</tr>
+			<tr>
+				<td>DeFi Services</td>
+				<td>In jurisdictions where DeFi Services are provided, the Project must also comply with Virtual Asset Service Providers legislation, if existing. This typically includes crypto payments are authorized in the jurisdiction.</td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 <br/>
@@ -1391,34 +1407,36 @@ In order to introduce the project into the community, there must be incentives f
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<th>Benefit</th>
-			<th>Description</th>
-		</tr>
-		<tr>
-			<td>Project Allocation</td>
-			<td>When the token allocation is designed, a CryptoCommodity allows the issuer to allocate a portion of the token supply to fund the project beyond the initial capital raise. Refer to section for details.</td>
-		</tr>
-		<tr>
-			<td>Initial Fundraising</td>
-			<td>An initial fundraising can be launched by the producer in order to improve the services that will be offered to the community. The amount that can be raised must be estimated and is proportional to the project capitalization. Refer to section for details on this.</td>
-		</tr>
-		<tr>
-			<td>Transaction Fees</td>
-			<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a percentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
-		</tr>
-		<tr>
-			<td>Lending Fees</td>
-			<td>As the CryptoCommodity is involved as collaterla for Lending, a fee can also be applied for the lending process.</td>
-		</tr>
-		<tr>
-			<td>Transfer Fees</td>
-			<td>As the CryptoCommodity is involved as collaterla for Transfers, a fee can also be applied for the lending transfers.</td>
-		</tr>
-		<tr>
-			<td>DeFi Services Allocation</td>
-			<td>In order to have an stablization mechanism, exchanges needs to maintain a number of tokens that match the phisical demand of the provider. This guarantees that the CryptoCommodity will capture the marginal utility of the underlaying asset. However, nothing prevents that, in the Value Release Stage, the supply can be extended beyond this initial supply. Every token that is added from the intiial capitalization represents a sale for the issuer.</td>
-		</tr>
+		<tbody>
+			<tr>
+				<th>Benefit</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>Project Allocation</td>
+				<td>When the token allocation is designed, a CryptoCommodity allows the issuer to allocate a portion of the token supply to fund the project beyond the initial capital raise. Refer to section for details.</td>
+			</tr>
+			<tr>
+				<td>Initial Fundraising</td>
+				<td>An initial fundraising can be launched by the producer in order to improve the services that will be offered to the community. The amount that can be raised must be estimated and is proportional to the project capitalization. Refer to section for details on this.</td>
+			</tr>
+			<tr>
+				<td>Transaction Fees</td>
+				<td>Once the CryptoCommodity is in the exchanges, the issuer has the possibility to apply a percentage of fees on transactions in the exchanges. This fees can be filtered by type of transaction so it does not include, for example, payments for the underlying asset. The aount must be balanced by the costs in reputation that transaction fess can bring to the issuer. Refer to section for more.</td>
+			</tr>
+			<tr>
+				<td>Lending Fees</td>
+				<td>As the CryptoCommodity is involved as collaterla for Lending, a fee can also be applied for the lending process.</td>
+			</tr>
+			<tr>
+				<td>Transfer Fees</td>
+				<td>As the CryptoCommodity is involved as collaterla for Transfers, a fee can also be applied for the lending transfers.</td>
+			</tr>
+			<tr>
+				<td>DeFi Services Allocation</td>
+				<td>In order to have an stablization mechanism, exchanges needs to maintain a number of tokens that match the phisical demand of the provider. This guarantees that the CryptoCommodity will capture the marginal utility of the underlaying asset. However, nothing prevents that, in the Value Release Stage, the supply can be extended beyond this initial supply. Every token that is added from the intiial capitalization represents a sale for the issuer.</td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 <br/>
@@ -1426,7 +1444,7 @@ In order to introduce the project into the community, there must be incentives f
 The volume of each benefit should be estimated in relation to the project capitalization but we think they are interesting enough to invite providers to accept the challenge in an incremental manner. You can learn about benefits for consumers and the society as a whole on chapter 16.
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -1486,30 +1504,34 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<td></td>
-			<td>Description</td>
-		</tr>
-		<tr>
-			<td>Network Decentralization</td>
-			<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
-		</tr>
-		<tr>
-			<td>Exchanges Decentralization</td>
-			<td>Exchanges should also be decentralized regarding</td>
-		</tr>
-		<tr>
-			<td>Smart Contract Decentralization</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Governance  Decentralization</td>
-			<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
-		</tr>
-		<tr>
-			<td>Wealth Decentralization</td>
-			<td>Gini and Nakamoto Coefficients</td>
-		</tr>
+		<thead>
+			<tr>
+				<th></th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Network Decentralization</td>
+				<td>Networks where the token is deployed should fulill the reuired decentralization standards. The decentralization of this networks will influde in the reputation of the CryptoCommodity-</td>
+			</tr>
+			<tr>
+				<td>Exchanges Decentralization</td>
+				<td>Exchanges should also be decentralized regarding</td>
+			</tr>
+			<tr>
+				<td>Smart Contract Decentralization</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>Governance  Decentralization</td>
+				<td>The stabilization mechanism should ideally work standalone without the issuer needing to mint or burn manually token units.</td>
+			</tr>
+			<tr>
+				<td>Wealth Decentralization</td>
+				<td>Gini and Nakamoto Coefficients</td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 
@@ -1524,7 +1546,7 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 ### 13.7. Deployment
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -1537,110 +1559,112 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
-			<th rowspan="2">GENERAL</th>
-			<td>Num Orders Period</td>
-			<td bgcolor="#FFFDE6">1000000</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Size Order (USD)</td>
-			<td bgcolor="#FFFDE6">15</td>
-			<td></td>
-		</tr>
-		<tr>
-			<th rowspan="7">ONE TIME</th>
-			<td>Ratio Initial Supply %</td>
-			<td bgcolor="#FFFDE6"></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Percent Project %</td>
-			<td bgcolor="#FFFDE6">10</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Percent ICOs %</td>
-			<td bgcolor="#FFFDE6">67</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>ICO Bonus</td>
-			<td bgcolor="#FFFDE6">5</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>1 - Project Allocation</td>
-			<td>1500000</td>
-			<td>Num Orders * Size Order * Percent Project</td>
-		</tr>
-		<tr>
-			<td>2 - Initial Fundraising</td>
-			<td>9547500</td>
-			<td>Num Orders * Size Order * Percent Fundraising / ICO Bonus</td>
-		</tr>
-		<tr>
-			<th>TOTAL ONE TIME</th>
-			<th>11047500</th>
-			<td></td>
-		</tr>
-		<tr>
-			<th rowspan="3">BORROWED</th>
-			<td>Leverage</td>
-			<td bgcolor="#FFFDE6">5</td>
-			<td>Num Orders * Size Order * Leverage</td>
-		</tr>
-		<tr>
-			<td>3 - DeFi Services Allocation</td>
-			<td>75000000</td>
-			<td></td>
-		</tr>
-		<tr>
-			<th>TOTAL BORROWED</th>
-			<th>75000000</th>
-			<td></td>
-		</tr>
-		<tr>
-			<th rowspan="8">CONTINUOUS</th>
-			<td>Transaction Fees %</td>
-			<td bgcolor="#FFFDE6">1</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Ratio Transactions-Orders Period</td>
-			<td bgcolor="#FFFDE6">0.3</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Lending Fees %</td>
-			<td bgcolor="#FFFDE6">1</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Transfer Fees %</td>
-			<td bgcolor="#FFFDE6">1</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>4 - Transaction Fees</td>
-			<td>45000</td>
-			<td>Num Transactions * Transaction Fees</td>
-		</tr>
-		<tr>
-			<td>5 - Lending Fees</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>6 - Transfer Fees</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th>TOTAL PER PERIOD</th>
-			<th>45000</th>
-			<td></td>
-		</tr>
+			<tbody>
+			<tr>
+				<th rowSpan="2">GENERAL</th>
+				<td>Num Orders Period</td>
+				<td bgcolor="#FFFDE6">1000000</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Size Order (USD)</td>
+				<td bgcolor="#FFFDE6">15</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowSpan="7">ONE TIME</th>
+				<td>Ratio Initial Supply %</td>
+				<td bgcolor="#FFFDE6"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Percent Project %</td>
+				<td bgcolor="#FFFDE6">10</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Percent ICOs %</td>
+				<td bgcolor="#FFFDE6">67</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>ICO Bonus</td>
+				<td bgcolor="#FFFDE6">5</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>1 - Project Allocation</td>
+				<td>1500000</td>
+				<td>Num Orders * Size Order * Percent Project</td>
+			</tr>
+			<tr>
+				<td>2 - Initial Fundraising</td>
+				<td>9547500</td>
+				<td>Num Orders * Size Order * Percent Fundraising / ICO Bonus</td>
+			</tr>
+			<tr>
+				<th>TOTAL ONE TIME</th>
+				<th>11047500</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowSpan="3">BORROWED</th>
+				<td>Leverage</td>
+				<td bgcolor="#FFFDE6">5</td>
+				<td>Num Orders * Size Order * Leverage</td>
+			</tr>
+			<tr>
+				<td>3 - DeFi Services Allocation</td>
+				<td>75000000</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>TOTAL BORROWED</th>
+				<th>75000000</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowSpan="8">CONTINUOUS</th>
+				<td>Transaction Fees %</td>
+				<td bgcolor="#FFFDE6">1</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ratio Transactions-Orders Period</td>
+				<td bgcolor="#FFFDE6">0.3</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Lending Fees %</td>
+				<td bgcolor="#FFFDE6">1</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Transfer Fees %</td>
+				<td bgcolor="#FFFDE6">1</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>4 - Transaction Fees</td>
+				<td>45000</td>
+				<td>Num Transactions * Transaction Fees</td>
+			</tr>
+			<tr>
+				<td>5 - Lending Fees</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>6 - Transfer Fees</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>TOTAL PER PERIOD</th>
+				<th>45000</th>
+				<td></td>
+			</tr>
+		</tbody>
 	</table>
 </div>
 <br/>
@@ -1651,7 +1675,7 @@ Security is crucial in crypto world. A quality money must be built on a secure s
 ### 14.3. Simulation
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -1675,7 +1699,7 @@ https://github.com/Catallactic/catallactic-admin
 
 
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -1693,7 +1717,7 @@ We have also covered how this new token can be implemented as a diamond standard
 
 Finally we have described how the adoption of this new token could empower the squish real economy.
 
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 ## 17. References
