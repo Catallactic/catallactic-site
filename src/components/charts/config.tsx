@@ -13,12 +13,14 @@ export const COLORS = {
 	PRICE: '#8B0000'
 }
 
+export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99];
+
 // **********************************************************************************************************************
 // ***************************************************** basic plotting *************************************************
 // **********************************************************************************************************************
 export const constant = (numSamples:number, value:number) => {
-	const amounts = [value];
-	for (let i = 1; i <= numSamples; i += 1) {
+	const amounts = [];
+	for (let i = 0; i < numSamples; i += 1) {
 		amounts.push(value);
 	}
 	console.log('constant: ', amounts);
@@ -26,17 +28,17 @@ export const constant = (numSamples:number, value:number) => {
 };
 
 export const constantFrom = (numSamples:number, value:number, fromSample: number) => {
-	const amounts = [value];
-	for (let i = 1; i <= numSamples; i += 1) {
+	const amounts = [];
+	for (let i = 0; i < numSamples; i += 1) {
 		amounts.push(i <= fromSample ? 0 : value);
 	}
-	console.log('constant: ', amounts);
+	console.log('constantFrom: ', amounts);
 	return amounts;
 };
 
 export const ramp = (numSamples:number, value:number) => {
-	const amounts = [value];
-	for (let i = 1; i <= numSamples; i += 1) {
+	const amounts = [];
+	for (let i = 0; i <= numSamples; i++) {
 		amounts.push(value);
 	}
 	console.log(amounts);
@@ -44,8 +46,8 @@ export const ramp = (numSamples:number, value:number) => {
 };
 
 export const vesting = (numSamples:number, givenOnTGE:number, cliffDelay:number, givenOnMax:number, steps:number) => {
-	const amounts = [givenOnTGE];
-	for (let i = 1; i <= numSamples; i += 1) {
+	const amounts = [];
+	for (let i = 0; i < numSamples; i++) {
 		let data = 0;
 		if(i <= cliffDelay) data = givenOnTGE;
 		else if(i >= cliffDelay + steps) data = givenOnMax;
@@ -73,7 +75,7 @@ export const coordsToLinear = (coords:Array<Coords>) => {
 			amounts.push(data);
 		}
 	}
-	amounts.push(coords[coords.length-1].y);
+	//amounts.push(coords[coords.length-1].y);
 	console.log('coordsToLinear: ', amounts);
 	return amounts;
 }
@@ -82,8 +84,8 @@ export const coordsToLinear = (coords:Array<Coords>) => {
 // ************************************************** aggregated plotting ***********************************************
 // **********************************************************************************************************************
 export const atan = (numSamples: number, multiplier: number, divider: number) => {
-	const amounts = [0];
-	for (let i = 1; i <= numSamples; i += 1) {
+	const amounts = [];
+	for (let i = 0; i < numSamples; i++) {
 		amounts.push(multiplier * Math.atan(i / divider));
 	}
 	console.log('atan: ', amounts);
@@ -92,8 +94,8 @@ export const atan = (numSamples: number, multiplier: number, divider: number) =>
 
 // f(x) = ax2 + bx + c
 export const quadraticCurve = (numSamples: number, a: number, b: number, c: number) => {
-	const amounts = [0];
-	for (let i = 1; i <= numSamples; i += 1) {
+	const amounts = [];
+	for (let i = 0; i < numSamples; i++) {
 		amounts.push(a * i * i + b * i + c);
 	}
 	console.log('quadraticCurve: ', amounts);
@@ -106,12 +108,13 @@ export const quadraticCurve = (numSamples: number, a: number, b: number, c: numb
 export const sumArrays = (...arrays: any[]) => {
   const n = arrays.reduce((max, xs) => Math.max(max, xs.length), 0);
   const result = Array.from({ length: n });
-  return result.map((_, i) => arrays.map(xs => xs[i] || 0).reduce((sum, x) => sum + x, 0));
+  const amounts = result.map((_, i) => arrays.map(xs => xs[i] || 0).reduce((sum, x) => sum + x, 0));
+	console.log('sumArrays: ', amounts);
+	return amounts;
 }
 export const divideArrays = (dividerArray: any[], divisorArray: any[], multiplier: number) => {
 	const amounts = [];
 	for (let i = 0; i < dividerArray.length; i += 1) {
-		console.log('divideArrays: ', dividerArray[i], divisorArray[i], multiplier * dividerArray[i] / divisorArray[i]);
 		amounts.push(multiplier * dividerArray[i] / divisorArray[i]);
 	}
 	console.log('divideArrays: ', amounts);
