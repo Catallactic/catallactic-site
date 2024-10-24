@@ -595,11 +595,7 @@ Existing IDO portals are generalistic and do not play well with real worl projec
 
 ### 7.4. Calculating Investors Profit
 
-The investor profit typically will be bonus between the price at the funding round and the price at VCE. If the project is successful this is a guaranteed amount. Beyond the VCE investing does not apply because the stabilization mechanism is triggered and, therefore, not the price can be quite stable.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/price_estimations_black.svg" width="70%"></img>
-</div>
+The investor profit typically will be bonus between the price at the funding round and the price at VCE. If the project is successful this is a guaranteed amount. Beyond the VCE investing does not apply because the stabilization mechanism is triggered and, therefore, not the price can be quite stable. Please visit 8.6.9.
 
 ### 7.5. Estimating Investors Exit
 
@@ -883,7 +879,7 @@ The **Speculative Demand** is the expectation that the project will achieve its 
 <LineEstimateTotalCryptoDemandChart/>
 <br/>
 
-The demand caused by **Real World Utility Demand** is sensitive to the project roadmap, evolution and perception of progress by the community. For a CryptoCommodity at the Value Capture Stage, there are 2 sources of real world utility demand: the demand by consumers and the demand by discount cards.
+The demand caused by **Real World Utility Demand** is sensitive to the project roadmap, evolution and perception of progress by the community. For a CryptoCommodity at the Value Capture Stage, there are 2 sources of real world utility demand: the demand by consumers and the demand by discount cards. The Demand by Consumers can be affected by the velocity of circulation problem (section 12.2). Having an utility provided from inception will increase interest by consumers in holding the token or converting into card users.
 
 #### 8.6.5. Estimating Circulating Supply
 

@@ -90,6 +90,7 @@ export const atan = (numSamples: number, multiplier: number, divider: number) =>
 	return amounts;
 };
 
+// f(x) = ax2 + bx + c
 export const quadraticCurve = (numSamples: number, a: number, b: number, c: number) => {
 	const amounts = [0];
 	for (let i = 1; i <= numSamples; i += 1) {
