@@ -1,5 +1,33 @@
 import { Polyfit } from "./polyfit";
 
+
+// **********************************************************************************************************************
+// ************************************************** arrays operations *************************************************
+// **********************************************************************************************************************
+export const sumArrays = (...arrays: any[]) => {
+  const n = arrays.reduce((max, xs) => Math.max(max, xs.length), 0);
+  const result = Array.from({ length: n });
+  const amounts = result.map((_, i) => arrays.map(xs => xs[i] || 0).reduce((sum, x) => sum + x, 0));
+	console.log('sumArrays: ', amounts);
+	return amounts;
+}
+export const divideArrays = (dividerArray: any[], divisorArray: any[], multiplier: number) => {
+	const amounts = [];
+	for (let i = 0; i < dividerArray.length; i += 1) {
+		amounts.push(multiplier * dividerArray[i] / divisorArray[i]);
+	}
+	console.log('divideArrays: ', amounts);
+	return amounts;
+}
+export const revertArray = (array: any[]) => {
+	const amounts = [];
+	for (let i = 0; i < array.length; i += 1) {
+		amounts.push(-1 * array[i]);
+	}
+	console.log('revertArray: ', amounts);
+	return amounts;
+}
+
 // **********************************************************************************************************************
 // ***************************************************** basic plotting *************************************************
 // **********************************************************************************************************************
@@ -29,24 +57,6 @@ export const ramp = (numSamples:number, value:number) => {
 	console.log(amounts);
 	return amounts;
 };
-
-export const constantProduct = (numSamples: number, product: number) => {
-	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
-		amounts.push(product/i);
-	}
-	console.log(amounts);
-	return amounts;
-}
-
-export const constantSum = (numSamples: number, sum: number) => {
-	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
-		amounts.push(sum - i);
-	}
-	console.log(amounts);
-	return amounts;
-}
 
 export const vesting = (numSamples:number, givenOnTGE:number, cliffDelay:number, givenOnMax:number, steps:number) => {
 	const amounts = [];
@@ -115,28 +125,40 @@ export const quadraticRegression = (numSamples: number, xArray: any[], yArray: a
 }
 
 // **********************************************************************************************************************
-// ************************************************** arrays operations *************************************************
+// ****************************************************** known charts **************************************************
 // **********************************************************************************************************************
-export const sumArrays = (...arrays: any[]) => {
-  const n = arrays.reduce((max, xs) => Math.max(max, xs.length), 0);
-  const result = Array.from({ length: n });
-  const amounts = result.map((_, i) => arrays.map(xs => xs[i] || 0).reduce((sum, x) => sum + x, 0));
-	console.log('sumArrays: ', amounts);
+export const constantProductSupply = (numSamples: number, k: number) => {
+	const amounts = [];
+	for (let i = 1; i <= numSamples; i++) {
+		amounts.push(k/i);
+	}
+	console.log('constantProductSupply: ',amounts);
 	return amounts;
 }
-export const divideArrays = (dividerArray: any[], divisorArray: any[], multiplier: number) => {
+
+export const constantSumSupply = (numSamples: number, k: number) => {
 	const amounts = [];
-	for (let i = 0; i < dividerArray.length; i += 1) {
-		amounts.push(multiplier * dividerArray[i] / divisorArray[i]);
+	for (let i = 1; i <= numSamples; i++) {
+		amounts.push(k - i);
 	}
-	console.log('divideArrays: ', amounts);
+	console.log('constantSumSupply: ',amounts);
 	return amounts;
 }
-export const revertArray = (array: any[]) => {
+
+export const constantProductSpotPrice = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 0; i < array.length; i += 1) {
-		amounts.push(-1 * array[i]);
+	for (let i = 1; i <= numSamples; i++) {
+		amounts.push(supply[i] * supply[i] / k);
 	}
-	console.log('revertArray: ', amounts);
+	console.log('constantProductPrice: ',amounts);
+	return amounts;
+}
+
+export const constantSumSpotPrice = (numSamples: number, supply: any[], k: number) => {
+	const amounts = [];
+	for (let i = 1; i <= numSamples; i++) {
+		amounts.push(supply[i] / (k - supply[i]));
+	}
+	console.log('constantSumPrice: ',amounts);
 	return amounts;
 }

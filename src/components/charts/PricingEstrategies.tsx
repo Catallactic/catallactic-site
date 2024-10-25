@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, CONSTANT_PRODUCT_200, CONSTANT_PRODUCT_300, CONSTANT_SUM_20, CONSTANT_SUM_30, SCALE, } from './config';
+import {  COLORS, SCALE, SUPPLY_CP_200, SUPPLY_CP_300, SUPPLY_CS_20, SUPPLY_CS_30, } from './config';
 
 export default function PricingEstrategies() {
   return (
@@ -16,27 +16,27 @@ export default function PricingEstrategies() {
 					datasets: [{
 						fill: false,
 						label: 'CP200',
-						backgroundColor: COLORS.PRICING,
-						borderColor: COLORS.PRICING,
-						data: CONSTANT_PRODUCT_200
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: SUPPLY_CP_200
 					}, {
 						fill: false,
 						label: 'CP300',
-						backgroundColor: COLORS.PRICING,
-						borderColor: COLORS.PRICING,
-						data: CONSTANT_PRODUCT_300
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: SUPPLY_CP_300
 					}, {
 						fill: false,
 						label: 'CS20',
-						backgroundColor: COLORS.PRICING,
-						borderColor: COLORS.PRICING,
-						data: CONSTANT_SUM_20
+						backgroundColor: COLORS.PRICE_CS,
+						borderColor: COLORS.PRICE_CS,
+						data: SUPPLY_CS_20
 					}, {
 						fill: false,
 						label: 'CS30',
-						backgroundColor: COLORS.PRICING,
-						borderColor: COLORS.PRICING,
-						data: CONSTANT_SUM_30
+						backgroundColor: COLORS.PRICE_CS,
+						borderColor: COLORS.PRICE_CS,
+						data: SUPPLY_CS_30
 					}, ]
 				}}
 				options={{

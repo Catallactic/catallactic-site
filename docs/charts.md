@@ -20,6 +20,7 @@ import LineEstimateCirculatingSupplyDynamicExDemandChart from '@site/src/compone
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
 import LineEstimateCirculatingSupply from '@site/src/components/charts/LineEstimateCirculatingSupply';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
+import LineEstimateExchangesInitilizationChart from '@site/src/components/charts/LineEstimateExchangesInitilizationChart';
 import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineParametrizationVestingChart from '@site/src/components/charts/LineParametrizationVestingChart';
@@ -135,6 +136,9 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ## LineEstimatePriceEvolutionChart
 <LineEstimatePriceEvolutionChart/>
+
+## LineEstimateExchangesInitilizationChart
+<LineEstimateExchangesInitilizationChart/>
 
 ## LineEstimateValueCaptureEventChart
 <LineEstimateValueCaptureEventChart/>

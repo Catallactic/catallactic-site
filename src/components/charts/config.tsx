@@ -1,9 +1,9 @@
-import { constant, constantFrom, constantProduct, constantSum, divideArrays, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting } from "./maths/charts";
+import { constant, constantFrom, constantProductSupply, constantSumSupply, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, constantProductSpotPrice, constantSumSpotPrice } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
 	SUPPLY_HOLDERS: '#1338be',
-	SUPPLY_EXCHANGES: '#d1d1f6',
+	SUPPLY_EXCHANGES: '#0096FF',
 	SUPPLY_DEFI: '#add8e6',
 	SUPPLY_GREY: '#d3d3d3',
 
@@ -11,8 +11,9 @@ export const COLORS = {
 	DEMAND_CONSUMERS: '#248823',
 	DEMAND_CARDS: '#25a032',
 
-	PRICING: '#000000',
-	PRICE: '#8B0000'
+	PRICING: '#8B0000',
+	PRICE_CP: '#AA4A44',
+	PRICE_CS: '#F88379',
 }
 
 export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99];
@@ -20,12 +21,6 @@ export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22
 // **********************************************************************************************************************
 // ****************************************************** Arrays ********************************************************
 // **********************************************************************************************************************
-// PRICING FUNCTIONS
-export const CONSTANT_PRODUCT_200 = constantProduct(100, 200);
-export const CONSTANT_PRODUCT_300 = constantProduct(100, 300);
-export const CONSTANT_SUM_20 = constantSum(100, 20);
-export const CONSTANT_SUM_30 = constantSum(100, 30);
-
 // TGE
 export const VESTING_EXAMPLE = vesting(100, 30, 20, 100, 36)	// 50 in 12 steps with 3 delay + 10 initial
 export const TOTAL_SUPPLY = constant(100, 150);
@@ -61,5 +56,16 @@ export const VC_PROJECT = SOLD_PROJECT;
 // PHYSICAL DEMAND
 export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.1, 0.1);
 
-// PRICE
-export const PRICE_PROFILE = divideArrays(VC_EXCHANGES, DEMAND, 10);
+// PRICING FUNCTIONS
+export const SUPPLY_CP_200 = constantProductSupply(100, 200);
+export const SUPPLY_CP_300 = constantProductSupply(100, 300);
+export const SUPPLY_CS_20 = constantSumSupply(100, 20);
+export const SUPPLY_CS_30 = constantSumSupply(100, 30);
+
+// SPOT PRICE
+export const PRICE_PROFILE_CP_50 = constantProductSpotPrice(100, VC_EXCHANGES, 50);
+export const PRICE_PROFILE_CP_100 = constantProductSpotPrice(100, VC_EXCHANGES, 100);
+export const PRICE_PROFILE_CP_200 = constantProductSpotPrice(100, VC_EXCHANGES, 200);
+export const PRICE_PROFILE_CP_300 = constantProductSpotPrice(100, VC_EXCHANGES, 300);
+export const PRICE_PROFILE_CS_50 = constantSumSpotPrice(100, VC_EXCHANGES, 50);
+export const PRICE_PROFILE_CS_200 = constantSumSpotPrice(100, VC_EXCHANGES, 200);

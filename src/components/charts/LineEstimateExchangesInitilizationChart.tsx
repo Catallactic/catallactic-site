@@ -4,9 +4,9 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
+import { COLORS, PRICE_PROFILE_CP_100, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CP_50, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
 
-export default function LineEstimatePriceEvolutionChart() {
+export default function LineEstimateExchangesInitilizationChart() {
   return (
     <>
 			<div className="chart-panel2">
@@ -15,34 +15,40 @@ export default function LineEstimatePriceEvolutionChart() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'Supply at Exchanges',					      
-						backgroundColor: COLORS.SUPPLY_EXCHANGES,
-						borderColor: COLORS.SUPPLY_EXCHANGES,
-						data: VC_EXCHANGES
-					}, {
-						fill: false,
-						label: 'CP300',					      
+						label: 'CP_50',					      
 						backgroundColor: COLORS.PRICE_CP,
 						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_200,
+						data: PRICE_PROFILE_CP_50
 					}, {
 						fill: false,
-						label: 'CP200',					      
+						label: 'CP_100',					      
 						backgroundColor: COLORS.PRICE_CP,
 						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_300,
+						data: PRICE_PROFILE_CP_100
+					}, {
+						fill: false,
+						label: 'CP_200',					      
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: PRICE_PROFILE_CP_200
+					}, {
+						fill: false,
+						label: 'CP_300',					      
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: PRICE_PROFILE_CP_300
 					}, {
 						fill: false,
 						label: 'CS_50',					      
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_50,
+						data: PRICE_PROFILE_CS_50
 					}, {
 						fill: false,
 						label: 'CS_200',					      
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_200,
+						data: PRICE_PROFILE_CS_200
 					}, ]
 				}}
 				options={{
@@ -136,18 +142,18 @@ export default function LineEstimatePriceEvolutionChart() {
 							}, {
 								type: 'label',
 								xValue: 91,
-								yValue: 25,
+								yValue: 30,
 								content: ['Value','Capture','Event'],
 								backgroundColor: 'rgba(245,245,245)',
 								font: {
 									size: 18
 								}
-							}, /*{
+							}, {
 								type: 'point',
 								xValue: 91,
-								yValue: 15,
+								yValue: 18,
 								backgroundColor: 'rgba(255, 99, 132, 0.25)'
-							}, */]
+							}]
 						}
 					}
 				}}

@@ -10,6 +10,7 @@ import LineEstimateCirculatingSupplyDynamicExDemandChart from '@site/src/compone
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
 import LineEstimateCirculatingSupply from '@site/src/components/charts/LineEstimateCirculatingSupply';
 import LineEstimatePriceEvolutionChart from '@site/src/components/charts/LineEstimatePriceEvolutionChart';
+import LineEstimateExchangesInitilizationChart from '@site/src/components/charts/LineEstimateExchangesInitilizationChart';
 import LineEstimateValueCaptureEventChart from '@site/src/components/charts/LineEstimateValueCaptureEventChart';
 import LineParametrizationChart from '@site/src/components/charts/LineParametrizationChart';
 import LineParametrizationVestingChart from '@site/src/components/charts/LineParametrizationVestingChart';
@@ -917,18 +918,29 @@ The VCE will also determine the triggering of the investor EXIT event, which is 
 
 #### 8.6.8. Estimating Price Evolution
 
+##### 8.6.8.1. Spot vs Effective Price
+
 The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
 
 <br/>
 <PricingEstrategies/>
 <br/>
 
-By plotting different pricing strategies against our estimated supply, we can estimate the price and the constant.
+##### 8.6.8.2. Estimating Spot Price Profiles
+
+By plotting the spot price against our estimated supply according to different pricing strategies (effective price), we can estimate the price profiles. These price profiles are different depending on the constant defined on pair creation.
 
 <br/>
 <LineEstimatePriceEvolutionChart/>
 <br/>
 
+#### 8.6.8. Estimating Exchanges Initialization
+
+We found that all previous price profiles match with the supply in the exchanges. However, we want to select the profile that provides the price matching with the phyisical CryptoCommodity
+
+<br/>
+<LineEstimateExchangesInitilizationChart/>
+<br/>
 
 #### 8.6.9. Estimating Investor Profit
 
