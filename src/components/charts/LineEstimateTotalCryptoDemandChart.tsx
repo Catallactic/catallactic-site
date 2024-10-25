@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, coordsToLinear, DEMAND_CARDS, DEMAND_CONSUMERS, DEMAND_SPECULATIVE, SCALE } from './config';
+import { COLORS, DEMAND_CARDS, DEMAND_CONSUMERS, DEMAND_SPECULATIVE, SCALE } from './config';
 
 export default function LineEstimateTotalCryptoDemandChart() {
   return (

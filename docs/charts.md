@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
+import PricingEstrategies from '@site/src/components/charts/PricingEstrategies';
 import DoughnutEndFundraisingTokenAllocationChart from '@site/src/components/charts/DoughnutEndFundraisingTokenAllocationChart';
 import DoughnutPreInitialTokenAllocationChart from '@site/src/components/charts/DoughnutPreInitialTokenAllocationChart';
 import DoughnutInitialTokenAllocationChart from '@site/src/components/charts/DoughnutInitialTokenAllocationChart';
@@ -13,7 +14,7 @@ import DoughnutConsolidatedTokenAllocationChart from '@site/src/components/chart
 import DoughnutUnderlyingAssetPaymentsChart from '@site/src/components/charts/DoughnutUnderlyingAssetPaymentsChart';
 import DoughnutOperationsAllocationChart from '@site/src/components/charts/DoughnutOperationsAllocationChart';
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
-import LineEstimatedLockedSupplyChart from '@site/src/components/charts/LineEstimatedLockedSupplyChart';
+import LineEstimateLockedSupplyChart from '@site/src/components/charts/LineEstimateLockedSupplyChart';
 import LineEstimateCirculatingSupplyStaticExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyStaticExDemandChart';
 import LineEstimateCirculatingSupplyDynamicExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyDynamicExDemandChart';
 import LineEstimateTotalCryptoDemandChart from '@site/src/components/charts/LineEstimateTotalCryptoDemandChart';
@@ -114,8 +115,8 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 ## LineEstimateTotalSupplyChart
 <LineEstimateTotalSupplyChart/>
 
-## LineEstimatedLockedSupplyChart
-<LineEstimatedLockedSupplyChart/>
+## LineEstimateLockedSupplyChart
+<LineEstimateLockedSupplyChart/>
 
 ## LineEstimateCirculatingSupplyStaticExDemandChart
 <LineEstimateCirculatingSupplyStaticExDemandChart/>
@@ -128,6 +129,9 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 
 ## LineEstimateCirculatingSupply
 <LineEstimateCirculatingSupply/>
+
+## PricingEstrategies
+<PricingEstrategies/>
 
 ## LineEstimatePriceEvolutionChart
 <LineEstimatePriceEvolutionChart/>

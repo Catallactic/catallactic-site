@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, SCALE, TGE_EXCHANGES, TGE_PRE, TGE_PROJECT, TGE_PUBLIC, TGE_SEED, vesting } from './config';
+import { COLORS, SCALE, TGE_EXCHANGES, TGE_PRE, TGE_PROJECT, TGE_PUBLIC, TGE_SEED } from './config';
 
 export default function LineEstimateCirculatingSupplyStaticExDemandChart() {
 

@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Whitepaper
 ---
 
+import PricingEstrategies from '@site/src/components/charts/PricingEstrategies';
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
 import LineEstimateCirculatingSupplyStaticExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyStaticExDemandChart';
 import LineEstimateCirculatingSupplyDynamicExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyDynamicExDemandChart';
@@ -916,7 +917,13 @@ The VCE will also determine the triggering of the investor EXIT event, which is 
 
 #### 8.6.8. Estimating Price Evolution
 
-The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the relationship between Supply at Exchanges and Token Demand.
+The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
+
+<br/>
+<PricingEstrategies/>
+<br/>
+
+By plotting different pricing strategies against our estimated supply, we can estimate the price and the constant.
 
 <br/>
 <LineEstimatePriceEvolutionChart/>

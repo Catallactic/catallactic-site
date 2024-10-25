@@ -4,9 +4,9 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { CIRCULATING_SUPPLY, COLORS, DEMAND, PRICE_PROFILE, SCALE, VC_EXCHANGES } from './config';
+import {  COLORS, CONSTANT_PRODUCT_200, CONSTANT_PRODUCT_300, CONSTANT_SUM_20, CONSTANT_SUM_30, SCALE, } from './config';
 
-export default function LineEstimatePriceEvolutionChart() {
+export default function PricingEstrategies() {
   return (
     <>
 			<div className="chart-panel2">
@@ -15,16 +15,28 @@ export default function LineEstimatePriceEvolutionChart() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'Supply at Exchanges',					      
-						backgroundColor: COLORS.SUPPLY_EXCHANGES,
-						borderColor: COLORS.SUPPLY_EXCHANGES,
-						data: VC_EXCHANGES
+						label: 'CP200',
+						backgroundColor: COLORS.PRICING,
+						borderColor: COLORS.PRICING,
+						data: CONSTANT_PRODUCT_200
 					}, {
 						fill: false,
-						label: 'Price',					      
-						backgroundColor: COLORS.PRICE,
-						borderColor: COLORS.PRICE,
-						data: PRICE_PROFILE
+						label: 'CP300',
+						backgroundColor: COLORS.PRICING,
+						borderColor: COLORS.PRICING,
+						data: CONSTANT_PRODUCT_300
+					}, {
+						fill: false,
+						label: 'CS20',
+						backgroundColor: COLORS.PRICING,
+						borderColor: COLORS.PRICING,
+						data: CONSTANT_SUM_20
+					}, {
+						fill: false,
+						label: 'CS30',
+						backgroundColor: COLORS.PRICING,
+						borderColor: COLORS.PRICING,
+						data: CONSTANT_SUM_30
 					}, ]
 				}}
 				options={{
@@ -42,7 +54,7 @@ export default function LineEstimatePriceEvolutionChart() {
 							stacked: false,
 							title: {
 								display: true,
-								text: 'Total Supply',
+								text: 'CryptoCommodity Supply',
 								font: {
 									family: 'Comic Sans MS',
 									size: 20,
@@ -58,7 +70,7 @@ export default function LineEstimatePriceEvolutionChart() {
 							display: true,
 							title: {
 							display: true,
-							text: 'Months from TGE',
+							text: 'Paired Token Supply (e.g USDT)',
 							font: {
 								family: 'Comic Sans MS',
 								size: 20,
@@ -68,30 +80,6 @@ export default function LineEstimatePriceEvolutionChart() {
 							},
 							ticks: {
 								display: false,
-							},
-						},
-						y2: {
-							min: 0,
-							max: 120,
-							display: true,
-							position: 'right',
-							title: {
-								display: true,
-								text: 'Price',
-								font: {
-									family: 'Comic Sans MS',
-									size: 20,
-									weight: 'bold',
-									lineHeight: 1.2,
-								},
-								color: COLORS.PRICE,
-							},
-							ticks: {
-								color: "rgba(0,205,0,1.0)",
-								display: false,
-							},
-							grid: {
-								drawOnChartArea: false, // only want the grid lines for one axis to show up
 							},
 						},
 					},
@@ -109,7 +97,7 @@ export default function LineEstimatePriceEvolutionChart() {
 							},
 						},
 						annotation: {
-							annotations: [{
+							/*annotations: [{
 								type: 'line',
 								xMin: 91,
 								xMax: 91,
@@ -129,7 +117,7 @@ export default function LineEstimatePriceEvolutionChart() {
 								xValue: 91,
 								yValue: 15,
 								backgroundColor: 'rgba(255, 99, 132, 0.25)'
-							}]
+							}]*/
 						}
 					}
 				}}

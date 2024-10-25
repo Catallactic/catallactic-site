@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, constantFrom, coordsToLinear, DEMAND, SCALE, SOLD_HOLDERS, sumArrays, VC_EXCHANGES, VC_HOLDERS, VC_PROJECT, vesting } from './config';
+import { COLORS, DEMAND, SCALE, SOLD_HOLDERS, VC_EXCHANGES, VC_HOLDERS, VC_PROJECT } from './config';
 
 export default function LineEstimateCirculatingSupply() {
   return (

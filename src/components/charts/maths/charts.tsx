@@ -30,6 +30,24 @@ export const ramp = (numSamples:number, value:number) => {
 	return amounts;
 };
 
+export const constantProduct = (numSamples: number, product: number) => {
+	const amounts = [];
+	for (let i = 1; i <= numSamples; i++) {
+		amounts.push(product/i);
+	}
+	console.log(amounts);
+	return amounts;
+}
+
+export const constantSum = (numSamples: number, sum: number) => {
+	const amounts = [];
+	for (let i = 1; i <= numSamples; i++) {
+		amounts.push(sum - i);
+	}
+	console.log(amounts);
+	return amounts;
+}
+
 export const vesting = (numSamples:number, givenOnTGE:number, cliffDelay:number, givenOnMax:number, steps:number) => {
 	const amounts = [];
 	for (let i = 0; i < numSamples; i++) {

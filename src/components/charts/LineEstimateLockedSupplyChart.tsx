@@ -6,7 +6,7 @@ Chart.register(annotationPlugin);
 
 import { CIRCULATING_SUPPLY, COLORS, SCALE, TOTAL_SUPPLY } from "./config";
 
-export default function LineEstimatedLockedSupplyChart() {
+export default function LineEstimateLockedSupplyChart() {
 
   return (
     <>

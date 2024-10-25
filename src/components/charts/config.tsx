@@ -1,4 +1,4 @@
-import { constant, constantFrom, divideArrays, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting } from "./maths/charts";
+import { constant, constantFrom, constantProduct, constantSum, divideArrays, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
@@ -11,6 +11,7 @@ export const COLORS = {
 	DEMAND_CONSUMERS: '#248823',
 	DEMAND_CARDS: '#25a032',
 
+	PRICING: '#000000',
 	PRICE: '#8B0000'
 }
 
@@ -19,6 +20,12 @@ export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22
 // **********************************************************************************************************************
 // ****************************************************** Arrays ********************************************************
 // **********************************************************************************************************************
+// PRICING FUNCTIONS
+export const CONSTANT_PRODUCT_200 = constantProduct(100, 200);
+export const CONSTANT_PRODUCT_300 = constantProduct(100, 300);
+export const CONSTANT_SUM_20 = constantSum(100, 20);
+export const CONSTANT_SUM_30 = constantSum(100, 30);
+
 // TGE
 export const VESTING_EXAMPLE = vesting(100, 30, 20, 100, 36)	// 50 in 12 steps with 3 delay + 10 initial
 export const TOTAL_SUPPLY = constant(100, 150);
@@ -41,7 +48,7 @@ export const SOLD_PROJECT = TGE_PROJECT;
 export const SOLD_HOLDERS = sumArrays(SOLD_SEED, SOLD_PRE, SOLD_PUBLIC);
 
 // TOKENS DEMAND
-export const DEMAND_SPECULATIVE = quadraticRegression(100, [0, 3, 12, 15, 27, 36, 60, 100], [25, 23, 28, 16, 14, 13, 11, 8]);
+export const DEMAND_SPECULATIVE = quadraticRegression(100, [0, 3, 12, 15, 27, 36, 60, 100], [15, 12, 11, 8, 6, 4, 4, 2]);
 export const DEMAND_CONSUMERS = quadraticRegression(100, [0, 3, 12, 15, 27, 36, 60, 100],  [0, 0, 0, 2, 3, 5, 6, 7]);
 export const DEMAND_CARDS = quadraticRegression(100, [0, 3, 12, 15, 27, 36, 60, 100],  [0, 0, 0, 2, 3, 5, 8, 10]);
 export const DEMAND = sumArrays(DEMAND_SPECULATIVE, DEMAND_CONSUMERS, DEMAND_CARDS);
