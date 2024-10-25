@@ -936,7 +936,7 @@ By plotting the spot price against our estimated supply according to different p
 
 #### 8.6.8. Estimating Exchanges Initialization
 
-We found that all previous price profiles match with the supply in the exchanges. However, we want to select the profile that provides the price matching with the phyisical CryptoCommodity
+We found that all previous price profiles match with the supply in the exchanges. However, we want to select the profile that provides the price matching with the physical CryptoCommodity.
 
 <br/>
 <LineEstimateExchangesInitilizationChart/>

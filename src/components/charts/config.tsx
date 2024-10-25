@@ -54,7 +54,7 @@ export const VC_HOLDERS = sumArrays(SOLD_HOLDERS, DEMAND);
 export const VC_PROJECT = SOLD_PROJECT;
 
 // PHYSICAL DEMAND
-export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.1, 0.1);
+export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.19, 0.1);
 
 // PRICING FUNCTIONS
 export const SUPPLY_CP_200 = constantProductSupply(100, 200);

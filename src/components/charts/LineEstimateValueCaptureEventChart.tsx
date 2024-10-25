@@ -127,7 +127,7 @@ export default function LineEstimateValueCaptureEventChart() {
 							}, {
 								type: 'point',
 								xValue: 91,
-								yValue: 34,
+								yValue: 42,
 								backgroundColor: 'rgba(255, 99, 132, 0.25)'
 							}]
 						}
