@@ -639,21 +639,55 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 <br/>
 
 
-### 8.2. Value Capture Events
+### 8.2. Deploying to Exchanges
 
-<LineVestingSchedulesChart/>
 
-#### 8.2.1. Token Generation Event
+#### 8.2.1. Creating Trading Pairs
 
-A Token Generation Event (TGE) is a business and technical act of limited duration that involves the technical generation of the token in a blockchain-based network, and its launch to the market and and made available to the public. Typically it follows a fundraising process but not necessarily.
+A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
-In the TGE the preminted tokens are allocated to project designated accounts, investors that purchased during the funding rounds and reserve to support trading negotiation in ythe exchanges. Additionaly, during TGE the first liquidity pool is created in the exchanges making the CryptoCommodity ready to traded. In the TGE the price discovery process of the CryptoCommodity begins.
+<div style={{textAlign: 'center'}}>
+	<img src="/img/price_determination2.svg" width="70%"></img>
+</div>
+<br/>
 
-#### 8.2.2. Vesting Schedules
+Some particular crypto trading pairs might provide better trading conditions in terms of fees and taxes.
 
-#### 8.2.3. Value Capture Event
 
-Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
+
+The criteria for selecting the pairs should be friendliness to the user base.
+
+The currency pairs created are a combination of 3 variables:
+
+- the number of networks in which the CryptoCommodity will be deployed
+
+- the number of exchanges that will be covered
+
+- the number of trading pairs that will be created
+
+
+#### 8.2.2. Negotiation Allocation
+
+Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
+
+- initial and future exchange pools
+
+- reserve tokens for the stabilization mechanism
+
+<DoughnutNegotiationAllocationChart/>
+<br/>
+
+#### 8.2.3. Price Formation
+
+Spot vs Effective Price
+
+The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
+
+<br/>
+<PricingEstrategies/>
+<br/>
+
+
 
 
 ### 8.3. Capturing Asset Value
@@ -716,7 +750,12 @@ In order for this to happen, there are 2 possible scenarios: constant Cryptocomm
 
 In the next section we will describe the operations required to guarantee scenario 1 of floating amount of tokens.
 
-### 8.4. Negotiation Staheholders
+
+### 8.4. Value Capture Operations
+
+
+
+#### 8.4.1. Negotiation Staheholders
 
 The negotiation through the exchange involves typically 3 parties: the issuer, the consumer and the holders. The issuer and the consumer are the same stakeholders which would carry out the operation offchain in the physical world. By performing this operation onchain they will be able to provide a CC to their community and provide a price. Is not significantly important the time that the consumers holds the CC before its purchase (the velocity of circulation) as long as the CC offers incentives to the holder.
 
@@ -730,44 +769,12 @@ The new stakeholder is the holder. The holder can be represented by different ki
 The next sections will describe how the operations carried out by stakeholders is implemented for the value capture stage.
 
 
-#### 8.4.1. Creating Reserve Account
-
-### 8.5. Value Capture Operations
-
-
-#### 8.5.1. Negotiation Allocation
-
-Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
-
-- initial and future exchange pools
-
-- reserve tokens for the stabilization mechanism
-
-<DoughnutNegotiationAllocationChart/>
-<br/>
-
-#### 8.5.2. Creating Trading Pairs
-
-A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/price_determination2.svg" width="70%"></img>
-</div>
-<br/>
-
-Some particular crypto trading pairs might provide better trading conditions in terms of fees and taxes.
+#### 8.4.2. Creating Reserve Account
 
 
 
-The criteria for selecting the pairs should be friendliness to the user base.
 
-The currency pairs created are a combination of 3 variables:
 
-- the number of networks in which the CryptoCommodity will be deployed
-
-- the number of exchanges that will be covered
-
-- the number of trading pairs that will be created
 
 
 
@@ -778,7 +785,7 @@ The currency pairs created are a combination of 3 variables:
 
 To enable synchronization between the CryptoCommodity units deployed nit he exchanges and real world demand is necessary the support of a wallet that allows adding units to the exchanges or removing units from the exchanges. A reserve account must be crated per network deployed.
 
-#### 8.5.3. User buys CC at Exchange
+#### 8.4.3. User buys CC at Exchange
 
 In this scenario, the user (either consumer or holder) holds a token (e.g. USDT) and wants to acquire CC. The user will visit an exchange offering a CC/USDT pair and carry out an standard swap as a buy operation. In this swap the holder sends USDT and receives CC in corresponding amount from the CC smart contract paired in the exchange. If the swap is for the primary utility, i.e. from specific channels, no fees should be applied on the transaction because they are already included in the purchase itself. Conversely, if the user is looking for a secondary utility, fee can be charged by the CC issuer.
 
@@ -787,7 +794,7 @@ In this scenario, the user (either consumer or holder) holds a token (e.g. USDT)
 </div>
 <br/>
 
-#### 8.5.4. Holder sells CC at Exchange
+#### 8.4.4. Holder sells CC at Exchange
 
 For this second scenario, the holder holds CC and want to swap them back by the paired token. The user will visit an exchange offering a CC/USDT pair and carry out a, standard swap as a sell operation from his wallet. In this swap the holder now sends CC and receives USDT in corresponding amount from the exchange. No interference in the exchange pair is required for this operation either.
 
@@ -798,7 +805,7 @@ For this second scenario, the holder holds CC and want to swap them back by the 
 
 The situation again changes if the user is not the issuer. In this case, a fee can be optionally charged by the CC issuer.
 
-#### 8.5.5. Consumer pays product with CC
+#### 8.4.5. Consumer pays product with CC
 
 This operation does not represent a direct interaction with the exchange. However, the issuer must the compensate the purchase by swapping the received CC tokens by  USDT from the exchange pair to profit from the purchase operation of the physical asset. This transaction can be easily integrated in to the reserve.
 
@@ -806,6 +813,27 @@ This operation does not represent a direct interaction with the exchange. Howeve
 	<img src="/img/sequence/purchase_sequence.svg" width="70%"></img>
 </div>
 <br/>
+
+
+
+
+### 8.5. Value Capture Events
+
+<LineVestingSchedulesChart/>
+
+#### 8.5.1. Token Generation Event
+
+A Token Generation Event (TGE) is a business and technical act of limited duration that involves the technical generation of the token in a blockchain-based network, and its launch to the market and and made available to the public. Typically it follows a fundraising process but not necessarily.
+
+In the TGE the preminted tokens are allocated to project designated accounts, investors that purchased during the funding rounds and reserve to support trading negotiation in ythe exchanges. Additionaly, during TGE the first liquidity pool is created in the exchanges making the CryptoCommodity ready to traded. In the TGE the price discovery process of the CryptoCommodity begins.
+
+#### 8.5.2. Vesting Schedules
+
+#### 8.5.3. Value Capture Event
+
+Is possible to define the Value Capture Event as the time when the CryptoCommodity represents the underlying asset. This will happen when 1 unit of demand matches 1 unit of CryptoCommodity in the exchanges. When this happens value has been captured and this triggers the stabilization mechanims to maintain this captured intrinsic value.
+
+
 
 ### 8.6. Value Capture Estimations
 
@@ -894,8 +922,6 @@ The **Speculative Demand** is the expectation that the project will achieve its 
 The demand caused by **Real World Utility Demand** is sensitive to the project roadmap, evolution and perception of progress by the community. For a CryptoCommodity at the Value Capture Stage, there are 2 sources of real world utility demand: the demand by consumers and the demand by discount cards. The Demand by Consumers can be affected by the velocity of circulation problem (section 12.2). Having an utility provided from inception will increase interest by consumers in holding the token or converting into card users.
 
 #### 8.6.5. Estimating Circulating Supply
-
-
 The **Ciculating Supply** is based on the **Estimating Circulating Supply (Dynamic, ex-Demand)** (as defined in 8.6.3). The CryptoCommodity **Total Demand** (as defined in 8.6.4) must also be considered. This will have the effect of withdrawing Exchange tokens to holders.
 
 <br/>
@@ -918,31 +944,23 @@ The VCE will also determine the triggering of the investor EXIT event, which is 
 
 #### 8.6.8. Estimating Price Evolution
 
-##### 8.6.8.1. Spot vs Effective Price
-
-The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
-
-<br/>
-<PricingEstrategies/>
-<br/>
-
-##### 8.6.8.2. Estimating Spot Price Profiles
-
 By plotting the spot price against our estimated supply according to different pricing strategies (effective price), we can estimate the price profiles. These price profiles are different depending on the constant defined on pair creation.
 
 <br/>
 <LineEstimatePriceEvolutionChart/>
 <br/>
 
-#### 8.6.8. Estimating Exchanges Initialization
+#### 8.6.9. Estimating Exchanges Initialization
 
 We found that all previous price profiles match with the supply in the exchanges. However, we want to select the profile that provides the price matching with the physical CryptoCommodity.
+
+****** Spot price depends on K but effective price does not? ******
 
 <br/>
 <LineEstimateExchangesInitilizationChart/>
 <br/>
 
-#### 8.6.9. Estimating Investor Profit
+#### 8.6.10. Estimating Investor Profit
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/price_estimations_black.svg" width="70%"></img>
