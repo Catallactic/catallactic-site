@@ -655,7 +655,7 @@ A crypto trading pair is a combination of two cryptocurrencies that can be trade
 
 #### 8.2.3. Trading Pair Operation
 
-A exchange Pair is an smart contract which basically allows 3 operations: addLiquidity, removeLiquidity and swap.
+A exchange Pair is an smart contract which holds some amount of 2 tokens and basically allows 3 operations: addLiquidity, removeLiquidity and swap.
 
 The **addLiquidity** operation is run by the Exchange Pair owner and requires that the owner transfers to the Exchange Pair contract both, an amount X of TokenA and an amount Y of TokenB in an atomic transaction. The Exchange Pair becomes a holder of TokenA and TokenB. On the Exchange Pair contract side, it will allocate shares to the owner proportionally to the relationship between X and Y. 
 
@@ -665,17 +665,6 @@ Finally, in the **swap** operation, a wallet sends an amount X of TokenA tokens 
 
 
 
-
-
-The criteria for selecting the pairs should be friendliness to the user base.
-
-The currency pairs created are a combination of 3 variables:
-
-- the number of networks in which the CryptoCommodity will be deployed
-
-- the number of exchanges that will be covered
-
-- the number of trading pairs that will be created
 
 #### 8.2.4. Order Book
 
@@ -690,6 +679,15 @@ Negotiation Allocation if focused mainly in assigning funds to the pools of the 
 <DoughnutNegotiationAllocationChart/>
 <br/>
 
+The criteria for selecting the pairs should be friendliness to the user base.
+
+The currency pairs created are a combination of 3 variables:
+
+- the number of networks in which the CryptoCommodity will be deployed
+
+- the number of exchanges that will be covered
+
+- the number of trading pairs that will be created
 
 ### 8.3. Exchanges Rates
 
@@ -724,10 +722,11 @@ The product has achieved initial success. For practicality, the actual use of th
 
 #### 8.3.3. Effective Price
 
+As we disussed, the spot price is only suitable for infinitesimal 
+
 The Effective Price (EP) of a trade is the amount of token received over the amount given away.
 
 
-The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -737,7 +736,7 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td style={{textAlign: 'center'}}>Description</td>
 			</tr>
 			<tr>
-				<td>Logarithmic Market Scoring Rule</td>
+				<td>LMSR - Logarithmic Market Scoring Rule</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -770,23 +769,27 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td style={{textAlign: 'center'}}>Symbol</td>
 				<td style={{textAlign: 'center'}}>Trading Function</td>
 				<td style={{textAlign: 'center'}}>Description</td>
-				<td style={{textAlign: 'center'}}>Formula</td>
+				<td style={{textAlign: 'center'}}>Supply</td>
+				<td style={{textAlign: 'center'}}>Spot Price</td>
 			</tr>
 			<tr>
 				<td>CSMM</td>
 				<td>Constant Sum Market Maker</td>
 				<td></td>
+				<td>x+y=k</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>CPMM</td>
 				<td>Constant Product Market Maker</td>
 				<td></td>
+				<td>x*y=k</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>WCP</td>
 				<td>Weighted Constant Product</td>
+				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -795,10 +798,12 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td>Constant Mean Market Maker</td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>G3M</td>
 				<td>Generalized Mean Market Maker</td>
+				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -807,16 +812,19 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td>Hybrid Constant Function Market Maker</td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>DAMM</td>
 				<td>Dynamic Automated Market Maker</td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>PMM</td>
 				<td>Proactive Market Maker</td>
+				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
