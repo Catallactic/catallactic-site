@@ -722,38 +722,34 @@ The product has achieved initial success. For practicality, the actual use of th
 
 #### 8.3.3. Effective Price
 
-As we disussed, the spot price is only suitable for infinitesimal 
-
-The Effective Price (EP) of a trade is the amount of token received over the amount given away.
-
-
+As we discussed, the spot price is only suitable for infinitesimal. The Effective Price (EP) of a trade is the amount of token received over the amount given away.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tbody>
 			<tr>
-				<td style={{textAlign: 'center'}}>AMM by Trading Model</td>
-				<td style={{textAlign: 'center'}}>Description</td>
+				<th style={{textAlign: 'center'}}>AMM Type</th>
+				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
 				<td>LMSR - Logarithmic Market Scoring Rule</td>
-				<td></td>
+				<td>One of the most commonly used market scoring rules is known as the Logarithmic Market Scoring Rule (LMSR), which was invented by Robin Hanson. The current price for a stock (in a market with 2 stocks) using LMSR is calculated with the formula: price = e^(q1/b) / (e^(q1/b)+e^(q2/b))</td>
 			</tr>
 			<tr>
 				<td>Bayesian Market Maker</td>
-				<td></td>
+				<td>The market maker observes the quantity demanded, and sets a price based on this quantity. The trader is informed of this price and can then choose whether or not to execute the trade at that price.</td>
 			</tr>
 			<tr>
-				<td>Dynamic pari-mutuel market makers</td>
-				<td></td>
+				<td>Pari-mutuel Market Makers</td>
+				<td>A pari-mutuel mechanism is characterized by the ability to shield the market organizer from financial risk by paying the winners from the stakes of the losers.</td>
 			</tr>
 			<tr>
 				<td>CFMM - Constant Function Market Maker</td>
-				<td></td>
+				<td>For CFMM, a trading function and a set of rules determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared. The trading function is deterministic and known to all market participants.</td>
 			</tr>
 			<tr>
 				<td>TWAMM - Time-Weighted Automated Market Maker</td>
-				<td></td>
+				<td>The primary goal of the TWAMM is to execute its long-term orders smoothly over time so that they are executed for close to the prevailing time-weighted average price</td>
 			</tr>
 		</tbody>
 	</table>
