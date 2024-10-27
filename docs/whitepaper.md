@@ -752,6 +752,10 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td>CFMM - Constant Function Market Maker</td>
 				<td></td>
 			</tr>
+			<tr>
+				<td>TWAMM - Time-Weighted Automated Market Maker</td>
+				<td></td>
+			</tr>
 		</tbody>
 	</table>
 </div>
@@ -769,20 +773,20 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td style={{textAlign: 'center'}}>Formula</td>
 			</tr>
 			<tr>
-				<td>CPMM</td>
-				<td>Constant Product Market Maker</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
 				<td>CSMM</td>
 				<td>Constant Sum Market Maker</td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>HCFAMM</td>
-				<td>Hybrid Constant Function Market Maker</td>
+				<td>CPMM</td>
+				<td>Constant Product Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>WCP</td>
+				<td>Weighted Constant Product</td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -799,20 +803,8 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td></td>
 			</tr>
 			<tr>
-				<td>TWAMM</td>
-				<td>Time-Weighted Automated Market Maker</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>WCP</td>
-				<td>Weighted Constant Product</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>VMM</td>
-				<td>Virtual Market Maker</td>
+				<td>HCFAMM</td>
+				<td>Hybrid Constant Function Market Maker</td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -848,18 +840,18 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td style={{textAlign: 'center'}}>Exchanges</td>
 			</tr>
 			<tr>
-				<td>CPMM</td>
-				<td>Constant Product Market Maker</td>
-				<td></td>
-			</tr>
-			<tr>
 				<td>CSMM</td>
 				<td>Constant Sum Market Maker</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>HCFAMM</td>
-				<td>Hybrid Constant Function Market Maker</td>
+				<td>CPMM</td>
+				<td>Constant Product Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>WCP</td>
+				<td>Weighted Constant Product</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -873,18 +865,8 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 				<td></td>
 			</tr>
 			<tr>
-				<td>TWAMM</td>
-				<td>Time-Weighted Automated Market Maker</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>WCP</td>
-				<td>Weighted Constant Product</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>VMM</td>
-				<td>Virtual Market Maker</td>
+				<td>HCFAMM</td>
+				<td>Hybrid Constant Function Market Maker</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -907,7 +889,7 @@ The price of the CryptoCommodity is formed in the exchanges. The price evolution
 
 
 
-### 8.3. Capturing Asset Value
+### 8.3. Capturing Asset Economic Value
 
 Negotiation is the process in which the CC is swapped by its paired coin in an exchange pair. It can involve primary activity customers or user of any secondary activity. The exchange is in charge to form the price with the existing pair.
 
