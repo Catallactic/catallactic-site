@@ -641,8 +641,11 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 
 ### 8.2. Deploying to Exchanges
 
+#### 8.2.1. Automatic Market Makers
 
-#### 8.2.1. Creating Trading Pairs
+
+
+#### 8.2.2. Creating Trading Pairs
 
 A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
@@ -650,10 +653,6 @@ A crypto trading pair is a combination of two cryptocurrencies that can be trade
 	<img src="/img/price_determination2.svg" width="70%"></img>
 </div>
 <br/>
-
-Some particular crypto trading pairs might provide better trading conditions in terms of fees and taxes.
-
-
 
 The criteria for selecting the pairs should be friendliness to the user base.
 
@@ -665,8 +664,52 @@ The currency pairs created are a combination of 3 variables:
 
 - the number of trading pairs that will be created
 
+##### 8.2.2.1. Order Book
 
-#### 8.2.2. Negotiation Allocation
+
+##### 8.2.2.2. Spot Exchange Rate
+
+A spot exchange rate is the current price at which a person can exchange one currency for another at a specific time. Put simply, a spot exchange rate refers to the cost of the currency exchanged instantly and without delay. 
+
+The spot exchange rate is best thought of as how much you need to pay in one currency to buy another at any moment in time. The Spot Price (SP) in an AMM is calculated by dividing the amount of token 1 in the pool by the amount of token 2.
+
+SP = x / y
+
+However, the spot price only holds for infinitesimal trades.
+
+##### 8.2.2.3. Price Evolution
+
+
+#### 8.2.4. How Exchange Pairs Work
+
+A exchange Pair is an smart contract which basically allows 3 operations: addLiquidity, removeLiquidity and swap.
+
+The **addLiquidity** operation is run by the Exchange Pair owner and requires that the owner transfers to the Exchange Pair contract both, an amount X of TokenA and an amount Y of TokenB in an atomic transaction. The Exchange Pair becones a holder of TokenA and TokenB. On the Exchange Pair contract side, it will allocate shares to the owner proportionally to the relationship between X and Y. 
+
+The **removeLiquidty** operation is run by the Exchange Pair owner and reverses the addLiquidity operaton. In this operation the Exchange Pair contract transfers back to the owner tokens in proportion to the created shares.
+
+Finally, in the **swap** operation, a wallet sends an amount X of TokenA tokens to the Exchange Pair contract and the Exchange Pair contract replies trasferring an amount Y of TokenB to the wallet according to a pricing model.
+
+
+#### 8.2.5. Effective Exchange Rate
+
+The Effective Price (EP) of a trade is the amount of token received over the amount given away.
+
+
+The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
+
+##### 8.2.5.1. Pricing Mechanisms
+
+
+
+<br/>
+<PricingEstrategies/>
+<br/>
+
+#### 8.2.6. Arbitrage
+
+
+#### 8.2.7. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -676,19 +719,6 @@ Negotiation Allocation if focused mainly in assigning funds to the pools of the 
 
 <DoughnutNegotiationAllocationChart/>
 <br/>
-
-#### 8.2.3. Price Formation
-
-Spot vs Effective Price
-
-The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
-
-<br/>
-<PricingEstrategies/>
-<br/>
-
-
-
 
 ### 8.3. Capturing Asset Value
 
@@ -946,19 +976,19 @@ The VCE will also determine the triggering of the investor EXIT event, which is 
 
 By plotting the spot price against our estimated supply according to different pricing strategies (effective price), we can estimate the price profiles. These price profiles are different depending on the constant defined on pair creation.
 
-<br/>
+
+<!--br/>
 <LineEstimatePriceEvolutionChart/>
-<br/>
+<br/-->
 
 #### 8.6.9. Estimating Exchanges Initialization
 
 We found that all previous price profiles match with the supply in the exchanges. However, we want to select the profile that provides the price matching with the physical CryptoCommodity.
 
-****** Spot price depends on K but effective price does not? ******
 
-<br/>
+<!--br/>
 <LineEstimateExchangesInitilizationChart/>
-<br/>
+<br/-->
 
 #### 8.6.10. Estimating Investor Profit
 
