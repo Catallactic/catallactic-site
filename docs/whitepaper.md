@@ -638,14 +638,12 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 <LineStageValueCaptureChart/>
 <br/>
 
-
 ### 8.2. Deploying to Exchanges
 
 #### 8.2.1. Automatic Market Makers
 
 
-
-#### 8.2.2. Creating Trading Pairs
+#### 8.2.2. Trading Pairs
 
 A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
@@ -653,6 +651,21 @@ A crypto trading pair is a combination of two cryptocurrencies that can be trade
 	<img src="/img/price_determination2.svg" width="70%"></img>
 </div>
 <br/>
+
+
+#### 8.2.3. Trading Pair Operation
+
+A exchange Pair is an smart contract which basically allows 3 operations: addLiquidity, removeLiquidity and swap.
+
+The **addLiquidity** operation is run by the Exchange Pair owner and requires that the owner transfers to the Exchange Pair contract both, an amount X of TokenA and an amount Y of TokenB in an atomic transaction. The Exchange Pair becomes a holder of TokenA and TokenB. On the Exchange Pair contract side, it will allocate shares to the owner proportionally to the relationship between X and Y. 
+
+The **removeLiquidty** operation is run by the Exchange Pair owner and reverses the addLiquidity operaton. In this operation the Exchange Pair contract transfers back to the owner tokens in proportion to the created shares.
+
+Finally, in the **swap** operation, a wallet sends an amount X of TokenA tokens to the Exchange Pair contract and the Exchange Pair contract replies trasferring an amount Y of TokenB to the wallet according to a pricing model.
+
+
+
+
 
 The criteria for selecting the pairs should be friendliness to the user base.
 
@@ -664,52 +677,9 @@ The currency pairs created are a combination of 3 variables:
 
 - the number of trading pairs that will be created
 
-##### 8.2.2.1. Order Book
+#### 8.2.4. Order Book
 
-
-##### 8.2.2.2. Spot Exchange Rate
-
-A spot exchange rate is the current price at which a person can exchange one currency for another at a specific time. Put simply, a spot exchange rate refers to the cost of the currency exchanged instantly and without delay. 
-
-The spot exchange rate is best thought of as how much you need to pay in one currency to buy another at any moment in time. The Spot Price (SP) in an AMM is calculated by dividing the amount of token 1 in the pool by the amount of token 2.
-
-SP = x / y
-
-However, the spot price only holds for infinitesimal trades.
-
-##### 8.2.2.3. Price Evolution
-
-
-#### 8.2.4. How Exchange Pairs Work
-
-A exchange Pair is an smart contract which basically allows 3 operations: addLiquidity, removeLiquidity and swap.
-
-The **addLiquidity** operation is run by the Exchange Pair owner and requires that the owner transfers to the Exchange Pair contract both, an amount X of TokenA and an amount Y of TokenB in an atomic transaction. The Exchange Pair becones a holder of TokenA and TokenB. On the Exchange Pair contract side, it will allocate shares to the owner proportionally to the relationship between X and Y. 
-
-The **removeLiquidty** operation is run by the Exchange Pair owner and reverses the addLiquidity operaton. In this operation the Exchange Pair contract transfers back to the owner tokens in proportion to the created shares.
-
-Finally, in the **swap** operation, a wallet sends an amount X of TokenA tokens to the Exchange Pair contract and the Exchange Pair contract replies trasferring an amount Y of TokenB to the wallet according to a pricing model.
-
-
-#### 8.2.5. Effective Exchange Rate
-
-The Effective Price (EP) of a trade is the amount of token received over the amount given away.
-
-
-The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
-
-##### 8.2.5.1. Pricing Mechanisms
-
-
-
-<br/>
-<PricingEstrategies/>
-<br/>
-
-#### 8.2.6. Arbitrage
-
-
-#### 8.2.7. Negotiation Allocation
+#### 8.2.5. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -719,6 +689,223 @@ Negotiation Allocation if focused mainly in assigning funds to the pools of the 
 
 <DoughnutNegotiationAllocationChart/>
 <br/>
+
+
+#### 8.3. Exchanges Rates
+
+##### 8.3.1. Spot Price
+
+A spot exchange rate is the current price at which a person can exchange one currency for another at a specific time. Put simply, a spot exchange rate refers to the cost of the currency exchanged instantly and without delay. 
+
+The spot exchange rate is best thought of as how much you need to pay in one currency to buy another at any moment in time. The Spot Price (SP) in an AMM is calculated by dividing the amount of token 1 in the pool by the amount of token 2.
+
+SP = x / y
+
+However, the spot price only holds for infinitesimal trades.
+
+The relative Supply between TokenA and TokenB in the exchange will determine an spo 
+
+##### 8.3.2. Spot Price Evolution
+
+In private equity, the J-curve refers to a portfolio’s cash flows, while in economics it is commonly used to describe the effects of currency devaluation on the national deficit. In crypto, a new J-curve is born.
+
+The basic idea of a crypto J-curve stems from how the market values a cryptoasset over time.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.bee.com/wp-content/uploads/2024/06/frc-9b0f9c742ebf83451ff1d593ffcf0494.jpg" width="50%"></img>
+</div>
+<br/>
+
+The main players are snipers with technical advantages, insiders/pre-sellers with unfair advantages, and speculators who focus on quantity over fundamentals. This is where the average trader loses out in most cases, and when speculators move on to the new shiny thing, it can go down just as fast as it went up.
+
+Enthusiasm fades, speculators exit, volume shrinks, average uPNL for holders is below profit, Indians raid TG with marketing suggestions, Kols scammers slowly fade out of TL. This is the most important stage because it brings the greatest opportunities.
+
+The product has achieved initial success. For practicality, the actual use of the technology has generated real income, and for meme, the admirers are huge, KOLs promote it widely, etc. This is where you sell because the risk is high, profits should be secured and the focus should be on the second stage of the J curve.
+
+##### 8.3.3. Effective Price
+
+The Effective Price (EP) of a trade is the amount of token received over the amount given away.
+
+
+The price of the CryptoCommodity is formed in the exchanges. The price evolution of the CryptoCommodity is determined by the ratio between Supply of CryptoCommodity and the Supply of paired tokens governed by a formula.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tbody>
+			<tr>
+				<td style={{textAlign: 'center'}}>AMM by Trading Model</td>
+				<td style={{textAlign: 'center'}}>Description</td>
+			</tr>
+			<tr>
+				<td>Logarithmic Market Scoring Rule</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Bayesian Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Dynamic pari-mutuel market makers</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CFMM - Constant Function Market Maker</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br/>
+
+##### 8.3.4. Trading Functions
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tbody>
+			<tr>
+				<td style={{textAlign: 'center'}}>Symbol</td>
+				<td style={{textAlign: 'center'}}>Trading Function</td>
+				<td style={{textAlign: 'center'}}>Description</td>
+				<td style={{textAlign: 'center'}}>Formula</td>
+			</tr>
+			<tr>
+				<td>CPMM</td>
+				<td>Constant Product Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CSMM</td>
+				<td>Constant Sum Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>HCFAMM</td>
+				<td>Hybrid Constant Function Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CMMM</td>
+				<td>Constant Mean Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>G3M</td>
+				<td>Generalized Mean Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>TWAMM</td>
+				<td>Time-Weighted Automated Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>WCP</td>
+				<td>Weighted Constant Product</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>VMM</td>
+				<td>Virtual Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>DAMM</td>
+				<td>Dynamic Automated Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>PMM</td>
+				<td>Proactive Market Maker</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br/>
+
+<br/>
+<PricingEstrategies/>
+<br/>
+
+##### 8.3.4. Commercial Exchanges
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tbody>
+			<tr>
+				<td style={{textAlign: 'center'}}>Symbol</td>
+				<td style={{textAlign: 'center'}}>Trading Function</td>
+				<td style={{textAlign: 'center'}}>Exchanges</td>
+			</tr>
+			<tr>
+				<td>CPMM</td>
+				<td>Constant Product Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CSMM</td>
+				<td>Constant Sum Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>HCFAMM</td>
+				<td>Hybrid Constant Function Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CMMM</td>
+				<td>Constant Mean Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>G3M</td>
+				<td>Generalized Mean Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>TWAMM</td>
+				<td>Time-Weighted Automated Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>WCP</td>
+				<td>Weighted Constant Product</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>VMM</td>
+				<td>Virtual Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>DAMM</td>
+				<td>Dynamic Automated Market Maker</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>PMM</td>
+				<td>Proactive Market Maker</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br/>
+
+#### 8.3.5. Arbitrage
+
+
+
 
 ### 8.3. Capturing Asset Value
 
@@ -977,18 +1164,18 @@ The VCE will also determine the triggering of the investor EXIT event, which is 
 By plotting the spot price against our estimated supply according to different pricing strategies (effective price), we can estimate the price profiles. These price profiles are different depending on the constant defined on pair creation.
 
 
-<!--br/>
+<br/>
 <LineEstimatePriceEvolutionChart/>
-<br/-->
+<br/>
 
 #### 8.6.9. Estimating Exchanges Initialization
 
 We found that all previous price profiles match with the supply in the exchanges. However, we want to select the profile that provides the price matching with the physical CryptoCommodity.
 
 
-<!--br/>
+<br/>
 <LineEstimateExchangesInitilizationChart/>
-<br/-->
+<br/>
 
 #### 8.6.10. Estimating Investor Profit
 
@@ -1822,3 +2009,5 @@ https://www.iwsfintech.com/post/ieo-imo-ido-ido-2-ico-rico-ico-2-uto-icco-sto-at
 [14] Optimizing Your Token Distribution, Lauren Stephanian, January 4th - 2022https://lstephanian.mirror.xyz/kB9Jz_5joqbY0ePO8rU1NNDKhiqvzU6OWyYsbSA-Kcc
 
 [15] Can a Stablecoin Be Collateralized by a Fully Decentralized, Physical Asset? Cryptoeconomic Systems, Murialdo, M., & Belof, J. L. (2022). https://cryptoeconomicsystems.pubpub.org/pub/murialdo-physical-asset-stablecoin/release/2
+
+[16] https://medium.com/@cburniske/the-crypto-j-curve-be5fdddafa26
