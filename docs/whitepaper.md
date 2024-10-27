@@ -745,7 +745,7 @@ As we discussed, the spot price is only suitable for infinitesimal. The Effectiv
 			</tr>
 			<tr>
 				<td>CFMM - Constant Function Market Maker</td>
-				<td>For CFMM, a trading function and a set of rules determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared. The trading function is deterministic and known to all market participants.</td>
+				<td>For CFMM, a trading function and a set of rules determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared. **The trading function is deterministic and known to all market participants**.</td>
 			</tr>
 			<tr>
 				<td>TWAMM - Time-Weighted Automated Market Maker</td>
@@ -756,7 +756,15 @@ As we discussed, the spot price is only suitable for infinitesimal. The Effectiv
 </div>
 <br/>
 
-#### 8.3.4. Trading Functions
+
+**Slippage** as a function expresses the difference between the spot price of an asset in the pool and the effective price obtained after the completion of the trade.
+
+<!---
+https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
+-->
+**Impermanent loss**, on the other hand, occurs when liquidity providers pull out assets from the pool during a large price swing. In this case they will suffer a loss of total asset value, compared to simply holding the assets.
+
+#### 8.3.4. Constant Function Market Makers
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -832,6 +840,8 @@ As we discussed, the spot price is only suitable for infinitesimal. The Effectiv
 <br/>
 <PricingEstrategies/>
 <br/>
+
+
 
 #### 8.3.5. Commercial Exchanges
 
