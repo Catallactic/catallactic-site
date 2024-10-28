@@ -732,24 +732,42 @@ As we discussed, the spot price is only suitable for infinitesimal. The Effectiv
 				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
+				<th colSpan="2" style={{textAlign: 'center'}}>DETERMINISTIC</th>
+			</tr>
+			<tr>
 				<td>LMSR - Logarithmic Market Scoring Rule</td>
-				<td>One of the most commonly used market scoring rules is known as the Logarithmic Market Scoring Rule (LMSR), which was invented by Robin Hanson. The current price for a stock (in a market with 2 stocks) using LMSR is calculated with the formula: price = e^(q1/b) / (e^(q1/b)+e^(q2/b))</td>
+				<td>One of the most commonly used market scoring rules is known as the Logarithmic Market Scoring Rule (LMSR), which was invented by Robin Hanson.</td>
+			</tr>
+			<tr>
+				<td>CFMM - Constant Function Market Maker</td>
+				<td>For CFMM, a trading function and a set of rules determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared.</td>
+			</tr>
+			<tr>
+				<th colSpan="2" style={{textAlign: 'center'}}>NON-DETERMINISTIC</th>
+			</tr>
+			<tr>
+				<td>TWAMM - Time-Weighted Automated Market Maker</td>
+				<td>The primary goal of the TWAMM is to execute its long-term orders smoothly over time so that they are executed for close to the prevailing time-weighted average price</td>
 			</tr>
 			<tr>
 				<td>Bayesian Market Maker</td>
 				<td>The market maker observes the quantity demanded, and sets a price based on this quantity. The trader is informed of this price and can then choose whether or not to execute the trade at that price.</td>
 			</tr>
 			<tr>
+				<td>DAMM - Dynamic Automated Market Maker</td>
+				<td>DAMMs adjust their pricing and liquidity provision strategies dynamically based on market conditions, aiming to offer better capital efficiency and reduced price impact.</td>
+			</tr>
+			<tr>
+				<td>PMM - Proactive Market Maker</td>
+				<td>PMMs work by adjusting their prices in response to real-world market trends and expert predictions. The goal of PMMs is to ensure that the prices on these platforms reflect what’s happening in the wider financial market.</td>
+			</tr>
+			<tr>
 				<td>Pari-mutuel Market Makers</td>
 				<td>A pari-mutuel mechanism is characterized by the ability to shield the market organizer from financial risk by paying the winners from the stakes of the losers.</td>
 			</tr>
 			<tr>
-				<td>CFMM - Constant Function Market Maker</td>
-				<td>For CFMM, a trading function and a set of rules determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared. **The trading function is deterministic and known to all market participants**.</td>
-			</tr>
-			<tr>
-				<td>TWAMM - Time-Weighted Automated Market Maker</td>
-				<td>The primary goal of the TWAMM is to execute its long-term orders smoothly over time so that they are executed for close to the prevailing time-weighted average price</td>
+				<td>vAMM - Virtual Automated Market Makers</td>
+				<td>vAMMs do not hold actual assets but use mathematical formulas to simulate trading and liquidity provision. They are primarily used in derivative platforms to enable trading without the need for traditional counterparts.</td>
 			</tr>
 		</tbody>
 	</table>
@@ -764,7 +782,9 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 -->
 **Impermanent loss**, on the other hand, occurs when liquidity providers pull out assets from the pool during a large price swing. In this case they will suffer a loss of total asset value, compared to simply holding the assets.
 
-#### 8.3.4. Constant Function Market Makers
+#### 8.3.4. Deterministic Market Makers
+
+To honour decentralization principles, we will consider only deterministic market makers. A further in-deep analysis of the compliant AMMs should be done in a case by case basis.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -775,6 +795,13 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 				<td style={{textAlign: 'center'}}>Description</td>
 				<td style={{textAlign: 'center'}}>Supply</td>
 				<td style={{textAlign: 'center'}}>Spot Price</td>
+			</tr>
+			<tr>
+				<td>LMSR</td>
+				<td>Logarithmic Market Scoring Rule</td>
+				<td></td>
+				<td></td>
+				<td> e^(q1/b) / (e^(q1/b)+e^(q2/b))</td>
 			</tr>
 			<tr>
 				<td>CSMM</td>
@@ -814,20 +841,6 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 			<tr>
 				<td>HCFAMM</td>
 				<td>Hybrid Constant Function Market Maker</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>DAMM</td>
-				<td>Dynamic Automated Market Maker</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>PMM</td>
-				<td>Proactive Market Maker</td>
 				<td></td>
 				<td></td>
 				<td></td>
