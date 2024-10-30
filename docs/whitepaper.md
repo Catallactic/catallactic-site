@@ -649,6 +649,8 @@ Centralized exchanges (CEXs) are cryptocurrency exchanges that monitor and facil
 
 When you place a buy order on a CEX to buy a crypto token, the CEX order matching engine searches for a sell order that’s placed at the same price as your buying price. Once there’s a match, the CEX executes your trade and funds your account with the token you wanted.
 
+Centralised exchanges utilise independent entities called Market Makers to make the market for the traders via order books, instead of an algorithmic automatic market maker that DEXs utilise. This means that if you or the CEX utilises a bad market maker, it will be more problematic than simply launching on a DEX.
+
 #### 8.2.3. Automated Market Maker (DEX)
 
 Decentralized exchanges (DEXs) are crypto exchanges where users can swap one crypto token for another in a decentralized and non-custodial manner without centralized intermediaries. DEXs are also permissionless, meaning anyone can use a DEX without revealing their private information.
@@ -710,6 +712,7 @@ A spot exchange rate is the current price at which a person can exchange one cur
 The spot exchange rate is best thought of as how much you need to pay in one currency to buy another at any moment in time. The Spot Price (SP) in an AMM is calculated by dividing the amount of token 1 in the pool by the amount of token 2.
 
 <div style={{textAlign: 'center'}}>
+	<!-- Sport Price = \frac{Quantity of Asset X}{Quantity of Asset Y} -->
 	<img src="/img/equations/SpotPrice.svg"></img>
 </div>
 <br/>
@@ -735,7 +738,7 @@ The product has achieved initial success. For practicality, the actual use of th
 
 #### 8.3.3. Indifference Curves
 
-As we discussed, the spot price is only suitable for infinitesimal trades and only apply for specific amount of the traded goods. For a more generic relationship on trading goods covering a broader range of amount we have to introduce the concept of Indifference Curves. 
+As we discussed, the spot price is only suitable for infinitesimal trades and only applies for specific amount of the traded goods. For a more generic relationship on trading goods covering a broader range of amount we have to introduce the concept of Indifference Curves. 
 
 From wikipedia In economics, an indifference curve connects points on a graph representing different quantities of two goods, points between which a consumer is indifferent. That is, any combinations of two products indicated by the curve will provide the consumer with equal levels of utility, and the consumer has no preference for one combination or bundle of goods over a different combination on the same curve. **One can also refer to each point on the indifference curve as rendering the same level of utility (satisfaction) for the consumer**.
 
@@ -776,7 +779,7 @@ If we apply the idea of Indifference Curves to Automatic Market Makers, we can h
 				<td>The primary goal of the TWAMM is to execute its long-term orders smoothly over time so that they are executed for close to the prevailing time-weighted average price</td>
 			</tr>
 			<tr>
-				<td>Bayesian Market Maker</td>
+				<td>BMM - Bayesian Market Maker</td>
 				<td>The market maker observes the quantity demanded, and sets a price based on this quantity. The trader is informed of this price and can then choose whether or not to execute the trade at that price.</td>
 			</tr>
 			<tr>
@@ -816,7 +819,15 @@ A constant mean market maker is another version of a constant product market mak
 
 The marginal rate of substitution (MRS) is the quantity of one good that a consumer can forego for additional units of another good at the same utility level. The marginal rate of substitution is represented as a slope on the indifference curve, and each point along the curve shows the number of units of each good that would be substitutable for another.
 
-In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the amount of token received over the amount given away. The table below represents the relevant equations for the different trade functions on deterministic AMMs.
+In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the amount of token received over the amount given away.
+
+<div style={{textAlign: 'center'}}>
+	<!-- Effective Price = - \frac{dX}{dY} \cong  \frac{X}{Y} -->
+	<img src="/img/equations/EffectivePrice.svg"></img>
+</div>
+<br/>
+
+The table below represents the relevant equations for the different trade functions on deterministic AMMs.
 
 <!-- https://latexeditor.lagrida.com/ -->
 <!-- https://viereck.ch/latex-to-svg/ -->
@@ -886,9 +897,14 @@ In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the a
 				<td></td>
 			</tr>
 			<tr>
-				<td>WCP</td>
-				<td>Weighted Constant Product</td>
-				<td></td>
+				<td>CWP</td>
+				<td>Constant Weighted Product</td>
+				<td>
+				<div style={{textAlign: 'center'}}>
+					<!-- x^{\alpha}*y=k -->
+					<img src="/img/equations/WCP_supply.svg"></img>
+				</div>
+				</td>
 				<td>
 					<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
 					<div style={{textAlign: 'center'}}>
@@ -924,7 +940,9 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 			<tr>
 				<td>CSMM</td>
 				<td>Constant Sum Market Maker</td>
-				<td></td>
+				<td>
+					MStable
+				</td>
 			</tr>
 			<tr>
 				<td>CPMM</td>
@@ -936,8 +954,8 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 				</td>
 			</tr>
 			<tr>
-				<td>WCP</td>
-				<td>Weighted Constant Product</td>
+				<td>CWP</td>
+				<td>Constant Weighted Product</td>
 				<td></td>
 			</tr>
 			<tr>
