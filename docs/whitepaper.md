@@ -640,10 +640,22 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 
 ### 8.2. Deploying to Exchanges
 
-#### 8.2.1. Automatic Market Makers
+#### 8.2.1. Order Book (CEX)
+
+Centralized exchanges (CEXs) are cryptocurrency exchanges that monitor and facilitate crypto asset trading between users with the help of a centralized intermediary. Like traditional electronic stock exchanges, CEXs use an order book system to display and match buy and sell orders from users.
+
+When you place a buy order on a CEX to buy a crypto token, the CEX order matching engine searches for a sell order that’s placed at the same price as your buying price. Once there’s a match, the CEX executes your trade and funds your account with the token you wanted.
+
+#### 8.2.2. Automated Market Maker (DEX)
+
+Decentralized exchanges are crypto exchanges where users can swap one crypto token for another in a decentralized and non-custodial manner without centralized intermediaries. DEXs are also permissionless, meaning anyone can use a DEX without revealing their private information.
+
+Instead of relying on a central company to operate, decentralized exchanges use self-executing, autonomous smart contracts to process token swap requests. 
+
+Initially, DEXs used on-chain order books, but this required every node of a blockchain to record a trade order before the order could get completed. As one might guess, this made the process unbearably slow. The solution: automated market maker (AMM) decentralized exchanges. They use pre-funded pools of crypto assets called liquidity pools that usually hold token pairs in a 50/50 ratio. 
 
 
-#### 8.2.2. Trading Pairs
+#### 8.2.3. Trading Pairs
 
 A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
@@ -653,7 +665,7 @@ A crypto trading pair is a combination of two cryptocurrencies that can be trade
 <br/>
 
 
-#### 8.2.3. Trading Pair Operation
+#### 8.2.4. Trading Pair Operation
 
 A exchange Pair is an smart contract which holds some amount of 2 tokens and basically allows 3 operations: addLiquidity, removeLiquidity and swap.
 
@@ -663,10 +675,7 @@ The **removeLiquidty** operation is run by the Exchange Pair owner and reverses 
 
 Finally, in the **swap** operation, a wallet sends an amount X of TokenA tokens to the Exchange Pair contract and the Exchange Pair contract replies trasferring an amount Y of TokenB to the wallet according to a pricing model.
 
-
-
-
-#### 8.2.4. Order Book
+General rules of AMM-based DEX: The price of assets in an AMM pool stays constant for pure liquidity provision and withdrawal activities. The invariant of an AMM pool stays constant for pure swapping activities
 
 #### 8.2.5. Negotiation Allocation
 
@@ -786,55 +795,66 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 
 To honour decentralization principles, we will consider only deterministic market makers. A further in-deep analysis of the compliant AMMs should be done in a case by case basis.
 
+A constant mean market maker is another version of a constant product market maker; it allows for more than two assets to be stored in the pool and also allows for a varying weight of each asset, i.e., a weight ratio other than 50:50 [13].
+
+<!-- https://latexeditor.lagrida.com/ -->
+<!-- https://viereck.ch/latex-to-svg/ -->
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tbody>
 			<tr>
 				<td style={{textAlign: 'center'}}>Symbol</td>
 				<td style={{textAlign: 'center'}}>Trading Function</td>
-				<td style={{textAlign: 'center'}}>Description</td>
-				<td style={{textAlign: 'center'}}>Supply</td>
+				<td style={{textAlign: 'center'}}>Invariant</td>
 				<td style={{textAlign: 'center'}}>Spot Price</td>
 			</tr>
 			<tr>
 				<td>LMSR</td>
 				<td>Logarithmic Market Scoring Rule</td>
 				<td></td>
-				<td></td>
-				<td> e^(q1/b) / (e^(q1/b)+e^(q2/b))</td>
+				<!-- \frac{e^{q1/b}}{e^{q1/b}+e^{q2/b}} -->
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/LMSR_price.svg"></img>
+					</div>
+				</td>
 			</tr>
 			<tr>
 				<td>CSMM</td>
 				<td>Constant Sum Market Maker</td>
-				<td></td>
-				<td>x+y=k</td>
+				<!-- x+y=k -->
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CSMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>CPMM</td>
 				<td>Constant Product Market Maker</td>
-				<td></td>
-				<td>x*y=k</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>WCP</td>
-				<td>Weighted Constant Product</td>
-				<td></td>
-				<td></td>
+				<td>
+					<!-- x*y=k -->
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CPMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>CMMM</td>
 				<td>Constant Mean Market Maker</td>
-				<td></td>
-				<td></td>
+				<td>
+					<!-- \sqrt[3]{x*y*z}=k -->
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CMMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>G3M</td>
 				<td>Generalized Mean Market Maker</td>
-				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -843,7 +863,17 @@ To honour decentralization principles, we will consider only deterministic marke
 				<td>Hybrid Constant Function Market Maker</td>
 				<td></td>
 				<td></td>
+			</tr>
+			<tr>
+				<td>WCP</td>
+				<td>Weighted Constant Product</td>
 				<td></td>
+				<td>
+					<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/WCP_price.svg"></img>
+					</div>
+				</td>
 			</tr>
 		</tbody>
 	</table>
@@ -874,7 +904,7 @@ To honour decentralization principles, we will consider only deterministic marke
 			<tr>
 				<td>CPMM</td>
 				<td>Constant Product Market Maker</td>
-				<td></td>
+				<td>Uniswap-v1, Uniswap-v2</td>
 			</tr>
 			<tr>
 				<td>WCP</td>
@@ -884,7 +914,7 @@ To honour decentralization principles, we will consider only deterministic marke
 			<tr>
 				<td>CMMM</td>
 				<td>Constant Mean Market Maker</td>
-				<td></td>
+				<td><a href="https://docs.balancer.fi/reference/math/weighted-math.html" target="_blank">Balancer</a></td>
 			</tr>
 			<tr>
 				<td>G3M</td>
@@ -894,12 +924,12 @@ To honour decentralization principles, we will consider only deterministic marke
 			<tr>
 				<td>HCFAMM</td>
 				<td>Hybrid Constant Function Market Maker</td>
-				<td></td>
+				<td>Curve Finance</td>
 			</tr>
 			<tr>
 				<td>DAMM</td>
 				<td>Dynamic Automated Market Maker</td>
-				<td></td>
+				<td>Bancor</td>
 			</tr>
 			<tr>
 				<td>PMM</td>
