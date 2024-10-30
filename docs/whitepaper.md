@@ -640,22 +640,25 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 
 ### 8.2. Deploying to Exchanges
 
-#### 8.2.1. Order Book (CEX)
+#### 8.2.1. P2P Exchanges
+
+
+#### 8.2.2. Order Book (CEX)
 
 Centralized exchanges (CEXs) are cryptocurrency exchanges that monitor and facilitate crypto asset trading between users with the help of a centralized intermediary. Like traditional electronic stock exchanges, CEXs use an order book system to display and match buy and sell orders from users.
 
 When you place a buy order on a CEX to buy a crypto token, the CEX order matching engine searches for a sell order that’s placed at the same price as your buying price. Once there’s a match, the CEX executes your trade and funds your account with the token you wanted.
 
-#### 8.2.2. Automated Market Maker (DEX)
+#### 8.2.3. Automated Market Maker (DEX)
 
-Decentralized exchanges are crypto exchanges where users can swap one crypto token for another in a decentralized and non-custodial manner without centralized intermediaries. DEXs are also permissionless, meaning anyone can use a DEX without revealing their private information.
+Decentralized exchanges (DEXs) are crypto exchanges where users can swap one crypto token for another in a decentralized and non-custodial manner without centralized intermediaries. DEXs are also permissionless, meaning anyone can use a DEX without revealing their private information.
 
 Instead of relying on a central company to operate, decentralized exchanges use self-executing, autonomous smart contracts to process token swap requests. 
 
 Initially, DEXs used on-chain order books, but this required every node of a blockchain to record a trade order before the order could get completed. As one might guess, this made the process unbearably slow. The solution: automated market maker (AMM) decentralized exchanges. They use pre-funded pools of crypto assets called liquidity pools that usually hold token pairs in a 50/50 ratio. 
 
 
-#### 8.2.3. Trading Pairs
+#### 8.2.4. Trading Pairs
 
 A crypto trading pair is a combination of two cryptocurrencies that can be traded against each other on a cryptocurrency exchange. Crypto trading pairs enable people to swap one crypto for another and pay a single transaction fee. The base currency is always the first cryptocurrency in a crypto trading pair. The base currency is the base to which the other currency is compared. The second part is the quote currency. It is the price of the base currency quoted using the quote currency. The pairs work together to tell you how much of the quote currency is needed to equal 1 whole unit of the base currency.
 
@@ -665,7 +668,7 @@ A crypto trading pair is a combination of two cryptocurrencies that can be trade
 <br/>
 
 
-#### 8.2.4. Trading Pair Operation
+#### 8.2.5. Trading Pair Operation
 
 A exchange Pair is an smart contract which holds some amount of 2 tokens and basically allows 3 operations: addLiquidity, removeLiquidity and swap.
 
@@ -677,7 +680,7 @@ Finally, in the **swap** operation, a wallet sends an amount X of TokenA tokens 
 
 General rules of AMM-based DEX: The price of assets in an AMM pool stays constant for pure liquidity provision and withdrawal activities. The invariant of an AMM pool stays constant for pure swapping activities
 
-#### 8.2.5. Negotiation Allocation
+#### 8.2.6. Negotiation Allocation
 
 Negotiation Allocation if focused mainly in assigning funds to the pools of the exchanges where the token will be traded. In this portion will be inlcuded:
 
@@ -698,7 +701,7 @@ The currency pairs created are a combination of 3 variables:
 
 - the number of trading pairs that will be created
 
-### 8.3. Exchanges Rates
+### 8.3. Exchange Rates
 
 #### 8.3.1. Spot Price
 
@@ -706,11 +709,12 @@ A spot exchange rate is the current price at which a person can exchange one cur
 
 The spot exchange rate is best thought of as how much you need to pay in one currency to buy another at any moment in time. The Spot Price (SP) in an AMM is calculated by dividing the amount of token 1 in the pool by the amount of token 2.
 
-SP = x / y
+<div style={{textAlign: 'center'}}>
+	<img src="/img/equations/SpotPrice.svg"></img>
+</div>
+<br/>
 
 However, the spot price only holds for infinitesimal trades.
-
-The relative Supply between TokenA and TokenB in the exchange will determine an spo 
 
 #### 8.3.2. Spot Price Evolution
 
@@ -729,15 +733,28 @@ Enthusiasm fades, speculators exit, volume shrinks, average uPNL for holders is 
 
 The product has achieved initial success. For practicality, the actual use of the technology has generated real income, and for meme, the admirers are huge, KOLs promote it widely, etc. This is where you sell because the risk is high, profits should be secured and the focus should be on the second stage of the J curve.
 
-#### 8.3.3. Effective Price
+#### 8.3.3. Indifference Curves
 
-As we discussed, the spot price is only suitable for infinitesimal. The Effective Price (EP) of a trade is the amount of token received over the amount given away.
+As we discussed, the spot price is only suitable for infinitesimal trades and only apply for specific amount of the traded goods. For a more generic relationship on trading goods covering a broader range of amount we have to introduce the concept of Indifference Curves. 
+
+From wikipedia In economics, an indifference curve connects points on a graph representing different quantities of two goods, points between which a consumer is indifferent. That is, any combinations of two products indicated by the curve will provide the consumer with equal levels of utility, and the consumer has no preference for one combination or bundle of goods over a different combination on the same curve. **One can also refer to each point on the indifference curve as rendering the same level of utility (satisfaction) for the consumer**.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Simple-indifference-curves.svg" width="30%"></img>
+</div>
+<br/>
+
+There are infinitely many indifference curves or invariants: one passes through each combination. A collection of (selected) indifference curves, illustrated graphically, is referred to as an indifference map.
+
+#### 8.3.4. AMMs by Trade Function
+
+If we apply the idea of Indifference Curves to Automatic Market Makers, we can have different AMMs depending on the invariant equation as a Trade Function. A list is provided below.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tbody>
 			<tr>
-				<th style={{textAlign: 'center'}}>AMM Type</th>
+				<th style={{textAlign: 'center'}}>Trade Function</th>
 				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
@@ -783,19 +800,23 @@ As we discussed, the spot price is only suitable for infinitesimal. The Effectiv
 </div>
 <br/>
 
+For these AMMs, trades are made such that some invariant of these inventory sizes is kept constant. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained.
 
-**Slippage** as a function expresses the difference between the spot price of an asset in the pool and the effective price obtained after the completion of the trade.
-
-<!---
-https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
--->
-**Impermanent loss**, on the other hand, occurs when liquidity providers pull out assets from the pool during a large price swing. In this case they will suffer a loss of total asset value, compared to simply holding the assets.
-
-#### 8.3.4. Deterministic Market Makers
+<br/>
+<PricingEstrategies/>
+<br/>
 
 To honour decentralization principles, we will consider only deterministic market makers. A further in-deep analysis of the compliant AMMs should be done in a case by case basis.
 
+Hanson’s logarithmic scoring rule market maker (LMSR) (Hanson, 2007) which maintains an invariant that is the logarithm of a sum of exponentials of the inventories.
+
 A constant mean market maker is another version of a constant product market maker; it allows for more than two assets to be stored in the pool and also allows for a varying weight of each asset, i.e., a weight ratio other than 50:50 [13].
+
+#### 8.3.5. Effective Price
+
+The marginal rate of substitution (MRS) is the quantity of one good that a consumer can forego for additional units of another good at the same utility level. The marginal rate of substitution is represented as a slope on the indifference curve, and each point along the curve shows the number of units of each good that would be substitutable for another.
+
+In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the amount of token received over the amount given away. The table below represents the relevant equations for the different trade functions on deterministic AMMs.
 
 <!-- https://latexeditor.lagrida.com/ -->
 <!-- https://viereck.ch/latex-to-svg/ -->
@@ -880,13 +901,17 @@ A constant mean market maker is another version of a constant product market mak
 </div>
 <br/>
 
-<br/>
-<PricingEstrategies/>
-<br/>
 
 
+**Slippage** as a function expresses the difference between the spot price of an asset in the pool and the effective price obtained after the completion of the trade.
 
-#### 8.3.5. Commercial Exchanges
+<!---
+https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
+-->
+**Impermanent loss**, on the other hand, occurs when liquidity providers pull out assets from the pool during a large price swing. In this case they will suffer a loss of total asset value, compared to simply holding the assets.
+
+
+#### 8.3.6. Commercial Exchanges
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -904,7 +929,11 @@ A constant mean market maker is another version of a constant product market mak
 			<tr>
 				<td>CPMM</td>
 				<td>Constant Product Market Maker</td>
-				<td>Uniswap-v1, Uniswap-v2</td>
+				<td>
+					Uniswap-v1,
+					Uniswap-v2,
+					<a href="https://www.uswap.biz/protocol.php" target="_blank">USwap</a>
+				</td>
 			</tr>
 			<tr>
 				<td>WCP</td>
@@ -914,7 +943,9 @@ A constant mean market maker is another version of a constant product market mak
 			<tr>
 				<td>CMMM</td>
 				<td>Constant Mean Market Maker</td>
-				<td><a href="https://docs.balancer.fi/reference/math/weighted-math.html" target="_blank">Balancer</a></td>
+				<td>
+					<a href="https://docs.balancer.fi/reference/math/weighted-math.html" target="_blank">Balancer</a>
+				</td>
 			</tr>
 			<tr>
 				<td>G3M</td>
