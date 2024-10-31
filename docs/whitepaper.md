@@ -736,9 +736,11 @@ Enthusiasm fades, speculators exit, volume shrinks, average uPNL for holders is 
 
 The product has achieved initial success. For practicality, the actual use of the technology has generated real income, and for meme, the admirers are huge, KOLs promote it widely, etc. This is where you sell because the risk is high, profits should be secured and the focus should be on the second stage of the J curve.
 
-#### 8.3.3. Trade Function
+#### 8.3.3. Effective Price
 
-As we discussed, the spot price is only suitable for infinitesimal trades and only applies for specific amount of the traded goods. For a more generic relationship on trading goods covering a broader range of amount we have to introduce the concept of Indifference Curves. 
+As we discussed, the spot price is only suitable for infinitesimal trades and only applies for specific amount of the traded goods. For a more generic relationship on trading goods covering a broader range of amount we have to introduce a more dynamic concept of price. 
+
+##### 8.3.3.1. Indifference Curves
 
 From wikipedia In economics, an **Indifference curve** connects points on a graph representing different quantities of two goods, points between which a consumer is indifferent. That is, any combinations of two products indicated by the curve will provide the consumer with equal levels of utility, and the consumer has no preference for one combination or bundle of goods over a different combination on the same curve. **One can also refer to each point on the indifference curve as rendering the same level of utility (satisfaction) for the consumer**.
 
@@ -749,6 +751,8 @@ From wikipedia In economics, an **Indifference curve** connects points on a grap
 
 There are infinitely many indifference curves or invariants: one passes through each combination. A collection of (selected) indifference curves, illustrated graphically, is referred to as an indifference map.
 
+##### 8.3.3.2. Trade Function
+
 If we apply the idea of Indifference Curves to Automatic Market Makers, we can have different AMMs depending on the **Trade Function**. A trade function or invariant equation is a set of rules which determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared.
 
 <div style={{textAlign: 'center'}}>
@@ -756,68 +760,139 @@ If we apply the idea of Indifference Curves to Automatic Market Makers, we can h
 </div>
 <br/>
 
-#### 8.3.4. AMMs by Trade Function
+##### 8.3.3.3. Effective Price
+
+The marginal rate of substitution (MRS) is the quantity of one good that a consumer can forego for additional units of another good at the same utility level. The marginal rate of substitution is represented as a slope on the indifference curve, and each point along the curve shows the number of units of each good that would be substitutable for another.
+
+In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the amount of token received over the amount given away.
+
+<div style={{textAlign: 'center'}}>
+	<!-- Effective Price = - \frac{dX}{dY} \cong  \frac{X}{Y} -->
+	<img src="/img/equations/EffectivePrice.svg"></img>
+</div>
+<br/>
+
+#### 8.3.4. Constant Function Market Makers (CFMMs)
 
 For these AMMs, trades are made such that some invariant of these inventory sizes is kept constant. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained.
 
-##### 8.3.4.1. Deterministic AMMs
 
 Deterministic AMM or Constant Function Market Makers (CFMMs) use a constant trade function. 
 
 A list of AMM following this approach is provided below.
 
+<!-- https://latexeditor.lagrida.com/ -->
+<!-- https://viereck.ch/latex-to-svg/ -->
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tbody>
 			<tr>
-				<th style={{textAlign: 'center'}}>Trade Function</th>
-				<th style={{textAlign: 'center'}}>Description</th>
+				<td style={{textAlign: 'center'}}>Symbol</td>
+				<td style={{textAlign: 'center'}}>Trading Function</td>
+				<td style={{textAlign: 'center'}}>Invariant</td>
+				<td style={{textAlign: 'center'}}>Effective Price</td>
+				<td style={{textAlign: 'center'}}>Spot Price</td>
 			</tr>
 			<tr>
-				<th colSpan="2" style={{textAlign: 'center'}}>DETERMINISTIC - CFMM</th>
-			</tr>
-			<tr>
-				<td>CPMM - Constant Product Market Maker</td>
+				<td>CSMM</td>
+				<td>Constant Sum Market Maker</td>
+				<!-- x+y=k -->
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CSMM_supply.svg"></img>
+					</div>
+				</td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>CSMM - Constant Sum Market Maker</td>
+				<td>CPMM</td>
+				<td>Constant Product Market Maker</td>
+				<td>
+					<!-- x*y=k -->
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CPMM_supply.svg"></img>
+					</div>
+				</td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
+				<td></td>
 				<td>Constant Power Sum Market Maker</td>
 				<td></td>
+				<td></td>
+				<td></td>
 			</tr>
 			<tr>
+				<td></td>
 				<td>Constant Power Root Market Maker</td>
 				<td></td>
-			</tr>
-			<tr>
-				<td>CEMM - Constant Ellipse Market Maker</td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>CMMM - Constant Mean Market Maker</td>
-				<td>A constant mean market maker is another version of a constant product market maker; it allows for more than two assets to be stored in the pool and also allows for a varying weight of each asset, i.e., a weight ratio other than 50:50 [13].</td>
-			</tr>
-			<tr>
-				<td>G3M - Generalized Mean Market Maker</td>
+				<td>CEMM</td>
+				<td>Constant Ellipse Market Maker</td>
+				<td></td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>HCFAMM - Hybrid Constant Function Market Maker</td>
+				<td>CMMM</td>
+				<td>Constant Mean Market Maker</td>
+				<td>
+					<!-- \sqrt[3]{x*y*z}=k -->
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CMMM_supply.svg"></img>
+					</div>
+				</td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>CWP - Constant Weighted Product</td>
+				<td>G3M</td>
+				<td>Generalized Mean Market Maker</td>
+				<td></td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>CLMM - Concentrated Liquidity</td>
+				<td>HCFAMM</td>
+				<td>Hybrid Constant Function Market Maker</td>
+				<td></td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>TSMM - Token Swap Market Maker</td>
+				<td>CWP</td>
+				<td>Constant Weighted Product</td>
+				<td>
+				<div style={{textAlign: 'center'}}>
+					<!-- x^{\alpha}*y=k -->
+					<img src="/img/equations/CWP_supply.svg"></img>
+				</div>
+				</td>
+				<td>
+					<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
+					<div style={{textAlign: 'center'}}>
+						<img src="/img/equations/CWP_price.svg"></img>
+					</div>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>CLMM</td>
+				<td>Concentrated Liquidity</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>TSMM</td>
+				<td>Token Swap Market Maker</td>
+				<td></td>
+				<td></td>
 				<td></td>
 			</tr>
 		</tbody>
@@ -825,7 +900,13 @@ A list of AMM following this approach is provided below.
 </div>
 <br/>
 
-##### 8.3.4.2. Problems of Deterministic AMMs
+<br/>
+<PricingEstrategies/>
+<br/>
+
+
+
+#### 8.3.5. Problems of CFMMs
 
 **Slippage** as a function expresses the difference between the spot price of an asset in the pool and the effective price obtained after the completion of the trade.
 
@@ -834,7 +915,7 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 -->
 **Impermanent loss**, on the other hand, occurs when liquidity providers pull out assets from the pool during a large price swing. In this case they will suffer a loss of total asset value, compared to simply holding the assets.
 
-##### 8.3.4.3. Second Generation
+#### 8.3.6. Second Generation AMMs
 
 Non-deterministic AMMs.
 
@@ -844,9 +925,6 @@ Non-deterministic AMMs.
 			<tr>
 				<th style={{textAlign: 'center'}}>Trade Function</th>
 				<th style={{textAlign: 'center'}}>Description</th>
-			</tr>
-			<tr>
-				<th colSpan="2" style={{textAlign: 'center'}}>NON-DETERMINISTIC</th>
 			</tr>
 			<tr>
 				<td>LMSR - Logarithmic Market Scoring Rule</td>
@@ -881,8 +959,12 @@ Non-deterministic AMMs.
 </div>
 <br/>
 
-##### 8.3.4.4. Commercial Decentralized Exchanges
+#### 8.3.7. Arbitrage
 
+
+#### 8.3.8. Selecting Decentralized Exchanges
+
+To honour decentralization principles, we will consider only deterministic market makers. A further in-deep analysis of the compliant AMMs should be done in a case by case basis. The table below represents the relevant equations for the different trade functions on deterministic AMMs.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -947,114 +1029,6 @@ Non-deterministic AMMs.
 </div>
 <br/>
 
-#### 8.3.5. Effective Price
-
-The marginal rate of substitution (MRS) is the quantity of one good that a consumer can forego for additional units of another good at the same utility level. The marginal rate of substitution is represented as a slope on the indifference curve, and each point along the curve shows the number of units of each good that would be substitutable for another.
-
-In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the amount of token received over the amount given away.
-
-<div style={{textAlign: 'center'}}>
-	<!-- Effective Price = - \frac{dX}{dY} \cong  \frac{X}{Y} -->
-	<img src="/img/equations/EffectivePrice.svg"></img>
-</div>
-<br/>
-
-To honour decentralization principles, we will consider only deterministic market makers. A further in-deep analysis of the compliant AMMs should be done in a case by case basis. The table below represents the relevant equations for the different trade functions on deterministic AMMs.
-
-<!-- https://latexeditor.lagrida.com/ -->
-<!-- https://viereck.ch/latex-to-svg/ -->
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tbody>
-			<tr>
-				<td style={{textAlign: 'center'}}>Symbol</td>
-				<td style={{textAlign: 'center'}}>Trading Function</td>
-				<td style={{textAlign: 'center'}}>Invariant</td>
-				<td style={{textAlign: 'center'}}>Effective Price</td>
-				<td style={{textAlign: 'center'}}>Spot Price</td>
-			</tr>
-			<tr>
-				<td>CSMM</td>
-				<td>Constant Sum Market Maker</td>
-				<!-- x+y=k -->
-				<td>
-					<div style={{textAlign: 'center'}}>
-						<img src="/img/equations/CSMM_supply.svg"></img>
-					</div>
-				</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>CPMM</td>
-				<td>Constant Product Market Maker</td>
-				<td>
-					<!-- x*y=k -->
-					<div style={{textAlign: 'center'}}>
-						<img src="/img/equations/CPMM_supply.svg"></img>
-					</div>
-				</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>CMMM</td>
-				<td>Constant Mean Market Maker</td>
-				<td>
-					<!-- \sqrt[3]{x*y*z}=k -->
-					<div style={{textAlign: 'center'}}>
-						<img src="/img/equations/CMMM_supply.svg"></img>
-					</div>
-				</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>G3M</td>
-				<td>Generalized Mean Market Maker</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>HCFAMM</td>
-				<td>Hybrid Constant Function Market Maker</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>CWP</td>
-				<td>Constant Weighted Product</td>
-				<td>
-				<div style={{textAlign: 'center'}}>
-					<!-- x^{\alpha}*y=k -->
-					<img src="/img/equations/CWP_supply.svg"></img>
-				</div>
-				</td>
-				<td>
-					<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
-					<div style={{textAlign: 'center'}}>
-						<img src="/img/equations/CWP_price.svg"></img>
-					</div>
-				</td>
-				<td></td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<br/>
-
-<br/>
-<PricingEstrategies/>
-<br/>
-
-
-
-
-
-
-#### 8.3.6. Arbitrage
 
 
 
