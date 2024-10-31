@@ -774,10 +774,9 @@ In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the a
 
 #### 8.3.4. Constant Function Market Makers (CFMMs)
 
-For these AMMs, trades are made such that some invariant of these inventory sizes is kept constant. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained.
 
 
-Deterministic AMM or Constant Function Market Makers (CFMMs) use a constant trade function. 
+CFMMs are the first class of AMMs designed by the crypto community to construct decentralized exchanges for digital assets. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained. The trading function is deterministic and known to all market participants.
 
 A list of AMM following this approach is provided below.
 
@@ -787,21 +786,26 @@ A list of AMM following this approach is provided below.
 	<table>
 		<tbody>
 			<tr>
-				<td style={{textAlign: 'center'}}>Symbol</td>
-				<td style={{textAlign: 'center'}}>Trading Function</td>
-				<td style={{textAlign: 'center'}}>Invariant</td>
-				<td style={{textAlign: 'center'}}>Effective Price</td>
-				<td style={{textAlign: 'center'}}>Spot Price</td>
+				<th style={{textAlign: 'center'}} rowSpan="2">Symbol</th>
+				<th style={{textAlign: 'center'}} rowSpan="2">Trading Function</th>
+				<th style={{textAlign: 'center'}} rowSpan="2">Invariant</th>
+				<th style={{textAlign: 'center'}} colSpan="2">Effective Price</th>
+				<th style={{textAlign: 'center'}} rowSpan="2">Spot Price</th>
+			</tr>
+			<tr>
+				<th style={{textAlign: 'center'}}>Buy</th>
+				<th style={{textAlign: 'center'}}>Sell</th>
 			</tr>
 			<tr>
 				<td>CSMM</td>
 				<td>Constant Sum Market Maker</td>
-				<!-- x+y=k -->
 				<td>
 					<div style={{textAlign: 'center'}}>
+						<!-- x+y=k -->
 						<img src="/img/equations/CSMM_supply.svg"></img>
 					</div>
 				</td>
+				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -809,24 +813,42 @@ A list of AMM following this approach is provided below.
 				<td>CPMM</td>
 				<td>Constant Product Market Maker</td>
 				<td>
-					<!-- x*y=k -->
 					<div style={{textAlign: 'center'}}>
+						<!-- \Delta y = \frac{\Delta x*y}{x+\Delta x} -->
 						<img src="/img/equations/CPMM_supply.svg"></img>
 					</div>
 				</td>
-				<td></td>
-				<td></td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \Delta x = \frac{x*\Delta y}{y-\Delta y} -->
+						<img src="/img/equations/CPMM_eff_buy.svg"></img>
+					</div>
+				</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \Delta x = \frac{x*\Delta y}{y-\Delta y} -->
+						<img src="/img/equations/CPMM_eff_sell.svg"></img>
+					</div>
+				</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \frac{k}{y^{2}} -->
+						<img src="/img/equations/CPMM_spot.svg"></img>
+					</div>
+				</td>
 			</tr>
 			<tr>
-				<td></td>
+				<td>CPSMM</td>
 				<td>Constant Power Sum Market Maker</td>
 				<td></td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
-				<td></td>
+				<td>CPRMM</td>
 				<td>Constant Power Root Market Maker</td>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -837,22 +859,25 @@ A list of AMM following this approach is provided below.
 				<td></td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>CMMM</td>
 				<td>Constant Mean Market Maker</td>
 				<td>
-					<!-- \sqrt[3]{x*y*z}=k -->
 					<div style={{textAlign: 'center'}}>
+						<!-- \sqrt[3]{x*y*z}=k -->
 						<img src="/img/equations/CMMM_supply.svg"></img>
 					</div>
 				</td>
+				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>G3M</td>
 				<td>Generalized Mean Market Maker</td>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -863,34 +888,30 @@ A list of AMM following this approach is provided below.
 				<td></td>
 				<td></td>
 				<td></td>
+				<td></td>
 			</tr>
 			<tr>
 				<td>CWP</td>
 				<td>Constant Weighted Product</td>
 				<td>
-				<div style={{textAlign: 'center'}}>
-					<!-- x^{\alpha}*y=k -->
-					<img src="/img/equations/CWP_supply.svg"></img>
-				</div>
+					<div style={{textAlign: 'center'}}>
+						<!-- x^{\alpha}*y=k -->
+						<img src="/img/equations/CWP_supply.svg"></img>
+					</div>
 				</td>
 				<td>
-					<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
 					<div style={{textAlign: 'center'}}>
+						<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
 						<img src="/img/equations/CWP_price.svg"></img>
 					</div>
 				</td>
+				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>CLMM</td>
 				<td>Concentrated Liquidity</td>
 				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>TSMM</td>
-				<td>Token Swap Market Maker</td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -917,7 +938,7 @@ https://www.advancedblockchain.com/blogs/blended-automated-market-makers-bamm
 
 #### 8.3.6. Second Generation AMMs
 
-Non-deterministic AMMs.
+The Second Generation of AMMs is a series of novel projects with innovative blueprints that aim to address the limitations of the first generation of AMM. Non-deterministic AMMs.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -953,6 +974,10 @@ Non-deterministic AMMs.
 			<tr>
 				<td>vAMM - Virtual Automated Market Makers</td>
 				<td>vAMMs do not hold actual assets but use mathematical formulas to simulate trading and liquidity provision. They are primarily used in derivative platforms to enable trading without the need for traditional counterparts.</td>
+			</tr>
+			<tr>
+				<td>TSMM - Token Swap Market Maker</td>
+				<td>The token swap (TS) model denotes a trading pair of two liquidity pools. Swapping between the two tokens is facilitated through an intermediary token.</td>
 			</tr>
 		</tbody>
 	</table>
