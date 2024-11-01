@@ -778,7 +778,7 @@ In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the a
 
 CFMMs are the first class of AMMs designed by the crypto community to construct decentralized exchanges for digital assets. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained. The trading function is deterministic and known to all market participants.
 
-A list of AMM following this approach is provided below.
+A list of 2-asset Trading Functions used to build AMMs is provided below.
 
 <!-- https://latexeditor.lagrida.com/ -->
 <!-- https://viereck.ch/latex-to-svg/ -->
@@ -786,19 +786,15 @@ A list of AMM following this approach is provided below.
 	<table>
 		<tbody>
 			<tr>
-				<th style={{textAlign: 'center'}} rowSpan="2">Symbol</th>
-				<th style={{textAlign: 'center'}} rowSpan="2">Trading Function</th>
-				<th style={{textAlign: 'center'}} rowSpan="2">Invariant</th>
-				<th style={{textAlign: 'center'}} colSpan="2">Effective Price</th>
-				<th style={{textAlign: 'center'}} rowSpan="2">Spot Price</th>
-			</tr>
-			<tr>
-				<th style={{textAlign: 'center'}}>Buy</th>
-				<th style={{textAlign: 'center'}}>Sell</th>
+				<th style={{textAlign: 'center'}}>Symbol</th>
+				<th style={{textAlign: 'center'}}>Trading Function</th>
+				<th style={{textAlign: 'center'}}>Invariant</th>
+				<th style={{textAlign: 'center'}}>Spot Price<sup>(1)</sup></th>
+				<th style={{textAlign: 'center'}}>Effective Price<sup>(2)</sup></th>
 			</tr>
 			<tr>
 				<td>CSMM</td>
-				<td>Constant Sum Market Maker</td>
+				<td>Constant Sum</td>
 				<td>
 					<div style={{textAlign: 'center'}}>
 						<!-- x+y=k -->
@@ -807,11 +803,10 @@ A list of AMM following this approach is provided below.
 				</td>
 				<td></td>
 				<td></td>
-				<td></td>
 			</tr>
 			<tr>
 				<td>CPMM</td>
-				<td>Constant Product Market Maker</td>
+				<td>Constant Product</td>
 				<td>
 					<div style={{textAlign: 'center'}}>
 						<!-- \Delta y = \frac{\Delta x*y}{x+\Delta x} -->
@@ -820,73 +815,77 @@ A list of AMM following this approach is provided below.
 				</td>
 				<td>
 					<div style={{textAlign: 'center'}}>
-						<!-- \Delta x = \frac{x*\Delta y}{y-\Delta y} -->
-						<img src="/img/equations/CPMM_eff_buy.svg"></img>
-					</div>
-				</td>
-				<td>
-					<div style={{textAlign: 'center'}}>
-						<!-- \Delta x = \frac{x*\Delta y}{y-\Delta y} -->
-						<img src="/img/equations/CPMM_eff_sell.svg"></img>
-					</div>
-				</td>
-				<td>
-					<div style={{textAlign: 'center'}}>
 						<!-- \frac{k}{y^{2}} -->
 						<img src="/img/equations/CPMM_spot.svg"></img>
+					</div>
+				</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \frac{x}{y-\Delta y} -->
+						<img src="/img/equations/CPMM_effective.svg"></img>
 					</div>
 				</td>
 			</tr>
 			<tr>
 				<td>CPSMM</td>
-				<td>Constant Power Sum Market Maker</td>
-				<td></td>
+				<td>Constant Power Sum</td>
 				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>CPRMM</td>
-				<td>Constant Power Root Market Maker</td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>Constant Power Root</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- v -->
+						<img src="/img/equations/CPRMM_supply.svg"></img>
+					</div>
+				</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- x^{\alpha-1}y^{1-\alpha} -->
+						<img src="/img/equations/CPRMM_spot.svg"></img>
+					</div>
+				</td>
+				<!-- https://arxiv.org/pdf/2205.07452 -->
 				<td></td>
 			</tr>
 			<tr>
 				<td>CEMM</td>
-				<td>Constant Ellipse Market Maker</td>
-				<td></td>
+				<td>Constant Ellipse</td>
 				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>CMMM</td>
-				<td>Constant Mean Market Maker</td>
+				<td>Constant Mean</td>
 				<td>
 					<div style={{textAlign: 'center'}}>
-						<!-- \sqrt[3]{x*y*z}=k -->
+						<!-- (x*y)^{1/2}=k -->
 						<img src="/img/equations/CMMM_supply.svg"></img>
 					</div>
 				</td>
 				<td></td>
 				<td></td>
-				<td></td>
 			</tr>
 			<tr>
 				<td>G3M</td>
-				<td>Generalized Mean Market Maker</td>
-				<td></td>
+				<td>Generalized Mean</td>
 				<td></td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>HCFAMM</td>
-				<td>Hybrid Constant Function Market Maker</td>
-				<td></td>
-				<td></td>
+				<td>Hybrid Constant Function</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \alpha(x+y)+\beta(x*y)=k -->
+						<img src="/img/equations/HCFAMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -900,12 +899,7 @@ A list of AMM following this approach is provided below.
 					</div>
 				</td>
 				<td>
-					<div style={{textAlign: 'center'}}>
-						<!-- \sum_{0}^{i=n}(Pi*Wi)/Wtot -->
-						<img src="/img/equations/CWP_price.svg"></img>
-					</div>
 				</td>
-				<td></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -914,17 +908,25 @@ A list of AMM following this approach is provided below.
 				<td></td>
 				<td></td>
 				<td></td>
-				<td></td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 <br/>
-
 <br/>
+
+CSMM is hardly ever used because allows arbitrageurs to drain one of the reserves if the off-chain reference price between the tokens is not 1:1. Such a situation would destroy one side of the liquidity pool, leaving all of the liquidity residing in just one of the assets and therefore leaving no more liquidity for traders.
+
+
+The chart below represents the trading function for different CFMMs.
+
 <PricingEstrategies/>
 <br/>
 
+The chart below represents the bonding curves showing the spot price trajectory for different CFMMs. We will be able to select the expected price trajectory by selecting the suitable CFMM. We will use this trajectory later on estimations.
+
+<PricingEstrategies/>
+<br/>
 
 
 #### 8.3.5. Problems of CFMMs
@@ -968,7 +970,7 @@ The Second Generation of AMMs is a series of novel projects with innovative blue
 				<td>PMMs work by adjusting their prices in response to real-world market trends and expert predictions. The goal of PMMs is to ensure that the prices on these platforms reflect what’s happening in the wider financial market.</td>
 			</tr>
 			<tr>
-				<td>Pari-mutuel Market Makers</td>
+				<td>PMMM - Pari-mutuel Market Makers</td>
 				<td>A pari-mutuel mechanism is characterized by the ability to shield the market organizer from financial risk by paying the winners from the stakes of the losers.</td>
 			</tr>
 			<tr>
