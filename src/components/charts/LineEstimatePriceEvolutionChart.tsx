@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, PRICE_PROFILE_CM_10, PRICE_PROFILE_CM_7, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
+import { COLORS, PRICE_PROFILE_CM_10, PRICE_PROFILE_CP_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
 
 export default function LineEstimatePriceEvolutionChart() {
   return (

@@ -17,19 +17,19 @@ export default function LineTradeFunctionInvariants() {
 						fill: false,
 						label: 'CS_50',
 						backgroundColor: COLORS.SUPPLY_PROJECT,
-						borderColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_CS,
 						data: INVARIANT_SUPPLY_CS_20
 					}, {
 						fill: false,
 						label: 'CP_200',
 						backgroundColor: COLORS.SUPPLY_PROJECT,
-						borderColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_CP,
 						data: INVARIANT_SUPPLY_CP_200
 					}, {
 						fill: false,
 						label: 'CM_20',
 						backgroundColor: COLORS.SUPPLY_PROJECT,
-						borderColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_CM,
 						data: INVARIANT_SUPPLY_CM_20
 					}, ]
 				}}

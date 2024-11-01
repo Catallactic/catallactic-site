@@ -4,8 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, INVARIANT_PRICE_CM_20, INVARIANT_PRICE_CP_200, INVARIANT_PRICE_CS_100, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CP_50, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, } from './config';
-import { spotPriceCPMM } from "./maths/charts";
+import {  COLORS, INVARIANT_PRICE_CM_100, INVARIANT_PRICE_CP_200, INVARIANT_PRICE_CS_100, SCALE, } from './config';
 
 export default function LineTradeFunctionSpotPrice() {
   return (
@@ -23,15 +22,15 @@ export default function LineTradeFunctionSpotPrice() {
 					}, {
 						fill: false,
 						label: 'CP_200',
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
 						data: INVARIANT_PRICE_CP_200
 					}, {
 						fill: false,
 						label: 'CM_50',
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: INVARIANT_PRICE_CM_20
+						backgroundColor: COLORS.PRICE_CM,
+						borderColor: COLORS.PRICE_CM,
+						data: INVARIANT_PRICE_CM_100
 					}, ]
 				}}
 				options={{

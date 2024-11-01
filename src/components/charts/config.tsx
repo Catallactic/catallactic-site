@@ -1,4 +1,4 @@
-import { constant, constantFrom,  quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, supplyCSMM, supplyCPMM, supplyCMMM, invariantSupplyCSMM, invariantSupplyCPMM, invariantSupplyCMMM, invariantPriceCSMM, invariantPriceCPMM, spotPriceCMMM } from "./maths/charts";
+import { constant, constantFrom,  quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, supplyCSMM, supplyCPMM, supplyCMMM, invariantSupplyCSMM, invariantSupplyCPMM, invariantSupplyCMMM, invariantPriceCSMM, invariantPriceCPMM, spotPriceCMMM, invariantPriceCMMM } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
@@ -6,6 +6,10 @@ export const COLORS = {
 	SUPPLY_EXCHANGES: '#0096FF',
 	SUPPLY_DEFI: '#add8e6',
 	SUPPLY_GREY: '#d3d3d3',
+
+	SUPPLY_CS: '#0437F2',
+	SUPPLY_CP: '#3F00FF',
+	SUPPLY_CM: '#1F51FF',
 
 	DEMAND_SPECULATIVE: '#006727',
 	DEMAND_CONSUMERS: '#248823',
@@ -29,9 +33,9 @@ export const INVARIANT_SUPPLY_CP_200 = invariantSupplyCPMM(100, 200);
 export const INVARIANT_SUPPLY_CM_20 = invariantSupplyCMMM(100, 20);
 
 // INVARIANT PRICE
-export const INVARIANT_PRICE_CS_100 = invariantPriceCSMM(100,100);
+export const INVARIANT_PRICE_CS_100 = invariantPriceCSMM(100, 100);
 export const INVARIANT_PRICE_CP_200 = invariantPriceCPMM(100, 200);
-export const INVARIANT_PRICE_CM_20 = invariantSupplyCMMM(100, 20);
+export const INVARIANT_PRICE_CM_100 = invariantPriceCMMM(100, 100);
 
 // **********************************************************************************************************************
 // ****************************************************** Arrays ********************************************************

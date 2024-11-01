@@ -207,7 +207,7 @@ export const invariantSupplyCMMM = (numSamples: number, k: number) => {
 export const invariantPriceCMMM = (numSamples: number, k: number) => {
 	const amounts = [];
 	for (let i = 0; i < numSamples; i++) {
-		amounts.push(i * i / k);
+		amounts.push(i * i / (k * k));
 	}
 	console.log('invariantPriceCMMM: ',amounts);
 	return amounts;
