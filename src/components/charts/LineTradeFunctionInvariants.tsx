@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, SCALE, SUPPLY_CM_30, SUPPLY_CP_300, SUPPLY_CS_50, } from './config';
+import {  COLORS, INVARIANT_SUPPLY_CM_20, INVARIANT_SUPPLY_CP_200, INVARIANT_SUPPLY_CS_20, SCALE, } from './config';
 
 export default function LineTradeFunctionInvariants() {
   return (
@@ -16,21 +16,21 @@ export default function LineTradeFunctionInvariants() {
 					datasets: [{
 						fill: false,
 						label: 'CS_50',
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: SUPPLY_CS_50
+						backgroundColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_PROJECT,
+						data: INVARIANT_SUPPLY_CS_20
 					}, {
 						fill: false,
-						label: 'CP_300',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CP_300
+						label: 'CP_200',
+						backgroundColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_PROJECT,
+						data: INVARIANT_SUPPLY_CP_200
 					}, {
 						fill: false,
 						label: 'CM_20',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CM_30
+						backgroundColor: COLORS.SUPPLY_PROJECT,
+						borderColor: COLORS.SUPPLY_PROJECT,
+						data: INVARIANT_SUPPLY_CM_20
 					}, ]
 				}}
 				options={{
@@ -48,7 +48,7 @@ export default function LineTradeFunctionInvariants() {
 							stacked: false,
 							title: {
 								display: true,
-								text: 'CryptoCommodity Supply',
+								text: 'Paired Token Supply',
 								font: {
 									family: 'Comic Sans MS',
 									size: 20,
@@ -64,7 +64,7 @@ export default function LineTradeFunctionInvariants() {
 							display: true,
 							title: {
 							display: true,
-							text: 'Paired Token Supply (e.g USDT)',
+							text: 'CryptoCommodity Supply',
 							font: {
 								family: 'Comic Sans MS',
 								size: 20,

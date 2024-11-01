@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CP_50, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, } from './config';
+import {  COLORS, INVARIANT_PRICE_CM_20, INVARIANT_PRICE_CP_200, INVARIANT_PRICE_CS_100, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CP_50, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, } from './config';
 import { spotPriceCPMM } from "./maths/charts";
 
 export default function LineTradeFunctionSpotPrice() {
@@ -16,28 +16,22 @@ export default function LineTradeFunctionSpotPrice() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'CS_50',
+						label: 'CS_100',
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_50
-					}, {
-						fill: false,
-						label: 'CS_200',
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_200
-					}, {
-						fill: false,
-						label: 'CP_50',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_50
+						data: INVARIANT_PRICE_CS_100
 					}, {
 						fill: false,
 						label: 'CP_200',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_200
+						backgroundColor: COLORS.PRICE_CS,
+						borderColor: COLORS.PRICE_CS,
+						data: INVARIANT_PRICE_CP_200
+					}, {
+						fill: false,
+						label: 'CM_50',
+						backgroundColor: COLORS.PRICE_CS,
+						borderColor: COLORS.PRICE_CS,
+						data: INVARIANT_PRICE_CM_20
 					}, ]
 				}}
 				options={{

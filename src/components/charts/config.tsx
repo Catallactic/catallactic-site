@@ -1,4 +1,4 @@
-import { constant, constantFrom, invariantCPMM, invariantCSMM, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, invariantCMMM } from "./maths/charts";
+import { constant, constantFrom,  quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, supplyCSMM, supplyCPMM, supplyCMMM, invariantSupplyCSMM, invariantSupplyCPMM, invariantSupplyCMMM, invariantPriceCSMM, invariantPriceCPMM } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
@@ -12,11 +12,25 @@ export const COLORS = {
 	DEMAND_CARDS: '#25a032',
 
 	PRICING: '#8B0000',
-	PRICE_CP: '#AA4A44',
 	PRICE_CS: '#F88379',
+	PRICE_CP: '#AA4A44',
 }
 
 export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99];
+
+
+// **********************************************************************************************************************
+// ************************************************** Generic Data ******************************************************
+// **********************************************************************************************************************
+// INVARIANT SUPPLY
+export const INVARIANT_SUPPLY_CS_20 = invariantSupplyCSMM(100, 20);
+export const INVARIANT_SUPPLY_CP_200 = invariantSupplyCPMM(100, 200);
+export const INVARIANT_SUPPLY_CM_20 = invariantSupplyCMMM(100, 20);
+
+// INVARIANT PRICE
+export const INVARIANT_PRICE_CS_100 = invariantPriceCSMM(100,100);
+export const INVARIANT_PRICE_CP_200 = invariantPriceCPMM(100, 200);
+export const INVARIANT_PRICE_CM_20 = invariantSupplyCMMM(100, 20);
 
 // **********************************************************************************************************************
 // ****************************************************** Arrays ********************************************************
@@ -56,15 +70,15 @@ export const VC_PROJECT = SOLD_PROJECT;
 // PHYSICAL DEMAND
 export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.19, 0.1);
 
-// TRADE FUNCTIONS
-export const SUPPLY_CS_20 = invariantCSMM(100, VC_EXCHANGES, 20);
-export const SUPPLY_CS_30 = invariantCSMM(100, VC_EXCHANGES, 30);
-export const SUPPLY_CS_40 = invariantCSMM(100, VC_EXCHANGES, 40);
-export const SUPPLY_CS_50 = invariantCSMM(100, VC_EXCHANGES, 50);
-export const SUPPLY_CP_200 = invariantCPMM(100, VC_EXCHANGES, 200);
-export const SUPPLY_CP_300 = invariantCPMM(100, VC_EXCHANGES, 300);
-export const SUPPLY_CM_20 = invariantCMMM(100, VC_EXCHANGES, 20);
-export const SUPPLY_CM_30 = invariantCMMM(100, VC_EXCHANGES, 30);
+// TOKEN SUPPLY
+export const SUPPLY_CS_20 = supplyCSMM(100, VC_EXCHANGES, 20);
+export const SUPPLY_CS_30 = supplyCSMM(100, VC_EXCHANGES, 30);
+export const SUPPLY_CS_40 = supplyCSMM(100, VC_EXCHANGES, 40);
+export const SUPPLY_CS_50 = supplyCSMM(100, VC_EXCHANGES, 50);
+export const SUPPLY_CP_200 = supplyCPMM(100, VC_EXCHANGES, 200);
+export const SUPPLY_CP_300 = supplyCPMM(100, VC_EXCHANGES, 300);
+export const SUPPLY_CM_20 = supplyCMMM(100, VC_EXCHANGES, 20);
+export const SUPPLY_CM_30 = supplyCMMM(100, VC_EXCHANGES, 30);
 
 // SPOT PRICE
 export const PRICE_PROFILE_CS_50 = spotPriceCSMM(100, VC_EXCHANGES, 50);
