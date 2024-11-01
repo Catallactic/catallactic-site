@@ -223,7 +223,7 @@ export const supplyCMMM = (numSamples: number, supply: any[], k: number) => {
 export const spotPriceCMMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
 	for (let i = 0; i < numSamples; i++) {
-		amounts.push(supply[i] * supply[i] / k);
+		amounts.push(supply[i] * supply[i] / (k * k));
 	}
 	console.log('spotPriceCMMM: ',amounts);
 	return amounts;

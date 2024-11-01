@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, PRICE_PROFILE_CP_100, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CP_50, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
+import { COLORS, PRICE_PROFILE_CM_10, PRICE_PROFILE_CM_7, PRICE_PROFILE_CP_100, PRICE_PROFILE_CP_200, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, } from './config';
 
 export default function LineEstimateExchangesInitilizationChart() {
   return (
@@ -15,10 +15,16 @@ export default function LineEstimateExchangesInitilizationChart() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'CP_50',					      
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_50
+						label: 'CS_50',					      
+						backgroundColor: COLORS.PRICE_CS,
+						borderColor: COLORS.PRICE_CS,
+						data: PRICE_PROFILE_CS_50
+					}, {
+						fill: false,
+						label: 'CS_200',					      
+						backgroundColor: COLORS.PRICE_CS,
+						borderColor: COLORS.PRICE_CS,
+						data: PRICE_PROFILE_CS_200
 					}, {
 						fill: false,
 						label: 'CP_100',					      
@@ -33,22 +39,16 @@ export default function LineEstimateExchangesInitilizationChart() {
 						data: PRICE_PROFILE_CP_200
 					}, {
 						fill: false,
-						label: 'CP_300',					      
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_300
+						label: 'CM_7',					      
+						backgroundColor: COLORS.PRICE_CM,
+						borderColor: COLORS.PRICE_CM,
+						data: PRICE_PROFILE_CM_7
 					}, {
 						fill: false,
-						label: 'CS_50',					      
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_50
-					}, {
-						fill: false,
-						label: 'CS_200',					      
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_200
+						label: 'CM_10',					      
+						backgroundColor: COLORS.PRICE_CM,
+						borderColor: COLORS.PRICE_CM,
+						data: PRICE_PROFILE_CM_10
 					}, ]
 				}}
 				options={{
@@ -66,7 +66,7 @@ export default function LineEstimateExchangesInitilizationChart() {
 							stacked: false,
 							title: {
 								display: true,
-								text: 'Total Supply',
+								text: 'CryptoCommodity Supply',
 								font: {
 									family: 'Comic Sans MS',
 									size: 20,

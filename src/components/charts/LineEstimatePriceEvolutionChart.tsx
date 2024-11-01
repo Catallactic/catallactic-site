@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import { COLORS, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
+import { COLORS, PRICE_PROFILE_CM_10, PRICE_PROFILE_CM_7, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, VC_EXCHANGES } from './config';
 
 export default function LineEstimatePriceEvolutionChart() {
   return (
@@ -21,28 +21,22 @@ export default function LineEstimatePriceEvolutionChart() {
 						data: VC_EXCHANGES
 					}, {
 						fill: false,
-						label: 'CP300',					      
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_200,
-					}, {
-						fill: false,
-						label: 'CP200',					      
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: PRICE_PROFILE_CP_300,
-					}, {
-						fill: false,
 						label: 'CS_50',					      
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
 						data: PRICE_PROFILE_CS_50,
 					}, {
 						fill: false,
-						label: 'CS_200',					      
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: PRICE_PROFILE_CS_200,
+						label: 'CP_300',					      
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: PRICE_PROFILE_CP_200,
+					}, {
+						fill: false,
+						label: 'CM_10',					      
+						backgroundColor: COLORS.PRICE_CM,
+						borderColor: COLORS.PRICE_CM,
+						data: PRICE_PROFILE_CM_10,
 					}, ]
 				}}
 				options={{
@@ -60,7 +54,7 @@ export default function LineEstimatePriceEvolutionChart() {
 							stacked: false,
 							title: {
 								display: true,
-								text: 'Total Supply',
+								text: 'CryptoCommodity Supply',
 								font: {
 									family: 'Comic Sans MS',
 									size: 20,

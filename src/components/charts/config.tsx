@@ -1,4 +1,4 @@
-import { constant, constantFrom,  quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, supplyCSMM, supplyCPMM, supplyCMMM, invariantSupplyCSMM, invariantSupplyCPMM, invariantSupplyCMMM, invariantPriceCSMM, invariantPriceCPMM } from "./maths/charts";
+import { constant, constantFrom,  quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, supplyCSMM, supplyCPMM, supplyCMMM, invariantSupplyCSMM, invariantSupplyCPMM, invariantSupplyCMMM, invariantPriceCSMM, invariantPriceCPMM, spotPriceCMMM } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
@@ -12,8 +12,9 @@ export const COLORS = {
 	DEMAND_CARDS: '#25a032',
 
 	PRICING: '#8B0000',
-	PRICE_CS: '#F88379',
-	PRICE_CP: '#AA4A44',
+	PRICE_CS: '#C04000',
+	PRICE_CP: '#A52A2A',
+	PRICE_CM: '#913831',
 }
 
 export const SCALE = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60, 61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99];
@@ -80,10 +81,12 @@ export const SUPPLY_CP_300 = supplyCPMM(100, VC_EXCHANGES, 300);
 export const SUPPLY_CM_20 = supplyCMMM(100, VC_EXCHANGES, 20);
 export const SUPPLY_CM_30 = supplyCMMM(100, VC_EXCHANGES, 30);
 
-// SPOT PRICE
+// TOKEN SPOT PRICE
 export const PRICE_PROFILE_CS_50 = spotPriceCSMM(100, VC_EXCHANGES, 50);
 export const PRICE_PROFILE_CS_200 = spotPriceCSMM(100, VC_EXCHANGES, 200);
 export const PRICE_PROFILE_CP_50 = spotPriceCPMM(100, VC_EXCHANGES, 50);
 export const PRICE_PROFILE_CP_100 = spotPriceCPMM(100, VC_EXCHANGES, 100);
 export const PRICE_PROFILE_CP_200 = spotPriceCPMM(100, VC_EXCHANGES, 200);
 export const PRICE_PROFILE_CP_300 = spotPriceCPMM(100, VC_EXCHANGES, 300);
+export const PRICE_PROFILE_CM_7 = spotPriceCMMM(100, VC_EXCHANGES, 7);
+export const PRICE_PROFILE_CM_10 = spotPriceCMMM(100, VC_EXCHANGES, 10);
