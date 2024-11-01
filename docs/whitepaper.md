@@ -712,7 +712,7 @@ A spot exchange rate is the current price at which a person can exchange one cur
 The spot exchange rate is best thought of as how much you need to pay in one currency to buy another at any moment in time. The Spot Price (SP) in an AMM is calculated by dividing the amount of token 1 in the pool by the amount of token 2.
 
 <div style={{textAlign: 'center'}}>
-	<!-- Sport Price = \frac{Quantity of Asset X}{Quantity of Asset Y} -->
+	<!-- SpotPrice^{(1)} = \frac{X}{Y} -->
 	<img src="/img/equations/SpotPrice.svg"></img>
 </div>
 <br/>
@@ -767,7 +767,7 @@ The marginal rate of substitution (MRS) is the quantity of one good that a consu
 In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the amount of token received over the amount given away.
 
 <div style={{textAlign: 'center'}}>
-	<!-- Effective Price = - \frac{dX}{dY} \cong  \frac{X}{Y} -->
+	<!-- Effective Price^{(2)} = - \frac{dX}{dY} -->
 	<img src="/img/equations/EffectivePrice.svg"></img>
 </div>
 <br/>
@@ -827,9 +827,26 @@ A list of 2-asset Trading Functions used to build AMMs is provided below.
 				</td>
 			</tr>
 			<tr>
+				<td>CMMM</td>
+				<td>Constant Mean</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- (x*y)^{1/2}=k -->
+						<img src="/img/equations/CMMM_supply.svg"></img>
+					</div>
+				</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
 				<td>CPSMM</td>
 				<td>Constant Power Sum</td>
-				<td></td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- x^{1-\alpha}+y^{1-\alpha}=k -->
+						<img src="/img/equations/CPSMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -852,28 +869,26 @@ A list of 2-asset Trading Functions used to build AMMs is provided below.
 				<td></td>
 			</tr>
 			<tr>
-				<td>CEMM</td>
-				<td>Constant Ellipse</td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>CMMM</td>
-				<td>Constant Mean</td>
+				<td>G3M</td>
+				<td>Constant Power Mean</td>
 				<td>
 					<div style={{textAlign: 'center'}}>
-						<!-- (x*y)^{1/2}=k -->
-						<img src="/img/equations/CMMM_supply.svg"></img>
+						<!-- (\frac{x^{2}+y^{2}}{2})^{\frac{1}{2}}=k -->
+						<img src="/img/equations/G3M_supply.svg"></img>
 					</div>
 				</td>
 				<td></td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>G3M</td>
-				<td>Generalized Mean</td>
-				<td></td>
+				<td>CEMM</td>
+				<td>Constant Ellipse</td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- (x-a)^{2}+(y-a)^{2}+bxy=k -->
+						<img src="/img/equations/CEMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 				<td></td>
 			</tr>
@@ -905,7 +920,12 @@ A list of 2-asset Trading Functions used to build AMMs is provided below.
 			<tr>
 				<td>CLMM</td>
 				<td>Concentrated Liquidity</td>
-				<td></td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- (x+\frac{\sqrt{k}}{\sqrt{\alpha}})*(y+\sqrt{k}\sqrt{\beta})=k -->
+						<img src="/img/equations/CLMM_supply.svg"></img>
+					</div>
+				</td>
 				<td></td>
 				<td></td>
 			</tr>
