@@ -2,7 +2,8 @@
 sidebar_position: 1
 ---
 
-import PricingEstrategies from '@site/src/components/charts/PricingEstrategies';
+import LineTradeFunctionInvariants from '@site/src/components/charts/LineTradeFunctionInvariants';
+import LineTradeFunctionSpotPrice from '@site/src/components/charts/LineTradeFunctionSpotPrice';
 import DoughnutEndFundraisingTokenAllocationChart from '@site/src/components/charts/DoughnutEndFundraisingTokenAllocationChart';
 import DoughnutPreInitialTokenAllocationChart from '@site/src/components/charts/DoughnutPreInitialTokenAllocationChart';
 import DoughnutInitialTokenAllocationChart from '@site/src/components/charts/DoughnutInitialTokenAllocationChart';
@@ -131,8 +132,11 @@ import LineVestingSchedulesChart from '@site/src/components/charts/LineVestingSc
 ## LineEstimateCirculatingSupply
 <LineEstimateCirculatingSupply/>
 
-## PricingEstrategies
-<PricingEstrategies/>
+## LineTradeFunctionInvariants
+<LineTradeFunctionInvariants/>
+
+## LineTradeFunctionSpotPrice
+<LineTradeFunctionSpotPrice/>
 
 ## LineEstimatePriceEvolutionChart
 <LineEstimatePriceEvolutionChart/>

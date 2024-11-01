@@ -4,9 +4,9 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, SCALE, SUPPLY_CP_200, SUPPLY_CP_300, SUPPLY_CS_20, SUPPLY_CS_30, } from './config';
+import {  COLORS, SCALE, SUPPLY_CM_20, SUPPLY_CP_300, SUPPLY_CS_20, } from './config';
 
-export default function PricingEstrategies() {
+export default function LineTradeFunctionInvariants() {
   return (
     <>
 			<div className="chart-panel2">
@@ -15,28 +15,22 @@ export default function PricingEstrategies() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'CP200',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CP_200
-					}, {
-						fill: false,
-						label: 'CP300',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CP_300
-					}, {
-						fill: false,
-						label: 'CS20',
+						label: 'CS_20',
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
 						data: SUPPLY_CS_20
 					}, {
 						fill: false,
-						label: 'CS30',
-						backgroundColor: COLORS.PRICE_CS,
-						borderColor: COLORS.PRICE_CS,
-						data: SUPPLY_CS_30
+						label: 'CP_300',
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: SUPPLY_CP_300
+					}, {
+						fill: false,
+						label: 'CM_20',
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: SUPPLY_CM_20
 					}, ]
 				}}
 				options={{

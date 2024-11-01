@@ -3,7 +3,8 @@ sidebar_position: 1
 title: Whitepaper
 ---
 
-import PricingEstrategies from '@site/src/components/charts/PricingEstrategies';
+import LineTradeFunctionInvariants from '@site/src/components/charts/LineTradeFunctionInvariants';
+import LineTradeFunctionSpotPrice from '@site/src/components/charts/LineTradeFunctionSpotPrice';
 import LineEstimateTotalSupplyChart from '@site/src/components/charts/LineEstimateTotalSupplyChart';
 import LineEstimateCirculatingSupplyStaticExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyStaticExDemandChart';
 import LineEstimateCirculatingSupplyDynamicExDemandChart from '@site/src/components/charts/LineEstimateCirculatingSupplyDynamicExDemandChart';
@@ -778,7 +779,7 @@ In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the a
 
 CFMMs are the first class of AMMs designed by the crypto community to construct decentralized exchanges for digital assets. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained. The trading function is deterministic and known to all market participants.
 
-A list of 2-asset Trading Functions used to build AMMs is provided below.
+A list of 2-asset Trade Functions used to build AMMs is provided below. All invariant equations for Trade Functions can be generalized to n assets for multiasset liquidity pools.
 
 <!-- https://latexeditor.lagrida.com/ -->
 <!-- https://viereck.ch/latex-to-svg/ -->
@@ -940,12 +941,12 @@ CSMM is hardly ever used because allows arbitrageurs to drain one of the reserve
 
 The chart below represents the trading function for different CFMMs.
 
-<PricingEstrategies/>
+<LineTradeFunctionInvariants/>
 <br/>
 
 The chart below represents the bonding curves showing the spot price trajectory for different CFMMs. We will be able to select the expected price trajectory by selecting the suitable CFMM. We will use this trajectory later on estimations.
 
-<PricingEstrategies/>
+<LineTradeFunctionSpotPrice/>
 <br/>
 
 

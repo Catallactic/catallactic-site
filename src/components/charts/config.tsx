@@ -1,4 +1,4 @@
-import { constant, constantFrom, constantProductSupply, constantSumSupply, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, constantProductSpotPrice, constantSumSpotPrice } from "./maths/charts";
+import { constant, constantFrom, invariantCPMM, invariantCSMM, quadraticCurve, quadraticRegression, revertArray, sumArrays, vesting, spotPriceCPMM, spotPriceCSMM, invariantCMMM } from "./maths/charts";
 
 export const COLORS = {
 	SUPPLY_PROJECT: '#0a1172',
@@ -57,15 +57,17 @@ export const VC_PROJECT = SOLD_PROJECT;
 export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.19, 0.1);
 
 // PRICING FUNCTIONS
-export const SUPPLY_CP_200 = constantProductSupply(100, 200);
-export const SUPPLY_CP_300 = constantProductSupply(100, 300);
-export const SUPPLY_CS_20 = constantSumSupply(100, 20);
-export const SUPPLY_CS_30 = constantSumSupply(100, 30);
+export const SUPPLY_CS_20 = invariantCSMM(100, 20);
+export const SUPPLY_CS_30 = invariantCSMM(100, 30);
+export const SUPPLY_CP_200 = invariantCPMM(100, 200);
+export const SUPPLY_CP_300 = invariantCPMM(100, 300);
+export const SUPPLY_CM_20 = invariantCMMM(100, 20);
+export const SUPPLY_CM_30 = invariantCMMM(100, 30);
 
 // SPOT PRICE
-export const PRICE_PROFILE_CP_50 = constantProductSpotPrice(100, VC_EXCHANGES, 50);
-export const PRICE_PROFILE_CP_100 = constantProductSpotPrice(100, VC_EXCHANGES, 100);
-export const PRICE_PROFILE_CP_200 = constantProductSpotPrice(100, VC_EXCHANGES, 200);
-export const PRICE_PROFILE_CP_300 = constantProductSpotPrice(100, VC_EXCHANGES, 300);
-export const PRICE_PROFILE_CS_50 = constantSumSpotPrice(100, VC_EXCHANGES, 50);
-export const PRICE_PROFILE_CS_200 = constantSumSpotPrice(100, VC_EXCHANGES, 200);
+export const PRICE_PROFILE_CS_50 = spotPriceCSMM(100, VC_EXCHANGES, 50);
+export const PRICE_PROFILE_CS_200 = spotPriceCSMM(100, VC_EXCHANGES, 200);
+export const PRICE_PROFILE_CP_50 = spotPriceCPMM(100, VC_EXCHANGES, 50);
+export const PRICE_PROFILE_CP_100 = spotPriceCPMM(100, VC_EXCHANGES, 100);
+export const PRICE_PROFILE_CP_200 = spotPriceCPMM(100, VC_EXCHANGES, 200);
+export const PRICE_PROFILE_CP_300 = spotPriceCPMM(100, VC_EXCHANGES, 300);
