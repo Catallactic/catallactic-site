@@ -128,55 +128,55 @@ export const quadraticRegression = (numSamples: number, xArray: any[], yArray: a
 // ****************************************************** known charts **************************************************
 // **********************************************************************************************************************
 // CSMM
-export const invariantCSMM = (numSamples: number, k: number) => {
+export const invariantCSMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
-		amounts.push(k - i);
+	for (let i = 0; i < numSamples; i++) {
+		amounts.push(k - supply[i]);
 	}
-	console.log('constantSumSupply: ',amounts);
+	console.log('invariantCSMM: ',amounts);
 	return amounts;
 }
 export const spotPriceCSMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
+	for (let i = 0; i < numSamples; i++) {
 		amounts.push(supply[i] / (k - supply[i]));
 	}
-	console.log('constantSumPrice: ',amounts);
+	console.log('spotPriceCSMM: ',amounts);
 	return amounts;
 }
 
 // CPMM
-export const invariantCPMM = (numSamples: number, k: number) => {
+export const invariantCPMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
-		amounts.push(k/i);
+	for (let i = 0; i < numSamples; i++) {
+		amounts.push(k/supply[i]);
 	}
-	console.log('constantProductSupply: ',amounts);
+	console.log('invariantCPMM: ',amounts);
 	return amounts;
 }
 export const spotPriceCPMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
+	for (let i = 0; i < numSamples; i++) {
 		amounts.push(supply[i] * supply[i] / k);
 	}
-	console.log('constantProductPrice: ',amounts);
+	console.log('spotPriceCPMM: ',amounts);
 	return amounts;
 }
 
 // CMMM
-export const invariantCMMM = (numSamples: number, k: number) => {
+export const invariantCMMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
-		amounts.push(k*k/i);
+	for (let i = 0; i < numSamples; i++) {
+		amounts.push(k*k/supply[i]);
 	}
-	console.log('constantMeanSupply: ',amounts);
+	console.log('invariantCMMM: ',amounts);
 	return amounts;
 }
 export const spotPriceCMMM = (numSamples: number, supply: any[], k: number) => {
 	const amounts = [];
-	for (let i = 1; i <= numSamples; i++) {
+	for (let i = 0; i < numSamples; i++) {
 		amounts.push(supply[i] * supply[i] / k);
 	}
-	console.log('constantMeanSpotPrice: ',amounts);
+	console.log('spotPriceCMMM: ',amounts);
 	return amounts;
 }

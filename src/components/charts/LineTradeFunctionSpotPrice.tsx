@@ -4,7 +4,8 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, SCALE, SUPPLY_CP_200, SUPPLY_CP_300, SUPPLY_CS_20, SUPPLY_CS_30, } from './config';
+import {  COLORS, PRICE_PROFILE_CP_200, PRICE_PROFILE_CP_300, PRICE_PROFILE_CP_50, PRICE_PROFILE_CS_200, PRICE_PROFILE_CS_50, SCALE, } from './config';
+import { spotPriceCPMM } from "./maths/charts";
 
 export default function LineTradeFunctionSpotPrice() {
   return (
@@ -15,28 +16,28 @@ export default function LineTradeFunctionSpotPrice() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'CP200',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CP_200
-					}, {
-						fill: false,
-						label: 'CP300',
-						backgroundColor: COLORS.PRICE_CP,
-						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CP_300
-					}, {
-						fill: false,
-						label: 'CS20',
+						label: 'CS_50',
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
-						data: SUPPLY_CS_20
+						data: PRICE_PROFILE_CS_50
 					}, {
 						fill: false,
-						label: 'CS30',
+						label: 'CS_200',
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
-						data: SUPPLY_CS_30
+						data: PRICE_PROFILE_CS_200
+					}, {
+						fill: false,
+						label: 'CP_50',
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: PRICE_PROFILE_CP_50
+					}, {
+						fill: false,
+						label: 'CP_200',
+						backgroundColor: COLORS.PRICE_CP,
+						borderColor: COLORS.PRICE_CP,
+						data: PRICE_PROFILE_CP_200
 					}, ]
 				}}
 				options={{
@@ -54,7 +55,7 @@ export default function LineTradeFunctionSpotPrice() {
 							stacked: false,
 							title: {
 								display: true,
-								text: 'CryptoCommodity Supply',
+								text: 'CryptoCommodity Price',
 								font: {
 									family: 'Comic Sans MS',
 									size: 20,
@@ -70,7 +71,7 @@ export default function LineTradeFunctionSpotPrice() {
 							display: true,
 							title: {
 							display: true,
-							text: 'Paired Token Supply (e.g USDT)',
+							text: 'CryptoCommodity Supply',
 							font: {
 								family: 'Comic Sans MS',
 								size: 20,

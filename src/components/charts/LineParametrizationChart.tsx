@@ -1,6 +1,6 @@
 import { Line } from "react-chartjs-2";
 import annotationPlugin from 'chartjs-plugin-annotation';
-import { Chart } from 'chart.js';
+import Chart from 'chart.js/auto';
 Chart.register(annotationPlugin);
 
 import { COLORS } from './config';

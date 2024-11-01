@@ -802,7 +802,12 @@ A list of 2-asset Trade Functions used to build AMMs is provided below. All inva
 						<img src="/img/equations/CSMM_supply.svg"></img>
 					</div>
 				</td>
-				<td></td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \frac{x}{k-x} -->
+						<img src="/img/equations/CSMM_spot.svg"></img>
+					</div>
+				</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -816,7 +821,7 @@ A list of 2-asset Trade Functions used to build AMMs is provided below. All inva
 				</td>
 				<td>
 					<div style={{textAlign: 'center'}}>
-						<!-- \frac{k}{y^{2}} -->
+						<!-- \frac{x^{2}}{k} -->
 						<img src="/img/equations/CPMM_spot.svg"></img>
 					</div>
 				</td>
@@ -836,7 +841,12 @@ A list of 2-asset Trade Functions used to build AMMs is provided below. All inva
 						<img src="/img/equations/CMMM_supply.svg"></img>
 					</div>
 				</td>
-				<td></td>
+				<td>
+					<div style={{textAlign: 'center'}}>
+						<!-- \frac{x^{2}}{k^{2}} -->
+						<img src="/img/equations/CMMM_spot.svg"></img>
+					</div>
+				</td>
 				<td></td>
 			</tr>
 			<tr>

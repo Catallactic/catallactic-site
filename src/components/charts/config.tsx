@@ -56,13 +56,15 @@ export const VC_PROJECT = SOLD_PROJECT;
 // PHYSICAL DEMAND
 export const PHYSICAL_DEMAND = quadraticCurve(100, 0.003, 0.19, 0.1);
 
-// PRICING FUNCTIONS
-export const SUPPLY_CS_20 = invariantCSMM(100, 20);
-export const SUPPLY_CS_30 = invariantCSMM(100, 30);
-export const SUPPLY_CP_200 = invariantCPMM(100, 200);
-export const SUPPLY_CP_300 = invariantCPMM(100, 300);
-export const SUPPLY_CM_20 = invariantCMMM(100, 20);
-export const SUPPLY_CM_30 = invariantCMMM(100, 30);
+// TRADE FUNCTIONS
+export const SUPPLY_CS_20 = invariantCSMM(100, VC_EXCHANGES, 20);
+export const SUPPLY_CS_30 = invariantCSMM(100, VC_EXCHANGES, 30);
+export const SUPPLY_CS_40 = invariantCSMM(100, VC_EXCHANGES, 40);
+export const SUPPLY_CS_50 = invariantCSMM(100, VC_EXCHANGES, 50);
+export const SUPPLY_CP_200 = invariantCPMM(100, VC_EXCHANGES, 200);
+export const SUPPLY_CP_300 = invariantCPMM(100, VC_EXCHANGES, 300);
+export const SUPPLY_CM_20 = invariantCMMM(100, VC_EXCHANGES, 20);
+export const SUPPLY_CM_30 = invariantCMMM(100, VC_EXCHANGES, 30);
 
 // SPOT PRICE
 export const PRICE_PROFILE_CS_50 = spotPriceCSMM(100, VC_EXCHANGES, 50);

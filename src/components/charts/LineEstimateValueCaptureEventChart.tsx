@@ -1,7 +1,7 @@
 import { Line } from "react-chartjs-2";
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import annotationPlugin from 'chartjs-plugin-annotation';
-import { Chart } from 'chart.js';
+import Chart from 'chart.js/auto';
 Chart.register(annotationPlugin);
 
 import { COLORS, PHYSICAL_DEMAND, SCALE, VC_EXCHANGES } from './config';
@@ -18,7 +18,7 @@ export default function LineEstimateValueCaptureEventChart() {
 						label: 'Supply at Exchanges',					      
 						backgroundColor: COLORS.SUPPLY_EXCHANGES,
 						borderColor: COLORS.SUPPLY_EXCHANGES,
-						data:  VC_EXCHANGES
+						data: VC_EXCHANGES
 					}, {
 						fill: false,
 						label: 'Physical Demand',					      

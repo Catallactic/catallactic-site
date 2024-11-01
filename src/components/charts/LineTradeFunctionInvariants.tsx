@@ -4,7 +4,7 @@ import annotationPlugin from 'chartjs-plugin-annotation';
 import { Chart } from 'chart.js';
 Chart.register(annotationPlugin);
 
-import {  COLORS, SCALE, SUPPLY_CM_20, SUPPLY_CP_300, SUPPLY_CS_20, } from './config';
+import {  COLORS, SCALE, SUPPLY_CM_30, SUPPLY_CP_300, SUPPLY_CS_50, } from './config';
 
 export default function LineTradeFunctionInvariants() {
   return (
@@ -15,10 +15,10 @@ export default function LineTradeFunctionInvariants() {
 					labels: SCALE,
 					datasets: [{
 						fill: false,
-						label: 'CS_20',
+						label: 'CS_50',
 						backgroundColor: COLORS.PRICE_CS,
 						borderColor: COLORS.PRICE_CS,
-						data: SUPPLY_CS_20
+						data: SUPPLY_CS_50
 					}, {
 						fill: false,
 						label: 'CP_300',
@@ -30,7 +30,7 @@ export default function LineTradeFunctionInvariants() {
 						label: 'CM_20',
 						backgroundColor: COLORS.PRICE_CP,
 						borderColor: COLORS.PRICE_CP,
-						data: SUPPLY_CM_20
+						data: SUPPLY_CM_30
 					}, ]
 				}}
 				options={{
