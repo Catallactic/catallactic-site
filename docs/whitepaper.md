@@ -741,9 +741,43 @@ The product has achieved initial success. For practicality, the actual use of th
 
 As we discussed, the spot price is only suitable for infinitesimal trades and only applies for specific amount of the traded goods. For a more generic relationship on trading goods covering a broader range of amount we have to introduce a more dynamic concept of price. 
 
-##### 8.3.3.1. Indifference Curves
+##### 8.3.3.1. Utility Functions
 
-From wikipedia In economics, an **Indifference curve** connects points on a graph representing different quantities of two goods, points between which a consumer is indifferent. That is, any combinations of two products indicated by the curve will provide the consumer with equal levels of utility, and the consumer has no preference for one combination or bundle of goods over a different combination on the same curve. **One can also refer to each point on the indifference curve as rendering the same level of utility (satisfaction) for the consumer**.
+In consumer theory, Utility represents the satisfaction or pleasure that consumers receive for consuming a good or service. A utility function is a representation to define individual preferences for goods or services beyond the explicit monetary value of those goods or services. A utility function assigns numerical values ("utilities") to outcomes, in such a way that outcomes with higher utilities are absolutely always preferred to outcomes with lower utilities.
+
+Some example of utility Functions are shown below:
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tbody>
+			<tr>
+				<th style={{textAlign: 'center'}}>Symbol</th>
+				<th style={{textAlign: 'center'}}>Trading Function</th>
+			</tr>
+			<tr>
+				<td>Cobb-Douglas</td>
+				<td>U = x^a * y^b</td>
+			</tr>
+			<tr>
+				<td>Perfect complements</td>
+				<td>U = min ( ax, by )</td>
+			</tr>
+			<tr>
+				<td>Perfect substitutes</td>
+				<td>U = ax + by</td>
+			</tr>
+			<tr>
+				<td>Quasi-linear</td>
+				<td>U = ax + f(y)</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+##### 8.3.3.2. Indifference Curves
+
+An **indifference curve** is a level curve of a utility function. An Indifference curve connects points on a graph representing different quantities of two goods, points between which a consumer is indifferent. **One can also refer to each point on the indifference curve as rendering the same level of utility (satisfaction) for the consumer**.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Simple-indifference-curves.svg" width="30%"></img>
@@ -752,16 +786,16 @@ From wikipedia In economics, an **Indifference curve** connects points on a grap
 
 There are infinitely many indifference curves or invariants: one passes through each combination. A collection of (selected) indifference curves, illustrated graphically, is referred to as an indifference map.
 
-##### 8.3.3.2. Trade Function
+##### 8.3.3.3. Trade Function
 
-If we apply the idea of Indifference Curves to Automatic Market Makers, we can have different AMMs depending on the **Trade Function**. A trade function or invariant equation is a set of rules which determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared.
+If we apply the idea of Utility Functions and Indifference Curves to Automatic Market Makers, we can have different AMMs depending on the **Trade Function**. A trade function or invariant equation is a set of rules which determine how liquidity takers (LTs) and liquidity providers (LPs) interact, and how markets are cleared.
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://cdn.prod.website-files.com/64b702e0e92a993f08b979ce/67044973ce60f38d6c56821b_66705d0856320aff65c862f8_AMM%2520pricing%2520chart.png" width="50%"></img>
 </div>
 <br/>
 
-##### 8.3.3.3. Effective Price
+##### 8.3.3.4. Effective Price
 
 The marginal rate of substitution (MRS) is the quantity of one good that a consumer can forego for additional units of another good at the same utility level. The marginal rate of substitution is represented as a slope on the indifference curve, and each point along the curve shows the number of units of each good that would be substitutable for another.
 
@@ -774,8 +808,6 @@ In the context of AMMs, this MRS is the Effective Price (EP) of a trade is the a
 <br/>
 
 #### 8.3.4. Constant Function Market Makers (CFMMs)
-
-
 
 CFMMs are the first class of AMMs designed by the crypto community to construct decentralized exchanges for digital assets. Traders who want to exchange tokens of type A for tokens of another type B, add A tokens to the inventory and in return obtain an amount of B tokens from the inventory so that the invariant is maintained. The trading function is deterministic and known to all market participants.
 
@@ -981,16 +1013,11 @@ The Second Generation of AMMs is a series of novel projects with innovative blue
 				<th style={{textAlign: 'center'}}>Description</th>
 			</tr>
 			<tr>
-				<td>LMSR - Logarithmic Market Scoring Rule</td>
-				<td>Logarithmic Market Scoring Rule (LMSR), which was invented by Robin Hanson, maintains an invariant that is the logarithm of a sum of exponentials of the inventories.</td>
+				<th style={{textAlign: 'center'}} colSpan="2">Second Generation</th>
 			</tr>
 			<tr>
 				<td>TWAMM - Time-Weighted Automated Market Maker</td>
 				<td>The primary goal of the TWAMM is to execute its long-term orders smoothly over time so that they are executed for close to the prevailing time-weighted average price</td>
-			</tr>
-			<tr>
-				<td>BMM - Bayesian Market Maker</td>
-				<td>The market maker observes the quantity demanded, and sets a price based on this quantity. The trader is informed of this price and can then choose whether or not to execute the trade at that price.</td>
 			</tr>
 			<tr>
 				<td>DAMM - Dynamic Automated Market Maker</td>
@@ -1001,16 +1028,27 @@ The Second Generation of AMMs is a series of novel projects with innovative blue
 				<td>PMMs work by adjusting their prices in response to real-world market trends and expert predictions. The goal of PMMs is to ensure that the prices on these platforms reflect what’s happening in the wider financial market.</td>
 			</tr>
 			<tr>
-				<td>PMMM - Pari-mutuel Market Makers</td>
-				<td>A pari-mutuel mechanism is characterized by the ability to shield the market organizer from financial risk by paying the winners from the stakes of the losers.</td>
-			</tr>
-			<tr>
 				<td>vAMM - Virtual Automated Market Makers</td>
 				<td>vAMMs do not hold actual assets but use mathematical formulas to simulate trading and liquidity provision. They are primarily used in derivative platforms to enable trading without the need for traditional counterparts.</td>
 			</tr>
 			<tr>
 				<td>TSMM - Token Swap Market Maker</td>
 				<td>The token swap (TS) model denotes a trading pair of two liquidity pools. Swapping between the two tokens is facilitated through an intermediary token.</td>
+			</tr>
+			<tr>
+				<th style={{textAlign: 'center'}} colSpan="2">Prediction Markets</th>
+			</tr>
+			<tr>
+				<td>LMSR - Logarithmic Market Scoring Rule</td>
+				<td>Logarithmic Market Scoring Rule (LMSR), which was invented by Robin Hanson, maintains an invariant that is the logarithm of a sum of exponentials of the inventories.</td>
+			</tr>
+			<tr>
+				<td>BMM - Bayesian Market Maker</td>
+				<td>The market maker observes the quantity demanded, and sets a price based on this quantity. The trader is informed of this price and can then choose whether or not to execute the trade at that price.</td>
+			</tr>
+			<tr>
+				<td>PMMM - Pari-mutuel Market Makers</td>
+				<td>A pari-mutuel mechanism is characterized by the ability to shield the market organizer from financial risk by paying the winners from the stakes of the losers.</td>
 			</tr>
 		</tbody>
 	</table>
