@@ -37,6 +37,11 @@ export default function WhySection(): JSX.Element {
     <section className={styles.services}>
       <div className="container">
 
+				<div className="text-center pb-1 mb-4 red-border">
+					<div className="h1 fw-bold color-theme-reverse2 red p-1">Project ON HOLD. Waiting for more serious times.</div>
+					<div className="h4 fw-bold color-theme-reverse2 red p-1">The project will return when all people aiming to derail crypto move to something else.</div>
+				</div>
+
 				<div className="text-center pb-1 mb-4">
 				{<div className="h1 fw-bold color-theme-reverse2">Building Representative Money</div>}
 					<p className="h3 color-theme-reverse1 mt-5 lh-base">An Open Source Framework to build <b>Decentralization in Value</b>. A step into <b>Private Currency Competition</b>.</p>
