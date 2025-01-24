@@ -644,13 +644,11 @@ Before a CryptoCommodity can be transfer the value of underlying asset to the so
 #### 8.2.1. P2P Exchanges
 
 
-#### 8.2.2. Order Book (CEX)
+#### 8.2.2. Centralized Order Book (CEX)
 
 Centralized exchanges (CEXs) are cryptocurrency exchanges that monitor and facilitate crypto asset trading between users with the help of a centralized intermediary. Like traditional electronic stock exchanges, CEXs use an order book system to display and match buy and sell orders from users.
 
 When you place a buy order on a CEX to buy a crypto token, the CEX order matching engine searches for a sell order that’s placed at the same price as your buying price. Once there’s a match, the CEX executes your trade and funds your account with the token you wanted.
-
-Centralised exchanges utilise independent entities called Market Makers to make the market for the traders via order books, instead of an algorithmic automatic market maker that DEXs utilise. This means that if you or the CEX utilises a bad market maker, it will be more problematic than simply launching on a DEX.
 
 #### 8.2.3. Automated Market Maker (DEX)
 
@@ -659,7 +657,6 @@ Decentralized exchanges (DEXs) are crypto exchanges where users can swap one cry
 Instead of relying on a central company to operate, decentralized exchanges use self-executing, autonomous smart contracts to process token swap requests. 
 
 Initially, DEXs used on-chain order books, but this required every node of a blockchain to record a trade order before the order could get completed. As one might guess, this made the process unbearably slow. The solution: automated market maker (AMM) decentralized exchanges. They use pre-funded pools of crypto assets called liquidity pools that usually hold token pairs in a 50/50 ratio. 
-
 
 #### 8.2.4. Liquidity Pools
 
@@ -992,7 +989,7 @@ The chart below represents the bonding curves showing the spot price trajectory 
 <br/>
 
 
-#### 8.3.5. Problems of CFMMs
+#### 8.3.5. Limitations of CFMMs
 
 **Slippage** as a function expresses the difference between the spot price of an asset in the pool and the effective price obtained after the completion of the trade.
 
@@ -1035,21 +1032,6 @@ The Second Generation of AMMs is a series of novel projects with innovative blue
 				<td>TSMM - Token Swap Market Maker</td>
 				<td>The token swap (TS) model denotes a trading pair of two liquidity pools. Swapping between the two tokens is facilitated through an intermediary token.</td>
 			</tr>
-			<tr>
-				<th style={{textAlign: 'center'}} colSpan="2">Prediction Markets</th>
-			</tr>
-			<tr>
-				<td>LMSR - Logarithmic Market Scoring Rule</td>
-				<td>Logarithmic Market Scoring Rule (LMSR), which was invented by Robin Hanson, maintains an invariant that is the logarithm of a sum of exponentials of the inventories.</td>
-			</tr>
-			<tr>
-				<td>BMM - Bayesian Market Maker</td>
-				<td>The market maker observes the quantity demanded, and sets a price based on this quantity. The trader is informed of this price and can then choose whether or not to execute the trade at that price.</td>
-			</tr>
-			<tr>
-				<td>PMMM - Pari-mutuel Market Makers</td>
-				<td>A pari-mutuel mechanism is characterized by the ability to shield the market organizer from financial risk by paying the winners from the stakes of the losers.</td>
-			</tr>
 		</tbody>
 	</table>
 </div>
@@ -1066,9 +1048,12 @@ To honour decentralization principles, we will consider only deterministic marke
 	<table>
 		<tbody>
 			<tr>
-				<td style={{textAlign: 'center'}}>Symbol</td>
-				<td style={{textAlign: 'center'}}>Trading Function</td>
-				<td style={{textAlign: 'center'}}>Exchanges</td>
+				<th style={{textAlign: 'center'}}>Symbol</th>
+				<th style={{textAlign: 'center'}}>Trading Function</th>
+				<th style={{textAlign: 'center'}}>Exchanges</th>
+			</tr>
+			<tr>
+				<th style={{textAlign: 'center'}} colSpan="3">CFMM</th>
 			</tr>
 			<tr>
 				<td>CSMM</td>
@@ -1083,13 +1068,10 @@ To honour decentralization principles, we will consider only deterministic marke
 				<td>
 					Uniswap-v1,
 					Uniswap-v2,
-					<a href="https://www.uswap.biz/protocol.php" target="_blank">USwap</a>
+					<a href="https://www.uswap.biz/protocol.php" target="_blank">USwap</a>, 
+					<a href="https://sunswap.com/" target="_blank">SunSwap</a>,
+					<a href="https://hydradx.io/" target="_blank">Hydration</a>
 				</td>
-			</tr>
-			<tr>
-				<td>CWP</td>
-				<td>Constant Weighted Product</td>
-				<td></td>
 			</tr>
 			<tr>
 				<td>CMMM</td>
@@ -1100,8 +1082,25 @@ To honour decentralization principles, we will consider only deterministic marke
 			</tr>
 			<tr>
 				<td>G3M</td>
-				<td>Generalized Mean Market Maker</td>
+				<td>Constant Power Mean Market Maker</td>
 				<td></td>
+			</tr>
+			<tr>
+				<td>CLMM</td>
+				<td>Concentrated Liquidity Market Maker</td>
+				<td>
+					<a href="https://www.orca.so/" target="_blank">Orca</a>,
+					<a href="https://beamswap.io/" target="_blank">Beamswap</a>,
+					<a href="https://raydium.io/" target="_blank">Raydium</a>
+				</td>
+			</tr>
+			<tr>
+				<td>CWP</td>
+				<td>Constant Weighted Product</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th style={{textAlign: 'center'}} colSpan="3">Second Generation CFMM</th>
 			</tr>
 			<tr>
 				<td>HCFAMM</td>
