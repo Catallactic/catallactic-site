@@ -96,6 +96,7 @@ export default function WhySection(): JSX.Element {
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 										<h4 className="font-italic mb-4">Ready for Issuers</h4>
 										<p className="font-italic text-muted mb-2">Catallactic aims to relief CryptoCommodity issuers of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. Instead, we create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
+										<p className="font-italic text-muted mb-2">We deliver a Tokenization Platform which allows adopters to issue and manage their CryptoCommodity without the technical burden.</p>
 										<p className="font-italic text-muted mb-2">The outcomes from Catallactic are Open Source and will allow private actors to build additional tools, plugins or know-how that can complement Catallactic deliverables.</p>
 									</div>
 
