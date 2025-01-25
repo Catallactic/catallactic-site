@@ -63,6 +63,7 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5 show active" id="whytab0" role="tabpanel" aria-labelledby="v-pills-home-tab">
 										<h4 className="font-italic mb-4">Why Catallactic?</h4>
+										<hr/>
 										<p className="font-italic text-muted mb-2">Because this is the real crypto.</p>
 										<p className="font-italic text-muted mb-2">Crypto was born in 2009 with the promise of decentralization from a non fiat currency, Bitcoin. However, tokenization projects have evolved with the financing of venture-capital backed crypto companies and financial firms, that have modified the initial promise, to make it more centralized and fiat dependent.</p>
 										<p className="font-italic text-muted mb-2">Whereas we think this is a distortion from the initial principles, we find that the tools and processs developed inherit this centraliced and fiat nature and alternative approaches are miss-represented. In short there is a fiat bias in tools and processes.</p>
@@ -72,6 +73,7 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-competition-tab">
 										<h4 className="font-italic mb-4">Backed By Commodities</h4>
+										<hr/>
 										<p className="font-italic text-muted mb-2">Catallactic aims to build cryptocurrencies that comply with Regression Theorem, and therefore, that capture the intrinsic value of Commodities as underlaying asset. This is why the currencies are called as CryptoCommodities.</p>
 										<p className="font-italic text-muted mb-2">We capture the intrinsic value by allocating a unit of the underlying asset to a unit of the CryptoCommodity. This binding is enforced by the smart contact processing and users interaction.</p>
 										<p className="font-italic text-muted mb-2">Different Commodities, issuers and scopes will have different features, so there is a degree of customization for the dimensions of every CryptoCommodity.</p>
@@ -79,6 +81,7 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab2" role="tabpanel" aria-labelledby="v-pills-backed-tab">
 										<h4 className="font-italic mb-4">Stable in Value / Non-Fiat</h4>
+										<hr/>
 										<p className="font-italic text-muted mb-2">By exposing commodities intrinsic value enables capturing into the token price the <b>marginal utility as perceived by consumers</b>. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
 										<p className="font-italic text-muted mb-2">Commodities backed cryptocurrencies hold <a href="/docs/whitepaper#31-the-underlying-asset">different features to a stablecoin</a> and are eligible to participate into the price system of the adopting jurisdiction.</p>
 										<p className="font-italic text-muted mb-2"><b>Catallactic advocates for a built-in price formation as a basis to deliver true value decentralization. Stablecoins are centralized because they are pegged to a fiat price formed in international markets</b>.</p>
@@ -86,6 +89,7 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab3" role="tabpanel" aria-labelledby="v-pills-backed-tab">
 										<h4 className="font-italic mb-4">Decentralized / Interoperable</h4>
+										<hr/>
 										<p className="font-italic text-muted mb-2">Catallactic builts on top of the existing DLT networks. Despite more work is need, we consider there is already a foundation that can be used for our purposes.</p>
 										<p className="font-italic text-muted mb-2">We think there is not yet any network which is good enough and the overall status of the industry is in beta status and not yet ready for massification. As a consequence we do not adhere to specific chains. Instead, we build for any specific chains which can process transaction on top of the EVM, as the more used standard for smart contracts implementation. We consider in future to adapt to other virtual machines and languages.</p>
 										<p className="font-italic text-muted mb-2">Catallactic has preference for PoW chains. EVM-enabled Bitcoin L2s able being explored as ideal hosts for Catallactic smart contracts.</p>
@@ -95,6 +99,7 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 										<h4 className="font-italic mb-4">Ready for Issuers</h4>
+										<hr/>
 										<p className="font-italic text-muted mb-2">Catallactic aims to relief CryptoCommodity issuers of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. Instead, we create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
 										<p className="font-italic text-muted mb-2">We deliver a Tokenization Platform which allows adopters to issue and manage their CryptoCommodity without the technical burden.</p>
 										<p className="font-italic text-muted mb-2">The outcomes from Catallactic are Open Source and will allow private actors to build additional tools, plugins or know-how that can complement Catallactic deliverables.</p>
@@ -102,6 +107,7 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab5" role="tabpanel" aria-labelledby="v-pills-local-tab">
 										<h4 className="font-italic mb-4">Local Scope / In Competition</h4>
+										<hr/>
 										<p className="font-italic text-muted mb-2">Different communities have different monetary requirements and commodities availability. To enable this fine tuning of the monetary availability, we think CryptoCommodities should be issued and applicable at local scope by local actors. This provides a valuable tool for communities driven entrepreneurship.</p>
 										<p className="font-italic text-muted mb-2">Simgle currencies as Bitcoin represent a single point of failure and a evident target for scammers and censonship. To deliver censorship resistance and suiatble price formation, CryptoCommodities are thought to be issued by multiple actors and in full competition, relying on the market the price formation task.</p>
 									</div>
