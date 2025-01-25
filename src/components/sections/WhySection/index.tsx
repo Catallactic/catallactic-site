@@ -5,31 +5,16 @@ import styles from './styles.module.css';
 // https://www.kallmanation.com/building-linkable-tabs-with-only-css
 
 function setShownTab(num: number) {
-	document.getElementById("whytab0").classList.remove("show");
-	document.getElementById("whytab0").classList.remove("active");
-	document.getElementById("v-whytab0").classList.remove("active");
-	document.getElementById("whytab1").classList.remove("show");
-	document.getElementById("whytab1").classList.remove("active");
-	document.getElementById("v-whytab1").classList.remove("active");
-	//document.getElementById("whytab2").classList.remove("show");
-	//document.getElementById("whytab2").classList.remove("active");
-	//document.getElementById("v-whytab2").classList.remove("active");
-	//document.getElementById("whytab3").classList.remove("show");
-	//document.getElementById("whytab3").classList.remove("active");
-	//document.getElementById("v-whytab3").classList.remove("active");
-	//document.getElementById("whytab4").classList.remove("show");
-	//document.getElementById("whytab4").classList.remove("active");
-	//document.getElementById("v-whytab4").classList.remove("active");
-	document.getElementById("whytab5").classList.remove("show");
-	document.getElementById("whytab5").classList.remove("active");
-	document.getElementById("v-whytab5").classList.remove("active");
-	document.getElementById("whytab6").classList.remove("show");
-	document.getElementById("whytab6").classList.remove("active");
-	document.getElementById("v-whytab6").classList.remove("active");
 
+	for (let i = 0; i <= 5; i++) {
+		document.getElementById("v-whytab" + i).classList.remove("active");
+		document.getElementById("whytab" + i).classList.remove("show");
+		document.getElementById("whytab" + i).classList.remove("active");
+	}
+
+	document.getElementById("v-whytab" + num).classList.add("active");
 	document.getElementById("whytab" + num).classList.add("show");
 	document.getElementById("whytab" + num).classList.add("active");
-	document.getElementById("v-whytab" + num).classList.add("active");
 }
 
 export default function WhySection(): JSX.Element {
@@ -50,28 +35,24 @@ export default function WhySection(): JSX.Element {
 									<span className="font-weight-bold text-uppercase">Why Catallactic</span>
 								</a>
 
-								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab1" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => setShownTab(1)}>
-									<span className="font-weight-bold text-uppercase">Why not fiat stablecoins?</span>
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab1" data-toggle="pill" href="#v-pills-backed" role="tab" aria-controls="v-pills-backed" aria-selected="false" onClick={() => setShownTab(1)}>
+									<span className="font-weight-bold text-uppercase">Backed By Commodities</span>
 								</a>
 
-								{/*<a className="nav-link mb-3 p-3 shadow" id="v-whytab2" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" onClick={() => setShownTab(2)}>
-									<span className="font-weight-bold text-uppercase">How can I benefit</span>
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab2" data-toggle="pill" href="#v-pills-stable" role="tab" aria-controls="v-pills-stable" aria-selected="false" onClick={() => setShownTab(2)}>
+									<span className="font-weight-bold text-uppercase">Stable in Value / Non-Fiat</span>
 								</a>
 
-								<a className="nav-link mb-3 p-3 shadow" id="v-whytab3" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(3)}>
-									<span className="font-weight-bold text-uppercase">Who can contribute</span>
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab3" data-toggle="pill" href="#v-pills-stable" role="tab" aria-controls="v-pills-stable" aria-selected="false" onClick={() => setShownTab(3)}>
+									<span className="font-weight-bold text-uppercase">Decentralized / Interoperable</span>
 								</a>
 
-								<a className="nav-link mb-3 p-3 shadow" id="v-whytab4" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" onClick={() => setShownTab(4)}>
-									<span className="font-weight-bold text-uppercase">How can contribute</span>
-								</a>*/}
-
-								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab5" data-toggle="pill" href="#v-pills-usecases" role="tab" aria-controls="v-pills-usecases" aria-selected="false" onClick={() => setShownTab(5)}>
-									<span className="font-weight-bold text-uppercase">... But no crypto use cases !!!</span>
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab4" data-toggle="pill" href="#v-pills-ready" role="tab" aria-controls="v-pills-ready" aria-selected="false" onClick={() => setShownTab(4)}>
+									<span className="font-weight-bold text-uppercase">Ready for Issuers</span>
 								</a>
 
-								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab6" data-toggle="pill" href="#v-pills-scam" role="tab" aria-controls="v-pills-scam" aria-selected="false" onClick={() => setShownTab(6)}>
-									<span className="font-weight-bold text-uppercase">... But crypto is scam !!!</span>
+								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab5" data-toggle="pill" href="#v-pills-competition" role="tab" aria-controls="v-pills-competition" aria-selected="false" onClick={() => setShownTab(5)}>
+									<span className="font-weight-bold text-uppercase">Local Scope / In Competition</span>
 								</a>
 
 							</div>
@@ -82,53 +63,46 @@ export default function WhySection(): JSX.Element {
 
 									<div className="tab-pane fade shadow rounded bg-white p-5 show active" id="whytab0" role="tabpanel" aria-labelledby="v-pills-home-tab">
 										<h4 className="font-italic mb-4">Why Catallactic?</h4>
-										<p className="font-italic text-muted mb-2">Because this is the real crypto. Catallactic is created to build cryptocurrencies capturing value of Commodities.</p>
-										<p className="font-italic text-muted mb-2">Capturing value means transferring to the token price the <b>marginal utility as perceived by consumers</b>. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
-										<p className="font-italic text-muted mb-2">Capturing the marginal utility of commodity provides to CryptoCommodities <a href="/docs/whitepaper#31-the-underlying-asset">different features to a stablecoin</a>.</p>
+										<p className="font-italic text-muted mb-2">Because this is the real crypto.</p>
+										<p className="font-italic text-muted mb-2">Crypto was born in 2009 with the promise of decentralization from a non fiat currency, Bitcoin. However, tokenization projects have evolved with the financing of venture-capital backed crypto companies and financial firms, that have modified the initial promise, to make it more centralized and fiat dependent.</p>
+										<p className="font-italic text-muted mb-2">Whereas we think this is a distortion from the initial principles, we find that the tools and processs developed inherit this centraliced and fiat nature and alternative approaches are miss-represented. In short there is a fiat bias in tools and processes.</p>
+										<p className="font-italic text-muted mb-2">Catallactic aims to define the principles, know-how, tools and processes to tokenize, fund and manage decentralized commodity based tokens and relief the issuer from the technological and operational burden.</p>
 										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, which assumes a monopolistic legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
 									</div>
-									
-									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-										<h4 className="font-italic mb-4">Why not fiat stablecoins?</h4>
-										<p className="font-italic text-muted mb-2">Crypto was born in 2009 with the promise of decentralization from a non fiat currency, Bitcoin. However, tokenization projects have evolved with the financing of venture-capital backed crypto companies and financial firms, that have modified the initial promise, to make it more centralized and fiat dependent. Whereas we think this is a distortion from the initial principles, we find that the tools and processs developed inherit this centraliced and fiat nature and alternative approaches are miss-represented. In short there is a fiat bias in tools and processes.</p>
-										<p className="font-italic text-muted mb-2"><b>Catallactic advocates for a built-in price formation as a basis to deliver true decentralization. Stablecoins are centralized because they are pegged to a fiat price formed in international markets</b>.</p>
-										<p className="font-italic text-muted mb-2">Catallactic aims to define the principles, know-how, tools and processes to tokenize, fund and manage decentralized commodity based tokens and relief the issuer from the technological and operational burden.</p>
+
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab1" role="tabpanel" aria-labelledby="v-pills-competition-tab">
+										<h4 className="font-italic mb-4">Backed By Commodities</h4>
+										<p className="font-italic text-muted mb-2">Catallactic aims to build cryptocurrencies that comply with Regression Theorem, and therefore, that capture the intrinsic value of Commodities as underlaying asset. This is why the currencies are called as CryptoCommodities.</p>
+										<p className="font-italic text-muted mb-2">We capture the intrinsic value by allocating a unit of the underlying asset to a unit of the CryptoCommodity. This binding is enforced by the smart contact processing and users interaction.</p>
+										<p className="font-italic text-muted mb-2">Different Commodities, issuers and scopes will have different features, so there is a degree of customization for the dimensions of every CryptoCommodity.</p>
 									</div>
-									
-									{/*<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab2" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-										<h4 className="font-italic mb-4">How can I benefit?</h4>
-										<p className="font-italic text-muted mb-2">Catallactic aims to relief cryptocurrency issuers of Units of Account of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. The goal, for the sake of practicality is to create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
+
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab2" role="tabpanel" aria-labelledby="v-pills-backed-tab">
+										<h4 className="font-italic mb-4">Stable in Value / Non-Fiat</h4>
+										<p className="font-italic text-muted mb-2">By exposing commodities intrinsic value enables capturing into the token price the <b>marginal utility as perceived by consumers</b>. Differently to fiat stablecoins, where the price is captured from an external market, CryptoCommodities allow a natural price formation performed by a required underlying market of the commodity. This guarantees <b>no relative price distortion other than consumers will</b>.</p>
+										<p className="font-italic text-muted mb-2">Commodities backed cryptocurrencies hold <a href="/docs/whitepaper#31-the-underlying-asset">different features to a stablecoin</a> and are eligible to participate into the price system of the adopting jurisdiction.</p>
+										<p className="font-italic text-muted mb-2"><b>Catallactic advocates for a built-in price formation as a basis to deliver true value decentralization. Stablecoins are centralized because they are pegged to a fiat price formed in international markets</b>.</p>
+									</div>
+
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab3" role="tabpanel" aria-labelledby="v-pills-backed-tab">
+										<h4 className="font-italic mb-4">Decentralized / Interoperable</h4>
+										<p className="font-italic text-muted mb-2">Catallactic builts on top of the existing DLT networks. Despite more work is need, we consider there is already a foundation that can be used for our purposes.</p>
+										<p className="font-italic text-muted mb-2">We think there is not yet any network which is good enough and the overall status of the industry is in beta status and not yet ready for massification. As a consequence we do not adhere to specific chains. Instead, we build for any specific chains which can process transaction on top of the EVM, as the more used standard for smart contracts implementation. We consider in future to adapt to other virtual machines and languages.</p>
+										<p className="font-italic text-muted mb-2">Catallactic has preference for PoW chains. EVM-enabled Bitcoin L2s able being explored as ideal hosts for Catallactic smart contracts.</p>
+										<p className="font-italic text-muted mb-2">We understand that different necessities can require different trust levels. Therefore Catallactic can also be operated on PoS networks with higher traction or number of users.</p>
+										<p className="font-italic text-muted mb-2">Finally, Catallactic is thought with interoperability principles in mind, allowing distribution of the liquidity across different chains, as defined by the currency issuer.</p>
+									</div>
+
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+										<h4 className="font-italic mb-4">Ready for Issuers</h4>
+										<p className="font-italic text-muted mb-2">Catallactic aims to relief CryptoCommodity issuers of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. Instead, we create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
 										<p className="font-italic text-muted mb-2">The outcomes from Catallactic are Open Source and will allow private actors to build additional tools, plugins or know-how that can complement Catallactic deliverables.</p>
 									</div>
 
-									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab3" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-										<h4 className="font-italic mb-4">Who can contribute?</h4>
-										<p className="font-italic text-muted mb-2">We break with the Quantitative Theory of Money, which assumes a monopolistic legal tender and a central planner, to build a <b>Qualitative Theory of Money</b> for competing currencies privately issued.</p>
-										<p className="font-italic text-muted mb-2">Anyone that enjoys the idea of private issued money can contribute to Catallactic.</p>
-										<p className="font-italic text-muted mb-2">Catallactic needs guidelines, articles, essays or contributions from process engineers, field specialists as economists, tax experts or lawyers, investor, traders, token issuers, philosophers or political philosophers.</p>
-									</div>
-									
-									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-										<h4 className="font-italic mb-4">How can contribute?</h4>
-										<p className="font-italic text-muted mb-2">Apart from the technological efforts shared with other Open Source Solutions, in particular in Typescript, Solidity or other smart contract and blockchain languages, Catallactic needs guidelines, articles, essays or contributions to build a body of knowdledge.</p>
-										<p className="font-italic text-muted mb-2">We think that, as much as possible, principles as functionality, practicality, usability or decentralization must drive technological efforts, no the other way around.</p>
-										<p className="font-italic text-muted mb-2">Contributions can be done on the <a href="/docs/suite/intro">site pages</a> itself or in the  <a href="https://discord.gg/xwJR9MZPmA">Reddit</a> community, and of course, all pages and tools are shared in <a href="https://github.com/Catallactic">Github</a>.</p>
-									</div>*/}
-
-									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab5" role="tabpanel" aria-labelledby="v-pills-usecases-tab">
-										<h4 className="font-italic mb-4">... But no crypto use cases !!!</h4>
-										<p className="font-italic text-muted mb-2">And that's correct. Crypto has not reached the mainstreet yet and there are not clues than could be massified anytime soon. Instead, the main focus, driven by VCs, have been quick to-the-moon. We think there are 2 gaps to enable bring crypto to the market:</p>
-										<p className="font-italic text-muted mb-2">* Existing cryptocurrencies make a <b>terrible Medium of Exchange</b>. None of them accomplish the <a href="/blog/How%20tokens%20deliver%20functions%20of%20money" target="_blank">requirements</a> as a Medium of Exchange because they have not been designed to take the mainstream but for quick profit.</p>
-										<p className="font-italic text-muted mb-2">* <b>No mainstream wallets</b>. A wallet for the market should be an affordable HW wallet, as a garage door remote control, that can work without a PC connection and without internet. And this piece of HW does not exist yet. Wallet providers have been working in "something else".</p>
-										<p className="font-italic text-muted mb-2">Catallactic aims to address this lack of use cases and bring crypto to the mainstream.</p>
-									</div>
-
-									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab6" role="tabpanel" aria-labelledby="v-pills-scam-tab">
-										<h4 className="font-italic mb-4">... But crypto is scam !!!</h4>
-										<p className="font-italic text-muted mb-2">A high percentage of it. Or maybe you forgot what pilot projects are. Any new technology needs a maduration period and definition of quality standards to distinguish what is legitimate from what is not. Unfortunately, there has not been much work on transparency in the crypto sphere so far. But crypto is still a necessity. We aim to provide 2 contributions to reduce this bad reputation:</p>
-										<p className="font-italic text-muted mb-2">* A <b>Quality Theory of Money</b> is needed, which includes definition of quality standards and transparency and enable tools guiding users to understand what they really have in their hands.</p>
-										<p className="font-italic text-muted mb-2">* Creating smart contracts is full of risks and needs a lot of resources. We think that the past experiences in failed smart contracts, either honeypots, rug pulls, hacked or just non performing, suggests that smart contract should not be created by anyone, but instead provided by <b>specialized Tokenization Platforms</b> under specific well defined principles.</p>
-										<p className="font-italic text-muted mb-2">Catallactic aims to address these reputational problems and bring crypto to the mainstream.</p>
+									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab5" role="tabpanel" aria-labelledby="v-pills-local-tab">
+										<h4 className="font-italic mb-4">Local Scope / In Competition</h4>
+										<p className="font-italic text-muted mb-2">Different communities have different monetary requirements and commodities availability. To enable this fine tuning of the monetary availability, we think CryptoCommodities should be issued and applicable at local scope by local actors. This provides a valuable tool for communities driven entrepreneurship.</p>
+										<p className="font-italic text-muted mb-2">Simgle currencies as Bitcoin represent a single point of failure and a evident target for scammers and censonship. To deliver censorship resistance and suiatble price formation, CryptoCommodities are thought to be issued by multiple actors and in full competition, relying on the market the price formation task.</p>
 									</div>
 
                 </div>
