@@ -48,11 +48,11 @@ export default function WhySection(): JSX.Element {
 								</a>
 
 								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab4" data-toggle="pill" href="#v-pills-ready" role="tab" aria-controls="v-pills-ready" aria-selected="false" onClick={() => setShownTab(4)}>
-									<span className="font-weight-bold text-uppercase">Ready for Issuers</span>
+									<span className="font-weight-bold text-uppercase">Ready to Use for Issuers</span>
 								</a>
 
 								<a className="pp nav-link mb-3 p-3 shadow" id="v-whytab5" data-toggle="pill" href="#v-pills-competition" role="tab" aria-controls="v-pills-competition" aria-selected="false" onClick={() => setShownTab(5)}>
-									<span className="font-weight-bold text-uppercase">Local Scope / In Competition</span>
+									<span className="font-weight-bold text-uppercase">Local Competition</span>
 								</a>
 
 							</div>
@@ -98,7 +98,7 @@ export default function WhySection(): JSX.Element {
 									</div>
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab4" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-										<h4 className="font-italic mb-4">Ready for Issuers</h4>
+										<h4 className="font-italic mb-4">Ready to Use for Issuers</h4>
 										<hr/>
 										<p className="font-italic text-muted mb-2">Catallactic aims to relief CryptoCommodity issuers of the burden to define principles, acquire know-how, develop tools and design processes to issue tokens backed by the value of their underlying assets. Instead, we create an opinionated system, but maintain configurability, which allows cryptocurrency issuers focusing on their core business.</p>
 										<p className="font-italic text-muted mb-2">We deliver a <b>Tokenization Platform</b> which allows adopters to issue and manage their CryptoCommodity without the technical burden.</p>
@@ -106,11 +106,11 @@ export default function WhySection(): JSX.Element {
 									</div>
 
 									<div className="tab-pane fade shadow rounded bg-white p-5" id="whytab5" role="tabpanel" aria-labelledby="v-pills-local-tab">
-										<h4 className="font-italic mb-4">Local Scope / In Competition</h4>
+										<h4 className="font-italic mb-4">Local Competition</h4>
 										<hr/>
-										<p className="font-italic text-muted mb-2">Different communities have different monetary requirements and commodities availability. To enable this fine tuning of the monetary availability, we think CryptoCommodities should be issued and applicable at <b>local scope by local actors</b>. This provides a valuable tool for communities driven entrepreneurship.</p>
-										<p className="font-italic text-muted mb-2">A <b>CryptoCommodity algebra</b> allows technical support for real world use cases as merges and acquisitions or CryptoCommodity splits.</p>
+										<p className="font-italic text-muted mb-2">Different communities have different monetary requirements and commodities availability. To enable fine tuning of the monetary availability, CryptoCommodities should be issued and applicable at <b>local scope by local actors</b>. This provides a valuable tool for community driven entrepreneurship.</p>
 										<p className="font-italic text-muted mb-2">Single currencies as Bitcoin represent a single point of failure and a evident target for scammers and censonship. To deliver censorship resistance and suitAble price formation, CryptoCommodities are thought to be <b>issued by multiple actors and in full competition</b>, relying on the market the price formation task.</p>
+										<p className="font-italic text-muted mb-2">A <b>CryptoCommodity algebra</b> provides technical support for real world use cases as merges and acquisitions or CryptoCommodity splits.</p>
 									</div>
 
                 </div>
