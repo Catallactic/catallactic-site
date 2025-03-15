@@ -30,7 +30,7 @@
 }
 
 /* BUILT IN PUBLIC */
-/*body:after{
+body:after{
   content: "built in public";
   position: fixed;
   width: 140px;
@@ -46,4 +46,4 @@
   color: #fff;
   line-height: 27px;
   transform:rotate(45deg);
-}*/
+}
