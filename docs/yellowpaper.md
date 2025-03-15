@@ -214,7 +214,7 @@ The price of money is its purchasing power. As any price, the price of money is 
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-#### 3.2. Store of Value
+### 3.2. Store of Value
 
 <!---
 https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
@@ -222,11 +222,11 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 * fungible
 * countable
 -->
-#### 3.3. Unit of Account
+### 3.3. Unit of Account
 
 Price Formation
 
-#### 3.4. Monetary Standard
+### 3.4. Monetary Standard
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
