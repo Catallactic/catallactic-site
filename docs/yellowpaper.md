@@ -64,14 +64,26 @@ Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical an
 ## 2. The exchange of Goods and Services
 ---
 
-### 2.1. The Price System
-
-#### 2.1.1. Purchasing Power
+### 2.1. Barter
 
 
-## 2.2 Distribution of Wealth
 
-## 2.3 Allocation of Resources
+### 2.2. The Price System
+
+
+### 2.3. Money
+
+
+### 2.4 Allocation of Resources
+
+
+
+### 2.5 Distribution of Wealth
+
+#### 2.5.1. Purchasing Power
+
+
+
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
