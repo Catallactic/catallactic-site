@@ -126,6 +126,9 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 ### 2.3. The Price System
 
+Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
+
+https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
 ### 2.4 Allocation of Resources
 
