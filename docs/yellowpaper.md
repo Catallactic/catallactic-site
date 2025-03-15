@@ -68,10 +68,9 @@ Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical an
 
 
 
-### 2.2. The Price System
 
 
-### 2.3. Evolution of Money
+### 2.2. Evolution of Money
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double
 coincidence of wants. A second problem is one of indivisibilities. [0]
@@ -104,7 +103,9 @@ Once a commodity has been widely accepted for exchanges, it may take on a value 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-### 2.4. Representative Money
+
+
+### 2.3. Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -122,6 +123,8 @@ Today, <b>gold or silver certificates</b>, for example, which are claims on prec
 
 The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
 
+
+### 2.4. The Price System
 
 
 ### 2.5 Allocation of Resources
