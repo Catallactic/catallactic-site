@@ -105,7 +105,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 
 
-### 2.3. Representative Money
+#### 2.2.1 Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -124,16 +124,16 @@ Today, <b>gold or silver certificates</b>, for example, which are claims on prec
 The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
 
 
-### 2.4. The Price System
+### 2.3. The Price System
 
 
-### 2.5 Allocation of Resources
+### 2.4 Allocation of Resources
 
 
 
-### 2.6 Distribution of Wealth
+### 2.5 Distribution of Wealth
 
-#### 2.6.1. Purchasing Power
+#### 2.5.1. Purchasing Power
 
 
 
