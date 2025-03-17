@@ -64,6 +64,7 @@ Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical an
 ## 2. The exchange of Goods and Services
 ---
 
+
 ### 2.1. Barter
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double
@@ -229,10 +230,112 @@ Price Formation
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
+In a currency competition scenario, none of the competing currencies would be eligible by default to function as numeraire. In fact a possible approach is to have a few numeraires and let users choose the numeraire which delivers lower volatility in prices. An initial numeraire could be Bitcoin because its digital nature.
 
 ### 3.5. Functions in Known Money Configurations
 
 In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
+
+
+
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th>Money Configuration</th>
+			<th>MoE</th>
+			<th>SoV</th>
+			<th>UoC</th>
+			<th>Mon</th>
+		</tr>
+		<tr>
+			<th colSpan="5">Physical Money</th>
+		</tr>
+		<tr>
+			<td>Barter</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Commodity</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Representative</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Fiat</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th colSpan="5">Tokenizations</th>
+		</tr>
+		<tr>
+			<td>Unbacked Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Utility Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Bitcoin</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Monero</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Security Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Stablecoins</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>NFTs</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+### 3.6. Configuring a Currency Competition
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -516,62 +619,9 @@ The coexistence of competing private currencies has been documented from some au
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
+## 8. On the Necessity of a Quality Theory of Money
 
-
-
-## 8. Known Money Configurations
-
-
-### 8.1. Physical Configurations
-
-
-#### 8.1.1. Barter
-
-
-#### 8.1.2. Commodity Money
-
-
-#### 8.1.3. Representative Money
-
-
-#### 8.1.4. Fiat Money
-
-### 8.2. Tokenizations
-
-#### 8.2.1. Unbacked Tokens
-
-
-#### 8.2.2. Utility Tokens
-
-##### 8.2.2.1. Bitcoin
-
-bitcoin as monetary standard
-
-##### 8.2.2.2. Monero
-
-#### 8.2.3. Security Tokens
-
-
-
-#### 8.2.4. Stablecoins
-
-
-#### 8.2.5. NFTs
-
-
-
-
-
-
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 9. On the Necessity of a Quality Theory of Money
-
-#### 9.1. QTM
+#### 8.1. QTM
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -581,7 +631,7 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-#### 9.1. Medium of Exchange Requirements
+#### 8.1. Medium of Exchange Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -680,9 +730,9 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 10. On the Necessity of a New Kind of Money
+## 9. On the Necessity of a New Kind of Money
 
-### 10.1. Further Industry Development
+### 9.1. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -692,7 +742,7 @@ Private 'Lender of Last Resort?
 
 
 
-### 10.2. Free Banking Introduction
+### 9.2. Free Banking Introduction
 
 incremental introduction
 
@@ -705,7 +755,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 10.3. Ending Financial Exclusion
+### 9.3. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -717,7 +767,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-### 10.4. Crowdsolving
+### 9.4. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -737,7 +787,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 - governments will be able to delegate the difficult part into citizens
 
-### 10.5. Comparing Economic Models
+### 9.5. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -825,7 +875,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 11. Conclusion
+## 10. Conclusion
 ---
 
 
@@ -839,7 +889,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 12. References
+## 11. References
 ---
 
 
