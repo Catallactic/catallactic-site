@@ -36,6 +36,11 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 From its origins in medieval times, the historical evolution of the value debate became locked into a centuries old dialectical conflict between the objective and subjective approaches. This study has traced the waves of value theories which oscillated back and forth towards each approach, until Walras and Marshall accommodated both rivaling approaches of value within their separate General and Partial Equilibrium frameworks.
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/theory-of-value.png" width="80%"></img>
+</div>
+
+
 ### 1.1. Intrinsic Value
 
 Intrinsic value theories started as early as 1600s; natural value by W. Petty (1623-1687); value based on land and labor, R. Cantillon (1680-1734); value and market price, N. Barbon (1640-1698); objective value, intrinsic value, A. Smith (1723-1790); value driven by labor, K. Marx (1818-1883) and D. Ricardo (1772-1823).
@@ -121,19 +126,7 @@ Today, <b>gold or silver certificates</b>, for example, which are claims on prec
 The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
 
 
-### 2.3. The Price System
 
-Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
-
-https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-
-### 2.4 Allocation of Resources
-
-
-
-### 2.5 Distribution of Wealth
-
-#### 2.5.1. Purchasing Power
 
 
 
@@ -342,7 +335,22 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 
 
 
-## 4. Physical Requirements for Medium of Exchange
+## 4. The Price System
+
+Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
+
+https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+
+### 4.1 Allocation of Resources
+
+
+
+### 4.2 Distribution of Wealth
+
+#### 4.2.1. Purchasing Power
+
+
+## 5. Physical Requirements for Medium of Exchange
 ---
 
 <!---
@@ -428,9 +436,9 @@ We will discuss all the requirements that makes up a quality curency in the impl
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 5. Technological Requirements for Medium of Exchange
+## 6. Technological Requirements for Medium of Exchange
 
-### 5.1. Technological Principles
+### 6.1. Technological Principles
 
  These principles must be provided in the contract. 
 
@@ -452,10 +460,10 @@ However, as the principles maybe change between regions or underlying assets a d
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 6. Economic Requirements for Medium of Exchange
+## 7. Economic Requirements for Medium of Exchange
 ---
 
-### 6.1. Quantity Theory of Money
+### 7.1. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -472,12 +480,12 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 
 
-### 6.3. Convenience of Credit
+### 7.3. Convenience of Credit
 
-### 6.4. Monetary Expansion
+### 7.4. Monetary Expansion
 
 
-### 6.5. Neutrality of Money
+### 7.5. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -489,13 +497,13 @@ The neutrality of money, also called neutral money, is an economic theory statin
 price distortion
 
 
-#### 6.5.1. Currency Debasement
+#### 7.5.1. Currency Debasement
 
 
-#### 6.5.2. Cantillon Effects
+#### 7.5.2. Cantillon Effects
 
 
-#### 6.5.3. The Split Economy
+#### 7.5.3. The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -503,7 +511,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 * The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 6.5.4. The Squeezed Real Economy
+#### 7.5.4. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -525,12 +533,12 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 
 
-## 7. Engineering Requirements for Medium of Exchange
+## 8. Engineering Requirements for Medium of Exchange
 ---
 
-### 7.1. Systems Stability
+### 8.1. Systems Stability
 
-#### 7.1.1. A Regulated System
+#### 8.1.1. A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -539,7 +547,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 7.1.2. Positive and Negative Feedback
+#### 8.1.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -572,12 +580,12 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 7.1.3. A centralized system
+#### 8.1.3. A centralized system
 
 positive feedback
 
 
-#### 7.1.4. A self-regulated system
+#### 8.1.4. A self-regulated system
 
 negative feedback
 
@@ -589,12 +597,12 @@ Market itself, if not distorted, is a well performing price formation machine. A
 <br/>
 
 
-### 7.2. Economic Calculation
+### 8.2. Economic Calculation
 
 Use of Knowledge in Society [58]
 
 
-#### 7.2.1 Price Formation
+#### 8.2.1 Price Formation
 
 price formation in a centralized system
 
@@ -602,14 +610,14 @@ price formation in a self-regulated system
 
 
 
-### 7.3. Regression Theorem
+### 8.3. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
 
 
-### 7.4. Currency competition
+### 8.4. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors.
 
@@ -619,9 +627,9 @@ The coexistence of competing private currencies has been documented from some au
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8. On the Necessity of a Quality Theory of Money
+## 9. On the Necessity of a Quality Theory of Money
 
-#### 8.1. QTM
+#### 9.1. QTM
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -631,7 +639,7 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-#### 8.1. Medium of Exchange Requirements
+#### 9.1. Medium of Exchange Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -730,9 +738,9 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9. On the Necessity of a New Kind of Money
+## 10. On the Necessity of a New Kind of Money
 
-### 9.1. Further Industry Development
+### 10.1. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -742,7 +750,7 @@ Private 'Lender of Last Resort?
 
 
 
-### 9.2. Free Banking Introduction
+### 10.2. Free Banking Introduction
 
 incremental introduction
 
@@ -755,7 +763,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 9.3. Ending Financial Exclusion
+### 10.3. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -767,7 +775,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-### 9.4. Crowdsolving
+### 10.4. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -787,7 +795,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 - governments will be able to delegate the difficult part into citizens
 
-### 9.5. Comparing Economic Models
+### 10.5. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -875,7 +883,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 10. Conclusion
+## 11. Conclusion
 ---
 
 
@@ -889,7 +897,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 11. References
+## 12. References
 ---
 
 
