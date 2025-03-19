@@ -350,6 +350,9 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 #### 4.2.1. Purchasing Power
 
 
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
 ## 5. Physical Requirements for Medium of Exchange
 ---
 
