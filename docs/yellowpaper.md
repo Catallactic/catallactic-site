@@ -749,8 +749,26 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 
 positive feedback
 
+#### 8.7.1. A self-regulated system
 
-### 8.2. Currency competition
+negative feedback
+
+Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/ecosystem_loop.svg" width="70%"></img>
+</div>
+<br/>
+
+
+
+
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+
+## 9. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors.
 
@@ -758,7 +776,7 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-### 8.4. Free Banking Introduction
+### 9.1. Free Banking Introduction
 
 incremental introduction
 
@@ -771,32 +789,22 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 8.5. Currency Composites
+### 9.2. Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-### 8.6. Algebra of Currencies
+### 9.3. Algebra of Currencies
 
 
 
-### 8.7. Composite Governance
+### 9.4. Composite Governance
 
 DAO like governance rules must be stablished.
 
 
-#### 8.7.1. A self-regulated system
 
-negative feedback
-
-Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/ecosystem_loop.svg" width="70%"></img>
-</div>
-<br/>
-
-### 8.3. Further Industry Development
+### 9.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
