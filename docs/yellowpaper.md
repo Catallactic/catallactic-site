@@ -333,197 +333,8 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 
 
 
-## 4. The Price System
 
-Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
-
-https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-
-
-
-
-### 4.1 Allocation of Resources
-
-
-
-### 4.2 Distribution of Wealth
-
-#### 4.2.1. Purchasing Power
-
-<!--- 
-https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-https://bitcoinmagazine.com/guides/what-is-money
--->
-
-
-
-### 4.3. Ending Financial Exclusion
-
-Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
-
-* any citizen could fundraise to grow a real economy project providing value in his community
-
-* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
-
-* there would be healthy projects a broader job offer available.
-
-In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
-
-### 4.4. Crowdsolving
-
-Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
-
-- issuers will be able to fund his local or global project
-
-- issuers will also profit by providing DeFi Services to society
-
-- investors will profit by investing in successful projects
-
-- consumers will benefit with higher offer
-
-- citizens excluded from financial system will be able to fund their projects with private risk
-
-- society will benefit from more liquid financial markets
-
-- citizens from developing countries can create their own economy and fix their problems
-
-- governments will be able to delegate the difficult part into citizens
-
-### 4.5. Comparing Economic Models
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<thead>
-			<tr>
-				<th scope="col">Feature</th>
-				<th scope="col">Gold Standard</th>
-				<th scope="col">CC Competition</th>
-				<th scope="col">Fiat</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th scope="row">Price Formation</th>
-				<td></td>
-				<td>Matching consumers will</td>
-				<td>Distorted</td>
-			</tr>
-			<tr>
-				<th scope="row">Relative Prices</th>
-				<td></td>
-				<td>Matching consumers will</td>
-				<td>Distorted</td>
-			</tr>
-			<tr>
-				<th scope="row">Economic Calculation</th>
-				<td></td>
-				<td>Yes</td>
-				<td>Biased</td>
-			</tr>
-			<tr>
-				<th scope="row">Allocation of Resources</th>
-				<td></td>
-				<td>Matching consumers will</td>
-				<td>Priviledged</td>
-			</tr>
-			<tr>
-				<th scope="row">Critical Resources</th>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th scope="row">Credit Availability</th>
-				<td></td>
-				<td>Yes, without Cantillon Effects</td>
-				<td>Yes, with Cantillon Effects</td>
-			</tr>
-			<tr>
-				<th scope="row">Entry Barriers</th>
-				<td></td>
-				<td>No</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<th scope="row">Projects Risk</th>
-				<td></td>
-				<td>Privatized</td>
-				<td>Socialized</td>
-			</tr>
-			<tr>
-				<th scope="row">Supply / Demand matching</th>
-				<td></td>
-				<td>Yes</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<th scope="row">Externalities</th>
-				<td></td>
-				<td>Yes</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<th scope="row">Social Values</th>
-				<td></td>
-				<td>Natural</td>
-				<td>Imposed</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-
-
-## 5. Currency competition
-
-The coexistence of competing private currencies has been documented from some authors.
-
-### 5.1. Further Industry Development
-
-Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
-
-Additionaly, insurance companies could provide services in case a currency does not follow standards.
-
-Private 'Lender of Last Resort?
-
-
-
-### 5.2. Free Banking Introduction
-
-incremental introduction
-
-coexistence with legal ledger
-
-
-In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
-
-First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
-
- For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
-
-### 5.3. Currency Composites
-
-A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
-
-
-### 5.4. Algebra of Currencies
-
-
-
-### 5.5. Composite Governance
-
-DAO like governance rules must be stablished.
-
-
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 6. Physical Requirements for Medium of Exchange
+## 4. Physical Requirements for Medium of Exchange
 ---
 
 <!---
@@ -609,9 +420,9 @@ We will discuss all the requirements that makes up a quality curency in the impl
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 7. Technological Requirements for Medium of Exchange
+## 5. Technological Requirements for Medium of Exchange
 
-### 7.1. Technological Principles
+### 5.1. Technological Principles
 
  These principles must be provided in the contract. 
 
@@ -633,10 +444,151 @@ However, as the principles maybe change between regions or underlying assets a d
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8. Economic Requirements for Medium of Exchange
+## 6. Economic Requirements for Medium of Exchange
 ---
 
-### 8.1. Quantity Theory of Money
+
+### 6.1. The Price System
+
+Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
+
+https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+
+
+
+
+#### 6.1.1. Allocation of Resources
+
+
+
+### 6.2 Distribution of Wealth
+
+#### 6.2.1. Purchasing Power
+
+<!--- 
+https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+https://bitcoinmagazine.com/guides/what-is-money
+-->
+
+
+
+### 6.3. Ending Financial Exclusion
+
+Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
+
+* any citizen could fundraise to grow a real economy project providing value in his community
+
+* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
+
+* there would be healthy projects a broader job offer available.
+
+In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
+
+### 6.4. Crowdsolving
+
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
+
+### 6.5. Comparing Economic Models
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Feature</th>
+				<th scope="col">Gold Standard</th>
+				<th scope="col">CC Competition</th>
+				<th scope="col">Fiat</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Price Formation</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Distorted</td>
+			</tr>
+			<tr>
+				<th scope="row">Relative Prices</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Distorted</td>
+			</tr>
+			<tr>
+				<th scope="row">Economic Calculation</th>
+				<td></td>
+				<td>Yes</td>
+				<td>Biased</td>
+			</tr>
+			<tr>
+				<th scope="row">Allocation of Resources</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Priviledged</td>
+			</tr>
+			<tr>
+				<th scope="row">Critical Resources</th>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">Credit Availability</th>
+				<td></td>
+				<td>Yes, without Cantillon Effects</td>
+				<td>Yes, with Cantillon Effects</td>
+			</tr>
+			<tr>
+				<th scope="row">Entry Barriers</th>
+				<td></td>
+				<td>No</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<th scope="row">Projects Risk</th>
+				<td></td>
+				<td>Privatized</td>
+				<td>Socialized</td>
+			</tr>
+			<tr>
+				<th scope="row">Supply / Demand matching</th>
+				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Externalities</th>
+				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Social Values</th>
+				<td></td>
+				<td>Natural</td>
+				<td>Imposed</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+### 6.6. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -653,12 +605,12 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 
 
-### 8.3. Convenience of Credit
+### 6.3. Convenience of Credit
 
-### 8.4. Monetary Expansion
+### 6.4. Monetary Expansion
 
 
-### 8.5. Neutrality of Money
+### 6.5. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -670,13 +622,13 @@ The neutrality of money, also called neutral money, is an economic theory statin
 price distortion
 
 
-#### 8.5.1. Currency Debasement
+#### 6.5.1. Currency Debasement
 
 
-#### 8.5.2. Cantillon Effects
+#### 6.5.2. Cantillon Effects
 
 
-#### 8.5.3. The Split Economy
+#### 6.5.3. The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -684,7 +636,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 * The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 8.5.4. The Squeezed Real Economy
+#### 6.5.4. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -706,12 +658,12 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 
 
-## 9. Engineering Requirements for Medium of Exchange
+## 7. Engineering Requirements for Medium of Exchange
 ---
 
-### 9.1. Systems Stability
+### 7.1. Systems Stability
 
-#### 9.1.1. A Regulated System
+#### 7.1.1. A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -720,7 +672,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 9.1.2. Positive and Negative Feedback
+#### 7.1.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -753,12 +705,53 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 9.1.3. A centralized system
+#### 7.1.3. A centralized system
 
 positive feedback
 
 
-#### 9.1.4. A self-regulated system
+### 7.2. Currency competition
+
+The coexistence of competing private currencies has been documented from some authors.
+
+### 7.3. Further Industry Development
+
+Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
+
+Additionaly, insurance companies could provide services in case a currency does not follow standards.
+
+Private 'Lender of Last Resort?
+
+
+
+### 7.4. Free Banking Introduction
+
+incremental introduction
+
+coexistence with legal ledger
+
+
+In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
+
+First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
+
+ For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
+
+### 7.5. Currency Composites
+
+A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
+
+
+### 7.6. Algebra of Currencies
+
+
+
+### 7.7. Composite Governance
+
+DAO like governance rules must be stablished.
+
+
+#### 7.7.1. A self-regulated system
 
 negative feedback
 
@@ -770,12 +763,12 @@ Market itself, if not distorted, is a well performing price formation machine. A
 <br/>
 
 
-### 9.2. Economic Calculation
+### 7.8. Economic Calculation
 
 Use of Knowledge in Society [58]
 
 
-#### 9.2.1 Price Formation
+#### 7.8.1 Price Formation
 
 price formation in a centralized system
 
@@ -783,7 +776,7 @@ price formation in a self-regulated system
 
 
 
-### 9.3. Regression Theorem
+### 7.9. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
@@ -793,9 +786,9 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 
 
-## 10. On the Necessity of a Quality Theory of Money
+## 8. On the Necessity of a Quality Theory of Money
 
-#### 10.1. QTM
+#### 8.1. QTM
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -805,7 +798,7 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-#### 10.1. Medium of Exchange Requirements
+#### 8.1. Medium of Exchange Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -905,7 +898,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 
 
-## 11. Conclusion
+## 9. Conclusion
 ---
 
 
@@ -919,7 +912,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 
 
-## 12. References
+## 10. References
 ---
 
 
