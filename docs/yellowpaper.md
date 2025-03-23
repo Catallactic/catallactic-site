@@ -817,9 +817,9 @@ Private 'Lender of Last Resort?
 
 
 
-## 9. On the Necessity of a Quality Theory of Money
+## 10. A Quality Theory of Money
 
-#### 9.1. QTM
+#### 10.1. QTM
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -829,7 +829,7 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-#### 9.2. Medium of Exchange Requirements
+#### 10.2. Medium of Exchange Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -929,7 +929,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 
 
-## 10. Conclusion
+## 11. Conclusion
 ---
 
 
@@ -943,7 +943,7 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 
 
-## 11. References
+## 12. References
 ---
 
 
