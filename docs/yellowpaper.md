@@ -341,6 +341,9 @@ Required to enable subjective value. If we ignore price system and rely on under
 
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
+
+
+
 ### 4.1 Allocation of Resources
 
 
@@ -349,6 +352,127 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 
 #### 4.2.1. Purchasing Power
 
+<!--- 
+https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+https://bitcoinmagazine.com/guides/what-is-money
+-->
+
+
+
+### 4.3. Ending Financial Exclusion
+
+Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
+
+* any citizen could fundraise to grow a real economy project providing value in his community
+
+* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
+
+* there would be healthy projects a broader job offer available.
+
+In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
+
+### 4.4. Crowdsolving
+
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
+
+### 4.5. Comparing Economic Models
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Feature</th>
+				<th scope="col">Gold Standard</th>
+				<th scope="col">CC Competition</th>
+				<th scope="col">Fiat</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Price Formation</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Distorted</td>
+			</tr>
+			<tr>
+				<th scope="row">Relative Prices</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Distorted</td>
+			</tr>
+			<tr>
+				<th scope="row">Economic Calculation</th>
+				<td></td>
+				<td>Yes</td>
+				<td>Biased</td>
+			</tr>
+			<tr>
+				<th scope="row">Allocation of Resources</th>
+				<td></td>
+				<td>Matching consumers will</td>
+				<td>Priviledged</td>
+			</tr>
+			<tr>
+				<th scope="row">Critical Resources</th>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">Credit Availability</th>
+				<td></td>
+				<td>Yes, without Cantillon Effects</td>
+				<td>Yes, with Cantillon Effects</td>
+			</tr>
+			<tr>
+				<th scope="row">Entry Barriers</th>
+				<td></td>
+				<td>No</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<th scope="row">Projects Risk</th>
+				<td></td>
+				<td>Privatized</td>
+				<td>Socialized</td>
+			</tr>
+			<tr>
+				<th scope="row">Supply / Demand matching</th>
+				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Externalities</th>
+				<td></td>
+				<td>Yes</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<th scope="row">Social Values</th>
+				<td></td>
+				<td>Natural</td>
+				<td>Imposed</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -618,21 +742,59 @@ price formation in a self-regulated system
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
+<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-### 8.4. Currency competition
+
+
+## 9. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors.
 
+### 9.1. Further Industry Development
+
+Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
+
+Additionaly, insurance companies could provide services in case a currency does not follow standards.
+
+Private 'Lender of Last Resort?
+
+
+
+### 9.2. Free Banking Introduction
+
+incremental introduction
+
+coexistence with legal ledger
+
+
+In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
+
+First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
+
+ For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
+
+### 9.3. Currency Composites
+
+A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
+
+
+### 9.4. Algebra of Currencies
+
+
+
+### 9.5. Composite Governance
+
+DAO like governance rules must be stablished.
 
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9. On the Necessity of a Quality Theory of Money
+## 10. On the Necessity of a Quality Theory of Money
 
-#### 9.1. QTM
+#### 10.1. QTM
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -642,7 +804,7 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-#### 9.1. Medium of Exchange Requirements
+#### 10.1. Medium of Exchange Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -739,150 +901,6 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 10. On the Necessity of a New Kind of Money
-
-### 10.1. Further Industry Development
-
-Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
-
-Additionaly, insurance companies could provide services in case a currency does not follow standards.
-
-Private 'Lender of Last Resort?
-
-
-
-### 10.2. Free Banking Introduction
-
-incremental introduction
-
-coexistence with legal ledger
-
-
-In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
-
-First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
-
- For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
-
-### 10.3. Ending Financial Exclusion
-
-Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
-
-* any citizen could fundraise to grow a real economy project providing value in his community
-
-* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
-
-* there would be healthy projects a broader job offer available.
-
-In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
-
-### 10.4. Crowdsolving
-
-Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
-
-- issuers will be able to fund his local or global project
-
-- issuers will also profit by providing DeFi Services to society
-
-- investors will profit by investing in successful projects
-
-- consumers will benefit with higher offer
-
-- citizens excluded from financial system will be able to fund their projects with private risk
-
-- society will benefit from more liquid financial markets
-
-- citizens from developing countries can create their own economy and fix their problems
-
-- governments will be able to delegate the difficult part into citizens
-
-### 10.5. Comparing Economic Models
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<thead>
-			<tr>
-				<th scope="col">Feature</th>
-				<th scope="col">Gold Standard</th>
-				<th scope="col">CC Competition</th>
-				<th scope="col">Fiat</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th scope="row">Price Formation</th>
-				<td></td>
-				<td>Matching consumers will</td>
-				<td>Distorted</td>
-			</tr>
-			<tr>
-				<th scope="row">Relative Prices</th>
-				<td></td>
-				<td>Matching consumers will</td>
-				<td>Distorted</td>
-			</tr>
-			<tr>
-				<th scope="row">Economic Calculation</th>
-				<td></td>
-				<td>Yes</td>
-				<td>Biased</td>
-			</tr>
-			<tr>
-				<th scope="row">Allocation of Resources</th>
-				<td></td>
-				<td>Matching consumers will</td>
-				<td>Priviledged</td>
-			</tr>
-			<tr>
-				<th scope="row">Critical Resources</th>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th scope="row">Credit Availability</th>
-				<td></td>
-				<td>Yes, without Cantillon Effects</td>
-				<td>Yes, with Cantillon Effects</td>
-			</tr>
-			<tr>
-				<th scope="row">Entry Barriers</th>
-				<td></td>
-				<td>No</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<th scope="row">Projects Risk</th>
-				<td></td>
-				<td>Privatized</td>
-				<td>Socialized</td>
-			</tr>
-			<tr>
-				<th scope="row">Supply / Demand matching</th>
-				<td></td>
-				<td>Yes</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<th scope="row">Externalities</th>
-				<td></td>
-				<td>Yes</td>
-				<td>No</td>
-			</tr>
-			<tr>
-				<th scope="row">Social Values</th>
-				<td></td>
-				<td>Natural</td>
-				<td>Imposed</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-
-<br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
-
 
 
 
