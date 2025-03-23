@@ -452,19 +452,38 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 
 
 
+### 6.1. Economic Calculation
 
-### 6.1. Allocation of Resources
+Use of Knowledge in Society [58]
+
+
+#### 6.1.1 Price Formation
+
+price formation in a centralized system
+
+price formation in a self-regulated system
 
 
 
-### 6.2 Distribution of Wealth
+### 6.2. Allocation of Resources
 
-#### 6.2.1. Purchasing Power
+
+
+### 6.3 Distribution of Wealth
+
+#### 6.3.1. Purchasing Power
 
 <!--- 
 https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 https://bitcoinmagazine.com/guides/what-is-money
 -->
+
+
+
+### 6.4. Regression Theorem
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
 
 
 
@@ -477,8 +496,77 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
+### 7.1. Convenience of Credit
 
-### 7.1. Ending Financial Exclusion
+
+### 7.2. Quantity Theory of Money
+
+In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
+
+The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
+</div>
+
+where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
+
+The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
+
+
+
+
+
+
+### 7.3. Monetary Expansion
+
+
+### 7.4. Neutrality of Money
+
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
+</div>
+
+price distortion
+
+
+#### 7.4.1. Currency Debasement
+
+
+#### 7.4.2. Cantillon Effects
+
+
+#### 7.4.3. The Split Economy
+
+Since the money is not bound to real world value, from 1971, the economy has split in 2:
+
+* The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. Real economy can be measured by the GDP.
+
+* The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
+
+#### 7.4.4. The Squeezed Real Economy
+
+The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
+
+<div style={{overflowX : 'auto'}}>
+	<table style={{textAlign: 'center'}}>
+		<tr>
+			<td><img src="/img/financial assets vs real assets March 2022_0.jpg" width="100%"></img></td>
+			<td><img src="/img/exter.png" width="80%"></img></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
+
+
+
+
+### 7.5. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -490,7 +578,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-### 7.2. Crowdsolving
+### 7.5. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -510,7 +598,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 - governments will be able to delegate the difficult part into citizens
 
-### 7.3. Comparing Economic Models
+### 7.6. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -594,71 +682,6 @@ Extracting value from nature and delivering into society to fullfill consumers w
 </div>
 
 
-### 7.4. Quantity Theory of Money
-
-In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
-
-The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
-</div>
-
-where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
-
-The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
-
-
-
-
-### 7.5. Convenience of Credit
-
-### 7.6. Monetary Expansion
-
-
-### 7.7. Neutrality of Money
-
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
-</div>
-
-price distortion
-
-
-#### 7.7.1. Currency Debasement
-
-
-#### 7.7.2. Cantillon Effects
-
-
-#### 7.7.3. The Split Economy
-
-Since the money is not bound to real world value, from 1971, the economy has split in 2:
-
-* The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. Real economy can be measured by the GDP.
-
-* The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
-
-#### 7.7.4. The Squeezed Real Economy
-
-The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
-
-<div style={{overflowX : 'auto'}}>
-	<table style={{textAlign: 'center'}}>
-		<tr>
-			<td><img src="/img/financial assets vs real assets March 2022_0.jpg" width="100%"></img></td>
-			<td><img src="/img/exter.png" width="80%"></img></td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
-
-
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -720,13 +743,7 @@ positive feedback
 
 The coexistence of competing private currencies has been documented from some authors.
 
-### 8.3. Further Industry Development
 
-Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
-
-Additionaly, insurance companies could provide services in case a currency does not follow standards.
-
-Private 'Lender of Last Resort?
 
 
 
@@ -768,24 +785,13 @@ Market itself, if not distorted, is a well performing price formation machine. A
 </div>
 <br/>
 
+### 8.3. Further Industry Development
 
-### 8.8. Economic Calculation
+Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
-Use of Knowledge in Society [58]
+Additionaly, insurance companies could provide services in case a currency does not follow standards.
 
-
-#### 8.8.1 Price Formation
-
-price formation in a centralized system
-
-price formation in a self-regulated system
-
-
-
-### 8.9. Regression Theorem
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
-
+Private 'Lender of Last Resort?
 
 <br/><br/><div class="divider div-transparent div-dot"></div><br/><br/><br/>
 
