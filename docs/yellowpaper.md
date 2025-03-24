@@ -431,14 +431,27 @@ price formation in a centralized system
 price formation in a self-regulated system
 
 
+#### 5.2. Neutrality of Money
 
-### 5.2. Allocation of Resources
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
+</div>
+
+price distortion
+
+### 5.3. Cantillon Effects
+
+
+### 5.4. Allocation of Resources
 
 
 
-### 5.3 Distribution of Wealth
+### 5.5 Distribution of Wealth
 
-#### 5.3.1. Purchasing Power
+#### 5.5.1. Purchasing Power
 
 <!--- 
 https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
@@ -447,7 +460,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
-### 5.4. Regression Theorem
+### 5.5. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
@@ -472,16 +485,14 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 
 
-### 6.4. Credit under Commodity / Representative Money
-
-### 6.3. Credit under Gold Standard
+### 6.2. Credit under Sound Money
 
 
 
-### 6.4. Credit under Fiat Money
+### 6.3. Credit under Fiat Money
 
 
-#### 6.4.1. Quantity Theory of Money
+#### 6.3.1. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -496,28 +507,17 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-#### 6.4.2. Monetary Expansion
+#### 6.3.2. Monetary Expansion
 
 
-#### 6.4.3. Neutrality of Money
-
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
-</div>
 
-price distortion
+#### 6.3.3. Currency Debasement
 
 
-#### 6.4.4. Currency Debasement
 
-
-#### 6.4.5. Cantillon Effects
-
-
-#### 6.4.6. The Split Economy
+#### 6.3.4. The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -525,7 +525,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 * The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
 
-#### 6.4.7. The Squeezed Real Economy
+#### 6.3.5. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -542,9 +542,11 @@ The monetary base for real economy is squeezed by the financial economy, and shr
 The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
 
+### 6.4. Credit under Digital Representative Money
 
 
-### 6.5. Ending Financial Exclusion
+
+#### 6.4.1. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -556,7 +558,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-### 6.5. Crowdsolving
+#### 6.4.2. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -576,7 +578,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 - governments will be able to delegate the difficult part into citizens
 
-### 6.6. Comparing Economic Models
+### 6.5. Comparing Economic Models
 
 <div style={{overflowX : 'auto'}}>
 	<table>
