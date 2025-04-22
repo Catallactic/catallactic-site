@@ -21,7 +21,7 @@ export default function EcosystemSection(): JSX.Element {
 						<div className="text--center padding-horiz--md">
 							<h3>DLT Networks</h3>
 							<p>With hundreds of DLT networks with different consensus protocols, gas fees or ecosystems is necessary to understand which ones comply with value-based cryptocommodities.</p>
-							<a className='d-block btn btn-lg mt-4' href='/docs/ecosystem/dlts/list' role='button'>Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/litepaper' role='button'>Learn More</a>
 						</div>
 					</div>
 

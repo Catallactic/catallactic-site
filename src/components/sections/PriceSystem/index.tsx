@@ -21,7 +21,7 @@ export default function PriceSystemSection(): JSX.Element {
 							<h5>A medium of exchange must technically be interchangeable, transportable, reliable and decentralized. But, additionally, a successful MoE, has economic requirements as having a <b>consistent stable value</b> or being redeemable.</h5>
 							<h5 className="my-4">By being stable, it will be <a href="https://en.wikipedia.org/wiki/Gresham%27s_law" target="_blank">more appreciated by economic agents</a>. Furthermore, a stable MoE will have a chance to participate in the <b>price system</b>, coordinating the decisions of consumers, producers, and owners of productive resources and allocating resources in the more efficient way.</h5>
 							<h5>CryptoCommodity is designed to be stable by capturing the <b>subjective value of the underlying asset</b>.</h5>
-							<a className='d-block btn btn-lg mt-4' href='/docs/Whitepaper' role='button' target="_blank">Learn More</a>
+							<a className='d-block btn btn-lg mt-4' href='/docs/yellowpaper' role='button' target="_blank">Learn More</a>
 						</div>
 					</div>
 
