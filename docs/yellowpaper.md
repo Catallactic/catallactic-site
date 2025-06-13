@@ -513,7 +513,9 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 #### 6.3.2. Monetary Expansion
 
-
+<div style={{textAlign: 'center'}}>
+	<img src="/img/usdsystem.jpeg" width="60%"></img>
+</div>
 
 
 
