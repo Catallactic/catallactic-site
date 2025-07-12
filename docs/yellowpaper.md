@@ -119,14 +119,43 @@ Refinement process
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 2. Real Market of Goods and Services
+## 2. Real Markets (Goods and Services)
 ---
 
-#### 2.1.1. Purchasing Power
+### 2.1. Commodities
 
+### 2.2. Supply
+
+#### 2.2.1. Production
+
+#### 2.2.2. Capital
+
+### 2.3. Demand
+
+#### 2.3.1. Purchasing Power
+
+#### 2.3.2. Property
+
+#### 2.3.3. Weatlh
+
+### 2.4. Value
+
+### 2.5. Value Chain
+
+### 2.6. Price
+
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 3. Financial Markets
 ---
+
+### 3.1. Financial Assets
+
+### 3.2. Monetary Markets
+
+### 3.3. Investment Markets
+
+### 3.4. Financial Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/usdsystem.jpeg" width="60%"></img>
