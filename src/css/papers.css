@@ -1,3 +1,7 @@
+.section {
+	color: #0000FF !important;
+	font-weight: bolder;
+}
 .markdown > h2 {
 	color: #0000FF !important;
 }
