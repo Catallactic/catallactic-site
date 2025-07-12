@@ -144,6 +144,8 @@ Refinement process
 
 ### 4.1. Evolution of Money
 
+#### 4.1.1. Physical Proposals
+
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
 
 Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
@@ -173,6 +175,8 @@ Trying to overcome the limitations of barter, commodity began to be used as a me
 Once a commodity has been widely accepted for exchanges, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called <b>representative money</b> in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
+
+#### 4.1.2. Digital Proposals
 
 ### 4.2. Money Peg
 
@@ -458,7 +462,7 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> ITERATIVE DESIGN OF DIGITAL REPRESENTATIVE MONEY </h1> </div>
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> ITERATIVE JUSTIFICATION OF DIGITAL REPRESENTATIVE MONEY AS MEDIUM OF EXCHANGE </h1> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -466,7 +470,7 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 ## 9. Physical Iteration
 ---
 
-## 9.1. Physical Requirements for Medium of Exchange
+### 9.1. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -579,27 +583,28 @@ price formation in a self-regulated system
 
 Use of Knowledge in Society [58]
 
-### 9.3. Allocation of Resources
-
-
-
-### 9.4 Distribution of Wealth
-
-
-
-### 9.5. Neutrality of Money
+### 9.3. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
-### 9.6. Cantillon Effects
+#### 9.3.1. Cantillon Effects
 
 
+#### 9.3.2. Allocation of Resources
 
 
+#### 9.3.3. Distribution of Wealth
 
 
+### 9.4. Economic Requirements
 
+The selected money solution must be able to form prices. 
 
+Fiat money is stable enough at the short term to form prices.
+
+Representative money is stable at the short term to form prices
+
+Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 <!--- 
 https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
@@ -735,6 +740,7 @@ Market itself, if not distorted, is a well performing price formation machine. A
 </div>
 <br/>
 
+### 10.5. Engineering Requirements
 
 
 
@@ -743,7 +749,7 @@ Market itself, if not distorted, is a well performing price formation machine. A
 ## 11. Technological Iteration
 ---
 
-### 11.1. Technological Principles
+### 11.1. Technological Requirements
 
  These principles must be provided in the contract. 
 
@@ -781,6 +787,7 @@ However, as the principles maybe change between regions or underlying assets a d
 				<th scope="col">Gold Standard</th>
 				<th scope="col">CC Competition</th>
 				<th scope="col">Fiat</th>
+				<th scope="col">Cyberpunk</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -789,27 +796,32 @@ However, as the principles maybe change between regions or underlying assets a d
 				<td></td>
 				<td>Matching consumers will</td>
 				<td>Distorted</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Relative Prices</th>
 				<td></td>
 				<td>Matching consumers will</td>
 				<td>Distorted</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Economic Calculation</th>
 				<td></td>
 				<td>Yes</td>
 				<td>Biased</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Allocation of Resources</th>
 				<td></td>
 				<td>Matching consumers will</td>
 				<td>Priviledged</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Critical Resources</th>
+				<td></td>
 				<td></td>
 				<td></td>
 				<td></td>
@@ -819,43 +831,49 @@ However, as the principles maybe change between regions or underlying assets a d
 				<td></td>
 				<td>Yes, without Cantillon Effects</td>
 				<td>Yes, with Cantillon Effects</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Entry Barriers</th>
 				<td></td>
 				<td>No</td>
 				<td>Yes</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Projects Risk</th>
 				<td></td>
 				<td>Privatized</td>
 				<td>Socialized</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Supply / Demand matching</th>
 				<td></td>
 				<td>Yes</td>
 				<td>No</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Externalities</th>
 				<td></td>
 				<td>Yes</td>
 				<td>No</td>
+				<td></td>
 			</tr>
 			<tr>
 				<th scope="row">Social Values</th>
 				<td></td>
 				<td>Natural</td>
 				<td>Imposed</td>
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
 </div>
 
 
-### 12.2. Requirements
+### 12.2. Requirements Compendium
 
 #### 12.2.1. As Medium of Exchange
 
