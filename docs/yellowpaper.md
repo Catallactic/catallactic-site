@@ -164,14 +164,14 @@ Refinement process
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> PROPOSALS FOR MONEY </h1> </div>
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> DEFINITION OF MONEY </h1> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 4. Principles of Money
+## 4. Definitions of Money
 ---
 
-### 4.1. Evolution of Money
+### 4.1. Known Proposals
 
 #### 4.1.1. Physical Proposals
 
@@ -187,7 +187,6 @@ Trying to overcome the limitations of barter, commodity began to be used as a me
 			<td><img src="/img/money_type_backed_128.png" /></td>
 			<td><img src="/img/money_type_metal_128.png" /></td>
 			<td><img src="/img/money_type_fiat_128.png" /></td>
-			<td><img src="/img/money_type_crypto_128.png" /></td>
 		</tr>
 		<tr>
 			<td>Barter</td>
@@ -195,7 +194,6 @@ Trying to overcome the limitations of barter, commodity began to be used as a me
 			<td>Representative</td>
 			<td>Standard</td>
 			<td>Fiat</td>
-			<td>Cyberpunk</td>
 		</tr>
 	</table>
 </div>
@@ -207,11 +205,78 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 #### 4.1.2. Digital Proposals
 
-### 4.2. Money Peg
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+		</tr>
+		<tr>
+			<td>Unbacked</td>
+			<td>Utility</td>
+			<td>Security</td>
+			<td>Stablecoins</td>
+			<td>NFT</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+### 4.2. Money Proposals by Peg
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/facesofmoney.jpg" width="30%"></img>
 </div>
+
+<br/><br/><br/>
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td rowSpan="4"></td>
+			<td><img src="/img/money_type_backed_128.png" /></td>
+			<td><img src="/img/money_type_fiat_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+		</tr>
+		<tr>
+			<td>Representative</td>
+			<td>Fiat</td>
+			<td>Utility</td>
+		</tr>
+		<tr>
+			<td>Austrians</td>
+			<td>Keynesians</td>
+			<td>Cyberpunks</td>
+		</tr>
+		<tr>
+			<td>Commodities</td>
+			<td>Politics</td>
+			<td>Mathematics</td>
+		</tr>
+		<tr>
+			<td>Single</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Competition</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Coexistance</td>
+			<td colSpan="3"></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+
 
 ### 4.3. Functions of Money
 
@@ -277,7 +342,7 @@ The price of money is its purchasing power. As any price, the price of money is 
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-#### 4.3.1. Store of Value
+#### 4.3.2. Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
@@ -287,7 +352,18 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 * fungible
 * countable
 -->
-#### 4.3.2. Unit of Account
+
+##### 4.3.2.1. Short Term
+
+Price Formation
+
+
+##### 4.3.2.2. Long Term
+
+Currency Debasement
+
+
+#### 4.3.3. Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -295,13 +371,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
-Price Formation
-
-#### 4.3.3. Monetary Standard (Numéraire)
+#### 4.3.4. Monetary Standard (Numéraire)
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
 In a currency competition scenario, none of the competing currencies would be eligible by default to function as numeraire. In fact a possible approach is to have a few numeraires and let users choose the numeraire which delivers lower volatility in prices. An initial numeraire could be Bitcoin because its digital nature.
+
+#### 4.3.5. Reserve Currency
 
 ### 4.4. Functions in Known Money Configurations
 
@@ -313,17 +389,25 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
-			<th>Money Configuration</th>
-			<th>MoE</th>
-			<th>SoV</th>
-			<th>UoC</th>
-			<th>Mon</th>
+			<th></th>
+			<th colSpan="6">Functions</th>
 		</tr>
 		<tr>
-			<th colSpan="5">Physical Money</th>
+			<th>Money Configuratiosn</th>
+			<th>MoE</th>
+			<th>SoV ST</th>
+			<th>SoV LT</th>
+			<th>UoC</th>
+			<th>Numéraire</th>
+			<th>Reserve</th>
+		</tr>
+		<tr>
+			<th colSpan="7">Physical Money</th>
 		</tr>
 		<tr>
 			<td>Barter</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -335,9 +419,13 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Representative</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -349,12 +437,16 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
-			<th colSpan="5">Tokenizations</th>
+			<th colSpan="7">Digital Money</th>
 		</tr>
 		<tr>
 			<td>Unbacked Tokens</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -366,9 +458,13 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Bitcoin</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -380,9 +476,13 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Security Tokens</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -394,9 +494,13 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>NFTs</td>
+			<td></td>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -411,6 +515,8 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 
 ## 6. Representative Money
 ---
+
+### 6.1. Evolution
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -428,16 +534,29 @@ Today, <b>gold or silver certificates</b>, for example, which are claims on prec
 
 The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
 
-### 6.1. Regression Theorem
+https://mises.org/podcasts/minor-issues/who-invented-money
+
+### 6.2. Methodology
+
+#### 6.2.1. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 7. Fiat Money
 ---
 
-### 7.1. Quantity Theory of Money
+### 7.1. Evolution
+
+From Friedman 2% to QE and to MMT
+
+### 7.2. Methodology
+
+Scientific Method
+
+### 7.3. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -452,9 +571,9 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-### 7.2. Currency Debasement
+### 7.4. Currency Debasement
 
-#### 7.3 The Split Economy
+#### 7.4.1. The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -468,7 +587,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-### 7.4. The Squeezed Real Economy
+#### 7.4.2. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -484,10 +603,16 @@ The monetary base for real economy is squeezed by the financial economy, and shr
 
 The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
+
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 8. CyberPunk
 ---
+
+### 8.1. Evolution
+
+### 8.2. Methodology
+
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
@@ -495,11 +620,15 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
+## 9. Evaluation Methodology
 
-## 9. Physical Iteration
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 10. Physical Iteration
 ---
 
-### 9.1. Physical Requirements
+### 10.1. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -586,19 +715,19 @@ We will discuss all the requirements that makes up a quality curency in the impl
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9. Economic Iteration
+## 11. Economic Iteration
 ---
 
 
 
 
-### 9.1. The Price System
+### 11.1. The Price System
 
 Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
 
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
-#### 9.1.1 Price Formation
+#### 11.1.1 Price Formation
 
 price formation in a centralized system
 
@@ -608,24 +737,24 @@ price formation in a self-regulated system
 
 
 
-### 9.2. Economic Calculation
+### 11.2. Economic Calculation
 
 Use of Knowledge in Society [58]
 
-### 9.3. Neutrality of Money
+### 11.3. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
-#### 9.3.1. Cantillon Effects
+#### 11.3.1. Cantillon Effects
 
 
-#### 9.3.2. Allocation of Resources
+#### 11.3.2. Allocation of Resources
 
 
-#### 9.3.3. Distribution of Wealth
+#### 11.3.3. Distribution of Wealth
 
 
-### 9.4. Economic Requirements
+### 11.4. Economic Requirements
 
 The selected money solution must be able to form prices. 
 
@@ -645,27 +774,27 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
-## 10. Engineering Iteration
+## 12. Engineering Iteration
 ---
 
-### 10.1. Convenience of Credit
+### 12.1. Convenience of Credit
 
 
-#### 10.1.1. Credit under Sound Money
-
-
-
-#### 10.1.2. Credit under Fiat Money
+#### 12.1.1. Credit under Sound Money
 
 
 
-#### 10.1.3. Credit under Digital Representative Money
+#### 12.1.2. Credit under Fiat Money
+
+
+
+#### 12.1.3. Credit under Digital Representative Money
 
 
 
 
 
-### 10.2. Currency competition
+### 12.2. Currency competition
 
 The coexistence of competing private currencies has been documented from some authors.
 
@@ -673,7 +802,7 @@ The coexistence of competing private currencies has been documented from some au
 
 
 
-#### 10.2.1. Free Banking Introduction
+#### 12.2.1. Free Banking Introduction
 
 incremental introduction
 
@@ -686,22 +815,22 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-### 10.3. Currency Composites
+### 12.3. Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-#### 10.3.1. Algebra of Currencies
+#### 12.3.1. Algebra of Currencies
 
 
 
-#### 10.3.2. Composite Governance
+#### 12.3.2. Composite Governance
 
 DAO like governance rules must be stablished.
 
 
 
-#### 10.3.3. Further Industry Development
+#### 12.3.3. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -710,9 +839,9 @@ Additionaly, insurance companies could provide services in case a currency does 
 Private 'Lender of Last Resort?
 
 
-### 10.4. System Stability
+### 12.4. System Stability
 
-#### 10.4.1. A Regulated System
+#### 12.4.1. A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -721,7 +850,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 10.4.2. Positive and Negative Feedback
+#### 12.4.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -754,11 +883,11 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 10.4.3. A centralized system
+#### 12.4.3. A centralized system
 
 positive feedback
 
-#### 10.4.1. A self-regulated system
+#### 12.4.1. A self-regulated system
 
 negative feedback
 
@@ -769,16 +898,16 @@ Market itself, if not distorted, is a well performing price formation machine. A
 </div>
 <br/>
 
-### 10.5. Engineering Requirements
+### 12.5. Engineering Requirements
 
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 11. Technological Iteration
+## 13. Technological Iteration
 ---
 
-### 11.1. Technological Requirements
+### 13.1. Technological Requirements
 
  These principles must be provided in the contract. 
 
@@ -803,10 +932,10 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-## 12. Conclusion
+## 14. Conclusion
 ---
 
-### 12.1. Representative Digital Money
+### 14.1. Representative Digital Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -902,9 +1031,9 @@ However, as the principles maybe change between regions or underlying assets a d
 </div>
 
 
-### 12.2. Requirements Compendium
+### 14.2. Requirements Compendium
 
-#### 12.2.1. As Medium of Exchange
+#### 14.2.1. As Medium of Exchange
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -996,15 +1125,15 @@ However, as the principles maybe change between regions or underlying assets a d
 </div>
 <br/>
 
-#### 12.2.2. As Store of Value
+#### 14.2.2. As Store of Value
 
-#### 12.2.3. As Unit of Account
+#### 14.2.3. As Unit of Account
 
-#### 12.2.4. As Monetary Standard
+#### 14.2.4. As Monetary Standard
 
-#### 12.2.5. Other Monetary Functions
+#### 14.2.5. Other Monetary Functions
 
-### 12.3. A Quality Theory of Money
+### 14.3. A Quality Theory of Money
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -1014,9 +1143,9 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
-### 12.4. Benefits
+### 14.4. Benefits
 
-#### 12.4.1. Ending Financial Exclusion
+#### 14.4.1. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -1028,7 +1157,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-#### 12.4.2. Crowdsolving
+#### 14.4.2. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -1057,7 +1186,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 13. References
+## 15. References
 ---
 
 
