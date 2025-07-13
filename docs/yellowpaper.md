@@ -30,7 +30,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 1. Designing a Currency
+## 1. A Primer in Monetary Policy
 
 ### 1.1. Purpose
 
@@ -38,39 +38,158 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 ### 1.2. Basic Ecosystems
 
-This analysis is optimized for markets of goods and services, i.e. the real economy.
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tbody>
+			<tr>
+				<td scope="row">
+					<div style={{textAlign: 'center'}}>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Factory_icon.svg" width="40%"></img>
+					</div>
+				</td>
+				<td scope="row">
+					<div style={{textAlign: 'center'}}>
+						<img src="https://media.istockphoto.com/id/1438179404/vector/vector-speedometer-meter-with-arrow-for-dashboard-with-green-yellow-orange-and-red.jpg?s=612x612&w=0&k=20&c=95heZkuPi7ND2-8NdqFji1HIhC6CxMTXmFCcYWa7aZA=" width="60%"></img>
+					</div>
+				</td>
+				<td scope="row">
+					<div style={{textAlign: 'center'}}>
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIymNiUEyX1KWQN-bRQZXEq8tWkbkJKcz99Q&s" width="100%"></img>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td scope="row">
+					Goods and Services Markets
+						* Supply of Goods
+						* Demand Of Goods
+						* Price of Goods
+				</td>
+				<td scope="row">
+				</td>
+				<td scope="row">
+					Financial Markets
+						* Supply of Financial Products
+						* Demand Of Financial Products
+						* Price of Money (Interest)
+				</td>
+			</tr>
+			<tr>
+				<td scope="row">Real Economy</td>
+				<td scope="row">Money Definition</td>
+				<td scope="row">Financial Economy</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
-Elephant coupling.
 
-### 1.3. Variables Involded
+<br/>
+<br/>
 
-Goods and Services Market (Real Economy)
 
-* Supply of Goods
+<!--div style={{overflowX : 'auto'}}>
+	<table>
+		<tbody>
+			<tr>
+				<td scope="row">Financial Economy</td>
+				<td scope="row">
+					Money Markets
+						* Supply of Financial Products
+						* Demand Of Financial Products
+						* Price of Money (Interest)
+				</td>
+				<td scope="row">
+					<div style={{textAlign: 'center'}}>
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIymNiUEyX1KWQN-bRQZXEq8tWkbkJKcz99Q&s" width="30%"></img>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td scope="row">Money Definition</td>
+				<td scope="row"></td>
+				<td scope="row">
+					<div style={{textAlign: 'center'}}>
+						<img src="https://media.istockphoto.com/id/1438179404/vector/vector-speedometer-meter-with-arrow-for-dashboard-with-green-yellow-orange-and-red.jpg?s=612x612&w=0&k=20&c=95heZkuPi7ND2-8NdqFji1HIhC6CxMTXmFCcYWa7aZA=" width="30%"></img>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td scope="row">Real Economy</td>
+				<td scope="row">
+					Goods and Services Market
+						* Supply of Goods
+						* Demand Of Goods
+						* Price of Goods
+				</td>
+				<td scope="row">
+					<div style={{textAlign: 'center'}}>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Factory_icon.svg" width="30%"></img>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div-->
 
-* Demand Of Goods
 
-* Price of Goods
+### 1.3. Socieconomic Cascade
 
-Money Markets (Financial Economy)
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Feature</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Price Formation</th>
+			</tr>
+			<tr>
+				<th scope="row">Relative Prices</th>
+			</tr>
+			<tr>
+				<th scope="row">Economic Calculation</th>
+			</tr>
+			<tr>
+				<th scope="row">Allocation of Resources</th>
+			</tr>
+			<tr>
+				<th scope="row">Critical Resources</th>
+			</tr>
+			<tr>
+				<th scope="row">Credit Availability</th>
+			</tr>
+			<tr>
+				<th scope="row">Entry Barriers</th>
+			</tr>
+			<tr>
+				<th scope="row">Projects Risk</th>
+			</tr>
+			<tr>
+				<th scope="row">Supply / Demand matching</th>
+			</tr>
+			<tr>
+				<th scope="row">Externalities</th>
+			</tr>
+			<tr>
+				<th scope="row">Social Values</th>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
-* Supply of Money
+### 1.4. Methodology
 
-* Demand Of Money.
+Existing Monetary Theories aimed to:
 
-* Price of Money (Interest)
+* describe economic interactions
 
-Economic Impact
+* design money supply policies
 
-* ResourcesAllocation
+We will change the approach. Instead, we will use existing Monetary Theories to design the best currency approach.
 
-* Lending Ability
-
-Social Order
-
-* Ethics
-
-* Culture
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
@@ -148,13 +267,68 @@ Gresham’s law, which says that bad money tends to drive good money out of circ
 * Coexistence
 
 
-### 4.2. Known Configurations
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-#### 4.2.1. Barter
+
+
+## 5. Money Supply
+---
+
+### 5.1. Fixed Supply
+
+
+### 5.3. Growing Supply
+
+### 5.4. Quality Theory of Money
+
+Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
+
+> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
+
+This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+
+Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
+
+### 5.5. Austrian business cycle theory (ABCT)
+
+
+
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 6. Monetary Competition
+---
+
+### 6.1. Gresham Law
+
+### 6.2. Quantity Theory of Money
+
+In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
+
+The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
+</div>
+
+where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
+
+The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
+
+
+
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+## 5. Money Configurations
+---
+
+### 5.1. Known Money Configurations
+
+#### 5.1.1. Barter
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
 
-#### 4.2.2. Physical Proposals for Money
+#### 5.1.2. Physical Proposals for Money
 
 Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
@@ -182,7 +356,7 @@ Once a commodity has been widely accepted for exchanges, it may take on a value 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-#### 4.2.3. Digital Proposals for Money
+#### 5.1.3. Digital Proposals for Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -204,7 +378,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 </div>
 <br/>
 
-#### 4.2.4. Digitalization Equivalences
+#### 5.1.4. Digitalization Equivalences
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
 	<table>
@@ -316,9 +490,31 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 
 
-### 4.3. Representative Money
 
-#### 4.3.1. Scope
+
+### 5.2. Utility Tokens
+
+#### 5.2.1. Scope
+
+Cypherpunk
+
+#### 5.2.2. Methodology
+
+### 5.3. Fiat Money
+
+#### 5.3.1. Scope
+
+From Friedman 2% to QE and to MMT
+
+#### 5.3.2. Methodology
+
+Scientific Method
+
+
+
+### 5.4. Representative Money
+
+#### 5.4.1. Scope
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -338,47 +534,14 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 https://mises.org/podcasts/minor-issues/who-invented-money
 
-#### 4.3.2. Methodology
+#### 5.4.2. Methodology
 
-#### 4.3.3. Regression Theorem
+#### 5.4.3. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
 
-### 4.4. Fiat Money
 
-#### 4.4.1. Scope
-
-From Friedman 2% to QE and to MMT
-
-#### 4.4.2. Methodology
-
-Scientific Method
-
-#### 4.4.3. Quantity Theory of Money
-
-In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
-
-The quantity theory of money is most often expressed and explained by reference to the <b>equation of exchange</b>. The equation of exchange was derived by economist John Stuart Mill. The equation states that the total amount of money that changes hands in an economy will always be equal to the total monetary value of goods and services that changes hands in an economy. In other words, the amount of nominal spending will always be equal to the amount of nominal income. The equation is as follows:
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://cdn.corporatefinanceinstitute.com/assets/equation-of-exchange1.png" width="60%"></img>
-</div>
-
-where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
-
-The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
-
-
-
-
-### 4.5. Utility Tokens
-
-#### 4.5.1. Scope
-
-Cypherpunk
-
-#### 4.5.2. Methodology
 
 
 
@@ -561,7 +724,7 @@ However, as the principles maybe change between regions or underlying assets a d
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 7. Store of Value Short Term
+## 7. Short Term Store of Value
 ---
 
 ### 7.1. Definition
@@ -574,16 +737,6 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 * fungible
 * countable
 -->
-
-#### 7.1.1. Short Term
-
-Price Formation
-
-
-#### 7.1.2. Long Term
-
-Currency Debasement
-
 
 ### 7.2. The Price System
 
@@ -633,9 +786,8 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
-## 8. Store of Value Long Term
+## 8. Long Term Store of Value
 ---
-
 
 ### 8.1. Convenience of Credit
 
@@ -825,7 +977,7 @@ In a currency competition scenario, none of the competing currencies would be el
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 11. Reserve
+## 11. Reserve Currency
 
 
 
@@ -1154,15 +1306,7 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 <br/>
 
 
-### 12.3. A Quality Theory of Money
 
-Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
-
-> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
-
-This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
-
-Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
 ### 12.4. Benefits
 
