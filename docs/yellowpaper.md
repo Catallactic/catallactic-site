@@ -277,31 +277,15 @@ Gresham’s law, which says that bad money tends to drive good money out of circ
 ### 5.1. Fixed Supply
 
 
-### 5.3. Growing Supply
+### 5.2. Drawbacks of Fixed Supply
 
-### 5.4. Quality Theory of Money
+* Keynes’s Liquidity Preference Theory
 
-Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
+* Baumol-Tobin Model of Transaction Demand for Money
 
-> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
+* Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
-This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
-
-Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
-
-### 5.5. Austrian business cycle theory (ABCT)
-
-
-
-<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
-
-
-## 6. Monetary Competition
----
-
-### 6.1. Gresham Law
-
-### 6.2. Quantity Theory of Money
+### 5.3. Quantity Theory of Money
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -314,6 +298,57 @@ The quantity theory of money is most often expressed and explained by reference 
 where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
 
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
+
+
+
+### 5.4. Growing Supply Policies
+
+Inflation Targeting vs. Price Level Targeting
+
+Nominal GDP Targeting
+
+Rules vs. Discretion in Monetary Policy (Taylor Rule, Friedman’s k-percent rule)
+
+### 5.5. Growing Supply Mechanisms
+
+#### 5.5.1. Interest Rates
+
+#### 5.5.2. Negative Interest Rate Policy (NIRP)
+
+#### 5.5.3. Loans
+
+#### 5.5.4. QE
+
+#### 5.5.5. Forward Guidance
+
+
+
+### 5.6. Austrian business cycle theory (ABCT)
+
+Post-Keynesian Monetary Theory (Endogenous Money)
+
+Austrian School’s View on Money & Credit Cycles
+
+Modern Monetary Theory (MMT)
+
+
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 6. Monetary Competition
+---
+
+### 6.1. Gresham Law
+
+### 6.2. Quality Theory of Money
+
+Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
+
+> The quantity theory presupposes that there is only one kind of money in circulation within a given territory, the quantity of which can be ascertained by counting its homogeneous (or near-homogeneous) units". This is not the case for private money issued in a competence reguime. 
+
+This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
+
+Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
 
 
