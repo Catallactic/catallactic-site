@@ -264,69 +264,11 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 #### 2.2.1. Medium of Exchange
 
-##### 2.2.2.1. Authors
+##### 2.2.1.1. Authors
 
-The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
+A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
-The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. Different authors provided different insights on the quality of money.
-
-A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services. This is the function described in the previous sections.
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td>Money</td>
-			<td>Qualities as Currency</td>
-		</tr>
-		<tr>
-			<td>Juan de Mariana (1609)</td>
-			<td>Deterioration of the quality of gold coins must be considered a tax</td>
-		</tr>
-		<tr>
-			<td>Sir William Petty (1662)</td>
-			<td>Deterioration of the quality of coins by the government a tax</td>
-		</tr>
-		<tr>
-			<td>Adam Smith (1776)</td>
-			<td>Durability and divisibility</td>
-		</tr>
-		<tr>
-			<td>Jean Baptiste Say (1802)</td>
-			<td>Divisible, of the same quality, resistant to friction, sufficiently rare, and malleable</td>
-		</tr>
-		<tr>
-			<td>John Stuart Mill (1848)</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Carl Menger (1871)</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>William Stanley Jevons’s (1875)</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>Mises (1953)</td>
-			<td>Does not mention the quality of money</td>
-		</tr>
-		<tr>
-			<td>Rothbard (2004)</td>
-			<td>In heavy demand, highly divisible, portable, durable, and has a high value per unit weight</td>
-		</tr>
-		<tr>
-			<td>Friedrich Hayek</td>
-			<td>-</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
-
-One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
-
-##### 2.2.2.2. Physical Requirements
+##### 2.2.1.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -391,7 +333,7 @@ To work as a Medium of Exchange:
 
 
 
-##### 2.2.2.3. Digital Requirements
+##### 2.2.1.3. Digital Requirements
 
  These principles must be provided in the contract. 
 
@@ -415,18 +357,41 @@ However, as the principles maybe change between regions or underlying assets a d
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
+##### 2.2.2.1. Authors
+
+For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
+
+For Ludwig Von Mises, money’s role as a store of value depends on its purchasing power stability. ("The Theory of Money and Credit" (1912)*)
+
+In "Denationalisation of Money" (1976), Hayek argued that sound money (e.g., commodity-backed or competitive currencies) is necessary for long-term value storage.
+
+Jörg Guido Hülsmann Supports commodity money (e.g., gold, silver) as an ethical and stable store of value. (The Ethics of Money Production" (2008)*)
+
+Milton Friedman In "A Monetary History of the United States" (1963), Friedman emphasized that money must retain its purchasing power over time to be an effective store of value. He argued that stable monetary policy (avoiding inflation/deflation) is crucial for money to preserve wealth.
+
+John Maynard Keynes  In "The General Theory of Employment, Interest, and Money" (1936), Keynes discussed money's role as a store of value, particularly in times of uncertainty. He noted that people hold money (liquidity preference) as a safe asset, but inflation erodes its value, making alternative stores (like bonds or gold) preferable.
+
+Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a hoardable commodity (like gold) that must retain intrinsic value to function as a store of wealth.
+
+##### 2.2.2.2. Physical Requirements
+
 To work as Store of Value:
 
 * the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* Durability
+
+* Scarcity
+
+* the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
+
+##### 2.2.2.3. Digital Requirements
 
 * the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
 
 * the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
 
 * the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
-
-* the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
-
 
 
 
@@ -679,7 +644,8 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 
 ### 2.4. Defining a Retail Currency
 
-No all functions must be held by the same currency, instead an specialization is needed.
+#### 2.2.1. Basic Requirements
+
 
 We are looking for a stable Medium of Exchange
 
@@ -749,22 +715,25 @@ We are looking for a stable Medium of Exchange
 			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Stable</b></td>
+			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
 		</tr>
 		<tr>
 			<td>Stable (Short Term)</td>
 			<td>Must be able to form a price system</td>
 		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Provide Credit</b></td>
-		</tr>
 		<tr>
 			<td>Stable (Long Term)</td>
-			<td>Must be able to provide credit</td>
+			<td>Must be able to provide credit maintaining long term stability</td>
 		</tr>
 	</table>
 </div>
 <br/>
+
+#### 2.2.2. Broader Ecosystem
+
+No all functions must be held by the same currency, instead an specialization is needed.
+
+The main challenge to have a retail currency is to provide credit without volatility.
 
 Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
 
@@ -895,7 +864,7 @@ Fiat money is stable enough at the short term to form prices.
 
 Representative money is stable at the short term to form prices
 
-Cyberphunk money cannot form prices and therefore cannot become MoE.
+
 
 
 
@@ -1238,7 +1207,7 @@ Cypherpunk
 
 #### 5.3.1. Stability
 
-
+Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 
 
@@ -1282,6 +1251,66 @@ Quantity Theory of Money does not reconciliate well with competing currencies. A
 This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are not theories of application for Utility Tokens and, therefore, for competing CryptoCommodities.
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
+
+The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
+
+The price of money is its purchasing power. As any price, the price of money is determined by its supply and demand. <b>The demand for money is determined by its marginal utility. The utility of money is, in turn, determined by money’s quality, i.e., its capacity to fulfill its services.</b>
+
+The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. Different authors provided different insights on the quality of money.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td>Money</td>
+			<td>Qualities as Currency</td>
+		</tr>
+		<tr>
+			<td>Juan de Mariana (1609)</td>
+			<td>Deterioration of the quality of gold coins must be considered a tax</td>
+		</tr>
+		<tr>
+			<td>Sir William Petty (1662)</td>
+			<td>Deterioration of the quality of coins by the government a tax</td>
+		</tr>
+		<tr>
+			<td>Adam Smith (1776)</td>
+			<td>Durability and divisibility</td>
+		</tr>
+		<tr>
+			<td>Jean Baptiste Say (1802)</td>
+			<td>Divisible, of the same quality, resistant to friction, sufficiently rare, and malleable</td>
+		</tr>
+		<tr>
+			<td>John Stuart Mill (1848)</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Carl Menger (1871)</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>William Stanley Jevons’s (1875)</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Mises (1953)</td>
+			<td>Does not mention the quality of money</td>
+		</tr>
+		<tr>
+			<td>Rothbard (2004)</td>
+			<td>In heavy demand, highly divisible, portable, durable, and has a high value per unit weight</td>
+		</tr>
+		<tr>
+			<td>Friedrich Hayek</td>
+			<td>-</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+
+One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
+
 
 ### 6.5. Considerations on Stability
 
