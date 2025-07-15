@@ -264,6 +264,8 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 #### 2.2.1. Medium of Exchange
 
+##### 2.2.2.1. Authors
+
 The quality of money is defined as the capacity of money, as perceived by actors, to fulfill its main functions, namely to serve as a medium of exchange, as a store of wealth, and unit of  account. The theory of the quality of money maintains that the <b>demand for money does depend on the quality of money</b>.
 
 The theory of the quality of money, even though not under this label, has a long tradition. While many authors have discussed the factors influences the quality of money, no unifying consensus has ever been established. Different authors provided different insights on the quality of money.
@@ -324,7 +326,7 @@ The price of money is its purchasing power. As any price, the price of money is 
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-##### 2.2.2.1. Physical Requirements
+##### 2.2.2.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -387,28 +389,9 @@ To work as a Medium of Exchange:
 
 * the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
 
-To work as Store of Value:
-
-* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
-
-* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
-
-* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
-
-* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
-
-To work as Unit of Account:
-
-* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
-
-* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
-
-Additionally, the above requirements must be customized to every stage of the value chain and to each juridiction, undelying asset and utilities delivered, i.e. there must be a case by case analysis, but also a minimum set of requirements should be defined. From the list above we can collect the 7 challenges for cryptocommodities adoption in mainstream.
-
-We will discuss all the requirements that makes up a quality curency in the implementation section.
 
 
-##### 2.2.2.2. Digital Requirements
+##### 2.2.2.3. Digital Requirements
 
  These principles must be provided in the contract. 
 
@@ -432,17 +415,26 @@ However, as the principles maybe change between regions or underlying assets a d
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
-<!---
-https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
-* divisible
-* fungible
-* countable
--->
+To work as Store of Value:
+
+* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+
+* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+
+* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+
+* the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
+
+
+
 
 
 
 <!--- 
 https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+
 https://bitcoinmagazine.com/guides/what-is-money
 -->
 
@@ -457,6 +449,16 @@ The value of a coin used as an <b>unit of account</b> could also be different fr
 Technically, a unit of account is something that is divisible, fungible, and countable. If the money is unique it can fullfill the function of accounting the price of the asset that is exchanged. However, if there is a competition of currencies, it cannot account by tiself the relative prices between good and services and needs the help of a Numéraire.
 
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
+
+
+
+
+<!---
+https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
+* divisible
+* fungible
+* countable
+-->
 
 #### 2.2.1. Monetary Standard (Numéraire)
 
@@ -804,6 +806,22 @@ Requirements are different for a Monetary Standard and a Reserve Currency so it 
 
 #### 3.2.6. Price
 
+
+
+### 3.3. The Price System
+
+Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
+
+https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+
+#### 3.3.1 Price Formation
+
+price formation in a centralized system
+
+price formation in a self-regulated system
+
+#### 3.3.2 The Spontaneus Order
+
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<!--thead>
@@ -855,28 +873,16 @@ Requirements are different for a Monetary Standard and a Reserve Currency so it 
 	</table>
 </div>
 
-### 3.3. The Price System
-
-Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
-
-https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-
-#### 3.3.1 Price Formation
-
-price formation in a centralized system
-
-price formation in a self-regulated system
-
-### 3.3.2. Economic Calculation
+#### 3.3.3. Economic Calculation
 
 Use of Knowledge in Society [58]
 
 
 
-#### 3.3.3. Allocation of Resources
+#### 3.3.4. Allocation of Resources
 
 
-#### 3.3.4. Distribution of Wealth
+#### 3.3.5. Distribution of Wealth
 
 
 
@@ -890,6 +896,8 @@ Fiat money is stable enough at the short term to form prices.
 Representative money is stable at the short term to form prices
 
 Cyberphunk money cannot form prices and therefore cannot become MoE.
+
+
 
 ### 3.5. Representative Money
 
@@ -918,10 +926,12 @@ https://mises.org/podcasts/minor-issues/who-invented-money
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
+### 3.6. Money Stability
 
-### 3.6. System Stability
 
-#### 3.6.1. A Regulated System
+### 3.7. System Stability
+
+#### 3.7.1. A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -930,7 +940,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 3.6.2. Positive and Negative Feedback
+#### 3.7.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -963,11 +973,11 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 3.6.3. A centralized system
+#### 3.7.3. A centralized system
 
 positive feedback
 
-#### 3.6.4. A self-regulated system
+#### 3.7.4. A self-regulated system
 
 negative feedback
 
@@ -981,28 +991,11 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-
-
-
-
-
-
-
-
-
-### 3.7. Drawbacks of Fixed Supply
-
-* Keynes’s Liquidity Preference Theory
-
-* Baumol-Tobin Model of Transaction Demand for Money
+### 3.8. Supply Limitations
 
 * Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
 * No credit
-
-
-#### 3.7.1. Convenience of Credit
-
 
 
 
@@ -1029,7 +1022,7 @@ Keynes’s Liquidity Preference Theory
 Baumol-Tobin Model of Transaction Demand for Money
 
 
-### 4.1. Increasing the Supply of Money
+### 4.2. Increasing the Supply of Money
 
 #### 4.2.1. Quantity Theory of Money
 
@@ -1104,7 +1097,26 @@ MMT
 https://www.rba.gov.au/education/resources/explainers/the-transmission-of-monetary-policy.html
 
 
-### 4.4. The Money Supply Evolution
+
+
+### 4.4. Financial Markets
+
+#### 4.4.1. Financial Assets
+
+#### 4.4.2. Monetary Markets
+
+#### 4.4.3. Investment Markets
+
+#### 4.4.4. Financial Ecosystem
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/usdsystem.jpeg" width="60%"></img>
+</div>
+
+
+
+
+### 4.5. The Money Supply Evolution
 
 Bubble after bubble
 
@@ -1113,22 +1125,6 @@ War as Reset
 Jubileo as Reset
 
 No Reset
-
-
-
-### 4.5. Financial Markets
-
-#### 4.5.1. Financial Assets
-
-#### 4.5.2. Monetary Markets
-
-#### 4.5.3. Investment Markets
-
-#### 4.5.4. Financial Ecosystem
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/usdsystem.jpeg" width="60%"></img>
-</div>
 
 
 
@@ -1246,6 +1242,7 @@ Cypherpunk
 
 
 
+
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 6. The CypherPunk Competition Order (i.e. Crytocurrencies)
@@ -1296,34 +1293,46 @@ Despite Adam Smith proposed the so-called real bills doctrine, or a quality theo
 
 
 
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+## 7. The RWA Stablecoin Order
+---
+
+
+
 
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 7. The Representative Digital Competition
+## 8. The Representative Digital Competition
 ---
 
 
-### 7.1. Private Money Supply
+### 8.1. Private Money Supply
 
 
-### 7.1. Representative Digital Money
+### 8.1. Representative Digital Money
+
+To work as Unit of Account:
+
+* differently to a stablecoin, a UoA needs an <b>Underlying market</b> for price formation. This must be enforced by the design
+
+* the underlying asset must be <b>Fungible</b>. This must be enforced by the design
 
 
 
-
-
-### 7.2. Currency Composites
+### 8.2. Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-#### 7.2.1. Algebra of Currencies
+#### 8.2.1. Algebra of Currencies
 
 
 
-#### 7.2.2. Composite Governance
+#### 8.2.2. Composite Governance
 
 DAO like governance rules must be stablished.
 
@@ -1331,9 +1340,9 @@ DAO like governance rules must be stablished.
 
 
 
-### 7.4. Benefits
+### 8.4. Benefits
 
-#### 7.4.1. Ending Financial Exclusion
+#### 8.4.1. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -1345,7 +1354,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-#### 7.4.2. Crowdsolving
+#### 8.4.2. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -1367,7 +1376,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-### 7.5. Further Industry Development
+### 8.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -1380,7 +1389,7 @@ Private 'Lender of Last Resort?
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8. Conclusion
+## 9. Conclusion
 ---
 
 <div style={{overflowX : 'auto'}}>
