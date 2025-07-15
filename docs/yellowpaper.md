@@ -939,6 +939,8 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 ### 3.1. Convenience of Credit
 
 
+
+
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
@@ -954,15 +956,14 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 ## 4. The Boosted Fiat Order
 ---
 
-### 4.1. Fiat Money
 
-#### 4.1.1. Scope
+### 4.1. The demand for Money
 
-From Friedman 2% to QE and to MMT
+Keynes’s Liquidity Preference Theory
 
-#### 4.1.2. Methodology
+Baumol-Tobin Model of Transaction Demand for Money
 
-Scientific Method
+
 
 
 ### 4.2. Quantity Theory of Money
@@ -980,7 +981,15 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
 
-### 4.4. Growing Supply Policies
+### 4.3. Fiat Money
+
+#### 4.3.1. Methodology
+
+Scientific Method
+
+#### 4.3.2. Monetary Policies
+
+From Friedman 2% to QE and to MMT
 
 Inflation Targeting vs. Price Level Targeting
 
@@ -988,28 +997,15 @@ Nominal GDP Targeting
 
 Rules vs. Discretion in Monetary Policy (Taylor Rule, Friedman’s k-percent rule)
 
-### 4.5. Growing Supply Mechanisms
+##### 4.3.2.1. Interest Rates
 
-#### 4.5.1. Interest Rates
+##### 4.3.2.2. Negative Interest Rate Policy (NIRP)
 
-#### 4.5.2. Negative Interest Rate Policy (NIRP)
+##### 4.3.2.3. Loans
 
-#### 4.5.3. Loans
+##### 4.3.2.4. QE
 
-#### 4.5.4. QE
-
-#### 4.5.5. Forward Guidance
-
-
-
-### 4.6. Austrian business cycle theory (ABCT)
-
-Post-Keynesian Monetary Theory (Endogenous Money)
-
-Austrian School’s View on Money & Credit Cycles
-
-Modern Monetary Theory (MMT)
-
+##### 4.3.2.5. Forward Guidance
 
 
 
@@ -1032,16 +1028,11 @@ Modern Monetary Theory (MMT)
 
 
 
-### 4.2. Neutrality of Money
-
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-#### 4.2.1. Cantillon Effects
 
 
-### 4.3. Currency Debasement
+### 4.5. Currency Debasement
 
-#### 4.3.1. The Split Economy
+#### 4.5.1. The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -1055,7 +1046,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 4.3.2. The Squeezed Real Economy
+#### 4.5.2. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -1078,6 +1069,23 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 
 
+### 4.6. Neutrality of Money
+
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+#### 4.6.1. Cantillon Effects
+
+
+#### 4.6.2. Austrian business cycle theory (ABCT)
+
+Post-Keynesian Monetary Theory (Endogenous Money)
+
+Austrian School’s View on Money & Credit Cycles
+
+Modern Monetary Theory (MMT)
+
+
+
 
 
 
@@ -1089,7 +1097,7 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 5. The CypherPunk Order
+## 5. The CypherPunk Order (i.e. Bitcoin)
 ---
 
 ### 5.1. Utility Tokens
@@ -1103,13 +1111,42 @@ Cypherpunk
 
 
 
+
+
+
+
+
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 6. The CypherPunk Competition Order
+## 6. The CypherPunk Competition Order (i.e. Crytocurrencies)
 
-### 6.1. Gresham Law
+### 6.1. Currency competition
 
-### 6.2. Quality Theory of Money
+
+
+### 6.2. Free Banking Introduction
+
+The coexistence of competing private currencies has been documented from some authors.
+
+Optimal Currency Areas (Mundell, McKinnon, Kenen). Robert Mundell’s theory of Optimal Currency Areas (1961) discusses when regions should share a currency vs. having competing ones.
+
+Hayek and Denationalization of Money. Friedrich Hayek (1976) argued in "Denationalisation of Money" that governments should not have a monopoly on currency issuance. He proposed that private currencies could compete, leading to more stable money as issuers would have an incentive to maintain purchasing power. Hayek believed competition would discipline issuers, preventing inflation better than central banks.
+
+Free Banking School. Economists like Lawrence White and George Selgin argue that historical free banking systems (e.g., Scotland in the 18th–19th centuries) show that competition among private banks issuing notes can work well. They claim that competitive note issuance leads to monetary stability without central bank intervention. Selgin’s "The Theory of Free Banking" (1988) explains how market forces regulate money supply better than central planning.
+
+incremental introduction
+
+#### 6.2.1. Coexistence with legal ledger
+
+In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
+
+First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
+
+ For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
+
+### 6.3. Gresham Law
+
+### 6.4. Quality Theory of Money
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -1119,27 +1156,9 @@ This means Fisher's Exchange Equation or Velocity of Money (Token Velocity) are 
 
 Despite Adam Smith proposed the so-called real bills doctrine, or a quality theory of money, in the Wealth of Nations, there is not a Quality Theory of Money development in the classic bibliography. There are papers on what should be The Quality of Money but there is not a unified theory. Additionally, if there would be a Quality Theory of Money it should need to be updated to cope with electronic means, internet, blockchain and cryptocurrencies advent. Therefore, we must retake the existing work on Quality of Money and propose a unified Quality Theory of Money within CryptoCommodity design.
 
+### 6.5. Considerations on Stability
 
-
-### 6.3. Free Banking Introduction
-
-incremental introduction
-
-coexistence with legal ledger
-
-
-In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
-
-First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
-
- For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
-
-### 6.4. Currency competition
-
-The coexistence of competing private currencies has been documented from some authors.
-
-
-### 6.5. Drawbacks
+### 6.6. Drawbacks
 
 * solves the problem of credit
 
@@ -1436,6 +1455,7 @@ Private 'Lender of Last Resort?
 [9] Private Money: The Path to Monetary Stability, Kevin Dowd, Institute of Economic Affairs, 1988 - 71 pagina's https://iea.org.uk/publications/research/private-money-the-path-to-monetary-stability
 
 [10] The Theory of Free Banking: Money Supply under Competitive Note Issue, 1988 George A. Selgin https://oll.libertyfund.org/title/white-the-theory-of-free-banking-money-supply-under-competitive-note-issue
+https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2307/Selgin_1544_Bk.pdf
 
 [11] The State and the Monetary System. Phillip Allan Publishers, St Martin's Press, Dowd, K. (1989). https://durham-repository.worktribe.com/output/1124158
 
@@ -1520,3 +1540,8 @@ Private 'Lender of Last Resort?
 [50] Unit of Account, Medium of Exchange, and Prices, January 2011, Young Sik Kim, Manjong Lee - https://www.researchgate.net/publication/254421998_Unit_of_Account_Medium_of_Exchange_and_Prices
 
 [58] The Use of Knowledge in Society, Hayek, 1945 - https://www.econlib.org/library/Essays/hykKnw.html
+
+
+https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2307/Selgin_1544_Bk.pdf
+
+https://www.jstor.org/stable/4227157
