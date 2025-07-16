@@ -268,6 +268,8 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
+
+
 ##### 2.2.1.2. Physical Requirements
 
 <!---
@@ -384,6 +386,8 @@ To work as Store of Value:
 * Scarcity
 
 * the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
+
+###### 2.2.2.2.1 Stability is not only the Supply
 
 ##### 2.2.2.3. Digital Requirements
 
@@ -749,13 +753,22 @@ Requirements are different for a Monetary Standard and a Reserve Currency so it 
 ## 3. The Spontaneus Order
 ---
 
-### 3.1. Fixed Supply
+### 3.1. Human Action
+
+The concept of "spontaneous order" is the idea that complex, functional systems emerge organically from decentralized human actions, without central design, is a cornerstone of Austrian economics and classical liberal thought.
+
+Adam Smith (1723–1790) argues that The "invisible hand"—markets coordinate self-interested actions into social benefit in  The Wealth of Nations (1776). "It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest."
+
+Ludwig von Mises (1881–1973) says that "The market is a process, actuated by the interplay of the actions of the various individuals cooperating under the division of labor." Human Action (1949).
+
+#### 3.1.1. Methodological Individualism
+
 
 ### 3.2. Real Markets (Goods and Services)
 
 #### 3.2.1. Commodities
 
-#### 3.2.2. Supply
+#### 3.2.2. Fixed Supply
 
 ##### 3.2.2.1. Production
 
@@ -782,14 +795,6 @@ Requirements are different for a Monetary Standard and a Reserve Currency so it 
 Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
 
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-
-#### 3.3.1 Price Formation
-
-price formation in a centralized system
-
-price formation in a self-regulated system
-
-#### 3.3.2 The Spontaneus Order
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -842,35 +847,38 @@ price formation in a self-regulated system
 	</table>
 </div>
 
-#### 3.3.3. Economic Calculation
+#### 3.3.1 Price Formation
+
+price formation in a self-regulated system
+
+
+
+#### 3.3.2. Economic Calculation
 
 Use of Knowledge in Society [58]
 
 
 
-#### 3.3.4. Allocation of Resources
+#### 3.3.3. Allocation of Resources
 
+
+#### 3.3.4. Purchasing Power
 
 #### 3.3.5. Distribution of Wealth
 
 
 
 
-### 3.4. Economic Requirements
-
-The selected money solution must be able to form prices. 
-
-Fiat money is stable enough at the short term to form prices.
-
-Representative money is stable at the short term to form prices
 
 
 
+### 3.4. Money Stability
 
 
-### 3.5. Representative Money
+#### 3.4.1. Fixed Supply
 
-#### 3.5.1. Scope
+
+#### 3.4.2. Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -891,16 +899,15 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 https://mises.org/podcasts/minor-issues/who-invented-money
 
 
-#### 3.5.2. Regression Theorem
+#### 3.4.3. Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-### 3.6. Money Stability
 
 
-### 3.7. System Stability
+### 3.5. System Stability
 
-#### 3.7.1. A Regulated System
+#### 3.5.1. A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -909,7 +916,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 3.7.2. Positive and Negative Feedback
+#### 3.5.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -942,11 +949,11 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 3.7.3. A centralized system
+#### 3.5.3. A centralized system
 
 positive feedback
 
-#### 3.7.4. A self-regulated system
+#### 3.5.4. A self-regulated system
 
 negative feedback
 
@@ -960,7 +967,7 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 3.8. Supply Limitations
+### 3.6. Supply Limitations
 
 * Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
@@ -1141,13 +1148,8 @@ price distortion
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
-<div style={{overflowX : 'auto'}}>
-	<table style={{textAlign: 'center'}}>
-		<tr>
-			<td><img src="/img/financial assets vs real assets March 2022_0.jpg" width="100%"></img></td>
-			<td><img src="/img/exter.png" width="80%"></img></td>
-		</tr>
-	</table>
+<div style={{textAlign: 'center'}}>
+	<img src="/img/exter.png" width="40%"></img>
 </div>
 <br/>
 
@@ -1191,6 +1193,10 @@ Modern Monetary Theory (MMT)
 ## 5. The CypherPunk Order (i.e. Bitcoin)
 ---
 
+### 6.1. Decentralization
+
+Modern Austrians (White, Selgin) see crypto as a Hayekian experiment.
+
 ### 5.1. Utility Tokens
 
 #### 5.1.1. Scope
@@ -1218,6 +1224,45 @@ Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 ### 6.1. Currency competition
 
+#### 6.1.1. Authors
+
+Free banking supporters span classical liberals, Austrians, and modern economists. 
+
+Adam Smith (1723–1790). Praised Scotland’s free banking era (18th century) in The Wealth of Nations (1776).
+
+Walter Bagehot (1826–1877) Supported competitive note issuance in Lombard Street (1873), though favored a central bank as lender of last resort.
+
+Benjamin Klein (1943–2013) Argued for private competing monies in The Competitive Supply of Money (1974).
+
+In "Denationalisation of Money" (2nd ed., 1978, p. 44), Hayek accepted fiat in competition: "I do not think that the scheme I propose would lead to any so-called ‘fiat money’ being issued. But if some issuer found it possible to induce people to accept intrinsically worthless tokens as money, I do not see why they should not be free to do so, provided they did not infringe on the equal freedom of others to refuse them."
+
+Mises endorsed private banks issuing gold-backed notes in competition (The Theory of Money and Credit, 1912). "Free banking is the only method for the prevention of the dangers inherent in credit expansion." Human Action (1949).
+
+Rothbard supported currency competition—but only under strict commodity-based conditions. Unlike Hayek, who was open to competing fiat-like private currencies, Rothbard insisted that money must originate from a market-chosen commodity (like gold or silver) and comply with 100% reserve banking. Here’s his nuanced stance: Rothbard’s The Mystery of Banking (1983).
+
+Selgin, a modern Austrian-leaning economist, supports free banking with competing currencies, including private token money (e.g., stablecoins, digital currencies). Argues that competition would stabilize money (The Theory of Free Banking, 1988). Accepts market-chosen fiat-like money if it emerges naturally (unlike Rothbard). Key Work: Good Money: Private Currencies in History (2008) – Examines historical cases of competing private money.
+
+White supports decentralized currency competition, including Bitcoin and stablecoins, as a Hayekian solution. Critiques central banking in The Theory of Monetary Institutions (1999). Argues that private money would outperform state monopolies. Quote:"Hayek’s proposal to denationalize money is more relevant than ever in the age of Bitcoin." White’s Free Banking in Britain (1984). White’s The Clash of Economic Ideas (2012)
+
+Jesús Huerta de Soto (Spanish Austrian School). Supports 100% Reserve Free Banking In Money, Bank Credit, and Economic Cycles (1998), he advocates for gold-backed private banks competing without fractional reserves. Rejects fiat money but endorses parallel commodity-based currencies.
+
+Pascal Salin (French Austrian Economist). Currency Competition Advocate. In Currency Competition and Monetary Order (2016), Salin argues for abolishing legal tender laws to allow full monetary rivalry, including digital currencies.
+
+Tyler Cowen. Open to cryptocurrencies as free banking evolution. The Great Stagnation (2011) – Discusses monetary innovation.
+
+Alex Tabarrok Supports private monetary competition (e.g., Bitcoin).
+
+Saifedean Ammous Argues Bitcoin fulfills free banking ideals in The Bitcoin Standard (2018).
+
+Kevin Dowd. Free banking scholar focusing on market-driven monetary systems. Key Work: Laissez-Faire Banking (1993) – Analyzes free banking’s stability.
+
+#### 6.1.1. Nature
+
+While all oppose central banking, they differ on: Reserve requirements (100% vs. fractional), Money’s origin (commodity vs. market-chosen), Role of cryptocurrencies.
+
+For Mises/Rothbard only commodity-backed money is valid (Regression Theorem). For Hayek/Selgin/White: Let the market decide, even if non-backed money emerges.
+
+Fractional Reserve Banking: Rothbard/de Soto: 100% reserves only. Selgin/White/Dowd: Free banking allows fractional reserves if markets accept it.
 
 
 ### 6.2. Free Banking Introduction
