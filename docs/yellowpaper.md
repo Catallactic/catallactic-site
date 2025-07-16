@@ -154,17 +154,17 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 ## 2. Money Configurations
 ---
 
-### 2.1. Monetary System Configuration
-
-* Transport
+### 2.1. Currency Features
 
 * Peg
 
 * Collateral
 
-* Competition
+* Transport
 
-Gresham’s law, which says that bad money tends to drive good money out of circulation
+Environment:
+
+* Competition
 
 * Coexistence
 
@@ -261,16 +261,22 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 ### 2.2. Functions of Money
 
+To avoid unnecesary debate, reject the term Functions because is biased to the vision of each autor and lacks a consensus.
 
-#### 2.2.1. Medium of Exchange
+No all functions must be held by the same currency, instead an specialization is needed.
 
-##### 2.2.1.1. Authors
+
+### 2.3. Usages of Money
+
+#### 2.3.1. Medium of Exchange
+
+##### 2.3.1.1. Authors
 
 A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
 
 
-##### 2.2.1.2. Physical Requirements
+##### 2.3.1.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -278,12 +284,12 @@ https://bitcoinmagazine.com/guides/what-is-money
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr>
-			<td>Quality</td>
-			<td>Author</td>
-			<td>Description</td>
+			<th>Quality</th>
+			<th>Author</th>
+			<th>Description</th>
 		</tr>
 		<tr>
-			<td>Uniform</td>
+			<td>Fungible/Uniform</td>
 			<td>Say</td>
 			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
 		</tr>
@@ -293,55 +299,30 @@ https://bitcoinmagazine.com/guides/what-is-money
 			<td>easy to divide up in smaller parts or put them together to larger parts</td>
 		</tr>
 		<tr>
-			<td>Durable</td>
+			<td>Stable/Durable</td>
 			<td>Adam Smith, Say, Rothbard [0]</td>
 			<td>we can store it and it won’t age with time</td>
-		</tr>
-		<tr>
-			<td>Recognizable</td>
-			<td></td>
-			<td>easy to recognize the material, it should not demand extensive tests to prove what material it is</td>
-		</tr>
-		<tr>
-			<td>Unforgeable</td>
-			<td></td>
-			<td>very hard or even impossible to counterfeit</td>
 		</tr>
 		<tr>
 			<td>Scarce</td>
 			<td>Say, </td>
 			<td>total supply of the medium is limited and known</td>
 		</tr>
-		<tr>
-			<td>Acceptable</td>
-			<td>Rothbard [0]</td>
-			<td>accepted as a medium of exchange in the community</td>
-		</tr>
 	</table>
 </div>
 <br/>
 
-In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
+Other: Acceptable, Recognizable, Unforgeable.
 
-To work as a Medium of Exchange:
+##### 2.3.1.3. Digital Requirements
 
-* comply with requirement or physical money, that is, <b>Uniform</b>, <b>Divisible</b>, <b>Portable</b>, <b>Durable</b>, <b>Scarce</b>. This is not a problem for an smart contract
-
-* the token must be <b>Aceptable</b> and <b>Recognised</b>. This is beyond the design itself and raises 2 challenges: the velocity of circulation and the usability of the wallets.
-
-* the token must <b>Comply with the regulations</b> in the jurisdictions where is deployed. This must be enforced by the design
-
-* the token optionally can provide <b>Privacy</b> to its users, considering the regulation. This must be enforced by the design
-
-
-
-##### 2.2.1.3. Digital Requirements
-
- These principles must be provided in the contract. 
+These principles must be provided in the contract. 
 
 * **security**. must be secure. 
 
 * **decentralization**. must be decentralized enough to guarantee holders and users the promised behaviour.
+
+Optional:
 
   * **upgradeability**. must be upgradeable during the learning period to allow accomodating new changes. This upgradeability must be protected by mechanisms as DAO gobernance to prevent a conflict with decentralization.
 
@@ -355,11 +336,11 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-#### 2.2.2. Store of Value
+#### 2.3.2. Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
-##### 2.2.2.1. Authors
+##### 2.3.2.1. Authors
 
 For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
 
@@ -375,21 +356,19 @@ John Maynard Keynes  In "The General Theory of Employment, Interest, and Money" 
 
 Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a hoardable commodity (like gold) that must retain intrinsic value to function as a store of wealth.
 
-##### 2.2.2.2. Physical Requirements
+##### 2.3.2.2. Physical Requirements
 
 To work as Store of Value:
 
 * the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
 
-* Durability
-
 * Scarcity
 
 * the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
 
-###### 2.2.2.2.1 Stability is not only the Supply
+###### 2.3.2.2.1 Stability is not only the Supply
 
-##### 2.2.2.3. Digital Requirements
+##### 2.3.2.3. Digital Requirements
 
 * the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
 
@@ -411,7 +390,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
-#### 2.2.1. Unit of Account
+#### 2.3.3. Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -419,7 +398,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
+##### 2.3.3.1. Physical Requirements
 
+Stability: Prices must remain relatively predictable (hyperinflation destroys this).
+
+Fungibility: Identical units (e.g., one dollar = another dollar).
+
+Universality: Widely adopted for quoting prices (e.g., BTC not yet a global unit).
 
 
 <!---
@@ -429,14 +414,18 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 * countable
 -->
 
-#### 2.2.1. Monetary Standard (Numéraire)
+#### 2.3.4. Monetary Standard (Numéraire)
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
 In a currency competition scenario, none of the competing currencies would be eligible by default to function as numeraire. In fact a possible approach is to have a few numeraires and let users choose the numeraire which delivers lower volatility in prices. An initial numeraire could be Bitcoin because its digital nature.
 
 
-#### 2.2.1. Reserve Currency
+#### 2.3.5. Standard of Deferred Payment
+
+i.e. Credit
+
+#### 2.3.6. Reserve Currency
 
 
 <!--
@@ -514,34 +503,29 @@ In a currency competition scenario, none of the competing currencies would be el
 
 
 
-### 2.3. Functions in Known Configurations
+### 2.4. Usages for Known Configurations
 
 In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
 
-
-
-
 <div style={{overflowX : 'auto'}}>
 	<table>
-		<tr>
+		<tr style={{textAlign: 'center'}}>
 			<th></th>
-			<th colSpan="6">Functions</th>
+			<th colSpan="6">Usage</th>
 		</tr>
 		<tr>
-			<th>Money Configuratiosn</th>
+			<th>Money Configurations</th>
 			<th>MoE</th>
-			<th>SoV ST</th>
-			<th>SoV LT</th>
+			<th>SoV</th>
 			<th>UoC</th>
-			<th>Numéraire</th>
+			<th>Monetary Standard</th>
 			<th>Reserve</th>
 		</tr>
-		<tr>
+		<tr style={{textAlign: 'center'}}>
 			<th colSpan="7">Physical Money</th>
 		</tr>
 		<tr>
 			<td>Barter</td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -555,11 +539,9 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Representative</td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -573,14 +555,12 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
-		<tr>
+		<tr style={{textAlign: 'center'}}>
 			<th colSpan="7">Digital Money</th>
 		</tr>
 		<tr>
 			<td>Unbacked Tokens</td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -594,11 +574,9 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Bitcoin</td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -612,11 +590,9 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>Security Tokens</td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -630,11 +606,9 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td>NFTs</td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -645,14 +619,22 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 </div>
 <br/>
 
+### 2.5. A Proposed Currency Architecture
 
-### 2.4. Defining a Retail Currency
+Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
 
-#### 2.2.1. Basic Requirements
 
+### 2.6. Defining a Retail Currency
+
+
+The main challenge to have a retail currency is to provide credit without volatility.
+
+
+#### 2.6.1. Basic Requirements
+
+In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
 We are looking for a stable Medium of Exchange
-
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -664,7 +646,7 @@ We are looking for a stable Medium of Exchange
 			<td colSpan="2"><b>Physical Requirements as MoE</b></td>
 		</tr>
 		<tr>
-			<td>Uniform</td>
+			<td>Fungible</td>
 			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
 		</tr>
 		<tr>
@@ -672,24 +654,16 @@ We are looking for a stable Medium of Exchange
 			<td>easy to divide up in smaller parts or put them together to larger parts</td>
 		</tr>
 		<tr>
-			<td>Durable</td>
+			<td>Stable (Short Term)</td>
 			<td>we can store it and it won’t age with time</td>
 		</tr>
 		<tr>
-			<td>Recognizable</td>
-			<td>easy to recognize the material, it should not demand extensive tests to prove what material it is</td>
-		</tr>
-		<tr>
-			<td>Unforgeable</td>
-			<td>very hard or even impossible to counterfeit</td>
+			<td>Portable</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Scarce</td>
 			<td>total supply of the medium is limited and known</td>
-		</tr>
-		<tr>
-			<td>Acceptable</td>
-			<td>accepted as a medium of exchange in the community</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
 			<td colSpan="2"><b>Digital Requirements as MoE</b></td>
@@ -701,22 +675,6 @@ We are looking for a stable Medium of Exchange
 		<tr>
 			<td>Decentralized</td>
 			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
-		</tr>
-		<tr>
-			<td>Upgradeability</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Compliant</td>
-			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
-		</tr>
-		<tr>
-			<td>Privacy</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Transparent</td>
-			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
 			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
@@ -733,20 +691,46 @@ We are looking for a stable Medium of Exchange
 </div>
 <br/>
 
-#### 2.2.2. Broader Ecosystem
+#### 2.6.2. Optional Features
 
-No all functions must be held by the same currency, instead an specialization is needed.
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Feature</b></td>
+			<td><b>Description</b></td>
+		</tr>
+		<tr>
+			<td>Private</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Compliant</td>
+			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
+		</tr>
+		<tr>
+			<td>Transparent</td>
+			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
+		</tr>
+		<tr>
+			<td>Upgradeability</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
 
-The main challenge to have a retail currency is to provide credit without volatility.
+### 2.7. Selecting a Monetary Standard
 
-Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
+
+
+
 
 
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> DESIGNING THE RETAIL CURRENCY </h1> </div>
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> EVALUATION OF KNOWN CONFIGURATIONS </h1> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -764,29 +748,28 @@ Ludwig von Mises (1881–1973) says that "The market is a process, actuated by t
 #### 3.1.1. Methodological Individualism
 
 
-### 3.2. Real Markets (Goods and Services)
+### 3.2. The (Real) Market Process
 
 #### 3.2.1. Commodities
 
-#### 3.2.2. Fixed Supply
+#### 3.2.2. Production
 
-##### 3.2.2.1. Production
+#### 3.2.3. Capital Theory
 
-##### 3.2.2.2. Capital
+Classical
+Böhm-Bawerk’s roundaboutness: Time preference drives capital structure.
 
-#### 3.2.3. Demand
+Modern
+Lachmann’s heterogeneous capital: Plans constantly change, causing economic shifts.
 
-##### 3.2.3.1. Purchasing Power
+Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
-##### 3.2.3.2. Property
+#### 3.2.4. Demand
 
-##### 3.2.3.3. Weatlh
+#### 3.2.5. Value
 
-#### 3.2.4. Value
+#### 3.2.6. Value Chain
 
-#### 3.2.5. Value Chain
-
-#### 3.2.6. Price
 
 
 
@@ -864,7 +847,11 @@ Use of Knowledge in Society [58]
 
 #### 3.3.4. Purchasing Power
 
-#### 3.3.5. Distribution of Wealth
+
+#### 3.3.5. Property
+
+
+#### 3.3.6. Distribution of Wealth
 
 
 
@@ -987,7 +974,7 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-## 4. The Boosted Fiat Order
+## 4. The Scientifically Planned Fiat
 ---
 
 
@@ -1209,11 +1196,15 @@ Cypherpunk
 ### 5.2. Decentralization
 
 
-### 5.3. Bitcoin as MoE
+### 5.3. Utility Tokens as MoE
 
-#### 5.3.1. Stability
+#### 5.3.1. Utility Tokens as Standards of Deferred Payment
+
+#### 5.3.2. The Stability of Utility Tokens
 
 Cyberphunk money cannot form prices and therefore cannot become MoE.
+
+
 
 
 
@@ -1222,72 +1213,19 @@ Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 ## 6. The CypherPunk Competition Order (i.e. Crytocurrencies)
 
-### 6.1. Currency competition
-
-#### 6.1.1. Authors
-
-Free banking supporters span classical liberals, Austrians, and modern economists. 
-
-Adam Smith (1723–1790). Praised Scotland’s free banking era (18th century) in The Wealth of Nations (1776).
-
-Walter Bagehot (1826–1877) Supported competitive note issuance in Lombard Street (1873), though favored a central bank as lender of last resort.
-
-Benjamin Klein (1943–2013) Argued for private competing monies in The Competitive Supply of Money (1974).
-
-In "Denationalisation of Money" (2nd ed., 1978, p. 44), Hayek accepted fiat in competition: "I do not think that the scheme I propose would lead to any so-called ‘fiat money’ being issued. But if some issuer found it possible to induce people to accept intrinsically worthless tokens as money, I do not see why they should not be free to do so, provided they did not infringe on the equal freedom of others to refuse them."
-
-Mises endorsed private banks issuing gold-backed notes in competition (The Theory of Money and Credit, 1912). "Free banking is the only method for the prevention of the dangers inherent in credit expansion." Human Action (1949).
-
-Rothbard supported currency competition—but only under strict commodity-based conditions. Unlike Hayek, who was open to competing fiat-like private currencies, Rothbard insisted that money must originate from a market-chosen commodity (like gold or silver) and comply with 100% reserve banking. Here’s his nuanced stance: Rothbard’s The Mystery of Banking (1983).
-
-Selgin, a modern Austrian-leaning economist, supports free banking with competing currencies, including private token money (e.g., stablecoins, digital currencies). Argues that competition would stabilize money (The Theory of Free Banking, 1988). Accepts market-chosen fiat-like money if it emerges naturally (unlike Rothbard). Key Work: Good Money: Private Currencies in History (2008) – Examines historical cases of competing private money.
-
-White supports decentralized currency competition, including Bitcoin and stablecoins, as a Hayekian solution. Critiques central banking in The Theory of Monetary Institutions (1999). Argues that private money would outperform state monopolies. Quote:"Hayek’s proposal to denationalize money is more relevant than ever in the age of Bitcoin." White’s Free Banking in Britain (1984). White’s The Clash of Economic Ideas (2012)
-
-Jesús Huerta de Soto (Spanish Austrian School). Supports 100% Reserve Free Banking In Money, Bank Credit, and Economic Cycles (1998), he advocates for gold-backed private banks competing without fractional reserves. Rejects fiat money but endorses parallel commodity-based currencies.
-
-Pascal Salin (French Austrian Economist). Currency Competition Advocate. In Currency Competition and Monetary Order (2016), Salin argues for abolishing legal tender laws to allow full monetary rivalry, including digital currencies.
-
-Tyler Cowen. Open to cryptocurrencies as free banking evolution. The Great Stagnation (2011) – Discusses monetary innovation.
-
-Alex Tabarrok Supports private monetary competition (e.g., Bitcoin).
-
-Saifedean Ammous Argues Bitcoin fulfills free banking ideals in The Bitcoin Standard (2018).
-
-Kevin Dowd. Free banking scholar focusing on market-driven monetary systems. Key Work: Laissez-Faire Banking (1993) – Analyzes free banking’s stability.
-
-#### 6.1.1. Nature
-
-While all oppose central banking, they differ on: Reserve requirements (100% vs. fractional), Money’s origin (commodity vs. market-chosen), Role of cryptocurrencies.
-
-For Mises/Rothbard only commodity-backed money is valid (Regression Theorem). For Hayek/Selgin/White: Let the market decide, even if non-backed money emerges.
-
-Fractional Reserve Banking: Rothbard/de Soto: 100% reserves only. Selgin/White/Dowd: Free banking allows fractional reserves if markets accept it.
 
 
-### 6.2. Free Banking Introduction
+### 6.1. The Problem of the Supply
 
-The coexistence of competing private currencies has been documented from some authors.
+#### 6.1.1. Asignation of Value
 
-Optimal Currency Areas (Mundell, McKinnon, Kenen). Robert Mundell’s theory of Optimal Currency Areas (1961) discusses when regions should share a currency vs. having competing ones.
+#### 6.1.2. Competitive Value for Money
 
-Hayek and Denationalization of Money. Friedrich Hayek (1976) argued in "Denationalisation of Money" that governments should not have a monopoly on currency issuance. He proposed that private currencies could compete, leading to more stable money as issuers would have an incentive to maintain purchasing power. Hayek believed competition would discipline issuers, preventing inflation better than central banks.
+#### 6.1.3. Gresham Law
 
-Free Banking School. Economists like Lawrence White and George Selgin argue that historical free banking systems (e.g., Scotland in the 18th–19th centuries) show that competition among private banks issuing notes can work well. They claim that competitive note issuance leads to monetary stability without central bank intervention. Selgin’s "The Theory of Free Banking" (1988) explains how market forces regulate money supply better than central planning.
+Gresham’s law, which says that bad money tends to drive good money out of circulation
 
-incremental introduction
-
-#### 6.2.1. Coexistence with legal ledger
-
-In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
-
-First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
-
- For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
-
-### 6.3. Gresham Law
-
-### 6.4. Quality Theory of Money
+#### 6.1.4. Quality Theory of Money
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -1356,21 +1294,95 @@ The theory of the quality of money, even though not under this label, has a long
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-
-### 6.5. Considerations on Stability
-
-### 6.6. Drawbacks
+#### 6.1.5. Considerations on Stability
 
 * solves the problem of credit
 
 * but cannot capture prices
+
+* Variable demand for liquidity
+
+
+### 6.2. Currency competition
+
+#### 6.2.1. Authors
+
+Free banking supporters span classical liberals, Austrians, and modern economists. 
+
+Adam Smith (1723–1790). Praised Scotland’s free banking era (18th century) in The Wealth of Nations (1776).
+
+Walter Bagehot (1826–1877) Supported competitive note issuance in Lombard Street (1873), though favored a central bank as lender of last resort.
+
+Benjamin Klein (1943–2013) Argued for private competing monies in The Competitive Supply of Money (1974).
+
+In "Denationalisation of Money" (2nd ed., 1978, p. 44), Hayek accepted fiat in competition: "I do not think that the scheme I propose would lead to any so-called ‘fiat money’ being issued. But if some issuer found it possible to induce people to accept intrinsically worthless tokens as money, I do not see why they should not be free to do so, provided they did not infringe on the equal freedom of others to refuse them."
+
+Mises endorsed private banks issuing gold-backed notes in competition (The Theory of Money and Credit, 1912). "Free banking is the only method for the prevention of the dangers inherent in credit expansion." Human Action (1949).
+
+Rothbard supported currency competition—but only under strict commodity-based conditions. Unlike Hayek, who was open to competing fiat-like private currencies, Rothbard insisted that money must originate from a market-chosen commodity (like gold or silver) and comply with 100% reserve banking. Here’s his nuanced stance: Rothbard’s The Mystery of Banking (1983).
+
+Selgin, a modern Austrian-leaning economist, supports free banking with competing currencies, including private token money (e.g., stablecoins, digital currencies). Argues that competition would stabilize money (The Theory of Free Banking, 1988). Accepts market-chosen fiat-like money if it emerges naturally (unlike Rothbard). Key Work: Good Money: Private Currencies in History (2008) – Examines historical cases of competing private money.
+
+White supports decentralized currency competition, including Bitcoin and stablecoins, as a Hayekian solution. Critiques central banking in The Theory of Monetary Institutions (1999). Argues that private money would outperform state monopolies. Quote:"Hayek’s proposal to denationalize money is more relevant than ever in the age of Bitcoin." White’s Free Banking in Britain (1984). White’s The Clash of Economic Ideas (2012)
+
+Jesús Huerta de Soto (Spanish Austrian School). Supports 100% Reserve Free Banking In Money, Bank Credit, and Economic Cycles (1998), he advocates for gold-backed private banks competing without fractional reserves. Rejects fiat money but endorses parallel commodity-based currencies.
+
+Pascal Salin (French Austrian Economist). Currency Competition Advocate. In Currency Competition and Monetary Order (2016), Salin argues for abolishing legal tender laws to allow full monetary rivalry, including digital currencies.
+
+Tyler Cowen. Open to cryptocurrencies as free banking evolution. The Great Stagnation (2011) – Discusses monetary innovation.
+
+Alex Tabarrok Supports private monetary competition (e.g., Bitcoin).
+
+Saifedean Ammous Argues Bitcoin fulfills free banking ideals in The Bitcoin Standard (2018).
+
+Kevin Dowd. Free banking scholar focusing on market-driven monetary systems. Key Work: Laissez-Faire Banking (1993) – Analyzes free banking’s stability.
+
+#### 6.2.1. Features
+
+While all oppose central banking, they differ on: Reserve requirements (100% vs. fractional), Money’s origin (commodity vs. market-chosen), Role of cryptocurrencies.
+
+For Mises/Rothbard only commodity-backed money is valid (Regression Theorem). For Hayek/Selgin/White: Let the market decide, even if non-backed money emerges.
+
+Fractional Reserve Banking: Rothbard/de Soto: 100% reserves only. Selgin/White/Dowd: Free banking allows fractional reserves if markets accept it.
+
+
+
+
+
+
+### 6.3. Free Banking
+
+The coexistence of competing private currencies has been documented from some authors.
+
+Optimal Currency Areas (Mundell, McKinnon, Kenen). Robert Mundell’s theory of Optimal Currency Areas (1961) discusses when regions should share a currency vs. having competing ones.
+
+Hayek and Denationalization of Money. Friedrich Hayek (1976) argued in "Denationalisation of Money" that governments should not have a monopoly on currency issuance. He proposed that private currencies could compete, leading to more stable money as issuers would have an incentive to maintain purchasing power. Hayek believed competition would discipline issuers, preventing inflation better than central banks.
+
+Free Banking School. Economists like Lawrence White and George Selgin argue that historical free banking systems (e.g., Scotland in the 18th–19th centuries) show that competition among private banks issuing notes can work well. They claim that competitive note issuance leads to monetary stability without central bank intervention. Selgin’s "The Theory of Free Banking" (1988) explains how market forces regulate money supply better than central planning.
+
+#### 6.3.1. The Historical Evidence
+
+#### 6.3.2. Coexistence
+
+In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
+
+First we need to disntighuish the scope of the introduced currencies. There can be global currencies and there can be local currencies.
+
+ For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
+
+#### 6.3.3. Incremental Introduction
+
+
+
+
+
 
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 7. The RWA Stablecoin Order
+## 7. The RWA Stablecoin Competition
 ---
 
 
@@ -1411,53 +1423,13 @@ A single currency may not have enough capitalization to cover a juridiction so c
 DAO like governance rules must be stablished.
 
 
-
-
-
-### 8.4. Benefits
-
-#### 8.4.1. Ending Financial Exclusion
-
-Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
-
-* any citizen could fundraise to grow a real economy project providing value in his community
-
-* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
-
-* there would be healthy projects a broader job offer available.
-
-In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
-
-#### 8.4.2. Crowdsolving
-
-Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
-
-- issuers will be able to fund his local or global project
-
-- issuers will also profit by providing DeFi Services to society
-
-- investors will profit by investing in successful projects
-
-- consumers will benefit with higher offer
-
-- citizens excluded from financial system will be able to fund their projects with private risk
-
-- society will benefit from more liquid financial markets
-
-- citizens from developing countries can create their own economy and fix their problems
-
-- governments will be able to delegate the difficult part into citizens
-
-
-
-### 8.5. Further Industry Development
+### 8.3. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
 Additionaly, insurance companies could provide services in case a currency does not follow standards.
 
 Private 'Lender of Last Resort?
-
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1570,6 +1542,46 @@ Private 'Lender of Last Resort?
 		</tbody>
 	</table>
 </div>
+
+
+
+### 8.4. Benefits
+
+#### 8.4.1. Ending Financial Exclusion
+
+Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
+
+* any citizen could fundraise to grow a real economy project providing value in his community
+
+* there would be an increase in lending offer so no one would be excluded from credit by incorrect behaviour. It is up to each credit provider to assume the risk and do the verifications.
+
+* there would be healthy projects a broader job offer available.
+
+In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
+
+#### 8.4.2. Crowdsolving
+
+Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
+
+- issuers will be able to fund his local or global project
+
+- issuers will also profit by providing DeFi Services to society
+
+- investors will profit by investing in successful projects
+
+- consumers will benefit with higher offer
+
+- citizens excluded from financial system will be able to fund their projects with private risk
+
+- society will benefit from more liquid financial markets
+
+- citizens from developing countries can create their own economy and fix their problems
+
+- governments will be able to delegate the difficult part into citizens
+
+
+
+
 
 
 
