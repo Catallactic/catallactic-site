@@ -619,9 +619,8 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 </div>
 <br/>
 
-### 2.5. A Proposed Currency Architecture
 
-Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
+
 
 
 ### 2.6. Defining a Retail Currency
@@ -719,7 +718,6 @@ We are looking for a stable Medium of Exchange
 </div>
 <br/>
 
-### 2.7. Selecting a Monetary Standard
 
 
 
@@ -1395,11 +1393,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 ## 8. The Representative Digital Competition
 ---
 
-
-### 8.1. Private Money Supply
-
-
-### 8.1. Representative Digital Money
+### 8.1. A Standard for Private Representative Digital Money
 
 To work as Unit of Account:
 
@@ -1409,27 +1403,49 @@ To work as Unit of Account:
 
 
 
-### 8.2. Currency Composites
+
+
+
+
+### 8.2. Competition of Representative Currencies
+
+
+
+
+### 8.3. Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-#### 8.2.1. Algebra of Currencies
+#### 8.3.1. Algebra of Currencies
 
 
 
-#### 8.2.2. Composite Governance
+#### 8.3.2. Composite Governance
 
 DAO like governance rules must be stablished.
 
 
-### 8.3. Further Industry Development
+### 8.4. A Proposed Currency Architecture
+
+Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
+
+#### 8.4.1. Selecting a Monetary Standard
+
+
+
+### 8.5. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
 Additionaly, insurance companies could provide services in case a currency does not follow standards.
 
 Private 'Lender of Last Resort?
+
+
+
+
+
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
