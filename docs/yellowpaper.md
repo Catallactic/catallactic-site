@@ -259,6 +259,16 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 </div>
 
 
+### 2.2. Types of Currencies
+
+* Token, can be exchanged
+
+* Generally Adopted, create a price system
+
+* Reserve Currency
+
+
+
 ### 2.2. Functions of Money
 
 To avoid unnecesary debate, reject the term Functions because is biased to the vision of each autor and lacks a consensus.
@@ -336,61 +346,9 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-#### 2.3.2. Store of Value
-
-Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
-
-##### 2.3.2.1. Authors
-
-For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
-
-For Ludwig Von Mises, money’s role as a store of value depends on its purchasing power stability. ("The Theory of Money and Credit" (1912)*)
-
-In "Denationalisation of Money" (1976), Hayek argued that sound money (e.g., commodity-backed or competitive currencies) is necessary for long-term value storage.
-
-Jörg Guido Hülsmann Supports commodity money (e.g., gold, silver) as an ethical and stable store of value. (The Ethics of Money Production" (2008)*)
-
-Milton Friedman In "A Monetary History of the United States" (1963), Friedman emphasized that money must retain its purchasing power over time to be an effective store of value. He argued that stable monetary policy (avoiding inflation/deflation) is crucial for money to preserve wealth.
-
-John Maynard Keynes  In "The General Theory of Employment, Interest, and Money" (1936), Keynes discussed money's role as a store of value, particularly in times of uncertainty. He noted that people hold money (liquidity preference) as a safe asset, but inflation erodes its value, making alternative stores (like bonds or gold) preferable.
-
-Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a hoardable commodity (like gold) that must retain intrinsic value to function as a store of wealth.
-
-##### 2.3.2.2. Physical Requirements
-
-To work as Store of Value:
-
-* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
-
-* Scarcity
-
-* the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
-
-###### 2.3.2.2.1 Stability is not only the Supply
-
-##### 2.3.2.3. Digital Requirements
-
-* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
-
-* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
-
-* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
 
 
-
-
-
-<!--- 
-https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-
-https://bitcoinmagazine.com/guides/what-is-money
--->
-
-
-
-
-
-#### 2.3.3. Unit of Account
+#### 2.3.2. Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -398,7 +356,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
-##### 2.3.3.1. Physical Requirements
+
+##### 2.3.2.1. Ability to Create a Price System
+
+
+##### 2.3.2.2. Authors
+
+##### 2.3.2.3. Physical Requirements
 
 Stability: Prices must remain relatively predictable (hyperinflation destroys this).
 
@@ -414,6 +378,75 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 * countable
 -->
 
+
+
+
+
+
+#### 2.3.3. Store of Value
+
+Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
+
+##### 2.3.3.1. Standard of Deferred Payment
+
+i.e. Credit
+
+##### 2.3.3.2. Authors
+
+For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
+
+For Ludwig Von Mises, money’s role as a store of value depends on its purchasing power stability. ("The Theory of Money and Credit" (1912)*)
+
+In "Denationalisation of Money" (1976), Hayek argued that sound money (e.g., commodity-backed or competitive currencies) is necessary for long-term value storage.
+
+Jörg Guido Hülsmann Supports commodity money (e.g., gold, silver) as an ethical and stable store of value. (The Ethics of Money Production" (2008)*)
+
+Milton Friedman In "A Monetary History of the United States" (1963), Friedman emphasized that money must retain its purchasing power over time to be an effective store of value. He argued that stable monetary policy (avoiding inflation/deflation) is crucial for money to preserve wealth.
+
+John Maynard Keynes  In "The General Theory of Employment, Interest, and Money" (1936), Keynes discussed money's role as a store of value, particularly in times of uncertainty. He noted that people hold money (liquidity preference) as a safe asset, but inflation erodes its value, making alternative stores (like bonds or gold) preferable.
+
+Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a hoardable commodity (like gold) that must retain intrinsic value to function as a store of wealth.
+
+
+
+##### 2.3.3.3. Physical Requirements
+
+To work as Store of Value:
+
+* Durable
+
+* Scarce
+
+* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
+
+* the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
+
+
+##### 2.3.3.4. Digital Requirements
+
+* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
+
+* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
+
+* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
+
+
+
+
+
+
+<!--- 
+https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
+
+https://bitcoinmagazine.com/guides/what-is-money
+-->
+
+
+
+
+
+
+
 #### 2.3.4. Monetary Standard (Numéraire)
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
@@ -421,9 +454,8 @@ Menger famously argued that one or a few generally employed media of exchange ev
 In a currency competition scenario, none of the competing currencies would be eligible by default to function as numeraire. In fact a possible approach is to have a few numeraires and let users choose the numeraire which delivers lower volatility in prices. An initial numeraire could be Bitcoin because its digital nature.
 
 
-#### 2.3.5. Standard of Deferred Payment
 
-i.e. Credit
+
 
 #### 2.3.6. Reserve Currency
 
@@ -503,7 +535,115 @@ i.e. Credit
 
 
 
-### 2.4. Usages for Known Configurations
+
+
+### 2.4. Defining a Retail Currency
+
+
+The main challenge to have a retail currency is to provide credit without volatility.
+
+
+#### 2.4.1. Minimum Requirements
+
+In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
+
+We are looking for a stable Medium of Exchange
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Feature</b></td>
+			<td><b>Description</b></td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Physical Requirements as MoE</b></td>
+		</tr>
+		<tr>
+			<td>Fungible</td>
+			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
+		</tr>
+		<tr>
+			<td>Divisible</td>
+			<td>easy to divide up in smaller parts or put them together to larger parts</td>
+		</tr>
+		<tr>
+			<td>Stable (Short Term)</td>
+			<td>we can store it and it won’t age with time</td>
+		</tr>
+		<tr>
+			<td>Portable</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td>total supply of the medium is limited and known</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Digital Requirements as MoE</b></td>
+		</tr>
+		<tr>
+			<td>Secure</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Decentralized</td>
+			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
+		</tr>
+		<tr>
+			<td>Stable (Short Term)</td>
+			<td>Must be able to form a price system</td>
+		</tr>
+		<tr>
+			<td>Stable (Long Term)</td>
+			<td>Must be able to provide credit maintaining long term stability</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+#### 2.4.2. Optional Features
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Feature</b></td>
+			<td><b>Description</b></td>
+		</tr>
+		<tr>
+			<td>Private</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Compliant</td>
+			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
+		</tr>
+		<tr>
+			<td>Transparent</td>
+			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
+		</tr>
+		<tr>
+			<td>Upgradeability</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+#### 2.4.3. Stability
+
+
+* Short Term: Medium of Exchange
+
+* Medium Term: Unit of Account / Ability to Create a Price System
+
+* Long Term: Standard of Deferred Payment
+
+
+
+### 2.5. Usages for Known Configurations
 
 In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
 
@@ -618,106 +758,6 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 	</table>
 </div>
 <br/>
-
-
-
-
-
-### 2.6. Defining a Retail Currency
-
-
-The main challenge to have a retail currency is to provide credit without volatility.
-
-
-#### 2.6.1. Basic Requirements
-
-In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
-
-We are looking for a stable Medium of Exchange
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr style={{textAlign: 'center'}}>
-			<td><b>Feature</b></td>
-			<td><b>Description</b></td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Physical Requirements as MoE</b></td>
-		</tr>
-		<tr>
-			<td>Fungible</td>
-			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
-		</tr>
-		<tr>
-			<td>Divisible</td>
-			<td>easy to divide up in smaller parts or put them together to larger parts</td>
-		</tr>
-		<tr>
-			<td>Stable (Short Term)</td>
-			<td>we can store it and it won’t age with time</td>
-		</tr>
-		<tr>
-			<td>Portable</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Scarce</td>
-			<td>total supply of the medium is limited and known</td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Digital Requirements as MoE</b></td>
-		</tr>
-		<tr>
-			<td>Secure</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Decentralized</td>
-			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
-		</tr>
-		<tr>
-			<td>Stable (Short Term)</td>
-			<td>Must be able to form a price system</td>
-		</tr>
-		<tr>
-			<td>Stable (Long Term)</td>
-			<td>Must be able to provide credit maintaining long term stability</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-#### 2.6.2. Optional Features
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr style={{textAlign: 'center'}}>
-			<td><b>Feature</b></td>
-			<td><b>Description</b></td>
-		</tr>
-		<tr>
-			<td>Private</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Compliant</td>
-			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
-		</tr>
-		<tr>
-			<td>Transparent</td>
-			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
-		</tr>
-		<tr>
-			<td>Upgradeability</td>
-			<td></td>
-		</tr>
-	</table>
-</div>
-<br/>
-
 
 
 
