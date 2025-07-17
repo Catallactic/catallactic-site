@@ -131,12 +131,108 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 <br/>
 <br/>
 
+### 1.3. Discussed Scope
 
+* Theory of Value
+* Money Issuer
+* Neutrality of Money
+* Money Supply
+* Fractional Reserve
+* Price Formation
+* Functions of Money
+* Credit
+* Rate of Interest
 
+### 1.3. Neutrality of Money
 
+<div>
+	<table>
+		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
+			<th>School</th>
+			<th>Authors / Ideas</th>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Scholastics / School of Salamanca<br/>1100s-1600s</td>
+			<td>Thomas Aquinas (1225–1274) / Francisco de Vitoria (1483–1546), Martín de Azpilcueta (1492–1586), Juan de Mariana (1536–1624)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, sound money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Mercantilism<br/>1500s-1700s</td>
+			<td>Thomas Mun (1571-1641), Jean Bodin (1529—1596), Charles Davenant (1656 – 1714)</td>
+		</tr>
+		<tr>
+			<td>Objective value, money non-neutral but supported currency manipulation</td>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>British Empiricism<br/>1690-1770s</td>
+			<td>John Locke (1632-1704), David Hume (1711—1776)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, sound money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Classical<br/>1770s-1870s</td>
+			<td>Adam Smith (1723-1790), Jean-Baptiste Say (1767-1832), David Ricardo (1772–1823), John Stuart Mill (1806-1873)</td>
+		</tr>
+		<tr>
+			<td>Objective value, money neutral, QTM, self-regulating markets but credit disrupt natural order</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Marxist<br/>1867–present</td>
+			<td>Karl Marx (1818 - 1883), Friedrich Engels (1820-1895), Rosa Luxemburg (1871-1919)</td>
+		</tr>
+		<tr>
+			<td>Objective value, money no neutral, sound money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870s–present</td>
+			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money neutral, fractional reserve</td>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–present</td>
+			<td>Richard Cantillon (1680–1734)(*), Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Ludwig von Mises (1881-1973), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995), Huerta de Soto (1956)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, sound money / currency competition, money no neutral</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Keynesian<br/>1936–present</td>
+			<td>John Maynard Keynes (1883–1946), Paul Samuelson (1915–2009)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, fiat money, money only neutral on full employment</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Monetarism <br/> 1950s–1980s</td>
+			<td>Milton Friedman (1912-2007), George Stigler (1911 –1991), Gary Becker (1930-2014)</td>
+		</tr>
+		<tr>
+			<td>No theory of value, fiat money with fixed growth, long-run neutrality of money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Post-Keynesian<br/>1970s-present </td>
+			<td>Hyman Minsky (1919–1996), Michal Kalecki (1899–1970)</td>
+		</tr>
+		<tr>
+			<td>Acknowledge subjective value but emphasize social factors, money not neutral, fiat money with government intervention</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Modern Monetary Theory (MMT)<br/>1990s-present</td>
+			<td>L. Randall Wray (1953), Stephanie Kelton (1969)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money not neutral, fiat money with government intervention</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
-
-### 1.3. Methodology
+### 1.4. Methodology
 
 Existing Monetary Theories aimed to:
 
@@ -1039,6 +1135,10 @@ where M=Money Supply, V=Velocity of circulation (the number of times money chang
 
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
 
+#### 4.2.2. Money Supply Growth Approaches
+
+Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
+
 #### 4.2.2. The Money Multiplier
 
 #### 4.2.3. Determinants of Money Supply (Exogenous vs. Endogenous Money)
@@ -1191,10 +1291,14 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
-#### 4.8.1. Cantillon Effects
+#### 4.8.1. Authors
+
+Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
+
+#### 4.8.2. Cantillon Effects
 
 
-#### 4.8.2. Austrian business cycle theory (ABCT)
+#### 4.8.3. Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
