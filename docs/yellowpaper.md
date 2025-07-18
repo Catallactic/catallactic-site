@@ -396,19 +396,52 @@ Other: Acceptable, Recognizable, Unforgeable.
 
 These principles must be provided in the contract. 
 
-* **security**. must be secure. 
-
-* **decentralization**. must be decentralized enough to guarantee holders and users the promised behaviour.
-
-Optional:
-
-  * **upgradeability**. must be upgradeable during the learning period to allow accomodating new changes. This upgradeability must be protected by mechanisms as DAO gobernance to prevent a conflict with decentralization.
-
-* **compliance**. must comply with the regulations in all stages of their value chain in the areas where it is deployed.
-
-  * **privacy**. must include a privacy capability so the issuer can make use of it according to the regulation in place. This must be an optional property to prevent a conflict with compliance.
-
-* **transparency**. should provide ability to get disclosures at any moment of their current features and configuration
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<th>Quality</th>
+			<th>Author</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<th colSpan="3" style={{textAlign: 'center'}}>Required</th>
+		</tr>
+		<tr>
+			<td>Security</td>
+			<td></td>
+			<td>must be secure.</td>
+		</tr>
+		<tr>
+			<td>Decentralization</td>
+			<td></td>
+			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
+		</tr>
+		<tr>
+			<th colSpan="3" style={{textAlign: 'center'}}>Optional</th>
+		</tr>
+		<tr>
+			<td>Compliant</td>
+			<td></td>
+			<td>can comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
+		</tr>
+		<tr>
+			<td>Private</td>
+			<td></td>
+			<td>must include a privacy capability so the issuer can make use of it according to the regulation in place. This must be an optional property to prevent a conflict with compliance.</td>
+		</tr>
+		<tr>
+			<td>Transparent</td>
+			<td></td>
+			<td>can provide ability to get disclosures at any moment of their current features and configuration.</td>
+		</tr>
+		<tr>
+			<td>Upgradeabie</td>
+			<td></td>
+			<td>can be upgradeable during the learning period to allow accomodating new changes. This upgradeability must be protected by mechanisms as DAO gobernance to prevent a conflict with decentralization.</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 However, as the principles maybe change between regions or underlying assets a degree of configuration must be also included.
 
@@ -508,7 +541,7 @@ To work as Store of Value:
 
 
 
-### 2.7 Standard of Deferred Payment (For Contracts & Debt)
+### 2.7 Standard of Deferred Payment
 
 
 
