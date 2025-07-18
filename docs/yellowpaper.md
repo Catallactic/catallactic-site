@@ -263,202 +263,87 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 
 ### 2.2. Functions of Money
 
-<div style={{overflowX : 'auto', textAlign: 'center'}}>
+<div>
 	<table>
 		<tr>
-			<th></th>
-			<th colSpan="4">Market</th>
-			<th colSpan="4">Authority</th>
+			<th>Purpose</th>
+			<th>Functions</th>
+			<th>Description</th>
 		</tr>
 		<tr>
-			<th style={{textAlign: 'left'}}>Funtion</th>
-			<th>MoE</th>
-			<th>UoA</th>
-			<th>SoV</th>
-			<th>DP</th>
-			<th>SP</th>
-			<th>TP</th>
-			<th>FP</th>
-			<th>TS</th>
+			<th rowSpan="4">Market</th>
+			<td>Medium of Exchange</td>
+			<td>A medium of exchange is the set of assets in an economy that people regularly exchange for goods or services.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Scholastics</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Unit of Account</td>
+			<td>Money provides a standard unit for measuring and comparing the value of different goods and services.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Mercantilism</td>
-			<td>2</td>
-			<td>3</td>
-			<td>1</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Store of Value</td>
+			<td>Money serves as a repository of wealth, allowing individuals to store their purchasing power for future use.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>British Empiricism</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Standard of Deferred Payment</td>
+			<td>Money enables long-term contracts (loans, rents) by providing a stable repayment benchmark.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Classical</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<th rowSpan="4">Planning</th>
+			<td>Instrument of State Policy</td>
+			<td>Bullion reserves financed warfare, navies, and colonization. Monarchs debased coins in crises but generally preferred hard currency (gold/silver) for stability.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Marxist</td>
-			<td>2</td>
-			<td>1</td>
-			<td>4</td>
-			<td>3</td>
-			<td>5</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Tool of Power & Distribution</td>
+			<td>Money is not neutral—it affects real economic outcomes (unemployment, inequality). Access to credit determines who can invest (reinforcing capitalist hierarchies). Sovereign currency-issuing states (e.g., U.S., Japan) face no solvency constraint, but inflation risks remain.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Neoclassical</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Tool of Fiscal Policy</td>
+			<td>Money is a public monopoly used to achieve full employment and price stability. Sovereign currency issuers (e.g., U.S., Japan) cannot run out of money but must manage inflation. Job Guarantees: MMT advocates using money creation to fund public employment, stabilizing demand without causing inflation.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Austrian</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Means of Tax Settlement</td>
+			<td>Money’s value is sustained because the state demands it for tax payments. This "taxes-drive-money" approach (from Georg Friedrich Knapp’s chartalism) contrasts with commodity or credit theories.</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Keynesian</td>
-			<td>1</td>
-			<td>3</td>
-			<td>2</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Monetarism</td>
-			<td>1</td>
-			<td>3</td>
-			<td>2</td>
+			<th rowSpan="5">Welfare</th>
+			<td>Distribution of National Income</td>
 			<td></td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>Post-Keynesian</td>
-			<td>1</td>
-			<td>3</td>
-			<td>2</td>
-			<td>4</td>
-			<td>-</td>
-			<td>5</td>
-			<td>-</td>
-			<td>-</td>
+			<td>Maximization of Satisfaction</td>
+			<td></td>
 		</tr>
 		<tr>
-			<td style={{textAlign: 'left'}}>MMT</td>
-			<td>2</td>
-			<td>1</td>
-			<td>3</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>4</td>
-			<td>5</td>
+			<td>Liquidity to Wealth</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Guarantor of Solvency</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Bearer of Options</td>
+			<td></td>
 		</tr>
 	</table>
 </div>
-<br/>
-
-* MoE
-
-* UoA
-
-* SoV
-
-* DP Standard of Deferred Payment (For Contracts & Debt). Money enables long-term contracts (loans, rents) by providing a stable repayment benchmark. Classical thinkers preferred hard money (gold/silver) to avoid inflation eroding contractual fairness.
-
-* SP Instrument of State Policy (Military & Economic). Bullion reserves financed warfare, navies, and colonization. Monarchs debased coins in crises but generally preferred hard currency (gold/silver) for stability.
-
-* TP Tool of Power & Distribution. Money is not neutral—it affects real economic outcomes (unemployment, inequality). Access to credit determines who can invest (reinforcing capitalist hierarchies). Sovereign currency-issuing states (e.g., U.S., Japan) face no solvency constraint, but inflation risks remain.
-
-* FP Tool of Fiscal Policy (Functional Finance) The most distinctive MMT view: Money is a public monopoly used to achieve full employment and price stability. Sovereign currency issuers (e.g., U.S., Japan) cannot run out of money but must manage inflation. Job Guarantees: MMT advocates using money creation to fund public employment, stabilizing demand without causing inflation.
-
-* TS Means of Settlement (Taxes Drive Money) Money’s value is sustained because the state demands it for tax payments. This "taxes-drive-money" approach (from Georg Friedrich Knapp’s chartalism) contrasts with commodity or credit theories.
 
 
-
------
-
-* Transfer of Value?
-
-Contingent Functions:
-
-* Basis of Credit System
-
-* Distribution of National Income
-
-* Maximization of Satisfaction
-
-* LIquidity to Wealth
-
-* Measure of Utility
-
-* Employment of Factor Inputs
-
-----
-
-Other:
-
-* Liquidity
-
-* Bearer of Options
-
-* Guarator of Solvency
 
 https://drrajivdesaimd.com/2022/07/01/money/
 
 
 
-### 2.3 Medium of Exchange
 
-#### 2.3.1 Authors
+### 2.3 The Hierarchy of Functions
+
+
+
+
+
+### 2.4 Medium of Exchange
+
+#### 2.4.1 Authors
 
 A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
@@ -469,7 +354,7 @@ Carl Menger (founder of the Austrian School) explained that money arises natural
 Ludwig von Mises’ Regression Theorem further argues that money must have originated from a commodity with pre-monetary demand (e.g., gold, silver), not by government fiat.
 
 
-#### 2.3.2. Physical Requirements
+#### 2.4.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -507,7 +392,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 Other: Acceptable, Recognizable, Unforgeable.
 
-#### 2.3.3 Digital Requirements
+#### 2.4.3 Digital Requirements
 
 These principles must be provided in the contract. 
 
@@ -531,7 +416,7 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-### 2.4 Unit of Account (Measure of Value)
+### 2.5 Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -540,13 +425,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
 
-#### 2.4.1. Authors
+#### 2.5.1. Authors
 
-#### 2.4.2. Applications
+#### 2.5.2. Applications
 
 Money allows for economic calculation by providing a common denominator for comparing prices. Prices expressed in money terms enable entrepreneurs to assess profit/loss, allocate resources efficiently, and coordinate production in a complex economy. Friedrich Hayek stressed that money prices transmit information about scarcity and demand.
 
-#### 2.4.3. Physical Requirements
+#### 2.5.3. Physical Requirements
 
 Stability (Medium Term): Prices must remain relatively predictable (hyperinflation destroys this).
 
@@ -567,7 +452,7 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 
 
 
-### 2.5 Store of Value (Temporal Transfer of Purchasing Power)
+### 2.6 Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
@@ -577,11 +462,11 @@ However, Austrians recognize that money is not a perfect store of value due to i
 
 Unlike Keynesians, Austrians argue that hoarding money can be rational (e.g., during uncertainty) rather than harmful to the economy.
 
-#### 2.5.1. Standard of Deferred Payment
+#### 2.6.1. Standard of Deferred Payment
 
 i.e. Credit
 
-#### 2.5.2. Authors
+#### 2.6.2. Authors
 
 For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
 
@@ -599,7 +484,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 
 
 
-#### 2.5.3. Physical Requirements
+#### 2.6.3. Physical Requirements
 
 To work as Store of Value:
 
@@ -612,7 +497,7 @@ To work as Store of Value:
 * the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
 
 
-#### 2.5.4. Digital Requirements
+#### 2.6.4. Digital Requirements
 
 * the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
 
@@ -623,12 +508,12 @@ To work as Store of Value:
 
 
 
-### 2.6 Standard of Deferred Payment (For Contracts & Debt)
+### 2.7 Standard of Deferred Payment (For Contracts & Debt)
 
 
 
 
-### 2.7 Instrument of Economic Policy
+### 2.8 Instrument of Economic Policy
 
 Locke supported metallism (tying money to silver) but opposed arbitrary debasement.
 
@@ -643,10 +528,177 @@ https://bitcoinmagazine.com/guides/what-is-money
 -->
 
 
+### 2.9. Monetary Configurations
 
+Each school of economics
 
+principles > theory of value > monetary theory + money functions > social order
 
-
+<div style={{overflowX : 'auto', textAlign: 'center'}}>
+	<table>
+		<tr>
+			<th rowSpan="2" style={{textAlign: 'center'}}>Schools</th>
+			<th rowSpan="2">Theory of<br/>Value</th>
+			<th rowSpan="2">Monetary<br/>Theory</th>
+			<th colSpan="4">Market</th>
+			<th colSpan="4">Planning</th>
+		</tr>
+		<tr>
+			<th>MoE</th>
+			<th>UoA</th>
+			<th>SoV</th>
+			<th>DP</th>
+			<th>SP</th>
+			<th>TP</th>
+			<th>FP</th>
+			<th>TS</th>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Scholastics</td>
+			<td>Subjective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Mercantilism</td>
+			<td>Objective</td>
+			<td>Fiduciary</td>
+			<td>2</td>
+			<td>3</td>
+			<td>1</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>British Empiricism</td>
+			<td>Subjective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Classical</td>
+			<td>Objective</td>
+			<td>Fiduciary</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Marxist</td>
+			<td>Objective</td>
+			<td>Sound</td>
+			<td>2</td>
+			<td>1</td>
+			<td>4</td>
+			<td>3</td>
+			<td>5</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Neoclassical</td>
+			<td>Subjective</td>
+			<td>Fiduciary</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Austrian</td>
+			<td>Subjective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Keynesian</td>
+			<td>Subjective</td>
+			<td>Fiduciary</td>
+			<td>1</td>
+			<td>3</td>
+			<td>2</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Monetarism</td>
+			<td>-</td>
+			<td>Fiduciary</td>
+			<td>1</td>
+			<td>3</td>
+			<td>2</td>
+			<td></td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Post-Keynesian</td>
+			<td>Subjective</td>
+			<td>Fiduciary</td>
+			<td>1</td>
+			<td>3</td>
+			<td>2</td>
+			<td>4</td>
+			<td>-</td>
+			<td>5</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>MMT</td>
+			<td>Subjective</td>
+			<td>Fiduciary</td>
+			<td>2</td>
+			<td>1</td>
+			<td>3</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 
 
@@ -768,117 +820,104 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 
 
-### 3.3. Usages for Known Configurations
+### 3.3. Functions for Known Configurations
 
 In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
 
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr style={{textAlign: 'center'}}>
-			<th></th>
-			<th colSpan="6">Usage</th>
+			<th rowSpan="2">Money Configurations</th>
+			<th colSpan="6">Monetary Functions</th>
 		</tr>
 		<tr>
-			<th>Money Configurations</th>
-			<th>MoE</th>
-			<th>SoV</th>
-			<th>UoC</th>
-			<th>Monetary Standard</th>
-			<th>Reserve</th>
+			<th>Medium of Exchange</th>
+			<th>Unit of Account</th>
+			<th>Store of Value</th>
+			<th>Deferred Payment</th>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
 			<th colSpan="7">Physical Money</th>
 		</tr>
-		<tr>
+		<tr className="red">
 			<td>Barter</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>NO</td>
+			<td>NO</td>
+			<td>NO</td>
+			<td>NO</td>
 		</tr>
-		<tr>
+		<tr className="green">
 			<td>Commodity</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>YES</td>
+			<td>YES</td>
+			<td>YES</td>
 		</tr>
-		<tr>
+		<tr className="green">
 			<td>Representative</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>YES</td>
+			<td>YES</td>
+			<td>YES</td>
 		</tr>
-		<tr>
-			<td>Fiat</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+		<tr className="orange">
+			<td>Fiduciary</td>
+			<td>YES</td>
+			<td>YES</td>
+			<td>Bad</td>
+			<td>Bad</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
 			<th colSpan="7">Digital Money</th>
 		</tr>
-		<tr>
+		<tr className="red">
 			<td>Unbacked Tokens</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>NO</td>
+			<td>NO</td>
+			<td>NO</td>
 		</tr>
-		<tr>
+		<tr className="red">
 			<td>Utility Tokens</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>NO</td>
+			<td>NO</td>
+			<td>NO</td>
 		</tr>
-		<tr>
+		<tr className="orange">
 			<td>Bitcoin</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>NO</td>
+			<td>YES</td>
+			<td>NO</td>
 		</tr>
-		<tr>
+		<tr className="orange">
 			<td>Monero</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>NO</td>
+			<td>YES</td>
+			<td>NO</td>
 		</tr>
-		<tr>
+		<tr className="red">
 			<td>Security Tokens</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>NO</td>
+			<td>NO</td>
+			<td>YES</td>
+			<td>NO</td>
 		</tr>
-		<tr>
+		<tr className="orange">
 			<td>Stablecoins</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>YES</td>
+			<td>YES</td>
+			<td>Bad</td>
+			<td>Bad</td>
 		</tr>
-		<tr>
+		<tr className="red">
 			<td>NFTs</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>NO</td>
+			<td>NO</td>
+			<td>YES</td>
+			<td>NO</td>
 		</tr>
 	</table>
 </div>
@@ -907,6 +946,9 @@ Ludwig von Mises (1881–1973) says that "The market is a process, actuated by t
 #### 4.1.1. Methodological Individualism
 
 
+
+
+
 ### 4.2. The (Real) Market Process
 
 #### 4.2.1. Commodities
@@ -932,7 +974,46 @@ Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
 
 
-### 4.3. The Price System
+
+
+
+
+
+### 4.3. The Spontaneous Money
+
+#### 4.3.1. Fixed Supply
+
+#### 4.3.2. Representative Money
+
+Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
+
+Earlier classifications in the history of money made of the useful distinction between money of <b>“intrinsic” and “extrinsic” value</b>. Intrinsic fall-back value of token money is virtually zero as a commodity. At the other extreme, the value of representative money is inherited for the represented commodity. Value on a commodity by the esteem in which it is held as measured by outside valuations that relate demand to supply, i.e., by scarcity. [32]
+
+The earliest form of representative money consisted of <b>small pieces of leather</b>, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity.
+
+There is no concrete evidence that the <b>clay tokens</b> used as an accounting tool to keep track of warehouse stores in ancient Mesopotamia were also used as representative money.However, the idea has been suggested. [32]
+
+The introduction of coinage, or <b>metal based</b> representative money, marks an important innovation in the history of money and a transition in the development of civilization itself. Coinage was probably invented in Asia Minor in the seventh century BC and it rapidly spread throughout the Mediterranean area. The earliest coins were made of electrum and had punch marks and some kind of identifying device. [32]
+
+Paper currency first developed in Tang dynasty China during the 7th century, where it was called "'flying money'", although true <b>paper money</b> did not appear until the 11th century, during the Song dynasty. The use of paper currency later spread throughout the Mongol Empire or Yuan dynasty China. European explorers like Marco Polo introduced the concept in Europe during the 13th century.
+
+Today, <b>gold or silver certificates</b>, for example, which are claims on precise amounts of gold or silver, could be also called representative money.	
+
+The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
+
+https://mises.org/podcasts/minor-issues/who-invented-money
+
+
+#### 4.3.3. Regression Theorem
+
+The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+
+
+
+
+
+
+### 4.4. The Price System
 
 Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
 
@@ -989,71 +1070,49 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 	</table>
 </div>
 
-#### 4.3.1 Price Formation
+#### 4.4.1 Price Formation
 
 price formation in a self-regulated system
 
 
 
-#### 4.3.2. Economic Calculation
+#### 4.4.2. Economic Calculation
 
 Use of Knowledge in Society [58]
 
 
 
-#### 4.3.3. Allocation of Resources
+#### 4.4.3. Allocation of Resources
 
 
-#### 4.3.4. Purchasing Power
+#### 4.4.4. Purchasing Power
 
 
-#### 4.3.5. Property
+#### 4.4.5. Property
 
 
-#### 4.3.6. Distribution of Wealth
-
-
+#### 4.4.6. Distribution of Wealth
 
 
 
 
 
-### 4.4. Money Stability
-
-
-#### 4.4.1. Fixed Supply
-
-
-#### 4.4.2. Representative Money
-
-Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
-
-Earlier classifications in the history of money made of the useful distinction between money of <b>“intrinsic” and “extrinsic” value</b>. Intrinsic fall-back value of token money is virtually zero as a commodity. At the other extreme, the value of representative money is inherited for the represented commodity. Value on a commodity by the esteem in which it is held as measured by outside valuations that relate demand to supply, i.e., by scarcity. [32]
-
-The earliest form of representative money consisted of <b>small pieces of leather</b>, usually marked with an offical seal. [-1] It was understood that the certificate could be redeemed by the commodity at any time. Also, the certificate was easier and safer to carry than the actual commodity. Over time people grew to trust the paper certificates as much as the commodity.
-
-There is no concrete evidence that the <b>clay tokens</b> used as an accounting tool to keep track of warehouse stores in ancient Mesopotamia were also used as representative money.However, the idea has been suggested. [32]
-
-The introduction of coinage, or <b>metal based</b> representative money, marks an important innovation in the history of money and a transition in the development of civilization itself. Coinage was probably invented in Asia Minor in the seventh century BC and it rapidly spread throughout the Mediterranean area. The earliest coins were made of electrum and had punch marks and some kind of identifying device. [32]
-
-Paper currency first developed in Tang dynasty China during the 7th century, where it was called "'flying money'", although true <b>paper money</b> did not appear until the 11th century, during the Song dynasty. The use of paper currency later spread throughout the Mongol Empire or Yuan dynasty China. European explorers like Marco Polo introduced the concept in Europe during the 13th century.
-
-Today, <b>gold or silver certificates</b>, for example, which are claims on precise amounts of gold or silver, could be also called representative money.	
-
-The advent of <b>blockchain technologies</b> and programmable money in 2009 provides a novel support for representative money with enhanced features, as we will discuss in this document.
-
-https://mises.org/podcasts/minor-issues/who-invented-money
-
-
-#### 4.4.3. Regression Theorem
-
-The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
+### 4.5 A Walk on the Stability Side
 
 
 
-### 4.5. System Stability
 
-#### 4.5.1. A Regulated System
+#### 4.5.2 Currency Stability Requirements
+
+* Short term stability
+
+* Medium term stability
+
+* Long term stability
+
+#### 4.5.3. System Stability
+
+##### 4.5.3.1. A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1062,7 +1121,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 4.5.2. Positive and Negative Feedback
+##### 4.5.3.2. Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -1095,11 +1154,11 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 4.5.3. A centralized system
+##### 4.5.3.3. A centralized system
 
 positive feedback
 
-#### 4.5.4. A self-regulated system
+##### 4.5.3.4. A self-regulated system
 
 negative feedback
 
@@ -1109,6 +1168,7 @@ Market itself, if not distorted, is a well performing price formation machine. A
 	<img src="/img/ecosystem_loop.svg" width="70%"></img>
 </div>
 <br/>
+
 
 
 
@@ -1133,7 +1193,7 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-## 5. The Scientifically Planned Fiduciary Order
+## 5. The Scientifically Planned Order
 ---
 
 
@@ -1554,7 +1614,11 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
 
 
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
+
+## 9. The Cyberpunk and RWA Stablecoin Marriage Competition
+---
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
@@ -1564,16 +1628,16 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9. The Representative Digital Competition
+## 10. The Representative Digital Competition
 ---
 
-### 9.1. Defining a Retail Currency
+### 10.1. Defining a Retail Currency
 
 
 The main challenge to have a retail currency is to provide credit without volatility.
 
 
-#### 9.1.1. Minimum Requirements
+#### 10.1.1. Minimum Requirements
 
 In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
@@ -1634,7 +1698,7 @@ We are looking for a stable Medium of Exchange
 </div>
 <br/>
 
-#### 9.1.2. Optional Features
+#### 10.1.2. Optional Features
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1662,7 +1726,7 @@ We are looking for a stable Medium of Exchange
 </div>
 <br/>
 
-#### 9.1.3. Stability
+#### 10.1.3. Stability
 
 
 * Short Term: Medium of Exchange
@@ -1675,7 +1739,7 @@ We are looking for a stable Medium of Exchange
 
 
 
-### 9.2. A Standard for Private Representative Digital Money
+### 10.2. A Standard for Private Representative Digital Money
 
 To work as Unit of Account:
 
@@ -1689,34 +1753,34 @@ To work as Unit of Account:
 
 
 
-### 9.3. Competition of Representative Currencies
+### 10.3. Competition of Representative Currencies
 
 
 
 
-### 9.4. Currency Composites
+### 10.4. Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-#### 9.4.1. Algebra of Currencies
+#### 10.4.1. Algebra of Currencies
 
 
 
-#### 9.4.2. Composite Governance
+#### 10.4.2. Composite Governance
 
 DAO like governance rules must be stablished.
 
 
-### 9.5. A Proposed Currency Architecture
+### 10.5. A Proposed Currency Architecture
 
 Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
 
-#### 9.5.1. Selecting a Monetary Standard
+#### 10.5.1. Selecting a Monetary Standard
 
 
 
-### 9.6. Further Industry Development
+### 10.6. Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -1731,33 +1795,33 @@ Private 'Lender of Last Resort?
 
 
 
-## 10. Proposed Monetary Architecture
+## 11. Proposed Monetary Architecture
 ---
 
-### 10.1. Differente Types of Currencies
+### 11.1. Differente Types of Currencies
 
 No all functions must be held by the same currency, instead an specialization is needed.
 
-#### 10.1.1. Tokens
+#### 11.1.1. Tokens
 
 
-#### 10.1.2. Retail Currency Generally Adopted
+#### 11.1.2. Retail Currency Generally Adopted
 
 
-#### 10.1.3. Monetary Standard (Numéraire)
+#### 11.1.3. Monetary Standard (Numéraire)
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
 In a currency competition scenario, none of the competing currencies would be eligible by default to function as numeraire. In fact a possible approach is to have a few numeraires and let users choose the numeraire which delivers lower volatility in prices. An initial numeraire could be Bitcoin because its digital nature.
 
 
-#### 10.2 Completing the Retail Currency
+#### 11.2 Completing the Retail Currency
 
 * purposes
 
 * no purposes
 
-#### 10.2 Choosing a Monetary Standard
+#### 11.2 Choosing a Monetary Standard
 
 
 
@@ -1838,9 +1902,9 @@ In a currency competition scenario, none of the competing currencies would be el
 
 
 
-### 10.3 Benefits
+### 11.3 Benefits
 
-#### 10.3.1. Ending Financial Exclusion
+#### 11.3.1. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -1852,7 +1916,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-#### 10.3.2. Crowdsolving
+#### 11.3.2. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -1875,7 +1939,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-### 10.4 Conclusion
+### 11.4 Conclusion
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1998,7 +2062,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 ---
 
 
-[-1] Money and the Mechanism of Exchange, W. Stanley Jevons, 1896 - https://mises.org/library/money-and-mechanism-exchange
+[2] Money and the Mechanism of Exchange, W. Stanley Jevons, 1896 - https://mises.org/library/money-and-mechanism-exchange
 
 [0] The Mystery of Banking, by Murray N. Rothbard, 1993, https://mises.org/library/mystery-banking
 
