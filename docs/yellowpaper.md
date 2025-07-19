@@ -334,20 +334,9 @@ https://drrajivdesaimd.com/2022/07/01/money/
 
 
 
+### 2.3 Medium of Exchange
 
-### 2.3 The Hierarchy of Functions
-
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/functions_money.svg" width="80%"></img>
-</div>
-<br/>
-
-
-
-### 2.4 Medium of Exchange
-
-#### 2.4.1 Authors
+#### 2.3.1 Authors
 
 A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
@@ -358,7 +347,7 @@ Carl Menger (founder of the Austrian School) explained that money arises natural
 Ludwig von Mises’ Regression Theorem further argues that money must have originated from a commodity with pre-monetary demand (e.g., gold, silver), not by government fiat.
 
 
-#### 2.4.2. Physical Requirements
+#### 2.3.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -371,6 +360,9 @@ https://bitcoinmagazine.com/guides/what-is-money
 			<th>Description</th>
 		</tr>
 		<tr>
+			<th colSpan="3" style={{textAlign: 'center'}}>Required</th>
+		</tr>
+		<tr>
 			<td>Fungible/Uniform</td>
 			<td>Say</td>
 			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
@@ -381,22 +373,38 @@ https://bitcoinmagazine.com/guides/what-is-money
 			<td>easy to divide up in smaller parts or put them together to larger parts</td>
 		</tr>
 		<tr>
-			<td>Stable/Durable</td>
+			<td>Stable (Short Term)</td>
 			<td>Adam Smith, Say, Rothbard [0]</td>
 			<td>we can store it and it won’t age with time</td>
 		</tr>
 		<tr>
 			<td>Scarce</td>
-			<td>Say, </td>
+			<td>Say</td>
 			<td>total supply of the medium is limited and known</td>
+		</tr>
+		<tr>
+			<th colSpan="3" style={{textAlign: 'center'}}>Optional</th>
+		</tr>
+		<tr>
+			<td>Acceptable</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Recognizable</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Unforgeable</td>
+			<td></td>
+			<td></td>
 		</tr>
 	</table>
 </div>
 <br/>
 
-Other: Acceptable, Recognizable, Unforgeable.
-
-#### 2.4.3 Digital Requirements
+#### 2.3.3 Digital Requirements
 
 These principles must be provided in the contract. 
 
@@ -411,12 +419,12 @@ These principles must be provided in the contract.
 			<th colSpan="3" style={{textAlign: 'center'}}>Required</th>
 		</tr>
 		<tr>
-			<td>Security</td>
+			<td>Secure</td>
 			<td></td>
 			<td>must be secure.</td>
 		</tr>
 		<tr>
-			<td>Decentralization</td>
+			<td>Decentralized</td>
 			<td></td>
 			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
 		</tr>
@@ -453,7 +461,7 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-### 2.5 Unit of Account
+### 2.4 Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -462,20 +470,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
 
-#### 2.5.1. Authors
+#### 2.4.1. Authors
 
-#### 2.5.2. Applications
+#### 2.4.2. Applications
 
 Money allows for economic calculation by providing a common denominator for comparing prices. Prices expressed in money terms enable entrepreneurs to assess profit/loss, allocate resources efficiently, and coordinate production in a complex economy. Friedrich Hayek stressed that money prices transmit information about scarcity and demand.
 
-#### 2.5.3. Physical Requirements
-
-Stability (Medium Term): Prices must remain relatively predictable (hyperinflation destroys this).
-
-Fungibility: Identical units (e.g., one dollar = another dollar).
-
-Universality: Widely adopted for quoting prices (e.g., BTC not yet a global unit).
-
+#### 2.4.3. Physical Requirements
 
 <!---
 https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
@@ -483,13 +484,39 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 * fungible
 * countable
 -->
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th>Quality</th>
+			<th>Author</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Divisible</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Fungible</td>
+			<td></td>
+			<td>Identical units (e.g., one dollar = another dollar).</td>
+		</tr>
+		<tr>
+			<td>Countable</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Stable (Medium Term)</td>
+			<td></td>
+			<td>Prices must remain relatively predictable (hyperinflation destroys this).</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 
-
-
-
-
-### 2.6 Store of Value
+### 2.5 Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
@@ -499,7 +526,7 @@ However, Austrians recognize that money is not a perfect store of value due to i
 
 Unlike Keynesians, Austrians argue that hoarding money can be rational (e.g., during uncertainty) rather than harmful to the economy.
 
-#### 2.6.2. Authors
+#### 2.5.2. Authors
 
 For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
 
@@ -517,43 +544,97 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 
 
 
-#### 2.6.3. Physical Requirements
+#### 2.5.3. Physical Requirements
 
-To work as Store of Value:
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th>Quality</th>
+			<th>Author</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Durable</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Liquid</td>
+			<td></td>
+			<td>easily convertible into goods/services without loss.</td>
+		</tr>
+		<tr>
+			<td>Stable (Long Term)</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
 
-* Durable
+#### 2.5.4. Digital Requirements
 
-* Scarce
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<th>Quality</th>
+			<th>Author</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<th colSpan="3" style={{textAlign: 'center'}}>Required</th>
+		</tr>
+		<tr>
+			<td>Secure</td>
+			<td></td>
+			<td>not subject to any hack</td>
+		</tr>
+		<tr>
+			<td>Decentralized</td>
+			<td></td>
+			<td>no one, even the issuer, should be able to interfere its behaviour</td>
+		</tr>
+		<tr>
+			<th colSpan="3" style={{textAlign: 'center'}}>Optional</th>
+		</tr>
+		<tr>
+			<td>Transparent</td>
+			<td></td>
+			<td>disclose all the required information to issuers, holders and regulators.</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
-* the price of the token must be <b>Stable price</b> to enable further utilities. This must be enforced by the design
 
-* the token must be <b>Liquid</b>, i.e. easily convertible into goods/services without loss.
+### 2.6 The Hierarchy of Functions
 
 
-#### 2.6.4. Digital Requirements
-
-* the token must be <b>Secure</b> and not subject to any hack. This must be enforced by the design
-
-* the token must be <b>Decentralized</b> which means no one, even the issuer, should be able to interfere its behaviour. This must be enforced by the design
-
-* the token must be <b>Transparent</b> and disclose all the required information to issuers, holders and regulators. This must be enforced by the design
-
+<div style={{textAlign: 'center'}}>
+	<img src="/img/functions_money.svg" width="80%"></img>
+</div>
+<br/>
 
 
 
 ### 2.7 Derived Credit Functions
 
-#### 2.7.1. Standard of Deferred Payment
+Standard of Deferred Payment
 
 i.e. Credit
 
 
-### 2.7 Derived Planning Functions
+### 2.8 Derived Planning Functions
 
 
 
 
-### 2.7 Derived Wealth Functions
+### 2.9 Derived Wealth Functions
 
 
 
@@ -564,12 +645,12 @@ https://bitcoinmagazine.com/guides/what-is-money
 -->
 
 
-### 2.8. Monetary Configurations
+### 2.10. Monetary Configurations
 
 Each school of economics
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/functions_money_value.svg" width="100%"></img>
+	<img src="/img/functions_money_value.svg" width="80%"></img>
 </div>
 <br/>
 
@@ -751,21 +832,113 @@ principles > theory of value > monetary theory + money functions > social order
 ## 3. From Functions to Requirements
 ---
 
+### 3.1. Defining a Retail Currency
 
 
-### 3.1 The Hierarchy of Functions
+The main challenge to have a retail currency is to provide credit without volatility.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/functions_money_requirements.svg" width="100%"></img>
+	<img src="/img/functions_money_requirements.svg" width="80%"></img>
 </div>
 <br/>
 
+### 3.2. Minimum Requirements
 
-### 3.2 Structural Requirements
+In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
+
+We are looking for a stable Medium of Exchange
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Feature</b></td>
+			<td><b>Description</b></td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Physical Requirements as MoE</b></td>
+		</tr>
+		<tr>
+			<td>Fungible</td>
+			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
+		</tr>
+		<tr>
+			<td>Divisible</td>
+			<td>easy to divide up in smaller parts or put them together to larger parts</td>
+		</tr>
+		<tr>
+			<td>Stable (Short Term)</td>
+			<td>we can store it and it won’t age with time</td>
+		</tr>
+		<tr>
+			<td>Portable</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Scarce</td>
+			<td>total supply of the medium is limited and known</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Digital Requirements as MoE</b></td>
+		</tr>
+		<tr>
+			<td>Secure</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Decentralized</td>
+			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
+		</tr>
+		<tr>
+			<td>Stable (Short Term)</td>
+			<td>Must be able to form a price system</td>
+		</tr>
+		<tr>
+			<td>Stable (Long Term)</td>
+			<td>Must be able to provide credit maintaining long term stability</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+### 3.3. Optional Features
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Feature</b></td>
+			<td><b>Description</b></td>
+		</tr>
+		<tr>
+			<td>Private</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Compliant</td>
+			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
+		</tr>
+		<tr>
+			<td>Transparent</td>
+			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
+		</tr>
+		<tr>
+			<td>Upgradeability</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+### 3.4. Stability
 
 
+* Short Term: Medium of Exchange
 
-### 3.3 Stability
+* Medium Term: Unit of Account / Ability to Create a Price System
+
+* Long Term: Standard of Deferred Payment
 
 
 
@@ -1697,111 +1870,6 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
 ## 10. The Representative Digital Competition
 ---
-
-### 10.1. Defining a Retail Currency
-
-
-The main challenge to have a retail currency is to provide credit without volatility.
-
-
-#### 10.1.1. Minimum Requirements
-
-In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
-
-We are looking for a stable Medium of Exchange
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr style={{textAlign: 'center'}}>
-			<td><b>Feature</b></td>
-			<td><b>Description</b></td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Physical Requirements as MoE</b></td>
-		</tr>
-		<tr>
-			<td>Fungible</td>
-			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
-		</tr>
-		<tr>
-			<td>Divisible</td>
-			<td>easy to divide up in smaller parts or put them together to larger parts</td>
-		</tr>
-		<tr>
-			<td>Stable (Short Term)</td>
-			<td>we can store it and it won’t age with time</td>
-		</tr>
-		<tr>
-			<td>Portable</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Scarce</td>
-			<td>total supply of the medium is limited and known</td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Digital Requirements as MoE</b></td>
-		</tr>
-		<tr>
-			<td>Secure</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Decentralized</td>
-			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
-		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
-		</tr>
-		<tr>
-			<td>Stable (Short Term)</td>
-			<td>Must be able to form a price system</td>
-		</tr>
-		<tr>
-			<td>Stable (Long Term)</td>
-			<td>Must be able to provide credit maintaining long term stability</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-#### 10.1.2. Optional Features
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr style={{textAlign: 'center'}}>
-			<td><b>Feature</b></td>
-			<td><b>Description</b></td>
-		</tr>
-		<tr>
-			<td>Private</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Compliant</td>
-			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
-		</tr>
-		<tr>
-			<td>Transparent</td>
-			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
-		</tr>
-		<tr>
-			<td>Upgradeability</td>
-			<td></td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-#### 10.1.3. Stability
-
-
-* Short Term: Medium of Exchange
-
-* Medium Term: Unit of Account / Ability to Create a Price System
-
-* Long Term: Standard of Deferred Payment
-
 
 
 
