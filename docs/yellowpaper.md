@@ -169,10 +169,10 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 
 
 
-## 2. A Review of the Empirical Evidence
+## 2. Theoretical Proposals on Monetary Theory
 ---
 
-### 2.1. Approaches to Monetary Theory
+### 2.1. A Review of Schools of Economics
 
 <div>
 	<table>
@@ -224,7 +224,7 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–present</td>
-			<td>Richard Cantillon (1680–1734) (*), Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995), Huerta de Soto (1956)</td>
+			<td>Richard Cantillon (1680–1734) (*), Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995), Hans-Hermann Hoppe (1949), Huerta de Soto (1956)</td>
 		</tr>
 		<tr className="green">
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
@@ -338,6 +338,10 @@ https://drrajivdesaimd.com/2022/07/01/money/
 ### 2.3 The Hierarchy of Functions
 
 
+<div style={{textAlign: 'center'}}>
+	<img src="/img/functions_money.svg" width="100%"></img>
+</div>
+<br/>
 
 
 
@@ -546,14 +550,6 @@ To work as Store of Value:
 
 
 
-### 2.8 Instrument of Economic Policy
-
-Locke supported metallism (tying money to silver) but opposed arbitrary debasement.
-
-Hume introduced the specie-flow mechanism, showing trade imbalances self-correct without state intervention.
-
-Smith rejected mercantilist monetary controls, advocating for free banking and competition in currency issuance.
-
 <!--- 
 https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-people-afford-to-activity-7309132086823571456-ALMT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
@@ -561,9 +557,14 @@ https://bitcoinmagazine.com/guides/what-is-money
 -->
 
 
-### 2.9. Monetary Configurations
+### 2.8. Monetary Configurations
 
 Each school of economics
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/functions_money_value.svg" width="100%"></img>
+</div>
+<br/>
 
 principles > theory of value > monetary theory + money functions > social order
 
@@ -735,9 +736,35 @@ principles > theory of value > monetary theory + money functions > social order
 
 
 
+
+<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 3. From Functions to Requirements
+---
+
+
+
+### 3.1 The Hierarchy of Functions
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/functions_money_requirements.svg" width="100%"></img>
+</div>
+<br/>
+
+
+### 3.2 Structural Requirements
+
+
+
+### 3.3 Stability
+
+
+
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> EVALUATION OF KNOWN CONFIGURATIONS </h1> </div>
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> EVALUATION OF EMPIRICAL EVIDENCE </h1> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
