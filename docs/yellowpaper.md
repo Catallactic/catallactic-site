@@ -169,7 +169,7 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 
 
 
-## 2. Theoretical Proposals on Monetary Theory
+## 2. Modelization of Monetary Theory
 ---
 
 ### 2.1. A Review of Schools of Economics
@@ -339,7 +339,7 @@ https://drrajivdesaimd.com/2022/07/01/money/
 
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/functions_money.svg" width="100%"></img>
+	<img src="/img/functions_money.svg" width="80%"></img>
 </div>
 <br/>
 
@@ -499,10 +499,6 @@ However, Austrians recognize that money is not a perfect store of value due to i
 
 Unlike Keynesians, Austrians argue that hoarding money can be rational (e.g., during uncertainty) rather than harmful to the economy.
 
-#### 2.6.1. Standard of Deferred Payment
-
-i.e. Credit
-
 #### 2.6.2. Authors
 
 For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
@@ -545,8 +541,19 @@ To work as Store of Value:
 
 
 
-### 2.7 Standard of Deferred Payment
+### 2.7 Derived Credit Functions
 
+#### 2.7.1. Standard of Deferred Payment
+
+i.e. Credit
+
+
+### 2.7 Derived Planning Functions
+
+
+
+
+### 2.7 Derived Wealth Functions
 
 
 
