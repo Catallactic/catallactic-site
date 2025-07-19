@@ -933,14 +933,40 @@ We are looking for a stable Medium of Exchange
 
 ### 3.4. Stability
 
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Stability</b></td>
+			<td><b>Function</b></td>
+		</tr>
+		<tr>
+			<td>Short Term</td>
+			<td>Medium of Exchange</td>
+		</tr>
+		<tr>
+			<td>Medium Term</td>
+			<td>Unit of Account</td>
+		</tr>
+		<tr>
+			<td>Long Term</td>
+			<td>Store of Value</td>
+		</tr>
+	</table>
+</div>
+<br/>
 
-* Short Term: Medium of Exchange
+Stability depends on the peg
 
-* Medium Term: Unit of Account / Ability to Create a Price System
+<div style={{textAlign: 'center'}}>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7yFSkAvutsSu9h31tkEaRtL0E_PSv6YpoQ&s" width="40%"></img>
+</div>
+<br/>
 
-* Long Term: Standard of Deferred Payment
+#### 3.4.1. Intrinsic Value
 
+#### 3.4.2. Politics
 
+#### 3.4.3. Mathematical Equilibrium
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
