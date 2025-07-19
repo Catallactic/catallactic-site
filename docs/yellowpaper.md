@@ -261,7 +261,18 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 </div>
 <br/>
 
-### 2.2. Functions of Money
+### 2.2. Monetary Theory
+
+Each school of economics
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/monetary_theory.svg" width="80%"></img>
+</div>
+<br/>
+
+
+
+### 2.3. Functions of Money
 
 <div>
 	<table>
@@ -334,9 +345,9 @@ https://drrajivdesaimd.com/2022/07/01/money/
 
 
 
-### 2.3 Medium of Exchange
+### 2.4 Medium of Exchange
 
-#### 2.3.1 Authors
+#### 2.4.1 Authors
 
 A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
@@ -347,7 +358,7 @@ Carl Menger (founder of the Austrian School) explained that money arises natural
 Ludwig von Mises’ Regression Theorem further argues that money must have originated from a commodity with pre-monetary demand (e.g., gold, silver), not by government fiat.
 
 
-#### 2.3.2. Physical Requirements
+#### 2.4.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -404,7 +415,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 </div>
 <br/>
 
-#### 2.3.3 Digital Requirements
+#### 2.4.3 Digital Requirements
 
 These principles must be provided in the contract. 
 
@@ -461,7 +472,7 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-### 2.4 Unit of Account
+### 2.5 Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -470,13 +481,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
 
-#### 2.4.1. Authors
+#### 2.5.1. Authors
 
-#### 2.4.2. Applications
+#### 2.5.2. Applications
 
 Money allows for economic calculation by providing a common denominator for comparing prices. Prices expressed in money terms enable entrepreneurs to assess profit/loss, allocate resources efficiently, and coordinate production in a complex economy. Friedrich Hayek stressed that money prices transmit information about scarcity and demand.
 
-#### 2.4.3. Physical Requirements
+#### 2.5.3. Physical Requirements
 
 <!---
 https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
@@ -516,7 +527,7 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 <br/>
 
 
-### 2.5 Store of Value
+### 2.6 Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
@@ -526,7 +537,7 @@ However, Austrians recognize that money is not a perfect store of value due to i
 
 Unlike Keynesians, Austrians argue that hoarding money can be rational (e.g., during uncertainty) rather than harmful to the economy.
 
-#### 2.5.2. Authors
+#### 2.6.2. Authors
 
 For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
 
@@ -544,7 +555,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 
 
 
-#### 2.5.3. Physical Requirements
+#### 2.6.3. Physical Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -577,7 +588,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 </div>
 <br/>
 
-#### 2.5.4. Digital Requirements
+#### 2.6.4. Digital Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -612,7 +623,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 <br/>
 
 
-### 2.6 The Hierarchy of Functions
+### 2.7 The Hierarchy of Functions
 
 
 <div style={{textAlign: 'center'}}>
@@ -622,19 +633,19 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 
 
 
-### 2.7 Derived Credit Functions
+### 2.8 Derived Credit Functions
 
 Standard of Deferred Payment
 
 i.e. Credit
 
 
-### 2.8 Derived Planning Functions
+### 2.9 Derived Planning Functions
 
 
 
 
-### 2.9 Derived Wealth Functions
+### 2.10 Derived Wealth Functions
 
 
 
@@ -645,16 +656,9 @@ https://bitcoinmagazine.com/guides/what-is-money
 -->
 
 
-### 2.10. Monetary Configurations
+### 2.11. Monetary Configurations
 
-Each school of economics
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/functions_money_value.svg" width="80%"></img>
-</div>
-<br/>
-
-principles > theory of value > monetary theory + money functions > social order
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
 	<table>
@@ -829,11 +833,26 @@ principles > theory of value > monetary theory + money functions > social order
 
 
 
-## 3. From Functions to Requirements
+## 3. Defining a Retail Currency
 ---
 
-### 3.1. Defining a Retail Currency
+### 3.1. Design Criteria
 
+* Peg
+
+* Collateral
+
+* Transport
+
+Environment:
+
+* Competition
+
+* Coexistence
+
+
+
+### 3.2. Requirements
 
 The main challenge to have a retail currency is to provide credit without volatility.
 
@@ -842,7 +861,7 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.2. Minimum Requirements
+#### 3.2.1 Minimum Requirements
 
 In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
 
@@ -903,7 +922,7 @@ We are looking for a stable Medium of Exchange
 </div>
 <br/>
 
-### 3.3. Optional Features
+#### 3.2.2 Optional Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -931,7 +950,7 @@ We are looking for a stable Medium of Exchange
 </div>
 <br/>
 
-### 3.4. Stability
+### 3.3. Peg / Stability
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -962,11 +981,11 @@ Stability depends on the peg
 </div>
 <br/>
 
-#### 3.4.1. Intrinsic Value
+#### 3.3.1. Intrinsic Value
 
-#### 3.4.2. Politics
+#### 3.3.2. Politics
 
-#### 3.4.3. Mathematical Equilibrium
+#### 3.3.3. Mathematical Equilibrium
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
@@ -980,19 +999,7 @@ Stability depends on the peg
 ## 3. Money Configurations
 ---
 
-### 3.1. Currency Features
 
-* Peg
-
-* Collateral
-
-* Transport
-
-Environment:
-
-* Competition
-
-* Coexistence
 
 ### 3.2. Known Money Configurations
 
