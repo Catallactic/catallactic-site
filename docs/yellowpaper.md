@@ -863,45 +863,59 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-#### 3.2.1 Minimum Requirements
-
-In order to create a complete Quality Theory of Money we must identify the functions of money that will be covered since every function would have different quality requirements.
-
-We are looking for a stable Medium of Exchange
 
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr style={{textAlign: 'center'}}>
-			<td><b>Feature</b></td>
+			<td><b>Type</b></td>
+			<td><b>Function</b></td>
+			<td><b>Requirement</b></td>
 			<td><b>Description</b></td>
 		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Physical Requirements as MoE</b></td>
+		<tr>
+			<td rowSpan="9">Physical</td>
+			<td rowSpan="3">Medium of Exchange</td>
+			<td>Divisible</td>
+			<td>easy to divide up in smaller parts or put them together to larger parts</td>
 		</tr>
 		<tr>
 			<td>Fungible</td>
 			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
 		</tr>
 		<tr>
-			<td>Divisible</td>
-			<td>easy to divide up in smaller parts or put them together to larger parts</td>
-		</tr>
-		<tr>
-			<td>Stable (Short Term)</td>
-			<td>we can store it and it won’t age with time</td>
-		</tr>
-		<tr>
 			<td>Portable</td>
 			<td></td>
 		</tr>
 		<tr>
+			<td rowSpan="3">Unit of Account</td>
+			<td>Divisible</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Fungible</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Contable</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowSpan="2">Store of Value</td>
+			<td>Durable</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Liquid</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Common</td>
 			<td>Scarce</td>
 			<td>total supply of the medium is limited and known</td>
 		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Digital Requirements as MoE</b></td>
-		</tr>
 		<tr>
+			<td rowSpan="6">Digital</td>
+			<td rowSpan="6">Common</td>
 			<td>Secure</td>
 			<td></td>
 		</tr>
@@ -909,50 +923,48 @@ We are looking for a stable Medium of Exchange
 			<td>Decentralized</td>
 			<td>must be decentralized enough to guarantee holders and users the promised behaviour.</td>
 		</tr>
-		<tr style={{textAlign: 'center'}}>
-			<td colSpan="2"><b>Mathematical Requirements as Unit of Account</b></td>
-		</tr>
 		<tr>
-			<td>Stable (Short Term)</td>
-			<td>Must be able to form a price system</td>
-		</tr>
-		<tr>
-			<td>Stable (Long Term)</td>
-			<td>Must be able to provide credit maintaining long term stability</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-#### 3.2.2 Optional Requirements
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr style={{textAlign: 'center'}}>
-			<td><b>Feature</b></td>
-			<td><b>Description</b></td>
-		</tr>
-		<tr>
-			<td>Private</td>
+			<td>Private (Optional)</td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>Compliant</td>
+			<td>Compliant (Optional)</td>
 			<td>must comply with the regulations in all stages of their value chain in the areas where it is deployed.</td>
 		</tr>
 		<tr>
-			<td>Transparent</td>
+			<td>Transparent (Optional)</td>
 			<td>should provide ability to get disclosures at any moment of their current features and configuration</td>
 		</tr>
 		<tr>
-			<td>Upgradeability</td>
+			<td>Upgradeability (Optional)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowSpan="3">Economic</td>
+			<td>Medium of Exchange</td>
+			<td>Stable (Short Term)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Unit of Account</td>
+			<td>Stable (Medium Term)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Store of Value</td>
+			<td>Stable (Long Term)</td>
 			<td></td>
 		</tr>
 	</table>
 </div>
 <br/>
 
-### 3.3. Peg / Stability
+### 3.3. Physical Requirements
+
+### 3.4. Digital Requirements
+
+
+### 3.5. Economic Requirements - Stability (Peg)
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -983,11 +995,11 @@ Stability depends on the peg
 </div>
 <br/>
 
-#### 3.3.1. Intrinsic Value
+#### 3.5.1. Intrinsic Value
 
-#### 3.3.2. Politics
+#### 3.5.2. Politics
 
-#### 3.3.3. Mathematical Equilibrium
+#### 3.5.3. Mathematical Equilibrium
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
@@ -1110,7 +1122,6 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<th>Medium of Exchange</th>
 			<th>Unit of Account</th>
 			<th>Store of Value</th>
-			<th>Deferred Payment</th>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
 			<th colSpan="7">Physical Money</th>
@@ -1120,11 +1131,9 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>NO</td>
 			<td>NO</td>
 			<td>NO</td>
-			<td>NO</td>
 		</tr>
 		<tr className="green">
 			<td>Commodity</td>
-			<td>YES</td>
 			<td>YES</td>
 			<td>YES</td>
 			<td>YES</td>
@@ -1134,13 +1143,11 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>YES</td>
 			<td>YES</td>
 			<td>YES</td>
-			<td>YES</td>
 		</tr>
 		<tr className="orange">
 			<td>Fiduciary</td>
 			<td>YES</td>
 			<td>YES</td>
-			<td>Bad</td>
 			<td>Bad</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
@@ -1151,12 +1158,10 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>YES</td>
 			<td>NO</td>
 			<td>NO</td>
-			<td>NO</td>
 		</tr>
 		<tr className="red">
 			<td>Utility Tokens</td>
 			<td>YES</td>
-			<td>NO</td>
 			<td>NO</td>
 			<td>NO</td>
 		</tr>
@@ -1165,27 +1170,23 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>YES</td>
 			<td>NO</td>
 			<td>YES</td>
-			<td>NO</td>
 		</tr>
 		<tr className="orange">
 			<td>Monero</td>
 			<td>YES</td>
 			<td>NO</td>
 			<td>YES</td>
-			<td>NO</td>
 		</tr>
 		<tr className="red">
 			<td>Security Tokens</td>
 			<td>NO</td>
 			<td>NO</td>
 			<td>YES</td>
-			<td>NO</td>
 		</tr>
 		<tr className="orange">
 			<td>Stablecoins</td>
 			<td>YES</td>
 			<td>YES</td>
-			<td>Bad</td>
 			<td>Bad</td>
 		</tr>
 		<tr className="red">
@@ -1193,7 +1194,6 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>NO</td>
 			<td>NO</td>
 			<td>YES</td>
-			<td>NO</td>
 		</tr>
 	</table>
 </div>
