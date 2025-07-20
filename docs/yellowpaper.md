@@ -1001,17 +1001,7 @@ Stability depends on the peg
 ## 3. Money Configurations
 ---
 
-### 3.2. General Equilibrium
 
-In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
-</div>
-<br/>
-
-
-Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
 
 
 ### 3.2. Known Money Configurations
@@ -1492,7 +1482,19 @@ Market itself, if not distorted, is a well performing price formation machine. A
 ---
 
 
-### 5.1. The Demand for Money
+### 5.1. General Equilibrium
+
+In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
+</div>
+<br/>
+
+
+Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
+
+### 5.2. The Demand for Money
 
 Keynes’s Liquidity Preference Theory. 
 
@@ -1502,9 +1504,9 @@ Baumol-Tobin Model of Transaction Demand for Money
 
 
 
-### 5.2. Increasing the Supply of Money
+### 5.3. Increasing the Supply of Money
 
-#### 5.2.1. Quantity Theory of Money
+#### 5.3.1. Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -1523,31 +1525,31 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (money demand = k × PY). Refined the Quantity Theory of Money.
 
-#### 5.2.2. Money Supply Growth Approaches
+#### 5.3.2. Money Supply Growth Approaches
 
 Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
 
-#### 5.2.2. The Money Multiplier
+#### 5.3.2. The Money Multiplier
 
-#### 5.2.3. Determinants of Money Supply (Exogenous vs. Endogenous Money)
-
-
-
-### 5.3. Fiat Money
+#### 5.3.3. Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
 
-#### 5.3.1. Methodology
+
+### 5.4. Fiat Money
+
+
+#### 5.4.1. Methodology
 
 Scientific Method
 
-#### 5.3.2. Central Bank Balance Sheet
+#### 5.4.2. Central Bank Balance Sheet
 
-#### 5.3.3. Current Definition of Money
+#### 5.4.3. Current Definition of Money
 
 
-#### 5.3.4. Central Bank Targets
+#### 5.4.4. Central Bank Targets
 
-##### 5.3.5.1. Inflation
+##### 5.4.5.1. Inflation
 
 Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
@@ -1559,9 +1561,9 @@ Permanent Income Hypothesis (consumption smoothing).
 
 Argued for steady money growth (k-percent rule).
 
-##### 5.3.5.2. Employment
+##### 5.4.5.2. Employment
 
-#### 5.3.5. Monetary Policies
+#### 5.4.5. Monetary Policies
 
 From Friedman 2% to QE and to MMT
 
@@ -1579,7 +1581,7 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.3.5.1. Interest Rates
+##### 5.4.5.1. Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -1591,34 +1593,34 @@ John Maynard Keynes (1883–1946) Liquidity Preference Theory (money demand for 
 
 Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Taylor Rule extensions).
 
-##### 5.3.5.2. Negative Interest Rate Policy (NIRP)
+##### 5.4.5.2. Negative Interest Rate Policy (NIRP)
 
-##### 5.3.5.3. Loans
+##### 5.4.5.3. Loans
 
-##### 5.3.5.4. QE
+##### 5.4.5.4. QE
 
-##### 5.3.5.5. Forward Guidance
+##### 5.4.5.5. Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.3.5.6. MMT
+##### 5.4.5.6. MMT
 
-#### 5.3.5. Channels of Monetary Policy Transmission
+#### 5.4.5. Channels of Monetary Policy Transmission
 
 https://www.rba.gov.au/education/resources/explainers/the-transmission-of-monetary-policy.html
 
 
 
 
-### 5.4. Financial Markets
+### 5.5. Financial Markets
 
-#### 5.4.1. Financial Assets
+#### 5.5.1. Financial Assets
 
-#### 5.4.2. Monetary Markets
+#### 5.5.2. Monetary Markets
 
-#### 5.4.3. Investment Markets
+#### 5.5.3. Investment Markets
 
-#### 5.4.4. Financial Ecosystem
+#### 5.5.4. Financial Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/usdsystem.jpeg" width="60%"></img>
@@ -1627,7 +1629,7 @@ https://www.rba.gov.au/education/resources/explainers/the-transmission-of-moneta
 
 
 
-### 5.5. The Money Supply Evolution
+### 5.6. The Money Supply Evolution
 
 Bubble after bubble
 
@@ -1641,7 +1643,7 @@ No Reset
 
 
 
-### 5.6. Misalocation of Resources
+### 5.7. Misalocation of Resources
 
 * Collectivized Risk of Credit
 
@@ -1652,20 +1654,20 @@ No Reset
 
 
 
-### 5.7. Currency Debasement
+### 5.8. Currency Debasement
 
-#### 5.7.1. Price Scenarios
+#### 5.8.1. Price Scenarios
 
-##### 5.7.1.1. Inflation
+##### 5.8.1.1. Inflation
 
-##### 5.7.1.2. Deflation
+##### 5.8.1.2. Deflation
 
-##### 5.7.1.3. Hyperinflation
+##### 5.8.1.3. Hyperinflation
 
-##### 5.7.1.4. Stagflation
+##### 5.8.1.4. Stagflation
 
 
-#### 5.7.1 The Split Economy
+#### 5.8.1 The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -1679,7 +1681,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 5.7.2. The Squeezed Real Economy
+#### 5.8.2. The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -1697,21 +1699,21 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 
 
-### 5.8. Neutrality of Money
+### 5.9. Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
 John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
 
-#### 5.8.1. Authors
+#### 5.9.1. Authors
 
 David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
 
 
-#### 5.8.2. Cantillon Effects
+#### 5.9.2. Cantillon Effects
 
 
-#### 5.8.3. Austrian business cycle theory (ABCT)
+#### 5.9.3. Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
@@ -1729,7 +1731,7 @@ Financial Instability Hypothesis – boom-bust cycles due to credit.
 "Stability is destabilizing."
 
 
-### 5.9. Crisis
+### 5.10. Crisis
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
@@ -2420,3 +2422,10 @@ The Economics Of Money And Banking by Chandler, Lester V (1949) https://archive.
 
 Primitive Money. In its Ethnological, Historical and Economic Aspects. Book • Second Edition • 1966 https://api.pageplace.de/preview/DT0400.9781483157153_A23874385/preview-9781483157153_A23874385.pdf
 https://www.sciencedirect.com/book/9780080116792/primitive-money
+
+
+The Ethics of Liberty 07/20/2005 Murray N. Rothbard https://mises.org/library/book/ethics-liberty
+
+Power and Market: Government and the Economy 07/20/1970 Murray N. Rothbard https://mises.org/library/book/power-and-market-government-and-economy
+
+What Has Government Done to Our Money? 06/15/1963 Murray N. Rothbard https://mises.org/library/book/what-has-government-done-our-money
