@@ -165,7 +165,12 @@ We will change the approach. Instead, we will use existing Monetary Theories to 
 
 
 
-<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div>
+
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> UNDERSTANDING CURRENCIES </h1> </div>
+<div className="section" align="center"> <h5 align="center"> Find the criteria to understand how a currency will perform and what delivers </h5> </div>
+
+<div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
@@ -835,8 +840,10 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
-## 3. Defining a Retail Currency
+## 3. Evaluating Currencies
 ---
+
+
 
 ### 3.1. Design Criteria
 
@@ -959,7 +966,7 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.5. Economic Requirements - Stability (Peg)
+### 3.5 Economic Requirements - Stability (Peg)
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1002,28 +1009,16 @@ Stability depends on the peg
 
 #### 3.5.3. Mathematical Equilibrium
 
-<br/><br/><div className="divider div-transparent div-dot"></div>
-
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> THE EMPIRICAL EVIDENCE </h1> </div>
-
-<div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
+### 3.6. Known Money Configurations
 
-## 3. Money Configurations
----
-
-
-
-
-### 3.2. Known Money Configurations
-
-#### 3.2.1. Barter
+#### 3.6.1. Barter
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
 
-#### 3.2.2. Physical Proposals for Money
+#### 3.6.2. Physical Proposals for Money
 
 Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
@@ -1051,7 +1046,7 @@ Once a commodity has been widely accepted for exchanges, it may take on a value 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-#### 3.2.3. Digital Proposals for Money
+#### 3.6.3. Digital Proposals for Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1073,7 +1068,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 </div>
 <br/>
 
-#### 3.2.4. Digitalization Equivalences
+#### 3.6.4. Digitalization Equivalences
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
 	<table>
@@ -1109,7 +1104,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 
 
-### 3.3. Functions for Known Configurations
+### 3.7 Functions for Known Configurations
 
 In the modern fiat-money system, the two functions of money—medium of exchange and unit of account—happen to coincide. However, there is wide agreement that there existed a dichotomy between the medium of exchange (e.g., silver coin) and the unit of account (or “money of account”) in the commodity-money system; see, for example, White (1984), Glassman and Redish (1988), Rolnick, Velde and Weber (1997), Redish (2000), Sargent and Velde (2002), and Velde (2009). Indeed, historically, units of account preceded media of exchange in the sense that units of weight, such as the talent and the shekel, evolved into medium-of-exchange units when coins were minted that had specified relations to the weight (Shiller 2002). [50]
 
@@ -1202,10 +1197,12 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 
 
 
-<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+<br/><br/><div className="divider div-transparent div-dot"></div>
 
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> THE EMPIRICAL EVIDENCE </h1> </div>
+<div className="section" align="center"> <h5 align="center"> Understand the social order created by each currency configuration. </h5> </div>
 
-
+<div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
