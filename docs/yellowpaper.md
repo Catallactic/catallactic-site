@@ -863,6 +863,7 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
+### 3.3. Physical Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -913,6 +914,21 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td>Scarce</td>
 			<td>total supply of the medium is limited and known</td>
 		</tr>
+	</table>
+</div>
+<br/>
+
+
+### 3.4. Digital Requirements
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Type</b></td>
+			<td><b>Function</b></td>
+			<td><b>Requirement</b></td>
+			<td><b>Description</b></td>
+		</tr>
 		<tr>
 			<td rowSpan="6">Digital</td>
 			<td rowSpan="6">Common</td>
@@ -939,6 +955,20 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td>Upgradeability (Optional)</td>
 			<td></td>
 		</tr>
+	</table>
+</div>
+<br/>
+
+### 3.5. Economic Requirements - Stability (Peg)
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td><b>Type</b></td>
+			<td><b>Function</b></td>
+			<td><b>Requirement</b></td>
+			<td><b>Description</b></td>
+		</tr>
 		<tr>
 			<td rowSpan="3">Economic</td>
 			<td>Medium of Exchange</td>
@@ -954,35 +984,6 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td>Store of Value</td>
 			<td>Stable (Long Term)</td>
 			<td></td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-### 3.3. Physical Requirements
-
-### 3.4. Digital Requirements
-
-
-### 3.5. Economic Requirements - Stability (Peg)
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr style={{textAlign: 'center'}}>
-			<td><b>Stability</b></td>
-			<td><b>Function</b></td>
-		</tr>
-		<tr>
-			<td>Short Term</td>
-			<td>Medium of Exchange</td>
-		</tr>
-		<tr>
-			<td>Medium Term</td>
-			<td>Unit of Account</td>
-		</tr>
-		<tr>
-			<td>Long Term</td>
-			<td>Store of Value</td>
 		</tr>
 	</table>
 </div>
