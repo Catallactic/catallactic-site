@@ -270,9 +270,11 @@ Each school of economics
 </div>
 <br/>
 
-
+SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
 
 ### 2.3. Functions of Money
+
+Aristotle (384–322 BCE). Early thoughts on the functions of money (medium of exchange, store of value, unit of account).
 
 <div>
 	<table>
@@ -989,7 +991,7 @@ Stability depends on the peg
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> EVALUATION OF EMPIRICAL EVIDENCE </h1> </div>
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> THE EMPIRICAL EVIDENCE </h1> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -999,6 +1001,17 @@ Stability depends on the peg
 ## 3. Money Configurations
 ---
 
+### 3.2. General Equilibrium
+
+In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
+</div>
+<br/>
+
+
+Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
 
 
 ### 3.2. Known Money Configurations
@@ -1226,6 +1239,8 @@ Ludwig von Mises (1881–1973) says that "The market is a process, actuated by t
 
 #### 4.2.1. Commodities
 
+
+
 #### 4.2.2. Production
 
 #### 4.2.3. Capital Theory
@@ -1242,6 +1257,9 @@ Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
 #### 4.2.5. Value
 
+Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
+
+
 #### 4.2.6. Value Chain
 
 
@@ -1253,6 +1271,10 @@ Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
 
 ### 4.3. The Spontaneous Money
+
+Adam Smith (1723–1790). In "The Wealth of Nations," discussed money as a facilitator of trade. Argued for commodity-backed money (gold/silver).
+
+David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories on inflation and currency stability.
 
 #### 4.3.1. Fixed Supply
 
@@ -1472,14 +1494,20 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 ### 5.1. The Demand for Money
 
-Keynes’s Liquidity Preference Theory
+Keynes’s Liquidity Preference Theory. 
+
+Keynesian Revolution – fiscal & monetary policy for demand management.
 
 Baumol-Tobin Model of Transaction Demand for Money
+
 
 
 ### 5.2. Increasing the Supply of Money
 
 #### 5.2.1. Quantity Theory of Money
+
+John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
+David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
 
 In contrast to the hesitant qualitative monetary analysis by the economists mentioned above, there is also a current in the economic literature that does not treat qualitative issues at all. This is the simple quantity theory of money. The theory was originally formulated by Nicolaus Copernicus in 1517, whereas others mention Martín de Azpilcueta and Jean Bodin as independent originators of the theory. John Locke studied the velocity of circulation, and David Hume in 1752 used the quantity theory to develop his price–specie flow mechanism explaining balance of payments adjustments. Also Henry Thornton, John Stuart Mill and Simon Newcomb among others contributed to the development of the quantity theory. The quantity theory of money is the <b>heart of neoclassical monetary theory</b>. It has later been discussed and developed by several prominent thinkers and economists including John Locke, David Hume, Irving Fisher and Alfred Marshall. Milton Friedman made a restatement of the theory in 1956 and made it into a <b>cornerstone of monetarist</b> thinking.
 
@@ -1492,6 +1520,8 @@ The quantity theory of money is most often expressed and explained by reference 
 where M=Money Supply, V=Velocity of circulation (the number of times money changes hands), P=Average Price Level, T=Volume of transactions of goods and services
 
 The <b>velocity of money</b> is a measurement of the rate at which money is exchanged in an economy. It is the number of times that money moves from one entity to another. The velocity of money also refers to how much a unit of currency is used in a given period of time. Simply put, it's the rate at which consumers and businesses in an economy collectively spend money. The velocity of money is usually measured as a ratio of gross domestic product (GDP) to a country's M1 or M2 money supply.
+
+Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (money demand = k × PY). Refined the Quantity Theory of Money.
 
 #### 5.2.2. Money Supply Growth Approaches
 
@@ -1519,6 +1549,16 @@ Scientific Method
 
 ##### 5.3.5.1. Inflation
 
+Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+
+Milton Friedman (1912–2006)
+
+Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+
+Permanent Income Hypothesis (consumption smoothing).
+
+Argued for steady money growth (k-percent rule).
+
 ##### 5.3.5.2. Employment
 
 #### 5.3.5. Monetary Policies
@@ -1541,6 +1581,16 @@ MMT
 
 ##### 5.3.5.1. Interest Rates
 
+Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
+
+Irving Fisher (1867–1947) Fisher Equation (MV = PT) – formalized QTM. Distinguished between real and nominal interest rates (Fisher Effect).
+
+Knut Wicksell (1851–1926). Natural Rate of Interest theory.
+
+John Maynard Keynes (1883–1946) Liquidity Preference Theory (money demand for transactions, precaution, speculation).
+
+Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Taylor Rule extensions).
+
 ##### 5.3.5.2. Negative Interest Rate Policy (NIRP)
 
 ##### 5.3.5.3. Loans
@@ -1548,6 +1598,8 @@ MMT
 ##### 5.3.5.4. QE
 
 ##### 5.3.5.5. Forward Guidance
+
+Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
 ##### 5.3.5.6. MMT
 
@@ -1649,9 +1701,12 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
+John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
+
 #### 5.8.1. Authors
 
-Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
+David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
+
 
 #### 5.8.2. Cantillon Effects
 
@@ -1667,10 +1722,16 @@ Modern Monetary Theory (MMT)
 Hayek puts the Capital theory, the monetary theory and the price theory together to formulate the Austrian Theory of Trade Cycle
 
 
+Hyman Minsky (1919–1996)
+
+Financial Instability Hypothesis – boom-bust cycles due to credit.
+
+"Stability is destabilizing."
 
 
+### 5.9. Crisis
 
-
+Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
 
 
@@ -1713,7 +1774,7 @@ Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 ## 7. The CypherPunk Competition Order (i.e. Crytocurrencies)
 
-
+Robert Mundell (1932–2021). Optimum Currency Area (OCA) theory (criteria for shared currencies). Influenced Eurozone design.
 
 ### 7.1. The Problem of the Supply
 
