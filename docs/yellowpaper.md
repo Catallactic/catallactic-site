@@ -235,7 +235,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Austrian School<br/>1980s–present</td>
-			<td>Antal E. Fekete (1932), Hans-Hermann Hoppe (1949), Joseph T. Salerno (1950), Lawrence H. White (1954), Huerta de Soto (1956), George A. Selgin (1957)</td>
+			<td>Israel Kirzner (1930), Antal E. Fekete (1932), Hans-Hermann Hoppe (1949), Joseph T. Salerno (1950), Lawrence H. White (1954), Huerta de Soto (1956), George A. Selgin (1957), Steven Horwitz (1964-2021)</td>
 		</tr>
 		<tr className="green">
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
@@ -815,6 +815,19 @@ Market, institutions, banks, government, networks.... it depends
 			<td>-</td>
 		</tr>
 		<tr>
+			<td style={{textAlign: 'left'}}>Physiocrats</td>
+			<td>Objective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+		</tr>
+		<tr>
 			<td style={{textAlign: 'left'}}>Classical</td>
 			<td>Objective</td>
 			<td>Fiduciary</td>
@@ -923,9 +936,9 @@ Market, institutions, banks, government, networks.... it depends
 <br/>
 
 
-### 2.14 The Social Order
+### 2.15 The Social Order
 
-#### 2.13.2 Rational Expectations
+#### 2.15.1 Rational Expectations
 
 SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
 
@@ -1586,6 +1599,8 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 Scientific Method
 
+
+
 #### 5.4.2. Central Bank Balance Sheet
 
 #### 5.4.3. Current Definition of Money
@@ -1891,15 +1906,31 @@ Robert Mundell (1932–2021). Optimum Currency Area (OCA) theory (criteria for s
 
 ### 7.1. The Problem of the Supply
 
-#### 7.1.1. Asignation of Value
+#### 7.1.1 Asignation of Value
 
-#### 7.1.2. Competitive Value for Money
+#### 7.1.2 Competitive Value for Money
 
-#### 7.1.3. Gresham Law
+#### 7.1.3 Fractional Reserve
 
-Gresham’s law, which says that bad money tends to drive good money out of circulation
+1. Lawrence H. White: Defends free banking with fractional reserves as historically stable.
 
-#### 7.1.4. Quality Theory of Money
+2. George Selgin Position: Advocates for market-driven FRB under free banking.
+
+3. Steven Horwitz (1964–2021). Position: Supported FRB as compatible with Austrian business cycle theory (ABCT) if unregulated.
+
+4. Israel Kirzner (b. 1930) Position: Open to FRB as part of entrepreneurial market processes.
+
+Critics’ Rebuttals (Rothbardians & Hoppe)
+
+Hans-Hermann Hoppe: Argues FRB is always fraudulent because demand deposits imply 100% availability.
+
+Jesús Huerta de Soto: In "Money, Bank Credit, and Economic Cycles" (2006), claims FRB violates property rights (banks lend out deposits they don’t own).
+
+Murray Rothbard: Compared FRB to counterfeiting (banks create fake receipts for nonexistent reserves).
+
+
+
+### 7.2 Quality Theory of Money
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -1968,7 +1999,11 @@ The theory of the quality of money, even though not under this label, has a long
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-#### 7.1.5. Considerations on Stability
+#### 7.2.1 Gresham Law
+
+Gresham’s law, which says that bad money tends to drive good money out of circulation
+
+#### 7.2.2 Considerations on Stability
 
 * solves the problem of credit
 
@@ -1977,9 +2012,9 @@ One of the most important properties for the quality of money is the <b>existenc
 * Variable demand for liquidity
 
 
-### 7.2. Currency competition
+### 7.3 Currency competition
 
-#### 7.2.1. Authors
+#### 7.3.1 Authors
 
 Free banking supporters span classical liberals, Austrians, and modern economists. 
 
@@ -2011,7 +2046,7 @@ Saifedean Ammous Argues Bitcoin fulfills free banking ideals in The Bitcoin Stan
 
 Kevin Dowd. Free banking scholar focusing on market-driven monetary systems. Key Work: Laissez-Faire Banking (1993) – Analyzes free banking’s stability.
 
-#### 7.2.1. Features
+#### 7.3.2 Features
 
 While all oppose central banking, they differ on: Reserve requirements (100% vs. fractional), Money’s origin (commodity vs. market-chosen), Role of cryptocurrencies.
 
@@ -2024,7 +2059,7 @@ Fractional Reserve Banking: Rothbard/de Soto: 100% reserves only. Selgin/White/D
 
 
 
-### 7.3. Free Banking
+### 7.4 Free Banking
 
 The coexistence of competing private currencies has been documented from some authors.
 
@@ -2034,9 +2069,9 @@ Hayek and Denationalization of Money. Friedrich Hayek (1976) argued in "Denation
 
 Free Banking School. Economists like Lawrence White and George Selgin argue that historical free banking systems (e.g., Scotland in the 18th–19th centuries) show that competition among private banks issuing notes can work well. They claim that competitive note issuance leads to monetary stability without central bank intervention. Selgin’s "The Theory of Free Banking" (1988) explains how market forces regulate money supply better than central planning.
 
-#### 7.3.1. The Historical Evidence
+#### 7.4.1 The Historical Evidence
 
-#### 7.3.2. Coexistence
+#### 7.4.2 Coexistence
 
 In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
 
@@ -2044,7 +2079,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-#### 7.3.3. Incremental Introduction
+#### 7.4.3 Incremental Introduction
 
 
 
@@ -2056,7 +2091,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8. The RWA Stablecoin Competition
+## 8 The RWA Stablecoin Competition
 ---
 
 
@@ -2064,7 +2099,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9. The Cyberpunk and RWA Stablecoin Marriage
+## 9 The Cyberpunk and RWA Stablecoin Marriage
 ---
 
 
@@ -2076,13 +2111,13 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 10. The Representative Digital Competition
+## 10 The Representative Digital Competition
 ---
 
 
 
 
-### 10.2. A Standard for Private Representative Digital Money
+### 10.2 A Standard for Private Representative Digital Money
 
 To work as Unit of Account:
 
@@ -2096,34 +2131,34 @@ To work as Unit of Account:
 
 
 
-### 10.3. Competition of Representative Currencies
+### 10.3 Competition of Representative Currencies
 
 
 
 
-### 10.4. Currency Composites
+### 10.4 Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-#### 10.4.1. Algebra of Currencies
+#### 10.4.1 Algebra of Currencies
 
 
 
-#### 10.4.2. Composite Governance
+#### 10.4.2 Composite Governance
 
 DAO like governance rules must be stablished.
 
 
-### 10.5. A Proposed Currency Architecture
+### 10.5 A Proposed Currency Architecture
 
 Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
 
-#### 10.5.1. Selecting a Monetary Standard
+#### 10.5.1 Selecting a Monetary Standard
 
 
 
-### 10.6. Further Industry Development
+### 10.6 Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -2138,20 +2173,20 @@ Private 'Lender of Last Resort?
 
 
 
-## 11. Proposed Monetary Architecture
+## 11 Proposed Monetary Architecture
 ---
 
-### 11.1. Differente Types of Currencies
+### 11.1 Differente Types of Currencies
 
 No all functions must be held by the same currency, instead an specialization is needed.
 
-#### 11.1.1. Tokens
+#### 11.1.1 Tokens
 
 
-#### 11.1.2. Retail Currency Generally Adopted
+#### 11.1.2 Retail Currency Generally Adopted
 
 
-#### 11.1.3. Monetary Standard (Numéraire)
+#### 11.1.3 Monetary Standard (Numéraire)
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
