@@ -76,7 +76,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			</tr>
 			<tr>
 				<td scope="row">Real Economy</td>
-				<td scope="row">Money Definition</td>
+				<td scope="row">Money Configuration</td>
 				<td scope="row">Financial Economy</td>
 			</tr>
 		</tbody>
@@ -255,6 +255,7 @@ Existing Monetary Theories aimed to:
 
 We will change the approach. Instead, we will use existing Monetary Theories to design the best currency approach.
 
+We introduce an engieering analysis of Monetary Theory.
 
 
 
@@ -307,30 +308,43 @@ An intrinsic theory of value (also called theory of objective value) is any theo
 
 Marginalism as a formal theory can be attributed to the work of three economists, W. Jevons (1835-1882) in England, C. Menger (1840-1921) in Austria, and Walras in Switzerland.  William Stanley Jevons first proposed the theory in articles in 1863 and 1871. Carl Menger presented the theory in 1871. Menger explained why individuals use marginal utility to decide amongst trade-offs. Léon Walras introduced the theory in Éléments d'économie politique pure published in 1874. Walras was able to articulate the utility maximization of the consumer far better than Jevons and Menger by assuming that utility was linked to the consumption of each good. <b>Marginal utility focused on the value that the consumer received from the good when determining its value</b>.
 
-
-#### 2.3.3 Value as Supply and Demand
-
 Although the Marginal Revolution flowed from the work of Jevons, Menger and Walras, their work might have failed to enter the mainstream were it not for a second generation of economists. In England, the second generation were exemplified by Philip Wicksteed, by William Smart, and by Alfred Marshall; in Austria by Eugen Böhm von Bawerk and by Friedrich von Wieser; in Switzerland by Vilfredo Pareto; and in America by Herbert Joseph Davenport and by Frank A. Fetter.
 
-Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
-</div>
 
 ### 2.4 Money Configurations
 
-* Peg
+Once we have defined value, we need to fund a vehicle to move value around. A currency is value on motion
 
-* Collateral
-
-* Transport
-
-Environment:
-
-* Competition
-
-* Coexistence
+<div>
+	<table>
+		<tr>
+			<th>Category</th>
+			<th>Aspect</th>
+		</tr>
+		<tr>
+			<td rowSpan="2">Composition</td>
+			<td>Peg</td>
+		</tr>
+		<tr>
+			<td>Collateral</td>
+		</tr>
+		<tr>
+			<td rowSpan="2">Transport Mechanism</td>
+			<td>Physical</td>
+		</tr>
+		<tr>
+			<td>Digital</td>
+		</tr>
+		<tr>
+			<td rowSpan="2">Environment</td>
+			<td>Competition</td>
+		</tr>
+		<tr>
+			<td>Coexistence</td>
+		</tr>
+	</table>
+</div>
 
 ### 2.5 Functions of Money
 
@@ -407,7 +421,7 @@ https://drrajivdesaimd.com/2022/07/01/money/
 
 
 
-### 2.6 Medium of Exchange
+### 2.6 Function: Medium of Exchange
 
 #### 2.6.1 Authors
 
@@ -534,7 +548,7 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-### 2.7 Unit of Account
+### 2.7 Function: Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -589,7 +603,7 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 <br/>
 
 
-### 2.8 Store of Value
+### 2.8 Function: Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
@@ -687,6 +701,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 
 ### 2.9 The Hierarchy of Functions
 
+The 3 canonical functions are enough to deliver the derived functions. So we should bother about how the currency delivers the 3 canonical functions.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/functions_money.svg" width="80%"></img>
@@ -903,7 +918,7 @@ SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – peopl
 
 
 
-## 3. Monetary Theory in the Real World
+## 3. Practical Monetary Theory
 ---
 
 ### 3.1 Known Money Configurations
@@ -1176,15 +1191,15 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>NO</td>
 			<td>NO</td>
 		</tr>
-		<tr className="green">
+		<tr className="orange">
 			<td>Commodity</td>
-			<td>YES</td>
+			<td>Bad</td>
 			<td>YES</td>
 			<td>YES</td>
 		</tr>
-		<tr className="green">
+		<tr className="orange">
 			<td>Representative</td>
-			<td>YES</td>
+			<td>Bad</td>
 			<td>YES</td>
 			<td>YES</td>
 		</tr>
@@ -1243,6 +1258,17 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 </div>
 <br/>
 
+Barter is not money and does not fullfill any of Money Functions
+
+Unbacked Tokens and Utility Tokens work as Medium of Exchange but do not work as Unit of Account or Store of Value. Some utility tokens as Bitcoin or Monero can be used as Store of Value.
+
+Security Tokens and NFT only work as Store of Value
+
+Stablecoins and Fiduciary Money can be used to transfer value as Medium of Exchange and can be used to account value as Unit of Account. But they do not perform well persisting value so hey are not good Stored of Value.
+
+Finally, Commodity Money and Representative Money are good as Unit of Account and Store of Value but they are not optimal as Medium of Exchange.
+
+So there is not, as today, a Money Configuration which is optimal on delivering the 3 Funcions of Money.
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
@@ -1355,9 +1381,18 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 #### 4.4.1 Demand
 
 
-#### 4.4.1 Supply
+#### 4.4.2 Supply
 
-#### 4.4.2 Price Formation
+#### 4.4.3 Partial Equilibrium
+
+
+Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
+</div>
+
+#### 4.4.4 Price Formation
 
 price formation in a self-regulated system
 
