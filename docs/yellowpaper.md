@@ -177,6 +177,13 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 		<tr className="green">
 			<td>Subjective value, sound money</td>
 		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Physiocracy<br/>1759-1775</td>
+			<td>Richard Cantillon (1680–1734), François Quesnay (1694–1774), Tha Marquis da Mirabeau (1715–1789), Anne-Robert-Jacques Turgot (1727–1781)</td>
+		</tr>
+		<tr className="green">
+			<td>Objective value (land), sound money</td>
+		</tr>
 		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Classical<br/>1770s-1870s</td>
 			<td>Adam Smith (1723-1790), Thomas Robert Malthus (1766-1834), Jean-Baptiste Say (1767-1832), David Ricardo (1772–1823), John Stuart Mill (1806-1873)</td>
@@ -200,7 +207,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
-			<td>Richard Cantillon (1680–1734) (*), Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
+			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
 		</tr>
 		<tr className="green">
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
@@ -228,7 +235,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Austrian School<br/>1980s–present</td>
-			<td>Antal E. Fekete (1932), Hans-Hermann Hoppe (1949), Lawrence H. White (1954), Huerta de Soto (1956), George A. Selgin (1957)</td>
+			<td>Antal E. Fekete (1932), Hans-Hermann Hoppe (1949), Joseph T. Salerno (1950), Lawrence H. White (1954), Huerta de Soto (1956), George A. Selgin (1957)</td>
 		</tr>
 		<tr className="green">
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
@@ -2534,3 +2541,5 @@ The Ethics of Liberty 07/20/2005 Murray N. Rothbard https://mises.org/library/bo
 Power and Market: Government and the Economy 07/20/1970 Murray N. Rothbard https://mises.org/library/book/power-and-market-government-and-economy
 
 What Has Government Done to Our Money? 06/15/1963 Murray N. Rothbard https://mises.org/library/book/what-has-government-done-our-money
+
+https://professorfekete.com/writings/money-credit/
