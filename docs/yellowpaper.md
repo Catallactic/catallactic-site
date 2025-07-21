@@ -987,7 +987,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 			<th>Utility</th>
 			<th>Politics</th>
 			<th>Security</th>
-			<th>Representation</th>
+			<th>Representative</th>
 			<th>Asset</th>
 		</tr>
 		<tr>
@@ -1005,7 +1005,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 			<td>Utility Tokens</td>
 			<td>Stablecoins</td>
 			<td>Security Tokens</td>
-			<td></td>
+			<td className="red">???????</td>
 			<td>NFT</td>
 		</tr>
 	</table>
@@ -1635,6 +1635,8 @@ Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Tay
 
 #### 5.4.5. Channels of Monetary Policy Transmission
 
+Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
+
 https://www.rba.gov.au/education/resources/explainers/the-transmission-of-monetary-policy.html
 
 
@@ -1818,11 +1820,6 @@ Hyman Minsky (1919–1996)
 Financial Instability Hypothesis – boom-bust cycles due to credit.
 
 "Stability is destabilizing."
-
-
-### 5.11 Crisis
-
-Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
 
 
