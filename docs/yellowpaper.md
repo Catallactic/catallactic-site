@@ -272,7 +272,7 @@ We introduce an engieering analysis of Monetary Theory.
 
 
 
-## 2. The Monetary Theory Ecosystem
+## 2. The Monetary Architecture
 ---
 
 
@@ -312,7 +312,7 @@ Although the Marginal Revolution flowed from the work of Jevons, Menger and Walr
 
 
 
-### 2.4 Money Configurations
+### 2.4 Money Configuration
 
 Once we have defined value, we need to fund a vehicle to move value around. A currency is value on motion
 
@@ -742,9 +742,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 Market, institutions, banks, government, networks.... it depends
 
-### 2.14 The Social Order
-
-#### 2.14.1 Ecosystem per School
+### 2.14 Monetary Architecture per School
 
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
@@ -918,6 +916,8 @@ Market, institutions, banks, government, networks.... it depends
 <br/>
 
 
+### 2.14 The Social Order
+
 #### 2.13.2 Rational Expectations
 
 SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
@@ -994,7 +994,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 			<th></th>
 			<th>Unbacked</th>
 			<th>Utility</th>
-			<th>Politics</th>
+			<th>Scientific Planning</th>
 			<th>Security</th>
 			<th>Representative</th>
 			<th>Asset</th>
@@ -1003,7 +1003,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 			<th>Physical</th>
 			<td>IoU</td>
 			<td>Fidelity Tokens</td>
-			<td>Fiat</td>
+			<td>Fiduciary</td>
 			<td>Bonds / Stocks</td>
 			<td>Representative / Gold</td>
 			<td>Barter</td>
@@ -1842,7 +1842,7 @@ Financial Instability Hypothesis – boom-bust cycles due to credit.
 
 Modern Austrians (White, Selgin) see crypto as a Hayekian experiment.
 
-### 6.1. Utility Tokens
+### 6.1. Bitcoin as an Utility Token
 
 #### 6.1.1. Scope
 
@@ -1851,18 +1851,27 @@ Cypherpunk
 #### 6.1.2. Methodology
 
 
-### 6.2. Decentralization
+### 6.2. Hyperbitcoinization
 
 
-### 6.3. Utility Tokens as MoE
 
-#### 6.3.1. Utility Tokens as Standards of Deferred Payment
 
-#### 6.3.2. The Stability of Utility Tokens
+
+
+### 6.3. Bitcoin as a Retail Currency
+
+Utility Tokens as Standards of Deferred Payment
+
+The Stability of Utility Tokens
 
 Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 
+### 6.4. Bitcoin as a Store of Value
+
+
+
+### 6.5. Bitcoin as a Monetary Standard
 
 
 
