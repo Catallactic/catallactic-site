@@ -286,7 +286,6 @@ Each school of economics
 
 A currency is value on motion
 
-SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
 
 ### 2.3 Theory of Value
 
@@ -719,8 +718,9 @@ https://bitcoinmagazine.com/guides/what-is-money
 -->
 
 
-### 2.13 Implementations of Monetary Theory
+### 2.13 The Social Order
 
+#### 2.13.1 Functions per School
 
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
@@ -894,6 +894,9 @@ https://bitcoinmagazine.com/guides/what-is-money
 <br/>
 
 
+#### 2.13.2 Rational Expectations
+
+SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
