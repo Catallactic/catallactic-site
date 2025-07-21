@@ -738,10 +738,13 @@ https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-peopl
 https://bitcoinmagazine.com/guides/what-is-money
 -->
 
+### 2.13 The Monetary Ecosystem
 
-### 2.13 The Social Order
+Market, institutions, banks, government, networks.... it depends
 
-#### 2.13.1 Ecosystem per School
+### 2.14 The Social Order
+
+#### 2.14.1 Ecosystem per School
 
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
