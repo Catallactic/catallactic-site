@@ -265,14 +265,14 @@ We introduce an engieering analysis of Monetary Theory.
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
-<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> UNDERSTANDING CURRENCIES </h1> </div>
-<div className="section" align="center"> <h5 align="center"> Find the criteria to understand how a currency will perform and what delivers </h5> </div>
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> MODELING MONETARY THEORY </h1> </div>
+<div className="section" align="center"> <h5 align="center"> Understand how different monetary configurations are created, how they perform and how they deliver the attached value </h5> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 2. Modelization of Monetary Theory
+## 2. The Monetary Theory Ecosystem
 ---
 
 
@@ -325,23 +325,29 @@ Once we have defined value, we need to fund a vehicle to move value around. A cu
 		<tr>
 			<td rowSpan="2">Composition</td>
 			<td>Peg</td>
+			<td>To same definition of value</td>
 		</tr>
 		<tr>
 			<td>Collateral</td>
+			<td>Back this value</td>
 		</tr>
 		<tr>
 			<td rowSpan="2">Transport Mechanism</td>
 			<td>Physical</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Digital</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td rowSpan="2">Environment</td>
 			<td>Competition</td>
+			<td>With similar monetary configurations</td>
 		</tr>
 		<tr>
 			<td>Coexistence</td>
+			<td>With different monetary configurations</td>
 		</tr>
 	</table>
 </div>
@@ -735,7 +741,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 ### 2.13 The Social Order
 
-#### 2.13.1 Functions per School
+#### 2.13.1 Ecosystem per School
 
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
@@ -2046,6 +2052,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
 <br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> A PROPOSED NEXT STEP </h1> </div>
+<div className="section" align="center"> <h5 align="center"> All Monetary Configurations have been tested and none delivers the expected outcome. All but one.... </h5> </div>
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
