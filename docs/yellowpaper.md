@@ -317,6 +317,13 @@ Marginalism as a formal theory can be attributed to the work of three economists
 
 Although the Marginal Revolution flowed from the work of Jevons, Menger and Walras, their work might have failed to enter the mainstream were it not for a second generation of economists. In England, the second generation were exemplified by Philip Wicksteed, by William Smart, and by Alfred Marshall; in Austria by Eugen Böhm von Bawerk and by Friedrich von Wieser; in Switzerland by Vilfredo Pareto; and in America by Herbert Joseph Davenport and by Frank A. Fetter.
 
+#### 2.3.3 Value as Supply and Demand
+
+Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
+</div>
 
 
 ### 2.4 Money Configuration
@@ -1412,14 +1419,11 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 #### 4.4.2 Supply
 
-#### 4.4.3 Partial Equilibrium
 
 
-Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
+#### 4.4.3 Disequilibrium Analysis
 
-<div style={{textAlign: 'center'}}>
-	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
-</div>
+
 
 #### 4.4.4 Price Formation
 
@@ -1545,7 +1549,16 @@ Keynesian Revolution – fiscal & monetary policy for demand management.
 
 Baumol-Tobin Model of Transaction Demand for Money
 
-### 5.2. General Equilibrium
+
+
+
+### 5.2. Market Equilibrium Analysis
+
+
+### 5.2.1 Partial Equilibrium
+
+
+### 5.2.2 General Equilibrium
 
 In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
 
