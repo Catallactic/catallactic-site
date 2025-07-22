@@ -139,8 +139,8 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 * Theory of Value
 ----------------------
 * Money Issuer
-* Neutrality of Money
 * Functions of Money
+* Neutrality of Money
 * Money Supply
 * Fractional Reserve
 ----------------------
@@ -207,7 +207,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
-			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
+			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Henry Hazlitt (1894–1993), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
 		</tr>
 		<tr className="green">
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
@@ -1544,7 +1544,7 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
-			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
+			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Henry Hazlitt (1894–1993), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
 		</tr>
 		<tr className="green">
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
@@ -1568,9 +1568,16 @@ Adam Smith (1723–1790) argues that The "invisible hand"—markets coordinate s
 
 Ludwig von Mises (1881–1973) says that "The market is a process, actuated by the interplay of the actions of the various individuals cooperating under the division of labor." Human Action (1949).
 
-#### 4.2.1 Methodological Individualism
+#### 4.2.1 Praxeology
 
 
+#### 4.2.2 Methodological Individualism
+
+All social phenomena (markets, institutions, prices) must be explained by reference to the actions, choices, and intentions of individuals, not abstract groups or aggregates.
+
+#### 4.2.3 Property Rights
+
+#### 4.2.3 Negative Liberty
 
 
 ### 4.3 The Spontaneous Money
@@ -1650,7 +1657,10 @@ https://mises.org/podcasts/minor-issues/who-invented-money
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-#### 4.3.4 Evaluation of Requirements
+#### 4.3.4 Purchasing Power
+
+
+#### 4.3.5 Evaluation of Requirements
 
 
 
@@ -1663,20 +1673,46 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 #### 4.4.1 Commodities
 
+Heterogeneity of Commodities
 
+Even "identical" commodities (e.g., wheat, oil) differ in time, place, and quality.
+
+Example: A barrel of oil in Texas is not the same as one in Saudi Arabia due to transport costs.
+
+Lachmann’s Capital Theory: Commodities are multi-specific—their usefulness depends on the production plan.
 
 
 #### 4.4.2 Value
 
-Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
+Commodities have no intrinsic value—their worth depends on individual needs and marginal utility.
+
+Example: Water is more valuable to a thirsty hiker than to someone beside a lake.
+
+Implication: Prices emerge from voluntary exchanges, not labor costs (vs. Marx) or physical properties.
 
 
-#### 4.4.3 Production
+
+#### 4.4.3 Entrepreneurship
+
+Entrepreneurs discover gaps in production (e.g., unmet demand, inefficiencies) and adjust.
 
 
 
+#### 4.4.4 Production
 
-#### 4.4.4 Theory of Capital
+In Austrian economics, production is not a mechanical input-output system (as in neoclassical models) but a dynamic, time-consuming, and entrepreneurial process shaped by subjective valuations, capital heterogeneity, and market prices. Unlike mainstream approaches, Austrians emphasize:
+
+The Structure of Production (Böhm-Bawerk’s roundaboutness).
+
+Entrepreneurial Coordination (Kirzner’s alertness).
+
+Disequilibrium Adjustments (Mises-Hayek’s critique of equilibrium models).
+
+Profit & Loss Guide Production:  Profits signal correct production decisions. Losses reveal waste, prompting reallocation.
+
+For Austrians, production is a discovery process—never perfectly efficient, but constantly adapting via market signals.
+
+#### 4.4.5 Theory of Capital
 
 While classical economists laid groundwork, Böhm-Bawerk is most credited with formalizing the Austrian theory of capital—emphasizing time, heterogeneity, and subjective value. Hayek later refined it into a full intertemporal structure theory, distinguishing Austrian capital theory from mainstream approaches.
 
@@ -1688,37 +1724,74 @@ Lachmann’s heterogeneous capital: Plans constantly change, causing economic sh
 
 Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
+Austrian View: Capital goods are idiosyncratic, complementary, and tied to specific production plans.
 
-#### 4.4.4 Value Chain
+#### 4.4.6 Supply
+
+Supply is Constrained by Real Resources (Not Just Prices). Labor, capital, and raw materials are heterogeneous (not interchangeable).
+
+#### 4.4.7 Value Chain
 
 
+Production doesn’t happen instantly but through stages:
 
+Higher-Order Goods (raw materials, machines, factories).
 
-
-
-
-
+Lower-Order Goods (final consumer products).
 
 
 
 
 ### 4.5 Market Coordination
 
-#### 4.5.1 Demand
+#### 4.5.1 Catalactics
+
+Catallactics is the science of how free people trade—and why that process cannot be replaced by coercion or central planning.
 
 
-#### 4.5.2 Supply (Fixed)
 
+In Austrian economics, the term "catalactics" (from the Greek katallattein, meaning "to exchange" or "to reconcile") refers to the study of market exchanges as the foundation of economic science. Unlike mainstream economics, which often focuses on mathematical models and aggregate variables, Austrians emphasize human action, subjective value, and the dynamic process of voluntary trade.
 
+Ludwig von Mises popularized the term in Human Action (1949), defining catallactics as:
 
-#### 4.5.3 Disequilibrium Analysis
+"The analysis of those actions which are conducted on the basis of monetary calculation … the science of the market economy."
 
+Richard Whately (19th-century economist) first coined the term to distinguish economics as the study of exchange rather than wealth or production.
 
+#### 4.5.2 Demand
+
+Austrian View: Demand arises from individual valuations—each person ranks goods based on marginal utility (Menger’s Principles of Economics, 1871). In Austrian economics, market demand is not a static, aggregate curve (as in neoclassical models) but a dynamic, subjective, and individual-driven process. Austrians reject the idea of "aggregate demand" as a measurable or policy-controllable variable, instead focusing on how real human preferences, prices, and entrepreneurial discovery shape demand. Demand as Subjective Value (Not a "Demand Curve")
+
+Demand is Decentralized & Dispersed. No central planner (or economist) can know or measure "total demand"—it exists only as individual choices revealed through action.
+
+Demand is Intertemporal. People don’t just demand goods now but also future goods (savings vs. consumption trade-offs). Böhm-Bawerk: Low interest rates artificially boost demand for long-term projects (leading to malinvestment).
+
+Demand is Constrained by Real Income (Not Money Printing). Inflation (e.g., stimulus checks) may raise nominal demand but distorts real resource allocation (Cantillon effects).
+
+Entrepreneurship Discovers Demand. Entrepreneurs anticipate unmet demands (Kirzner’s alertness), creating new markets (e.g., smartphones).
+
+Demand is not a curve but individuals acting on preferences
+
+For Austrians, market demand is a discovery process
+
+#### 4.5.3 Time Preferences
+
+ Time Preference Drives Production Length
+Low time preference (people save more) → longer, more productive processes.
+
+High time preference (people consume now) → shorter, less efficient production.
+
+Mises: "Capital is accumulated by saving, which requires deferred consumption."
 
 #### 4.5.4 Price Formation
 
 price formation in a self-regulated system
 
+Emerge from trial & error
+
+Prices reveal demand
+
+No central director is needed—prices and profits guide decentralized coordination.
 
 
 
@@ -1728,6 +1801,23 @@ price formation in a self-regulated system
 ### 4.6 The Price System
 
 Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
+
+In Austrian economics, the price system is not a static equilibrium mechanism (as in neoclassical models) but a dynamic, decentralized communication network that coordinates knowledge, guides production, and adjusts to disequilibrium. Unlike mainstream theories, Austrians emphasize:
+
+Prices as Information Signals (Hayek)
+
+Entrepreneurial Discovery (Kirzner)
+
+Disequilibrium Adjustments (Mises)
+
+Critique of Price Controls & Manipulation
+
+Price Signals as Knowledge Coordinators
+Prices distill and communicate dispersed information about relative scarcities and values
+
+Hayek's insight: The price system allows society to utilize knowledge no single mind possesses
+
+Example: Rising copper prices signal scarcity, prompting conservation and increased production
 
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
@@ -1782,29 +1872,75 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 	</table>
 </div>
 
+#### 4.6.1 Knowledge
+
+Hayek’s "Use of Knowledge in Society" (1945)
+Prices synthesize dispersed information (preferences, scarcity, costs) into a single metric.
+
+Example: A rising copper price signals scarcity, prompting producers to mine more and consumers to economize.
 
 
 
-
-#### 4.6.1 Economic Calculation
+#### 4.6.2 Economic Calculation
 
 Use of Knowledge in Society [58]
 
+Without private property, prices cannot form → economic chaos (Mises’ 1920 critique).
+
+#### 4.6.3 Disequilibrium Analysis
+
+The Austrian School fundamentally rejects the neoclassical focus on static equilibrium models, instead emphasizing disequilibrium as the natural state of markets. Austrian economists analyze how markets coordinate knowledge, correct errors, and adapt to change through dynamic processes driven by entrepreneurship, time, and uncertainty. For Austrians, disequilibrium is the norm—markets work precisely because they are never in balance, but constantly discover, adapt, and correct.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Principles</th>
+				<th scope="col">Author</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">No "Equilibrium</td>
+				<td scope="row">Mises & Hayek: The economy is a continuous process, not a state of balance. "The market is never at rest" (Ludwig von Mises, Human Action).</td>
+			</tr>
+			<tr>
+				<td scope="row">Entrepreneurship Drives Adjustment</td>
+				<td scope="row">Kirzner’s "Alertness": Entrepreneurs discover profit opportunities (disequilibrium gaps) and correct them.</td>
+			</tr>
+			<tr>
+				<td scope="row">Knowledge is Dispersed & Subjective</td>
+				<td scope="row">Hayek’s Knowledge Problem: No single entity (e.g., central planners) can access all market information. Prices emerge from decentralized individual action</td>
+			</tr>
+			<tr>
+				<td scope="row">Time & Uncertainty Matter</td>
+				<td scope="row">Böhm-Bawerk’s "Roundabout Production": Capital structure depends on intertemporal coordination (matching savings with long-term investment).</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+#### 4.6.3 Allocation of Resources
+
+the Austrian School views resource allocation as:
+
+A Discovery Process - Resources find their most valued uses through entrepreneurial competition and market experimentation
+
+Decentralized and Emergent - No single entity can possess all the knowledge needed for "optimal" allocation
+
+Time-Structured - Allocation occurs through multi-stage production processes
+
+Price-Guided - Market prices serve as the essential signals for allocation decisions
 
 
-#### 4.6.2 Allocation of Resources
+#### 4.6.5 Profit and Loss System
 
 
-#### 4.6.3 Purchasing Power
+Acts as continuous feedback mechanism for resource allocation
 
+Profits indicate valued uses; losses signal misallocation
 
-#### 4.6.4 Property
-
-
-#### 4.6.5 Distribution of Wealth
-
-
-
+Example: Movie box office results guide future film production investments
 
 
 
@@ -1922,6 +2058,20 @@ In economics, general equilibrium theory attempts to explain the behavior of sup
 
 
 Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
+
+### 5.3.1 Allocation of Resources
+
+Against Central Planning
+Mises' calculation problem: Without market prices, rational allocation is impossible
+Socialist systems lack the knowledge and incentives for proper allocation
+
+Against Neoclassical Equilibrium Models
+Rejects the notion of "given" resources waiting to be allocated
+Critiques the perfect information assumptions of Walrasian models
+
+Against Keynesian Aggregate Management
+Macro-level interventions distort the micro-level price signals needed for proper allocation
+"Stimulus" spending misdirects resources based on political rather than economic factors
 
 
 
