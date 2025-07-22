@@ -2167,6 +2167,8 @@ John Maynard Keynes (1883–1946) Liquidity Preference Theory (money demand for 
 
 Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Taylor Rule extensions).
 
+The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guideline that suggests how central banks should adjust interest rates in response to changes in inflation and economic output. 
+
 ##### 5.5.5.2 Negative Interest Rate Policy (NIRP)
 
 ##### 5.5.5.3 Loans
