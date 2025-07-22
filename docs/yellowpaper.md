@@ -189,7 +189,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			<td>Adam Smith (1723-1790), Thomas Robert Malthus (1766-1834), Jean-Baptiste Say (1767-1832), David Ricardo (1772–1823), John Stuart Mill (1806-1873)</td>
 		</tr>
 		<tr>
-			<td>Objective value, money neutral, QTM, self-regulating markets but credit disrupt natural order</td>
+			<td>Objective value, Long-run money neutral, sound money</td>
 		</tr>
 		<tr className="lightgreen">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Marxist<br/>1867–present</td>
@@ -231,7 +231,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			<td>Hyman Minsky (1919–1996), Michal Kalecki (1899–1970)</td>
 		</tr>
 		<tr>
-			<td>Acknowledge subjective value but emphasize social factors, money not neutral, fiat money with government intervention</td>
+			<td>Subjective value, money not neutral, fiat money</td>
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Austrian School<br/>1980s–present</td>
@@ -837,7 +837,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>Classical</td>
 			<td>Objective</td>
-			<td>Fiduciary</td>
+			<td>Sound</td>
 			<td>1</td>
 			<td>2</td>
 			<td>3</td>
@@ -1054,7 +1054,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 The main challenge to have a retail currency is to provide credit without volatility.
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/functions_money_requirements.svg" width="80%"></img>
+	<img src="/img/functions_money_requirements.svg" width="40%"></img>
 </div>
 <br/>
 
@@ -1069,8 +1069,16 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td><b>Description</b></td>
 		</tr>
 		<tr>
-			<td rowSpan="9">Physical</td>
-			<td rowSpan="3">Medium of Exchange</td>
+			<td rowSpan="10">Physical</td>
+			<td rowSpan="4">Medium of Exchange</td>
+			<td><b>Portable</b></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>Acceptable</b></td>
+			<td></td>
+		</tr>
+		<tr>
 			<td>Divisible</td>
 			<td>easy to divide up in smaller parts or put them together to larger parts</td>
 		</tr>
@@ -1079,11 +1087,11 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td>all parts are equal to each other, that two equal weights of the medium share the same value</td>
 		</tr>
 		<tr>
-			<td>Portable</td>
+			<td rowSpan="3">Unit of Account</td>
+			<td><b>Contable</b></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td rowSpan="3">Unit of Account</td>
 			<td>Divisible</td>
 			<td></td>
 		</tr>
@@ -1092,12 +1100,8 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td></td>
 		</tr>
 		<tr>
-			<td>Contable</td>
-			<td></td>
-		</tr>
-		<tr>
 			<td rowSpan="2">Store of Value</td>
-			<td>Durable</td>
+			<td><b>Durable</b></td>
 			<td></td>
 		</tr>
 		<tr>
@@ -1154,7 +1158,11 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.5 Economic Requirements - Stability (Peg)
+### 3.5 Economic Requirements
+
+#### 3.5.1 Necessity of Stability
+
+Most of authors mentions Stability as a requirement for the currency. Different Money functions need different level of stability.
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1165,7 +1173,7 @@ The main challenge to have a retail currency is to provide credit without volati
 			<td><b>Description</b></td>
 		</tr>
 		<tr>
-			<td rowSpan="3">Economic</td>
+			<td rowSpan="3">Economic Requirements</td>
 			<td>Medium of Exchange</td>
 			<td>Stable (Short Term)</td>
 			<td></td>
@@ -1184,18 +1192,60 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-Stability depends on the peg
+#### 3.5.1 Stability Principles
 
-<div style={{textAlign: 'center'}}>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7yFSkAvutsSu9h31tkEaRtL0E_PSv6YpoQ&s" width="40%"></img>
+By inspecting the principles argued for stability on the schools that advocated for sound money, we find:
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr style={{textAlign: 'center'}}>
+			<td>Principle</td>
+			<td>Description</td>
+			<td>Authors</td>
+		</tr>
+		<tr>
+			<td>Market Discipline</td>
+			<td>No manipulation</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>No Inflation</td>
+			<td>Always harmful (Cantillon effects)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Deflation</td>
+			<td>Natural if market-driven</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Convertibility</td>
+			<td>Must be redeemable.</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Commodity Backing</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
 </div>
 <br/>
 
-#### 3.5.1. Intrinsic Value
+#### 3.5.2 The Underlying asset
 
-#### 3.5.2. Politics
+Stability depends on the peg
 
-#### 3.5.3. Mathematical Equilibrium
+<div style={{textAlign: 'center'}}>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnleT4nlAEGgJqnv_DUv9hB76NkznxaaN6A&s" width="60%"></img>
+</div>
+<br/>
+
+#### 3.5.3 Subjective Value
+
+#### 3.5.4 Politics
+
+#### 3.5.5 Mathematical Equilibrium
 
 These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
 
@@ -1210,82 +1260,219 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 <div style={{overflowX : 'auto'}}>
 	<table>
 		<tr style={{textAlign: 'center'}}>
-			<th rowSpan="2">Money Configurations</th>
-			<th colSpan="6">Monetary Functions</th>
-		</tr>
-		<tr>
-			<th>Medium of Exchange</th>
-			<th>Unit of Account</th>
-			<th>Store of Value</th>
+			<th rowSpan="3">Money Configurations</th>
+			<th colSpan="11">Monetary Requirements</th>
+			<th colSpan="3" rowSpan="2">Monetary Functions</th>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
-			<th colSpan="7">Physical Money</th>
+			<th colSpan="8">Physical</th>
+			<th colSpan="3">Economic</th>
+		</tr>
+		<tr>
+			<td class='rtd'><div class='rtxt slim'>Portable</div></td>
+			<td class='rtd'><div class='rtxt slim'>Acceptable</div></td>
+			<td class='rtd'><div class='rtxt slim'>Divisible</div></td>
+			<td class='rtd'><div class='rtxt slim'>Fungible</div></td>
+			<td class='rtd'><div class='rtxt slim'>Contable</div></td>
+			<td class='rtd'><div class='rtxt slim'>Durable</div></td>
+			<td class='rtd'><div class='rtxt slim'>Liquid</div></td>
+			<td class='rtd'><div class='rtxt slim'>Scarce</div></td>
+			<td class='rtd'><div class='rtxt slim'>Stable ST</div></td>
+			<td class='rtd'><div class='rtxt slim'>Stable MT</div></td>
+			<td class='rtd'><div class='rtxt slim'>Stable LT</div></td>
+			<th>MoE</th>
+			<th>UoA</th>
+			<th>SoV</th>
+		</tr>
+		<tr style={{textAlign: 'center'}}>
+			<th colSpan="15">Physical Money</th>
 		</tr>
 		<tr className="red">
 			<td>Barter</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>NO</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>NO</td>
 			<td>NO</td>
 			<td>NO</td>
 		</tr>
 		<tr className="orange">
 			<td>Commodity</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>Bad</td>
 			<td>YES</td>
 			<td>YES</td>
 		</tr>
 		<tr className="orange">
 			<td>Representative</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>Bad</td>
 			<td>YES</td>
 			<td>YES</td>
 		</tr>
 		<tr className="orange">
 			<td>Fiduciary</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>YES</td>
 			<td>YES</td>
 			<td>Bad</td>
 		</tr>
 		<tr style={{textAlign: 'center'}}>
-			<th colSpan="7">Digital Money</th>
+			<th colSpan="15">Digital Money</th>
 		</tr>
 		<tr className="red">
 			<td>Unbacked Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>YES</td>
 			<td>NO</td>
 			<td>NO</td>
 		</tr>
 		<tr className="red">
 			<td>Utility Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>YES</td>
 			<td>NO</td>
 			<td>NO</td>
 		</tr>
 		<tr className="orange">
 			<td>Bitcoin</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>YES</td>
 			<td>NO</td>
 			<td>YES</td>
 		</tr>
 		<tr className="orange">
 			<td>Monero</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>YES</td>
 			<td>NO</td>
 			<td>YES</td>
 		</tr>
 		<tr className="red">
 			<td>Security Tokens</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>NO</td>
 			<td>NO</td>
 			<td>YES</td>
 		</tr>
 		<tr className="orange">
 			<td>Stablecoins</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>YES</td>
 			<td>YES</td>
 			<td>Bad</td>
 		</tr>
 		<tr className="red">
 			<td>NFTs</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>NO</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
 			<td>NO</td>
 			<td>NO</td>
 			<td>YES</td>
@@ -1319,7 +1506,61 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 ## 4. The Spontaneus Order
 ---
 
-### 4.1. Human Action
+### 4.1 Contributors
+
+<div>
+	<table>
+		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
+			<th>School</th>
+			<th>Authors / Ideas</th>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Scholastics / School of Salamanca<br/>1100s-1600s</td>
+			<td>Thomas Aquinas (1225–1274) / Francisco de Vitoria (1483–1546), Martín de Azpilcueta (1492–1586), Juan de Mariana (1536–1624)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, sound money</td>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>British Empiricism<br/>1690-1770s</td>
+			<td>John Locke (1632-1704), David Hume (1711—1776)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, sound money</td>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Physiocracy<br/>1759-1775</td>
+			<td>Richard Cantillon (1680–1734), François Quesnay (1694–1774), Tha Marquis da Mirabeau (1715–1789), Anne-Robert-Jacques Turgot (1727–1781)</td>
+		</tr>
+		<tr className="green">
+			<td>Objective value (land), sound money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Classical<br/>1770s-1870s</td>
+			<td>Adam Smith (1723-1790), Thomas Robert Malthus (1766-1834), Jean-Baptiste Say (1767-1832), David Ricardo (1772–1823), John Stuart Mill (1806-1873)</td>
+		</tr>
+		<tr>
+			<td>Objective value, Long-run money neutral, sound money</td>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
+			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, money no neutral, sound money / currency competition</td>
+		</tr>
+		<tr className="green">
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Austrian School<br/>1980s–present</td>
+			<td>Israel Kirzner (1930), Antal E. Fekete (1932), Hans-Hermann Hoppe (1949), Joseph T. Salerno (1950), Lawrence H. White (1954), Huerta de Soto (1956), George A. Selgin (1957), Steven Horwitz (1964-2021)</td>
+		</tr>
+		<tr className="green">
+			<td>Subjective value, money no neutral, sound money / currency competition</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+### 4.2 Human Action
 
 The concept of "spontaneous order" is the idea that complex, functional systems emerge organically from decentralized human actions, without central design, is a cornerstone of Austrian economics and classical liberal thought.
 
@@ -1327,18 +1568,18 @@ Adam Smith (1723–1790) argues that The "invisible hand"—markets coordinate s
 
 Ludwig von Mises (1881–1973) says that "The market is a process, actuated by the interplay of the actions of the various individuals cooperating under the division of labor." Human Action (1949).
 
-#### 4.1.1. Methodological Individualism
+#### 4.2.1 Methodological Individualism
 
 
 
 
-### 4.2. The Spontaneous Money
+### 4.3 The Spontaneous Money
 
 Adam Smith (1723–1790). In "The Wealth of Nations," discussed money as a facilitator of trade. Argued for commodity-backed money (gold/silver).
 
 David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories on inflation and currency stability.
 
-#### 4.2.1. Commodity Money
+#### 4.3.1 Commodity Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1385,7 +1626,7 @@ David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories
 </div>
 
 
-#### 4.2.2. Representative Money
+#### 4.3.2 Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -1405,11 +1646,11 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 https://mises.org/podcasts/minor-issues/who-invented-money
 
-#### 4.2.3 Regression Theorem
+#### 4.3.3 Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-#### 4.2.4 Evaluation of Requirements
+#### 4.3.4 Evaluation of Requirements
 
 
 
@@ -1418,24 +1659,26 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 
 
 
-### 4.3 The (Real) Market Process
+### 4.4 The (Real) Market Process
 
-#### 4.3.1 Commodities
-
-
+#### 4.4.1 Commodities
 
 
-#### 4.3.2 Value
+
+
+#### 4.4.2 Value
 
 Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
 
 
-#### 4.3.3 Production
+#### 4.4.3 Production
 
 
 
 
-#### 4.3.4 Theory of Capital
+#### 4.4.4 Theory of Capital
+
+While classical economists laid groundwork, Böhm-Bawerk is most credited with formalizing the Austrian theory of capital—emphasizing time, heterogeneity, and subjective value. Hayek later refined it into a full intertemporal structure theory, distinguishing Austrian capital theory from mainstream approaches.
 
 Classical
 Böhm-Bawerk’s roundaboutness: Time preference drives capital structure.
@@ -1446,7 +1689,7 @@ Lachmann’s heterogeneous capital: Plans constantly change, causing economic sh
 Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
 
-#### 4.3.4 Value Chain
+#### 4.4.4 Value Chain
 
 
 
@@ -1459,20 +1702,20 @@ Neglect of capital theory: Many modern Austrians focus on macro/money instead.
 
 
 
-### 4.4 Market Coordination
+### 4.5 Market Coordination
 
-#### 4.4.1 Demand
-
-
-#### 4.4.2 Supply (Fixed)
+#### 4.5.1 Demand
 
 
-
-#### 4.4.3 Disequilibrium Analysis
+#### 4.5.2 Supply (Fixed)
 
 
 
-#### 4.4.4 Price Formation
+#### 4.5.3 Disequilibrium Analysis
+
+
+
+#### 4.5.4 Price Formation
 
 price formation in a self-regulated system
 
@@ -1482,7 +1725,7 @@ price formation in a self-regulated system
 
 
 
-### 4.5 The Price System
+### 4.6 The Price System
 
 Required to enable subjective value. If we ignore price system and rely on underlaying value, it is objective value,
 
@@ -1543,22 +1786,22 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 
 
 
-#### 4.5.1 Economic Calculation
+#### 4.6.1 Economic Calculation
 
 Use of Knowledge in Society [58]
 
 
 
-#### 4.5.2 Allocation of Resources
+#### 4.6.2 Allocation of Resources
 
 
-#### 4.5.3 Purchasing Power
+#### 4.6.3 Purchasing Power
 
 
-#### 4.5.4 Property
+#### 4.6.4 Property
 
 
-#### 4.5.5 Distribution of Wealth
+#### 4.6.5 Distribution of Wealth
 
 
 
@@ -1592,8 +1835,62 @@ Use of Knowledge in Society [58]
 ## 5 The Scientifically Planned Order
 ---
 
+### 5.1 Contributors
 
-### 5.1 The Demand for Money
+<div>
+	<table>
+		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
+			<th>School</th>
+			<th>Authors / Ideas</th>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Mercantilism<br/>1500s-1700s</td>
+			<td>Thomas Mun (1571-1641), Jean Bodin (1529—1596), Charles Davenant (1656 – 1714)</td>
+		</tr>
+		<tr>
+			<td>Objective value, money non-neutral but supported currency manipulation</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870s–present</td>
+			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money neutral, fractional reserve</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Keynesian<br/>1936–present</td>
+			<td>John Maynard Keynes (1883–1946), Paul Samuelson (1915–2009)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money only neutral on full employment, fiat money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Monetarism <br/> 1950s–1980s</td>
+			<td>Milton Friedman (1912-2007), George Stigler (1911 –1991), Gary Becker (1930-2014)</td>
+		</tr>
+		<tr>
+			<td>No theory of value, long-run neutrality of money, fiat money with fixed growth</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Post-Keynesian<br/>1970s-present </td>
+			<td>Hyman Minsky (1919–1996), Michal Kalecki (1899–1970)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money not neutral, fiat money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Modern Monetary Theory (MMT)<br/>1990s-present</td>
+			<td>L. Randall Wray (1953), Stephanie Kelton (1969)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money not neutral, fiat money with government intervention</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+
+### 5.2 The Demand for Money
 
 Keynes’s Liquidity Preference Theory. 
 
@@ -1601,16 +1898,20 @@ Keynesian Revolution – fiscal & monetary policy for demand management.
 
 Baumol-Tobin Model of Transaction Demand for Money
 
+### 5.2.1 Investment Demand
 
 
 
-### 5.2 Market Equilibrium Analysis
 
 
-### 5.2.1 Partial Equilibrium
+
+### 5.3 Market Equilibrium Analysis
 
 
-### 5.2.2 General Equilibrium
+### 5.3.1 Partial Equilibrium
+
+
+### 5.3.2 General Equilibrium
 
 In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
 
@@ -1626,9 +1927,9 @@ Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation 
 
 
 
-### 5.3 Increasing the Supply of Money
+### 5.4 Increasing the Supply of Money
 
-#### 5.3.1 Quantity Theory of Money
+#### 5.4.1 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -1647,32 +1948,32 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (money demand = k × PY). Refined the Quantity Theory of Money.
 
-#### 5.3.2 Money Supply Growth Approaches
+#### 5.4.2 Money Supply Growth Approaches
 
 Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
 
-#### 5.3.2 The Money Multiplier
+#### 5.4.2 The Money Multiplier
 
-#### 5.3.3 Determinants of Money Supply (Exogenous vs. Endogenous Money)
-
-
-
-### 5.4 Fiat Money
+#### 5.4.3 Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
 
-#### 5.4.1 Methodology
+
+### 5.5 Fiat Money
+
+
+#### 5.5.1 Methodology
 
 Scientific Method
 
 
 
-#### 5.4.2 Central Bank Balance Sheet
+#### 5.5.2 Central Bank Balance Sheet
 
-#### 5.4.3 Current Definition of Money
+#### 5.5.3 Current Definition of Money
 
-#### 5.4.4 Central Bank Targets
+#### 5.5.4 Central Bank Targets
 
-##### 5.4.5.1 Inflation
+##### 5.5.5.1 Inflation
 
 Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
@@ -1684,9 +1985,9 @@ Permanent Income Hypothesis (consumption smoothing).
 
 Argued for steady money growth (k-percent rule).
 
-##### 5.4.5.2 Employment
+##### 5.5.5.2 Employment
 
-#### 5.4.5 Monetary Policies
+#### 5.5.5 Monetary Policies
 
 From Friedman 2% to QE and to MMT
 
@@ -1704,7 +2005,7 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.4.5.1 Interest Rates
+##### 5.5.5.1 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -1716,19 +2017,19 @@ John Maynard Keynes (1883–1946) Liquidity Preference Theory (money demand for 
 
 Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Taylor Rule extensions).
 
-##### 5.4.5.2 Negative Interest Rate Policy (NIRP)
+##### 5.5.5.2 Negative Interest Rate Policy (NIRP)
 
-##### 5.4.5.3 Loans
+##### 5.5.5.3 Loans
 
-##### 5.4.5.4 QE
+##### 5.5.5.4 QE
 
-##### 5.4.5.5 Forward Guidance
+##### 5.5.5.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.4.5.6 MMT
+##### 5.5.5.6 MMT
 
-#### 5.4.5 Channels of Monetary Policy Transmission
+#### 5.5.5 Channels of Monetary Policy Transmission
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
@@ -1737,15 +2038,15 @@ https://www.rba.gov.au/education/resources/explainers/the-transmission-of-moneta
 
 
 
-### 5.5 Financial Markets
+### 5.6 Financial Markets
 
-#### 5.5.1 Financial Assets
+#### 5.6.1 Financial Assets
 
-#### 5.5.2 Monetary Markets
+#### 5.6.2 Monetary Markets
 
-#### 5.5.3 Investment Markets
+#### 5.6.3 Investment Markets
 
-#### 5.5.4 Financial Ecosystem
+#### 5.6.4 Financial Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/usdsystem.jpeg" width="60%"></img>
@@ -1754,7 +2055,7 @@ https://www.rba.gov.au/education/resources/explainers/the-transmission-of-moneta
 
 
 
-### 5.6 The Money Supply Evolution
+### 5.7 The Money Supply Evolution
 
 Bubble after bubble
 
@@ -1768,7 +2069,7 @@ No Reset
 
 
 
-### 5.7 Misalocation of Resources
+### 5.8 Misalocation of Resources
 
 * Collectivized Risk of Credit
 
@@ -1779,20 +2080,20 @@ No Reset
 
 
 
-### 5.8 Currency Debasement
+### 5.9 Currency Debasement
 
-#### 5.8.1 Price Scenarios
+#### 5.9.1 Price Scenarios
 
-##### 5.8.1.1 Inflation
+##### 5.9.1.1 Inflation
 
-##### 5.8.1.2 Deflation
+##### 5.9.1.2 Deflation
 
-##### 5.8.1.3 Hyperinflation
+##### 5.9.1.3 Hyperinflation
 
-##### 5.8.1.4 Stagflation
+##### 5.9.1.4 Stagflation
 
 
-#### 5.8.1 The Split Economy
+#### 5.9.2 The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -1806,7 +2107,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 5.8.2 The Squeezed Real Economy
+#### 5.9.3 The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -1822,9 +2123,9 @@ The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged 
 
 
 
-### 5.9 System Stability
+### 5.10 System Stability
 
-#### 5.9.1 A Regulated System
+#### 5.10.1 A Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1833,7 +2134,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 </div>
 <br/>
 
-#### 5.9.2 Positive and Negative Feedback
+#### 5.10.2 Positive and Negative Feedback
 
 When providing feedback to a system, there are 2 possibilities:
 
@@ -1866,11 +2167,11 @@ In the next 2 sections we will see how a market of privately issued CryptoCommod
 In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
 
 
-#### 5.9.3 A centralized system
+#### 5.10.3 A centralized system
 
 positive feedback
 
-#### 5.9.4 A self-regulated system
+#### 5.10.4 A self-regulated system
 
 negative feedback
 
@@ -1885,21 +2186,21 @@ Market itself, if not distorted, is a well performing price formation machine. A
 
 
 
-### 5.10 Neutrality of Money
+### 5.11 Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
 John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
 
-#### 5.10.1. Authors
+#### 5.11.1. Authors
 
 David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
 
 
-#### 5.10.2. Cantillon Effects
+#### 5.11.2. Cantillon Effects
 
 
-#### 5.10.3. Austrian business cycle theory (ABCT)
+#### 5.11.3. Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
@@ -2642,3 +2943,13 @@ Power and Market: Government and the Economy 07/20/1970 Murray N. Rothbard https
 What Has Government Done to Our Money? 06/15/1963 Murray N. Rothbard https://mises.org/library/book/what-has-government-done-our-money
 
 https://professorfekete.com/writings/money-credit/
+
+The Positive Theory of Capital 09/27/1889 Eugen von Böhm-Bawerk https://mises.org/library/book/positive-theory-capital
+
+The Pure Theory of Capital 11/27/1941 Friedrich A. Hayek https://mises.org/library/book/pure-theory-capital
+
+Capital and Interest 07/20/1890 Eugen von Böhm-Bawerk https://mises.org/library/book/capital-and-interest
+
+Principles of Economics 07/20/1871 Carl Menger https://mises.org/library/book/principles-economics
+
+Bitcoin, the Regression Theorem, and the Emergence of a New Medium of Exchange 09/28/2018 Quarterly Journal of Austrian Economics - Laura Davidson, Walter Block https://mises.org/quarterly-journal-austrian-economics/bitcoin-regression-theorem-and-emergence-new-medium-exchange
