@@ -1332,55 +1332,60 @@ Ludwig von Mises (1881–1973) says that "The market is a process, actuated by t
 
 
 
-
-### 4.2. The (Real) Market Process
-
-#### 4.2.1. Commodities
-
-
-
-
-#### 4.2.2. Theory of Capital
-
-Classical
-Böhm-Bawerk’s roundaboutness: Time preference drives capital structure.
-
-Modern
-Lachmann’s heterogeneous capital: Plans constantly change, causing economic shifts.
-
-Neglect of capital theory: Many modern Austrians focus on macro/money instead.
-
-
-#### 4.2.3. Production
-
-
-#### 4.2.4. Value
-
-Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
-
-
-#### 4.2.5. Value Chain
-
-
-
-
-
-
-
-
-
-### 4.3. The Spontaneous Money
+### 4.2. The Spontaneous Money
 
 Adam Smith (1723–1790). In "The Wealth of Nations," discussed money as a facilitator of trade. Argued for commodity-backed money (gold/silver).
 
 David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories on inflation and currency stability.
 
-#### 4.3.1. Commodity Money
+#### 4.2.1. Commodity Money
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<!--thead>
+			<tr>
+				<th scope="col">Feature</th>
+			</tr>
+		</thead-->
+		<tbody>
+			<tr>
+				<th>Region</th>
+				<th>Commodity Money</th>
+			</tr>
+			<tr>
+				<td>Ancient Period</td>
+				<td>Copper Unit of Account in Ancient Egypt, Barley and Silver Money of Babylonia and Assyria, Sealed Ingots in Cappadocia, Sheep and Silver Currency in the Hittite Empire, Livestock and Weighed Silver Money of the Jews, Delayed Adoption of Coinage in Phoenicia and Carthage, Invention of Coinage in Lydia, Livestock Standard in Ancient Persia, Ox and Base Metal Currencies in Greece, Crude Bronze Currency of Pre-Roman Italy and Rome, Bronze Axes and Wheels as Currencies in Gaul, Cattle Currency of the Ancient Germans, Iron Sword Currency of Britain, Slave Girl Money of Ireland, Cattle Currency of India, Shell, Silk and Metal Currencies of China </td>
+			</tr>
+			<tr>
+				<td>Medieval Period</td>
+				<td>Rings and Weighed Metal Currencies of the British Isles, Cattle Money in Ireland, Cattle, Cloth and Weighed Metal Money in Germany, Leather Currency in Italy and France, Cattle, Cloth and Fish Currency of Iceland, Ring Money of Denmark, Cattle and Cloth Currency of Sweden, Butter as Currency in Norway, Calves as Monetary Unit in Hungary, Fur Money of Russia, Cowries as Currency in India, Livestock Standard of the Mongols, Salt Money of China, Gold Dust Money of Japan</td>
+			</tr>
+			<tr>
+				<td>Modern Period</td>
+				<td>Leather Money of the British Isles, Cattle Currency of Ireland, Rum Currency in Australia, Fur and Wheat Currency in Canada, Sugar Money of Barbados, Tobacco Money of the Bermuda, Tobacco and Sugar Money of the Leeward Islands, Mahogany Logs as Currency in British Honduras, Uncoined Silver Money in Russia, Grain Money in France, Commodity Units of Account in Germany and Austria, Almonds as Currency in India, Fictitious Monetary Unit in China, Rice Money in Japan </td>
+			</tr>
+			<tr>
+				<td>Oceania</td>
+				<td>Cloth Money in Samoa, Teeth Currency of Fiji, Stone Money of Yap, Bead Currency of Pelew, Pig Exchanges on the New Hebrides, Feather Money of Santa Cruz, Shell Loans on the Banks Islands, Shell and Teeth Currencies on the Solomon Islands, Intricate Currency of Rossel Island, Teeth on the Admiralty Islands, Shell and Yam Currencies of the Trobriand Islands, The "Sacred" Money of New Britain, New Guinea's Boar Tusk and Shell Currencies</td>
+			</tr>
+			<tr>
+				<td>Asia</td>
+				<td>Rice Standard in the Philippines, Drum Currency of Alor, Wax and Buffaloes as Money in Borneo, "Homeric" Currencies in Cambodia, Gambling Counters as Money in Siam, Tin Ingots and Gold Dust in Malaya, Weighed Silver and Lead Currency in Burma, Tea Brick Currency in Mongolia, Coconut Standard on the Nicobars, Grain Medium of Exchange in India, Reindeer and Cattle Standard in Asiatic Russia, Currencies at the Persian Gulf</td>
+			</tr>
+			<tr>
+				<td>Africa</td>
+				<td>Iron Currency in Sudan, Salt Money of Ethiopia, Livestock Standard in Kenya, Bead Money of Tanzania, Cowries as Currency in Uganda, Calico Currency in Zambia, Cloth, Metals and Slaves as Currency in Equatorial Africa, Cowrie Crises in the Former French Sudan, Cowries, Slaves, Cloth and Gin Money of Nigeria, Gold Dust Currency of Ghana, Debased Brass Rod Currency of the Congo, Shell Money of Angola, Cattle and Bead Money of South-West Africa, Cattle Currency in South Africa </td>
+			</tr>
+			<tr>
+				<td>America</td>
+				<td>Fur Currency in Alaska, Shell, Fur and Blanket Currency of Canada, Wampum and Other Shell Currencies in the United States, Cocoa Bean Currency of Mexico, Maize Money of Guatemala, Cattle Standard in Colombia, Arrows and Guns as Currency in Brazil, Snail Shell Currency in Paraguay</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
 
-
-
-#### 4.3.2. Representative Money
+#### 4.2.2. Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -1400,24 +1405,66 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 https://mises.org/podcasts/minor-issues/who-invented-money
 
-
-
-#### 4.3.3 Regression Theorem
+#### 4.2.3 Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-#### 4.3.4 Fixed Supply
+#### 4.2.4 Evaluation of Requirements
 
 
-#### 4.3.5 Evaluation of Requirements
 
 
-### 4.4. Market Coordination
+
+
+
+
+### 4.3 The (Real) Market Process
+
+#### 4.3.1 Commodities
+
+
+
+
+#### 4.3.2 Value
+
+Alfred Marshall (Neoclassical Economics) integrated money into marginal utility theory, seeing it as neutral in the long run but influential in the short run.
+
+
+#### 4.3.3 Production
+
+
+
+
+#### 4.3.4 Theory of Capital
+
+Classical
+Böhm-Bawerk’s roundaboutness: Time preference drives capital structure.
+
+Modern
+Lachmann’s heterogeneous capital: Plans constantly change, causing economic shifts.
+
+Neglect of capital theory: Many modern Austrians focus on macro/money instead.
+
+
+#### 4.3.4 Value Chain
+
+
+
+
+
+
+
+
+
+
+
+
+### 4.4 Market Coordination
 
 #### 4.4.1 Demand
 
 
-#### 4.4.2 Supply
+#### 4.4.2 Supply (Fixed)
 
 
 
@@ -1428,6 +1475,11 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 #### 4.4.4 Price Formation
 
 price formation in a self-regulated system
+
+
+
+
+
 
 
 ### 4.5 The Price System
@@ -1537,11 +1589,11 @@ Use of Knowledge in Society [58]
 
 
 
-## 5. The Scientifically Planned Order
+## 5 The Scientifically Planned Order
 ---
 
 
-### 5.1. The Demand for Money
+### 5.1 The Demand for Money
 
 Keynes’s Liquidity Preference Theory. 
 
@@ -1552,7 +1604,7 @@ Baumol-Tobin Model of Transaction Demand for Money
 
 
 
-### 5.2. Market Equilibrium Analysis
+### 5.2 Market Equilibrium Analysis
 
 
 ### 5.2.1 Partial Equilibrium
@@ -1574,9 +1626,9 @@ Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation 
 
 
 
-### 5.3. Increasing the Supply of Money
+### 5.3 Increasing the Supply of Money
 
-#### 5.3.1. Quantity Theory of Money
+#### 5.3.1 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -1595,33 +1647,32 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (money demand = k × PY). Refined the Quantity Theory of Money.
 
-#### 5.3.2. Money Supply Growth Approaches
+#### 5.3.2 Money Supply Growth Approaches
 
 Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
 
-#### 5.3.2. The Money Multiplier
+#### 5.3.2 The Money Multiplier
 
-#### 5.3.3. Determinants of Money Supply (Exogenous vs. Endogenous Money)
-
-
-
-### 5.4. Fiat Money
+#### 5.3.3 Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
 
-#### 5.4.1. Methodology
+
+### 5.4 Fiat Money
+
+
+#### 5.4.1 Methodology
 
 Scientific Method
 
 
 
-#### 5.4.2. Central Bank Balance Sheet
+#### 5.4.2 Central Bank Balance Sheet
 
-#### 5.4.3. Current Definition of Money
+#### 5.4.3 Current Definition of Money
 
+#### 5.4.4 Central Bank Targets
 
-#### 5.4.4. Central Bank Targets
-
-##### 5.4.5.1. Inflation
+##### 5.4.5.1 Inflation
 
 Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
@@ -1633,9 +1684,9 @@ Permanent Income Hypothesis (consumption smoothing).
 
 Argued for steady money growth (k-percent rule).
 
-##### 5.4.5.2. Employment
+##### 5.4.5.2 Employment
 
-#### 5.4.5. Monetary Policies
+#### 5.4.5 Monetary Policies
 
 From Friedman 2% to QE and to MMT
 
@@ -1653,7 +1704,7 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.4.5.1. Interest Rates
+##### 5.4.5.1 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -1665,19 +1716,19 @@ John Maynard Keynes (1883–1946) Liquidity Preference Theory (money demand for 
 
 Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Taylor Rule extensions).
 
-##### 5.4.5.2. Negative Interest Rate Policy (NIRP)
+##### 5.4.5.2 Negative Interest Rate Policy (NIRP)
 
-##### 5.4.5.3. Loans
+##### 5.4.5.3 Loans
 
-##### 5.4.5.4. QE
+##### 5.4.5.4 QE
 
-##### 5.4.5.5. Forward Guidance
+##### 5.4.5.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.4.5.6. MMT
+##### 5.4.5.6 MMT
 
-#### 5.4.5. Channels of Monetary Policy Transmission
+#### 5.4.5 Channels of Monetary Policy Transmission
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
@@ -1686,15 +1737,15 @@ https://www.rba.gov.au/education/resources/explainers/the-transmission-of-moneta
 
 
 
-### 5.5. Financial Markets
+### 5.5 Financial Markets
 
-#### 5.5.1. Financial Assets
+#### 5.5.1 Financial Assets
 
-#### 5.5.2. Monetary Markets
+#### 5.5.2 Monetary Markets
 
-#### 5.5.3. Investment Markets
+#### 5.5.3 Investment Markets
 
-#### 5.5.4. Financial Ecosystem
+#### 5.5.4 Financial Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/usdsystem.jpeg" width="60%"></img>
@@ -1703,7 +1754,7 @@ https://www.rba.gov.au/education/resources/explainers/the-transmission-of-moneta
 
 
 
-### 5.6. The Money Supply Evolution
+### 5.6 The Money Supply Evolution
 
 Bubble after bubble
 
@@ -1717,7 +1768,7 @@ No Reset
 
 
 
-### 5.7. Misalocation of Resources
+### 5.7 Misalocation of Resources
 
 * Collectivized Risk of Credit
 
@@ -1728,17 +1779,17 @@ No Reset
 
 
 
-### 5.8. Currency Debasement
+### 5.8 Currency Debasement
 
-#### 5.8.1. Price Scenarios
+#### 5.8.1 Price Scenarios
 
-##### 5.8.1.1. Inflation
+##### 5.8.1.1 Inflation
 
-##### 5.8.1.2. Deflation
+##### 5.8.1.2 Deflation
 
-##### 5.8.1.3. Hyperinflation
+##### 5.8.1.3 Hyperinflation
 
-##### 5.8.1.4. Stagflation
+##### 5.8.1.4 Stagflation
 
 
 #### 5.8.1 The Split Economy
@@ -1755,7 +1806,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 5.8.2. The Squeezed Real Economy
+#### 5.8.2 The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
