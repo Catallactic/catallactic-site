@@ -1985,6 +1985,11 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 * No credit
 
+* No experimentation
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://mujeresconciencia.com/app/uploads/2017/06/Margaret_Hamilton-780x971.gif" width="40%"></img>
+</div>
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
