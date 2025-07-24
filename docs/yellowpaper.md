@@ -2119,6 +2119,12 @@ Bubble after bubble
 
 #### 5.6.3 Currency Debasement
 
+purchasing power 
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.visualcapitalist.com/wp-content/uploads/2021/03/Purchasing-Power-of-the-US-Dollar.jpg" width="60%"></img>
+</div>
+<br/>
 
 
 #### 5.6.4 The Split Economy
