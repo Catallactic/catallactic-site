@@ -1933,6 +1933,12 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 #### 5.3.3 Monetary Policy Evolution
 
+Classical Economics (1913-1930s). Dominant Influence: Central banks followed classical monetary theory, which emphasized: Gold Standard Discipline: Money supply was tied to gold reserves, limiting inflation but causing deflationary pressures. Price-Specie Flow Mechanism (David Hume): Trade imbalances corrected automatically via gold flows. Laissez-Faire Approach: Minimal intervention in the economy; central banks acted mainly as "lenders of last resort" (Bagehot’s Rule). Fed’s Early Role: The Fed (established 1913) initially focused on financial stability, not macroeconomic management.
+
+Transition to Keynesian Economics (1930s–1945). Great Depression (1929–1939): The gold standard collapsed (1931–1933), exposing flaws in classical theory. Keynesian Revolution: John Maynard Keynes’ The General Theory of Employment, Interest and Money (1936) argued for: Active Central Banking: Monetary policy should stabilize demand (lower interest rates, liquidity injections). Fiscal-Monetary Coordination: Central banks worked with governments (e.g., New Deal, WWII spending). 
+
+Bretton Woods (1944): The IMF and World Bank were created, embedding Keynesian ideas into post-war monetary systems.
+
 The End of Bretton Woods (1971). 
 Event: President Nixon suspended the dollar’s convertibility to gold, ending the fixed exchange rate system.
 Impact: Currencies began floating, leading to greater exchange rate volatility. Central banks (especially the Fed) gained more control over domestic monetary policy but had to manage inflation without the discipline of gold backing.
@@ -1967,8 +1973,6 @@ COVID-19 & Modern Monetary Policy (2020–Present) Pandemic Response: Ultra-low 
 #### 5.3.4 Monetary Policy Instruments
 
 
-From Friedman 2% to QE and to MMT
-
 Inflation Targeting vs. Price Level Targeting
 
 Nominal GDP Targeting
@@ -1979,7 +1983,10 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.3.4.1 Interest Rates
+##### 5.3.4.1 Fiscal Coordination
+
+
+##### 5.3.4.2 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -1993,12 +2000,11 @@ Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Tayl
 
 The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guideline that suggests how central banks should adjust interest rates in response to changes in inflation and economic output. 
 
-##### 5.3.4.2 Negative Interest Rate Policy (NIRP)
+Negative Interest Rate Policy (NIRP)
 
 ##### 5.3.4.3 QE
 
 ##### 5.3.4.4 Loans
-
 
 ##### 5.3.4.5 Forward Guidance
 
