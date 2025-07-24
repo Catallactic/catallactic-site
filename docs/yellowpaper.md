@@ -798,7 +798,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>Mercantilism</td>
 			<td>Objective</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>2</td>
 			<td>3</td>
 			<td>1</td>
@@ -863,7 +863,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>Neoclassical</td>
 			<td>Subjective</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>1</td>
 			<td>2</td>
 			<td>3</td>
@@ -889,7 +889,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>Keynesian</td>
 			<td>Subjective</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>1</td>
 			<td>3</td>
 			<td>2</td>
@@ -902,7 +902,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>Monetarism</td>
 			<td>-</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>1</td>
 			<td>3</td>
 			<td>2</td>
@@ -915,7 +915,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>Post-Keynesian</td>
 			<td>Subjective</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>1</td>
 			<td>3</td>
 			<td>2</td>
@@ -928,7 +928,7 @@ Market, institutions, banks, government, networks.... it depends
 		<tr>
 			<td style={{textAlign: 'left'}}>MMT</td>
 			<td>Subjective</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>2</td>
 			<td>1</td>
 			<td>3</td>
@@ -1030,7 +1030,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 			<th>Physical</th>
 			<td>IoU</td>
 			<td>Fidelity Tokens</td>
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td>Bonds / Stocks</td>
 			<td>Representative / Gold</td>
 			<td>Barter</td>
@@ -1232,6 +1232,15 @@ By inspecting the principles argued for stability on the schools that advocated 
 </div>
 <br/>
 
+#### 3.5.1 Necessity of Supply
+
+Neutrality of Money. The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
+
+David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
+
+
 #### 3.5.2 The Underlying asset
 
 Stability depends on the peg
@@ -1339,7 +1348,7 @@ In the modern fiat-money system, the two functions of money—medium of exchange
 			<td>YES</td>
 		</tr>
 		<tr className="orange">
-			<td>Fiduciary</td>
+			<td>Fiat</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -1487,7 +1496,7 @@ Unbacked Tokens and Utility Tokens work as Medium of Exchange but do not work as
 
 Security Tokens and NFT only work as Store of Value
 
-Stablecoins and Fiduciary Money can be used to transfer value as Medium of Exchange and can be used to account value as Unit of Account. But they do not perform well persisting value so hey are not good Stored of Value.
+Stablecoins and Fiat Money can be used to transfer value as Medium of Exchange and can be used to account value as Unit of Account. But they do not perform well persisting value so hey are not good Stored of Value.
 
 Finally, Commodity Money and Representative Money are good as Unit of Account and Store of Value but they are not optimal as Medium of Exchange.
 
@@ -1514,25 +1523,25 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 			<th>School</th>
 			<th>Authors / Ideas</th>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Scholastics / School of Salamanca<br/>1100s-1600s</td>
 			<td>Thomas Aquinas (1225–1274) / Francisco de Vitoria (1483–1546), Martín de Azpilcueta (1492–1586), Juan de Mariana (1536–1624)</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td>Subjective value, sound money</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>British Empiricism<br/>1690-1770s</td>
 			<td>John Locke (1632-1704), David Hume (1711—1776)</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td>Subjective value, sound money</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Physiocracy<br/>1759-1775</td>
 			<td>Richard Cantillon (1680–1734), François Quesnay (1694–1774), Tha Marquis da Mirabeau (1715–1789), Anne-Robert-Jacques Turgot (1727–1781)</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td>Objective value (land), sound money</td>
 		</tr>
 		<tr>
@@ -1542,18 +1551,18 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 		<tr>
 			<td>Objective value, Long-run money neutral, sound money</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
 			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Henry Hazlitt (1894–1993), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Austrian School<br/>1980s–present</td>
 			<td>Israel Kirzner (1930), Antal E. Fekete (1932), Hans-Hermann Hoppe (1949), Joseph T. Salerno (1950), Lawrence H. White (1954), Huerta de Soto (1956), George A. Selgin (1957), Steven Horwitz (1964-2021)</td>
 		</tr>
-		<tr className="green">
+		<tr>
 			<td>Subjective value, money no neutral, sound money / currency competition</td>
 		</tr>
 	</table>
@@ -1561,6 +1570,18 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 <br/>
 
 ### 4.2 Principles
+
+#### 4.2.3 Property Rights
+
+#### 4.2.3 Negative Liberty
+
+#### 4.2.3 Normative Economics
+
+#### 4.2.2 Methodological Individualism
+
+All social phenomena (markets, institutions, prices) must be explained by reference to the actions, choices, and intentions of individuals, not abstract groups or aggregates.
+
+
 
 The concept of "spontaneous order" is the idea that complex, functional systems emerge organically from decentralized human actions, without central design, is a cornerstone of Austrian economics and classical liberal thought.
 
@@ -1573,13 +1594,6 @@ Ludwig von Mises (1881–1973) says that "The market is a process, actuated by t
 #### 4.2.1 Human Action
 
 
-#### 4.2.2 Methodological Individualism
-
-All social phenomena (markets, institutions, prices) must be explained by reference to the actions, choices, and intentions of individuals, not abstract groups or aggregates.
-
-#### 4.2.3 Property Rights
-
-#### 4.2.3 Negative Liberty
 
 
 ### 4.3 The Spontaneous Money
@@ -1662,31 +1676,14 @@ The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The 
 #### 4.3.4 Purchasing Power
 
 
-#### 4.3.5 Evaluation of Requirements
-
-
-
-### 4.4 The Ecosystem
-
-
-#### 4.4.7 Value Chain
-
-
-Production doesn’t happen instantly but through stages:
-
-Higher-Order Goods (raw materials, machines, factories).
-
-Lower-Order Goods (final consumer products).
-
-
-
+#### 4.3.5 Evaluation of Functions
 
 
 
 ### 4.4 The (Real) Market Process
 
 
-#### 5.4.1 A Self-Regulated System
+#### 4.4.1 A Self-Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1712,13 +1709,13 @@ Commodities have no intrinsic **value**—their worth depends on individual need
 
 **Production** In Austrian economics, production is not a mechanical input-output system (as in neoclassical models) but a dynamic, time-consuming, and entrepreneurial process shaped by subjective valuations, capital heterogeneity, and market prices. The Structure of Production (Böhm-Bawerk’s roundaboutness).
 
-**Supply** is Constrained by Real Resources (Not Just Prices). Labor, capital, and raw materials are heterogeneous (not interchangeable).
+**Supply of Goods and Services** is Constrained by Real Resources (Not Just Prices). Labor, capital, and raw materials are heterogeneous (not interchangeable).
 
 #### 4.4.3 Market Coordination
 
 **Catallactics** is the science of how free people trade—and why that process cannot be replaced by coercion or central planning. In Austrian economics, the term "catalactics" (from the Greek katallattein, meaning "to exchange" or "to reconcile") refers to the study of market exchanges as the foundation of economic science. Unlike mainstream economics, which often focuses on mathematical models and aggregate variables, Austrians emphasize human action, subjective value, and the dynamic process of voluntary trade. Ludwig von Mises popularized the term in Human Action (1949), defining catallactics as: "The analysis of those actions which are conducted on the basis of monetary calculation … the science of the market economy." Richard Whately (19th-century economist) first coined the term to distinguish economics as the study of exchange rather than wealth or production.
 
-**Demand** arises from individual valuations—each person ranks goods based on marginal utility (Menger’s Principles of Economics, 1871). In Austrian economics, market demand is not a static, aggregate curve (as in neoclassical models) but a dynamic, subjective, and individual-driven process. Austrians reject the idea of "aggregate demand" as a measurable or policy-controllable variable, instead focusing on how real human preferences, prices, and entrepreneurial discovery shape demand. Demand as Subjective Value (Not a "Demand Curve") Demand is Decentralized & Dispersed. No central planner (or economist) can know or measure "total demand"—it exists only as individual choices revealed through action. Demand is Intertemporal. People don’t just demand goods now but also future goods (savings vs. consumption trade-offs). Böhm-Bawerk: Low interest rates artificially boost demand for long-term projects (leading to malinvestment). Demand is Constrained by Real Income (Not Money Printing). Inflation (e.g., stimulus checks) may raise nominal demand but distorts real resource allocation (Cantillon effects). Entrepreneurship Discovers Demand. Entrepreneurs anticipate unmet demands (Kirzner’s alertness), creating new markets (e.g., smartphones). Demand is not a curve but individuals acting on preferences For Austrians, market demand is a discovery process
+**Demand of Goods and Services** arises from individual valuations—each person ranks goods based on marginal utility (Menger’s Principles of Economics, 1871). In Austrian economics, market demand is not a static, aggregate curve (as in neoclassical models) but a dynamic, subjective, and individual-driven process. Austrians reject the idea of "aggregate demand" as a measurable or policy-controllable variable, instead focusing on how real human preferences, prices, and entrepreneurial discovery shape demand. Demand as Subjective Value (Not a "Demand Curve") Demand is Decentralized & Dispersed. No central planner (or economist) can know or measure "total demand"—it exists only as individual choices revealed through action. Demand is Intertemporal. People don’t just demand goods now but also future goods (savings vs. consumption trade-offs). Böhm-Bawerk: Low interest rates artificially boost demand for long-term projects (leading to malinvestment). Demand is Constrained by Real Income (Not Money Printing). Inflation (e.g., stimulus checks) may raise nominal demand but distorts real resource allocation (Cantillon effects). Entrepreneurship Discovers Demand. Entrepreneurs anticipate unmet demands (Kirzner’s alertness), creating new markets (e.g., smartphones). Demand is not a curve but individuals acting on preferences For Austrians, market demand is a discovery process
 
 **Time Preferences** Time Preference Drives Production Length. Low time preference (people save more) → longer, more productive processes. High time preference (people consume now) → shorter, less efficient production. Mises: "Capital is accumulated by saving, which requires deferred consumption."
 
@@ -1736,11 +1733,19 @@ Hayek’s "Use of **Knowledge** in Society" (1945). Prices synthesize dispersed 
 
 **Disequilibrium Analysis** (Mises-Hayek’s critique of equilibrium models). The Austrian School fundamentally rejects the neoclassical focus on static equilibrium models, instead emphasizing disequilibrium as the natural state of markets. Austrian economists analyze how markets coordinate knowledge, correct errors, and adapt to change through dynamic processes driven by entrepreneurship, time, and uncertainty. For Austrians, disequilibrium is the norm—markets work precisely because they are never in balance, but constantly discover, adapt, and correct.
 
-**Allocation of Resources** the Austrian School views resource allocation as: A Discovery Process - Resources find their most valued uses through entrepreneurial competition and market experimentation Decentralized and Emergent - No single entity can possess all the knowledge needed for "optimal" allocation Time-Structured - Allocation occurs through multi-stage production processes Price-Guided - Market prices serve as the essential signals for allocation decisions
-
 **Profit and Loss System** Acts as continuous feedback mechanism for resource allocation. Profits indicate valued uses; losses signal misallocation. Example: Movie box office results guide future film production investments
 
+**Allocation of Resources** the Austrian School views resource allocation as: A Discovery Process - Resources find their most valued uses through entrepreneurial competition and market experimentation Decentralized and Emergent - No single entity can possess all the knowledge needed for "optimal" allocation Time-Structured - Allocation occurs through multi-stage production processes Price-Guided - Market prices serve as the essential signals for allocation decisions
+
 **Private Projects Risk**
+
+#### 4.4.5 Value Chain
+
+Production doesn’t happen instantly but through stages:
+
+Higher-Order Goods (raw materials, machines, factories).
+
+Lower-Order Goods (final consumer products).
 
 ### 4.5 System Stability
 
@@ -1842,8 +1847,17 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 </div>
 <br/>
 
+### 5.2 Principles
 
-### 5.2 The Demand for Money
+
+#### 5.2.1 Positive Liberty
+
+
+#### 5.2.2 Positive Economics
+
+
+
+#### 5.2.3 The Demand for Money
 
 Keynes’s Liquidity Preference Theory. 
 
@@ -1851,52 +1865,21 @@ Keynesian Revolution – fiscal & monetary policy for demand management.
 
 Baumol-Tobin Model of Transaction Demand for Money
 
-#### 5.2.1 Investment Demand
+#### 5.2.4 Investment Demand
+
+
+
+### 5.3 Fiat Money
 
 
 
 
+#### 5.3.1 Current Definition
+
+#### 5.3.2 Increasing the Supply of Money
 
 
-### 5.3 Market Equilibrium Analysis
-
-
-#### 5.3.1 Partial Equilibrium
-
-
-#### 5.3.2 General Equilibrium
-
-In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
-</div>
-<br/>
-
-
-Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
-
-#### 5.3.1 Allocation of Resources
-
-Against Central Planning
-Mises' calculation problem: Without market prices, rational allocation is impossible
-Socialist systems lack the knowledge and incentives for proper allocation
-
-Against Neoclassical Equilibrium Models
-Rejects the notion of "given" resources waiting to be allocated
-Critiques the perfect information assumptions of Walrasian models
-
-Against Keynesian Aggregate Management
-Macro-level interventions distort the micro-level price signals needed for proper allocation
-"Stimulus" spending misdirects resources based on political rather than economic factors
-
-
-
-
-
-### 5.4 Increasing the Supply of Money
-
-#### 5.4.1 Quantity Theory of Money
+##### 5.3.2.1 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -1915,46 +1898,26 @@ The <b>velocity of money</b> is a measurement of the rate at which money is exch
 
 Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (money demand = k × PY). Refined the Quantity Theory of Money.
 
-#### 5.4.2 Money Supply Growth Approaches
+
 
 Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
 
-#### 5.4.2 The Money Multiplier
-
-#### 5.4.3 Determinants of Money Supply (Exogenous vs. Endogenous Money)
+##### 5.3.2.2 The Money Multiplier
 
 
-
-### 5.5 Fiat Money
-
-
-#### 5.5.1 Methodology
-
-Scientific Method
+##### 5.3.2.3 Determinants of Money Supply (Exogenous vs. Endogenous Money)
 
 
 
-#### 5.5.2 Central Bank Balance Sheet
 
-#### 5.5.3 Current Definition of Money
 
-#### 5.5.4 Central Bank Targets
 
-##### 5.5.5.1 Inflation
 
-Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
-Milton Friedman (1912–2006)
 
-Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+#### 5.3.3 Monetary Policy Instruments
 
-Permanent Income Hypothesis (consumption smoothing).
-
-Argued for steady money growth (k-percent rule).
-
-##### 5.5.5.2 Employment
-
-#### 5.5.5 Monetary Policies
+Money Supply Growth Mechanisms
 
 From Friedman 2% to QE and to MMT
 
@@ -1972,7 +1935,7 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.5.5.1 Interest Rates
+##### 5.3.3.1 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -1986,45 +1949,160 @@ Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Tayl
 
 The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guideline that suggests how central banks should adjust interest rates in response to changes in inflation and economic output. 
 
-##### 5.5.5.2 Negative Interest Rate Policy (NIRP)
+##### 5.3.3.2 Negative Interest Rate Policy (NIRP)
 
-##### 5.5.5.3 Loans
+##### 5.3.3.3 QE
 
-##### 5.5.5.4 QE
+##### 5.3.3.4 Loans
 
-##### 5.5.5.5 Forward Guidance
+
+##### 5.3.3.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.5.5.6 MMT
+##### 5.3.3.6 MMT
 
-#### 5.5.5 Channels of Monetary Policy Transmission
+
+
+
+
+
+### 5.4 Financial Markets
+
+#### 5.4.1 Methodology
+
+Scientific Method
+
+#### 5.4.2 Financial Ecosystem
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/usdsystem.jpeg" width="60%"></img>
+</div>
+
+#### 5.4.3 Central Bank Balance Sheet
+
+#### 5.4.4 Central Bank Targets
+
+##### 5.4.4.1 Inflation
+
+Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+
+Milton Friedman (1912–2006)
+
+Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+
+Permanent Income Hypothesis (consumption smoothing).
+
+Argued for steady money growth (k-percent rule).
+
+##### 5.4.4.2 Employment
+
+#### 5.4.5 Central Bank Balance Sheet
+
+
+#### 5.4.6 Banks
+
+##### 5.4.6.1 Fractional Reserve
+
+
+#### 5.4.7 Market Equilibrium Analysis
+
+
+##### 5.4.7.1 Partial Equilibrium
+
+
+##### 5.4.7.2 General Equilibrium
+
+In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
+</div>
+<br/>
+
+
+
+
+#### 5.4.8 Money Markets
+
+#### 5.4.9 Capital Markets
+
+##### 5.4.9.1 Financial Assets
+
+
+
+
+#### 5.4.10 Channels of Monetary Policy Transmission
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
 https://www.rba.gov.au/education/resources/explainers/the-transmission-of-monetary-policy.html
 
 
+Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
 
 
-### 5.6 Financial Markets
-
-#### 5.6.1 Financial Assets
-
-#### 5.6.2 Monetary Markets
-
-#### 5.6.3 Investment Markets
-
-#### 5.6.4 Financial Ecosystem
+### 5.5 The Planned Real Economy
 
 <div style={{textAlign: 'center'}}>
-	<img src="/img/usdsystem.jpeg" width="60%"></img>
+	<img src="/img/market_positive.svg" width="100%"></img>
 </div>
 
 
+#### 5.5.1 Allocation of Resources
+
+Against Central Planning
+Mises' calculation problem: Without market prices, rational allocation is impossible
+Socialist systems lack the knowledge and incentives for proper allocation
+
+Against Neoclassical Equilibrium Models
+Rejects the notion of "given" resources waiting to be allocated
+Critiques the perfect information assumptions of Walrasian models
+
+Against Keynesian Aggregate Management
+Macro-level interventions distort the micro-level price signals needed for proper allocation
+"Stimulus" spending misdirects resources based on political rather than economic factors
+
+* Collectivized Risk of Credit
+
+* Winners and Loosers on Monetary Expansion
+
+* First can Invest with old prices
+
+Entry Barriers
+
+#### 5.5.2. Cantillon Effects
 
 
-### 5.7 The Money Supply Evolution
+
+
+
+
+
+
+
+
+### 5.6 System Stability
+
+- The positive feedback is when a trend is positively reinforced, creating amplification, such as the squealing "feedback" loop that can occur when a mic is brought too close to a speaker which is amplifying the very sounds the mic is picking up, or the runaway heating and ultimate meltdown of a nuclear reactor.
+
+	
+<div style={{textAlign: 'center'}}>
+	<img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="40%"></img>
+</div>
+<br/>
+
+Whereas positive feedback tends to lead to instability via exponential growth, oscillation or chaotic behavior, negative feedback generally promotes stability. Negative feedback tends to promote a settling to equilibrium, and reduces the effects of perturbations. Negative feedback loops in which just the right amount of correction is applied with optimum timing, can be very stable, accurate, and responsive.
+
+In the next 2 sections we will see how a market of privately issued CryptoCommodity is doubly regulated with negative feedbakc loops. This adds an extra layer of stability.
+
+In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
+
+### 5.7 Limitations
+
+
+
+#### 5.7.1 The Money Supply Evolution
 
 Bubble after bubble
 
@@ -2038,134 +2116,17 @@ https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-bloc
 
 
 
+##### 5.7.1.1 Inflation
 
-### 5.8 Misalocation of Resources
+##### 5.7.1.2 Deflation
 
-* Collectivized Risk of Credit
+##### 5.7.1.3 Hyperinflation
 
-* Winners and Loosers on Monetary Expansion
+##### 5.7.1.4 Stagflation
 
-* First can Invest with old prices
+##### 5.7.1.5 Currency Debasement
 
-Entry Barriers
-
-
-### 5.9 Currency Debasement
-
-#### 5.9.1 Price Scenarios
-
-##### 5.9.1.1 Inflation
-
-##### 5.9.1.2 Deflation
-
-##### 5.9.1.3 Hyperinflation
-
-##### 5.9.1.4 Stagflation
-
-
-#### 5.9.2 The Split Economy
-
-Since the money is not bound to real world value, from 1971, the economy has split in 2:
-
-* The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. Real economy can be measured by the GDP.
-
-* The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
-</div>
-
-price distortion
-
-#### 5.9.3 The Squeezed Real Economy
-
-The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/exter.png" width="40%"></img>
-</div>
-<br/>
-
-The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
-
-
-
-
-
-### 5.10 System Stability
-
-#### 5.10.1 A Regulated System
-
-In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://www.tutorialspoint.com/control_systems/images/positive_feedback.jpg" width="50%"></img>
-</div>
-<br/>
-
-#### 5.10.2 Positive and Negative Feedback
-
-When providing feedback to a system, there are 2 possibilities:
-
-- Negative feedback (or balancing feedback) occurs when some function of the output of a system, process, or mechanism is fed back in a manner that tends to reduce the fluctuations in the output, whether caused by changes in the input or by other disturbances. A classic example of negative feedback is a heating system thermostat — when the temperature gets high enough, the heater is turned OFF. When the temperature gets too cold, the heat is turned back ON. In each case the "feedback" generated by the thermostat "negates" the trend.
-
-- The opposite tendency — called positive feedback — is when a trend is positively reinforced, creating amplification, such as the squealing "feedback" loop that can occur when a mic is brought too close to a speaker which is amplifying the very sounds the mic is picking up, or the runaway heating and ultimate meltdown of a nuclear reactor.
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<thead>
-			<tr>
-				<th scope="col">Negative Feedback Loop</th>
-				<th scope="col">Positive Feedback Loop</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><img src="https://assets.ltkcontent.com/images/8616/negative-feedback-loop_27c5571306.jpg" width="100%"></img></td>
-				<td><img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="100%"></img></td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<br/>
-
-Whereas positive feedback tends to lead to instability via exponential growth, oscillation or chaotic behavior, negative feedback generally promotes stability. Negative feedback tends to promote a settling to equilibrium, and reduces the effects of perturbations. Negative feedback loops in which just the right amount of correction is applied with optimum timing, can be very stable, accurate, and responsive.
-
-In the next 2 sections we will see how a market of privately issued CryptoCommodity is doubly regulated with negative feedbakc loops. This adds an extra layer of stability.
-
-In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
-
-
-#### 5.10.3 A centralized system
-
-positive feedback
-
-#### 5.10.4 A self-regulated system
-
-negative feedback
-
-Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
-
-
-
-
-
-
-### 5.11 Neutrality of Money
-
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
-
-#### 5.11.1. Authors
-
-David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
-
-
-#### 5.11.2. Cantillon Effects
-
-
-#### 5.11.3. Austrian business cycle theory (ABCT)
+##### 5.7.1.6 Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
@@ -2181,6 +2142,36 @@ Hyman Minsky (1919–1996)
 Financial Instability Hypothesis – boom-bust cycles due to credit.
 
 "Stability is destabilizing."
+
+
+
+
+#### 5.7.2 The Split Economy
+
+Since the money is not bound to real world value, from 1971, the economy has split in 2:
+
+* The real economy concerns the production, purchase and flow of goods and services (like oil, bread and labour) within an economy. Economic activity is conceptualized as ‗real‘ because real resources are applied to produce something which people can buy and use. Real economy can be measured by the GDP.
+
+* The financial system is mainly concerned either with moving funds around so that those who wish to buy can do so, or helping people to exchange ownership of the productive resources. Financial system is depegged from real consumer necessities.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/financial assets vs real assets March 2022_0.jpg" width="80%"></img>
+</div>
+
+price distortion
+
+#### 5.7.3 The Squeezed Real Economy
+
+The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/exter.png" width="40%"></img>
+</div>
+<br/>
+
+The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
+
+
 
 
 
@@ -2226,9 +2217,12 @@ Cyberphunk money cannot form prices and therefore cannot become MoE.
 ### 6.5. Bitcoin as a Monetary Standard
 
 
+<br/><br/><div className="divider div-transparent div-dot"></div>
 
+<br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> CURRENCY COMPETITION </h1> </div>
+<div className="section" align="center"> <h5 align="center"> Lets break down what we have seen so far in currency competition. </h5> </div>
 
-<br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
+<div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 7. The CypherPunk Competition Order (i.e. Crytocurrencies)
 
@@ -2238,9 +2232,9 @@ Robert Mundell (1932–2021). Optimum Currency Area (OCA) theory (criteria for s
 
 #### 7.1.1 Asignation of Value
 
-#### 7.1.2 Competitive Value for Money
+##### 7.1.1.1 Competitive Value for Money
 
-#### 7.1.3 Fractional Reserve
+##### 7.1.1.2 Fractional Reserve
 
 1. Lawrence H. White: Defends free banking with fractional reserves as historically stable.
 
@@ -2611,6 +2605,8 @@ In a currency competition scenario, none of the competing currencies would be el
 
 
 ### 11.3 Benefits
+
+#### 11.3.1. Experimentation vs Rationing (Khun)
 
 #### 11.3.1. Ending Financial Exclusion
 
