@@ -227,8 +227,15 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			<td>No theory of value, long-run neutrality of money, fiat money with fixed growth</td>
 		</tr>
 		<tr>
-			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Post-Keynesian<br/>1970s-present </td>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Post-Keynesian<br/>1970s-present</td>
 			<td>Hyman Minsky (1919–1996), Michal Kalecki (1899–1970)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money not neutral, fiat money</td>
+		</tr>
+		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Keynesian<br/>1970s-present</td>
+			<td>Joseph Stiglitz (1943), Ben Bernanke (1953)</td>
 		</tr>
 		<tr>
 			<td>Subjective value, money not neutral, fiat money</td>
@@ -1575,6 +1582,8 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 
 #### 4.2.3 Negative Liberty
 
+#### 4.2.3 Free Will
+
 #### 4.2.3 Normative Economics
 
 #### 4.2.2 Methodological Individualism
@@ -1837,6 +1846,13 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 			<td>Subjective value, money not neutral, fiat money</td>
 		</tr>
 		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>New Keynesian<br/>1970s-present</td>
+			<td>Joseph Stiglitz (1943), Ben Bernanke (1953)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money not neutral, fiat money</td>
+		</tr>
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Modern Monetary Theory (MMT)<br/>1990s-present</td>
 			<td>L. Randall Wray (1953), Stephanie Kelton (1969)</td>
 		</tr>
@@ -1915,9 +1931,41 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 
 
-#### 5.3.3 Monetary Policy Instruments
+#### 5.3.3 Monetary Policy Evolution
 
-Money Supply Growth Mechanisms
+The End of Bretton Woods (1971). 
+Event: President Nixon suspended the dollar’s convertibility to gold, ending the fixed exchange rate system.
+Impact: Currencies began floating, leading to greater exchange rate volatility. Central banks (especially the Fed) gained more control over domestic monetary policy but had to manage inflation without the discipline of gold backing.
+
+High Inflation & Monetarism (1970s–Early 1980s). Monetarists. Money Supply Growth Targeting
+Challenge: Oil shocks (1973, 1979) and loose monetary policies led to stagflation (high inflation + high unemployment).
+Policy Response: The Fed, under Paul Volcker (1979–1987), adopted monetarist principles (following Milton Friedman) and raised interest rates dramatically (peaking at ~20% in 1981). Focus shifted to controlling money supply growth to curb inflation, even at the cost of a recession.
+Result: Inflation fell sharply by the mid-1980s, establishing central bank credibility.
+
+The Great Moderation (Mid-1980s–2007). Inflation Targeting (New Keynesians).
+Inflation targeting became the consensus among central banks by the 2000s, blending New Keynesian theory with pragmatic lessons from monetarism.
+Shift to Inflation Targeting: Central banks (e.g., New Zealand in 1990, followed by the UK, Canada, and others) adopted explicit inflation targets (typically ~2%). The Fed, under Alan Greenspan, focused on price stability while implicitly targeting inflation.
+Tools: Primary tool: Adjusting short-term interest rates (federal funds rate in the U.S.). Reliance on macroeconomic models (e.g., Taylor Rule) to guide rate decisions. 
+Outcome: Low and stable inflation, steady growth, and fewer recessions (until 2008). Influences:
+* The adoption of inflation targeting as a monetary policy framework was primarily advocated by the New Keynesian school of economics, though it also drew support from monetarist and neoclassical synthesis ideas. A clear target (e.g., 2%) avoids the time-inconsistency problem (Kydland & Prescott, 1977). New Keynesians formalized inflation targeting with forward-looking models (e.g., Woodford’s Interest and Prices). Bernanke (later Fed Chair) co-authored influential papers supporting the framework.
+* "Inflation is always and everywhere a monetary phenomenon" → Central banks should focus on price stability. Friedman opposed pure discretion, favoring rules-based policy (e.g., constant money growth).
+* Combines Keynesian short-term stabilization with neoclassical long-term neutrality of money. Taylor Rule (1993) provided a formulaic approach to setting rates based on inflation/output gaps.
+
+Global Financial Crisis (2008) & Unconventional Policy. 
+Challenge: The 2008 crisis forced central banks to innovate as interest rates hit zero lower bound (ZLB).
+New Tools: Quantitative Easing (QE): Large-scale asset purchases (bonds, MBS) to inject liquidity. Forward Guidance: Communicating future policy intentions to shape expectations Negative Interest Rates (e.g., ECB, Bank of Japan).
+Expanded Mandates: Central banks (like the Fed) took on roles in financial stability and unemployment (e.g., dual mandate reinforced).
+After the 2008 Global Financial Crisis (GFC), policymakers relied on a mix of economic ideas, but the dominant framework was an evolved form of New Keynesian economics, supplemented by insights from Post-Keynesianism, Monetarism (liquidity-focused), and Behavioral Economics.
+
+Post-Crisis Era (2010s). Normalization Attempts: The Fed and others tried to raise rates and shrink balance sheets (2015–2018), but markets became addicted to cheap money.
+New Challenges: Low neutral interest rates (r-star declined due to secular stagnation). Rising debt levels made economies more sensitive to rate hikes.
+
+COVID-19 & Modern Monetary Policy (2020–Present) Pandemic Response: Ultra-low rates + massive QE (Fed’s balance sheet ballooned to ~$9 trillion). Fiscal-monetary coordination (e.g., direct stimulus payments). Inflation Surge (2021–2023): Post-COVID demand + supply shocks led to high inflation. Aggressive tightening (Fed hiked rates from 0% to 5.25–5.5% in 2022–2023). New Debates: "Higher for longer" rates vs. pre-2020 low-rate regime. Balance sheet reduction (quantitative tightening). Digital currencies (CBDCs) and fintech disruptions.
+
+
+
+#### 5.3.4 Monetary Policy Instruments
+
 
 From Friedman 2% to QE and to MMT
 
@@ -1927,15 +1975,11 @@ Nominal GDP Targeting
 
 Rules vs. Discretion in Monetary Policy (Taylor Rule, Friedman’s k-percent rule)
 
-Keynesianism
-
-Monetary Theory
-
 Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.3.3.1 Interest Rates
+##### 5.3.4.1 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -1949,18 +1993,17 @@ Michael Woodford (b. 1955) New Keynesian Economics – interest rate rules (Tayl
 
 The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guideline that suggests how central banks should adjust interest rates in response to changes in inflation and economic output. 
 
-##### 5.3.3.2 Negative Interest Rate Policy (NIRP)
+##### 5.3.4.2 Negative Interest Rate Policy (NIRP)
 
-##### 5.3.3.3 QE
+##### 5.3.4.3 QE
 
-##### 5.3.3.4 Loans
+##### 5.3.4.4 Loans
 
 
-##### 5.3.3.5 Forward Guidance
+##### 5.3.4.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.3.3.6 MMT
 
 
 
@@ -2020,7 +2063,7 @@ In economics, general equilibrium theory attempts to explain the behavior of sup
 </div>
 <br/>
 
-
+New Keynesian Dynamic Stochastic General Equilibrium (DSGE) models
 
 
 #### 5.4.8 Money Markets
