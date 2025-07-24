@@ -2079,54 +2079,26 @@ Entry Barriers
 
 
 
+### 5.6 Consequences of Money Supply Increase
 
 
 
-### 5.6 System Stability
+#### 5.6.1 Supply and Demand Mismatches
 
-- The positive feedback is when a trend is positively reinforced, creating amplification, such as the squealing "feedback" loop that can occur when a mic is brought too close to a speaker which is amplifying the very sounds the mic is picking up, or the runaway heating and ultimate meltdown of a nuclear reactor.
 
-	
-<div style={{textAlign: 'center'}}>
-	<img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="40%"></img>
-</div>
-<br/>
+##### 5.6.1.1 Deflation
 
-Whereas positive feedback tends to lead to instability via exponential growth, oscillation or chaotic behavior, negative feedback generally promotes stability. Negative feedback tends to promote a settling to equilibrium, and reduces the effects of perturbations. Negative feedback loops in which just the right amount of correction is applied with optimum timing, can be very stable, accurate, and responsive.
+##### 5.6.1.2 Inflation
 
-In the next 2 sections we will see how a market of privately issued CryptoCommodity is doubly regulated with negative feedbakc loops. This adds an extra layer of stability.
 
-In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
+##### 5.6.1.3 Stagflation
 
-### 5.7 Limitations
+
+##### 5.6.1.4 Hyperinflation
 
 
 
-#### 5.7.1 The Money Supply Evolution
-
-Bubble after bubble
-
-War as Reset
-
-Jubileo as Reset
-
-No Reset
-
-https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
-
-
-
-##### 5.7.1.1 Inflation
-
-##### 5.7.1.2 Deflation
-
-##### 5.7.1.3 Hyperinflation
-
-##### 5.7.1.4 Stagflation
-
-##### 5.7.1.5 Currency Debasement
-
-##### 5.7.1.6 Austrian business cycle theory (ABCT)
+#### 5.6.2 Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
@@ -2143,10 +2115,13 @@ Financial Instability Hypothesis – boom-bust cycles due to credit.
 
 "Stability is destabilizing."
 
+Bubble after bubble
+
+#### 5.6.3 Currency Debasement
 
 
 
-#### 5.7.2 The Split Economy
+#### 5.6.4 The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -2160,7 +2135,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 5.7.3 The Squeezed Real Economy
+#### 5.6.5 The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -2171,8 +2146,43 @@ The monetary base for real economy is squeezed by the financial economy, and shr
 
 The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
+#### 5.6.6 Reset
+
+War as Reset
+
+Jubileo as Reset
+
+No Reset
+
+https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
 
+### 5.7 System Stability
+
+The positive feedback is when a trend is positively reinforced, creating amplification, such as the squealing "feedback" loop that can occur when a mic is brought too close to a speaker which is amplifying the very sounds the mic is picking up, or the runaway heating and ultimate meltdown of a nuclear reactor.
+
+	
+<div style={{textAlign: 'center'}}>
+	<img src="https://climatechangeclearly.files.wordpress.com/2015/02/positivefeedbackloop-590.jpg" width="40%"></img>
+</div>
+<br/>
+
+Whereas positive feedback tends to lead to instability via exponential growth, oscillation or chaotic behavior, negative feedback generally promotes stability. Negative feedback tends to promote a settling to equilibrium, and reduces the effects of perturbations. Negative feedback loops in which just the right amount of correction is applied with optimum timing, can be very stable, accurate, and responsive.
+
+In the next 2 sections we will see how a market of privately issued CryptoCommodity is doubly regulated with negative feedbakc loops. This adds an extra layer of stability.
+
+In the next chapter we will see how the monetary fiat system is regulated by a positive feedback loop which is the composed by the national statistical offices and the monetary policiies of the Central Banks. This configuration is, by definition, unstable.
+
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/market_loops.svg" width="100%"></img>
+</div>
+
+- 1 negative feedbakc loop
+
+- 2 positive feedback loop
+
+- 3 scientific method
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
