@@ -1559,6 +1559,13 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 			<td>Objective value, Long-run money neutral, sound money</td>
 		</tr>
 		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870s–present</td>
+			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money neutral, sound money with fractional reserve</td>
+		</tr>
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
 			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Henry Hazlitt (1894–1993), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
 		</tr>
@@ -1818,13 +1825,6 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 			<td>Objective value, money non-neutral but supported currency manipulation</td>
 		</tr>
 		<tr>
-			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870s–present</td>
-			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
-		</tr>
-		<tr>
-			<td>Subjective value, money neutral, sound money with fractional reserve</td>
-		</tr>
-		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Keynesian<br/>1936–present</td>
 			<td>John Maynard Keynes (1883–1946), Paul Samuelson (1915–2009)</td>
 		</tr>
@@ -1899,6 +1899,8 @@ https://www.tradingpedia.com/forex-academy/monetary-aggregates/
 </div>
 
 https://ebrary.net/14166/economics/monetary_aggregates_central_banks
+
+https://x.com/Barchart/status/1948551103668207687?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1948551103668207687%7Ctwgr%5E23eca737d1da512bed0b8027c1975097a9e64716%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.burbuja.info%2Finmobiliaria%2Ftemas%2F2-parte-esto-va-a-reventar-en-cualquier-momento-estais-avisados.2171107%2Fpage-401
 
 #### 5.3.2 Increasing the Supply of Money
 
@@ -2040,15 +2042,21 @@ Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Tay
 
 ### 5.4 Financial Markets
 
-#### 5.4.1 Methodology
-
-Scientific Method
-
-#### 5.4.2 Financial Ecosystem
+#### 5.4.1 Financial Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/usdsystem.jpeg" width="60%"></img>
 </div>
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/market_financial.svg" width="100%"></img>
+</div>
+
+#### 5.4.2 Methodology
+
+Scientific Method
+
+
 
 #### 5.4.3 Central Bank Balance Sheet
 
