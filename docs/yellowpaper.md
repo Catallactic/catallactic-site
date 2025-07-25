@@ -1768,22 +1768,48 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 ### 4.6 Limitations
 
-* Money Supply limitations
 
-* Supply of Goods Limitations
 
-* Demand of good Limitation
+#### 4.6.1 Small Market
 
-* Determinants of Money Supply (Exogenous vs. Endogenous Money)
+No Credit Availability
+Money Supply limitations
+Supply of Goods Limitations
+Demand of good Limitation
+Determinants of Money Supply
 
-* No experimentation
+#### 4.6.2 Externalities
 
-* Externalities
 
-* No Credit Availability
+#### 4.6.3 No Experimentation
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://mujeresconciencia.com/app/uploads/2017/06/Margaret_Hamilton-780x971.gif" width="40%"></img>
+</div>
+
+
+#### 4.6.4 Gold Standard Not Enough (Roaring Twenties, 1929)
+
+Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que, para mi, abrieron la caja de los truenos.
+
+La pregunta es: si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? Leo 5 causas monetarias y no se en que porcentaje influyen
+
+* USA se salio del patron oro entre 1917 y 1919 y se puso a imprimir con inflacion del 18%​
+​
+* llegada de oro de todo el mundo a USA que permitio imprimir mas dinero​
+​
+* la FED tiro los tipos de interes al suelo -> mas demanda​
+​
+* bajadas de impuestos de 75% a 25% -> mas liquidez​
+​
+* la reserva fraccionaria que tanto gustaba a los neoclasicos bajo de 20% a casi cero creo -> mas dinero​
+​
+En que se gasto el dinero? Bueno, si, esa es la parte festiva, en compras a plazos de coches, boom tecnologico, cenitas y juerguitas del can can y el charleston. Ah bueno y la bolsa, si.
+
+Lo que quiero entender es cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos. Aqui el M1 que subio 2.5% anual entre 1921 to 1929
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.researchgate.net/profile/Richard-Burdekin/publication/345393055/figure/fig3/AS:965992264003585@1607321911766/M1-money-supply-vs-consumer-price-index-1915-1921.ppm" width="80%"></img>
 </div>
 
 
@@ -1799,7 +1825,7 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 
 
-## 5 The Scientifically Planned Order
+## 5. The Scientifically Planned Order
 ---
 
 ### 5.1 Contributors
