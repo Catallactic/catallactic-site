@@ -1808,7 +1808,7 @@ En que se gasto el dinero? Bueno, si, esa es la parte festiva, en compras a plaz
 Lo que quiero entender es cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos. Aqui el M1 que subio 2.5% anual entre 1921 to 1929
 
 <div style={{textAlign: 'center'}}>
-	<img src="https://www.researchgate.net/profile/Richard-Burdekin/publication/345393055/figure/fig3/AS:965992264003585@1607321911766/M1-money-supply-vs-consumer-price-index-1915-1921.ppm" width="80%"></img>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img>
 </div>
 
 
