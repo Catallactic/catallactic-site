@@ -1890,22 +1890,12 @@ Baumol-Tobin Model of Transaction Demand for Money
 
 
 
-#### 5.3.1 Money Aggregates
-
-https://www.tradingpedia.com/forex-academy/monetary-aggregates/
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://www.tradingpedia.com/wp-content/uploads/2020/08/measures-in-us.svg" width="60%"></img>
-</div>
-
-https://ebrary.net/14166/economics/monetary_aggregates_central_banks
-
-https://x.com/Barchart/status/1948551103668207687?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1948551103668207687%7Ctwgr%5E23eca737d1da512bed0b8027c1975097a9e64716%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.burbuja.info%2Finmobiliaria%2Ftemas%2F2-parte-esto-va-a-reventar-en-cualquier-momento-estais-avisados.2171107%2Fpage-401
-
-#### 5.3.2 Increasing the Supply of Money
 
 
-##### 5.3.2.1 Quantity Theory of Money
+#### 5.3.1 Increasing the Supply of Money
+
+
+#### 5.3.2 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -1928,10 +1918,49 @@ Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (mo
 
 Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
 
-##### 5.3.2.2 The Money Multiplier
+#### 5.3.3 The Money Multiplier
+
+#### 5.3.4 Fractional Reserve
+
+1. Lawrence H. White: Defends free banking with fractional reserves as historically stable.
+
+2. George Selgin Position: Advocates for market-driven FRB under free banking.
+
+3. Steven Horwitz (1964–2021). Position: Supported FRB as compatible with Austrian business cycle theory (ABCT) if unregulated.
+
+4. Israel Kirzner (b. 1930) Position: Open to FRB as part of entrepreneurial market processes.
+
+Critics’ Rebuttals (Rothbardians & Hoppe)
+
+Hans-Hermann Hoppe: Argues FRB is always fraudulent because demand deposits imply 100% availability.
+
+Jesús Huerta de Soto: In "Money, Bank Credit, and Economic Cycles" (2006), claims FRB violates property rights (banks lend out deposits they don’t own).
+
+Murray Rothbard: Compared FRB to counterfeiting (banks create fake receipts for nonexistent reserves).
+
+1900–1913	National/State Banking Laws	National banks: 15–25% reserves (cash/vault). State rules varied widely.
+1913	Federal Reserve Act	Tiered reserves: 12–18% for demand deposits, 5% for time deposits.
+1920s	Fed’s Loose Policy	Effective reserves fell due to credit expansion. No formal ratio changes.
+1931	Fed Tightens (Depression)	Raised reserve requirements, worsening bank failures.
+1933	Glass-Steagall Act	Strengthened reserves + FDIC insurance to prevent runs.
 
 
-##### 5.3.2.3 Determinants of Money Supply (Exogenous vs. Endogenous Money)
+#### 5.3.5 Determinants of Money Supply (Exogenous vs. Endogenous Money)
+
+
+#### 5.3.6 Money Aggregates
+
+https://www.tradingpedia.com/forex-academy/monetary-aggregates/
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.tradingpedia.com/wp-content/uploads/2020/08/measures-in-us.svg" width="60%"></img>
+</div>
+
+https://ebrary.net/14166/economics/monetary_aggregates_central_banks
+
+https://x.com/Barchart/status/1948551103668207687?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1948551103668207687%7Ctwgr%5E23eca737d1da512bed0b8027c1975097a9e64716%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.burbuja.info%2Finmobiliaria%2Ftemas%2F2-parte-esto-va-a-reventar-en-cualquier-momento-estais-avisados.2171107%2Fpage-401
+
+M0 = Central Bank Balance Sheet
 
 
 
@@ -1941,7 +1970,63 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 
 
-#### 5.3.3 Monetary Policy Evolution
+
+### 5.4 Financial Markets
+
+
+
+#### 5.4.1 Market Equilibrium Analysis
+
+
+##### 5.4.1.1 Partial Equilibrium
+
+
+##### 5.4.1.2 General Equilibrium
+
+In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
+</div>
+<br/>
+
+New Keynesian Dynamic Stochastic General Equilibrium (DSGE) models
+
+
+
+#### 5.4.2 Financial Ecosystem
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/usdsystem.jpeg" width="60%"></img>
+</div>
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/market_financial.svg" width="100%"></img>
+</div>
+
+
+Money Markets
+
+Capital Markets
+
+Financial Assets
+
+
+Banks
+
+Corporations
+
+
+
+
+#### 5.4.3 Methodology
+
+Scientific Method
+
+
+### 5.5 Monetary Policy
+
+#### 5.5.1 Evolution
 
 Classical Economics (Late 18th–19th Century) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe.
 
@@ -1993,9 +2078,27 @@ New Challenges: Low neutral interest rates (r-star declined due to secular stagn
 COVID-19 & Modern Monetary Policy (2020–Present) Pandemic Response: Ultra-low rates + massive QE (Fed’s balance sheet ballooned to ~$9 trillion). Fiscal-monetary coordination (e.g., direct stimulus payments). Inflation Surge (2021–2023): Post-COVID demand + supply shocks led to high inflation. Aggressive tightening (Fed hiked rates from 0% to 5.25–5.5% in 2022–2023). New Debates: "Higher for longer" rates vs. pre-2020 low-rate regime. Balance sheet reduction (quantitative tightening). Digital currencies (CBDCs) and fintech disruptions.
 
 
+#### 5.5.2 Central Bank Targets
 
-#### 5.3.4 Monetary Policy Instruments
 
+##### 5.5.2.1 Inflation
+
+Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+
+Milton Friedman (1912–2006)
+
+Monetarism – "Inflation is always and everywhere a monetary phenomenon."
+
+Permanent Income Hypothesis (consumption smoothing).
+
+Argued for steady money growth (k-percent rule).
+
+##### 5.5.2.2 Employment
+
+
+
+
+#### 5.5.3 Instruments
 
 Inflation Targeting vs. Price Level Targeting
 
@@ -2007,10 +2110,10 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.3.4.1 Fiscal Coordination
+##### 5.5.3.1 Fiscal Coordination
 
 
-##### 5.3.4.2 Interest Rates
+##### 5.5.3.2 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -2026,92 +2129,15 @@ The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guid
 
 Negative Interest Rate Policy (NIRP)
 
-##### 5.3.4.3 QE
+##### 5.5.3.3 QE
 
-##### 5.3.4.4 Loans
+##### 5.5.3.4 Loans
 
-##### 5.3.4.5 Forward Guidance
+##### 5.5.3.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-
-
-
-
-
-
-### 5.4 Financial Markets
-
-#### 5.4.1 Financial Ecosystem
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/usdsystem.jpeg" width="60%"></img>
-</div>
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/market_financial.svg" width="100%"></img>
-</div>
-
-#### 5.4.2 Methodology
-
-Scientific Method
-
-
-
-#### 5.4.3 Central Bank Balance Sheet
-
-#### 5.4.4 Central Bank Targets
-
-##### 5.4.4.1 Inflation
-
-Monetarism – "Inflation is always and everywhere a monetary phenomenon."
-
-Milton Friedman (1912–2006)
-
-Monetarism – "Inflation is always and everywhere a monetary phenomenon."
-
-Permanent Income Hypothesis (consumption smoothing).
-
-Argued for steady money growth (k-percent rule).
-
-##### 5.4.4.2 Employment
-
-#### 5.4.5 Central Bank Balance Sheet
-
-
-#### 5.4.6 Banks
-
-##### 5.4.6.1 Fractional Reserve
-
-
-#### 5.4.7 Market Equilibrium Analysis
-
-
-##### 5.4.7.1 Partial Equilibrium
-
-
-##### 5.4.7.2 General Equilibrium
-
-In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-94036-2_20/MediaObjects/520738_1_En_20_Fig2_HTML.png" width="80%"></img>
-</div>
-<br/>
-
-New Keynesian Dynamic Stochastic General Equilibrium (DSGE) models
-
-
-#### 5.4.8 Money Markets
-
-#### 5.4.9 Capital Markets
-
-##### 5.4.9.1 Financial Assets
-
-
-
-
-#### 5.4.10 Channels of Monetary Policy Transmission
+##### 5.5.3.6 Channels of Monetary Policy Transmission
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
@@ -2121,14 +2147,18 @@ https://www.rba.gov.au/education/resources/explainers/the-transmission-of-moneta
 Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation (cumulative process).
 
 
-### 5.5 The Planned Real Economy
+
+
+
+
+### 5.6 The Planned Real Economy
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/market_positive.svg" width="100%"></img>
 </div>
 
 
-#### 5.5.1 Allocation of Resources
+#### 5.6.1 Allocation of Resources
 
 Against Central Planning
 Mises' calculation problem: Without market prices, rational allocation is impossible
@@ -2150,7 +2180,7 @@ Macro-level interventions distort the micro-level price signals needed for prope
 
 Entry Barriers
 
-#### 5.5.2. Cantillon Effects
+#### 5.6.2. Cantillon Effects
 
 
 
@@ -2158,26 +2188,26 @@ Entry Barriers
 
 
 
-### 5.6 Consequences of Money Supply Increase
+### 5.7 Consequences of Money Supply Increase
 
 
 
-#### 5.6.1 Supply and Demand Mismatches
+#### 5.7.1 Supply and Demand Mismatches
 
 
-##### 5.6.1.1 Deflation
+##### 5.7.1.1 Deflation
 
-##### 5.6.1.2 Inflation
-
-
-##### 5.6.1.3 Stagflation
+##### 5.7.1.2 Inflation
 
 
-##### 5.6.1.4 Hyperinflation
+##### 5.7.1.3 Stagflation
+
+
+##### 5.7.1.4 Hyperinflation
 
 
 
-#### 5.6.2 Austrian business cycle theory (ABCT)
+#### 5.7.2 Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
@@ -2196,7 +2226,7 @@ Financial Instability Hypothesis – boom-bust cycles due to credit.
 
 Bubble after bubble
 
-#### 5.6.3 Currency Debasement
+#### 5.7.3 Currency Debasement
 
 purchasing power 
 
@@ -2206,7 +2236,7 @@ purchasing power
 <br/>
 
 
-#### 5.6.4 The Split Economy
+#### 5.7.4 The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -2220,7 +2250,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 5.6.5 The Squeezed Real Economy
+#### 5.7.5 The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -2231,7 +2261,7 @@ The monetary base for real economy is squeezed by the financial economy, and shr
 
 The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
-#### 5.6.6 Reset
+#### 5.7.6 Reset
 
 War as Reset
 
@@ -2242,7 +2272,7 @@ No Reset
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
 
-### 5.7 System (In)Stability
+### 5.8 System (In)Stability
 
 An scientifically planned system
 
@@ -2329,23 +2359,7 @@ Robert Mundell (1932–2021). Optimum Currency Area (OCA) theory (criteria for s
 
 ##### 7.1.1.1 Competitive Value for Money
 
-##### 7.1.1.2 Fractional Reserve
 
-1. Lawrence H. White: Defends free banking with fractional reserves as historically stable.
-
-2. George Selgin Position: Advocates for market-driven FRB under free banking.
-
-3. Steven Horwitz (1964–2021). Position: Supported FRB as compatible with Austrian business cycle theory (ABCT) if unregulated.
-
-4. Israel Kirzner (b. 1930) Position: Open to FRB as part of entrepreneurial market processes.
-
-Critics’ Rebuttals (Rothbardians & Hoppe)
-
-Hans-Hermann Hoppe: Argues FRB is always fraudulent because demand deposits imply 100% availability.
-
-Jesús Huerta de Soto: In "Money, Bank Credit, and Economic Cycles" (2006), claims FRB violates property rights (banks lend out deposits they don’t own).
-
-Murray Rothbard: Compared FRB to counterfeiting (banks create fake receipts for nonexistent reserves).
 
 
 
