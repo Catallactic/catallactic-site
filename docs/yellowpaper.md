@@ -1790,9 +1790,9 @@ Determinants of Money Supply
 
 #### 4.6.4 Gold Standard Not Enough (Roaring Twenties, 1929)
 
-Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que, para mi, abrieron la caja de los truenos.
+Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que abrieron la caja de los truenos.
 
-La pregunta es: si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? Leo 5 causas monetarias y no se en que porcentaje influyen
+La pregunta es: si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? 5 causas monetarias:
 
 * USA se salio del patron oro entre 1917 y 1919 y se puso a imprimir con inflacion del 18%​
 ​
