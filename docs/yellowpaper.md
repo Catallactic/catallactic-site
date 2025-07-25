@@ -203,7 +203,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
 		</tr>
 		<tr>
-			<td>Subjective value, money neutral, fractional reserve</td>
+			<td>Subjective value, money neutral, sound money with fractional reserve</td>
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
@@ -1822,7 +1822,7 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
 		</tr>
 		<tr>
-			<td>Subjective value, money neutral, fractional reserve</td>
+			<td>Subjective value, money neutral, sound money with fractional reserve</td>
 		</tr>
 		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Keynesian<br/>1936–present</td>
@@ -1890,7 +1890,15 @@ Baumol-Tobin Model of Transaction Demand for Money
 
 
 
-#### 5.3.1 Current Definition
+#### 5.3.1 Money Aggregates
+
+https://www.tradingpedia.com/forex-academy/monetary-aggregates/
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.tradingpedia.com/wp-content/uploads/2020/08/measures-in-us.svg" width="60%"></img>
+</div>
+
+https://ebrary.net/14166/economics/monetary_aggregates_central_banks
 
 #### 5.3.2 Increasing the Supply of Money
 
@@ -1933,15 +1941,29 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 #### 5.3.3 Monetary Policy Evolution
 
-Classical Economics (1913-1930s). Dominant Influence: Central banks followed classical monetary theory, which emphasized: Gold Standard Discipline: Money supply was tied to gold reserves, limiting inflation but causing deflationary pressures. Price-Specie Flow Mechanism (David Hume): Trade imbalances corrected automatically via gold flows. Laissez-Faire Approach: Minimal intervention in the economy; central banks acted mainly as "lenders of last resort" (Bagehot’s Rule). Fed’s Early Role: The Fed (established 1913) initially focused on financial stability, not macroeconomic management.
+Classical Economics (Late 18th–19th Century) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe.
 
-Transition to Keynesian Economics (1930s–1945). Great Depression (1929–1939): The gold standard collapsed (1931–1933), exposing flaws in classical theory. Keynesian Revolution: John Maynard Keynes’ The General Theory of Employment, Interest and Money (1936) argued for: Active Central Banking: Monetary policy should stabilize demand (lower interest rates, liquidity injections). Fiscal-Monetary Coordination: Central banks worked with governments (e.g., New Deal, WWII spending). 
+Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
 
-Bretton Woods (1944): The IMF and World Bank were created, embedding Keynesian ideas into post-war monetary systems.
+* During WWI (1914–1918), most nations suspended gold convertibility to print money for war financing, causing inflation and exchange rate volatility. The U.S. (which entered the war in 1917) also suspended gold exports but remained officially on the gold standard domestically. The U.S. suspended gold convertibility in 1917 to fund WWI efforts (following European nations like Britain). The Federal Reserve (established in 1913) printed money freely, causing inflation (~15% in 1918). Gold exports were banned, and the Federal Reserve prioritized funding the war effort over gold convertibility. But... The Fed did not fully enforce gold-backed discipline—money supply was still loose, fueling the 1920s boom.
 
-The End of Bretton Woods (1971). 
-Event: President Nixon suspended the dollar’s convertibility to gold, ending the fixed exchange rate system.
-Impact: Currencies began floating, leading to greater exchange rate volatility. Central banks (especially the Fed) gained more control over domestic monetary policy but had to manage inflation without the discipline of gold backing.
+* The United States returned to the gold standard de jure in 1919 (post-WWI) and de facto by 1925, as part of a global effort to restore pre-war monetary stability during the Roaring Twenties. The U.S. legally reinstated the gold standard in 1919, allowing gold exports again. The dollar was pegged at $20.67 per ounce of gold (same as pre-1914). 
+
+The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary policy, technological innovation, debt-driven speculation, and post-war economic shifts—even though the U.S. had technically restored the gold standard after WWI. Here’s what drove the boom before the 1929 crash:
+
+1. Post-WWI Monetary Policy: A "Managed" Gold Standard. The Fed kept interest rates artificially low (even after returning to gold de jure in 1919) to: Help Europe (especially Britain) stabilize its post-war economy. Avoid deflation (which had caused the 1920–21 depression). Result: Easy money → cheap credit → stock and real estate speculation.
+2. Debt and Consumer Credit Explosion. Installment buying (new for cars, radios, appliances) fueled demand. Margin trading (borrowing to buy stocks) amplified market speculation.
+3. Technological and Industrial Boom. Mass production (Ford’s Model T, electrification) slashed costs and boosted productivity. New industries (automobiles, radio, movies, aviation) created jobs and wealth.
+4. Government Policies Favoring Business. Andrew Mellon’s tax cuts (top rate dropped from 73% to 25%) boosted investor confidence. Laissez-faire regulation allowed unchecked corporate growth and stock manipulation.
+5. Global Gold Flows to the U.S. Post-WWI, the U.S. held over 40% of the world’s gold reserves (Europe was drained). This allowed the Fed to print more dollars without immediate inflation (gold inflows offset money growth).
+6. Psychological Factors: "Eternal Prosperity" Myth. Many believed the business cycle was dead (Keynes mocked this as the "Great Illusion"). Stock market mania—the Dow rose 500% from 1921 to 1929 before crashing.
+
+Why Didn’t the Gold Standard Stop the Boom? The Fed "sterilized" gold inflows (prevented automatic contraction). Britain’s overvalued gold peg (1925) forced the Fed to keep rates low to help London. Global imbalances (U.S. as creditor nation) delayed gold-standard discipline. The gold standard didn’t prevent the boom because central banks (especially the Fed) manipulated it. When reality hit in 1929, the system collapsed catastrophically. Lesson: Even under a gold standard, central banks can fuel bubbles—a warning for modern finance.
+The gold standard collapsed (1931–1933), exposing flaws in classical theory. 
+
+Transition to Keynesian Economics (1933–1945). Great Depression (1929–1939). FDR took the U.S. off gold in 1933 (Emergency Banking Act), devalued the dollar to $35/oz, and banned private gold hoarding. Keynesian Revolution: John Maynard Keynes’ The General Theory of Employment, Interest and Money (1936) argued for: Active Central Banking: Monetary policy should stabilize demand (lower interest rates, liquidity injections). Fiscal-Monetary Coordination: Central banks worked with governments (e.g., New Deal, WWII spending). 
+
+Bretton Woods (1944): The IMF and World Bank were created, embedding Keynesian ideas into post-war monetary systems. The End of Bretton Woods (1971).  Event: President Nixon suspended the dollar’s convertibility to gold, ending the fixed exchange rate system. Impact: Currencies began floating, leading to greater exchange rate volatility. Central banks (especially the Fed) gained more control over domestic monetary policy but had to manage inflation without the discipline of gold backing.
 
 High Inflation & Monetarism (1970s–Early 1980s). Monetarists. Money Supply Growth Targeting
 Challenge: Oil shocks (1973, 1979) and loose monetary policies led to stagflation (high inflation + high unemployment).
