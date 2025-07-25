@@ -184,18 +184,18 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 		<tr className="green">
 			<td>Objective value (land), sound money</td>
 		</tr>
-		<tr>
+		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Classical<br/>1770s-1870s</td>
 			<td>Adam Smith (1723-1790), Thomas Robert Malthus (1766-1834), Jean-Baptiste Say (1767-1832), David Ricardo (1772–1823), John Stuart Mill (1806-1873)</td>
 		</tr>
-		<tr>
+		<tr className="green">
 			<td>Objective value, Long-run money neutral, sound money</td>
 		</tr>
-		<tr className="lightgreen">
+		<tr className="blue2">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Marxist<br/>1867–present</td>
 			<td>Karl Marx (1818 - 1883), Friedrich Engels (1820-1895), Rosa Luxemburg (1871-1919)</td>
 		</tr>
-		<tr className="lightgreen">
+		<tr className="blue2">
 			<td>Objective value, money no neutral, sound money</td>
 		</tr>
 		<tr>
@@ -203,7 +203,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
 		</tr>
 		<tr>
-			<td>Subjective value, money neutral, sound money with fractional reserve</td>
+			<td>Subjective value, money neutral, fractional reserve</td>
 		</tr>
 		<tr className="green">
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
@@ -1559,13 +1559,6 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 			<td>Objective value, Long-run money neutral, sound money</td>
 		</tr>
 		<tr>
-			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870s–present</td>
-			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
-		</tr>
-		<tr>
-			<td>Subjective value, money neutral, sound money with fractional reserve</td>
-		</tr>
-		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Austrian School<br/>1871–1980s</td>
 			<td>Frédéric Bastiat (1801–1850), Carl Menger (1840-1921), Eugen von Böhm-Bawerk (1851–1914), Friedrich Von Wieser (1851-1926), Ludwig von Mises (1881-1973), Joseph A. Schumpeter (1883-1950), Henry Hazlitt (1894–1993), Friedrich Hayek (1899-1992), Murray N. Rothbard (1926-1995)</td>
 		</tr>
@@ -1825,6 +1818,13 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 			<td>Objective value, money non-neutral but supported currency manipulation</td>
 		</tr>
 		<tr>
+			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870s–present</td>
+			<td>Alfred Marshall (1842-1924), Léon Walras (1834-1910), William Stanley Jevons (1835–1882), Vilfredo Pareto (1848–1923), Knut Wicksell (1851–1926), Irving Fisher (1867–1947)</td>
+		</tr>
+		<tr>
+			<td>Subjective value, money neutral, fractional reserve</td>
+		</tr>
+		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Keynesian<br/>1936–present</td>
 			<td>John Maynard Keynes (1883–1946), Paul Samuelson (1915–2009)</td>
 		</tr>
@@ -1947,7 +1947,7 @@ Classical Economics (Late 18th–19th Century) the dominant economic school was 
 
 Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
 
-* During WWI (1914–1918), most nations suspended gold convertibility to print money for war financing, causing inflation and exchange rate volatility. The U.S. (which entered the war in 1917) also suspended gold exports but remained officially on the gold standard domestically. The U.S. suspended gold convertibility in 1917 to fund WWI efforts (following European nations like Britain). The Federal Reserve (established in 1913) printed money freely, causing inflation (~15% in 1918). Gold exports were banned, and the Federal Reserve prioritized funding the war effort over gold convertibility. But... The Fed did not fully enforce gold-backed discipline—money supply was still loose, fueling the 1920s boom.
+* During WWI (1914–1918), most nations suspended gold convertibility to print money for war financing, causing inflation and exchange rate volatility. The U.S. (which entered the war in 1917) also suspended gold exports but remained officially on the gold standard domestically. The U.S. suspended gold convertibility in 1917 to fund WWI efforts (following European nations like Britain). The Federal Reserve (established in 1913) printed money freely, causing inflation (~15% in 1918). Gold exports were banned, and the Federal Reserve prioritized funding the war effort over gold convertibility. But... The Fed did not fully enforce gold-backed discipline—money supply was still loose, fueling the 1920s boom. Post-1913: The Federal Reserve Act formalized fractional reserve banking, allowing banks to lend most deposits while relying on the Fed as a lender of last resort.
 
 * The United States returned to the gold standard de jure in 1919 (post-WWI) and de facto by 1925, as part of a global effort to restore pre-war monetary stability during the Roaring Twenties. The U.S. legally reinstated the gold standard in 1919, allowing gold exports again. The dollar was pegged at $20.67 per ounce of gold (same as pre-1914). 
 
