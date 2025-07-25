@@ -1983,7 +1983,11 @@ https://www.tradingpedia.com/forex-academy/monetary-aggregates/
 
 https://ebrary.net/14166/economics/monetary_aggregates_central_banks
 
-https://x.com/Barchart/status/1948551103668207687?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1948551103668207687%7Ctwgr%5E23eca737d1da512bed0b8027c1975097a9e64716%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.burbuja.info%2Finmobiliaria%2Ftemas%2F2-parte-esto-va-a-reventar-en-cualquier-momento-estais-avisados.2171107%2Fpage-401
+JUST IN 🚨: U.S. M2 Money Supply jumps to new all-time high of $22 Trillion 📈📈
+<div style={{textAlign: 'center'}}>
+	<img src="https://pbs.twimg.com/media/Gwqku4NWUAEa1j0?format=jpg&name=large" width="60%"></img>
+</div>
+
 
 M0 = Central Bank Balance Sheet
 
