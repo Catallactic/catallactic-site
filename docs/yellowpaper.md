@@ -1772,11 +1772,10 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 #### 4.6.1 Small Market
 
-No Credit Availability
-Money Supply limitations
-Supply of Goods Limitations
-Demand of good Limitation
-Determinants of Money Supply
+* Limited Credit Availability
+* Money Supply limitations
+* Supply of Goods Limitations
+* Demand of good Limitation
 
 #### 4.6.2 Externalities
 
