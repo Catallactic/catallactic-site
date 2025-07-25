@@ -1791,7 +1791,7 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que abrieron la caja de los truenos.
 
-La pregunta es: si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? 5 causas monetarias:
+si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? 5 causas monetarias:
 
 * USA se salio del patron oro entre 1917 y 1919 y se puso a imprimir con inflacion del 18%​
 ​
@@ -1805,7 +1805,7 @@ La pregunta es: si USA estuvo en patron oro durante los anyos 20..... de donde s
 ​
 En que se gasto el dinero? Bueno, si, esa es la parte festiva, en compras a plazos de coches, boom tecnologico, cenitas y juerguitas del can can y el charleston. Ah bueno y la bolsa, si.
 
-Lo que quiero entender es cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos. Aqui el M1 que subio 2.5% anual entre 1921 to 1929
+cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos?
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img>
