@@ -1754,6 +1754,91 @@ Higher-Order Goods (raw materials, machines, factories).
 
 Lower-Order Goods (final consumer products).
 
+
+
+### 4.4 Gold Standard Crisis
+
+The 19th century witnessed several major economic crises, many of which were tied to financial panics, industrialization, and global trade disruptions. Here are some of the most significant ones:
+
+1. Panic of 1819 (U.S.)
+Causes: Post-War of 1812 economic boom, over-speculation in land, credit contraction by the Second Bank of the United States.
+
+Effects: Bank failures, foreclosures, unemployment, and a sharp drop in agricultural prices.
+
+Significance: First major peacetime financial crisis in the U.S., leading to calls for economic reforms.
+
+2. Panic of 1837 (Global, especially U.S. & UK)
+Causes: Speculative lending, collapse of land bubbles, withdrawal of British capital from U.S. banks, and the Specie Circular (requiring gold/silver for land purchases).
+
+Effects: Bank runs, business failures, five-year depression, high unemployment.
+
+Significance: Led to the Independent Treasury System in the U.S. to separate government funds from private banks.
+
+3. Panic of 1857 (Global, particularly U.S. & Europe)
+Causes: Overexpansion of railroads, decline in grain prices due to the Crimean War's end, collapse of Ohio Life Insurance and Trust Company.
+
+Effects: Stock market crash, bank failures, unemployment, and a brief but severe recession.
+
+Significance: First globally synchronized financial crisis due to telegraph-facilitated news spread.
+
+4. Long Depression (1873–1896, Global)
+Causes:
+
+Panic of 1873: Overinvestment in railroads, collapse of Jay Cooke & Company (major U.S. bank), Vienna Stock Exchange crash.
+
+Deflationary pressures: Technological advances increased supply faster than demand, gold standard constraints.
+
+Effects: Prolonged economic stagnation, falling prices, high unemployment, labor unrest (e.g., Great Railroad Strike of 1877).
+
+Significance: One of the longest depressions in history, leading to debates over monetary policy (gold vs. silver).
+
+5. Panic of 1893 (U.S.)
+Causes: Railroad overbuilding, collapse of the Philadelphia and Reading Railroad, depletion of gold reserves, Sherman Silver Purchase Act (undermining confidence in gold-backed currency).
+
+Effects: 500+ bank failures, severe unemployment (up to 20%), Coxey’s Army protest march.
+
+Significance: Deepened calls for monetary reform, contributing to the rise of the Populist and Progressive movements.
+
+Other Notable Crises:
+1847 UK Financial Crisis: Linked to railway speculation and grain imports due to the Irish Potato Famine.
+
+1866 Overend Gurney Crisis (UK): Collapse of a major discount bank, leading to a credit crunch.
+
+6. Panic of 1907 (U.S.)
+Causes: Speculation in copper stocks, failed attempt to corner the market (by F. Augustus Heinze), bank runs.
+
+Effects: Stock market crash, bank failures, credit freeze.
+
+Response: J.P. Morgan intervened to stabilize banks, leading to the creation of the Federal Reserve (1913).
+
+7. Panic of 1929 (U.S.)
+
+Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que abrieron la caja de los truenos.
+
+si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? 5 causas monetarias:
+
+* USA se salio del patron oro entre 1917 y 1919 y se puso a imprimir con inflacion del 18%​
+​
+* llegada de oro de todo el mundo a USA que permitio imprimir mas dinero​
+​
+* la FED tiro los tipos de interes al suelo -> mas demanda​
+​
+* bajadas de impuestos de 75% a 25% -> mas liquidez​
+​
+* la reserva fraccionaria que tanto gustaba a los neoclasicos bajo de 20% a casi cero creo -> mas dinero​
+
+<br/>
+​
+cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos?
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img>
+</div>
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.lynalden.com/wp-content/uploads/depression-total-debt.jpg" width="60%"></img>
+</div>
+
 ### 4.5 System Stability
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
@@ -1787,31 +1872,9 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 #### 4.6.4 Not a Silver Bullet
 
-Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que abrieron la caja de los truenos.
 
-si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? 5 causas monetarias:
 
-* USA se salio del patron oro entre 1917 y 1919 y se puso a imprimir con inflacion del 18%​
-​
-* llegada de oro de todo el mundo a USA que permitio imprimir mas dinero​
-​
-* la FED tiro los tipos de interes al suelo -> mas demanda​
-​
-* bajadas de impuestos de 75% a 25% -> mas liquidez​
-​
-* la reserva fraccionaria que tanto gustaba a los neoclasicos bajo de 20% a casi cero creo -> mas dinero​
 
-<br/>
-​
-cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos?
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img>
-</div>
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://www.lynalden.com/wp-content/uploads/depression-total-debt.jpg" width="60%"></img>
-</div>
 
 <!--div>
 	<table>
@@ -1985,6 +2048,8 @@ Murray Rothbard: Compared FRB to counterfeiting (banks create fake receipts for 
 1931	Fed Tightens (Depression)	Raised reserve requirements, worsening bank failures.
 1933	Glass-Steagall Act	Strengthened reserves + FDIC insurance to prevent runs.
 
+https://whatismoney.info/fractional-reserve-banking-inflation/
+
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://privatevaults.com.au/wp-content/uploads/2022/07/fractionalreservebanking.webp" width="60%"></img>
@@ -1994,6 +2059,11 @@ Murray Rothbard: Compared FRB to counterfeiting (banks create fake receipts for 
 #### 5.3.5 The Money Multiplier
 
 If the reserve ratio (i.e. reserve requirement) is higher, the money multiplier is weaker, and there will be less change to the money supply.
+
+The formula for money supply is MS = (MB x MM). 
+MS is Money Supply
+MB, or monetary base, is the amount of money in circulation or available to be circulated. 
+MM is money multiplier, which is calculated by dividing 1 by the required reserve set by the Federal Reserve.
 
 #### 5.3.6 Money Aggregates
 
@@ -2017,7 +2087,7 @@ M0 = Central Bank Balance Sheet
 #### 5.3.7 Layered Money
 
 
-
+https://andyjagoe.com/how-to-understand-money/
 
 
 
@@ -2132,7 +2202,7 @@ COVID-19 & Modern Monetary Policy (2020–Present) Pandemic Response: Ultra-low 
 #### 5.5.2 Central Bank Targets
 
 
-##### 5.5.2.1 Inflation
+##### 5.5.2.1 Price Inflation
 
 Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
@@ -2245,9 +2315,9 @@ Entry Barriers
 #### 5.7.1 Supply and Demand Mismatches
 
 
-##### 5.7.1.1 Deflation
+##### 5.7.1.1 Price Deflation
 
-##### 5.7.1.2 Inflation
+##### 5.7.1.2 Price Inflation
 
 
 ##### 5.7.1.3 Stagflation
@@ -2597,7 +2667,9 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 ## 10 The Representative Digital Competition
 ---
 
+https://andyjagoe.com/the-internet-of-money/
 
+https://berkshares.org/?ref=andyjagoe.com
 
 
 ### 10.2 A Standard for Private Representative Digital Money
