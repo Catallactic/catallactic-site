@@ -1578,19 +1578,17 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 
 ### 4.2 Principles
 
-#### 4.2.3 Property Rights
+#### 4.2.1 Negative Liberty
 
-#### 4.2.3 Negative Liberty
+Property Rights
 
-#### 4.2.3 Free Will
+Free Will
 
-#### 4.2.3 Normative Economics
-
-#### 4.2.2 Methodological Individualism
+Methodological Individualism
 
 All social phenomena (markets, institutions, prices) must be explained by reference to the actions, choices, and intentions of individuals, not abstract groups or aggregates.
 
-
+#### 4.2.2 Human Action
 
 The concept of "spontaneous order" is the idea that complex, functional systems emerge organically from decentralized human actions, without central design, is a cornerstone of Austrian economics and classical liberal thought.
 
@@ -1598,9 +1596,9 @@ Adam Smith (1723–1790) argues that The "invisible hand"—markets coordinate s
 
 Ludwig von Mises (1881–1973) says that "The market is a process, actuated by the interplay of the actions of the various individuals cooperating under the division of labor." Human Action (1949).
 
-#### 4.2.1 Praxeology
+Praxeology
 
-#### 4.2.1 Human Action
+#### 4.2.3 Normative Economics
 
 
 
@@ -1766,7 +1764,7 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 	<img src="https://assets.ltkcontent.com/images/8616/negative-feedback-loop_27c5571306.jpg" width="60%"></img>
 </div>
 
-### 4.6 Limitations
+### 4.6 Sound Money Limitations
 
 
 
@@ -1787,7 +1785,7 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 </div>
 
 
-#### 4.6.4 Gold Standard Not Enough (Roaring Twenties, 1929)
+#### 4.6.4 Not a Silver Bullet
 
 Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que abrieron la caja de los truenos.
 
@@ -1802,15 +1800,35 @@ si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez
 * bajadas de impuestos de 75% a 25% -> mas liquidez​
 ​
 * la reserva fraccionaria que tanto gustaba a los neoclasicos bajo de 20% a casi cero creo -> mas dinero​
-​
-En que se gasto el dinero? Bueno, si, esa es la parte festiva, en compras a plazos de coches, boom tecnologico, cenitas y juerguitas del can can y el charleston. Ah bueno y la bolsa, si.
 
+<br/>
+​
 cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos?
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img>
 </div>
 
+<div style={{textAlign: 'center'}}>
+	<img src="https://www.lynalden.com/wp-content/uploads/depression-total-debt.jpg" width="60%"></img>
+</div>
+
+<!--div>
+	<table>
+		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
+			<td>
+				<div style={{textAlign: 'center'}}>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="60%"></img>
+				</div>
+			</td>
+			<td>
+				<div style={{textAlign: 'center'}}>
+					<img src="https://www.lynalden.com/wp-content/uploads/depression-total-debt.jpg" width="80%"></img>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div-->
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
@@ -1891,14 +1909,18 @@ cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto
 ### 5.2 Principles
 
 
-#### 5.2.1 Positive Liberty
+Positive Liberty
 
 
-#### 5.2.2 Positive Economics
+Positive Economics
 
 
 
-#### 5.2.3 The Demand for Money
+
+### 5.3 Fiat Money
+
+
+#### 5.3.1 The Demand for Money
 
 Keynes’s Liquidity Preference Theory. 
 
@@ -1906,21 +1928,13 @@ Keynesian Revolution – fiscal & monetary policy for demand management.
 
 Baumol-Tobin Model of Transaction Demand for Money
 
-#### 5.2.4 Investment Demand
 
 
+#### 5.3.2 Increasing the Supply of Money
 
-### 5.3 Fiat Money
+Determinants of Money Supply: Exogenous vs. Endogenous Money
 
-
-
-
-
-
-#### 5.3.1 Increasing the Supply of Money
-
-
-#### 5.3.2 Quantity Theory of Money
+#### 5.3.3 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -1943,7 +1957,9 @@ Alfred Marshall (1842–1924). Developed the Cambridge Cash Balance Approach (mo
 
 Friedman argued that money supply growth should be stable to prevent inflation or deflation ("Money is a veil" in the long run, but crucial in the short run).
 
-#### 5.3.3 The Money Multiplier
+
+
+
 
 #### 5.3.4 Fractional Reserve
 
@@ -1970,8 +1986,14 @@ Murray Rothbard: Compared FRB to counterfeiting (banks create fake receipts for 
 1933	Glass-Steagall Act	Strengthened reserves + FDIC insurance to prevent runs.
 
 
-#### 5.3.5 Determinants of Money Supply (Exogenous vs. Endogenous Money)
+<div style={{textAlign: 'center'}}>
+	<img src="https://privatevaults.com.au/wp-content/uploads/2022/07/fractionalreservebanking.webp" width="60%"></img>
+</div>
 
+
+#### 5.3.5 The Money Multiplier
+
+If the reserve ratio (i.e. reserve requirement) is higher, the money multiplier is weaker, and there will be less change to the money supply.
 
 #### 5.3.6 Money Aggregates
 
@@ -1992,7 +2014,7 @@ JUST IN 🚨: U.S. M2 Money Supply jumps to new all-time high of $22 Trillion �
 M0 = Central Bank Balance Sheet
 
 
-
+#### 5.3.7 Layered Money
 
 
 
@@ -2116,8 +2138,6 @@ Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
 Milton Friedman (1912–2006)
 
-Monetarism – "Inflation is always and everywhere a monetary phenomenon."
-
 Permanent Income Hypothesis (consumption smoothing).
 
 Argued for steady money growth (k-percent rule).
@@ -2186,8 +2206,9 @@ Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation 
 	<img src="/img/market_positive.svg" width="100%"></img>
 </div>
 
+#### 5.6.1 Investment Demand
 
-#### 5.6.1 Allocation of Resources
+#### 5.6.2 Allocation of Resources
 
 Against Central Planning
 Mises' calculation problem: Without market prices, rational allocation is impossible
@@ -2209,7 +2230,7 @@ Macro-level interventions distort the micro-level price signals needed for prope
 
 Entry Barriers
 
-#### 5.6.2. Cantillon Effects
+#### 5.6.3 Cantillon Effects
 
 
 
