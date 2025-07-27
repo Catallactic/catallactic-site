@@ -1767,86 +1767,81 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 ### 4.5 System Stability
 
-The 19th century witnessed several major economic crises, many of which were tied to financial panics, industrialization, and global trade disruptions. Here are some of the most significant ones:
+The gold standard is still prone t collapse to fix bad investments.
 
-1. Panic of 1819 (U.S.)
-Causes: Post-War of 1812 economic boom, over-speculation in land, credit contraction by the Second Bank of the United States.
+#### 4.5.1 19th Century
 
-Effects: Bank failures, foreclosures, unemployment, and a sharp drop in agricultural prices.
+Classical Economics (Late 18th–19th Century) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on Bad Investments.
 
-Significance: First major peacetime financial crisis in the U.S., leading to calls for economic reforms.
-
-2. Panic of 1837 (Global, especially U.S. & UK)
-Causes: Speculative lending, collapse of land bubbles, withdrawal of British capital from U.S. banks, and the Specie Circular (requiring gold/silver for land purchases).
-
-Effects: Bank runs, business failures, five-year depression, high unemployment.
-
-Significance: Led to the Independent Treasury System in the U.S. to separate government funds from private banks.
-
-3. Panic of 1857 (Global, particularly U.S. & Europe)
-Causes: Overexpansion of railroads, decline in grain prices due to the Crimean War's end, collapse of Ohio Life Insurance and Trust Company.
-
-Effects: Stock market crash, bank failures, unemployment, and a brief but severe recession.
-
-Significance: First globally synchronized financial crisis due to telegraph-facilitated news spread.
-
-4. Long Depression (1873–1896, Global)
-Causes:
-
-Panic of 1873: Overinvestment in railroads, collapse of Jay Cooke & Company (major U.S. bank), Vienna Stock Exchange crash.
-
-Deflationary pressures: Technological advances increased supply faster than demand, gold standard constraints.
-
-Effects: Prolonged economic stagnation, falling prices, high unemployment, labor unrest (e.g., Great Railroad Strike of 1877).
-
-Significance: One of the longest depressions in history, leading to debates over monetary policy (gold vs. silver).
-
-5. Panic of 1893 (U.S.)
-Causes: Railroad overbuilding, collapse of the Philadelphia and Reading Railroad, depletion of gold reserves, Sherman Silver Purchase Act (undermining confidence in gold-backed currency).
-
-Effects: 500+ bank failures, severe unemployment (up to 20%), Coxey’s Army protest march.
-
-Significance: Deepened calls for monetary reform, contributing to the rise of the Populist and Progressive movements.
-
-Other Notable Crises:
-1847 UK Financial Crisis: Linked to railway speculation and grain imports due to the Irish Potato Famine.
-
-1866 Overend Gurney Crisis (UK): Collapse of a major discount bank, leading to a credit crunch.
-
-6. Panic of 1907 (U.S.)
-Causes: Speculation in copper stocks, failed attempt to corner the market (by F. Augustus Heinze), bank runs.
-
-Effects: Stock market crash, bank failures, credit freeze.
-
-Response: J.P. Morgan intervened to stabilize banks, leading to the creation of the Federal Reserve (1913).
-
-7. Panic of 1929 (U.S.)
-
-Por aquellos tiempos los clasicos de patron oro fueron dejandole el sitio a los neoclasicos, que creian en neutralidad del dinero y que abrieron la caja de los truenos.
-
-si USA estuvo en patron oro durante los anyos 20..... de donde salio la liquidez para el despiporre de los anyos 20, (causado artificalmente para salir de la WWI)? 5 causas monetarias:
-
-* USA se salio del patron oro entre 1917 y 1919 y se puso a imprimir con inflacion del 18%​
-​
-* llegada de oro de todo el mundo a USA que permitio imprimir mas dinero​
-​
-* la FED tiro los tipos de interes al suelo -> mas demanda​
-​
-* bajadas de impuestos de 75% a 25% -> mas liquidez​
-​
-* la reserva fraccionaria que tanto gustaba a los neoclasicos bajo de 20% a casi cero creo -> mas dinero​
-
-<br/>
-​
-cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto bruscamente en 1928 y 1929 con las subidas de tipos?
-
-<div style={{textAlign: 'center'}}>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img>
+<div>
+	<table>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Panic of 1819 (U.S.)</td>
+			<td>Causes: Post-War of 1812 economic boom, over-speculation in land, credit contraction by the Second Bank of the United States. Effects: Bank failures, foreclosures, unemployment, and a sharp drop in agricultural prices. Significance: First major peacetime financial crisis in the U.S., leading to calls for economic reforms.</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Panic of 1837 (Global, especially U.S. & UK)</td>
+			<td>Causes: Speculative lending, collapse of land bubbles, withdrawal of British capital from U.S. banks, and the Specie Circular (requiring gold/silver for land purchases). Effects: Bank runs, business failures, five-year depression, high unemployment. Significance: Led to the Independent Treasury System in the U.S. to separate government funds from private banks.</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>1847 UK Financial Crisis</td>
+			<td>Linked to railway speculation and grain imports due to the Irish Potato Famine.</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Panic of 1857 (Global, particularly U.S. & Europe)</td>
+			<td>Causes: Overexpansion of railroads, decline in grain prices due to the Crimean War's end, collapse of Ohio Life Insurance and Trust Company. Effects: Stock market crash, bank failures, unemployment, and a brief but severe recession. Significance: First globally synchronized financial crisis due to telegraph-facilitated news spread.</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>1866 Overend Gurney Crisis (UK)</td>
+			<td>Collapse of a major discount bank, leading to a credit crunch.</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Long Depression (1873–1896, Global)</td>
+			<td>Panic of 1873: Overinvestment in railroads, collapse of Jay Cooke & Company (major U.S. bank), Vienna Stock Exchange crash. Deflationary pressures: Technological advances increased supply faster than demand, gold standard constraints. Effects: Prolonged economic stagnation, falling prices, high unemployment, labor unrest (e.g., Great Railroad Strike of 1877). Significance: One of the longest depressions in history, leading to debates over monetary policy (gold vs. silver).</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Panic of 1893 (U.S.)</td>
+			<td>Causes: Railroad overbuilding, collapse of the Philadelphia and Reading Railroad, depletion of gold reserves, Sherman Silver Purchase Act (undermining confidence in gold-backed currency). Effects: 500+ bank failures, severe unemployment (up to 20%), Coxey’s Army protest march. Significance: Deepened calls for monetary reform, contributing to the rise of the Populist and Progressive movements.</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Panic of 1907 (U.S.)</td>
+			<td>Causes: Speculation in copper stocks, failed attempt to corner the market (by F. Augustus Heinze), bank runs. Effects: Stock market crash, bank failures, credit freeze. Response: J.P. Morgan intervened to stabilize banks, leading to the creation of the Federal Reserve (1913).</td>
+		</tr>
+	</table>
 </div>
 
-<div style={{textAlign: 'center'}}>
-	<img src="https://www.lynalden.com/wp-content/uploads/depression-total-debt.jpg" width="60%"></img>
-</div>
+#### 4.5.1 Roaring Twenties
+
+Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
+
+The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary policy, technological innovation, debt-driven speculation, and post-war economic shifts—even though the U.S. had technically restored the gold standard after WWI. Here’s what drove the boom before the 1929 crash: 
+* (1) Easy money on 1917-1919 out of gold standard 
+* ​(2) The Fed kept interest rates artificially low (even after returning to gold de jure in 1919) to: Help Europe (especially Britain) stabilize its post-war economy. Avoid deflation (which had caused the 1920–21 depression). Result: Easy money → cheap credit → stock and real estate speculation. 
+* (3) Andrew Mellon’s tax cuts (top rate dropped from 73% to 25%) boosted investor confidence. Laissez-faire regulation allowed unchecked corporate growth and stock manipulation. 
+* (4) Global Gold Flows to the U.S. Post-WWI, the U.S. held over 40% of the world’s gold reserves (Europe was drained). This allowed the Fed to print more dollars without immediate inflation (gold inflows offset money growth). 
+* (5) Fractional Reserve<br/><br/>
+
+<div style={{textAlign: 'center'}}><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img></div><br/><br/>
+
+<div style={{textAlign: 'center'}}><img src="https://www.lynalden.com/wp-content/uploads/depression-total-debt.jpg" width="60%"></img></div><br/><br/>
+
+Panic of 1929 (US). The Fed raised interest rates in 1928–29 to curb speculation, making borrowing more expensive and reducing liquidity. This policy strangled economic growth just as the bubble was peaking.
+
+#### 4.5.1 Bretton Woods System
+
+The Bretton Woods system (1944–1971) was primarily shaped by Keynesian economics, though it also incorporated elements of classical liberalism and pragmatic internationalism. Here’s how different schools influenced it:
+
+1. Dominant School: Keynesian Economics. John Maynard Keynes (UK) was the most influential economist at Bretton Woods. His ideas on managed capitalism, fiscal stimulus, and avoiding deflation shaped the system. The International Monetary Fund (IMF) and World Bank were designed with Keynesian principles in mind: Exchange rate stability (pegged but adjustable rates) to avoid competitive devaluations. Capital controls to allow governments to pursue full employment without speculative attacks. Counter-cyclical lending (IMF) to help countries avoid austerity during downturns.
+
+2. Compromise with Classical Liberalism (U.S. Vision)
+Harry Dexter White (U.S. Treasury) represented a more market-oriented, U.S.-centric approach, influenced by neoclassical and monetarist ideas. The U.S. insisted on: Gold convertibility (dollar pegged to gold, others to the dollar) to maintain discipline. Freer trade (leading to the later General Agreement on Tariffs and Trade, GATT). This reflected a belief in open markets, but with Keynesian safeguards.
+
+3. Rejection of Laissez-Faire & Austrian Economics. The Great Depression had discredited gold standard orthodoxy. Bretton Woods explicitly rejected unregulated finance, instead promoting government intervention to stabilize economies.
+
+Legacy: A Keynesian-Embedded Liberal Order
+The system was a middle ground between socialism and unfettered capitalism, often called "embedded liberalism" (a term coined by John Ruggie).
+
+It collapsed in 1971 (Nixon Shock) when Keynesian policies faced stagflation, giving way to neoliberalism/monetarism under Reagan/Thatcher.
 
 ### 4.6 Sound Money Limitations
 
@@ -1871,11 +1866,7 @@ cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto
 
 #### 4.6.4 Not a Silver Bullet
 
-2 concepts of stablity:
-
-* stability to create a price system which coordinates all actors
-
-* stability to prevent debt making the system colapse (supply vs debt)
+Despite using a stable currrency guarantees cantillon effects free, it does not provide stability on bad investments and users are impacted by bad investments of other users just because they share the same currency
 
 
 
@@ -1917,7 +1908,7 @@ cual de las 5 causas monetarias provoco el subidon de liquidez, el cual se corto
 	<table>
 		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
 			<th>School</th>
-			<th>Authors / Ideas</th>
+			<th>Comments</th>
 		</tr>
 		<tr>
 			<td rowSpan="2" style={{overflowX : 'auto', textAlign: 'center'}}>Mercantilism<br/>1500s-1700s</td>
@@ -2152,55 +2143,43 @@ Scientific Method
 
 #### 5.5.1 Evolution
 
-Classical Economics (Late 18th–19th Century) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe.
 
-Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
-
-* During WWI (1914–1918), most nations suspended gold convertibility to print money for war financing, causing inflation and exchange rate volatility. The U.S. (which entered the war in 1917) also suspended gold exports but remained officially on the gold standard domestically. The U.S. suspended gold convertibility in 1917 to fund WWI efforts (following European nations like Britain). The Federal Reserve (established in 1913) printed money freely, causing inflation (~15% in 1918). Gold exports were banned, and the Federal Reserve prioritized funding the war effort over gold convertibility. But... The Fed did not fully enforce gold-backed discipline—money supply was still loose, fueling the 1920s boom. Post-1913: The Federal Reserve Act formalized fractional reserve banking, allowing banks to lend most deposits while relying on the Fed as a lender of last resort.
-
-* The United States returned to the gold standard de jure in 1919 (post-WWI) and de facto by 1925, as part of a global effort to restore pre-war monetary stability during the Roaring Twenties. The U.S. legally reinstated the gold standard in 1919, allowing gold exports again. The dollar was pegged at $20.67 per ounce of gold (same as pre-1914). 
-
-The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary policy, technological innovation, debt-driven speculation, and post-war economic shifts—even though the U.S. had technically restored the gold standard after WWI. Here’s what drove the boom before the 1929 crash:
-
-1. Post-WWI Monetary Policy: A "Managed" Gold Standard. The Fed kept interest rates artificially low (even after returning to gold de jure in 1919) to: Help Europe (especially Britain) stabilize its post-war economy. Avoid deflation (which had caused the 1920–21 depression). Result: Easy money → cheap credit → stock and real estate speculation.
-2. Debt and Consumer Credit Explosion. Installment buying (new for cars, radios, appliances) fueled demand. Margin trading (borrowing to buy stocks) amplified market speculation.
-3. Technological and Industrial Boom. Mass production (Ford’s Model T, electrification) slashed costs and boosted productivity. New industries (automobiles, radio, movies, aviation) created jobs and wealth.
-4. Government Policies Favoring Business. Andrew Mellon’s tax cuts (top rate dropped from 73% to 25%) boosted investor confidence. Laissez-faire regulation allowed unchecked corporate growth and stock manipulation.
-5. Global Gold Flows to the U.S. Post-WWI, the U.S. held over 40% of the world’s gold reserves (Europe was drained). This allowed the Fed to print more dollars without immediate inflation (gold inflows offset money growth).
-6. Psychological Factors: "Eternal Prosperity" Myth. Many believed the business cycle was dead (Keynes mocked this as the "Great Illusion"). Stock market mania—the Dow rose 500% from 1921 to 1929 before crashing.
-
-Why Didn’t the Gold Standard Stop the Boom? The Fed "sterilized" gold inflows (prevented automatic contraction). Britain’s overvalued gold peg (1925) forced the Fed to keep rates low to help London. Global imbalances (U.S. as creditor nation) delayed gold-standard discipline. The gold standard didn’t prevent the boom because central banks (especially the Fed) manipulated it. When reality hit in 1929, the system collapsed catastrophically. Lesson: Even under a gold standard, central banks can fuel bubbles—a warning for modern finance.
-The gold standard collapsed (1931–1933), exposing flaws in classical theory. 
-
-Transition to Keynesian Economics (1933–1945). Great Depression (1929–1939). FDR took the U.S. off gold in 1933 (Emergency Banking Act), devalued the dollar to $35/oz, and banned private gold hoarding. Keynesian Revolution: John Maynard Keynes’ The General Theory of Employment, Interest and Money (1936) argued for: Active Central Banking: Monetary policy should stabilize demand (lower interest rates, liquidity injections). Fiscal-Monetary Coordination: Central banks worked with governments (e.g., New Deal, WWII spending). 
-
-Bretton Woods (1944): The IMF and World Bank were created, embedding Keynesian ideas into post-war monetary systems. The End of Bretton Woods (1971).  Event: President Nixon suspended the dollar’s convertibility to gold, ending the fixed exchange rate system. Impact: Currencies began floating, leading to greater exchange rate volatility. Central banks (especially the Fed) gained more control over domestic monetary policy but had to manage inflation without the discipline of gold backing.
-
-High Inflation & Monetarism (1970s–Early 1980s). Monetarists. Money Supply Growth Targeting
-Challenge: Oil shocks (1973, 1979) and loose monetary policies led to stagflation (high inflation + high unemployment).
-Policy Response: The Fed, under Paul Volcker (1979–1987), adopted monetarist principles (following Milton Friedman) and raised interest rates dramatically (peaking at ~20% in 1981). Focus shifted to controlling money supply growth to curb inflation, even at the cost of a recession.
-Result: Inflation fell sharply by the mid-1980s, establishing central bank credibility.
-
-The Great Moderation (Mid-1980s–2007). Inflation Targeting (New Keynesians).
-Inflation targeting became the consensus among central banks by the 2000s, blending New Keynesian theory with pragmatic lessons from monetarism.
-Shift to Inflation Targeting: Central banks (e.g., New Zealand in 1990, followed by the UK, Canada, and others) adopted explicit inflation targets (typically ~2%). The Fed, under Alan Greenspan, focused on price stability while implicitly targeting inflation.
-Tools: Primary tool: Adjusting short-term interest rates (federal funds rate in the U.S.). Reliance on macroeconomic models (e.g., Taylor Rule) to guide rate decisions. 
-Outcome: Low and stable inflation, steady growth, and fewer recessions (until 2008). Influences:
-* The adoption of inflation targeting as a monetary policy framework was primarily advocated by the New Keynesian school of economics, though it also drew support from monetarist and neoclassical synthesis ideas. A clear target (e.g., 2%) avoids the time-inconsistency problem (Kydland & Prescott, 1977). New Keynesians formalized inflation targeting with forward-looking models (e.g., Woodford’s Interest and Prices). Bernanke (later Fed Chair) co-authored influential papers supporting the framework.
-* "Inflation is always and everywhere a monetary phenomenon" → Central banks should focus on price stability. Friedman opposed pure discretion, favoring rules-based policy (e.g., constant money growth).
-* Combines Keynesian short-term stabilization with neoclassical long-term neutrality of money. Taylor Rule (1993) provided a formulaic approach to setting rates based on inflation/output gaps.
-
-Global Financial Crisis (2008) & Unconventional Policy. 
-Challenge: The 2008 crisis forced central banks to innovate as interest rates hit zero lower bound (ZLB).
-New Tools: Quantitative Easing (QE): Large-scale asset purchases (bonds, MBS) to inject liquidity. Forward Guidance: Communicating future policy intentions to shape expectations Negative Interest Rates (e.g., ECB, Bank of Japan).
-Expanded Mandates: Central banks (like the Fed) took on roles in financial stability and unemployment (e.g., dual mandate reinforced).
-After the 2008 Global Financial Crisis (GFC), policymakers relied on a mix of economic ideas, but the dominant framework was an evolved form of New Keynesian economics, supplemented by insights from Post-Keynesianism, Monetarism (liquidity-focused), and Behavioral Economics.
-
-Post-Crisis Era (2010s). Normalization Attempts: The Fed and others tried to raise rates and shrink balance sheets (2015–2018), but markets became addicted to cheap money.
-New Challenges: Low neutral interest rates (r-star declined due to secular stagnation). Rising debt levels made economies more sensitive to rate hikes.
-
-COVID-19 & Modern Monetary Policy (2020–Present) Pandemic Response: Ultra-low rates + massive QE (Fed’s balance sheet ballooned to ~$9 trillion). Fiscal-monetary coordination (e.g., direct stimulus payments). Inflation Surge (2021–2023): Post-COVID demand + supply shocks led to high inflation. Aggressive tightening (Fed hiked rates from 0% to 5.25–5.5% in 2022–2023). New Debates: "Higher for longer" rates vs. pre-2020 low-rate regime. Balance sheet reduction (quantitative tightening). Digital currencies (CBDCs) and fintech disruptions.
-
+<div>
+	<table>
+		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
+			<th>School</th>
+			<th>Comments</th>
+		</tr>
+		<tr>
+			<td>Neoclassical 1914–1918</td>
+			<td>Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology. During WWI (1914–1918), most nations suspended gold convertibility to print money for war financing, causing inflation and exchange rate volatility. The U.S. suspended gold convertibility in 1917 to fund WWI efforts (following European nations like Britain). The Federal Reserve (established in 1913) printed money freely, causing inflation (~15% in 1918). The United States returned to the gold standard de jure in 1919 (post-WWI) and de facto by 1925, as part of a global effort to restore pre-war monetary stability during the Roaring Twenties.</td>
+		</tr>
+		<tr>
+			<td>Keynesian Economics (1933–1945)</td>
+			<td>Transition to Keynesian Economics (1933–1945). Great Depression (1929–1939). FDR took the U.S. off gold in 1933 (Emergency Banking Act), devalued the dollar to $35/oz, and banned private gold hoarding. Keynesian Revolution: John Maynard Keynes’ The General Theory of Employment, Interest and Money (1936) argued for: Active Central Banking: Monetary policy should stabilize demand (lower interest rates, liquidity injections). Fiscal-Monetary Coordination: Central banks worked with governments (e.g., New Deal, WWII spending).</td>
+		</tr>
+		<tr>
+			<td>Monetarism (1970s–Early 1980s)</td>
+			<td>High Inflation & Monetarism (1970s–Early 1980s). Monetarists. Money Supply Growth Targeting. Challenge: Oil shocks (1973, 1979) and loose monetary policies led to stagflation (high inflation + high unemployment). Policy Response: The Fed, under Paul Volcker (1979–1987), adopted monetarist principles (following Milton Friedman) and raised interest rates dramatically (peaking at ~20% in 1981). Focus shifted to controlling money supply growth to curb inflation, even at the cost of a recession. Result: Inflation fell sharply by the mid-1980s, establishing central bank credibility.</td>
+		</tr>
+		<tr>
+			<td>New Keynesians Mid-1980s–2007</td>
+			<td>The Great Moderation (Mid-1980s–2007). Inflation Targeting (New Keynesians). Inflation targeting became the consensus among central banks by the 2000s, blending New Keynesian theory with pragmatic lessons from monetarism. Shift to Inflation Targeting: Central banks (e.g., New Zealand in 1990, followed by the UK, Canada, and others) adopted explicit inflation targets (typically ~2%). The Fed, under Alan Greenspan, focused on price stability while implicitly targeting inflation. Tools: Primary tool: Adjusting short-term interest rates (federal funds rate in the U.S.). Reliance on macroeconomic models (e.g., Taylor Rule) to guide rate decisions.  Outcome: Low and stable inflation, steady growth, and fewer recessions (until 2008). Influences: * The adoption of inflation targeting as a monetary policy framework was primarily advocated by the New Keynesian school of economics, though it also drew support from monetarist and neoclassical synthesis ideas. A clear target (e.g., 2%) avoids the time-inconsistency problem (Kydland & Prescott, 1977). New Keynesians formalized inflation targeting with forward-looking models (e.g., Woodford’s Interest and Prices). Bernanke (later Fed Chair) co-authored influential papers supporting the framework. * "Inflation is always and everywhere a monetary phenomenon" → Central banks should focus on price stability. Friedman opposed pure discretion, favoring rules-based policy (e.g., constant money growth). * Combines Keynesian short-term stabilization with neoclassical long-term neutrality of money. Taylor Rule (1993) provided a formulaic approach to setting rates based on inflation/output gaps.</td>
+		</tr>
+		<tr>
+			<td>Global Financial Crisis (2008)</td>
+			<td>Global Financial Crisis (2008) & Unconventional Policy.  Challenge: The 2008 crisis forced central banks to innovate as interest rates hit zero lower bound (ZLB). New Tools: Quantitative Easing (QE): Large-scale asset purchases (bonds, MBS) to inject liquidity. Forward Guidance: Communicating future policy intentions to shape expectations Negative Interest Rates (e.g., ECB, Bank of Japan). Expanded Mandates: Central banks (like the Fed) took on roles in financial stability and unemployment (e.g., dual mandate reinforced). After the 2008 Global Financial Crisis (GFC), policymakers relied on a mix of economic ideas, but the dominant framework was an evolved form of New Keynesian economics, supplemented by insights from Post-Keynesianism, Monetarism (liquidity-focused), and Behavioral Economics.</td>
+		</tr>
+		<tr>
+			<td>Post-Crisis Era (2010s)</td>
+			<td>Post-Crisis Era (2010s). Normalization Attempts: The Fed and others tried to raise rates and shrink balance sheets (2015–2018), but markets became addicted to cheap money. New Challenges: Low neutral interest rates (r-star declined due to secular stagnation). Rising debt levels made economies more sensitive to rate hikes.</td>
+		</tr>
+		<tr>
+			<td>Modern Monetary Policy (2020–Present)</td>
+			<td>COVID-19 & Modern Monetary Policy (2020–Present) Pandemic Response: Ultra-low rates + massive QE (Fed’s balance sheet ballooned to ~$9 trillion). Fiscal-monetary coordination (e.g., direct stimulus payments). Inflation Surge (2021–2023): Post-COVID demand + supply shocks led to high inflation. Aggressive tightening (Fed hiked rates from 0% to 5.25–5.5% in 2022–2023). New Debates: "Higher for longer" rates vs. pre-2020 low-rate regime. Balance sheet reduction (quantitative tightening). Digital currencies (CBDCs) and fintech disruptions.</td>
+		</tr>
+	</table>
+</div>
 
 #### 5.5.2 Central Bank Targets
 
