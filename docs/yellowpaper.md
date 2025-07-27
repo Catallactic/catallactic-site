@@ -1864,6 +1864,14 @@ Under the Bretton Woods system (1944–1971), tax levels in major economies—pa
 * Latin America/Asia: Taxes were lower (often < 30% top rate), but tariffs and state-owned enterprises played a bigger fiscal role.
 * Bretton Woods institutions (IMF/World Bank) encouraged tax reforms to fund development.
 
+##### 4.5.1.2 Fractional Reserve
+
+United States: 10–20% for commercial banks (varied by deposit type). The Fed adjusted reserves to manage credit growth without breaking the gold peg.
+
+Europe: Higher reserves in war-damaged economies (e.g., UK, France) to prevent inflation. Some countries used direct credit controls (limiting loan volumes) instead of just reserve ratios.
+
+Developing Nations: Often had higher reserve ratios (up to 30%) due to weaker banking systems.
+
 ### 4.6 Sound Money Limitations
 
 
