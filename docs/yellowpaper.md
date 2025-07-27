@@ -1810,7 +1810,7 @@ Classical Economics (Late 18th–19th Century) the dominant economic school was 
 	</table>
 </div>
 
-#### 4.5.1 Roaring Twenties
+#### 4.5.1 Roaring Twenties (1920–1929)
 
 Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
 
@@ -1827,7 +1827,7 @@ The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary polic
 
 Panic of 1929 (US). The Fed raised interest rates in 1928–29 to curb speculation, making borrowing more expensive and reducing liquidity. This policy strangled economic growth just as the bubble was peaking.
 
-#### 4.5.1 Bretton Woods System
+#### 4.5.1 Bretton Woods System (1944–1971)
 
 The Bretton Woods system (1944–1971) was primarily shaped by Keynesian economics, though it also incorporated elements of classical liberalism and pragmatic internationalism. Here’s how different schools influenced it:
 
@@ -1842,6 +1842,27 @@ Legacy: A Keynesian-Embedded Liberal Order
 The system was a middle ground between socialism and unfettered capitalism, often called "embedded liberalism" (a term coined by John Ruggie).
 
 It collapsed in 1971 (Nixon Shock) when Keynesian policies faced stagflation, giving way to neoliberalism/monetarism under Reagan/Thatcher.
+
+##### 4.5.1.1 Bretton Woods Taxes
+
+Under the Bretton Woods system (1944–1971), tax levels in major economies—particularly the U.S. and Western Europe—were historically high by today's standards, reflecting Keynesian economic policies aimed at funding post-war reconstruction, social welfare, and Cold War military spending. Here’s a breakdown:
+
+1. United States: High Top Marginal Tax Rates To fund WWII debt, the Marshall Plan, and the Cold War (military, space race).
+* Top Income Tax Rate:
+* 1944–1963: 91% (peaked during WWII, remained near this level under Truman, Eisenhower, and Kennedy).
+* 1964: Reduced to 77% (Kennedy-Johnson tax cuts).
+* 1971: 70% (Nixon era, just before Bretton Woods collapsed).
+* Corporate Taxes: Around 50% (high but with loopholes).
+* Capital Gains Tax: 25% (lower than income taxes to encourage investment).
+
+2. Western Europe: Even Higher Taxes + Welfare States Post-war rebuilding required massive public investment.
+* UK: Top rate over 90% (Labour gov't nationalized industries, built NHS).
+* France/Germany: High VAT (value-added taxes) introduced later, but income/corporate taxes were steep.
+* Scandinavia: Already adopting high taxes (50%+) to fund universal welfare.
+
+3. Developing World: Lower but Rising Taxes
+* Latin America/Asia: Taxes were lower (often < 30% top rate), but tariffs and state-owned enterprises played a bigger fiscal role.
+* Bretton Woods institutions (IMF/World Bank) encouraged tax reforms to fund development.
 
 ### 4.6 Sound Money Limitations
 
