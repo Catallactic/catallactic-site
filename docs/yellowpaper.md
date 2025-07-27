@@ -1767,14 +1767,24 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 ### 4.5 System Stability
 
-The gold standard is still prone t collapse to fix bad investments.
+The gold standard is still prone to collapse to fix bad investments.
 
-#### 4.5.1 19th Century
+#### 4.5.1 Classical Economics (1776–1870)
 
-Classical Economics (Late 18th–19th Century) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on Bad Investments.
+Classical Economics (1776–1870) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on Bad Investments. It started on 1776 when Smith published Wealth of Nations which marked the decline of mercantilism.
+
+Key Economic Trends Behind These Crises: Transition from Agrarian to Industrial Economies → Boom-bust cycles. Unregulated Banking & Speculation → Frequent panics. Gold Standard Constraints → Deflationary pressures. Globalization (Telegraph, Rail, Trade) → Faster crisis transmission.
 
 <div>
 	<table>
+		<tr style={{overflowX : 'auto'}}>
+			<td>Post-American Revolution Economic Crisis (1780s–1790s)</td>
+			<td>Causes: War debts from the American Revolution (1775–1783). Hyperinflation in the U.S. due to worthless Continental currency. Trade disruptions with Britain. Effects: Led to the U.S. Constitution (1787) and Hamilton’s financial reforms (Bank of the U.S., debt assumption). France’s financial crisis (partly due to aiding the U.S.) contributed to the French Revolution (1789).</td>
+		</tr>
+		<tr style={{overflowX : 'auto'}}>
+			<td>The Panic of 1796–1797 (UK & U.S.)</td>
+			<td>Causes: Speculative bubble in British land and canals. Bank of England tightened credit to curb inflation. U.S. bank failures due to overexpansion. Effects: Recession in Britain and America. Highlighted the dangers of unregulated banking.</td>
+		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Panic of 1819 (U.S.)</td>
 			<td>Causes: Post-War of 1812 economic boom, over-speculation in land, credit contraction by the Second Bank of the United States. Effects: Bank failures, foreclosures, unemployment, and a sharp drop in agricultural prices. Significance: First major peacetime financial crisis in the U.S., leading to calls for economic reforms.</td>
