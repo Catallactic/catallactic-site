@@ -1775,11 +1775,11 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 ### 4.5 System Stability
 
-The gold standard is still prone to collapse to caused by malinvestments fueled by intervention.
+The gold standard is still prone to collapse caused by malinvestments fueled by government intervention.
 
 #### 4.5.1 Classical Economics (1776–1870)
 
-Classical Economics (1776–1870) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on Bad Investments. It started on 1776 when Smith published Wealth of Nations which marked the decline of mercantilism.
+Classical Economics (1776–1870) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on malinvestments. It started on 1776 when Smith published Wealth of Nations which marked the decline of mercantilism.
 
 <div>
 	<table>
@@ -1826,7 +1826,7 @@ Classical Economics (1776–1870) the dominant economic school was the Classical
 	</table>
 </div>
 
-#### 4.5.1 Roaring Twenties (1920–1929)
+#### 4.5.1 Neoclassical Roaring Twenties (1920–1929)
 
 Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
 
@@ -1843,7 +1843,7 @@ The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary polic
 
 Panic of 1929 (US). The Fed raised interest rates in 1928–29 to curb speculation, making borrowing more expensive and reducing liquidity. This policy strangled economic growth just as the bubble was peaking.
 
-#### 4.5.1 Bretton Woods System (1944–1971)
+#### 4.5.1 Keynesian Bretton Woods (1944–1971)
 
 The Bretton Woods system (1944–1971) was primarily shaped by Keynesian economics, though it also incorporated elements of classical liberalism and pragmatic internationalism. Here’s how different schools influenced it:
 
@@ -1911,7 +1911,7 @@ Developing Nations: Often had higher reserve ratios (up to 30%) due to weaker ba
 
 #### 4.6.4 Not a Silver Bullet
 
-Despite using a stable currrency guarantees cantillon effects free, it does not provide stability on bad investments and users are impacted by bad investments of other users just because they share the same currency
+Despite using a stable currrency guarantees cantillon effects free, it does not provide stability on malinvestments and users are impacted by malinvestments of other users just because they share the same currency
 
 
 
