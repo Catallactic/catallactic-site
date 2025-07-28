@@ -964,6 +964,14 @@ SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – peopl
 ## 3. Practical Monetary Theory
 ---
 
+### 3.1 Monetary Standards
+
+Variants of Gold Standard
+
+https://www.hardmoneyhistory.com/types-of-gold-standard/
+
+file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
+
 ### 3.1 Known Money Configurations
 
 #### 3.1.1 Barter
@@ -1767,55 +1775,53 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 
 ### 4.5 System Stability
 
-The gold standard is still prone to collapse to fix bad investments.
+The gold standard is still prone to collapse to caused by malinvestments fueled by intervention.
 
 #### 4.5.1 Classical Economics (1776–1870)
 
 Classical Economics (1776–1870) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on Bad Investments. It started on 1776 when Smith published Wealth of Nations which marked the decline of mercantilism.
 
-Key Economic Trends Behind These Crises: Transition from Agrarian to Industrial Economies → Boom-bust cycles. Unregulated Banking & Speculation → Frequent panics. Gold Standard Constraints → Deflationary pressures. Globalization (Telegraph, Rail, Trade) → Faster crisis transmission.
-
 <div>
 	<table>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Post-American Revolution Economic Crisis (1780s–1790s)</td>
-			<td>Causes: War debts from the American Revolution (1775–1783). Hyperinflation in the U.S. due to worthless Continental currency. Trade disruptions with Britain. Effects: Led to the U.S. Constitution (1787) and Hamilton’s financial reforms (Bank of the U.S., debt assumption). France’s financial crisis (partly due to aiding the U.S.) contributed to the French Revolution (1789).</td>
+			<td>To finance the Revolutionary War (1775–1783), the Continental Congress **printed "Continental Dollars" with no gold/silver backing**. By 1781, rampant money-printing led to hyperinflation ("Not worth a Continental"). Prices soared, savings evaporated, and the currency collapsed. The U.S. federal government (under the Articles of Confederation) had no power to tax, so it relied on debt and IOUs. **States issued their own unbacked paper currencies**, creating monetary chaos.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>The Panic of 1796–1797 (UK & U.S.)</td>
-			<td>Causes: Speculative bubble in British land and canals. Bank of England tightened credit to curb inflation. U.S. bank failures due to overexpansion. Effects: Recession in Britain and America. Highlighted the dangers of unregulated banking.</td>
+			<td>The Bank of England (BoE) **suspended gold convertibility in 1797** due to gold shortages caused by the French Revolutionary Wars (1792–1802). The British government borrowed heavily from the BoE, leading to inflation of paper money. The First Bank of the United States (1791–1811) **expanded credit**, fueling land speculation.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Panic of 1819 (U.S.)</td>
-			<td>Causes: Post-War of 1812 economic boom, over-speculation in land, credit contraction by the Second Bank of the United States. Effects: Bank failures, foreclosures, unemployment, and a sharp drop in agricultural prices. Significance: First major peacetime financial crisis in the U.S., leading to calls for economic reforms.</td>
+			<td>The Second Bank of the United States (SBUS) (a quasi-central bank) **lowered interest rates**, fueling malinvestment in land and agriculture. When the SBUS tightened money, overextended businesses collapsed.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Panic of 1837 (Global, especially U.S. & UK)</td>
-			<td>Causes: Speculative lending, collapse of land bubbles, withdrawal of British capital from U.S. banks, and the Specie Circular (requiring gold/silver for land purchases). Effects: Bank runs, business failures, five-year depression, high unemployment. Significance: Led to the Independent Treasury System in the U.S. to separate government funds from private banks.</td>
+			<td>President Andrew Jackson vetoed the recharter of the Second Bank of the U.S. (1832) and moved federal deposits to state banks ("pet banks"). State banks **issued excessive paper money unbacked** by specie.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>1847 UK Financial Crisis</td>
-			<td>Linked to railway speculation and grain imports due to the Irish Potato Famine.</td>
+			<td>The Railway Mania (1843–1846) saw wild speculation in British railroads, fueled by easy credit. Investors borrowed heavily to buy shares, expecting endless profits. The Bank of England’s **low interest rates and private bank lending** created a false boom.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Panic of 1857 (Global, particularly U.S. & Europe)</td>
-			<td>Causes: Overexpansion of railroads, decline in grain prices due to the Crimean War's end, collapse of Ohio Life Insurance and Trust Company. Effects: Stock market crash, bank failures, unemployment, and a brief but severe recession. Significance: First globally synchronized financial crisis due to telegraph-facilitated news spread.</td>
+			<td>The California Gold Rush (1848–1855) **increased the money supply**, lowering interest rates artificially Causing malinvestment in railroads.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>1866 Overend Gurney Crisis (UK)</td>
-			<td>Collapse of a major discount bank, leading to a credit crunch.</td>
+			<td>The 1866 British financial crisis - centered around the collapse of Overend, Gurney & Co. As a quasi-bank, Overend operated on **fractional reserves**, unable to meet obligations when confidence faltered. Bank of England **injected liquidity** to prevent systemic collapse.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Long Depression (1873–1896, Global)</td>
-			<td>Panic of 1873: Overinvestment in railroads, collapse of Jay Cooke & Company (major U.S. bank), Vienna Stock Exchange crash. Deflationary pressures: Technological advances increased supply faster than demand, gold standard constraints. Effects: Prolonged economic stagnation, falling prices, high unemployment, labor unrest (e.g., Great Railroad Strike of 1877). Significance: One of the longest depressions in history, leading to debates over monetary policy (gold vs. silver).</td>
+			<td>The U.S. was on a de facto gold standard, but the **Sherman Silver Purchase Act** (1890) required the Treasury to buy large amounts of silver and issue notes redeemable in both gold and silver (bimetallism). This created uncertainty about whether dollars would be redeemed in gold or depreciated silver. **Fractional Reserve Banking**: Banks issued more loans to roads ad farmers than they could cover with gold reserves, making them vulnerable to panics (Rothbard’s critique of unbacked credit). President Grover Cleveland repealed the **Sherman Silver Act** (1893) to stop gold outflows but failed to restore confidence immediately. The Treasury issued bonds to replenish gold reserves (a bailout of sorts). The depression lasted until 1897, with unemployment reaching 20%.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
-			<td>Panic of 1893 (U.S.)</td>
-			<td>Causes: Railroad overbuilding, collapse of the Philadelphia and Reading Railroad, depletion of gold reserves, Sherman Silver Purchase Act (undermining confidence in gold-backed currency). Effects: 500+ bank failures, severe unemployment (up to 20%), Coxey’s Army protest march. Significance: Deepened calls for monetary reform, contributing to the rise of the Populist and Progressive movements.</td>
+			<td>The Baring Crisis (1890, UK & Argentina)</td>
+			<td>The Baring Brothers bank nearly collapsed due to overexposure to Argentine debt. Banks took excessive risks knowing the **Bank of England would bail them out**.</td>
 		</tr>
 		<tr style={{overflowX : 'auto'}}>
 			<td>Panic of 1907 (U.S.)</td>
-			<td>Causes: Speculation in copper stocks, failed attempt to corner the market (by F. Augustus Heinze), bank runs. Effects: Stock market crash, bank failures, credit freeze. Response: J.P. Morgan intervened to stabilize banks, leading to the creation of the Federal Reserve (1913).</td>
+			<td>U.S. banks operated on a fractional reserve system. When depositors lost confidence, bank runs began. The Klondike Gold Rush (1896–1899) and **gold discoveries** in South Africa **increased the U.S. money supply**. This led to **lower interest rates**, fueling stock market and real estate speculation. When gold inflows slowed, credit tightened, exposing overleveraged trusts and banks.</td>
 		</tr>
 	</table>
 </div>
@@ -1825,11 +1831,11 @@ Key Economic Trends Behind These Crises: Transition from Agrarian to Industrial 
 Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
 
 The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary policy, technological innovation, debt-driven speculation, and post-war economic shifts—even though the U.S. had technically restored the gold standard after WWI. Here’s what drove the boom before the 1929 crash: 
-* (1) Easy money on 1917-1919 out of gold standard 
-* ​(2) The Fed kept interest rates artificially low (even after returning to gold de jure in 1919) to: Help Europe (especially Britain) stabilize its post-war economy. Avoid deflation (which had caused the 1920–21 depression). Result: Easy money → cheap credit → stock and real estate speculation. 
-* (3) Andrew Mellon’s tax cuts (top rate dropped from 73% to 25%) boosted investor confidence. Laissez-faire regulation allowed unchecked corporate growth and stock manipulation. 
-* (4) Global Gold Flows to the U.S. Post-WWI, the U.S. held over 40% of the world’s gold reserves (Europe was drained). This allowed the Fed to print more dollars without immediate inflation (gold inflows offset money growth). 
-* (5) Fractional Reserve<br/><br/>
+* (1) Easy money on 1917-1919 **out of gold standard** 
+* ​(2) The Fed kept **interest rates artificially low** (even after returning to gold de jure in 1919) to: Help Europe (especially Britain) stabilize its post-war economy. Avoid deflation (which had caused the 1920–21 depression). Result: Easy money → cheap credit → stock and real estate speculation. 
+* (3) Andrew Mellon’s **tax cuts** (top rate dropped from 73% to 25%) boosted investor confidence. Laissez-faire regulation allowed unchecked corporate growth and stock manipulation. 
+* (4) Global **Gold Flows to the U.S.** Post-WWI, the U.S. held over 40% of the world’s gold reserves (Europe was drained). This allowed the Fed to print more dollars without immediate inflation (gold inflows offset money growth). 
+* (5) **Fractional Reserve**<br/><br/>
 
 <div style={{textAlign: 'center'}}><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Money_supply_during_the_great_depression_era.png" width="80%"></img></div><br/><br/>
 
