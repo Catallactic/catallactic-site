@@ -259,6 +259,39 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 <br/>
 
 
+### 1.5 Economic Eras
+
+<div>
+	<table>
+		<tr style={{overflowX : 'auto', textAlign: 'center'}}>
+			<th>Dominant School</th>
+			<th>Main Ideas</th>
+		</tr>
+		<tr>
+			<td style={{overflowX : 'auto', textAlign: 'center'}}>School of Salamanca<br/>1492-1539</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td style={{overflowX : 'auto', textAlign: 'center'}}>Mercantilism<br/>1539-1776</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td style={{overflowX : 'auto', textAlign: 'center'}}>Classical<br/>1776-1870</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td style={{overflowX : 'auto', textAlign: 'center'}}>Neoclassical<br/>1870-1933</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td style={{overflowX : 'auto', textAlign: 'center'}}>Keynesianism<br/>1933-</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
 <br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> MODELING MONETARY THEORY </h1> </div>
@@ -943,9 +976,11 @@ Stability depends on the peg
 </div>
 <br/>
 
-#### 3.4.4 Subjective Value
+#### 3.4.4 Commodity's Value
 
-#### 3.4.4 Politics
+Subjective
+
+#### 3.4.5 Politics
 
 #### 3.4.6 Mathematical Equilibrium
 
