@@ -912,7 +912,7 @@ Most of authors mentions Stability as a requirement for the currency. Different 
 </div>
 <br/>
 
-##### 3.4.1.1 Currency Stability Principles
+#### 3.4.2 Currency Stability Principles
 
 By inspecting the principles argued for stability on the schools that advocated for sound money, we find:
 
@@ -952,7 +952,7 @@ By inspecting the principles argued for stability on the schools that advocated 
 </div>
 <br/>
 
-##### 3.4.1.2 The Underlying asset
+#### 3.4.3 The Underlying asset
 
 Stability depends on the peg
 
@@ -961,17 +961,15 @@ Stability depends on the peg
 </div>
 <br/>
 
-##### 3.4.1.3 Subjective Value
+#### 3.4.4 Subjective Value
 
-##### 3.4.1.4 Politics
+#### 3.4.4 Politics
 
-##### 3.4.1.5 Mathematical Equilibrium
+#### 3.4.6 Mathematical Equilibrium
 
 These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
 
 
-
-#### 3.4.2 Money Supply
 
 
 ### 3.5 Known Money Configurations
@@ -1311,32 +1309,9 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 
 
 
-### 3.7 Sound Money
-
-#### 3.7.1 Variants of Sound Money
-
-https://www.hardmoneyhistory.com/types-of-gold-standard/
-
-file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
-
-### 3.8 The Fiat Standard
-
-##### 3.8.1 Neutrality of Money
-
-The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
-
-David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
-
-##### 3.8.2 Fractional Reserve
 
 
-
-
-
-
-### 3.9 Monetary Architecture per School
+### 3.7 Monetary Architecture per School
 
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
@@ -1523,13 +1498,13 @@ David Hume (1711–1776). Introduced the concept of neutrality of money in the l
 <br/>
 
 
-### 3.10 The Monetary Ecosystem
+### 3.8 The Monetary Ecosystem
 
 Market, institutions, banks, government, networks.... it depends
 
-### 3.11 The Social Order
+### 3.9 The Social Order
 
-#### 3.11.1 Rational Expectations
+#### 3.9.1 Rational Expectations
 
 SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
 
@@ -1629,13 +1604,19 @@ Praxeology
 
 
 
-### 4.3 The Spontaneous Money
+### 4.3 Sound Money
 
 Adam Smith (1723–1790). In "The Wealth of Nations," discussed money as a facilitator of trade. Argued for commodity-backed money (gold/silver).
 
 David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories on inflation and currency stability.
 
-#### 4.3.1 Commodity Money
+#### 4.3.1 Variants of Sound Money
+
+https://www.hardmoneyhistory.com/types-of-gold-standard/
+
+file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
+
+#### 4.3.2 Commodity Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1682,7 +1663,7 @@ David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories
 </div>
 
 
-#### 4.3.2 Representative Money
+#### 4.3.3 Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -1702,14 +1683,14 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 https://mises.org/podcasts/minor-issues/who-invented-money
 
-#### 4.3.3 Regression Theorem
+#### 4.3.4 Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-#### 4.3.4 Purchasing Power
+#### 4.3.5 Purchasing Power
 
 
-#### 4.3.5 Evaluation of Functions
+#### 4.3.6 Evaluation of Functions
 
 
 
@@ -2054,7 +2035,15 @@ Baumol-Tobin Model of Transaction Demand for Money
 
 Determinants of Money Supply: Exogenous vs. Endogenous Money
 
-#### 5.3.3 Quantity Theory of Money
+#### 5.3.3 Neutrality of Money
+
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
+
+David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
+
+#### 5.3.4 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -2081,7 +2070,7 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 
 
-#### 5.3.4 Fractional Reserve
+#### 5.3.5 Fractional Reserve
 
 1. Lawrence H. White: Defends free banking with fractional reserves as historically stable.
 
@@ -2113,7 +2102,7 @@ https://whatismoney.info/fractional-reserve-banking-inflation/
 </div>
 
 
-#### 5.3.5 The Money Multiplier
+#### 5.3.6 The Money Multiplier
 
 If the reserve ratio (i.e. reserve requirement) is higher, the money multiplier is weaker, and there will be less change to the money supply.
 
@@ -2122,7 +2111,7 @@ MS is Money Supply
 MB, or monetary base, is the amount of money in circulation or available to be circulated. 
 MM is money multiplier, which is calculated by dividing 1 by the required reserve set by the Federal Reserve.
 
-#### 5.3.6 Money Aggregates
+#### 5.3.7 Money Aggregates
 
 https://www.tradingpedia.com/forex-academy/monetary-aggregates/
 
@@ -2141,7 +2130,7 @@ JUST IN 🚨: U.S. M2 Money Supply jumps to new all-time high of $22 Trillion �
 M0 = Central Bank Balance Sheet
 
 
-#### 5.3.7 Layered Money
+#### 5.3.8 Layered Money
 
 
 https://andyjagoe.com/how-to-understand-money/
