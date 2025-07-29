@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Catallactic',
-  tagline: 'An open source framework and community to build commodity backed crypto currencies',
+  tagline: 'Digital Representative Money',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -34,7 +34,15 @@ const config = {
     locales: ['en'],
   },
 
-
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'sound, representative, non-fiat, crypto, stablecoin, intrinsic value, commodity, commodities, gold, standard',
+      },
+    },
+	],
 
   presets: [
     [
@@ -114,6 +122,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+			metadata: [
+				{name: 'keywords', content: 'sound, representative, non-fiat, crypto, stablecoin, intrinsic value, commodity, commodities, gold, standard'},
+			],
 			docs: {
 				sidebar: {
 					autoCollapseCategories: true,
