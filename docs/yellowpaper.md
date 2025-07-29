@@ -961,24 +961,24 @@ SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – peopl
 
 
 
-## 3. Practical Monetary Theory
+## 3. Monetary Standards
 ---
 
-### 3.1 Monetary Standards
-
-Variants of Gold Standard
+### 3.1 Variants of Sound Money
 
 https://www.hardmoneyhistory.com/types-of-gold-standard/
 
 file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
 
-### 3.1 Known Money Configurations
+### 3.2 Fiat Money
 
-#### 3.1.1 Barter
+### 3.3 Known Money Configurations
+
+#### 3.3.1 Barter
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
 
-#### 3.1.2 Physical Proposals for Money
+#### 3.3.2 Physical Proposals for Money
 
 Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
@@ -1006,7 +1006,7 @@ Once a commodity has been widely accepted for exchanges, it may take on a value 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-#### 3.1.3 Digital Proposals for Money
+#### 3.3.3 Digital Proposals for Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1028,7 +1028,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 </div>
 <br/>
 
-#### 3.1.4 Digitalization Equivalences
+#### 3.3.4 Digitalization Equivalences
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
 	<table>
@@ -1064,7 +1064,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 
 
-### 3.2. Requirements for Money Funcions
+### 3.4. Requirements for Money Funcions
 
 The main challenge to have a retail currency is to provide credit without volatility.
 
@@ -1073,7 +1073,7 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.3. Physical Requirements
+### 3.5. Physical Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1133,7 +1133,7 @@ The main challenge to have a retail currency is to provide credit without volati
 <br/>
 
 
-### 3.4. Digital Requirements
+### 3.6. Digital Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1173,9 +1173,9 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.5 Economic Requirements
+### 3.7 Economic Requirements
 
-#### 3.5.1 Necessity of Currency Stability
+#### 3.7.1 Necessity of Currency Stability
 
 Most of authors mentions Stability as a requirement for the currency. Different Money functions need different level of stability.
 
@@ -1207,7 +1207,7 @@ Most of authors mentions Stability as a requirement for the currency. Different 
 </div>
 <br/>
 
-#### 3.5.1 Currency Stability Principles
+#### 3.7.1 Currency Stability Principles
 
 By inspecting the principles argued for stability on the schools that advocated for sound money, we find:
 
@@ -1247,7 +1247,7 @@ By inspecting the principles argued for stability on the schools that advocated 
 </div>
 <br/>
 
-#### 3.5.1 Necessity of Supply
+#### 3.7.1 Necessity of Supply
 
 Neutrality of Money. The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -1256,7 +1256,7 @@ John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run n
 David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
 
 
-#### 3.5.2 The Underlying asset
+#### 3.7.2 The Underlying asset
 
 Stability depends on the peg
 
@@ -1265,17 +1265,17 @@ Stability depends on the peg
 </div>
 <br/>
 
-#### 3.5.3 Subjective Value
+#### 3.7.3 Subjective Value
 
-#### 3.5.4 Politics
+#### 3.7.4 Politics
 
-#### 3.5.5 Mathematical Equilibrium
+#### 3.7.5 Mathematical Equilibrium
 
 These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
 
 
 
-### 3.7 Money Configurations to Deliver Functions
+### 3.8 Money Configurations to Deliver Functions
 
 Ability of Known Configurations to Deliver Money Functions
 
@@ -1773,7 +1773,7 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 </div>
 
 
-### 4.5 System Stability
+### 4.5 Monetary Policy
 
 The gold standard is still prone to collapse caused by malinvestments fueled by government intervention.
 
@@ -2186,8 +2186,13 @@ Scientific Method
 
 ### 5.5 Monetary Policy
 
-#### 5.5.1 Evolution
+#### 5.5.1 Mercantilism (1492-1766)
 
+
+
+#### 5.5.2 Keynesian Flavours (1933-now)
+
+##### 5.5.2.1 Historical Evidence
 
 <div>
 	<table>
@@ -2226,10 +2231,10 @@ Scientific Method
 	</table>
 </div>
 
-#### 5.5.2 Central Bank Targets
+##### 5.5.2.2 Central Bank Targets
 
 
-##### 5.5.2.1 Price Inflation
+Price Inflation
 
 Monetarism – "Inflation is always and everywhere a monetary phenomenon."
 
@@ -2239,12 +2244,9 @@ Permanent Income Hypothesis (consumption smoothing).
 
 Argued for steady money growth (k-percent rule).
 
-##### 5.5.2.2 Employment
+Employment
 
-
-
-
-#### 5.5.3 Instruments
+##### 5.5.2.3 Monetary Policy Instruments
 
 Inflation Targeting vs. Price Level Targeting
 
@@ -2256,10 +2258,10 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.5.3.1 Fiscal Coordination
+##### 5.5.2.3.1 Fiscal Coordination
 
 
-##### 5.5.3.2 Interest Rates
+##### 5.5.2.3.2 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -2275,15 +2277,15 @@ The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guid
 
 Negative Interest Rate Policy (NIRP)
 
-##### 5.5.3.3 QE
+##### 5.5.2.3.3 QE
 
-##### 5.5.3.4 Loans
+##### 5.5.2.3.4 Loans
 
-##### 5.5.3.5 Forward Guidance
+##### 5.5.2.3.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.5.3.6 Channels of Monetary Policy Transmission
+##### 5.5.2.3.6 Channels of Monetary Policy Transmission
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
@@ -2335,7 +2337,7 @@ Entry Barriers
 
 
 
-### 5.7 Consequences of Money Supply Increase
+### 5.7 Money Supply Growth
 
 
 
@@ -2376,6 +2378,8 @@ Bubble after bubble
 #### 5.7.3 Currency Debasement
 
 purchasing power 
+
+race to the bottom
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://www.visualcapitalist.com/wp-content/uploads/2021/03/Purchasing-Power-of-the-US-Dollar.jpg" width="60%"></img>
