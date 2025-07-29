@@ -259,24 +259,6 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 <br/>
 
 
-### 1.5 Methodology
-
-Existing Monetary Theories aimed to:
-
-* describe economic interactions
-
-* design money supply policies
-
-We will change the approach. Instead, we will use existing Monetary Theories to design the best currency approach.
-
-We introduce an engieering analysis of Monetary Theory.
-
-
-
-
-
-
-
 <br/><br/><div className="divider div-transparent div-dot"></div>
 
 <br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> MODELING MONETARY THEORY </h1> </div>
