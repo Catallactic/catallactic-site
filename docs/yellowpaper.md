@@ -737,19 +737,21 @@ The 3 canonical functions are enough to deliver the derived functions. So we sho
 
 
 
-### 2.10 Derived Credit Functions
+#### 2.9.1 Derived Credit Functions
 
 Standard of Deferred Payment
 
 i.e. Credit
 
 
-### 2.11 Derived Planning Functions
+#### 2.9.2 Derived Planning Functions
 
 
 
 
-### 2.12 Derived Wealth Functions
+#### 2.9.3 Derived Wealth Functions
+
+
 
 
 
@@ -759,312 +761,15 @@ https://www.linkedin.com/posts/andy-martin-387188a_why-cant-ordinary-young-peopl
 https://bitcoinmagazine.com/guides/what-is-money
 -->
 
-### 2.13 The Monetary Ecosystem
-
-Market, institutions, banks, government, networks.... it depends
-
-### 2.14 Monetary Architecture per School
-
-
-<div style={{overflowX : 'auto', textAlign: 'center'}}>
-	<table>
-		<tr>
-			<th colSpan="3"></th>
-			<th colSpan="8">Money Functions</th>
-		</tr>
-		<tr>
-			<th rowSpan="2" style={{textAlign: 'center'}}>Schools</th>
-			<th rowSpan="2">Theory of<br/>Value</th>
-			<th rowSpan="2">Money<br/>Configuration</th>
-			<th colSpan="4">Market</th>
-			<th colSpan="4">Planning</th>
-		</tr>
-		<tr>
-			<th>MoE</th>
-			<th>UoA</th>
-			<th>SoV</th>
-			<th>DP</th>
-			<th>SP</th>
-			<th>TP</th>
-			<th>FP</th>
-			<th>TS</th>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Scholastics</td>
-			<td>Subjective</td>
-			<td>Sound</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Mercantilism</td>
-			<td>Objective</td>
-			<td>Fiat</td>
-			<td>2</td>
-			<td>3</td>
-			<td>1</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>British Empiricism</td>
-			<td>Subjective</td>
-			<td>Sound</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Physiocrats</td>
-			<td>Objective</td>
-			<td>Sound</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Classical</td>
-			<td>Objective</td>
-			<td>Sound</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Marxist</td>
-			<td>Objective</td>
-			<td>Sound</td>
-			<td>2</td>
-			<td>1</td>
-			<td>4</td>
-			<td>3</td>
-			<td>5</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Neoclassical</td>
-			<td>Subjective</td>
-			<td>Fiat</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Austrian</td>
-			<td>Subjective</td>
-			<td>Sound</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Keynesian</td>
-			<td>Subjective</td>
-			<td>Fiat</td>
-			<td>1</td>
-			<td>3</td>
-			<td>2</td>
-			<td>-</td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Monetarism</td>
-			<td>-</td>
-			<td>Fiat</td>
-			<td>1</td>
-			<td>3</td>
-			<td>2</td>
-			<td></td>
-			<td>4</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>Post-Keynesian</td>
-			<td>Subjective</td>
-			<td>Fiat</td>
-			<td>1</td>
-			<td>3</td>
-			<td>2</td>
-			<td>4</td>
-			<td>-</td>
-			<td>5</td>
-			<td>-</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td style={{textAlign: 'left'}}>MMT</td>
-			<td>Subjective</td>
-			<td>Fiat</td>
-			<td>2</td>
-			<td>1</td>
-			<td>3</td>
-			<td>-</td>
-			<td>-</td>
-			<td>-</td>
-			<td>4</td>
-			<td>5</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-
-### 2.15 The Social Order
-
-#### 2.15.1 Rational Expectations
-
-SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
-
 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 3. Monetary Standards
+## 3. The Monetary Standard
 ---
 
-### 3.1 Variants of Sound Money
-
-https://www.hardmoneyhistory.com/types-of-gold-standard/
-
-file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
-
-### 3.2 Fiat Money
-
-### 3.3 Known Money Configurations
-
-#### 3.3.1 Barter
-
-Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
-
-#### 3.3.2 Physical Proposals for Money
-
-Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td><img src="/img/money_type_barter_128.png" /></td>
-			<td><img src="/img/money_type_commodity_128.png" /></td>
-			<td><img src="/img/money_type_backed_128.png" /></td>
-			<td><img src="/img/money_type_metal_128.png" /></td>
-			<td><img src="/img/money_type_fiat_128.png" /></td>
-		</tr>
-		<tr>
-			<td>Barter</td>
-			<td>Commodity</td>
-			<td>Representative</td>
-			<td>Standard</td>
-			<td>Fiat</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-Once a commodity has been widely accepted for exchanges, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called <b>representative money</b> in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
-
-As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
-
-#### 3.3.3 Digital Proposals for Money
-
-<div style={{overflowX : 'auto'}}>
-	<table>
-		<tr>
-			<td><img src="/img/money_type_crypto_128.png" /></td>
-			<td><img src="/img/money_type_crypto_128.png" /></td>
-			<td><img src="/img/money_type_crypto_128.png" /></td>
-			<td><img src="/img/money_type_crypto_128.png" /></td>
-			<td><img src="/img/money_type_crypto_128.png" /></td>
-		</tr>
-		<tr>
-			<td>Unbacked</td>
-			<td>Utility</td>
-			<td>Security</td>
-			<td>Stablecoins</td>
-			<td>NFT</td>
-		</tr>
-	</table>
-</div>
-<br/>
-
-#### 3.3.4 Digitalization Equivalences
-
-<div style={{overflowX : 'auto', textAlign: 'center'}}>
-	<table>
-		<tr>
-			<th></th>
-			<th>Unbacked</th>
-			<th>Utility</th>
-			<th>Scientific Planning</th>
-			<th>Security</th>
-			<th>Representative</th>
-			<th>Asset</th>
-		</tr>
-		<tr>
-			<th>Physical</th>
-			<td>IoU</td>
-			<td>Fidelity Tokens</td>
-			<td>Fiat</td>
-			<td>Bonds / Stocks</td>
-			<td>Representative / Gold</td>
-			<td>Barter</td>
-		</tr>
-		<tr>
-			<th>Digital</th>
-			<td>Memecoins</td>
-			<td>Utility Tokens</td>
-			<td>Stablecoins</td>
-			<td>Security Tokens</td>
-			<td className="red">???????</td>
-			<td>NFT</td>
-		</tr>
-	</table>
-</div>
-
-
-
-### 3.4. Requirements for Money Funcions
+### 3.1 Requirements for Money Funcions
 
 The main challenge to have a retail currency is to provide credit without volatility.
 
@@ -1073,7 +778,7 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.5. Physical Requirements
+### 3.2 Physical Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1133,7 +838,7 @@ The main challenge to have a retail currency is to provide credit without volati
 <br/>
 
 
-### 3.6. Digital Requirements
+### 3.3 Digital Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1173,9 +878,9 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.7 Economic Requirements
+### 3.4 Economic Requirements
 
-#### 3.7.1 Necessity of Currency Stability
+#### 3.4.1 Currency Stability
 
 Most of authors mentions Stability as a requirement for the currency. Different Money functions need different level of stability.
 
@@ -1207,7 +912,7 @@ Most of authors mentions Stability as a requirement for the currency. Different 
 </div>
 <br/>
 
-#### 3.7.1 Currency Stability Principles
+##### 3.4.1.1 Currency Stability Principles
 
 By inspecting the principles argued for stability on the schools that advocated for sound money, we find:
 
@@ -1247,16 +952,7 @@ By inspecting the principles argued for stability on the schools that advocated 
 </div>
 <br/>
 
-#### 3.7.1 Necessity of Supply
-
-Neutrality of Money. The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
-
-John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
-
-David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
-
-
-#### 3.7.2 The Underlying asset
+##### 3.4.1.2 The Underlying asset
 
 Stability depends on the peg
 
@@ -1265,17 +961,113 @@ Stability depends on the peg
 </div>
 <br/>
 
-#### 3.7.3 Subjective Value
+##### 3.4.1.3 Subjective Value
 
-#### 3.7.4 Politics
+##### 3.4.1.4 Politics
 
-#### 3.7.5 Mathematical Equilibrium
+##### 3.4.1.5 Mathematical Equilibrium
 
 These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
 
 
 
-### 3.8 Money Configurations to Deliver Functions
+#### 3.4.2 Money Supply
+
+
+### 3.5 Known Money Configurations
+
+#### 3.5.1 Barter
+
+Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
+
+#### 3.5.2 Physical Proposals for Money
+
+Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="/img/money_type_barter_128.png" /></td>
+			<td><img src="/img/money_type_commodity_128.png" /></td>
+			<td><img src="/img/money_type_backed_128.png" /></td>
+			<td><img src="/img/money_type_metal_128.png" /></td>
+			<td><img src="/img/money_type_fiat_128.png" /></td>
+		</tr>
+		<tr>
+			<td>Barter</td>
+			<td>Commodity</td>
+			<td>Representative</td>
+			<td>Standard</td>
+			<td>Fiat</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+Once a commodity has been widely accepted for exchanges, it may take on a value as money that is independent of the value of the commodity of which it is composed. At the extreme, what can be called token money may have no commodity value whatsoever. It may also be called <b>representative money</b> in the sense that represents or be a claim on the commodity. Representative money that has no intrinsic value, but is a certificate or token that can be exchanged for the underlying commodity. 
+
+As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
+
+#### 3.5.3 Digital Proposals for Money
+
+<div style={{overflowX : 'auto'}}>
+	<table>
+		<tr>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+			<td><img src="/img/money_type_crypto_128.png" /></td>
+		</tr>
+		<tr>
+			<td>Unbacked</td>
+			<td>Utility</td>
+			<td>Security</td>
+			<td>Stablecoins</td>
+			<td>NFT</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+#### 3.5.4 Digitalization Equivalences
+
+<div style={{overflowX : 'auto', textAlign: 'center'}}>
+	<table>
+		<tr>
+			<th></th>
+			<th>Unbacked</th>
+			<th>Utility</th>
+			<th>Scientific Planning</th>
+			<th>Security</th>
+			<th>Representative</th>
+			<th>Asset</th>
+		</tr>
+		<tr>
+			<th>Physical</th>
+			<td>IoU</td>
+			<td>Fidelity Tokens</td>
+			<td>Fiat</td>
+			<td>Bonds / Stocks</td>
+			<td>Representative / Gold</td>
+			<td>Barter</td>
+		</tr>
+		<tr>
+			<th>Digital</th>
+			<td>Memecoins</td>
+			<td>Utility Tokens</td>
+			<td>Stablecoins</td>
+			<td>Security Tokens</td>
+			<td className="red">???????</td>
+			<td>NFT</td>
+		</tr>
+	</table>
+</div>
+
+
+
+
+### 3.6 Functions on Money Configurations
 
 Ability of Known Configurations to Deliver Money Functions
 
@@ -1516,6 +1308,232 @@ Stablecoins and Fiat Money can be used to transfer value as Medium of Exchange a
 Finally, Commodity Money and Representative Money are good as Unit of Account and Store of Value but they are not optimal as Medium of Exchange.
 
 So there is not, as today, a Money Configuration which is optimal on delivering the 3 Funcions of Money.
+
+
+
+### 3.7 Sound Money
+
+#### 3.7.1 Variants of Sound Money
+
+https://www.hardmoneyhistory.com/types-of-gold-standard/
+
+file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
+
+### 3.8 The Fiat Standard
+
+##### 3.8.1 Neutrality of Money
+
+The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
+
+John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run non-neutrality).
+
+David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
+
+##### 3.8.2 Fractional Reserve
+
+
+
+
+
+
+### 3.9 Monetary Architecture per School
+
+
+<div style={{overflowX : 'auto', textAlign: 'center'}}>
+	<table>
+		<tr>
+			<th colSpan="3"></th>
+			<th colSpan="8">Money Functions</th>
+		</tr>
+		<tr>
+			<th rowSpan="2" style={{textAlign: 'center'}}>Schools</th>
+			<th rowSpan="2">Theory of<br/>Value</th>
+			<th rowSpan="2">Money<br/>Configuration</th>
+			<th colSpan="4">Market</th>
+			<th colSpan="4">Planning</th>
+		</tr>
+		<tr>
+			<th>MoE</th>
+			<th>UoA</th>
+			<th>SoV</th>
+			<th>DP</th>
+			<th>SP</th>
+			<th>TP</th>
+			<th>FP</th>
+			<th>TS</th>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Scholastics</td>
+			<td>Subjective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Mercantilism</td>
+			<td>Objective</td>
+			<td>Fiat</td>
+			<td>2</td>
+			<td>3</td>
+			<td>1</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>British Empiricism</td>
+			<td>Subjective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Physiocrats</td>
+			<td>Objective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Classical</td>
+			<td>Objective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Marxist</td>
+			<td>Objective</td>
+			<td>Sound</td>
+			<td>2</td>
+			<td>1</td>
+			<td>4</td>
+			<td>3</td>
+			<td>5</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Neoclassical</td>
+			<td>Subjective</td>
+			<td>Fiat</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Austrian</td>
+			<td>Subjective</td>
+			<td>Sound</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Keynesian</td>
+			<td>Subjective</td>
+			<td>Fiat</td>
+			<td>1</td>
+			<td>3</td>
+			<td>2</td>
+			<td>-</td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Monetarism</td>
+			<td>-</td>
+			<td>Fiat</td>
+			<td>1</td>
+			<td>3</td>
+			<td>2</td>
+			<td></td>
+			<td>4</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>Post-Keynesian</td>
+			<td>Subjective</td>
+			<td>Fiat</td>
+			<td>1</td>
+			<td>3</td>
+			<td>2</td>
+			<td>4</td>
+			<td>-</td>
+			<td>5</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td style={{textAlign: 'left'}}>MMT</td>
+			<td>Subjective</td>
+			<td>Fiat</td>
+			<td>2</td>
+			<td>1</td>
+			<td>3</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+	</table>
+</div>
+<br/>
+
+
+### 3.10 The Monetary Ecosystem
+
+Market, institutions, banks, government, networks.... it depends
+
+### 3.11 The Social Order
+
+#### 3.11.1 Rational Expectations
+
+SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
+
+
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
@@ -2019,7 +2037,7 @@ Positive Economics
 
 
 
-### 5.3 Fiat Money
+### 5.3 The Fiat Standard
 
 
 #### 5.3.1 The Demand for Money
