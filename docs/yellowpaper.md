@@ -36,6 +36,8 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 generating, moving and distributing value
 
+positive vs normatve economics
+
 ### 1.1. What is Value
 
 3 notions of value
@@ -70,7 +72,7 @@ money wraps value to deliver functions
 
 
 
-### 1.2. What is Monetary Policy?
+### 1.2. What is Monetary Theory?
 
 How real economy and Financial System interacts?
 
