@@ -32,11 +32,47 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 ## 1. A Primer in Monetary Theory
 
-### 1.1. Purpose
+### 1.1. What is economics
+
+generating, moving and distributing value
+
+### 1.1. What is Value
+
+3 notions of value
+
+### 1.1. Operations with VaLue
+
+* generate
+
+* count
+
+* persist
+
+* transfer (decentralization)
+
+### 1.1. How is value used?
+
+* production
+
+* purchasing power
+
+### 1.1. What is Real Economics?
+
+
+### 1.1. What is Money
+
+
+money wraps value to deliver functions
 
 
 
-### 1.2. Basic Ecosystems
+### 1.1. What is Financial System?
+
+
+
+### 1.2. What is Monetary Policy?
+
+How real economy and Financial System interacts?
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -132,6 +168,9 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 <br/>
 
 
+### 1.1. What is NOT economics
+
+economics is not decentralization, is required but not sufficient
 
 
 ### 1.3. Topics Discussed
@@ -284,7 +323,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 			<td></td>
 		</tr>
 		<tr>
-			<td style={{overflowX : 'auto', textAlign: 'center'}}>Keynesianism<br/>1933-</td>
+			<td style={{overflowX : 'auto', textAlign: 'center'}}>Keynesianism<br/>1933-now</td>
 			<td></td>
 		</tr>
 	</table>
@@ -2484,6 +2523,13 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 ### 6.1. Decentralization
 
 Modern Austrians (White, Selgin) see crypto as a Hayekian experiment.
+
+### 6.1. Digital Utility as Economic Value
+
+* Not representative
+
+* Not capturable
+
 
 ### 6.1. Bitcoin as an Utility Token
 
