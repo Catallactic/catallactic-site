@@ -32,17 +32,17 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 ## 1. A Primer in Monetary Theory
 
-### 1.1. What is economics
+### 1.1 What is economics
 
-generating, moving and distributing economic value
+generating, moving and distributing value
 
 positive vs normatve economics
 
-### 1.1. What is Value
+#### 1.1.1 What is Value
 
 3 notions of value
 
-### 1.1. Operations with Value
+#### 1.1.2 Operations with Value
 
 * generate
 
@@ -56,27 +56,31 @@ positive vs normatve economics
 
 * consume
 
-### 1.1. How is value used?
+#### 1.1.3 How is value used?
 
 * production
 
 * purchasing power
 
-### 1.1. What is Real Economics?
+#### 1.1.4 What is NOT economics
+
+economics is not decentralization, is required but not sufficient
+
+### 1.2 What is Real Economics?
 
 
-### 1.1. What is Money
+### 1.3 What is Money
 
 
 money wraps value to deliver functions
 
 
 
-### 1.1. What is Financial System?
+### 1.4 What is Financial Economics?
 
 
 
-### 1.2. What is Monetary Theory?
+### 1.5 What is Monetary Theory?
 
 How real economy and Financial System interacts?
 
@@ -174,12 +178,10 @@ How real economy and Financial System interacts?
 <br/>
 
 
-### 1.1. What is NOT economics
-
-economics is not decentralization, is required but not sufficient
 
 
-### 1.3. Topics Discussed
+
+### 1.6 Topics Discussed
 
 * Theory of Value
 ----------------------
@@ -193,7 +195,7 @@ economics is not decentralization, is required but not sufficient
 * Availability of Credit
 * Rate of Interest
 
-### 1.4 A Review of Schools of Economics
+### 1.7 A Review of Schools of Economics
 
 <div>
 	<table>
@@ -304,7 +306,7 @@ economics is not decentralization, is required but not sufficient
 <br/>
 
 
-### 1.5 Economic Eras
+### 1.8 Economic Eras
 
 <div>
 	<table>
