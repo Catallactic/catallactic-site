@@ -344,15 +344,83 @@ How real economy and Financial System interacts?
 <br/><br/><br/><br/><div className="section" align="center"> <h1 align="center"> MODELING MONETARY THEORY </h1> </div>
 <div className="section" align="center"> <h5 align="center"> Understand how different monetary configurations are created, how they perform and how they deliver the attached value </h5> </div>
 
+
+
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
 
-## 2. The Monetary Architecture
+## 2. The Extended Theory of Value
+---
+
+### 2.1 Notions of Value
+
+<div style={{textAlign: 'center'}}>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnleT4nlAEGgJqnv_DUv9hB76NkznxaaN6A&s" width="60%"></img>
+</div>
+<br/>
+
+### 2.2 Commodity Value
+
+From its origins in medieval times, the historical evolution of the value debate became locked into a centuries old dialectical conflict between the objective and subjective approaches. This study has traced the waves of value theories which oscillated back and forth towards each approach, until Walras and Marshall accommodated both rivaling approaches of value within their separate General and Partial Equilibrium frameworks.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/theory-of-value.png" width="80%"></img>
+</div>
+
+
+#### 2.2.1 Intrinsic Value
+
+Intrinsic value theories started as early as 1600s; natural value by W. Petty (1623-1687); value based on land and labor, R. Cantillon (1680-1734); value and market price, N. Barbon (1640-1698); objective value, intrinsic value, A. Smith (1723-1790); value driven by labor, K. Marx (1818-1883) and D. Ricardo (1772-1823).
+
+An intrinsic theory of value (also called theory of objective value) is any theory of value which holds that the value of an object or a good or service is intrinsic, meaning that it has in itself and can be estimated using objective measures. The theories of the classical school of economics look to the <b>process of producing an item, and the costs involved in that process, as a measure of the item's intrinsic value</b>.
+
+
+#### 2.2.2 Marginal Revolution
+
+Marginalism as a formal theory can be attributed to the work of three economists, W. Jevons (1835-1882) in England, C. Menger (1840-1921) in Austria, and Walras in Switzerland.  William Stanley Jevons first proposed the theory in articles in 1863 and 1871. Carl Menger presented the theory in 1871. Menger explained why individuals use marginal utility to decide amongst trade-offs. Léon Walras introduced the theory in Éléments d'économie politique pure published in 1874. Walras was able to articulate the utility maximization of the consumer far better than Jevons and Menger by assuming that utility was linked to the consumption of each good. <b>Marginal utility focused on the value that the consumer received from the good when determining its value</b>.
+
+Although the Marginal Revolution flowed from the work of Jevons, Menger and Walras, their work might have failed to enter the mainstream were it not for a second generation of economists. In England, the second generation were exemplified by Philip Wicksteed, by William Smart, and by Alfred Marshall; in Austria by Eugen Böhm von Bawerk and by Friedrich von Wieser; in Switzerland by Vilfredo Pareto; and in America by Herbert Joseph Davenport and by Frank A. Fetter.
+
+#### 2.2.3 Value as Supply and Demand
+
+Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
+</div>
+
+### 2.3 Fiat Value
+
+### 2.4 Utility Value
+
+### 2.5 Value Stability
+
+
+
+
+#### 2.5.1 Commodity's Value
+
+Subjective
+
+#### 2.5.2 Politics
+
+#### 2.5.3 Mathematical Equilibrium
+
+These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
+
+
+
+
+<div className="divider div-transparent div-dot"></div><br/><br/><br/>
+
+
+
+## 3. The Monetary Architecture
 ---
 
 
-### 2.2 Monetary Theory
+### 3.2 Monetary Theory
 
 Each school of economics
 
@@ -364,38 +432,8 @@ Each school of economics
 A currency is value on motion
 
 
-### 2.3 Theory of Value
 
-From its origins in medieval times, the historical evolution of the value debate became locked into a centuries old dialectical conflict between the objective and subjective approaches. This study has traced the waves of value theories which oscillated back and forth towards each approach, until Walras and Marshall accommodated both rivaling approaches of value within their separate General and Partial Equilibrium frameworks.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/theory-of-value.png" width="80%"></img>
-</div>
-
-
-#### 2.3.1 Intrinsic Value
-
-Intrinsic value theories started as early as 1600s; natural value by W. Petty (1623-1687); value based on land and labor, R. Cantillon (1680-1734); value and market price, N. Barbon (1640-1698); objective value, intrinsic value, A. Smith (1723-1790); value driven by labor, K. Marx (1818-1883) and D. Ricardo (1772-1823).
-
-An intrinsic theory of value (also called theory of objective value) is any theory of value which holds that the value of an object or a good or service is intrinsic, meaning that it has in itself and can be estimated using objective measures. The theories of the classical school of economics look to the <b>process of producing an item, and the costs involved in that process, as a measure of the item's intrinsic value</b>.
-
-
-#### 2.3.2 Marginal Revolution
-
-Marginalism as a formal theory can be attributed to the work of three economists, W. Jevons (1835-1882) in England, C. Menger (1840-1921) in Austria, and Walras in Switzerland.  William Stanley Jevons first proposed the theory in articles in 1863 and 1871. Carl Menger presented the theory in 1871. Menger explained why individuals use marginal utility to decide amongst trade-offs. Léon Walras introduced the theory in Éléments d'économie politique pure published in 1874. Walras was able to articulate the utility maximization of the consumer far better than Jevons and Menger by assuming that utility was linked to the consumption of each good. <b>Marginal utility focused on the value that the consumer received from the good when determining its value</b>.
-
-Although the Marginal Revolution flowed from the work of Jevons, Menger and Walras, their work might have failed to enter the mainstream were it not for a second generation of economists. In England, the second generation were exemplified by Philip Wicksteed, by William Smart, and by Alfred Marshall; in Austria by Eugen Böhm von Bawerk and by Friedrich von Wieser; in Switzerland by Vilfredo Pareto; and in America by Herbert Joseph Davenport and by Frank A. Fetter.
-
-#### 2.3.3 Value as Supply and Demand
-
-Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical analysis with the new tools of the marginalists in order to <b>explain value in terms of supply and demand</b>. He acknowledged that the study of any economic concept, like value, is hindered by the interrelativeness of the economy and varying time effects. As a result, Marshall used a partial equilibrium framework, in which most variables are kept constant, in order to develop his analysis on the theory of value.
-
-<div style={{textAlign: 'center'}}>
-	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
-</div>
-
-
-### 2.4 Money Configuration
+### 3.4 Money Configuration
 
 Once we have defined value, we need to fund a vehicle to move value around. A currency is value on motion
 
@@ -435,7 +473,7 @@ Once we have defined value, we need to fund a vehicle to move value around. A cu
 	</table>
 </div>
 
-### 2.5 Functions of Money
+### 3.5 Functions of Money
 
 Aristotle (384–322 BCE). Early thoughts on the functions of money (medium of exchange, store of value, unit of account).
 
@@ -510,9 +548,9 @@ https://drrajivdesaimd.com/2022/07/01/money/
 
 
 
-### 2.6 Function: Medium of Exchange
+### 3.6 Function: Medium of Exchange
 
-#### 2.6.1 Authors
+#### 3.6.1 Authors
 
 A <b>medium of exchange</b> is the set of assets in an economy that people regularly exchange for goods or services. A medium of exchange has two key features: First, it represents a part of its owner's assets; second, it is commonly accepted in transactions. We refer to medium of exchange as the set of assets in an economy that people regularly exchange for goods and services. The use of money as a medium of exchange promotes economic efficiency by eliminating much of the time spent in exchanging goods and services.
 
@@ -523,7 +561,7 @@ Carl Menger (founder of the Austrian School) explained that money arises natural
 Ludwig von Mises’ Regression Theorem further argues that money must have originated from a commodity with pre-monetary demand (e.g., gold, silver), not by government fiat.
 
 
-#### 2.6.2. Physical Requirements
+#### 3.6.2. Physical Requirements
 
 <!---
 https://bitcoinmagazine.com/guides/what-is-money
@@ -580,7 +618,7 @@ https://bitcoinmagazine.com/guides/what-is-money
 </div>
 <br/>
 
-#### 2.6.3 Digital Requirements
+#### 3.6.3 Digital Requirements
 
 These principles must be provided in the contract. 
 
@@ -637,7 +675,7 @@ However, as the principles maybe change between regions or underlying assets a d
 
 
 
-### 2.7 Function: Unit of Account
+### 3.7 Function: Unit of Account
 
 The value of a coin used as an <b>unit of account</b> could also be different from that of the same coin in circulation, a phenomenon referred to as “ghost money” or “imaginary money” (Cipolla 1956; Einaudi 1937, 1953; Sargent and Velde 2002). Einzig (1966) reports on primitive cultures in which people apparently first converged on one or a few commodities as unit of account before converging on one or a few as medium of exchange (similarly, Moini 2001, pp. 284-86). Barter, though continuing, was facilitated by valuing traded goods in the numéraire commodity, instead of keeping track of separate exchange ratios between the two goods in each possible transaction. The numéraire also facilitated valuing unilateral transfers, induding compulsory and traditional ones. Temporal precedence of the numéraire over the medium-of-exchange function is far, however, from a universal historical facto.
 
@@ -646,13 +684,13 @@ Technically, a unit of account is something that is divisible, fungible, and cou
 A unit of account can coexist with multiple media of exchange. The euro existed only as a unit of account for three years before its notes and coins went into circulation in 2002, the old national currencies meanwhile continuing as media of exchange.
 
 
-#### 2.7.1. Authors
+#### 3.7.1. Authors
 
-#### 2.7.2. Applications
+#### 3.7.2. Applications
 
 Money allows for economic calculation by providing a common denominator for comparing prices. Prices expressed in money terms enable entrepreneurs to assess profit/loss, allocate resources efficiently, and coordinate production in a complex economy. Friedrich Hayek stressed that money prices transmit information about scarcity and demand.
 
-#### 2.7.3. Physical Requirements
+#### 3.7.3. Physical Requirements
 
 <!---
 https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-example.html
@@ -692,7 +730,7 @@ https://study.com/academy/lesson/money-as-a-unit-of-account-definition-function-
 <br/>
 
 
-### 2.8 Function: Store of Value
+### 3.8 Function: Store of Value
 
 Money also functions as a <b>store of value</b>; it is a repository of purchasing power over time. A store of value is used to save purchasing power from the time income is received until the time it is spent. This function of money is useful because most of us do not want to spend our income immediately upon receiving it but rather prefer to wait until we have the time or the desire to shop. Commodity money has an exchange value because if not used as money it can be used as a commodity.
 
@@ -702,7 +740,7 @@ However, Austrians recognize that money is not a perfect store of value due to i
 
 Unlike Keynesians, Austrians argue that hoarding money can be rational (e.g., during uncertainty) rather than harmful to the economy.
 
-#### 2.8.2. Authors
+#### 3.8.2. Authors
 
 For Carl Menger money emerges naturally as the most marketable commodity, serving as a medium of exchange and store of value. ("Principles of Economics" (1871)). Emphasized that money must be durable, widely accepted, and hold stable value to function effectively.
 
@@ -720,7 +758,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 
 
 
-#### 2.8.3. Physical Requirements
+#### 3.8.3. Physical Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -753,7 +791,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 </div>
 <br/>
 
-#### 2.8.4. Digital Requirements
+#### 3.8.4. Digital Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -788,7 +826,7 @@ Karl Marx (Political Economy) In "Das Kapital" (1867), Marx analyzed money as a 
 <br/>
 
 
-### 2.9 The Hierarchy of Functions
+### 3.9 The Hierarchy of Functions
 
 The 3 canonical functions are enough to deliver the derived functions. So we should bother about how the currency delivers the 3 canonical functions.
 
@@ -799,20 +837,19 @@ The 3 canonical functions are enough to deliver the derived functions. So we sho
 
 
 
-#### 2.9.1 Derived Credit Functions
+#### 3.9.1 Derived Credit Functions
 
 Standard of Deferred Payment
 
 i.e. Credit
 
 
-#### 2.9.2 Derived Planning Functions
+#### 3.9.2 Derived Planning Functions
 
 
 
 
-#### 2.9.3 Derived Wealth Functions
-
+#### 3.9.3 Derived Wealth Functions
 
 
 
@@ -828,10 +865,10 @@ https://bitcoinmagazine.com/guides/what-is-money
 
 
 
-## 3. The Monetary Standard
+## 4. The Monetary Standard
 ---
 
-### 3.1 Requirements for Money Funcions
+### 4.1 Requirements for Money Funcions
 
 The main challenge to have a retail currency is to provide credit without volatility.
 
@@ -840,7 +877,7 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.2 Physical Requirements
+### 4.2 Physical Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -900,7 +937,7 @@ The main challenge to have a retail currency is to provide credit without volati
 <br/>
 
 
-### 3.3 Digital Requirements
+### 4.3 Digital Requirements
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -940,9 +977,9 @@ The main challenge to have a retail currency is to provide credit without volati
 </div>
 <br/>
 
-### 3.4 Economic Requirements
+### 4.4 Economic Requirements
 
-#### 3.4.1 Currency Stability
+#### 4.4.1 Currency Stability
 
 Most of authors mentions Stability as a requirement for the currency. Different Money functions need different level of stability.
 
@@ -974,7 +1011,10 @@ Most of authors mentions Stability as a requirement for the currency. Different 
 </div>
 <br/>
 
-#### 3.4.2 Currency Stability Principles
+
+
+
+#### 4.4.2 Currency Stability Principles
 
 By inspecting the principles argued for stability on the schools that advocated for sound money, we find:
 
@@ -1006,43 +1046,22 @@ By inspecting the principles argued for stability on the schools that advocated 
 			<td></td>
 		</tr>
 		<tr>
-			<td>Commodity Backing</td>
-			<td></td>
+			<td>Underlying Asset</td>
+			<td>Stability of the currency depends on the stability of the pegged asset</td>
 			<td></td>
 		</tr>
 	</table>
 </div>
 <br/>
 
-#### 3.4.3 The Underlying asset
 
-Stability depends on the peg
+### 4.5 Known Money Configurations
 
-<div style={{textAlign: 'center'}}>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnleT4nlAEGgJqnv_DUv9hB76NkznxaaN6A&s" width="60%"></img>
-</div>
-<br/>
-
-#### 3.4.4 Commodity's Value
-
-Subjective
-
-#### 3.4.5 Politics
-
-#### 3.4.6 Mathematical Equilibrium
-
-These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
-
-
-
-
-### 3.5 Known Money Configurations
-
-#### 3.5.1 Barter
+#### 4.5.1 Barter
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
 
-#### 3.5.2 Physical Proposals for Money
+#### 4.5.2 Physical Proposals for Money
 
 Trying to overcome the limitations of barter, commodity began to be used as a medium of exchange. When a commodity is used as a medium for most or all exchanges, that commodity is defined as being a money. [0] Money made up of some valuable commodity is called commodity money, and from ancient times until several hundred years ago <b>commodity money</b> functioned as the medium of exchange in all but the most primitive societies. The problem with a payments system based exclusively on commodities is that such a form of money is very heavy and is hard to transport from one place to another.
 
@@ -1070,7 +1089,7 @@ Once a commodity has been widely accepted for exchanges, it may take on a value 
 
 As a monetary economy evolved, a particular commodity (e.g. gold) came to become generally accepted as a reference to express all prices in terms of units of that commodity. This was the advent of the <b>monetary standard</b>. At this stage banks began to appear which issued paper substitutes for gold, and these paper substitutes—notes and deposits—had the advantage of being easier to store and move around. These advantages led to notes and deposits gradually replacing gold as media of exchange, but they continued to be expressed in terms of units of gold and to be redeemable on demand into gold. Gold therefore continued to be the monetary standard even though it gradually lost its role as a medium of exchange. [9]
 
-#### 3.5.3 Digital Proposals for Money
+#### 4.5.3 Digital Proposals for Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1092,7 +1111,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 </div>
 <br/>
 
-#### 3.5.4 Digitalization Equivalences
+#### 4.5.4 Digitalization Equivalences
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
 	<table>
@@ -1129,7 +1148,7 @@ As a monetary economy evolved, a particular commodity (e.g. gold) came to become
 
 
 
-### 3.6 Functions on Money Configurations
+### 4.6 Functions on Money Configurations
 
 Ability of Known Configurations to Deliver Money Functions
 
@@ -1375,7 +1394,7 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 
 
 
-### 3.7 Monetary Architecture per School
+### 4.7 Monetary Architecture per School
 
 
 <div style={{overflowX : 'auto', textAlign: 'center'}}>
@@ -1562,13 +1581,13 @@ So there is not, as today, a Money Configuration which is optimal on delivering 
 <br/>
 
 
-### 3.8 The Monetary Ecosystem
+### 4.8 The Monetary Ecosystem
 
 Market, institutions, banks, government, networks.... it depends
 
-### 3.9 The Social Order
+### 4.9 The Social Order
 
-#### 3.9.1 Rational Expectations
+#### 4.9.1 Rational Expectations
 
 SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – people adjust to monetary policy. Lucas Critique – policy changes alter expectations.
 
@@ -1584,10 +1603,10 @@ SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – peopl
 
 
 
-## 4. The Spontaneus Order
+## 5. The Spontaneus Order
 ---
 
-### 4.1 Contributors
+### 5.1 Contributors
 
 <div>
 	<table>
@@ -1641,9 +1660,9 @@ SocialOrder - Robert Lucas (1937–2023). Rational Expectations Theory – peopl
 </div>
 <br/>
 
-### 4.2 Principles
+### 5.2 Principles
 
-#### 4.2.1 Negative Liberty
+#### 5.2.1 Negative Liberty
 
 Property Rights
 
@@ -1653,7 +1672,7 @@ Methodological Individualism
 
 All social phenomena (markets, institutions, prices) must be explained by reference to the actions, choices, and intentions of individuals, not abstract groups or aggregates.
 
-#### 4.2.2 Human Action
+#### 5.2.2 Human Action
 
 The concept of "spontaneous order" is the idea that complex, functional systems emerge organically from decentralized human actions, without central design, is a cornerstone of Austrian economics and classical liberal thought.
 
@@ -1663,24 +1682,24 @@ Ludwig von Mises (1881–1973) says that "The market is a process, actuated by t
 
 Praxeology
 
-#### 4.2.3 Normative Economics
+#### 5.2.3 Normative Economics
 
 
 
 
-### 4.3 Sound Money
+### 5.3 Sound Money
 
 Adam Smith (1723–1790). In "The Wealth of Nations," discussed money as a facilitator of trade. Argued for commodity-backed money (gold/silver).
 
 David Ricardo (1772–1823). Advocated for the Gold Standard. Developed theories on inflation and currency stability.
 
-#### 4.3.1 Variants of Sound Money
+#### 5.3.1 Variants of Sound Money
 
 https://www.hardmoneyhistory.com/types-of-gold-standard/
 
 file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
 
-#### 4.3.2 Commodity Money
+#### 5.3.2 Commodity Money
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -1727,7 +1746,7 @@ file:///home/pellyadolfo/Downloads/03Chapter3%20(1).pdf
 </div>
 
 
-#### 4.3.3 Representative Money
+#### 5.3.3 Representative Money
 
 Representative money or token money is any medium of exchange that <b>represents something of value</b>, typically a commodity. 
 
@@ -1747,21 +1766,21 @@ The advent of <b>blockchain technologies</b> and programmable money in 2009 prov
 
 https://mises.org/podcasts/minor-issues/who-invented-money
 
-#### 4.3.4 Regression Theorem
+#### 5.3.4 Regression Theorem
 
 The Regression Theorem, first proposed by Ludwig von Mises in his 1912 book The Theory of Money and Credit, states that the value of money can be traced back ("regressed") to its value as a commodity.
 
-#### 4.3.5 Purchasing Power
+#### 5.3.5 Purchasing Power
 
 
-#### 4.3.6 Evaluation of Functions
+#### 5.3.6 Evaluation of Functions
 
 
 
-### 4.4 The (Real) Market Process
+### 5.4 The (Real) Market Process
 
 
-#### 4.4.1 A Self-Regulated System
+#### 5.4.1 A Self-Regulated System
 
 In a regulated system, the output is somehow modified and injected to the input. This backwards injection is called a feddbackp loop.
 
@@ -1771,7 +1790,7 @@ In a regulated system, the output is somehow modified and injected to the input.
 
 
 
-#### 4.4.2 Supply Side
+#### 5.4.2 Supply Side
 
 Heterogeneity of **Commodities**. Even "identical" commodities (e.g., wheat, oil) differ in time, place, and quality. Lachmann’s Capital Theory: Commodities are multi-specific—their usefulness depends on the production plan.
 
@@ -1789,7 +1808,7 @@ Commodities have no intrinsic **value**—their worth depends on individual need
 
 **Supply of Goods and Services** is Constrained by Real Resources (Not Just Prices). Labor, capital, and raw materials are heterogeneous (not interchangeable).
 
-#### 4.4.3 Market Coordination
+#### 5.4.3 Market Coordination
 
 **Catallactics** is the science of how free people trade—and why that process cannot be replaced by coercion or central planning. In Austrian economics, the term "catalactics" (from the Greek katallattein, meaning "to exchange" or "to reconcile") refers to the study of market exchanges as the foundation of economic science. Unlike mainstream economics, which often focuses on mathematical models and aggregate variables, Austrians emphasize human action, subjective value, and the dynamic process of voluntary trade. Ludwig von Mises popularized the term in Human Action (1949), defining catallactics as: "The analysis of those actions which are conducted on the basis of monetary calculation … the science of the market economy." Richard Whately (19th-century economist) first coined the term to distinguish economics as the study of exchange rather than wealth or production.
 
@@ -1799,7 +1818,7 @@ Commodities have no intrinsic **value**—their worth depends on individual need
 
 **Price Formation** price formation in a self-regulated system. Emerge from trial & error. Prices reveal demand. No central director is needed—prices and profits guide decentralized coordination. Profit & Loss Guide Production:  Profits signal correct production decisions. Losses reveal waste, prompting reallocation. For Austrians, production is a discovery process—never perfectly efficient, but constantly adapting via market signals.
 
-#### 4.4.4 The Price System
+#### 5.4.4 The Price System
 
 Hayek’s "Use of **Knowledge** in Society" (1945). Prices synthesize dispersed information (preferences, scarcity, costs) into a single metric. Example: A rising copper price signals scarcity, prompting producers to mine more and consumers to economize. Prices as Information Signals (Hayek). Knowledge is Dispersed & Subjective. Hayek’s Knowledge Problem: No single entity (e.g., central planners) can access all market information. Prices emerge from decentralized individual action
 
@@ -1817,7 +1836,7 @@ Hayek’s "Use of **Knowledge** in Society" (1945). Prices synthesize dispersed 
 
 **Private Projects Risk**
 
-#### 4.4.5 Value Chain
+#### 5.4.5 Value Chain
 
 Production doesn’t happen instantly but through stages:
 
@@ -1825,7 +1844,7 @@ Higher-Order Goods (raw materials, machines, factories).
 
 Lower-Order Goods (final consumer products).
 
-#### 4.4.6 System Self-Regulation
+#### 5.4.6 System Self-Regulation
 
 Market itself, if not distorted, is a well performing price formation machine. A CryptoCommodity have a built-in self-regulation since customers provide a negative feedback loop regarding the quality of the currency. If the currency does tno fullfill the expected quality, the demand for the CryptoCommodity is reduced. This is Adam's Smith Invisible Hand.
 
@@ -1836,11 +1855,11 @@ Negative feedback (or balancing feedback) occurs when some function of the outpu
 </div>
 
 
-### 4.5 Monetary Policy
+### 5.5 Monetary Policy
 
 The gold standard is still prone to collapse caused by malinvestments fueled by government intervention.
 
-#### 4.5.1 Classical Economics (1776–1870)
+#### 5.5.1 Classical Economics (1776–1870)
 
 Classical Economics (1776–1870) the dominant economic school was the Classical School, with strong influences from laissez-faire economics and the Banking School vs. Currency School debates in Europe. System Stability on malinvestments. It started on 1776 when Smith published Wealth of Nations which marked the decline of mercantilism.
 
@@ -1889,7 +1908,7 @@ Classical Economics (1776–1870) the dominant economic school was the Classical
 	</table>
 </div>
 
-#### 4.5.1 Neoclassical Roaring Twenties (1920–1929)
+#### 5.5.1 Neoclassical Roaring Twenties (1920–1929)
 
 Neoclassical Economics Ruled (1890s–1920s) with strong remnants of Classical Laissez-Faire ideology:
 
@@ -1906,7 +1925,7 @@ The Roaring Twenties (1920–1929) were fueled by a unique mix of monetary polic
 
 Panic of 1929 (US). The Fed raised interest rates in 1928–29 to curb speculation, making borrowing more expensive and reducing liquidity. This policy strangled economic growth just as the bubble was peaking.
 
-#### 4.5.1 Keynesian Bretton Woods (1944–1971)
+#### 5.5.1 Keynesian Bretton Woods (1944–1971)
 
 The Bretton Woods system (1944–1971) was primarily shaped by Keynesian economics, though it also incorporated elements of classical liberalism and pragmatic internationalism. Here’s how different schools influenced it:
 
@@ -1922,7 +1941,7 @@ The system was a middle ground between socialism and unfettered capitalism, ofte
 
 It collapsed in 1971 (Nixon Shock) when Keynesian policies faced stagflation, giving way to neoliberalism/monetarism under Reagan/Thatcher.
 
-##### 4.5.1.1 Bretton Woods Taxes
+##### 5.5.1.1 Bretton Woods Taxes
 
 Under the Bretton Woods system (1944–1971), tax levels in major economies—particularly the U.S. and Western Europe—were historically high by today's standards, reflecting Keynesian economic policies aimed at funding post-war reconstruction, social welfare, and Cold War military spending. Here’s a breakdown:
 
@@ -1943,7 +1962,7 @@ Under the Bretton Woods system (1944–1971), tax levels in major economies—pa
 * Latin America/Asia: Taxes were lower (often < 30% top rate), but tariffs and state-owned enterprises played a bigger fiscal role.
 * Bretton Woods institutions (IMF/World Bank) encouraged tax reforms to fund development.
 
-##### 4.5.1.2 Fractional Reserve
+##### 5.5.1.2 Fractional Reserve
 
 United States: 10–20% for commercial banks (varied by deposit type). The Fed adjusted reserves to manage credit growth without breaking the gold peg.
 
@@ -1951,28 +1970,28 @@ Europe: Higher reserves in war-damaged economies (e.g., UK, France) to prevent i
 
 Developing Nations: Often had higher reserve ratios (up to 30%) due to weaker banking systems.
 
-### 4.6 Sound Money Limitations
+### 5.6 Sound Money Limitations
 
 
 
-#### 4.6.1 Small Market
+#### 5.6.1 Small Market
 
 * Limited Credit Availability
 * Money Supply limitations
 * Supply of Goods Limitations
 * Demand of good Limitation
 
-#### 4.6.2 Externalities
+#### 5.6.2 Externalities
 
 
-#### 4.6.3 No Experimentation
+#### 5.6.3 No Experimentation
 
 <div style={{textAlign: 'center'}}>
 	<img src="https://mujeresconciencia.com/app/uploads/2017/06/Margaret_Hamilton-780x971.gif" width="40%"></img>
 </div>
 
 
-#### 4.6.4 Not a Silver Bullet
+#### 5.6.4 Not a Silver Bullet
 
 Despite using a stable currrency guarantees cantillon effects free, it does not provide stability on malinvestments and users are impacted by malinvestments of other users just because they share the same currency
 
@@ -2007,10 +2026,10 @@ Despite using a stable currrency guarantees cantillon effects free, it does not 
 
 
 
-## 5. The Scientifically Planned Order
+## 6. The Scientifically Planned Order
 ---
 
-### 5.1 Contributors
+### 6.1 Contributors
 
 <div>
 	<table>
@@ -2071,7 +2090,7 @@ Despite using a stable currrency guarantees cantillon effects free, it does not 
 </div>
 <br/>
 
-### 5.2 Principles
+### 6.2 Principles
 
 
 Positive Liberty
@@ -2082,10 +2101,10 @@ Positive Economics
 
 
 
-### 5.3 The Fiat Standard
+### 6.3 The Fiat Standard
 
 
-#### 5.3.1 The Demand for Money
+#### 6.3.1 The Demand for Money
 
 Keynes’s Liquidity Preference Theory. 
 
@@ -2095,11 +2114,11 @@ Baumol-Tobin Model of Transaction Demand for Money
 
 
 
-#### 5.3.2 Increasing the Supply of Money
+#### 6.3.2 Increasing the Supply of Money
 
 Determinants of Money Supply: Exogenous vs. Endogenous Money
 
-#### 5.3.3 Neutrality of Money
+#### 6.3.3 Neutrality of Money
 
 The neutrality of money, also called neutral money, is an economic theory stating that changes in the money supply only affect nominal variables and not real variables. In other words, the amount of money printed by central banks can impact prices and wages but not the output or structure of the economy,w hich means, there is not distortion in relative prices.
 
@@ -2107,7 +2126,7 @@ John Maynard Keynes (1883–1946) Critiqued the neutrality of money (short-run n
 
 David Hume (1711–1776). Introduced the concept of neutrality of money in the long run.
 
-#### 5.3.4 Quantity Theory of Money
+#### 6.3.4 Quantity Theory of Money
 
 John Locke, in the late 17th century, developed a precursor to the Quantity Theory of Money (QTM). He argued that the value of money is inversely related to its quantity in circulation. Some economic historians credit him with establishing a sound currency foundation. Locke's ideas, while not a fully developed QTM, laid the groundwork for later economists like David Hume and Irving Fisher, who formalized the theory. Locke's work, particularly in "Several Papers Relating to Money, Interest, and Trade," explored the relationship between the quantity of money and its value. He observed that if a country's money supply increased relative to its trade volume, its prices would likely rise. Locke's core idea was that the value of money is influenced by its supply. He believed that the demand for money was relatively stable and that changes in its supply would impact prices. 
 David Hume (1711–1776). Formalized the Quantity Theory of Money (money supply → price levels).
@@ -2134,7 +2153,7 @@ Friedman argued that money supply growth should be stable to prevent inflation o
 
 
 
-#### 5.3.5 Fractional Reserve
+#### 6.3.5 Fractional Reserve
 
 1. Lawrence H. White: Defends free banking with fractional reserves as historically stable.
 
@@ -2166,7 +2185,7 @@ https://whatismoney.info/fractional-reserve-banking-inflation/
 </div>
 
 
-#### 5.3.6 The Money Multiplier
+#### 6.3.6 The Money Multiplier
 
 If the reserve ratio (i.e. reserve requirement) is higher, the money multiplier is weaker, and there will be less change to the money supply.
 
@@ -2175,7 +2194,7 @@ MS is Money Supply
 MB, or monetary base, is the amount of money in circulation or available to be circulated. 
 MM is money multiplier, which is calculated by dividing 1 by the required reserve set by the Federal Reserve.
 
-#### 5.3.7 Money Aggregates
+#### 6.3.7 Money Aggregates
 
 https://www.tradingpedia.com/forex-academy/monetary-aggregates/
 
@@ -2194,7 +2213,7 @@ JUST IN 🚨: U.S. M2 Money Supply jumps to new all-time high of $22 Trillion �
 M0 = Central Bank Balance Sheet
 
 
-#### 5.3.8 Layered Money
+#### 6.3.8 Layered Money
 
 
 https://andyjagoe.com/how-to-understand-money/
@@ -2202,17 +2221,17 @@ https://andyjagoe.com/how-to-understand-money/
 
 
 
-### 5.4 Financial Markets
+### 6.4 Financial Markets
 
 
 
-#### 5.4.1 Market Equilibrium Analysis
+#### 6.4.1 Market Equilibrium Analysis
 
 
-##### 5.4.1.1 Partial Equilibrium
+##### 6.4.1.1 Partial Equilibrium
 
 
-##### 5.4.1.2 General Equilibrium
+##### 6.4.1.2 General Equilibrium
 
 In economics, general equilibrium theory attempts to explain the behavior of supply, demand, and prices in a whole economy with several or many interacting markets, by seeking to prove that the interaction of demand and supply will result in an overall general equilibrium. Léon Walras (1834–1910). General equilibrium theory, integrating money into economic models.
 
@@ -2225,7 +2244,7 @@ New Keynesian Dynamic Stochastic General Equilibrium (DSGE) models
 
 
 
-#### 5.4.2 Financial Ecosystem
+#### 6.4.2 Financial Ecosystem
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/usdsystem.jpeg" width="60%"></img>
@@ -2250,20 +2269,20 @@ Corporations
 
 
 
-#### 5.4.3 Methodology
+#### 6.4.3 Methodology
 
 Scientific Method
 
 
-### 5.5 Monetary Policy
+### 6.5 Monetary Policy
 
-#### 5.5.1 Mercantilism (1492-1766)
+#### 6.5.1 Mercantilism (1492-1766)
 
 
 
-#### 5.5.2 Keynesian Flavours (1933-now)
+#### 6.5.2 Keynesian Flavours (1933-now)
 
-##### 5.5.2.1 Historical Evidence
+##### 6.5.2.1 Historical Evidence
 
 <div>
 	<table>
@@ -2302,7 +2321,7 @@ Scientific Method
 	</table>
 </div>
 
-##### 5.5.2.2 Central Bank Targets
+##### 6.5.2.2 Central Bank Targets
 
 
 Price Inflation
@@ -2317,7 +2336,7 @@ Argued for steady money growth (k-percent rule).
 
 Employment
 
-##### 5.5.2.3 Monetary Policy Instruments
+##### 6.5.2.3 Monetary Policy Instruments
 
 Inflation Targeting vs. Price Level Targeting
 
@@ -2329,10 +2348,10 @@ Post-Keynesian Monetary Theory (Endogenous Money)
 
 MMT
 
-##### 5.5.2.3.1 Fiscal Coordination
+##### 6.5.2.3.1 Fiscal Coordination
 
 
-##### 5.5.2.3.2 Interest Rates
+##### 6.5.2.3.2 Interest Rates
 
 Henry Thornton (1760–1815). Early analysis of central banking in "Paper Credit of Great Britain." Distinguished between nominal and real interest rates.
 
@@ -2348,15 +2367,15 @@ The Taylor rule, proposed by economist John B. Taylor, is a monetary policy guid
 
 Negative Interest Rate Policy (NIRP)
 
-##### 5.5.2.3.3 QE
+##### 6.5.2.3.3 QE
 
-##### 5.5.2.3.4 Loans
+##### 6.5.2.3.4 Loans
 
-##### 5.5.2.3.5 Forward Guidance
+##### 6.5.2.3.5 Forward Guidance
 
 Michael Woodford (b. 1955). New Keynesian Economics – interest rate rules (Taylor Rule extensions). Emphasized forward guidance.
 
-##### 5.5.2.3.6 Channels of Monetary Policy Transmission
+##### 6.5.2.3.6 Channels of Monetary Policy Transmission
 
 Ben Bernanke (b. 1953). Credit Channel of Monetary Transmission (how banks affect the economy). Applied theory during the 2008 crisis as Fed Chair.
 
@@ -2370,15 +2389,15 @@ Knut Wicksell (1851–1926). Linked money supply, interest rates, and inflation 
 
 
 
-### 5.6 The Planned Real Economy
+### 6.6 The Planned Real Economy
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/market_positive.svg" width="100%"></img>
 </div>
 
-#### 5.6.1 Investment Demand
+#### 6.6.1 Investment Demand
 
-#### 5.6.2 Allocation of Resources
+#### 6.6.2 Allocation of Resources
 
 Against Central Planning
 Mises' calculation problem: Without market prices, rational allocation is impossible
@@ -2400,7 +2419,7 @@ Macro-level interventions distort the micro-level price signals needed for prope
 
 Entry Barriers
 
-#### 5.6.3 Cantillon Effects
+#### 6.6.3 Cantillon Effects
 
 
 
@@ -2408,26 +2427,26 @@ Entry Barriers
 
 
 
-### 5.7 Money Supply Growth
+### 6.7 Money Supply Growth
 
 
 
-#### 5.7.1 Supply and Demand Mismatches
+#### 6.7.1 Supply and Demand Mismatches
 
 
-##### 5.7.1.1 Price Deflation
+##### 6.7.1.1 Price Deflation
 
-##### 5.7.1.2 Price Inflation
-
-
-##### 5.7.1.3 Stagflation
+##### 6.7.1.2 Price Inflation
 
 
-##### 5.7.1.4 Hyperinflation
+##### 6.7.1.3 Stagflation
+
+
+##### 6.7.1.4 Hyperinflation
 
 
 
-#### 5.7.2 Austrian business cycle theory (ABCT)
+#### 6.7.2 Austrian business cycle theory (ABCT)
 
 Post-Keynesian Monetary Theory (Endogenous Money)
 
@@ -2446,7 +2465,7 @@ Financial Instability Hypothesis – boom-bust cycles due to credit.
 
 Bubble after bubble
 
-#### 5.7.3 Currency Debasement
+#### 6.7.3 Currency Debasement
 
 purchasing power 
 
@@ -2458,7 +2477,7 @@ race to the bottom
 <br/>
 
 
-#### 5.7.4 The Split Economy
+#### 6.7.4 The Split Economy
 
 Since the money is not bound to real world value, from 1971, the economy has split in 2:
 
@@ -2472,7 +2491,7 @@ Since the money is not bound to real world value, from 1971, the economy has spl
 
 price distortion
 
-#### 5.7.5 The Squeezed Real Economy
+#### 6.7.5 The Squeezed Real Economy
 
 The monetary base for real economy is squeezed by the financial economy, and shrinking everyday. This blocks any progress for real economy, put barriers to entry to entrepreneurs creating increasingly Cantillon Effects and excluding citizens from the financial system. The trigger of this trend <a href="https://wtfhappenedin1971.com/" target="_blank">happened on 1971</a>.
 
@@ -2483,7 +2502,7 @@ The monetary base for real economy is squeezed by the financial economy, and shr
 
 The Exter’s Pyramid of Liquidity illustrates the liquidity of assets arranged from the hardest to liquidate (complex derivatives and real estate) to the most liquid asset, physical gold. We can see how the world GDP (real economy) was a 5% of existing liquidity, including derivatives in 2016. 
 
-#### 5.7.6 Reset
+#### 6.7.6 Reset
 
 War as Reset
 
@@ -2494,7 +2513,7 @@ No Reset
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 
 
-### 5.8 System (In)Stability
+### 6.8 System (In)Stability
 
 An scientifically planned system
 
@@ -2525,37 +2544,37 @@ In the next chapter we will see how the monetary fiat system is regulated by a p
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 6. The CypherPunk Order (i.e. Bitcoin)
+## 7. The CypherPunk Order (i.e. Bitcoin)
 ---
 
-### 6.1. Decentralization
+### 7.1. Decentralization
 
 Modern Austrians (White, Selgin) see crypto as a Hayekian experiment.
 
-### 6.1. Digital Utility as Economic Value
+### 7.1. Digital Utility as Economic Value
 
 * Not representative
 
 * Not capturable
 
 
-### 6.1. Bitcoin as an Utility Token
+### 7.1. Bitcoin as an Utility Token
 
-#### 6.1.1. Scope
+#### 7.1.1. Scope
 
 Cypherpunk
 
-#### 6.1.2. Methodology
+#### 7.1.2. Methodology
 
 
-### 6.2. Hyperbitcoinization
-
-
-
+### 7.2. Hyperbitcoinization
 
 
 
-### 6.3. Bitcoin as a Retail Currency
+
+
+
+### 7.3. Bitcoin as a Retail Currency
 
 Utility Tokens as Standards of Deferred Payment
 
@@ -2564,11 +2583,19 @@ The Stability of Utility Tokens
 Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 
-### 6.4. Bitcoin as a Store of Value
+### 7.4. Bitcoin as a Store of Value
 
 
 
-### 6.5. Bitcoin as a Monetary Standard
+### 7.5. Bitcoin as a Monetary Standard
+
+
+
+
+
+
+
+
 
 
 <br/><br/><div className="divider div-transparent div-dot"></div>
@@ -2578,21 +2605,21 @@ Cyberphunk money cannot form prices and therefore cannot become MoE.
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
-## 7. The CypherPunk Competition Order (i.e. Crytocurrencies)
+## 8. The CypherPunk Competition Order (i.e. Crytocurrencies)
 
 Robert Mundell (1932–2021). Optimum Currency Area (OCA) theory (criteria for shared currencies). Influenced Eurozone design.
 
-### 7.1. The Problem of the Supply
+### 8.1. The Problem of the Supply
 
-#### 7.1.1 Asignation of Value
+#### 8.1.1 Asignation of Value
 
-##### 7.1.1.1 Competitive Value for Money
-
-
+##### 8.1.1.1 Competitive Value for Money
 
 
 
-### 7.2 Quality Theory of Money
+
+
+### 8.2 Quality Theory of Money
 
 Quantity Theory of Money does not reconciliate well with competing currencies. As Hayek claimed 
 
@@ -2661,11 +2688,11 @@ The theory of the quality of money, even though not under this label, has a long
 
 One of the most important properties for the quality of money is the <b>existence of a non-monetary demand in society for the money</b>. This demand can be in the form of consumption goods or factors of production. It is important for the quality of money that its non-monetary demand plays an essential role in society—everyone wants and needs it. The money is not only demanded as a medium of exchange but also for other purposes. Thus, for money, as a good, there exist many unsatisfied wants and the intensity of the wants are relatively high and permanent (Menger 1892, p. 5). <b>The non-monetary demand is important because it gives the money holder an “insurance.”</b>.
 
-#### 7.2.1 Gresham Law
+#### 8.2.1 Gresham Law
 
 Gresham’s law, which says that bad money tends to drive good money out of circulation
 
-#### 7.2.2 Considerations on Stability
+#### 8.2.2 Considerations on Stability
 
 * solves the problem of credit
 
@@ -2674,9 +2701,9 @@ Gresham’s law, which says that bad money tends to drive good money out of circ
 * Variable demand for liquidity
 
 
-### 7.3 Currency competition
+### 8.3 Currency competition
 
-#### 7.3.1 Authors
+#### 8.3.1 Authors
 
 Free banking supporters span classical liberals, Austrians, and modern economists. 
 
@@ -2708,7 +2735,7 @@ Saifedean Ammous Argues Bitcoin fulfills free banking ideals in The Bitcoin Stan
 
 Kevin Dowd. Free banking scholar focusing on market-driven monetary systems. Key Work: Laissez-Faire Banking (1993) – Analyzes free banking’s stability.
 
-#### 7.3.2 Features
+#### 8.3.2 Features
 
 While all oppose central banking, they differ on: Reserve requirements (100% vs. fractional), Money’s origin (commodity vs. market-chosen), Role of cryptocurrencies.
 
@@ -2721,7 +2748,7 @@ Fractional Reserve Banking: Rothbard/de Soto: 100% reserves only. Selgin/White/D
 
 
 
-### 7.4 Free Banking
+### 8.4 Free Banking
 
 The coexistence of competing private currencies has been documented from some authors.
 
@@ -2731,9 +2758,9 @@ Hayek and Denationalization of Money. Friedrich Hayek (1976) argued in "Denation
 
 Free Banking School. Economists like Lawrence White and George Selgin argue that historical free banking systems (e.g., Scotland in the 18th–19th centuries) show that competition among private banks issuing notes can work well. They claim that competitive note issuance leads to monetary stability without central bank intervention. Selgin’s "The Theory of Free Banking" (1988) explains how market forces regulate money supply better than central planning.
 
-#### 7.4.1 The Historical Evidence
+#### 8.4.1 The Historical Evidence
 
-#### 7.4.2 Coexistence
+#### 8.4.2 Coexistence
 
 In the previous bibliography there is the overal assumption that system is working under a free banking schenario. This situation woud require a social consensus and sponsorship for the government and seems unfeasible. the introduction of CryptoCommodity is somehow different. CryptoCommodity would complement existing legal tender.
 
@@ -2741,7 +2768,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 
  For this case we would have a incremental introduction and issuers and consumers would decide at what level they should move forward withe the adoption.
 
-#### 7.4.3 Incremental Introduction
+#### 8.4.3 Incremental Introduction
 
 
 
@@ -2753,7 +2780,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 8 The RWA Stablecoin Competition
+## 9 The RWA Stablecoin Competition
 ---
 
 
@@ -2761,7 +2788,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <br/><br/><div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 9 The Cyberpunk and RWA Stablecoin Marriage
+## 10 The Cyberpunk and RWA Stablecoin Marriage
 ---
 
 
@@ -2773,7 +2800,7 @@ First we need to disntighuish the scope of the introduced currencies. There can 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 
-## 10 The Representative Digital Competition
+## 11 The Representative Digital Competition
 ---
 
 https://andyjagoe.com/the-internet-of-money/
@@ -2781,7 +2808,7 @@ https://andyjagoe.com/the-internet-of-money/
 https://berkshares.org/?ref=andyjagoe.com
 
 
-### 10.2 A Standard for Private Representative Digital Money
+### 11.2 A Standard for Private Representative Digital Money
 
 To work as Unit of Account:
 
@@ -2795,34 +2822,34 @@ To work as Unit of Account:
 
 
 
-### 10.3 Competition of Representative Currencies
+### 11.3 Competition of Representative Currencies
 
 
 
 
-### 10.4 Currency Composites
+### 11.4 Currency Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
 
-#### 10.4.1 Algebra of Currencies
+#### 11.4.1 Algebra of Currencies
 
 
 
-#### 10.4.2 Composite Governance
+#### 11.4.2 Composite Governance
 
 DAO like governance rules must be stablished.
 
 
-### 10.5 A Proposed Currency Architecture
+### 11.5 A Proposed Currency Architecture
 
 Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
 
-#### 10.5.1 Selecting a Monetary Standard
+#### 11.5.1 Selecting a Monetary Standard
 
 
 
-### 10.6 Further Industry Development
+### 11.6 Further Industry Development
 
 Some challenges still remain open in a privately issued CryptoCommodities configuration. First, the heterogeity of currencies can be simplified creating currecny wrappers.
 
@@ -2837,40 +2864,40 @@ Private 'Lender of Last Resort?
 
 
 
-## 11 Proposed Monetary Architecture
+## 12 Proposed Monetary Architecture
 ---
 
-### 11.1 Differente Types of Currencies
+### 12.1 Differente Types of Currencies
 
 No all functions must be held by the same currency, instead an specialization is needed.
 
-#### 11.1.1 Tokens
+#### 12.1.1 Tokens
 
 
-#### 11.1.2 Retail Currency Generally Adopted
+#### 12.1.2 Retail Currency Generally Adopted
 
 
-#### 11.1.3 Monetary Standard (Numéraire)
+#### 12.1.3 Monetary Standard (Numéraire)
 
 Menger famously argued that one or a few generally employed media of exchange evolved in primitive societies from commodities found convenient as intermediate goods - goods that people were glad to accept in barter exchanges, even if they did not want them for their own use, because they observed that other people also would readily accept them. Gradually one (or a few) ofthese intermediate goods becarne dominant because certain properties (formerIy recited in money-and-banking textbooks) made it especially convenient and economical for the purpose. Once people almost routinely paid and received this good in exchanges and in unilateral payments, it was convenient to adopt it as the <b>monetary standard</b> of value (unit of account, numéraire) also.
 
 In a currency competition scenario, none of the competing currencies would be eligible by default to function as numeraire. In fact a possible approach is to have a few numeraires and let users choose the numeraire which delivers lower volatility in prices. An initial numeraire could be Bitcoin because its digital nature.
 
 
-#### 11.2 Completing the Retail Currency
+#### 12.2 Completing the Retail Currency
 
 * purposes
 
 * no purposes
 
-#### 11.2 Choosing a Monetary Standard
+#### 12.2 Choosing a Monetary Standard
 
 
 
 
 
 <!--
-### 4.3. Money Proposals by Peg
+### 7.3. Money Proposals by Peg
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/facesofmoney.jpg" width="30%"></img>
@@ -2944,11 +2971,11 @@ In a currency competition scenario, none of the competing currencies would be el
 
 
 
-### 11.3 Benefits
+### 12.3 Benefits
 
-#### 11.3.1. Experimentation vs Rationing (Khun)
+#### 12.3.1. Experimentation vs Rationing (Khun)
 
-#### 11.3.1. Ending Financial Exclusion
+#### 12.3.1. Ending Financial Exclusion
 
 Representative digital money has the potential to end the financial exclusion by providing citizens several tools:
 
@@ -2960,7 +2987,7 @@ Representative digital money has the potential to end the financial exclusion by
 
 In general, there would be incentives to contribute value to the society instead of withdrawing value from others.
 
-#### 11.3.2. Crowdsolving
+#### 12.3.2. Crowdsolving
 
 Extracting value from nature and delivering into society to fullfill consumers will will benefit to everyone:
 
@@ -2983,7 +3010,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-### 11.4 Conclusion
+### 12.4 Conclusion
 
 <div style={{overflowX : 'auto'}}>
 	<table>
@@ -3102,7 +3129,7 @@ Extracting value from nature and delivering into society to fullfill consumers w
 
 
 
-## 12. References
+## 13. References
 ---
 
 
