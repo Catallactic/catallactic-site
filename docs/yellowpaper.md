@@ -396,16 +396,35 @@ Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical an
 
 ### 2.5 Value Stability
 
-
-
-
-#### 2.5.1 Commodity's Value
-
-Subjective
-
-#### 2.5.2 Politics
-
-#### 2.5.3 Mathematical Equilibrium
+<div>
+	<table>
+		<tr>
+			<th></th>
+			<th>Short Term</th>
+			<th>Medium Term</th>
+			<th>Long Term</th>
+		</tr>
+		<tr>
+			<td>Commodities</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Fiat</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Utility / Mathematical</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<br/>
 
 These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
 
