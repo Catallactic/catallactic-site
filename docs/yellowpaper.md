@@ -34,7 +34,7 @@ representative money, cryptocurrencies, cryptocommodities, stablecoins, price fo
 
 ### 1.1. What is economics
 
-generating, moving and distributing value
+generating, moving and distributing economic value
 
 positive vs normatve economics
 
@@ -42,15 +42,19 @@ positive vs normatve economics
 
 3 notions of value
 
-### 1.1. Operations with VaLue
+### 1.1. Operations with Value
 
 * generate
 
 * count
 
-* persist
+* persist (short, medium, long term)
 
 * transfer (decentralization)
+
+* exchange
+
+* consume
 
 ### 1.1. How is value used?
 
