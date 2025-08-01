@@ -390,6 +390,12 @@ Alfred Marshall (1842-1924) (Daraban, 2016) amalgamated the best of classical an
 	<img src="/img/Supply-and-Demand-Curve.webp" width="40%"></img>
 </div>
 
+#### 2.2.4 Capturing Value
+
+Depends on Monetary Standard
+
+Depends on Market Scope
+
 ### 2.3 Fiat Value
 
 ### 2.4 Utility Value
@@ -2753,6 +2759,8 @@ Alex Tabarrok Supports private monetary competition (e.g., Bitcoin).
 Saifedean Ammous Argues Bitcoin fulfills free banking ideals in The Bitcoin Standard (2018).
 
 Kevin Dowd. Free banking scholar focusing on market-driven monetary systems. Key Work: Laissez-Faire Banking (1993) – Analyzes free banking’s stability.
+
+Table 2.1 Free banking episodes https://iea.org.uk/wp-content/uploads/2023/12/Dowd-Free-Banking-Interactive.pdf
 
 #### 8.3.2 Features
 
