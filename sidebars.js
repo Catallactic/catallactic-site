@@ -24,10 +24,6 @@ const sidebars = {
 			label: 'Getting started', // sidebar label
 		}, {
 			type: 'doc',
-			id: 'principles/scope', // document ID
-			label: 'Scope Definition', // sidebar label
-		}, {
-			type: 'doc',
 			id: 'principles/bibliography', // document ID
 			label: 'Bibliography', // sidebar label
 		}, {
