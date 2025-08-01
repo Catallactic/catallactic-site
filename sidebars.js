@@ -34,29 +34,13 @@ const sidebars = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-      type: 'category',
+			type: 'doc',
+			id: 'principles/physical/index', // document ID
 			label: 'Physical Properties', // sidebar label
-			collapsible: false,
-			link: {
-        type: "doc",
-				id: 'principles/physical/index', // document ID
-			},
-			items: [
-				'principles/physical/uniform/index',
-				'principles/physical/divisible/index',
-				'principles/physical/durable/index',
-				'principles/physical/recognisable/index',
-				'principles/physical/unforgeable/index',
-				'principles/physical/scarce/index',
-				'principles/physical/acceptable/index',
-			]
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
 			label: 'Digital Properties', // sidebar label
-			collapsible: false,
+			collapsible: true,
 			link: {
         type: "doc",
 				id: 'principles/digital/intro', // document ID
@@ -166,56 +150,10 @@ const sidebars = {
 				}, 
 			]
     }, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
+			type: 'doc',
+			id: 'principles/economic/intro', // document ID
 			label: 'Economic Properties', // sidebar label
-			collapsible: false,
-			link: {
-        type: "doc",
-				id: 'principles/economic/intro', // document ID
-			},
-			items: [
-				{
-					type: 'category',
-					label: 'Stable at Short Term', // sidebar label
-					link: {
-						type: "doc",
-						id: 'principles/economic/stableST/intro',
-					},
-					items: [
-						'principles/economic/stableST/price_formation',
-					]
-				},
-				'principles/economic/creditable/intro',
-			]
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Engineering Properties', // sidebar label
-			collapsible: false,
-			link: {
-        type: "doc",
-				id: 'principles/engineering/intro', // document ID
-			},
-			items: [
-				{
-					type: 'category',
-					label: 'Stable at Long Term', // sidebar label
-					link: {
-						type: "doc",
-						id: 'principles/engineering/stableLT/intro',
-					},
-					items: [
-						'principles/engineering/stableLT/currency_debasement',
-					]
-				},
-				'principles/engineering/competitive/intro',
-			]
-		},
+    },
 	],
 
   valueChainSidebar: [

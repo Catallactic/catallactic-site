@@ -1,2 +1,0 @@
-
-# Stable at Short Term

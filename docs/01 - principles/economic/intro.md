@@ -1,6 +1,8 @@
 
 # Economic Properties
 
-import DocCardList from '@theme/DocCardList';
+## Stable at Short Term
 
-<DocCardList />
+## Stable at Medium Term
+
+## Stable at Long Term

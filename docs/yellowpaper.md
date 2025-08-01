@@ -2492,6 +2492,8 @@ Bubble after bubble
 
 #### 6.7.3 Currency Debasement
 
+debasement occurs when M2 grows faster than GDP https://www.zerohedge.com/markets/debasement-what-it-and-isnt
+
 purchasing power 
 
 race to the bottom
@@ -2533,7 +2535,9 @@ War as Reset
 
 Jubileo as Reset
 
-No Reset
+Hyperinflation as reset
+
+No Reset, vicious circle where the money spins around issuers
 
 https://www.linkedin.com/posts/andy-martin-387188a_blockchainthought4theday-blockchainthoughtfortheday-activity-7306567921030352896-RANi/?utm_source=share&utm_medium=member_android&rcm=ACoAAABC9LwBrHjPW40o31rZRtAXH6eii8ctLzQ
 

@@ -1,7 +1,16 @@
 
 # Physical Properties
 
-import DocCardList from '@theme/DocCardList';
+## Fungible/Uniform	
 
-<DocCardList />
+## Divisible
 
+## Stable (Short Term)
+
+## Scarce
+
+## Acceptable
+
+## Recognizable
+
+## Unforgeable
