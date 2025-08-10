@@ -400,7 +400,15 @@ Depends on Market Scope
 
 ### 2.4 Utility Value
 
-### 2.5 Value Stability
+
+
+
+### 2.5 Non Fungible Backing
+
+
+### 2.6 Heterogeneous Backing
+
+### 2.7 Value Stability
 
 <div>
 	<table>
@@ -433,8 +441,6 @@ Depends on Market Scope
 <br/>
 
 These are core arguments, will be written at the end when the document gets ready and can be referred as a whole.
-
-
 
 
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
@@ -1085,6 +1091,8 @@ By inspecting the principles argued for stability on the schools that advocated 
 #### 4.5.1 Barter
 
 Before money, there was <b>barter</b>. Goods were produced by those who were good at it, and their surpluses were exchanged for the products of others. Every product had its barter price in terms of all other products, and every person gained by exchanging something he needed less for a product he needed more. The voluntary market economy became a latticework of mutually beneficial exchanges. In barter, there were severe limitations on the scope of exchange and therefore on production. This crucial element in barter is what is called the double coincidence of wants. A second problem is one of indivisibilities. [0]
+
+https://www.bis.org/review/r250728i.htm
 
 #### 4.5.2 Physical Proposals for Money
 
