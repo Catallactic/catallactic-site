@@ -2847,7 +2847,7 @@ https://andyjagoe.com/the-internet-of-money/
 https://berkshares.org/?ref=andyjagoe.com
 
 
-### 11.2 A Standard for Private Representative Digital Money
+### 11.1 A Standard for Private Representative Digital Money
 
 To work as Unit of Account:
 
@@ -2858,15 +2858,24 @@ To work as Unit of Account:
 
 
 
+### 11.2 A Proposed Monetary Architecture
+
+Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
+
+#### 11.2.1 Architecture Overview
+
+<div style={{textAlign: 'center'}}>
+	<img src="/img/monetary_architecture.svg" width="60%"></img>
+</div>
+
+#### 11.2.2 Impedance Mismatch
+
+Resolving the impedance mismatch between nature and social rules.
+
+### 11.3 Competition of Crommodities
 
 
-
-### 11.3 Competition of Representative Currencies
-
-
-
-
-### 11.4 Currency Composites
+### 11.4 Crommodity Composites
 
 A single currency may not have enough capitalization to cover a juridiction so currencies should be able to aggregate.
 
@@ -2880,11 +2889,7 @@ A single currency may not have enough capitalization to cover a juridiction so c
 DAO like governance rules must be stablished.
 
 
-### 11.5 A Proposed Currency Architecture
-
-Requirements are different for a Monetary Standard and a Reserve Currency so it wont deliver this functions and must be complemented by other currencies.
-
-#### 11.5.1 Selecting a Monetary Standard
+### 11.5 Selecting a Monetary Standard
 
 
 
