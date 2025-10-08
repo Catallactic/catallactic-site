@@ -2643,10 +2643,11 @@ Cyberphunk money cannot form prices and therefore cannot become MoE.
 <div className="divider div-transparent div-dot"></div><br/><br/><br/>
 
 ## 8. The CypherPunk Competition Order (i.e. Crytocurrencies)
+---
 
 Robert Mundell (1932–2021). Optimum Currency Area (OCA) theory (criteria for shared currencies). Influenced Eurozone design.
 
-### 8.1. The Problem of the Supply
+### 8.1. Elastic Money Supply
 
 #### 8.1.1 Asignation of Value
 
@@ -3325,3 +3326,11 @@ Capital and Interest 07/20/1890 Eugen von Böhm-Bawerk https://mises.org/library
 Principles of Economics 07/20/1871 Carl Menger https://mises.org/library/book/principles-economics
 
 Bitcoin, the Regression Theorem, and the Emergence of a New Medium of Exchange 09/28/2018 Quarterly Journal of Austrian Economics - Laura Davidson, Walter Block https://mises.org/quarterly-journal-austrian-economics/bitcoin-regression-theorem-and-emergence-new-medium-exchange
+
+Better Money: Gold, Fiat, or Bitcoin? Lawrence H. White. Cambridge: Cambridge University Press, 2023; xxii + 236 pp. https://mises.org/quarterly-journal-austrian-economics/book-essay-sound-money-wthout-free-banking-revisiting-economic-principles
+
+Sound Money without Free Banking: Revisiting Economic Principles. Kristoffer Mousten Hansen https://cdn.mises.org/files/2025-08/89179-review-essay-sound-money-without-free-banking-revisiting-economic-principles.pdf?_gl=1*1gcmhc3*_gcl_au*NzExOTAxMzYuMTc1NjA1ODU1Mw..*_ga*MjAzMDUyODA4NS4xNzU2MDU4NTUz*_ga_MC3JLVEDHF*czE3NTYwNTg1NTMkbzEkZzAkdDE3NTYwNTg1NTQkajU5JGwwJGg3OTkxNTM2MjU.
+
+The Modern Free Banking School: A Review Shirley J. Gedeon Journal of Economic Issues Vol. 31, No. 1 (Mar., 1997), pp. 209-222 (14 pages) Published By: Taylor & Francis, Ltd. https://www.jstor.org/stable/4227157
+
+https://jshet.net/wp-content/uploads/2020/09/3-2-wang.pdf
