@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './styles.module.css';
+import './survey.css';
 
 // https://ardislu.dev/google-forms-frontend
 // https://dev.to/utkarshdhiman48/custom-frontend-for-google-form-456l
@@ -22,15 +22,15 @@ export default function Survey(): JSX.Element {
 	// ****************************************************************
 	// handle status
 	// ****************************************************************
-	async function handleShowSurvey(e) {
+	async function handleShowSurvey(e: any) {
 		e.preventDefault();
 		setStatus(1);
 	}
-	async function handleCloseSurvey(e) {
+	async function handleCloseSurvey(e: any) {
 		e.preventDefault();
 		setStatus(0);
 	}
-	async function handleCloseThanks(e) {
+	async function handleCloseThanks(e: any) {
 		e.preventDefault();
 		if (typeof window !== "undefined") {
 			localStorage.setItem('voted', 'true');
@@ -44,7 +44,7 @@ export default function Survey(): JSX.Element {
 	const [formData, setFormData] = useState({
     "entry.1756844336": ""
   });
-  const handleInputData = (input) => (e) => {
+  const handleInputData = (input: any) => (e: any) => {
     const { value } = e.target;
 
     setFormData((prevState) => ({
@@ -53,7 +53,7 @@ export default function Survey(): JSX.Element {
     }));
 
   }
-  async function handleSubmit(e) {
+  async function handleSubmit(e: any) {
     e.preventDefault();
 		setStatus(2);
 
