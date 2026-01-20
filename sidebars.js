@@ -674,51 +674,7 @@ const sidebars = {
 					]
 				}, 
 			]
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Exchanges', // sidebar label
-			link: {
-        type: "doc",
-				id: 'ecosystem/exchanges/intro', // document ID
-			},
-			collapsible: false,
-			items: [
-				'ecosystem/exchanges/list',
-			]
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Payments', // sidebar label
-			link: {
-        type: "doc",
-				id: 'ecosystem/payments/intro', // document ID
-			},
-			collapsible: false,
-			items: [
-				'ecosystem/cards',
-				'ecosystem/wallets/list',
-			]
-		}, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'DeFi Services', // sidebar label
-			link: {
-        type: "doc",
-				id: 'ecosystem/defi', // document ID
-			},
-			collapsible: false,
-			items: [
-				'ecosystem/lending/intro',
-				'ecosystem/transfers/intro',
-			]
-		}, 
+		}
 	]
 
 };
