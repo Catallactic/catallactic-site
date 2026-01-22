@@ -604,19 +604,6 @@ const sidebars = {
 			items: [
 				{
 					type: 'category',
-					label: 'DLT Networks', // sidebar label
-					link: {
-						type: "doc",
-						id: 'ecosystem/dlts/ecosystems/intro',
-					},
-					items: [
-						'ecosystem/dlts/ecosystems/bitcoin',
-						'ecosystem/dlts/ecosystems/ethereum',
-						'ecosystem/dlts/ecosystems/modular',
-					]
-				}, 
-				{
-					type: 'category',
 					label: 'Interoperability', // sidebar label
 					link: {
 						type: "doc",
