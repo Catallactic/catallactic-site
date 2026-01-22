@@ -26,10 +26,6 @@ const sidebars = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-			type: 'doc',
-			id: 'principles/physical/index', // document ID
-			label: 'Physical Properties', // sidebar label
-    }, {
       type: 'category',
 			label: 'Digital Properties', // sidebar label
 			collapsible: true,
@@ -85,18 +81,6 @@ const sidebars = {
 					]
 				}, {
 					type: 'category',
-					label: 'Transparent',
-					items: [
-						'principles/digital/reporting/overview',
-					],
-				}, {
-					type: 'category',
-					label: 'Private',
-					items: [
-						'principles/digital/privacy/overview',
-					],
-				}, {
-					type: 'category',
 					label: 'Compliant', // sidebar label
 					items: [
 						{
@@ -133,19 +117,9 @@ const sidebars = {
 							],
 						}, 
 					]
-				}, {
-					type: 'category',
-					label: 'Upgradeable',
-					items: [
-						'principles/digital/upgradeable/index',
-					],
 				}, 
 			]
-    }, {
-			type: 'doc',
-			id: 'principles/economic/intro', // document ID
-			label: 'Economic Properties', // sidebar label
-    },
+    }, 
 	],
 
   valueChainSidebar: [
