@@ -1,7 +1,7 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import bibliography_lending from "/static/data/bibliography_lending.json"
+import bibliography_quality from "/static/data/bibliography.json"
 
-# Bibliography
+# Quality Money
 
   <table>
 		<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
@@ -11,7 +11,7 @@ import bibliography_lending from "/static/data/bibliography_lending.json"
 			<th>Source</th>
 		</tr>
 	
-		{bibliography_lending.map((data, index) => {
+		{bibliography_quality.map((data, index) => {
 			if (!data.title) {
 				return (
 					<tr style={{ textAlignVertical: "center",textAlign: "center", 'backgroundColor': '#fff7d9' }}>

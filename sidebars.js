@@ -23,10 +23,6 @@ const sidebars = {
 			id: 'principles/intro', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
-			type: 'doc',
-			id: 'principles/bibliography', // document ID
-			label: 'Bibliography', // sidebar label
-		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -50,7 +46,7 @@ const sidebars = {
 						id: 'principles/digital/decentralization/intro', // document ID
 					},
 					items: [
-						'principles/digital/decentralization/bibliography',
+						'principles/digital/decentralization/intro',
 					]
 				}, {
 					type: 'category',
@@ -158,6 +154,10 @@ const sidebars = {
 			id: 'intro', // document ID
 			label: 'Getting started', // sidebar label
 		}, {
+			type: 'doc',
+			id: 'bibliography', // document ID
+			label: 'Bibliography', // sidebar label
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
@@ -211,10 +211,6 @@ const sidebars = {
 					items: [
 						'funding/allocations'
 					],
-				}, {
-					type: 'doc',
-					id: 'tokenization/bibliography', // document ID
-					label: 'Bibliography', // sidebar label
 				}, 
 			],
 		}, {
@@ -286,10 +282,6 @@ const sidebars = {
 							],
 						}, 
 					],
-				}, {
-					type: 'doc',
-					id: 'funding/bibliography', // document ID
-					label: 'Bibliography', // sidebar label
 				}
 			]
     }, {
@@ -324,10 +316,6 @@ const sidebars = {
 						'negotiation/monetary',
 						'negotiation/stability',
 					],
-				}, {
-					type: 'doc',
-					id: 'negotiation/bibliography', // document ID
-					label: 'Bibliography', // sidebar label
 				},
 			]
     }, {
@@ -369,10 +357,6 @@ const sidebars = {
 					items: [
 						'distribution/operations',
 					]
-				}, {
-					type: 'doc',
-					id: 'distribution/bibliography', // document ID
-					label: 'Bibliography', // sidebar label
 				},
 			]
 		}, {
@@ -391,7 +375,6 @@ const sidebars = {
 					type: 'category',
 					label: 'Money',
 					items: [
-						'defi/money/bibliography',
 						'defi/money/meanofexchange',
 						'defi/money/storeofvalue',
 						'defi/money/unitofaccount'
@@ -413,7 +396,6 @@ const sidebars = {
 					label: 'Lending',
 					items: [
 						'defi/lending/lending',
-						'defi/lending/bibliography'
 					],
 				}, {
 					type: 'category',
@@ -435,8 +417,8 @@ const sidebars = {
 			items: [
 				{
 					type: 'doc',
-					id: 'crowdsolving/bibliography', // document ID
-					label: 'Bibliography', // sidebar label
+					id: 'crowdsolving/intro', // document ID
+					label: 'Intro', // sidebar label
 				},
 			]
 		},  
