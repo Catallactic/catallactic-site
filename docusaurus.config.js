@@ -190,31 +190,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [{
-            title: 'Value Chain',
-							items: [{
-								label: 'Principles',
-								href: '/docs/principles/intro',
-							},{
-                label: 'Tokenization',
-                href: '/docs/tokenization/intro',
-              }, {
-                label: 'Project Funding',
-                href: '/docs/funding/intro',
-              }, {
-                label: 'Token Negotiation',
-                href: '/docs/negotiation/intro',
-              }, {
-                label: 'Token Operations',
-                href: '/docs/distribution/intro',
-              }, {
-                label: 'DeFi Services',
-                href: '/docs/defi/intro',
-              }, {
-                label: 'Crowdsolving',
-                href: '/docs/crowdsolving/intro',
-							}
-            ],
-          }, {
             title: 'Suite',
             items: [{
                 label: 'Admin DApp',
@@ -235,29 +210,6 @@ const config = {
 								label: 'Tokens',
                 to: '/docs/suite/token-ico/features',
               },
-            ],
-          }, {
-						title: 'DeFi Services',
-            items: [{
-								label: 'Liquidity Provision',
-								href: '/docs/defi/liquidity',
-              }, {
-                label: 'Launchap',
-                href: '/docs/defi/launchpad',
-              }, {
-                label: 'Transfers',
-                href: '/docs/defi/transfers',
-							}, {
-                label: 'Payments',
-                href: '/docs/defi/payments',
-              }, {
-                label: 'Cards',
-                href: '/docs/defi/cards',
-              }, {
-                label: 'Lending',
-                href: '/docs/defi/lending',
-
-              }
             ],
           }, {
             title: 'Project',
