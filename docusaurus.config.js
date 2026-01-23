@@ -141,22 +141,7 @@ const config = {
 						type: 'docSidebar',
             sidebarId: 'valueChainSidebar',
             position: 'left',
-            label: 'Value Chain',
-					}, {
-						type: 'docSidebar',
-            sidebarId: 'moneyQualitySidebar',
-            position: 'left',
-            label: 'Quality Money',
-          }, {
-						type: 'docSidebar',
-            sidebarId: 'ecosystemSidebar',
-            position: 'left',
-            label: 'Ecosystem',
-					}, {
-						type: 'docSidebar',
-            sidebarId: 'suiteSidebar',
-            position: 'left',
-            label: 'Suite',
+            label: 'Documentation',
           }, {
 						type: 'doc',
 						docId: 'yellowpaper', 
