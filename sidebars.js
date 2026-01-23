@@ -173,18 +173,6 @@ const sidebars = {
 						'tokenization/utilities/utility-investment/index',
 						'tokenization/utilities/utility-currency/index',
 					],
-				}, {
-					type: 'category',
-					label: 'Tokenizable Assets',
-					items: [
-						'tokenization/tokenomics/commodities',
-					],
-				}, {
-					type: 'category',
-					label: 'Tokenomics',
-					items: [
-						'funding/allocations'
-					],
 				}, 
 			],
 		}, {
@@ -207,16 +195,6 @@ const sidebars = {
 					},
 					items: [{
 							type: 'category',
-							label: 'Prepare Documentation',
-							items: [
-								'funding/preparing/roadmap',
-								'funding/preparing/whitepaper',
-								'funding/preparing/litepaper',
-								'funding/preparing/pitchdeck',
-								'funding/preparing/eMail',
-							],
-						}, {
-							type: 'category',
 							label: 'Perform Compliance',
 							items: [
 								'principles/digital/compliance/funding/issuer',
@@ -229,17 +207,6 @@ const sidebars = {
 							items: [
 								'funding/advertising/watchers',
 								'funding/advertising/press',
-								'funding/advertising/agencies',
-								'funding/advertising/ambassador',
-								'funding/advertising/influencers',
-							],
-						}, {
-							type: 'category',
-							label: 'Build your Community',
-							items: [
-								'funding/community/ama',
-								'funding/community/community',
-								'funding/community/users',
 							],
 						}, {
 							type: 'category',
