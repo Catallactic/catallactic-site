@@ -190,28 +190,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [{
-            title: 'Suite',
-            items: [{
-                label: 'Admin DApp',
-                to: '/docs/suite/intro',
-              }, {
-                label: 'ICO Purchase Widget',
-                to: '/docs/suite/dapp-catallactic-purchase/create-token',
-              }, {
-                label: 'ICO Status Tracker',
-                to: '/docs/suite/dapp-catallactic-purchase/create-token',
-							}, {
-                label: 'ICO Claims',
-                to: '/docs/suite/dapp-catallactic-purchase/create-token',
-							}, {
-                label: 'ICO Vesting Tracker',
-                to: '/docs/suite/dapp-catallactic-purchase/create-token',
-							}, {
-								label: 'Tokens',
-                to: '/docs/suite/token-ico/features',
-              },
-            ],
-          }, {
             title: 'Project',
             items: [ {
 								label: 'Pitch Deck',

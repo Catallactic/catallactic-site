@@ -307,44 +307,6 @@ const sidebars = {
 					],
 				}, 
 			]
-    }, {
-      type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'User DApps', // sidebar label
-			collapsible: false,
-			items: [
-				{
-					type: 'category',
-					label: 'ICO Purchase Widget',
-					items: [
-						'suite/dapp-catallactic-purchase/create-token',
-						'suite/dapp-catallactic-purchase/deliver-token',
-					],
-				}, {
-					type: 'category',
-					label: 'ICO Status Tracker',
-					items: [
-						'suite/dapp-catallactic-status/create-token',
-						'suite/dapp-catallactic-status/deliver-token',
-					],
-				}, {
-					type: 'category',
-					label: 'ICO Claim',
-					items: [
-						'suite/dapp-catallactic-claim/create-token',
-						'suite/dapp-catallactic-claim/deliver-token',
-					],
-				}, {
-					type: 'category',
-					label: 'ICO Vesting Tracker',
-					items: [
-						'suite/dapp-catallactic-vesting/create-token',
-						'suite/dapp-catallactic-vesting/deliver-token',
-					],
-				}, 
-			]
     }, 	{
       type: 'html',
       value: '<div class="border border-1 m-3" />',
@@ -403,15 +365,6 @@ const sidebars = {
 						'suite/token-trading/supported-standards',
 						'suite/token-trading/compliant-jurisdictions',
 						'suite/token-trading/reporting',
-					],
-				},  {
-					type: 'category',
-					label: 'Escrow Token',
-					items: [
-						'suite/token-escrow/features',
-						'suite/token-escrow/create-token',
-						'suite/token-escrow/deliver-token',
-						'suite/token-escrow/reporting',
 					],
 				},
 			]
