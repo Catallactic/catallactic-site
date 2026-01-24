@@ -59,10 +59,10 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
 				<WhySection/>
-        <FeaturesSection />
-        {/* <DecentralizationSection /> */}
         <SoundMoneySection />
         <PriceSystemSection />
+        <FeaturesSection />
+        {/* <DecentralizationSection /> */}
 				{/* <ValueChainSection /> */}
 				{/* <TokenizationMapSection/> */}
 				{/* <EcosystemSection /> */}
