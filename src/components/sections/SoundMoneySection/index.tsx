@@ -7,8 +7,8 @@ export default function SoundMoneySection(): JSX.Element {
       <div className="container">
 
 				<div className="text-center pb-1 mb-4">
-					<div className="h1 fw-bold color-theme-reverse2">Quality Money</div>
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic represents the monetary version of Fungible Sandard aiming to build a Quality Money Framework. </p>
+					<div className="h1 fw-bold color-theme-reverse2">Quality Digital Money</div>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic represents the monetary version of Fungible Standard aiming to build a Quality Money Framework. </p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">

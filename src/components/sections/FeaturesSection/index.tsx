@@ -9,7 +9,7 @@ export default function FeaturesSection(): JSX.Element {
 
 				<div className="text-center pb-1 mb-4">
 					<div className="h1 fw-bold color-theme-reverse2">Based on Fungible Standard</div>
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic inherits proven technical features from <a href="https://www.fungible.design/" target="_blank">Fungible Standard</a>.</p>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic is technology agnostic, inheriting its technical architecture from proven <a href="https://www.fungible.design/" target="_blank">Fungible Standard Layers</a>.</p>
 				</div>
 
 				<div className="row margin-bottom--lg feature_eSJM">
