@@ -6,12 +6,10 @@ export default function SoundMoneySection(): JSX.Element {
     <section className={styles.services}>
       <div className="container">
 
-{/*
 				<div className="text-center pb-1 mb-4">
-					 <div className="h1 fw-bold color-theme-reverse2">Features</div> 
-					<p className="h3 color-theme-reverse1 mt-5 lh-base">The main goal is to create the unbiased currency definitions, that is, Commodity Backed Units of Value. This is a multifaceted task that must be executed in a Progressive approach.</p>
+					<div className="h1 fw-bold color-theme-reverse2">Quality Money</div>
+					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic represents the monetary version of Fungible Sandard aiming to build a Quality Money Framework. </p>
 				</div>
-*/}
 
 				<div className="row margin-bottom--lg feature_eSJM">
 
