@@ -16,18 +16,18 @@ export default function FeaturesSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png" width={120}/>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/principles.png" height={120}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Principles</h3>
-							<p>With billions stolen every year, ensuring security is a must or any cryptocurrency. This includes audits, testing, backups or any possible mechanism to guarantee that your funds are safu.</p>
+							<p>Faithful capture and protection of decentralized value, information disclosure and friendliness availability principles as inherited from Fungible Stabdard Layers.</p>
 							<a className='d-block btn btn-lg mt-4' href='https://www.fungible.design/docs/stack/principles/intro' role='button' target="_blank">Learn More</a>
 						</div>
 					</div>
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://cdn-icons-png.flaticon.com/512/8226/8226075.png" width={120}/>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/ecosystem.png" height={120}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Ecosystem</h3>
@@ -38,7 +38,7 @@ export default function FeaturesSection(): JSX.Element {
 
 					<div className="col col--4">
 						<div className="text--center">
-							<img className="featureSvg__8YW" alt="ETL Simplified" src="https://cdn-icons-png.flaticon.com/512/1317/1317755.png" width={120}/>
+							<img className="featureSvg__8YW" alt="ETL Simplified" src="/img/value-chain.png" height={120}/>
 						</div>
 						<div className="text--center padding-horiz--md">
 							<h3>Value Chain</h3>
