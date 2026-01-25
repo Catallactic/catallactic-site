@@ -8,7 +8,7 @@ export default function FeaturesSection(): JSX.Element {
 			<div className="container">
 
 				<div className="text-center pb-1 mb-4">
-					<div className="h1 fw-bold color-theme-reverse2">Based on Fungible Standard</div>
+					<div className="h1 fw-bold color-theme-reverse2">Built on Fungible Standard</div>
 					<p className="h3 color-theme-reverse1 mt-5 lh-base">Catallactic is technology agnostic, inheriting its technical architecture from proven <a href="https://www.fungible.design/" target="_blank">Fungible Standard Layers</a>.</p>
 				</div>
 
