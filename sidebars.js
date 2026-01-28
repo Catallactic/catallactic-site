@@ -29,56 +29,6 @@ const sidebars = {
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Funding', // sidebar label
-			link: {
-        type: "doc",
-				id: 'funding/intro', // document ID
-			},
-			collapsible: false,
-			items: [{
-					type: 'category',
-					label: 'Preparing Funding',
-					link: {
-						type: "doc",
-						id: 'funding/preparing/intro', // document ID
-					},
-					items: [{
-							type: 'category',
-							label: 'Perform Compliance',
-							items: [
-								'principles/digital/compliance/funding/issuer',
-								'principles/digital/compliance/funding/HQ',
-								'principles/digital/compliance/funding/investors',
-							],
-						}, {
-							type: 'category',
-							label: 'Advertise your Project',
-							items: [
-								'funding/advertising/watchers',
-								'funding/advertising/press',
-							],
-						}, {
-							type: 'category',
-							label: 'Pitching Investors',
-							items: [
-								'funding/pitching/incubators',
-								'funding/pitching/investors',
-							],
-						}, {
-							type: 'category',
-							label: 'Existing Launchpads',
-							items: [
-								'funding/launchpads',
-							],
-						}, 
-					],
-				}
-			]
-    }, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
     }, 		{
       type: 'category',
 			label: 'Quality Theory of Money', // sidebar label
@@ -249,30 +199,66 @@ const sidebars = {
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Tokens', // sidebar label
+			label: 'Funding', // sidebar label
 			collapsible: false,
+			items: [{
+				type: 'category',
+				label: 'Preparing Funding',
+				link: {
+					type: "doc",
+					id: 'funding/preparing/intro', // document ID
+				},
+				items: [{
+					type: 'category',
+					label: 'Perform Compliance',
+					items: [
+						'principles/digital/compliance/funding/issuer',
+						'principles/digital/compliance/funding/HQ',
+						'principles/digital/compliance/funding/investors',
+					],
+				}, {
+					type: 'category',
+					label: 'Advertise your Project',
+					items: [
+						'funding/advertising/watchers',
+						'funding/advertising/press',
+					],
+				}, {
+					type: 'category',
+					label: 'Pitching Investors',
+					items: [
+						'funding/pitching/incubators',
+						'funding/pitching/investors',
+					],
+				}, {
+					type: 'category',
+					label: 'Existing Launchpads',
+					items: [
+						'funding/launchpads',
+					],
+				}, 
+			],
+		}, {
+			type: 'category',
+			label: 'ICO Token',
 			items: [
+				'suite/token-ico/features',
 				{
 					type: 'category',
-					label: 'ICO Token',
+					label: 'Functionalities',
 					items: [
-						'suite/token-ico/features',
-						{
-							type: 'category',
-							label: 'Functionalities',
-							items: [
-								'suite/token-ico/token-ico-functionalities/structure',
-								'suite/token-ico/token-ico-functionalities/invest',
-								'suite/token-ico/token-ico-functionalities/price',
-								'suite/token-ico/token-ico-functionalities/refund',
-								'suite/token-ico/token-ico-functionalities/claim',
-								'suite/token-ico/token-ico-functionalities/withdraw',
-							],
-						},
-						'suite/token-ico/supported-standards',
-						'suite/token-ico/compliant-jurisdictions',
-						'suite/token-ico/reporting',
+						'suite/token-ico/token-ico-functionalities/structure',
+						'suite/token-ico/token-ico-functionalities/invest',
+						'suite/token-ico/token-ico-functionalities/price',
+						'suite/token-ico/token-ico-functionalities/refund',
+						'suite/token-ico/token-ico-functionalities/claim',
+						'suite/token-ico/token-ico-functionalities/withdraw',
 					],
+				},
+				'suite/token-ico/supported-standards',
+				'suite/token-ico/compliant-jurisdictions',
+				'suite/token-ico/reporting',
+			],
 				},  {
 					type: 'category',
 					label: 'Vesting Token',
