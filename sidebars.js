@@ -282,28 +282,7 @@ const sidebars = {
 						'suite/token-vesting/deliver-token',
 						'suite/token-vesting/reporting',
 					],
-				}, {
-					type: 'category',
-					label: 'Catallactic Token',
-					items: [
-						'suite/token-trading/features',
-						{
-							type: 'category',
-							label: 'Functionalities',
-							items: [
-								'suite/token-trading/token-trading-functionalities/metadata',
-								'suite/token-trading/token-trading-functionalities/supply',
-								'suite/token-trading/token-trading-functionalities/transfer',
-								'suite/token-trading/token-trading-functionalities/erc-20',
-								'suite/token-trading/token-trading-functionalities/liquidity',
-								'suite/token-trading/token-trading-functionalities/governance',
-							],
-						},
-						'suite/token-trading/supported-standards',
-						'suite/token-trading/compliant-jurisdictions',
-						'suite/token-trading/reporting',
-					],
-				},
+				}, 
 			]
 		},
   ],
