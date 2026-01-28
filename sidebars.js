@@ -173,33 +173,6 @@ const sidebars = {
 					]
 				}, 
 			]
-    }, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Infrastructure', // sidebar label
-			link: {
-        type: "doc",
-				id: 'ecosystem/dlts/intro', // document ID
-			},
-			collapsible: false,
-			items: [
-				{
-					type: 'category',
-					label: 'Interoperability', // sidebar label
-					link: {
-						type: "doc",
-						id: 'ecosystem/dlts/interop/intro', // document ID
-					},
-					items: [
-						'ecosystem/dlts/interop/tools',
-						'ecosystem/dlts/interop/patterns',
-						'ecosystem/dlts/interop/services',
-						'ecosystem/dlts/interop/ecosystem',
-					]
-				}, 
-			]
     }, 	{
       type: 'html',
       value: '<div class="border border-1 m-3" />',
